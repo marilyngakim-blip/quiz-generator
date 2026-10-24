@@ -1,0 +1,68 @@
+# Sistem Pendaftaran & Kehadiran — Majlis Graduasi Tingkatan 5 SMK Langkon
+
+Laman web satu halaman untuk majlis graduasi:
+
+- **Senarai Graduan** — cari nama, lihat kelas, meja/kerusi dan **kod QR kehadiran** setiap graduan.
+- **Daftar Tetamu** — ibu bapa / tetamu isi borang semasa tiba (nama, telefon, hubungan, nama graduan, bilangan orang).
+- **Atur Cara** majlis, **Pelan Tempat Duduk**, pautan **Buku Atur Cara** (pilihan).
+- **Rekod Kehadiran** — statistik langsung (hadir / belum / peratus), dikemas kini setiap 20 saat.
+- **Panel Admin** — tambah/edit/padam graduan, import senarai sekali gus, tanda hadir, **imbas QR dengan kamera telefon** (ada bunyi bip), cetak kad QR, muat turun CSV kehadiran & tetamu.
+
+Data disimpan dalam **Google Sheets** melalui Google Apps Script (percuma).
+
+## Fail
+
+| Fail | Kegunaan |
+|---|---|
+| `index.html` | Laman web (letak di GitHub Pages) |
+| `Code.gs` | Backend Google Apps Script |
+
+## Langkah pemasangan
+
+### 1. Sediakan Google Sheet + Apps Script
+1. Buka [sheets.new](https://sheets.new) — namakan cth. *Graduasi T5 SMK Langkon 2026*.
+2. **Extensions → Apps Script**. Padam kod sedia ada, tampal semua isi `Code.gs`, tekan **Save**.
+3. Pilih fungsi **`setup`** di bar atas → **Run** → benarkan akses (Advanced → Go to project).
+   Helaian `Graduan` dan `Pengunjung` akan dicipta.
+4. **Tukar kata laluan admin** (lalai: `graduasi2026`): dalam fungsi `tukarKataLaluan`, ganti
+   `TUKAR_KATA_LALUAN_INI` dengan kata laluan baharu, kemudian **Run** fungsi itu sekali.
+5. **Deploy → New deployment** → jenis **Web app**
+   - Execute as: **Me**
+   - Who has access: **Anyone**
+   → **Deploy**, salin **Web app URL** (berakhir dengan `/exec`).
+
+> Jika anda ubah `Code.gs` kemudian, gunakan **Deploy → Manage deployments → Edit → Version: New version** supaya URL kekal sama.
+
+### 2. Tetapkan laman web
+Buka `index.html`, cari blok `CONFIG` di bahagian atas dan isi:
+
+```js
+API_URL: 'https://script.google.com/macros/s/XXXX/exec',
+TARIKH: '15 November 2026 (Sabtu)',
+TEMPAT: 'Dewan SMK Langkon',
+LOGO_URL: 'https://...logo-sekolah.png',
+PELAN_URL: 'https://...pelan-tempat-duduk.png',
+BUKU_URL: 'https://anyflip.com/...',
+ATUR_CARA: [ ... ]   // ubah ikut tentatif sebenar
+```
+
+Selagi `API_URL` kosong, laman berjalan dalam **Mod Demo** (data contoh, disimpan dalam pelayar sahaja; kata laluan demo `graduasi2026`).
+
+### 3. Terbitkan di GitHub Pages
+Repo → **Settings → Pages** → Source: *Deploy from a branch* → pilih branch dan folder `/ (root)` → Save.
+Laman akan berada di `https://<nama-pengguna>.github.io/<repo>/graduasi/`.
+
+## Cara guna pada hari majlis
+
+1. **Sebelum majlis**: Admin → *Import Senarai* (salin dari Excel: `Nama, Kelas, Meja, Kerusi`).
+   Kemudian *Cetak Kad QR* (boleh tapis ikut kelas) dan edarkan kepada graduan,
+   atau graduan boleh cari nama sendiri dan tangkap layar QR.
+2. **Kaunter pendaftaran**: buka laman di telefon/tablet → Admin → tab *Rekod Kehadiran* → **Imbas QR**.
+   Beberapa telefon boleh mengimbas serentak. Jika QR tiada, taip nama di ruangan bawah kamera.
+3. **Tetamu**: paparkan kod QR pautan laman (tab *Daftar Tetamu*) di pintu masuk supaya ibu bapa daftar sendiri.
+4. **Selepas majlis**: muat turun CSV kehadiran dan tetamu, atau terus buka Google Sheet.
+
+## Keselamatan
+- Kata laluan admin disemak di pelayan (Apps Script), tidak disimpan dalam kod laman.
+- Senarai tetamu (no. telefon) hanya boleh dilihat oleh admin.
+- Elakkan memasukkan No. KP murid — gunakan no. murid / angka giliran sahaja jika perlu.

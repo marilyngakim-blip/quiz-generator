@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Majlis Graduasi Tingkatan 5 SMK Langkon</title>
+<title>Majlis Apresiasi PRAKASA Murid Tingkatan 5 SMK Langkon</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
@@ -17,25 +17,25 @@ const CONFIG = {
   API_URL: '',
   SEKOLAH: 'SMK Langkon',
   DAERAH: 'Kota Marudu, Sabah',
-  TAJUK: 'Majlis Graduasi Tingkatan 5',
+  TAJUK: 'Majlis Apresiasi PRAKASA Murid Tingkatan 5',
   TAHUN: '2026',
   TARIKH: 'Tarikh akan dimaklumkan',
   MASA: '8.00 pagi – 1.00 tengah hari',
   TEMPAT: 'Dewan SMK Langkon',
-  LOGO_URL: '',            // cth: 'https://i.imgur.com/xxxx.png' (kosong = ikon topi graduasi)
+  LOGO_URL: '',            // cth: 'https://i.imgur.com/xxxx.png' (kosong = ikon topi)
   PELAN_URL: '',           // gambar pelan tempat duduk (kosong = tiada)
   BUKU_URL: '',            // pautan buku atur cara digital, cth AnyFlip (kosong = tiada)
   MOTO: 'Ilmu • Iman • Amal',
   ATUR_CARA: [
-    ['7.30 pg', ['Pendaftaran graduan, ibu bapa dan tetamu']],
-    ['8.00 pg', ['Graduan mengambil tempat di dewan']],
-    ['8.15 pg', ['Ketibaan tetamu kehormat', 'Perarakan masuk graduan']],
+    ['7.30 pg', ['Pendaftaran murid, ibu bapa dan tetamu']],
+    ['8.00 pg', ['Murid mengambil tempat di dewan']],
+    ['8.15 pg', ['Ketibaan tetamu kehormat', 'Perarakan masuk murid']],
     ['8.30 pg', ['Nyanyian lagu Negaraku, Sabah Tanah Airku dan lagu sekolah', 'Bacaan doa']],
     ['8.45 pg', ['Ucapan Pengetua SMK Langkon', 'Ucapan Yang Dipertua PIBG']],
     ['9.15 pg', ['Ucapan perasmian oleh tetamu kehormat']],
-    ['9.30 pg', ['Penyampaian skrol dan sijil graduasi Tingkatan 5', 'Penyampaian anugerah kecemerlangan']],
-    ['11.00 pg', ['Persembahan graduan', 'Tayangan video kenangan']],
-    ['11.30 pg', ['Ikrar graduan', 'Sesi bergambar']],
+    ['9.30 pg', ['Penyampaian sijil dan cenderahati PRAKASA Tingkatan 5', 'Penyampaian anugerah kecemerlangan']],
+    ['11.00 pg', ['Persembahan murid', 'Tayangan video kenangan']],
+    ['11.30 pg', ['Ikrar murid', 'Sesi bergambar']],
     ['12.00 tgh', ['Jamuan dan bersurai']]
   ]
 };
@@ -211,29 +211,29 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 
 <main class="wrap">
   <section class="stats">
-    <div class="stat"><div class="n" id="sTotal">0</div><div class="l">Graduan</div></div>
+    <div class="stat"><div class="n" id="sTotal">0</div><div class="l">Murid</div></div>
     <div class="stat g"><div class="n" id="sHadir">0</div><div class="l">Telah Hadir</div></div>
     <div class="stat r"><div class="n" id="sBelum">0</div><div class="l">Belum Hadir</div></div>
     <div class="stat b"><div class="n" id="sTetamu">0</div><div class="l">Tetamu Berdaftar</div></div>
   </section>
 
   <nav class="tabs" id="tabs">
-    <button class="tab active" data-tab="graduan">🎓 Senarai Graduan</button>
+    <button class="tab active" data-tab="murid">🎓 Senarai Murid</button>
     <button class="tab" data-tab="tetamu">📝 Daftar Tetamu</button>
     <button class="tab" data-tab="aturcara">🗓️ Atur Cara</button>
     <button class="tab" data-tab="pelan">🪑 Tempat Duduk</button>
     <button class="tab" data-tab="kehadiran">✅ Rekod Kehadiran</button>
   </nav>
 
-  <!-- GRADUAN -->
-  <section id="tab-graduan">
-    <div class="sec-title"><h2>Graduan Tingkatan 5</h2><p>Cari nama anda untuk melihat tempat duduk dan kod QR kehadiran.</p></div>
+  <!-- MURID -->
+  <section id="tab-murid">
+    <div class="sec-title"><h2>Murid Tingkatan 5</h2><p>Cari nama anda untuk melihat tempat duduk dan kod QR kehadiran.</p></div>
     <div class="toolbar">
-      <input id="qGrad" type="search" placeholder="🔍 Cari nama graduan..." oninput="renderGrad()">
+      <input id="qGrad" type="search" placeholder="🔍 Cari nama murid..." oninput="renderGrad()">
       <select id="fKelas" onchange="renderGrad()"><option value="">Semua kelas</option></select>
     </div>
     <div class="toolbar admin-only flex">
-      <button class="btn btn-gold" onclick="openGradForm()">＋ Tambah Graduan</button>
+      <button class="btn btn-gold" onclick="openGradForm()">＋ Tambah Murid</button>
       <button class="btn btn-ghost" onclick="openModal('importModal')">📥 Import Senarai</button>
       <button class="btn btn-ghost" onclick="printQR()">🖨️ Cetak Kad QR</button>
     </div>
@@ -250,7 +250,7 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
           <div><label for="vTel">No. telefon</label><input id="vTel" type="tel" maxlength="20" autocomplete="tel" placeholder="01x-xxxxxxx"></div>
           <div><label for="vHub">Hubungan</label>
             <select id="vHub"><option>Ibu / Bapa</option><option>Penjaga</option><option>Ahli keluarga</option><option>Guru / Kakitangan</option><option>Tetamu jemputan</option><option>Lain-lain</option></select></div>
-          <div><label for="vGrad">Nama graduan (jika berkaitan)</label><input id="vGrad" list="gradNames" maxlength="120"><datalist id="gradNames"></datalist></div>
+          <div><label for="vGrad">Nama murid (jika berkaitan)</label><input id="vGrad" list="gradNames" maxlength="120"><datalist id="gradNames"></datalist></div>
           <div><label for="vBil">Bilangan orang (termasuk anda)</label><input id="vBil" type="number" min="1" max="20" value="1"></div>
         </div>
         <button class="btn btn-gold" style="width:100%;margin-top:18px" id="vSubmit">Daftar Kehadiran</button>
@@ -290,13 +290,13 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 
   <!-- PELAN -->
   <section id="tab-pelan" class="hidden">
-    <div class="sec-title"><h2>Pelan Tempat Duduk</h2><p>Cari nama anda di tab Senarai Graduan untuk nombor meja dan kerusi.</p></div>
+    <div class="sec-title"><h2>Pelan Tempat Duduk</h2><p>Cari nama anda di tab Senarai Murid untuk nombor meja dan kerusi.</p></div>
     <div id="pelanBox" class="panel" style="text-align:center"></div>
   </section>
 
   <!-- KEHADIRAN -->
   <section id="tab-kehadiran" class="hidden">
-    <div class="sec-title"><h2>Rekod Kehadiran Graduan</h2><p>Status kehadiran dikemas kini secara automatik.</p></div>
+    <div class="sec-title"><h2>Rekod Kehadiran Murid</h2><p>Status kehadiran dikemas kini secara automatik.</p></div>
     <div class="att-stats">
       <div class="stat g"><div class="n" id="kHadir">0</div><div class="l">Hadir</div></div>
       <div class="stat r"><div class="n" id="kBelum">0</div><div class="l">Belum Hadir</div></div>
@@ -316,7 +316,7 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
   </section>
 </main>
 
-<footer><b id="fSekolah"></b><div style="margin-top:6px" id="fMoto"></div><div style="margin-top:4px">© <span id="fTahun"></span> Majlis Graduasi Tingkatan 5</div></footer>
+<footer><b id="fSekolah"></b><div style="margin-top:6px" id="fMoto"></div><div style="margin-top:4px">© <span id="fTahun"></span> Majlis Apresiasi PRAKASA Murid Tingkatan 5</div></footer>
 
 <!-- MODAL: LOGIN -->
 <div id="loginModal" class="modal hidden" onclick="bgClose(event)">
@@ -330,10 +330,10 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
   </div>
 </div>
 
-<!-- MODAL: GRADUAN -->
+<!-- MODAL: MURID -->
 <div id="gradModal" class="modal hidden" onclick="bgClose(event)">
   <div class="modal-box">
-    <div class="modal-head"><h3 id="gradModalTitle">Tambah Graduan</h3><button class="x" onclick="closeModal('gradModal')">✕</button></div>
+    <div class="modal-head"><h3 id="gradModalTitle">Tambah Murid</h3><button class="x" onclick="closeModal('gradModal')">✕</button></div>
     <form onsubmit="saveGrad(event)">
       <input type="hidden" id="gId">
       <div class="form-grid">
@@ -355,16 +355,16 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 <!-- MODAL: IMPORT -->
 <div id="importModal" class="modal hidden" onclick="bgClose(event)">
   <div class="modal-box">
-    <div class="modal-head"><h3>Import Senarai Graduan</h3><button class="x" onclick="closeModal('importModal')">✕</button></div>
+    <div class="modal-head"><h3>Import Senarai Murid</h3><button class="x" onclick="closeModal('importModal')">✕</button></div>
     <div class="stack">
-      <p class="note">Satu graduan setiap baris. Format: <b>Nama, Kelas, Meja, Kerusi</b> (kelas, meja dan kerusi pilihan). Boleh salin terus dari Excel / Google Sheets.</p>
+      <p class="note">Satu murid setiap baris. Format: <b>Nama, Kelas, Meja, Kerusi</b> (kelas, meja dan kerusi pilihan). Boleh salin terus dari Excel / Google Sheets.</p>
       <textarea id="importText" rows="10" placeholder="Ahmad bin Ali, 5 Amanah, A1, 1&#10;Siti Aminah binti Yusof, 5 Bestari, A1, 2"></textarea>
       <button class="btn btn-gold" style="width:100%" onclick="doImport()" id="importBtn">Import</button>
     </div>
   </div>
 </div>
 
-<!-- MODAL: QR GRADUAN -->
+<!-- MODAL: QR MURID -->
 <div id="qrModal" class="modal hidden" onclick="bgClose(event)">
   <div class="modal-box" style="text-align:center">
     <div class="modal-head"><h3>Kod QR Kehadiran</h3><button class="x" onclick="closeModal('qrModal')">✕</button></div>
@@ -386,7 +386,7 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
       <p id="scanStatus" class="note" style="text-align:center">Menghidupkan kamera...</p>
       <div id="scanResult" class="result hidden"></div>
       <form onsubmit="manualCheckin(event)" style="display:flex;gap:8px">
-        <input id="manualInput" placeholder="Atau taip nama / ID graduan" list="gradNames">
+        <input id="manualInput" placeholder="Atau taip nama / ID murid" list="gradNames">
         <button class="btn btn-green">Hadir</button>
       </form>
     </div>
@@ -399,11 +399,11 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 <script>
 /* ===================== STATE ===================== */
 const DEMO = !CONFIG.API_URL;
-let graduan = [];
+let murid = [];
 let bilTetamu = 0, bilPengunjung = 0;
 let visitors = [];
 let adminPass = sessionStorageGet('gradPass') || '';
-let currentTab = 'graduan';
+let currentTab = 'murid';
 let currentQR = null;
 
 /* ===================== UTIL ===================== */
@@ -437,7 +437,7 @@ async function loadData(){
     let d;
     if (DEMO) d = demoApi('get');
     else { const r = await fetch(CONFIG.API_URL); d = await r.json(); }
-    graduan = (d.graduan || []).map(g => Object.assign({}, g, { id:String(g.id) }));
+    murid = (d.murid || []).map(g => Object.assign({}, g, { id:String(g.id) }));
     bilTetamu = Number(d.bilTetamu) || 0; bilPengunjung = Number(d.bilPengunjung) || 0;
     renderAll();
   } catch(err){
@@ -450,7 +450,7 @@ function demoLoad(){
   let db; try { db = JSON.parse(localStorage.getItem('gradDemo') || 'null'); } catch(e){}
   if (!db) {
     const names = [['Ahmad Firdaus bin Jainal','5 Amanah'],['Nur Aisyah binti Rahman','5 Amanah'],['Jovenly anak Gidong','5 Amanah'],['Mohd Hafiz bin Sulaiman','5 Bestari'],['Clarissa Jinius','5 Bestari'],['Siti Nurhaliza binti Ismail','5 Bestari'],['Rayner Lim','5 Cemerlang'],['Nurul Izzah binti Amin','5 Cemerlang'],['Daniel Majimbun','5 Cemerlang']];
-    db = { graduan: names.map((n,i)=>({ id:'G'+(1001+i), nama:n[0], kelas:n[1], noMurid:'', meja:'A'+(Math.floor(i/3)+1), kerusi:String(i%3+1), gambar:'', status: i<2?'Hadir':'', masaHadir: i<2?nowStr():'' })), pengunjung: [] };
+    db = { murid: names.map((n,i)=>({ id:'G'+(1001+i), nama:n[0], kelas:n[1], noMurid:'', meja:'A'+(Math.floor(i/3)+1), kerusi:String(i%3+1), gambar:'', status: i<2?'Hadir':'', masaHadir: i<2?nowStr():'' })), pengunjung: [] };
   }
   return db;
 }
@@ -458,18 +458,18 @@ function demoSave(db){ try { localStorage.setItem('gradDemo', JSON.stringify(db)
 function demoApi(action, b){
   const db = demoLoad();
   const pub = ['get','visitor'];
-  if (pub.indexOf(action) === -1 && b.password !== 'graduasi2026') throw new Error('Kata laluan admin salah');
-  const find = id => db.graduan.find(g => g.id === String(id));
+  if (pub.indexOf(action) === -1 && b.password !== 'prakasa2026') throw new Error('Kata laluan admin salah');
+  const find = id => db.murid.find(g => g.id === String(id));
   const newId = () => 'G' + Math.random().toString(36).slice(2,9).toUpperCase();
   let out = { ok:true };
   switch(action){
-    case 'get': out = { ok:true, graduan:db.graduan, bilPengunjung:db.pengunjung.length, bilTetamu:db.pengunjung.reduce((t,v)=>t+(+v.bilangan||1),0) }; break;
+    case 'get': out = { ok:true, murid:db.murid, bilPengunjung:db.pengunjung.length, bilTetamu:db.pengunjung.reduce((t,v)=>t+(+v.bilangan||1),0) }; break;
     case 'login': break;
-    case 'add': { const r = Object.assign({ noMurid:'',meja:'',kerusi:'',gambar:'',kelas:'' }, b.record, { id:newId(), status:'', masaHadir:'' }); db.graduan.push(r); out.record=r; break; }
-    case 'bulkAdd': b.records.forEach(r => db.graduan.push(Object.assign({ noMurid:'',meja:'',kerusi:'',gambar:'',kelas:'' }, r, { id:newId(), status:'', masaHadir:'' }))); out.count=b.records.length; break;
+    case 'add': { const r = Object.assign({ noMurid:'',meja:'',kerusi:'',gambar:'',kelas:'' }, b.record, { id:newId(), status:'', masaHadir:'' }); db.murid.push(r); out.record=r; break; }
+    case 'bulkAdd': b.records.forEach(r => db.murid.push(Object.assign({ noMurid:'',meja:'',kerusi:'',gambar:'',kelas:'' }, r, { id:newId(), status:'', masaHadir:'' }))); out.count=b.records.length; break;
     case 'update': { const g=find(b.record.id); if(!g) throw new Error('Rekod tidak dijumpai'); ['nama','kelas','noMurid','meja','kerusi','gambar'].forEach(k=>g[k]=b.record[k]); out.record=g; break; }
-    case 'delete': db.graduan = db.graduan.filter(g => g.id !== String(b.id)); break;
-    case 'attendance': { const g=find(b.id); if(!g) throw new Error('Graduan tidak dijumpai');
+    case 'delete': db.murid = db.murid.filter(g => g.id !== String(b.id)); break;
+    case 'attendance': { const g=find(b.id); if(!g) throw new Error('Murid tidak dijumpai');
       if (b.status==='reset'){ g.status=''; g.masaHadir=''; } else if (g.status==='Hadir'){ out.already=true; } else { g.status='Hadir'; g.masaHadir=nowStr(); }
       out.record=g; break; }
     case 'visitor': { const v = Object.assign({}, b.visitor, { id:newId(), masa:nowStr() }); db.pengunjung.push(v); out.id=v.id; out.masa=v.masa; break; }
@@ -501,30 +501,30 @@ function applyConfig(){
 }
 
 function renderAll(){
-  const hadir = graduan.filter(g => g.status === 'Hadir').length;
-  $('sTotal').textContent = graduan.length;
+  const hadir = murid.filter(g => g.status === 'Hadir').length;
+  $('sTotal').textContent = murid.length;
   $('sHadir').textContent = hadir;
-  $('sBelum').textContent = graduan.length - hadir;
+  $('sBelum').textContent = murid.length - hadir;
   $('sTetamu').textContent = bilTetamu;
-  const kelas = [...new Set(graduan.map(g => g.kelas).filter(Boolean))].sort();
+  const kelas = [...new Set(murid.map(g => g.kelas).filter(Boolean))].sort();
   ['fKelas','fAttKelas'].forEach(id => {
     const sel = $(id), cur = sel.value;
     sel.innerHTML = '<option value="">Semua kelas</option>' + kelas.map(k => `<option>${esc(k)}</option>`).join('');
     sel.value = kelas.includes(cur) ? cur : '';
   });
-  $('gradNames').innerHTML = graduan.map(g => `<option value="${esc(g.nama)}">`).join('');
+  $('gradNames').innerHTML = murid.map(g => `<option value="${esc(g.nama)}">`).join('');
   renderGrad(); renderAtt();
 }
 
 function filterList(q, kelas){
   q = q.trim().toLowerCase();
-  return graduan.filter(g => (!kelas || g.kelas === kelas) && (!q || g.nama.toLowerCase().includes(q) || String(g.noMurid).toLowerCase().includes(q) || g.id.toLowerCase() === q)).sort(byName);
+  return murid.filter(g => (!kelas || g.kelas === kelas) && (!q || g.nama.toLowerCase().includes(q) || String(g.noMurid).toLowerCase().includes(q) || g.id.toLowerCase() === q)).sort(byName);
 }
 
 function renderGrad(){
   const list = filterList($('qGrad').value, $('fKelas').value);
   const grid = $('gradGrid');
-  if (!graduan.length){ grid.innerHTML = `<div class="empty" style="grid-column:1/-1">Tiada graduan lagi.${isAdmin() ? ' Tekan “Tambah Graduan” atau “Import Senarai”.' : ''}</div>`; return; }
+  if (!murid.length){ grid.innerHTML = `<div class="empty" style="grid-column:1/-1">Tiada murid lagi.${isAdmin() ? ' Tekan “Tambah Murid” atau “Import Senarai”.' : ''}</div>`; return; }
   if (!list.length){ grid.innerHTML = '<div class="empty" style="grid-column:1/-1">Tiada padanan. Cuba ejaan lain.</div>'; return; }
   grid.innerHTML = list.map((g,i) => {
     const pic = g.gambar ? `<img class="avatar" src="${esc(g.gambar)}" alt="" data-i="${esc(initials(g.nama))}" onerror="avatarFail(this)">` : `<div class="avatar">${esc(initials(g.nama))}</div>`;
@@ -545,9 +545,9 @@ function renderAtt(){
   let list = filterList($('qAtt').value, $('fAttKelas').value);
   if (st === 'Hadir') list = list.filter(g => g.status === 'Hadir');
   if (st === 'Belum') list = list.filter(g => g.status !== 'Hadir');
-  const hadir = graduan.filter(g => g.status === 'Hadir').length;
-  $('kHadir').textContent = hadir; $('kBelum').textContent = graduan.length - hadir;
-  $('kPeratus').textContent = graduan.length ? Math.round(hadir / graduan.length * 100) + '%' : '0%';
+  const hadir = murid.filter(g => g.status === 'Hadir').length;
+  $('kHadir').textContent = hadir; $('kBelum').textContent = murid.length - hadir;
+  $('kPeratus').textContent = murid.length ? Math.round(hadir / murid.length * 100) + '%' : '0%';
   $('attNote').textContent = isAdmin() ? '' : 'Log masuk sebagai admin untuk menanda kehadiran dan mengimbas QR.';
   $('attList').innerHTML = list.length ? list.map((g,i) => `
     <div class="row">
@@ -570,7 +570,7 @@ async function renderVisitors(){
       <div class="row">
         <div class="no">${visitors.length - i}</div>
         <div><div class="nm">${esc(v.nama)} <span class="badge no">${esc(v.bilangan || 1)} orang</span></div>
-          <div class="sub">${esc(v.hubungan)}${v.graduan ? ' · '+esc(v.graduan) : ''}${v.telefon ? ' · '+esc(v.telefon) : ''}</div></div>
+          <div class="sub">${esc(v.hubungan)}${v.murid ? ' · '+esc(v.murid) : ''}${v.telefon ? ' · '+esc(v.telefon) : ''}</div></div>
         <div class="right"><span class="sub">${esc(v.masa)}</span><button class="btn btn-red btn-sm" onclick="delVisitor('${esc(v.id)}')">🗑️</button></div>
       </div>`).join('') : '<div class="empty">Belum ada tetamu berdaftar.</div>';
   } catch(e){ $('visitorList').innerHTML = `<div class="empty">${esc(e.message)}</div>`; }
@@ -610,8 +610,8 @@ function setAdmin(pw){
 }
 
 function openGradForm(id){
-  const g = id ? graduan.find(x => x.id === id) : null;
-  $('gradModalTitle').textContent = g ? 'Edit Graduan' : 'Tambah Graduan';
+  const g = id ? murid.find(x => x.id === id) : null;
+  $('gradModalTitle').textContent = g ? 'Edit Murid' : 'Tambah Murid';
   $('gId').value = g ? g.id : '';
   [['gNama','nama'],['gKelas','kelas'],['gNo','noMurid'],['gMeja','meja'],['gKerusi','kerusi'],['gGambar','gambar']].forEach(([f,k]) => $(f).value = g ? (g[k] || '') : '');
   openModal('gradModal'); setTimeout(() => $('gNama').focus(), 50);
@@ -622,12 +622,12 @@ async function saveGrad(e){
   const btn = $('gSave'); btn.disabled = true;
   try {
     await api(rec.id ? 'update' : 'add', { record: rec });
-    closeModal('gradModal'); toast(rec.id ? 'Maklumat dikemas kini' : 'Graduan ditambah'); await loadData();
+    closeModal('gradModal'); toast(rec.id ? 'Maklumat dikemas kini' : 'Murid ditambah'); await loadData();
   } catch(err){ alert(err.message); }
   finally { btn.disabled = false; }
 }
 async function delGrad(id){
-  const g = graduan.find(x => x.id === id);
+  const g = murid.find(x => x.id === id);
   if (!g || !confirm(`Padam ${g.nama}? Tindakan ini tidak boleh dibatalkan.`)) return;
   try { await api('delete', { id }); toast('Rekod dipadam'); await loadData(); } catch(err){ alert(err.message); }
 }
@@ -636,9 +636,9 @@ async function doImport(){
   const records = lines.map(l => { const p = l.split(/\t|,/).map(s => s.trim()); return { nama:p[0], kelas:p[1]||'', meja:p[2]||'', kerusi:p[3]||'' }; })
     .filter(r => r.nama && !/^nama$/i.test(r.nama));
   if (!records.length) return alert('Tiada data untuk diimport.');
-  if (!confirm(`Import ${records.length} graduan?`)) return;
+  if (!confirm(`Import ${records.length} murid?`)) return;
   const btn = $('importBtn'); btn.disabled = true; btn.textContent = 'Mengimport...';
-  try { await api('bulkAdd', { records }); $('importText').value = ''; closeModal('importModal'); toast(records.length + ' graduan diimport'); await loadData(); }
+  try { await api('bulkAdd', { records }); $('importText').value = ''; closeModal('importModal'); toast(records.length + ' murid diimport'); await loadData(); }
   catch(err){ alert(err.message); }
   finally { btn.disabled = false; btn.textContent = 'Import'; }
 }
@@ -649,8 +649,8 @@ async function delVisitor(id){
 
 /* ===================== KEHADIRAN ===================== */
 async function checkin(id, fromScan){
-  const g = graduan.find(x => x.id === id);
-  if (!g) return { type:'err', msg:'Graduan tidak dijumpai' };
+  const g = murid.find(x => x.id === id);
+  if (!g) return { type:'err', msg:'Murid tidak dijumpai' };
   try {
     const r = await api('attendance', { id });
     Object.assign(g, r.record);
@@ -663,7 +663,7 @@ async function checkin(id, fromScan){
   } catch(err){ if (!fromScan) alert(err.message); return { type:'err', msg:err.message }; }
 }
 async function resetAtt(id){
-  const g = graduan.find(x => x.id === id);
+  const g = murid.find(x => x.id === id);
   if (!g || !confirm(`Batalkan kehadiran ${g.nama}?`)) return;
   try { const r = await api('attendance', { id, status:'reset' }); Object.assign(g, r.record); renderAll(); } catch(err){ alert(err.message); }
 }
@@ -671,7 +671,7 @@ async function resetAtt(id){
 /* ===================== QR ===================== */
 function qrText(id){ return 'GRAD:' + id; }
 function showQR(id){
-  const g = graduan.find(x => x.id === id); if (!g) return;
+  const g = murid.find(x => x.id === id); if (!g) return;
   currentQR = g;
   QRCode.toCanvas($('qrCanvasBig'), qrText(g.id), { width:240, margin:1 }, err => { if (err) toast('Gagal menjana QR'); });
   $('qrName').textContent = g.nama;
@@ -687,7 +687,7 @@ function downloadQR(){
 }
 async function printQR(){
   const list = filterList($('qGrad').value, $('fKelas').value);
-  if (!list.length) return alert('Tiada graduan untuk dicetak.');
+  if (!list.length) return alert('Tiada murid untuk dicetak.');
   const cards = await Promise.all(list.map(async g => {
     const url = await QRCode.toDataURL(qrText(g.id), { width:300, margin:1 });
     return `<div class="pcard"><div class="s">${esc(CONFIG.TAJUK)} ${esc(CONFIG.SEKOLAH)} ${esc(CONFIG.TAHUN)}</div><img src="${url}" alt=""><div class="n">${esc(g.nama)}</div><div class="s">${esc(g.kelas)}${g.meja ? ' · Meja '+esc(g.meja) : ''}${g.kerusi ? ' · Kerusi '+esc(g.kerusi) : ''}</div></div>`;
@@ -715,7 +715,7 @@ async function openScanner(){
   try {
     stream = await navigator.mediaDevices.getUserMedia({ video:{ facingMode:'environment' }, audio:false });
     const v = $('qrVideo'); v.srcObject = stream; await v.play();
-    $('scanStatus').textContent = 'Halakan kamera ke kod QR graduan';
+    $('scanStatus').textContent = 'Halakan kamera ke kod QR murid';
     scanLoop = requestAnimationFrame(tick);
   } catch(err){
     $('scanStatus').textContent = 'Kamera tidak dapat dibuka. Benarkan akses kamera, atau taip nama di bawah.';
@@ -739,7 +739,7 @@ function tick(){
 async function handleScan(text){
   busy = true;
   const id = String(text).trim().replace(/^GRAD:/i, '');
-  const res = graduan.some(g => g.id === id) ? await checkin(id, true) : { type:'err', msg:'Kod QR tidak dikenali' };
+  const res = murid.some(g => g.id === id) ? await checkin(id, true) : { type:'err', msg:'Kod QR tidak dikenali' };
   showScanResult(res);
   busy = false;
 }
@@ -751,8 +751,8 @@ function showScanResult(res){
 async function manualCheckin(e){
   e.preventDefault();
   const q = $('manualInput').value.trim().toLowerCase(); if (!q) return;
-  const matches = graduan.filter(g => g.id.toLowerCase() === q || g.nama.toLowerCase() === q);
-  const list = matches.length ? matches : graduan.filter(g => g.nama.toLowerCase().includes(q));
+  const matches = murid.filter(g => g.id.toLowerCase() === q || g.nama.toLowerCase() === q);
+  const list = matches.length ? matches : murid.filter(g => g.nama.toLowerCase().includes(q));
   if (list.length !== 1){ showScanResult({ type:'err', msg: list.length ? `${list.length} padanan — taip nama penuh` : 'Nama tidak dijumpai' }); return; }
   showScanResult(await checkin(list[0].id, true));
   $('manualInput').value = '';
@@ -766,7 +766,7 @@ function closeScanner(){
 /* ===================== TETAMU ===================== */
 async function submitVisitor(e){
   e.preventDefault();
-  const v = { nama:$('vNama').value.trim(), telefon:$('vTel').value.trim(), hubungan:$('vHub').value, graduan:$('vGrad').value.trim(), bilangan: Math.max(1, Math.min(20, parseInt($('vBil').value,10) || 1)) };
+  const v = { nama:$('vNama').value.trim(), telefon:$('vTel').value.trim(), hubungan:$('vHub').value, murid:$('vGrad').value.trim(), bilangan: Math.max(1, Math.min(20, parseInt($('vBil').value,10) || 1)) };
   const btn = $('vSubmit'); btn.disabled = true; btn.textContent = 'Menghantar...';
   try {
     const r = await api('visitor', { visitor: v });
@@ -787,12 +787,12 @@ function downloadCSV(name, rows){
   a.download = name; a.click();
 }
 function exportAttendance(){
-  downloadCSV(`kehadiran-graduasi-${CONFIG.TAHUN}.csv`, [['Bil','Nama','Kelas','No. Murid','Meja','Kerusi','Status','Masa Hadir','ID']]
-    .concat(graduan.slice().sort(byName).map((g,i) => [i+1, g.nama, g.kelas, g.noMurid, g.meja, g.kerusi, g.status || 'Belum hadir', g.masaHadir, g.id])));
+  downloadCSV(`kehadiran-prakasa-${CONFIG.TAHUN}.csv`, [['Bil','Nama','Kelas','No. Murid','Meja','Kerusi','Status','Masa Hadir','ID']]
+    .concat(murid.slice().sort(byName).map((g,i) => [i+1, g.nama, g.kelas, g.noMurid, g.meja, g.kerusi, g.status || 'Belum hadir', g.masaHadir, g.id])));
 }
 function exportVisitors(){
-  downloadCSV(`tetamu-graduasi-${CONFIG.TAHUN}.csv`, [['Bil','Masa','Nama','Telefon','Hubungan','Graduan','Bilangan']]
-    .concat(visitors.map((v,i) => [i+1, v.masa, v.nama, v.telefon, v.hubungan, v.graduan, v.bilangan])));
+  downloadCSV(`tetamu-prakasa-${CONFIG.TAHUN}.csv`, [['Bil','Masa','Nama','Telefon','Hubungan','Murid','Bilangan']]
+    .concat(visitors.map((v,i) => [i+1, v.masa, v.nama, v.telefon, v.hubungan, v.murid, v.bilangan])));
 }
 
 /* ===================== MULA ===================== */

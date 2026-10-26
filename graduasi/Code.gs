@@ -1,6 +1,6 @@
 /**
  * Backend Google Apps Script — Sistem Pendaftaran & Kehadiran
- * Majlis Graduasi Tingkatan 5 SMK Langkon
+ * Majlis Apresiasi PRAKASA Murid Tingkatan 5 SMK Langkon
  *
  * Cara pasang (ringkas — lihat README.md untuk langkah penuh):
  * 1. Buka Google Sheet baharu > Extensions > Apps Script.
@@ -15,12 +15,12 @@
  * bukan dalam laman web. Tukar dengan menjalankan `tukarKataLaluan`.
  */
 
-const SHEET_GRAD = 'Graduan';
+const SHEET_GRAD = 'Murid';
 const SHEET_VIS = 'Pengunjung';
 const GRAD_HEADERS = ['id', 'nama', 'kelas', 'noMurid', 'meja', 'kerusi', 'gambar', 'status', 'masaHadir'];
-const VIS_HEADERS = ['id', 'masa', 'nama', 'telefon', 'hubungan', 'graduan', 'bilangan'];
+const VIS_HEADERS = ['id', 'masa', 'nama', 'telefon', 'hubungan', 'murid', 'bilangan'];
 const TZ = 'Asia/Kuching';
-const DEFAULT_PASSWORD = 'graduasi2026';
+const DEFAULT_PASSWORD = 'prakasa2026';
 
 /** Jalankan sekali untuk cipta helaian dan kata laluan lalai. */
 function setup() {
@@ -41,7 +41,7 @@ function doGet() {
   // Data awam sahaja: maklumat pengunjung (no. telefon) tidak didedahkan.
   return json_({
     ok: true,
-    graduan: readAll_(SHEET_GRAD, GRAD_HEADERS),
+    murid: readAll_(SHEET_GRAD, GRAD_HEADERS),
     bilPengunjung: Math.max(0, getSheet_(SHEET_VIS, VIS_HEADERS).getLastRow() - 1),
     bilTetamu: sumVisitors_()
   });
@@ -130,7 +130,7 @@ function updateGrad_(r) {
 
 function markAttendance_(id, status) {
   const found = findRow_(SHEET_GRAD, GRAD_HEADERS, id);
-  if (!found) return { ok: false, error: 'Graduan tidak dijumpai' };
+  if (!found) return { ok: false, error: 'Murid tidak dijumpai' };
   const rec = found.record;
   if (status === 'reset') {
     rec.status = '';
@@ -155,7 +155,7 @@ function addVisitor_(v) {
     nama: nama,
     telefon: clean_(v.telefon),
     hubungan: clean_(v.hubungan),
-    graduan: clean_(v.graduan),
+    murid: clean_(v.murid),
     bilangan: bil
   };
   getSheet_(SHEET_VIS, VIS_HEADERS).appendRow(VIS_HEADERS.map(h => rec[h]));

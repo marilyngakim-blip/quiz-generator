@@ -26,7 +26,13 @@ const DEFAULT_PASSWORD = 'prakasa2026';
 
 /** Jalankan sekali untuk cipta helaian dan kata laluan lalai. */
 function setup() {
-  getSheet_(SHEET_MURID, MURID_HEADERS);
+  // Jika Sheet dicipta daripada fail CSV, helaian pertama dinamakan semula kepada "Murid".
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  if (!ss.getSheetByName(SHEET_MURID)) {
+    const first = ss.getSheets()[0];
+    if (String(first.getRange(1, 1).getValue()).trim() === 'id') first.setName(SHEET_MURID);
+  }
+  getSheet_(SHEET_MURID, MURID_HEADERS).setFrozenRows(1);
   getSheet_(SHEET_VIS, VIS_HEADERS);
   const props = PropertiesService.getScriptProperties();
   if (!props.getProperty('ADMIN_PASSWORD')) props.setProperty('ADMIN_PASSWORD', DEFAULT_PASSWORD);

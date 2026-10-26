@@ -17,6 +17,7 @@ Data disimpan dalam **Google Sheets** melalui Google Apps Script (percuma).
 |---|---|
 | `index.html` | Laman web (letak di GitHub Pages) |
 | `Code.gs` | Backend Google Apps Script |
+| `logo.png` | Logo SMK Langkon (daripada kertas kerja PRISMA 2026) |
 | `data.js` | Senarai 118 murid T5 2026 (nama, kelas, L/P, status, bil. ibu bapa) — tanpa nama ibu bapa |
 
 ## Langkah pemasangan
@@ -40,8 +41,8 @@ Buka `index.html`, cari blok `CONFIG` di bahagian atas dan isi:
 
 ```js
 API_URL: 'https://script.google.com/macros/s/XXXX/exec',
-TARIKH: '15 November 2026 (Sabtu)',
-TEMPAT: 'Dewan SMK Langkon',
+TARIKH: '30 Oktober 2026 (Jumaat)',
+TEMPAT: 'Dewan Terbuka SMK Langkon',
 LOGO_URL: 'https://...logo-sekolah.png',
 PELAN_URL: 'https://...pelan-tempat-duduk.png',
 BUKU_URL: 'https://anyflip.com/...',

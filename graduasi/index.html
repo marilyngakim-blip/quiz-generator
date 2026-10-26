@@ -22,10 +22,12 @@ const CONFIG = {
   NAMA_MAJLIS: 'PRAKASA',
   TAJUK: 'Majlis Apresiasi PRAKASA Murid Tingkatan 5',
   TAHUN: '2026',
-  TARIKH: 'Tarikh akan dimaklumkan',
+  TARIKH: '30 Oktober 2026 (Jumaat)',
   MASA: '2.00 petang – 6.30 petang',
-  TEMPAT: 'SMK Langkon',
-  LOGO_URL: '',            // logo sekolah, cth 'https://i.imgur.com/xxxx.png' (kosong = ikon bunga)
+  TEMPAT: 'Dewan Terbuka SMK Langkon',
+  TEMA: 'Meneroka Ilmu • Membina Aspirasi • Melangkah ke Masa Depan',
+  PROGRAM: 'Program PRISMA 2026 • Unit Kurikulum SMK Langkon',
+  LOGO_URL: 'logo.png',    // logo sekolah (kosong = ikon bunga)
   PELAN_URL: '',           // gambar pelan tempat duduk (kosong = tiada)
   BUKU_URL: '',            // pautan buku atur cara digital (kosong = tiada)
   TENTATIF: [
@@ -77,7 +79,8 @@ a{color:var(--rose-d)}
 .emblem{position:relative;width:170px;height:170px;margin:0 auto 18px}
 .emblem svg.wreath{position:absolute;inset:0;width:100%;height:100%}
 .emblem .core{position:absolute;inset:34px;border-radius:50%;background:#fff;box-shadow:0 6px 24px rgba(140,58,82,.18);display:flex;align-items:center;justify-content:center;overflow:hidden}
-.emblem .core img{width:82%;height:82%;object-fit:contain}
+.emblem .core img{width:94%;height:94%;object-fit:contain}
+.tema{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(1rem,3.2vw,1.2rem);color:var(--sage-d);margin:2px auto 0;max-width:560px;position:relative}
 .school{letter-spacing:.32em;font-size:.78rem;font-weight:800;color:var(--sage-d);text-transform:uppercase;margin:0;position:relative}
 .hero .script{font-size:clamp(2.6rem,9vw,4.4rem);color:var(--rose);line-height:1;margin:10px 0 0;position:relative}
 .hero h1{font-size:clamp(3rem,13vw,6.2rem);letter-spacing:.14em;line-height:1;color:var(--rose-d);margin:2px 0 6px;padding-left:.14em;position:relative}
@@ -296,7 +299,8 @@ footer small{display:block;color:var(--muted);margin-top:4px}
   <h1 id="hNama"></h1>
   <p class="sub" id="hSub"></p>
   <div class="leafline"><span></span>❦<span></span></div>
-  <div class="info">
+  <p class="tema" id="hTema"></p>
+  <div class="info" style="margin-top:16px">
     <div>📅 <b id="hTarikh"></b></div>
     <div>🕑 <b id="hMasa"></b></div>
     <div>📍 <b id="hTempat"></b></div>
@@ -590,7 +594,8 @@ function applyConfig(){
   $('hSub').textContent = `Murid Tingkatan 5 · ${CONFIG.TAHUN}`;
   $('hTarikh').textContent = CONFIG.TARIKH; $('hMasa').textContent = CONFIG.MASA; $('hTempat').textContent = CONFIG.TEMPAT;
   $('tSub').textContent = `${CONFIG.TARIKH} · ${CONFIG.MASA} · ${CONFIG.TEMPAT}`;
-  $('fNama').textContent = CONFIG.TAJUK; $('fSekolah').textContent = CONFIG.SEKOLAH; $('fTahun').textContent = `${CONFIG.DAERAH} · ${CONFIG.TAHUN}`;
+  $('hTema').textContent = CONFIG.TEMA ? `“${CONFIG.TEMA}”` : '';
+  $('fNama').textContent = CONFIG.TAJUK; $('fSekolah').textContent = CONFIG.SEKOLAH; $('fTahun').textContent = [CONFIG.PROGRAM, CONFIG.DAERAH].filter(Boolean).join(' · ');
   if (CONFIG.LOGO_URL) $('logoBox').innerHTML = `<img src="${esc(CONFIG.LOGO_URL)}" alt="Logo ${esc(CONFIG.SEKOLAH)}">`;
   $('timeline').innerHTML = CONFIG.TENTATIF.map(([t, txt, list]) =>
     `<div class="t-item"><time>${esc(t)}</time><p>${esc(txt)}</p>${list ? '<ul>' + list.map(i => `<li>${esc(i)}</li>`).join('') + '</ul>' : ''}</div>`).join('');

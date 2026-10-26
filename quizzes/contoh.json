@@ -1,0 +1,13 @@
+{
+  "id": "contoh",
+  "title": "Kuiz Contoh (cuba laman ini)",
+  "createdAt": "2026-10-26T00:00:00.000Z",
+  "demoKey": ["B", "D", "A", "C", "B"],
+  "questions": [
+    { "q": "Ibu negara Malaysia ialah", "options": ["Putrajaya", "Kuala Lumpur", "Johor Bahru", "George Town"], "marks": 1 },
+    { "q": "Berapakah hasil 7 × 8?", "options": ["54", "48", "64", "56"], "marks": 1 },
+    { "q": "Planet yang paling hampir dengan Matahari ialah", "options": ["Utarid", "Zuhrah", "Bumi", "Marikh"], "marks": 1 },
+    { "q": "Negeri manakah terletak di Pulau Borneo?", "options": ["Pahang", "Perak", "Sabah", "Kelantan"], "marks": 1 },
+    { "q": "Sebuah kelas ada 40 murid. 25% daripadanya memakai cermin mata. Berapakah bilangan murid yang memakai cermin mata?", "options": ["8", "10", "12", "15"], "marks": 1 }
+  ]
+}

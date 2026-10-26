@@ -3,11 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fbf4ee">
 <title>Majlis Apresiasi PRAKASA Murid Tingkatan 5 SMK Langkon</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Great+Vibes&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+<script src="data.js"></script>
 <script>
 /* =====================================================================
    TETAPAN MAJLIS — ubah di sini sahaja
@@ -17,232 +19,344 @@ const CONFIG = {
   API_URL: '',
   SEKOLAH: 'SMK Langkon',
   DAERAH: 'Kota Marudu, Sabah',
+  NAMA_MAJLIS: 'PRAKASA',
   TAJUK: 'Majlis Apresiasi PRAKASA Murid Tingkatan 5',
   TAHUN: '2026',
   TARIKH: 'Tarikh akan dimaklumkan',
-  MASA: '8.00 pagi – 1.00 tengah hari',
-  TEMPAT: 'Dewan SMK Langkon',
-  LOGO_URL: '',            // cth: 'https://i.imgur.com/xxxx.png' (kosong = ikon topi)
+  MASA: '2.00 petang – 6.30 petang',
+  TEMPAT: 'SMK Langkon',
+  LOGO_URL: '',            // logo sekolah, cth 'https://i.imgur.com/xxxx.png' (kosong = ikon bunga)
   PELAN_URL: '',           // gambar pelan tempat duduk (kosong = tiada)
-  BUKU_URL: '',            // pautan buku atur cara digital, cth AnyFlip (kosong = tiada)
-  MOTO: 'Ilmu • Iman • Amal',
-  ATUR_CARA: [
-    ['7.30 pg', ['Pendaftaran murid, ibu bapa dan tetamu']],
-    ['8.00 pg', ['Murid mengambil tempat di dewan']],
-    ['8.15 pg', ['Ketibaan tetamu kehormat', 'Perarakan masuk murid']],
-    ['8.30 pg', ['Nyanyian lagu Negaraku, Sabah Tanah Airku dan lagu sekolah', 'Bacaan doa']],
-    ['8.45 pg', ['Ucapan Pengetua SMK Langkon', 'Ucapan Yang Dipertua PIBG']],
-    ['9.15 pg', ['Ucapan perasmian oleh tetamu kehormat']],
-    ['9.30 pg', ['Penyampaian sijil dan cenderahati PRAKASA Tingkatan 5', 'Penyampaian anugerah kecemerlangan']],
-    ['11.00 pg', ['Persembahan murid', 'Tayangan video kenangan']],
-    ['11.30 pg', ['Ikrar murid', 'Sesi bergambar']],
-    ['12.00 tgh', ['Jamuan dan bersurai']]
+  BUKU_URL: '',            // pautan buku atur cara digital (kosong = tiada)
+  TENTATIF: [
+    ['2.00 petang', 'Pendaftaran murid, ibu bapa dan tetamu jemputan'],
+    ['2.15 petang', 'Ketibaan guru-guru dan tetamu kehormat'],
+    ['2.25 petang', 'Ketibaan Pengetua dan barisan pentadbir sekolah'],
+    ['2.30 petang', 'Ketibaan Tetamu Kehormat / Perasmi'],
+    ['2.35 petang', 'Bacaan doa'],
+    ['2.40 petang', 'Nyanyian Lagu Negaraku dan Lagu Sabah Tanah Airku'],
+    ['2.50 petang', 'Ucapan alu-aluan Pengetua SMK Langkon'],
+    ['2.55 petang', 'Ucapan YDP PIBG'],
+    ['3.05 petang', 'Ucapan dan perasmian oleh PPD'],
+    ['3.20 petang', 'Tayangan montaj kenangan murid graduasi'],
+    ['3.35 petang', 'Penyampaian sijil graduasi kepada murid'],
+    ['4.15 petang', 'Persembahan'],
+    ['4.35 petang', 'Penyampaian Anugerah Khas Graduasi:', ['Akademik', 'Harapan UB', 'Harapan Kelab dan Persatuan', 'Harapan Sukan dan Permainan']],
+    ['5.05 petang', 'Sesi bergambar rasmi:', ['Tetamu Kehormat bersama pentadbir', 'Guru-guru bersama murid graduasi']],
+    ['5.25 petang', 'Jamuan'],
+    ['6.00 petang', 'Bersurai']
   ]
 };
 </script>
 <style>
 :root{
-  --bg:#071a3a; --bg2:#0b2a5c; --card:#0d2f66; --line:rgba(212,175,55,.28);
-  --gold:#d4af37; --gold2:#ffd966; --text:#f3ead2; --muted:#a8a08a;
-  --green:#4cc38a; --red:#e57373; --blue:#5aa8ff;
+  --bg:#fbf4ee; --paper:#ffffff; --blush:#f6e1dc; --blush2:#fbeeea;
+  --rose:#c4647a; --rose-d:#8c3a52; --sage:#7c9a7e; --sage-d:#3f5d48; --sage-l:#e3ece1;
+  --gold:#b8925a; --ink:#3c2a2f; --muted:#8a7377; --line:#ecd6d0;
+  --ok:#3f8a5a; --ok-bg:#e1f1e5; --no:#b4505f; --no-bg:#f9e3e6;
+  --shadow:0 10px 30px rgba(140,58,82,.10);
 }
 *{box-sizing:border-box}
-html,body{margin:0;min-height:100%}
-body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',system-ui,sans-serif;overflow-x:hidden;
-  background-image:radial-gradient(circle at 15% 10%,rgba(212,175,55,.08),transparent 40%),radial-gradient(circle at 85% 90%,rgba(90,168,255,.07),transparent 40%);background-attachment:fixed}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;margin:0}
-a{color:var(--gold2)}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:'Nunito',system-ui,sans-serif;overflow-x:hidden;line-height:1.5}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;margin:0;font-weight:700;color:var(--rose-d)}
 button,input,select,textarea{font:inherit}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+a{color:var(--rose-d)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
 .hidden{display:none!important}
+.script{font-family:'Great Vibes',cursive;font-weight:400}
 
-/* Hero */
-header{text-align:center;padding:56px 0 40px;position:relative;border-bottom:1px solid var(--line);
-  background:repeating-linear-gradient(45deg,rgba(212,175,55,.03) 0 3px,transparent 3px 24px),repeating-linear-gradient(-45deg,rgba(212,175,55,.03) 0 3px,transparent 3px 24px),linear-gradient(180deg,#05122b,var(--bg))}
-.logo{width:130px;height:130px;border-radius:50%;border:2px solid var(--gold);margin:0 auto 18px;display:flex;align-items:center;justify-content:center;background:rgba(212,175,55,.08);box-shadow:0 0 40px rgba(212,175,55,.2)}
-.logo img{width:100px;height:100px;object-fit:contain}
-.kicker{letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-size:.8rem;margin:0 0 10px}
-.title{font-size:clamp(2rem,6vw,3.6rem);line-height:1.15;font-weight:800;
-  background:linear-gradient(90deg,#c9a227,#ffe58a,#c9a227,#ffe58a,#c9a227);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 5s linear infinite}
-@keyframes shimmer{to{background-position:200% center}}
-.divider{display:flex;align-items:center;justify-content:center;gap:12px;color:var(--gold);margin:14px 0}
-.divider span{width:60px;height:1px;background:var(--gold)}
-.year{font-family:'Playfair Display',serif;font-style:italic;font-size:1.4rem;color:var(--text);margin:0}
-.meta{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin-top:20px;color:var(--muted);font-size:.95rem}
-.meta b{color:var(--gold2);font-weight:600}
-.admin-btn{position:absolute;top:12px;right:12px;z-index:40;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:rgba(7,26,58,.85);color:var(--gold);font-weight:600;cursor:pointer;backdrop-filter:blur(6px)}
-body.demo .admin-btn{top:62px}
-@media(min-width:700px){body.demo .admin-btn{top:46px}}
-.demo-bar{background:#5a3b00;color:#ffe8b0;text-align:center;font-size:.85rem;padding:8px 16px}
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;text-align:center;padding:64px 16px 72px;
+  background:radial-gradient(ellipse at top,#fff 0%,var(--blush2) 55%,var(--blush) 100%)}
+.hero .corner{position:absolute;width:min(46vw,300px);opacity:.95;pointer-events:none}
+.hero .tl{top:-30px;left:-40px}
+.hero .tr{top:-30px;right:-40px;transform:scaleX(-1)}
+.hero .bl{bottom:-60px;left:-50px;transform:scaleY(-1);opacity:.55}
+.hero .br{bottom:-60px;right:-50px;transform:scale(-1,-1);opacity:.55}
+.emblem{position:relative;width:170px;height:170px;margin:0 auto 18px}
+.emblem svg.wreath{position:absolute;inset:0;width:100%;height:100%}
+.emblem .core{position:absolute;inset:34px;border-radius:50%;background:#fff;box-shadow:0 6px 24px rgba(140,58,82,.18);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.emblem .core img{width:82%;height:82%;object-fit:contain}
+.school{letter-spacing:.32em;font-size:.78rem;font-weight:800;color:var(--sage-d);text-transform:uppercase;margin:0;position:relative}
+.hero .script{font-size:clamp(2.6rem,9vw,4.4rem);color:var(--rose);line-height:1;margin:10px 0 0;position:relative}
+.hero h1{font-size:clamp(3rem,13vw,6.2rem);letter-spacing:.14em;line-height:1;color:var(--rose-d);margin:2px 0 6px;padding-left:.14em;position:relative}
+.hero .sub{font-family:'Cormorant Garamond',serif;font-size:clamp(1.15rem,3.6vw,1.6rem);font-style:italic;color:var(--ink);margin:0;position:relative}
+.leafline{display:flex;align-items:center;justify-content:center;gap:10px;margin:16px auto;color:var(--sage)}
+.leafline span{height:1px;width:70px;background:linear-gradient(90deg,transparent,var(--sage))}
+.leafline span:last-child{transform:scaleX(-1)}
+.info{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:8px;position:relative}
+.info div{background:rgba(255,255,255,.85);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-weight:700;font-size:.92rem;color:var(--ink);backdrop-filter:blur(4px)}
+.info b{color:var(--rose)}
+.petal{position:absolute;top:-20px;width:14px;height:10px;border-radius:14px 0 14px 0;background:var(--rose);opacity:.35;animation:fall linear infinite;pointer-events:none}
+@keyframes fall{to{transform:translate(60px,520px) rotate(360deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.petal{display:none}}
 
-/* Stats */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0}
-.stat{background:rgba(212,175,55,.07);border:1px solid var(--line);border-radius:14px;padding:16px 10px;text-align:center}
-.stat .n{font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold2)}
-.stat .l{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:4px}
-.stat.g .n{color:var(--green)} .stat.r .n{color:var(--red)} .stat.b .n{color:var(--blue)}
+.topbar{position:absolute;top:12px;right:12px;z-index:30;display:flex;gap:8px}
+.pill-btn{border:1px solid var(--line);background:rgba(255,255,255,.92);color:var(--rose-d);border-radius:999px;padding:8px 14px;font-weight:800;cursor:pointer;box-shadow:var(--shadow)}
+.demo-bar{background:var(--sage-d);color:#f3f7f1;text-align:center;font-size:.85rem;padding:8px 16px}
 
-/* Tabs */
-.tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:24px}
-.tab{min-height:52px;border-radius:14px;border:1px solid var(--line);background:rgba(212,175,55,.08);color:var(--gold);font-weight:700;cursor:pointer;padding:10px;transition:.2s}
-.tab:hover{transform:translateY(-2px)}
-.tab.active{background:linear-gradient(135deg,#b8860b,#ffd966);color:#1a1300;border-color:transparent}
-.sec-title{text-align:center;margin-bottom:20px}
-.sec-title h2{font-size:1.8rem;color:var(--text)}
-.sec-title p{color:var(--muted);margin:6px 0 0}
+/* ---------- Nav ---------- */
+nav.tabs{position:sticky;top:0;z-index:20;background:rgba(251,244,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.tabs .wrap{display:flex;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
+nav.tabs .wrap::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:9px 16px;font-weight:700;cursor:pointer;white-space:nowrap}
+.tab.active{background:var(--rose);border-color:var(--rose);color:#fff;box-shadow:0 6px 16px rgba(196,100,122,.3)}
 
-/* Toolbar */
-.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
-.toolbar input,.toolbar select{flex:1 1 200px}
-input,select,textarea{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:#051430;color:var(--text);font-size:16px}
-input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:0}
-label{display:block;font-size:.85rem;color:var(--gold);margin:0 0 5px;font-weight:600}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 16px;min-height:44px;border-radius:10px;border:1px solid transparent;font-weight:700;cursor:pointer}
-.btn-gold{background:linear-gradient(135deg,#b8860b,#ffd966);color:#1a1300}
-.btn-ghost{background:rgba(212,175,55,.1);color:var(--gold);border-color:var(--line)}
-.btn-blue{background:var(--blue);color:#041227}
-.btn-green{background:var(--green);color:#03200f}
-.btn-red{background:rgba(229,115,115,.15);color:var(--red);border-color:rgba(229,115,115,.3)}
-.btn-sm{min-height:34px;padding:6px 10px;font-size:.85rem}
-.admin-only{display:none}
-body.is-admin .admin-only{display:revert}
-body.is-admin .admin-only.flex{display:flex}
+/* ---------- Stats ---------- */
+.stats{margin:-38px auto 28px;position:relative;z-index:5;background:var(--paper);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:18px 8px;text-align:center;position:relative}
+.stat+.stat::before{content:'❀';position:absolute;left:-7px;top:50%;transform:translateY(-50%);color:#e9b9c2;font-size:.9rem}
+.stat .n{font-family:'Cormorant Garamond',serif;font-size:2.3rem;font-weight:700;line-height:1;color:var(--rose-d)}
+.stat .l{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.stat.g .n{color:var(--sage-d)}
 
-/* Cards */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center;transition:.25s;animation:fade .4s both}
-.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(212,175,55,.15)}
-@keyframes fade{from{opacity:0;transform:translateY(14px)}}
-.avatar{width:96px;height:96px;border-radius:50%;margin:0 auto 12px;border:3px solid rgba(212,175,55,.4);object-fit:cover;background:#051430;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold2)}
-.card h3{font-size:1.05rem;line-height:1.3}
-.card .cls{color:var(--muted);font-size:.9rem;margin:4px 0 10px}
-.seat{display:inline-flex;gap:8px;font-size:.85rem;background:rgba(90,168,255,.12);color:var(--blue);border-radius:8px;padding:5px 10px;margin-bottom:10px}
-.badge{display:inline-block;font-size:.78rem;font-weight:700;border-radius:999px;padding:3px 10px}
-.badge.ok{background:rgba(76,195,138,.15);color:var(--green)}
-.badge.no{background:rgba(255,255,255,.07);color:var(--muted)}
+/* ---------- Sections ---------- */
+section.page{padding:8px 0 20px}
+.head{text-align:center;margin:18px 0 22px}
+.head h2{font-size:clamp(1.8rem,5vw,2.4rem)}
+.head p{color:var(--muted);margin:4px 0 0}
+.head .flor{color:var(--rose);letter-spacing:.4em;font-size:.85rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-weight:700;font-size:.88rem;cursor:pointer;color:var(--ink)}
+.chip.on{background:var(--sage-d);color:#fff;border-color:var(--sage-d)}
+.searchbox{position:relative;max-width:520px;margin:0 auto 16px}
+.searchbox input{padding-left:42px}
+.searchbox::before{content:'⌕';position:absolute;left:15px;top:50%;transform:translateY(-52%);font-size:1.3rem;color:var(--rose)}
+input,select,textarea{width:100%;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:16px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--rose);outline-offset:1px}
+label{display:block;font-size:.85rem;font-weight:800;color:var(--sage-d);margin:0 0 5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:10px 18px;border-radius:999px;border:1px solid transparent;font-weight:800;cursor:pointer;text-decoration:none}
+.btn-rose{background:var(--rose);color:#fff}
+.btn-sage{background:var(--sage-d);color:#fff}
+.btn-line{background:#fff;color:var(--rose-d);border-color:var(--line)}
+.btn-danger{background:var(--no-bg);color:var(--no)}
+.btn-sm{min-height:34px;padding:6px 12px;font-size:.85rem}
+.btn:disabled{opacity:.6;cursor:wait}
+.adminbar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:16px;padding:12px;border:1px dashed var(--rose);border-radius:18px;background:var(--blush2)}
+.admin-only{display:none!important}
+body.is-admin .admin-only{display:block!important}
+body.is-admin .admin-only.adminbar{display:flex!important}
+.note{color:var(--muted);font-size:.88rem}
+.count-line{text-align:center;color:var(--muted);font-size:.88rem;margin:-4px 0 14px}
+
+/* Kad murid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:22px 22px 22px 6px;padding:18px 16px 14px;text-align:center;position:relative;overflow:hidden;animation:rise .35s both}
+.card::after{content:'';position:absolute;right:-26px;top:-26px;width:80px;height:80px;border-radius:50%;background:radial-gradient(circle,var(--blush) 0 30%,transparent 31%),radial-gradient(circle at 30% 70%,var(--sage-l) 0 25%,transparent 26%);opacity:.9}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+.avatar{width:78px;height:78px;margin:0 auto 10px;border-radius:50% 50% 50% 12%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.7rem;color:#fff;background:linear-gradient(135deg,var(--rose),#e3a0ad);object-fit:cover;position:relative;z-index:1}
+.avatar.L{background:linear-gradient(135deg,var(--sage-d),var(--sage))}
+.card h3{font-family:'Nunito',sans-serif;font-size:.98rem;font-weight:800;color:var(--ink);line-height:1.3;position:relative;z-index:1}
+.card .cls{font-size:.82rem;color:var(--muted);font-weight:700;margin:3px 0 10px}
+.tag{display:inline-flex;align-items:center;gap:4px;font-size:.78rem;font-weight:800;border-radius:999px;padding:4px 10px;margin:2px}
+.tag.ok{background:var(--ok-bg);color:var(--ok)}
+.tag.no{background:#f2ece9;color:var(--muted)}
+.tag.seat{background:var(--blush2);color:var(--rose-d)}
+.tag.fam{background:var(--sage-l);color:var(--sage-d)}
 .card .actions{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
-.empty{text-align:center;color:var(--muted);padding:40px 10px;border:1px dashed var(--line);border-radius:14px}
+.parents{font-size:.78rem;color:var(--sage-d);background:var(--sage-l);border-radius:10px;padding:6px 8px;margin-top:8px;text-align:left;white-space:pre-line}
+.empty{text-align:center;color:var(--muted);padding:36px 12px;border:1px dashed var(--line);border-radius:18px;background:#fff}
 
-/* Attendance list */
-.att-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
-.row{display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(13,47,102,.6);margin-bottom:8px}
-.row .no{color:var(--muted);font-size:.85rem;text-align:center}
-.row .nm{font-weight:700}
+/* Ringkasan kelas */
+.summary{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:16px;box-shadow:var(--shadow);margin-bottom:18px;overflow-x:auto}
+.summary table{width:100%;border-collapse:collapse;min-width:620px;font-size:.9rem}
+.summary th{font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);text-align:center;padding:8px 6px;border-bottom:1px solid var(--line)}
+.summary th:first-child,.summary td:first-child{text-align:left}
+.summary td{padding:10px 6px;border-bottom:1px dashed var(--line);text-align:center;font-weight:700}
+.summary tr.total td{border-bottom:0;color:var(--rose-d);font-weight:800;background:var(--blush2)}
+.bar{height:8px;border-radius:99px;background:#f2e6e2;overflow:hidden;min-width:60px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--sage),var(--sage-d));border-radius:99px}
+
+/* Senarai kehadiran */
+.row{display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;padding:12px 14px;background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:8px}
+.row .no{color:var(--muted);font-weight:700;text-align:center;font-size:.85rem}
+.row .nm{font-weight:800}
 .row .sub{font-size:.82rem;color:var(--muted)}
-.row .right{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.row .right{display:flex;gap:6px;flex-wrap:wrap;align-items:center;justify-content:flex-end}
 
-/* Panels */
-.panel{background:linear-gradient(145deg,#061633,#0b3473 55%,#06142d);border:1px solid rgba(244,215,123,.5);border-radius:18px;padding:22px}
-.agenda-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 20px}
-.agenda-meta div{border:1px solid var(--line);border-radius:10px;padding:10px;background:rgba(2,12,31,.45);text-align:center}
-.agenda-meta span{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:4px}
-.agenda-item{display:grid;grid-template-columns:100px 1fr;gap:14px;padding:14px;border:1px solid var(--line);border-radius:12px;background:rgba(2,12,31,.5);margin-bottom:10px}
-.agenda-item time{color:var(--gold2);font-weight:800}
-.agenda-item p{margin:0 0 4px}
+/* Tentatif */
+.timeline{position:relative;max-width:720px;margin:0 auto;padding-left:34px}
+.timeline::before{content:'';position:absolute;left:13px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--rose),var(--sage))}
+.t-item{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px 16px;margin-bottom:10px}
+.t-item::before{content:'✿';position:absolute;left:-31px;top:10px;width:24px;height:24px;border-radius:50%;background:var(--bg);color:var(--rose);display:flex;align-items:center;justify-content:center;font-size:1.05rem}
+.t-item time{display:block;font-weight:800;color:var(--rose);font-size:.85rem;letter-spacing:.04em}
+.t-item p{margin:2px 0 0;font-weight:700}
+.t-item ul{margin:6px 0 0;padding-left:20px;color:var(--ink)}
+.t-item ul li::marker{content:'❀  ';color:var(--sage)}
+
+/* Panel / borang */
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:var(--shadow)}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .form-grid .full{grid-column:1/-1}
-.note{font-size:.85rem;color:var(--muted)}
 
 /* Modal */
-.modal{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.82);display:flex;align-items:center;justify-content:center;padding:14px}
-.modal-box{width:100%;max-width:460px;max-height:92vh;overflow:auto;background:#0a2550;border:1px solid var(--line);border-radius:16px;padding:22px}
-.modal-box.wide{max-width:900px}
-.modal-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:16px}
-.modal-head h3{font-size:1.3rem}
-.x{background:rgba(212,175,55,.12);color:var(--gold);border:0;border-radius:8px;padding:8px 12px;cursor:pointer;font-weight:700}
+.modal{position:fixed;inset:0;z-index:60;background:rgba(60,42,47,.55);display:flex;align-items:center;justify-content:center;padding:14px;backdrop-filter:blur(3px)}
+.modal-box{width:100%;max-width:460px;max-height:92vh;overflow:auto;background:var(--bg);border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 24px 60px rgba(60,42,47,.3)}
+.modal-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px}
+.modal-head h3{font-size:1.5rem}
+.x{background:#fff;color:var(--rose-d);border-radius:999px;width:38px;height:38px;font-weight:800;cursor:pointer;border:1px solid var(--line);flex:0 0 auto}
 .stack>*+*{margin-top:12px}
-#qrVideo{width:100%;border-radius:12px;background:#020817;max-height:55vh;object-fit:cover}
-.scan-frame{position:relative}
+.qr-frame{background:#fff;border-radius:20px;padding:14px;display:inline-block;border:6px solid var(--blush)}
+.scan-frame{position:relative;border-radius:18px;overflow:hidden;background:#20151a}
+#qrVideo{width:100%;display:block;max-height:52vh;object-fit:cover}
 .scan-guide{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
-.scan-guide div{width:62%;aspect-ratio:1;border:3px solid var(--green);border-radius:18px;box-shadow:0 0 0 999px rgba(0,0,0,.2)}
-.result{border-radius:10px;padding:12px;text-align:center;font-weight:700}
-.result.ok{background:rgba(76,195,138,.15);color:var(--green)}
-.result.warn{background:rgba(255,217,102,.12);color:var(--gold2)}
-.result.err{background:rgba(229,115,115,.15);color:var(--red)}
-.qr-big{background:#fff;border-radius:14px;padding:14px;display:inline-block}
-.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:90;background:#0f3a7a;border:1px solid var(--gold);color:var(--text);padding:12px 18px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4);max-width:calc(100% - 32px);text-align:center}
-.spinner{text-align:center;padding:30px;color:var(--muted)}
-footer{border-top:1px solid var(--line);text-align:center;padding:28px 16px;margin-top:48px;color:var(--muted);font-size:.8rem}
-footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
+.scan-guide div{width:62%;aspect-ratio:1;border:3px solid #fff;border-radius:24px;box-shadow:0 0 0 999px rgba(0,0,0,.25)}
+.result{border-radius:16px;padding:12px;text-align:center;font-weight:800}
+.result.ok{background:var(--ok-bg);color:var(--ok)}
+.result.warn{background:#fdf1dc;color:#8a5a12}
+.result.err{background:var(--no-bg);color:var(--no)}
+.famset{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:90;background:var(--rose-d);color:#fff;padding:12px 20px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.25);max-width:calc(100% - 32px);text-align:center;font-weight:700}
+.spinner{text-align:center;color:var(--muted);padding:30px}
+footer{text-align:center;padding:34px 16px 40px;margin-top:30px;background:var(--blush);color:var(--rose-d)}
+footer .script{font-size:clamp(1.6rem,6vw,2.2rem);color:var(--rose);line-height:1.2}
+footer small{display:block;color:var(--muted);margin-top:4px}
 
 @media (max-width:700px){
   .stats{grid-template-columns:repeat(2,1fr)}
-  .tabs{grid-template-columns:repeat(2,1fr)}
-  .agenda-meta,.form-grid{grid-template-columns:1fr}
-  .agenda-item{grid-template-columns:1fr;gap:4px}
+  .stat:nth-child(3)::before{display:none}
+  .stat:nth-child(n+3){border-top:1px dashed var(--line)}
+  .form-grid{grid-template-columns:1fr}
   .row{grid-template-columns:1fr}
   .row .no{display:none}
   .row .right{justify-content:flex-start}
-  header{padding-top:64px}
+  .hero{padding-top:84px}
 }
 
 /* Cetak kad QR */
 #printArea{display:none}
 @media print{
-  body{background:#fff!important;color:#000}
+  body{background:#fff!important}
   body>*:not(#printArea){display:none!important}
-  #printArea{display:grid!important;grid-template-columns:repeat(3,1fr);gap:8mm}
-  .pcard{border:1px solid #999;border-radius:6px;padding:6mm;text-align:center;break-inside:avoid;font-family:'Source Sans 3',sans-serif}
-  .pcard img{width:38mm;height:38mm}
-  .pcard .s{font-size:9pt;color:#444}
-  .pcard .n{font-weight:700;font-size:11pt;margin:2mm 0 1mm}
+  #printArea{display:grid!important;grid-template-columns:repeat(3,1fr);gap:6mm}
+  .pcard{border:1.5px solid #c4647a;border-radius:6mm 6mm 6mm 1.5mm;padding:5mm;text-align:center;break-inside:avoid;font-family:'Nunito',sans-serif}
+  .pcard img{width:36mm;height:36mm}
+  .pcard .s{font-size:8pt;color:#8a7377}
+  .pcard .n{font-weight:800;font-size:10pt;margin:2mm 0 1mm;color:#3c2a2f}
+  .pcard .t{font-family:'Great Vibes',cursive;font-size:15pt;color:#c4647a}
 }
 </style>
 </head>
 <body>
 
-<div id="demoBar" class="demo-bar hidden">Mod Demo — data disimpan dalam pelayar ini sahaja. Isi <b>CONFIG.API_URL</b> untuk sambung ke Google Sheets.</div>
-<button class="admin-btn" id="adminBtn" onclick="adminBtnClick()">🔐 Admin</button>
+<!-- Bunga untuk hiasan (diguna semula) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="flower">
+      <g fill="#e7a3b1">
+        <ellipse cx="0" cy="-11" rx="7" ry="11"/><ellipse cx="0" cy="-11" rx="7" ry="11" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-11" rx="7" ry="11" transform="rotate(144)"/><ellipse cx="0" cy="-11" rx="7" ry="11" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-11" rx="7" ry="11" transform="rotate(288)"/>
+      </g>
+      <circle r="5" fill="#d9a85c"/>
+    </g>
+    <g id="flower2">
+      <g fill="#c4647a">
+        <ellipse cx="0" cy="-8" rx="5" ry="8"/><ellipse cx="0" cy="-8" rx="5" ry="8" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-8" rx="5" ry="8" transform="rotate(120)"/><ellipse cx="0" cy="-8" rx="5" ry="8" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-8" rx="5" ry="8" transform="rotate(240)"/><ellipse cx="0" cy="-8" rx="5" ry="8" transform="rotate(300)"/>
+      </g>
+      <circle r="3.5" fill="#fbeeea"/>
+    </g>
+    <path id="leaf" d="M0 0 C 8 -10, 24 -10, 32 0 C 24 10, 8 10, 0 0 Z" fill="#9db69c"/>
+    <path id="leaf2" d="M0 0 C 8 -10, 24 -10, 32 0 C 24 10, 8 10, 0 0 Z" fill="#6f8f73"/>
+    <g id="cluster">
+      <path d="M10 10 C 80 40, 140 60, 260 50" stroke="#7c9a7e" stroke-width="2.5" fill="none"/>
+      <path d="M30 20 C 60 90, 100 140, 120 230" stroke="#7c9a7e" stroke-width="2.5" fill="none"/>
+      <use href="#leaf" transform="translate(70 34) rotate(-20)"/><use href="#leaf2" transform="translate(120 50) rotate(15)"/>
+      <use href="#leaf" transform="translate(180 54) rotate(-10)"/><use href="#leaf2" transform="translate(54 70) rotate(70)"/>
+      <use href="#leaf" transform="translate(80 130) rotate(110)"/><use href="#leaf2" transform="translate(100 170) rotate(60)"/>
+      <use href="#flower" transform="translate(40 40) scale(1.6)"/>
+      <use href="#flower2" transform="translate(110 30) scale(1.4)"/>
+      <use href="#flower" transform="translate(200 46) scale(1.1)"/>
+      <use href="#flower2" transform="translate(70 110) scale(1.5)"/>
+      <use href="#flower" transform="translate(112 200) scale(1.0)"/>
+      <use href="#flower2" transform="translate(240 50) scale(.9)"/>
+      <circle cx="150" cy="70" r="3" fill="#d9a85c"/><circle cx="90" cy="80" r="2.5" fill="#d9a85c"/><circle cx="60" cy="150" r="3" fill="#d9a85c"/>
+    </g>
+  </defs>
+</svg>
 
-<header>
-  <div class="wrap">
-    <div class="logo" id="logoBox"><span style="font-size:3.6rem">🎓</span></div>
-    <p class="kicker" id="hSekolah"></p>
-    <h1 class="title" id="hTajuk"></h1>
-    <div class="divider"><span></span>✦<span></span></div>
-    <p class="year" id="hTahun"></p>
-    <div class="meta">
-      <div>📅 <b id="hTarikh"></b></div>
-      <div>🕗 <b id="hMasa"></b></div>
-      <div>📍 <b id="hTempat"></b></div>
-    </div>
+<div id="demoBar" class="demo-bar hidden">Mod Demo — data disimpan dalam pelayar ini sahaja. Isi <b>CONFIG.API_URL</b> untuk sambung ke Google Sheets.</div>
+
+<header class="hero" id="hero">
+  <div class="topbar"><button class="pill-btn" id="adminBtn" onclick="adminBtnClick()">🔒 Admin</button></div>
+  <svg class="corner tl" viewBox="0 0 280 260"><use href="#cluster"/></svg>
+  <svg class="corner tr" viewBox="0 0 280 260"><use href="#cluster"/></svg>
+  <svg class="corner bl" viewBox="0 0 280 260"><use href="#cluster"/></svg>
+  <svg class="corner br" viewBox="0 0 280 260"><use href="#cluster"/></svg>
+
+  <div class="emblem">
+    <svg class="wreath" viewBox="-100 -100 200 200" id="wreath"></svg>
+    <div class="core" id="logoBox"><svg viewBox="-30 -30 60 60" width="70" height="70"><use href="#flower" transform="scale(1.8)"/></svg></div>
+  </div>
+  <p class="school" id="hSekolah"></p>
+  <p class="script">Majlis Apresiasi</p>
+  <h1 id="hNama"></h1>
+  <p class="sub" id="hSub"></p>
+  <div class="leafline"><span></span>❦<span></span></div>
+  <div class="info">
+    <div>📅 <b id="hTarikh"></b></div>
+    <div>🕑 <b id="hMasa"></b></div>
+    <div>📍 <b id="hTempat"></b></div>
   </div>
 </header>
 
 <main class="wrap">
   <section class="stats">
     <div class="stat"><div class="n" id="sTotal">0</div><div class="l">Murid</div></div>
-    <div class="stat g"><div class="n" id="sHadir">0</div><div class="l">Telah Hadir</div></div>
-    <div class="stat r"><div class="n" id="sBelum">0</div><div class="l">Belum Hadir</div></div>
-    <div class="stat b"><div class="n" id="sTetamu">0</div><div class="l">Tetamu Berdaftar</div></div>
+    <div class="stat g"><div class="n" id="sHadir">0</div><div class="l">Murid Hadir</div></div>
+    <div class="stat"><div class="n" id="sIbuBapa">0</div><div class="l">Ibu Bapa Hadir</div></div>
+    <div class="stat g"><div class="n" id="sJumlah">0</div><div class="l">Jumlah Kehadiran</div></div>
+  </section>
+</main>
+
+<nav class="tabs">
+  <div class="wrap" id="tabs">
+    <button class="tab active" data-tab="murid">🌸 Cari Murid</button>
+    <button class="tab" data-tab="kehadiran">✅ Rekod Kehadiran</button>
+    <button class="tab" data-tab="tetamu">📝 Daftar Tetamu</button>
+    <button class="tab" data-tab="tentatif">🗓️ Tentatif</button>
+    <button class="tab" data-tab="pelan">🪑 Tempat Duduk</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <!-- MURID -->
+  <section class="page" id="tab-murid">
+    <div class="head"><div class="flor">✿ ❀ ✿</div><h2>Murid Tingkatan 5</h2><p>Cari nama anda untuk mendapatkan kod QR kehadiran.</p></div>
+    <div class="adminbar admin-only">
+      <button class="btn btn-rose btn-sm" onclick="openMuridForm()">＋ Tambah Murid</button>
+      <button class="btn btn-line btn-sm" onclick="openModal('importModal')">📥 Import dari Excel</button>
+      <button class="btn btn-line btn-sm" onclick="printQR()">🖨️ Cetak Kad QR</button>
+      <button class="btn btn-line btn-sm hidden" id="seedBtn" onclick="seedData()">🌱 Masukkan 118 murid asal</button>
+    </div>
+    <div class="searchbox"><input id="qMurid" type="search" placeholder="Taip nama murid..." oninput="renderMurid()"></div>
+    <div class="chips" id="kelasChips"></div>
+    <p class="count-line" id="muridCount"></p>
+    <div id="muridGrid" class="grid"><div class="spinner">Memuatkan data…</div></div>
   </section>
 
-  <nav class="tabs" id="tabs">
-    <button class="tab active" data-tab="murid">🎓 Senarai Murid</button>
-    <button class="tab" data-tab="tetamu">📝 Daftar Tetamu</button>
-    <button class="tab" data-tab="aturcara">🗓️ Atur Cara</button>
-    <button class="tab" data-tab="pelan">🪑 Tempat Duduk</button>
-    <button class="tab" data-tab="kehadiran">✅ Rekod Kehadiran</button>
-  </nav>
-
-  <!-- MURID -->
-  <section id="tab-murid">
-    <div class="sec-title"><h2>Murid Tingkatan 5</h2><p>Cari nama anda untuk melihat tempat duduk dan kod QR kehadiran.</p></div>
-    <div class="toolbar">
-      <input id="qGrad" type="search" placeholder="🔍 Cari nama murid..." oninput="renderGrad()">
-      <select id="fKelas" onchange="renderGrad()"><option value="">Semua kelas</option></select>
+  <!-- KEHADIRAN -->
+  <section class="page hidden" id="tab-kehadiran">
+    <div class="head"><div class="flor">✿ ❀ ✿</div><h2>Rekod Kehadiran</h2><p>Analisis kehadiran mengikut kelas — dikemas kini secara langsung.</p></div>
+    <div class="adminbar admin-only">
+      <button class="btn btn-sage" onclick="openScanner()">📷 Imbas QR</button>
+      <button class="btn btn-line btn-sm" onclick="exportAttendance()">⬇️ CSV Kehadiran</button>
+      <button class="btn btn-danger btn-sm" onclick="resetAll()">↺ Set Semula Semua</button>
     </div>
-    <div class="toolbar admin-only flex">
-      <button class="btn btn-gold" onclick="openGradForm()">＋ Tambah Murid</button>
-      <button class="btn btn-ghost" onclick="openModal('importModal')">📥 Import Senarai</button>
-      <button class="btn btn-ghost" onclick="printQR()">🖨️ Cetak Kad QR</button>
-    </div>
-    <div id="gradGrid" class="grid"><div class="spinner">Memuatkan data...</div></div>
+    <div class="summary" id="summary"></div>
+    <div class="chips" id="attKelasChips"></div>
+    <div class="chips" id="attStatusChips"></div>
+    <div class="searchbox"><input id="qAtt" type="search" placeholder="Cari nama..." oninput="renderAtt()"></div>
+    <p class="count-line" id="attNote"></p>
+    <div id="attList"></div>
   </section>
 
   <!-- TETAMU -->
-  <section id="tab-tetamu" class="hidden">
-    <div class="sec-title"><h2>Pendaftaran Ibu Bapa &amp; Tetamu</h2><p>Sila daftar semasa tiba di majlis.</p></div>
+  <section class="page hidden" id="tab-tetamu">
+    <div class="head"><div class="flor">✿ ❀ ✿</div><h2>Pendaftaran Tetamu</h2><p>Untuk ibu bapa, penjaga dan tetamu jemputan semasa tiba di majlis.</p></div>
     <div class="panel" style="max-width:640px;margin:0 auto">
       <form id="visitorForm" onsubmit="submitVisitor(event)">
         <div class="form-grid">
@@ -250,73 +364,45 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
           <div><label for="vTel">No. telefon</label><input id="vTel" type="tel" maxlength="20" autocomplete="tel" placeholder="01x-xxxxxxx"></div>
           <div><label for="vHub">Hubungan</label>
             <select id="vHub"><option>Ibu / Bapa</option><option>Penjaga</option><option>Ahli keluarga</option><option>Guru / Kakitangan</option><option>Tetamu jemputan</option><option>Lain-lain</option></select></div>
-          <div><label for="vGrad">Nama murid (jika berkaitan)</label><input id="vGrad" list="gradNames" maxlength="120"><datalist id="gradNames"></datalist></div>
+          <div><label for="vMurid">Nama anak / murid (jika berkaitan)</label><input id="vMurid" list="muridNames" maxlength="120"><datalist id="muridNames"></datalist></div>
           <div><label for="vBil">Bilangan orang (termasuk anda)</label><input id="vBil" type="number" min="1" max="20" value="1"></div>
         </div>
-        <button class="btn btn-gold" style="width:100%;margin-top:18px" id="vSubmit">Daftar Kehadiran</button>
+        <button class="btn btn-rose" style="width:100%;margin-top:18px" id="vSubmit">Daftar Kehadiran</button>
       </form>
       <div id="visitorDone" class="hidden" style="text-align:center">
-        <div style="font-size:3rem">🎉</div>
-        <h3 style="color:var(--gold2)">Terima kasih!</h3>
-        <p id="visitorDoneText" class="note"></p>
-        <button class="btn btn-ghost" onclick="resetVisitor()">Daftar tetamu lain</button>
+        <div class="script" style="font-size:2.6rem;color:var(--rose)">Terima kasih</div>
+        <p id="visitorDoneText"></p>
+        <button class="btn btn-line" onclick="resetVisitor()">Daftar tetamu lain</button>
       </div>
     </div>
-    <div class="admin-only" style="margin-top:28px">
-      <div class="toolbar" style="justify-content:space-between;align-items:center">
-        <h3>Senarai Tetamu (admin)</h3>
-        <button class="btn btn-ghost btn-sm" onclick="exportVisitors()">⬇️ Muat turun CSV</button>
+    <div class="admin-only" style="margin-top:26px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px">
+        <h3 style="font-size:1.5rem">Senarai Tetamu</h3>
+        <button class="btn btn-line btn-sm" onclick="exportVisitors()">⬇️ CSV</button>
       </div>
       <div id="visitorList"></div>
     </div>
   </section>
 
-  <!-- ATUR CARA -->
-  <section id="tab-aturcara" class="hidden">
-    <div class="panel">
-      <div style="text-align:center">
-        <p class="kicker" id="aSekolah"></p>
-        <h2 style="color:var(--gold2);font-size:2rem">Atur Cara Majlis</h2>
-      </div>
-      <div class="agenda-meta">
-        <div><span>Tarikh</span><b id="aTarikh"></b></div>
-        <div><span>Masa</span><b id="aMasa"></b></div>
-        <div><span>Tempat</span><b id="aTempat"></b></div>
-      </div>
-      <div id="agendaList"></div>
-      <div id="bukuBox" class="hidden" style="text-align:center;margin-top:16px"><a class="btn btn-gold" id="bukuLink" target="_blank" rel="noopener">📖 Buka Buku Atur Cara</a></div>
-    </div>
+  <!-- TENTATIF -->
+  <section class="page hidden" id="tab-tentatif">
+    <div class="head"><div class="flor">✿ ❀ ✿</div><h2>Tentatif Majlis</h2><p id="tSub"></p></div>
+    <div class="timeline" id="timeline"></div>
+    <div id="bukuBox" class="hidden" style="text-align:center;margin-top:16px"><a class="btn btn-rose" id="bukuLink" target="_blank" rel="noopener">📖 Buka Buku Atur Cara</a></div>
   </section>
 
   <!-- PELAN -->
-  <section id="tab-pelan" class="hidden">
-    <div class="sec-title"><h2>Pelan Tempat Duduk</h2><p>Cari nama anda di tab Senarai Murid untuk nombor meja dan kerusi.</p></div>
+  <section class="page hidden" id="tab-pelan">
+    <div class="head"><div class="flor">✿ ❀ ✿</div><h2>Pelan Tempat Duduk</h2><p>Cari nama anda di tab “Cari Murid” untuk melihat nombor meja dan kerusi.</p></div>
     <div id="pelanBox" class="panel" style="text-align:center"></div>
-  </section>
-
-  <!-- KEHADIRAN -->
-  <section id="tab-kehadiran" class="hidden">
-    <div class="sec-title"><h2>Rekod Kehadiran Murid</h2><p>Status kehadiran dikemas kini secara automatik.</p></div>
-    <div class="att-stats">
-      <div class="stat g"><div class="n" id="kHadir">0</div><div class="l">Hadir</div></div>
-      <div class="stat r"><div class="n" id="kBelum">0</div><div class="l">Belum Hadir</div></div>
-      <div class="stat"><div class="n" id="kPeratus">0%</div><div class="l">Peratus</div></div>
-    </div>
-    <div class="toolbar admin-only flex">
-      <button class="btn btn-blue" onclick="openScanner()">📷 Imbas QR</button>
-      <button class="btn btn-ghost" onclick="exportAttendance()">⬇️ Muat turun CSV</button>
-    </div>
-    <div class="toolbar">
-      <input id="qAtt" type="search" placeholder="🔍 Cari nama..." oninput="renderAtt()">
-      <select id="fAttKelas" onchange="renderAtt()"><option value="">Semua kelas</option></select>
-      <select id="fAttStatus" onchange="renderAtt()"><option value="">Semua status</option><option value="Hadir">Hadir</option><option value="Belum">Belum hadir</option></select>
-    </div>
-    <p class="note" id="attNote"></p>
-    <div id="attList"></div>
   </section>
 </main>
 
-<footer><b id="fSekolah"></b><div style="margin-top:6px" id="fMoto"></div><div style="margin-top:4px">© <span id="fTahun"></span> Majlis Apresiasi PRAKASA Murid Tingkatan 5</div></footer>
+<footer>
+  <div class="script" id="fNama"></div>
+  <b id="fSekolah"></b>
+  <small id="fTahun"></small>
+</footer>
 
 <!-- MODAL: LOGIN -->
 <div id="loginModal" class="modal hidden" onclick="bgClose(event)">
@@ -324,29 +410,31 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
     <div class="modal-head"><h3>Log Masuk Admin</h3><button class="x" onclick="closeModal('loginModal')">✕</button></div>
     <form onsubmit="doLogin(event)" class="stack">
       <div><label for="pw">Kata laluan</label><input id="pw" type="password" required autocomplete="current-password"></div>
-      <p id="loginErr" class="note" style="color:var(--red)"></p>
-      <button class="btn btn-gold" style="width:100%" id="loginBtn">Masuk</button>
+      <p id="loginErr" class="note" style="color:var(--no)"></p>
+      <button class="btn btn-rose" style="width:100%" id="loginBtn">Masuk</button>
     </form>
   </div>
 </div>
 
 <!-- MODAL: MURID -->
-<div id="gradModal" class="modal hidden" onclick="bgClose(event)">
+<div id="muridModal" class="modal hidden" onclick="bgClose(event)">
   <div class="modal-box">
-    <div class="modal-head"><h3 id="gradModalTitle">Tambah Murid</h3><button class="x" onclick="closeModal('gradModal')">✕</button></div>
-    <form onsubmit="saveGrad(event)">
-      <input type="hidden" id="gId">
+    <div class="modal-head"><h3 id="muridModalTitle">Tambah Murid</h3><button class="x" onclick="closeModal('muridModal')">✕</button></div>
+    <form onsubmit="saveMurid(event)">
+      <input type="hidden" id="mId">
       <div class="form-grid">
-        <div class="full"><label for="gNama">Nama penuh *</label><input id="gNama" required maxlength="120"></div>
-        <div><label for="gKelas">Kelas</label><input id="gKelas" maxlength="40" placeholder="cth: 5 Amanah"></div>
-        <div><label for="gNo">No. murid / angka giliran</label><input id="gNo" maxlength="40"></div>
-        <div><label for="gMeja">Meja / Baris</label><input id="gMeja" maxlength="20" placeholder="cth: B3"></div>
-        <div><label for="gKerusi">Kerusi</label><input id="gKerusi" maxlength="20" placeholder="cth: 12"></div>
-        <div class="full"><label for="gGambar">URL gambar (pilihan)</label><input id="gGambar" type="url" maxlength="300" placeholder="https://..."></div>
+        <div class="full"><label for="mNama">Nama penuh *</label><input id="mNama" required maxlength="120"></div>
+        <div><label for="mKelas">Kelas</label><input id="mKelas" maxlength="40" list="kelasList" placeholder="cth: 5 INOVATIF"><datalist id="kelasList"></datalist></div>
+        <div><label for="mJantina">Jantina</label><select id="mJantina"><option value="">—</option><option value="L">Lelaki</option><option value="P">Perempuan</option></select></div>
+        <div><label for="mMeja">Meja / Baris</label><input id="mMeja" maxlength="20"></div>
+        <div><label for="mKerusi">Kerusi</label><input id="mKerusi" maxlength="20"></div>
+        <div><label for="mBil">Bil. ibu bapa hadir</label><input id="mBil" type="number" min="0" max="10"></div>
+        <div><label for="mGambar">URL gambar</label><input id="mGambar" type="url" maxlength="300" placeholder="https://..."></div>
+        <div class="full"><label for="mIbuBapa">Nama ibu bapa / penjaga</label><textarea id="mIbuBapa" rows="2" maxlength="400"></textarea></div>
       </div>
       <div style="display:flex;gap:10px;margin-top:18px">
-        <button type="button" class="btn btn-ghost" style="flex:1" onclick="closeModal('gradModal')">Batal</button>
-        <button class="btn btn-gold" style="flex:1" id="gSave">Simpan</button>
+        <button type="button" class="btn btn-line" style="flex:1" onclick="closeModal('muridModal')">Batal</button>
+        <button class="btn btn-rose" style="flex:1" id="mSave">Simpan</button>
       </div>
     </form>
   </div>
@@ -355,11 +443,13 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 <!-- MODAL: IMPORT -->
 <div id="importModal" class="modal hidden" onclick="bgClose(event)">
   <div class="modal-box">
-    <div class="modal-head"><h3>Import Senarai Murid</h3><button class="x" onclick="closeModal('importModal')">✕</button></div>
+    <div class="modal-head"><h3>Import dari Excel</h3><button class="x" onclick="closeModal('importModal')">✕</button></div>
     <div class="stack">
-      <p class="note">Satu murid setiap baris. Format: <b>Nama, Kelas, Meja, Kerusi</b> (kelas, meja dan kerusi pilihan). Boleh salin terus dari Excel / Google Sheets.</p>
-      <textarea id="importText" rows="10" placeholder="Ahmad bin Ali, 5 Amanah, A1, 1&#10;Siti Aminah binti Yusof, 5 Bestari, A1, 2"></textarea>
-      <button class="btn btn-gold" style="width:100%" onclick="doImport()" id="importBtn">Import</button>
+      <p class="note">Salin baris dari helaian <b>“Senarai Murid”</b> (lajur Bil, Kelas, Nama Murid, L/P, Status, Bil. Ibu Bapa, Ibu Bapa) dan tampal di bawah.
+        Atau tulis ringkas: <b>Nama, Kelas</b> satu baris seorang. Murid yang sudah ada akan dikemas kini, bukan digandakan.</p>
+      <textarea id="importText" rows="9" placeholder="1	5 INOVATIF	AGNES VYVECCA SIMON	P	Hadir	2	...&#10;atau&#10;Ali bin Abu, 5 KREATIF"></textarea>
+      <label style="display:flex;gap:8px;align-items:center;font-weight:700;color:var(--ink)"><input type="checkbox" id="importStatus" style="width:auto"> Ikut status “Hadir” dalam fail</label>
+      <button class="btn btn-rose" style="width:100%" onclick="doImport()" id="importBtn">Import</button>
     </div>
   </div>
 </div>
@@ -368,26 +458,26 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 <div id="qrModal" class="modal hidden" onclick="bgClose(event)">
   <div class="modal-box" style="text-align:center">
     <div class="modal-head"><h3>Kod QR Kehadiran</h3><button class="x" onclick="closeModal('qrModal')">✕</button></div>
-    <div class="qr-big"><canvas id="qrCanvasBig"></canvas></div>
-    <h3 id="qrName" style="margin-top:14px;color:var(--gold2)"></h3>
+    <div class="qr-frame"><canvas id="qrCanvasBig"></canvas></div>
+    <h3 id="qrName" style="margin-top:14px;font-family:Nunito,sans-serif;font-size:1.1rem;color:var(--ink)"></h3>
     <p id="qrInfo" class="note"></p>
     <p class="note">Tunjukkan kod ini di kaunter pendaftaran. Tangkap layar untuk simpan.</p>
-    <button class="btn btn-ghost" onclick="downloadQR()">⬇️ Simpan gambar QR</button>
+    <button class="btn btn-line" onclick="downloadQR()">⬇️ Simpan gambar QR</button>
   </div>
 </div>
 
-<!-- MODAL: SCANNER -->
+<!-- MODAL: PENGIMBAS -->
 <div id="scanModal" class="modal hidden">
   <div class="modal-box">
-    <div class="modal-head"><h3>Imbas QR Kehadiran</h3><button class="x" onclick="closeScanner()">✕</button></div>
+    <div class="modal-head"><h3>Imbas QR</h3><button class="x" onclick="closeScanner()">✕</button></div>
     <div class="stack">
       <div class="scan-frame"><video id="qrVideo" playsinline muted></video><div class="scan-guide"><div></div></div></div>
       <canvas id="scanCanvas" class="hidden"></canvas>
-      <p id="scanStatus" class="note" style="text-align:center">Menghidupkan kamera...</p>
+      <p id="scanStatus" class="note" style="text-align:center">Menghidupkan kamera…</p>
       <div id="scanResult" class="result hidden"></div>
       <form onsubmit="manualCheckin(event)" style="display:flex;gap:8px">
-        <input id="manualInput" placeholder="Atau taip nama / ID murid" list="gradNames">
-        <button class="btn btn-green">Hadir</button>
+        <input id="manualInput" placeholder="Atau taip nama murid" list="muridNames">
+        <button class="btn btn-sage">Hadir</button>
       </form>
     </div>
   </div>
@@ -399,34 +489,39 @@ footer b{color:var(--gold);letter-spacing:.2em;text-transform:uppercase}
 <script>
 /* ===================== STATE ===================== */
 const DEMO = !CONFIG.API_URL;
+const DEMO_PASS = 'prakasa2026';
 let murid = [];
-let bilTetamu = 0, bilPengunjung = 0;
+let bilTetamu = 0;
 let visitors = [];
-let adminPass = sessionStorageGet('gradPass') || '';
+let adminPass = ssGet('prakasaPass') || '';
 let currentTab = 'murid';
+let kelasFilter = '', attKelas = '', attStatus = '';
 let currentQR = null;
 
 /* ===================== UTIL ===================== */
 function $(id){ return document.getElementById(id); }
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-function sessionStorageGet(k){ try { return sessionStorage.getItem(k); } catch(e){ return null; } }
-function sessionStorageSet(k,v){ try { v ? sessionStorage.setItem(k,v) : sessionStorage.removeItem(k); } catch(e){} }
+function ssGet(k){ try { return sessionStorage.getItem(k); } catch(e){ return null; } }
+function ssSet(k,v){ try { v ? sessionStorage.setItem(k,v) : sessionStorage.removeItem(k); } catch(e){} }
 function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.remove('hidden'); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.add('hidden'),3200); }
 function openModal(id){ $(id).classList.remove('hidden'); document.body.style.overflow='hidden'; }
 function closeModal(id){ $(id).classList.add('hidden'); document.body.style.overflow=''; }
-function bgClose(e){ if(e.target === e.currentTarget) closeModal(e.currentTarget.id); }
-function initials(n){ return String(n||'?').trim().split(/\s+/).filter(w=>!/^(bin|binti|bt|b\.|a\/l|a\/p)$/i.test(w)).slice(0,2).map(w=>w[0]).join('').toUpperCase(); }
+function bgClose(e){ if (e.target === e.currentTarget) closeModal(e.currentTarget.id); }
+function initials(n){ return String(n||'?').trim().split(/\s+/).filter(w=>!/^(bin|binti|bt|b\.|a\/l|a\/p|@)$/i.test(w)).slice(0,2).map(w=>w[0]).join('').toUpperCase(); }
 function nowStr(){ const d=new Date(), p=n=>String(n).padStart(2,'0'); return `${p(d.getDate())}/${p(d.getMonth()+1)}/${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`; }
-function byName(a,b){ return String(a.kelas).localeCompare(String(b.kelas)) || String(a.nama).localeCompare(String(b.nama)); }
-function avatarFail(img){ const d=document.createElement('div'); d.className='avatar'; d.textContent=img.dataset.i; img.replaceWith(d); }
+function byKelasNama(a,b){ return String(a.kelas).localeCompare(String(b.kelas)) || String(a.nama).localeCompare(String(b.nama)); }
+function hadir(m){ return m.status === 'Hadir'; }
+function bilIB(m){ return parseInt(m.bilIbuBapa, 10) || 0; }
 function isAdmin(){ return !!adminPass; }
-document.addEventListener('keydown', e => { if(e.key==='Escape'){ document.querySelectorAll('.modal:not(.hidden)').forEach(m => m.id==='scanModal' ? closeScanner() : closeModal(m.id)); }});
+function kelasList(){ return [...new Set(murid.map(m => m.kelas).filter(Boolean))].sort(); }
+function avatarFail(img){ const d=document.createElement('div'); d.className=img.className; d.textContent=img.dataset.i; img.replaceWith(d); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.modal:not(.hidden)').forEach(m => m.id === 'scanModal' ? closeScanner() : closeModal(m.id)); });
 
 /* ===================== API ===================== */
 async function api(action, data){
   const payload = Object.assign({ action, password: adminPass }, data);
   if (DEMO) return demoApi(action, payload);
-  // Tiada header Content-Type supaya Apps Script tidak menolak (elak CORS preflight).
+  // Tiada header Content-Type supaya tiada CORS preflight ke Apps Script.
   const res = await fetch(CONFIG.API_URL, { method:'POST', body: JSON.stringify(payload) });
   const out = await res.json();
   if (!out.ok) throw new Error(out.error || 'Ralat pelayan');
@@ -435,49 +530,55 @@ async function api(action, data){
 async function loadData(){
   try {
     let d;
-    if (DEMO) d = demoApi('get');
+    if (DEMO) d = demoApi(isAdmin() ? 'adminData' : 'get', { password: adminPass });
+    else if (isAdmin()) d = await api('adminData');
     else { const r = await fetch(CONFIG.API_URL); d = await r.json(); }
-    murid = (d.murid || []).map(g => Object.assign({}, g, { id:String(g.id) }));
-    bilTetamu = Number(d.bilTetamu) || 0; bilPengunjung = Number(d.bilPengunjung) || 0;
+    murid = (d.murid || []).map(m => Object.assign({}, m, { id: String(m.id) }));
+    bilTetamu = Number(d.bilTetamu) || 0;
     renderAll();
   } catch(err){
-    $('gradGrid').innerHTML = '<div class="empty">Gagal memuatkan data. Semak sambungan internet atau CONFIG.API_URL.</div>';
+    if (isAdmin() && /kata laluan/i.test(err.message)) { setAdmin(''); return; }
+    $('muridGrid').innerHTML = '<div class="empty">Gagal memuatkan data. Semak sambungan internet atau CONFIG.API_URL.</div>';
   }
 }
 
 /* Mod demo: meniru backend Apps Script menggunakan localStorage */
-function demoLoad(){
-  let db; try { db = JSON.parse(localStorage.getItem('gradDemo') || 'null'); } catch(e){}
-  if (!db) {
-    const names = [['Ahmad Firdaus bin Jainal','5 Amanah'],['Nur Aisyah binti Rahman','5 Amanah'],['Jovenly anak Gidong','5 Amanah'],['Mohd Hafiz bin Sulaiman','5 Bestari'],['Clarissa Jinius','5 Bestari'],['Siti Nurhaliza binti Ismail','5 Bestari'],['Rayner Lim','5 Cemerlang'],['Nurul Izzah binti Amin','5 Cemerlang'],['Daniel Majimbun','5 Cemerlang']];
-    db = { murid: names.map((n,i)=>({ id:'G'+(1001+i), nama:n[0], kelas:n[1], noMurid:'', meja:'A'+(Math.floor(i/3)+1), kerusi:String(i%3+1), gambar:'', status: i<2?'Hadir':'', masaHadir: i<2?nowStr():'' })), pengunjung: [] };
+function demoDb(){
+  let db; try { db = JSON.parse(localStorage.getItem('prakasaDemo') || 'null'); } catch(e){}
+  if (!db){
+    db = { murid: (window.DATA_MURID || []).map((m,i) => Object.assign({ meja:'', kerusi:'', gambar:'', ibuBapa:'' }, m, { id:'P' + (1001 + i), masaHadir:'' })), pengunjung: [] };
   }
   return db;
 }
-function demoSave(db){ try { localStorage.setItem('gradDemo', JSON.stringify(db)); } catch(e){} }
 function demoApi(action, b){
-  const db = demoLoad();
-  const pub = ['get','visitor'];
-  if (pub.indexOf(action) === -1 && b.password !== 'prakasa2026') throw new Error('Kata laluan admin salah');
-  const find = id => db.murid.find(g => g.id === String(id));
-  const newId = () => 'G' + Math.random().toString(36).slice(2,9).toUpperCase();
+  const db = demoDb();
+  if (['get','visitor'].indexOf(action) === -1 && b.password !== DEMO_PASS) throw new Error('Kata laluan admin salah');
+  const find = id => db.murid.find(m => m.id === String(id));
+  const newId = () => 'P' + Math.random().toString(36).slice(2,9).toUpperCase();
+  const EDIT = ['nama','kelas','jantina','meja','kerusi','gambar','bilIbuBapa','ibuBapa'];
+  const pub = () => ({ ok:true, murid: db.murid.map(m => { const c = Object.assign({}, m); if (action !== 'adminData') delete c.ibuBapa; return c; }), bilTetamu: db.pengunjung.reduce((t,v)=>t+(+v.bilangan||1),0) });
   let out = { ok:true };
   switch(action){
-    case 'get': out = { ok:true, murid:db.murid, bilPengunjung:db.pengunjung.length, bilTetamu:db.pengunjung.reduce((t,v)=>t+(+v.bilangan||1),0) }; break;
+    case 'get': case 'adminData': out = pub(); break;
     case 'login': break;
-    case 'add': { const r = Object.assign({ noMurid:'',meja:'',kerusi:'',gambar:'',kelas:'' }, b.record, { id:newId(), status:'', masaHadir:'' }); db.murid.push(r); out.record=r; break; }
-    case 'bulkAdd': b.records.forEach(r => db.murid.push(Object.assign({ noMurid:'',meja:'',kerusi:'',gambar:'',kelas:'' }, r, { id:newId(), status:'', masaHadir:'' }))); out.count=b.records.length; break;
-    case 'update': { const g=find(b.record.id); if(!g) throw new Error('Rekod tidak dijumpai'); ['nama','kelas','noMurid','meja','kerusi','gambar'].forEach(k=>g[k]=b.record[k]); out.record=g; break; }
-    case 'delete': db.murid = db.murid.filter(g => g.id !== String(b.id)); break;
-    case 'attendance': { const g=find(b.id); if(!g) throw new Error('Murid tidak dijumpai');
-      if (b.status==='reset'){ g.status=''; g.masaHadir=''; } else if (g.status==='Hadir'){ out.already=true; } else { g.status='Hadir'; g.masaHadir=nowStr(); }
-      out.record=g; break; }
-    case 'visitor': { const v = Object.assign({}, b.visitor, { id:newId(), masa:nowStr() }); db.pengunjung.push(v); out.id=v.id; out.masa=v.masa; break; }
+    case 'add': { const r = { id:newId(), status:'', masaHadir:'' }; EDIT.forEach(k => r[k] = b.record[k] || ''); db.murid.push(r); out.record = r; break; }
+    case 'bulkAdd': { let added = 0, updated = 0;
+      b.records.forEach(r => { const ex = db.murid.find(m => (m.nama + '|' + m.kelas).toLowerCase() === (r.nama + '|' + (r.kelas||'')).toLowerCase());
+        if (ex){ EDIT.forEach(k => { if (r[k]) ex[k] = r[k]; }); if (r.status === 'Hadir') ex.status = 'Hadir'; updated++; }
+        else { const n = { id:newId(), status: r.status === 'Hadir' ? 'Hadir' : '', masaHadir:'' }; EDIT.forEach(k => n[k] = r[k] || ''); db.murid.push(n); added++; } });
+      out.added = added; out.updated = updated; break; }
+    case 'update': { const m = find(b.record.id); if (!m) throw new Error('Rekod tidak dijumpai'); EDIT.forEach(k => { if (b.record[k] !== undefined) m[k] = b.record[k]; }); out.record = m; break; }
+    case 'delete': db.murid = db.murid.filter(m => m.id !== String(b.id)); break;
+    case 'attendance': { const m = find(b.id); if (!m) throw new Error('Murid tidak dijumpai');
+      if (b.status === 'reset'){ m.status = ''; m.masaHadir = ''; } else if (m.status === 'Hadir') out.already = true; else { m.status = 'Hadir'; m.masaHadir = nowStr(); }
+      out.record = m; break; }
+    case 'resetAll': db.murid.forEach(m => { m.status = ''; m.masaHadir = ''; }); break;
+    case 'visitor': { const v = Object.assign({}, b.visitor, { id:newId(), masa:nowStr() }); db.pengunjung.push(v); out.masa = v.masa; break; }
     case 'listVisitors': out.pengunjung = db.pengunjung; break;
     case 'deleteVisitor': db.pengunjung = db.pengunjung.filter(v => v.id !== b.id); break;
     default: throw new Error('Tindakan tidak dikenali');
   }
-  demoSave(db);
+  try { localStorage.setItem('prakasaDemo', JSON.stringify(db)); } catch(e){}
   return JSON.parse(JSON.stringify(out));
 }
 
@@ -485,106 +586,145 @@ function demoApi(action, b){
 function applyConfig(){
   document.title = `${CONFIG.TAJUK} ${CONFIG.SEKOLAH} ${CONFIG.TAHUN}`;
   $('hSekolah').textContent = `${CONFIG.SEKOLAH} • ${CONFIG.DAERAH}`;
-  $('hTajuk').textContent = CONFIG.TAJUK;
-  $('hTahun').textContent = 'Tahun ' + CONFIG.TAHUN;
-  ['Tarikh','Masa','Tempat'].forEach(k => { $('h'+k).textContent = CONFIG[k.toUpperCase()]; $('a'+k).textContent = CONFIG[k.toUpperCase()]; });
-  $('aSekolah').textContent = `${CONFIG.TAJUK} ${CONFIG.SEKOLAH} ${CONFIG.TAHUN}`;
-  $('fSekolah').textContent = CONFIG.SEKOLAH; $('fMoto').textContent = CONFIG.MOTO; $('fTahun').textContent = CONFIG.TAHUN;
+  $('hNama').textContent = CONFIG.NAMA_MAJLIS;
+  $('hSub').textContent = `Murid Tingkatan 5 · ${CONFIG.TAHUN}`;
+  $('hTarikh').textContent = CONFIG.TARIKH; $('hMasa').textContent = CONFIG.MASA; $('hTempat').textContent = CONFIG.TEMPAT;
+  $('tSub').textContent = `${CONFIG.TARIKH} · ${CONFIG.MASA} · ${CONFIG.TEMPAT}`;
+  $('fNama').textContent = CONFIG.TAJUK; $('fSekolah').textContent = CONFIG.SEKOLAH; $('fTahun').textContent = `${CONFIG.DAERAH} · ${CONFIG.TAHUN}`;
   if (CONFIG.LOGO_URL) $('logoBox').innerHTML = `<img src="${esc(CONFIG.LOGO_URL)}" alt="Logo ${esc(CONFIG.SEKOLAH)}">`;
-  $('agendaList').innerHTML = CONFIG.ATUR_CARA.map(([t, items]) =>
-    `<div class="agenda-item"><time>${esc(t)}</time><div>${items.map(i=>`<p>${esc(i)}</p>`).join('')}</div></div>`).join('');
+  $('timeline').innerHTML = CONFIG.TENTATIF.map(([t, txt, list]) =>
+    `<div class="t-item"><time>${esc(t)}</time><p>${esc(txt)}</p>${list ? '<ul>' + list.map(i => `<li>${esc(i)}</li>`).join('') + '</ul>' : ''}</div>`).join('');
   if (CONFIG.BUKU_URL){ $('bukuBox').classList.remove('hidden'); $('bukuLink').href = CONFIG.BUKU_URL; }
   $('pelanBox').innerHTML = CONFIG.PELAN_URL
-    ? `<img src="${esc(CONFIG.PELAN_URL)}" alt="Pelan tempat duduk" style="max-width:100%;border-radius:12px;background:#fff">`
+    ? `<img src="${esc(CONFIG.PELAN_URL)}" alt="Pelan tempat duduk" style="max-width:100%;border-radius:16px">`
     : '<p class="note">Pelan tempat duduk akan dimuat naik tidak lama lagi.</p>';
-  if (DEMO){ $('demoBar').classList.remove('hidden'); document.body.classList.add('demo'); }
+  // Kalungan bunga di sekeliling lambang
+  let w = '';
+  for (let i = 0; i < 14; i++){
+    const a = i / 14 * Math.PI * 2, x = Math.cos(a) * 80, y = Math.sin(a) * 80, deg = a * 180 / Math.PI;
+    w += `<use href="#leaf${i%2?'2':''}" transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${(deg+100).toFixed(0)}) scale(.75)"/>`;
+    if (i % 2 === 0) w += `<use href="#${i%4?'flower2':'flower'}" transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) scale(${i%4?'.9':'.7'})"/>`;
+  }
+  $('wreath').innerHTML = w;
+  // Kelopak jatuh
+  const hero = $('hero');
+  for (let i = 0; i < 10; i++){
+    const p = document.createElement('span'); p.className = 'petal';
+    p.style.left = (Math.random() * 100) + '%'; p.style.animationDuration = (9 + Math.random() * 8) + 's'; p.style.animationDelay = (-Math.random() * 12) + 's';
+    if (i % 3 === 0) p.style.background = 'var(--sage)';
+    hero.appendChild(p);
+  }
+  if (DEMO) $('demoBar').classList.remove('hidden');
+}
+
+function renderChips(id, list, current, setter, labelAll){
+  $(id).innerHTML = [['', labelAll]].concat(list.map(k => [k, k])).map(([v, l]) =>
+    `<button class="chip ${v === current ? 'on' : ''}" data-v="${esc(v)}">${esc(l)}</button>`).join('');
+  $(id).onclick = e => { const b = e.target.closest('.chip'); if (b){ setter(b.dataset.v); } };
 }
 
 function renderAll(){
-  const hadir = murid.filter(g => g.status === 'Hadir').length;
+  const h = murid.filter(hadir);
+  const ib = h.reduce((t, m) => t + bilIB(m), 0);
   $('sTotal').textContent = murid.length;
-  $('sHadir').textContent = hadir;
-  $('sBelum').textContent = murid.length - hadir;
-  $('sTetamu').textContent = bilTetamu;
-  const kelas = [...new Set(murid.map(g => g.kelas).filter(Boolean))].sort();
-  ['fKelas','fAttKelas'].forEach(id => {
-    const sel = $(id), cur = sel.value;
-    sel.innerHTML = '<option value="">Semua kelas</option>' + kelas.map(k => `<option>${esc(k)}</option>`).join('');
-    sel.value = kelas.includes(cur) ? cur : '';
-  });
-  $('gradNames').innerHTML = murid.map(g => `<option value="${esc(g.nama)}">`).join('');
-  renderGrad(); renderAtt();
+  $('sHadir').textContent = h.length;
+  $('sIbuBapa').textContent = ib;
+  $('sJumlah').textContent = h.length + ib + bilTetamu;
+  $('sJumlah').title = `${h.length} murid + ${ib} ibu bapa + ${bilTetamu} tetamu berdaftar`;
+  const kl = kelasList();
+  if (kelasFilter && !kl.includes(kelasFilter)) kelasFilter = '';
+  if (attKelas && !kl.includes(attKelas)) attKelas = '';
+  $('muridNames').innerHTML = murid.map(m => `<option value="${esc(m.nama)}">`).join('');
+  $('kelasList').innerHTML = kl.map(k => `<option value="${esc(k)}">`).join('');
+  $('seedBtn').classList.toggle('hidden', !(window.DATA_MURID && murid.length === 0));
+  renderMurid(); renderAtt();
 }
 
-function filterList(q, kelas){
+function filtered(q, kelas){
   q = q.trim().toLowerCase();
-  return murid.filter(g => (!kelas || g.kelas === kelas) && (!q || g.nama.toLowerCase().includes(q) || String(g.noMurid).toLowerCase().includes(q) || g.id.toLowerCase() === q)).sort(byName);
+  return murid.filter(m => (!kelas || m.kelas === kelas) && (!q || m.nama.toLowerCase().includes(q) || m.id.toLowerCase() === q)).sort(byKelasNama);
 }
 
-function renderGrad(){
-  const list = filterList($('qGrad').value, $('fKelas').value);
-  const grid = $('gradGrid');
-  if (!murid.length){ grid.innerHTML = `<div class="empty" style="grid-column:1/-1">Tiada murid lagi.${isAdmin() ? ' Tekan “Tambah Murid” atau “Import Senarai”.' : ''}</div>`; return; }
+function renderMurid(){
+  renderChips('kelasChips', kelasList(), kelasFilter, v => { kelasFilter = v; renderMurid(); }, 'Semua kelas');
+  const list = filtered($('qMurid').value, kelasFilter);
+  const grid = $('muridGrid');
+  $('muridCount').textContent = murid.length ? `${list.length} daripada ${murid.length} murid` : '';
+  if (!murid.length){ grid.innerHTML = `<div class="empty" style="grid-column:1/-1">Tiada murid lagi.${isAdmin() ? ' Tekan “Masukkan 118 murid asal” atau “Import dari Excel”.' : ''}</div>`; return; }
   if (!list.length){ grid.innerHTML = '<div class="empty" style="grid-column:1/-1">Tiada padanan. Cuba ejaan lain.</div>'; return; }
-  grid.innerHTML = list.map((g,i) => {
-    const pic = g.gambar ? `<img class="avatar" src="${esc(g.gambar)}" alt="" data-i="${esc(initials(g.nama))}" onerror="avatarFail(this)">` : `<div class="avatar">${esc(initials(g.nama))}</div>`;
-    const seat = (g.meja || g.kerusi) ? `<div class="seat">🪑 ${g.meja ? 'Meja '+esc(g.meja) : ''}${g.meja && g.kerusi ? ' · ' : ''}${g.kerusi ? 'Kerusi '+esc(g.kerusi) : ''}</div><br>` : '';
-    const st = g.status === 'Hadir' ? `<span class="badge ok">✔ Hadir ${esc(String(g.masaHadir).split(' ')[1] || '')}</span>` : '<span class="badge no">Belum hadir</span>';
+  grid.innerHTML = list.map((m, i) => {
+    const ini = esc(initials(m.nama)), g = m.jantina === 'L' ? 'L' : '';
+    const pic = m.gambar ? `<img class="avatar ${g}" src="${esc(m.gambar)}" alt="" data-i="${ini}" onerror="avatarFail(this)">` : `<div class="avatar ${g}">${ini}</div>`;
+    const seat = (m.meja || m.kerusi) ? `<span class="tag seat">🪑 ${[m.meja && 'Meja ' + esc(m.meja), m.kerusi && 'Kerusi ' + esc(m.kerusi)].filter(Boolean).join(' · ')}</span>` : '';
+    const st = hadir(m) ? `<span class="tag ok">✔ Hadir${m.masaHadir ? ' ' + esc(String(m.masaHadir).split(' ')[1] || '') : ''}</span>` : '<span class="tag no">Belum hadir</span>';
+    const fam = bilIB(m) ? `<span class="tag fam">👪 ${bilIB(m)} ibu bapa</span>` : '';
+    const par = isAdmin() && m.ibuBapa ? `<div class="parents">${esc(m.ibuBapa)}</div>` : '';
     const adm = isAdmin() ? `
-      <button class="btn btn-ghost btn-sm" onclick="openGradForm('${esc(g.id)}')">✏️ Edit</button>
-      ${g.status==='Hadir' ? '' : `<button class="btn btn-green btn-sm" onclick="checkin('${esc(g.id)}')">✔ Hadir</button>`}
-      <button class="btn btn-red btn-sm" onclick="delGrad('${esc(g.id)}')">🗑️</button>` : '';
-    return `<div class="card" style="animation-delay:${Math.min(i,20)*.03}s">${pic}
-      <h3>${esc(g.nama)}</h3><div class="cls">${esc(g.kelas || '—')}</div>${seat}${st}
-      <div class="actions"><button class="btn btn-blue btn-sm" onclick="showQR('${esc(g.id)}')">▦ Lihat QR</button>${adm}</div></div>`;
+      <button class="btn btn-line btn-sm" onclick="openMuridForm('${esc(m.id)}')" title="Kemas kini">✏️</button>
+      ${hadir(m) ? '' : `<button class="btn btn-sage btn-sm" onclick="checkin('${esc(m.id)}')">✔ Hadir</button>`}
+      <button class="btn btn-danger btn-sm" onclick="delMurid('${esc(m.id)}')" title="Padam">🗑️</button>` : '';
+    return `<div class="card" style="animation-delay:${Math.min(i, 16) * .025}s">${pic}
+      <h3>${esc(m.nama)}</h3><div class="cls">${esc(m.kelas || '—')}</div>
+      <div>${st}${fam}${seat}</div>${par}
+      <div class="actions"><button class="btn btn-rose btn-sm" onclick="showQR('${esc(m.id)}')">▦ Kod QR</button>${adm}</div></div>`;
   }).join('');
 }
 
+function renderSummary(){
+  const rows = kelasList().map(k => {
+    const all = murid.filter(m => m.kelas === k), h = all.filter(hadir), ib = h.reduce((t, m) => t + bilIB(m), 0);
+    return { k, en: all.length, h: h.length, ib, withParent: h.filter(m => bilIB(m) > 0).length };
+  });
+  const T = rows.reduce((t, r) => ({ en: t.en + r.en, h: t.h + r.h, ib: t.ib + r.ib, withParent: t.withParent + r.withParent }), { en:0, h:0, ib:0, withParent:0 });
+  const pct = (a, b) => b ? Math.round(a / b * 1000) / 10 : 0;
+  const tr = (r, cls) => `<tr class="${cls || ''}"><td>${esc(r.k)}</td><td>${r.en}</td><td style="color:var(--ok)">${r.h}</td><td style="color:var(--no)">${r.en - r.h}</td>
+    <td><div style="display:flex;align-items:center;gap:8px"><div class="bar" style="flex:1"><i style="width:${pct(r.h, r.en)}%"></i></div>${pct(r.h, r.en)}%</div></td>
+    <td>${r.withParent}</td><td>${r.ib}</td><td>${r.h + r.ib}</td></tr>`;
+  $('summary').innerHTML = rows.length ? `<table><thead><tr><th>Kelas</th><th>Enrolmen</th><th>Hadir</th><th>Tidak Hadir</th><th>% Hadir</th><th>Murid Bersama Ibu Bapa</th><th>Ibu Bapa Hadir</th><th>Jumlah (Murid + Ibu Bapa)</th></tr></thead>
+    <tbody>${rows.map(r => tr(r)).join('')}${tr(Object.assign({ k:'JUMLAH' }, T), 'total')}</tbody></table>` : '<p class="note" style="text-align:center">Tiada data.</p>';
+}
+
 function renderAtt(){
-  const st = $('fAttStatus').value;
-  let list = filterList($('qAtt').value, $('fAttKelas').value);
-  if (st === 'Hadir') list = list.filter(g => g.status === 'Hadir');
-  if (st === 'Belum') list = list.filter(g => g.status !== 'Hadir');
-  const hadir = murid.filter(g => g.status === 'Hadir').length;
-  $('kHadir').textContent = hadir; $('kBelum').textContent = murid.length - hadir;
-  $('kPeratus').textContent = murid.length ? Math.round(hadir / murid.length * 100) + '%' : '0%';
-  $('attNote').textContent = isAdmin() ? '' : 'Log masuk sebagai admin untuk menanda kehadiran dan mengimbas QR.';
-  $('attList').innerHTML = list.length ? list.map((g,i) => `
+  renderSummary();
+  renderChips('attKelasChips', kelasList(), attKelas, v => { attKelas = v; renderAtt(); }, 'Semua kelas');
+  renderChips('attStatusChips', ['Hadir', 'Belum hadir'], attStatus, v => { attStatus = v; renderAtt(); }, 'Semua status');
+  let list = filtered($('qAtt').value, attKelas);
+  if (attStatus === 'Hadir') list = list.filter(hadir);
+  if (attStatus === 'Belum hadir') list = list.filter(m => !hadir(m));
+  $('attNote').textContent = (isAdmin() ? '' : 'Log masuk sebagai admin untuk menanda kehadiran. ') + `${list.length} rekod`;
+  $('attList').innerHTML = list.length ? list.map((m, i) => `
     <div class="row">
-      <div class="no">${i+1}</div>
-      <div><div class="nm">${esc(g.nama)}</div><div class="sub">${esc(g.kelas || '—')}${g.meja ? ' · Meja '+esc(g.meja) : ''}${g.kerusi ? ' · Kerusi '+esc(g.kerusi) : ''}</div></div>
-      <div class="right">${g.status === 'Hadir' ? `<span class="badge ok">✔ ${esc(g.masaHadir)}</span>` : '<span class="badge no">Belum hadir</span>'}
-        ${isAdmin() ? (g.status === 'Hadir'
-          ? `<button class="btn btn-ghost btn-sm" onclick="resetAtt('${esc(g.id)}')">↺ Batal</button>`
-          : `<button class="btn btn-green btn-sm" onclick="checkin('${esc(g.id)}')">✔ Hadir</button>`) : ''}
+      <div class="no">${i + 1}</div>
+      <div><div class="nm">${esc(m.nama)}</div><div class="sub">${esc(m.kelas || '—')}${m.jantina ? ' · ' + esc(m.jantina) : ''}${bilIB(m) ? ' · 👪 ' + bilIB(m) + ' ibu bapa' : ''}</div></div>
+      <div class="right">${hadir(m) ? `<span class="tag ok">✔ ${esc(m.masaHadir || 'Hadir')}</span>` : '<span class="tag no">Belum hadir</span>'}
+        ${isAdmin() ? (hadir(m)
+          ? `<button class="btn btn-line btn-sm" onclick="resetAtt('${esc(m.id)}')">↺ Batal</button>`
+          : `<button class="btn btn-sage btn-sm" onclick="checkin('${esc(m.id)}')">✔ Hadir</button>`) : ''}
       </div>
     </div>`).join('') : '<div class="empty">Tiada rekod.</div>';
 }
 
 async function renderVisitors(){
   if (!isAdmin()) return;
-  $('visitorList').innerHTML = '<div class="spinner">Memuatkan...</div>';
+  $('visitorList').innerHTML = '<div class="spinner">Memuatkan…</div>';
   try {
     visitors = (await api('listVisitors')).pengunjung || [];
-    $('visitorList').innerHTML = visitors.length ? visitors.slice().reverse().map((v,i) => `
+    $('visitorList').innerHTML = visitors.length ? visitors.slice().reverse().map((v, i) => `
       <div class="row">
         <div class="no">${visitors.length - i}</div>
-        <div><div class="nm">${esc(v.nama)} <span class="badge no">${esc(v.bilangan || 1)} orang</span></div>
-          <div class="sub">${esc(v.hubungan)}${v.murid ? ' · '+esc(v.murid) : ''}${v.telefon ? ' · '+esc(v.telefon) : ''}</div></div>
-        <div class="right"><span class="sub">${esc(v.masa)}</span><button class="btn btn-red btn-sm" onclick="delVisitor('${esc(v.id)}')">🗑️</button></div>
+        <div><div class="nm">${esc(v.nama)} <span class="tag fam">${esc(v.bilangan || 1)} orang</span></div>
+          <div class="sub">${esc(v.hubungan)}${v.murid ? ' · ' + esc(v.murid) : ''}${v.telefon ? ' · ' + esc(v.telefon) : ''}</div></div>
+        <div class="right"><span class="sub">${esc(v.masa)}</span><button class="btn btn-danger btn-sm" onclick="delVisitor('${esc(v.id)}')">🗑️</button></div>
       </div>`).join('') : '<div class="empty">Belum ada tetamu berdaftar.</div>';
   } catch(e){ $('visitorList').innerHTML = `<div class="empty">${esc(e.message)}</div>`; }
 }
 
-/* ===================== TABS ===================== */
-$('tabs').addEventListener('click', e => {
-  const b = e.target.closest('.tab'); if (!b) return;
-  switchTab(b.dataset.tab);
-});
+/* ===================== TAB ===================== */
+$('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) switchTab(b.dataset.tab); });
 function switchTab(t){
   currentTab = t;
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.tab === t));
-  document.querySelectorAll('main > section[id^="tab-"]').forEach(s => s.classList.toggle('hidden', s.id !== 'tab-'+t));
+  document.querySelectorAll('section.page').forEach(s => s.classList.toggle('hidden', s.id !== 'tab-' + t));
   if (t === 'tetamu') renderVisitors();
 }
 
@@ -596,51 +736,88 @@ function adminBtnClick(){
 async function doLogin(e){
   e.preventDefault();
   const pw = $('pw').value, btn = $('loginBtn');
-  btn.disabled = true; btn.textContent = 'Menyemak...';
+  btn.disabled = true; btn.textContent = 'Menyemak…';
   const prev = adminPass; adminPass = pw;
   try { await api('login'); setAdmin(pw); closeModal('loginModal'); toast('Berjaya log masuk sebagai admin'); }
   catch(err){ adminPass = prev; $('loginErr').textContent = err.message; }
   finally { btn.disabled = false; btn.textContent = 'Masuk'; }
 }
 function setAdmin(pw){
-  adminPass = pw; sessionStorageSet('gradPass', pw);
+  adminPass = pw; ssSet('prakasaPass', pw);
   document.body.classList.toggle('is-admin', !!pw);
-  $('adminBtn').textContent = pw ? '🚪 Log Keluar' : '🔐 Admin';
-  renderGrad(); renderAtt(); if (currentTab === 'tetamu') renderVisitors();
+  $('adminBtn').textContent = pw ? '🚪 Log Keluar' : '🔒 Admin';
+  loadData(); if (currentTab === 'tetamu') renderVisitors();
 }
 
-function openGradForm(id){
-  const g = id ? murid.find(x => x.id === id) : null;
-  $('gradModalTitle').textContent = g ? 'Edit Murid' : 'Tambah Murid';
-  $('gId').value = g ? g.id : '';
-  [['gNama','nama'],['gKelas','kelas'],['gNo','noMurid'],['gMeja','meja'],['gKerusi','kerusi'],['gGambar','gambar']].forEach(([f,k]) => $(f).value = g ? (g[k] || '') : '');
-  openModal('gradModal'); setTimeout(() => $('gNama').focus(), 50);
+function openMuridForm(id){
+  const m = id ? murid.find(x => x.id === id) : null;
+  $('muridModalTitle').textContent = m ? 'Kemas Kini Murid' : 'Tambah Murid';
+  $('mId').value = m ? m.id : '';
+  [['mNama','nama'],['mKelas','kelas'],['mJantina','jantina'],['mMeja','meja'],['mKerusi','kerusi'],['mBil','bilIbuBapa'],['mGambar','gambar'],['mIbuBapa','ibuBapa']].forEach(([f, k]) => $(f).value = m ? (m[k] || '') : '');
+  openModal('muridModal'); setTimeout(() => $('mNama').focus(), 50);
 }
-async function saveGrad(e){
+async function saveMurid(e){
   e.preventDefault();
-  const rec = { id:$('gId').value, nama:$('gNama').value.trim(), kelas:$('gKelas').value.trim(), noMurid:$('gNo').value.trim(), meja:$('gMeja').value.trim(), kerusi:$('gKerusi').value.trim(), gambar:$('gGambar').value.trim() };
-  const btn = $('gSave'); btn.disabled = true;
-  try {
-    await api(rec.id ? 'update' : 'add', { record: rec });
-    closeModal('gradModal'); toast(rec.id ? 'Maklumat dikemas kini' : 'Murid ditambah'); await loadData();
-  } catch(err){ alert(err.message); }
+  const rec = { id:$('mId').value, nama:$('mNama').value.trim(), kelas:$('mKelas').value.trim().toUpperCase(), jantina:$('mJantina').value, meja:$('mMeja').value.trim(), kerusi:$('mKerusi').value.trim(), bilIbuBapa:$('mBil').value.trim(), gambar:$('mGambar').value.trim(), ibuBapa:$('mIbuBapa').value.trim() };
+  const btn = $('mSave'); btn.disabled = true;
+  try { await api(rec.id ? 'update' : 'add', { record: rec }); closeModal('muridModal'); toast(rec.id ? 'Maklumat dikemas kini' : 'Murid ditambah'); await loadData(); }
+  catch(err){ alert(err.message); }
   finally { btn.disabled = false; }
 }
-async function delGrad(id){
-  const g = murid.find(x => x.id === id);
-  if (!g || !confirm(`Padam ${g.nama}? Tindakan ini tidak boleh dibatalkan.`)) return;
+async function delMurid(id){
+  const m = murid.find(x => x.id === id);
+  if (!m || !confirm(`Padam ${m.nama}? Tindakan ini tidak boleh dibatalkan.`)) return;
   try { await api('delete', { id }); toast('Rekod dipadam'); await loadData(); } catch(err){ alert(err.message); }
 }
+
+/* Import: menyokong tampalan dari Excel (TSV, sel berbilang baris dalam "...") atau "Nama, Kelas" */
+function parseTSV(text){
+  const rows = []; let row = [], cell = '', q = false;
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (q){ if (c === '"' && text[i+1] === '"'){ cell += '"'; i++; } else if (c === '"') q = false; else cell += c; }
+    else if (c === '"' && cell === '') q = true;
+    else if (c === '\t'){ row.push(cell); cell = ''; }
+    else if (c === '\n' || c === '\r'){ if (c === '\r' && text[i+1] === '\n') i++; row.push(cell); rows.push(row); row = []; cell = ''; }
+    else cell += c;
+  }
+  if (cell !== '' || row.length){ row.push(cell); rows.push(row); }
+  return rows.map(r => r.map(s => s.trim())).filter(r => r.some(Boolean));
+}
+function parseImport(text, useStatus){
+  const isTSV = text.includes('\t');
+  const rows = isTSV ? parseTSV(text) : text.split(/\r?\n/).map(l => l.split(',').map(s => s.trim())).filter(r => r[0]);
+  return rows.map(r => {
+    if (isTSV && /^\d+$/.test(r[0]) && r.length >= 3){
+      // Format helaian "Senarai Murid": Bil, Kelas, Nama, L/P, Status, Bil Ibu Bapa, Ibu Bapa
+      const ib = (r[6] || '').replace(/^tiada$/i, '').split(/\n/).map(s => s.trim()).filter(Boolean).join('\n');
+      return { kelas:(r[1]||'').toUpperCase(), nama:r[2], jantina:(r[3]||'').toUpperCase().slice(0,1), status: useStatus && /^hadir$/i.test(r[4]||'') ? 'Hadir' : '', bilIbuBapa: r[5] || '', ibuBapa: ib };
+    }
+    return { nama:r[0], kelas:(r[1]||'').toUpperCase(), jantina:'', status:'' };
+  }).filter(r => r.nama && !/^(nama|nama murid|bil)$/i.test(r.nama));
+}
 async function doImport(){
-  const lines = $('importText').value.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
-  const records = lines.map(l => { const p = l.split(/\t|,/).map(s => s.trim()); return { nama:p[0], kelas:p[1]||'', meja:p[2]||'', kerusi:p[3]||'' }; })
-    .filter(r => r.nama && !/^nama$/i.test(r.nama));
+  const records = parseImport($('importText').value, $('importStatus').checked);
   if (!records.length) return alert('Tiada data untuk diimport.');
   if (!confirm(`Import ${records.length} murid?`)) return;
-  const btn = $('importBtn'); btn.disabled = true; btn.textContent = 'Mengimport...';
-  try { await api('bulkAdd', { records }); $('importText').value = ''; closeModal('importModal'); toast(records.length + ' murid diimport'); await loadData(); }
-  catch(err){ alert(err.message); }
+  const btn = $('importBtn'); btn.disabled = true; btn.textContent = 'Mengimport…';
+  try {
+    const r = await api('bulkAdd', { records });
+    $('importText').value = ''; closeModal('importModal');
+    toast(`${r.added || 0} ditambah, ${r.updated || 0} dikemas kini`); await loadData();
+  } catch(err){ alert(err.message); }
   finally { btn.disabled = false; btn.textContent = 'Import'; }
+}
+async function seedData(){
+  const withStatus = confirm(`Masukkan ${window.DATA_MURID.length} murid daripada senarai asal.\n\nOK = ikut status Hadir dalam fail\nCancel = semua bermula “Belum hadir”`);
+  try {
+    const records = window.DATA_MURID.map(m => Object.assign({}, m, { status: withStatus ? m.status : '' }));
+    const r = await api('bulkAdd', { records }); toast(`${r.added || 0} murid dimasukkan`); await loadData();
+  } catch(err){ alert(err.message); }
+}
+async function resetAll(){
+  if (!confirm('Set semula kehadiran SEMUA murid kepada “Belum hadir”?')) return;
+  try { await api('resetAll'); toast('Semua kehadiran diset semula'); await loadData(); } catch(err){ alert(err.message); }
 }
 async function delVisitor(id){
   if (!confirm('Padam rekod tetamu ini?')) return;
@@ -649,55 +826,59 @@ async function delVisitor(id){
 
 /* ===================== KEHADIRAN ===================== */
 async function checkin(id, fromScan){
-  const g = murid.find(x => x.id === id);
-  if (!g) return { type:'err', msg:'Murid tidak dijumpai' };
+  const m = murid.find(x => x.id === id);
+  if (!m) return { type:'err', msg:'Murid tidak dijumpai' };
   try {
     const r = await api('attendance', { id });
-    Object.assign(g, r.record);
-    renderAll();
+    Object.assign(m, r.record); renderAll();
     const res = r.already
-      ? { type:'warn', msg:`${g.nama} sudah direkod hadir (${g.masaHadir})` }
-      : { type:'ok', msg:`✔ ${g.nama} — HADIR${g.meja ? ' · Meja '+g.meja : ''}${g.kerusi ? ' · Kerusi '+g.kerusi : ''}` };
+      ? { type:'warn', msg:`${m.nama} sudah direkod hadir${m.masaHadir ? ' (' + m.masaHadir + ')' : ''}`, id }
+      : { type:'ok', msg:`✔ ${m.nama} — HADIR${m.meja ? ' · Meja ' + m.meja : ''}${m.kerusi ? ' · Kerusi ' + m.kerusi : ''}`, id };
     if (!fromScan) toast(res.msg);
     return res;
   } catch(err){ if (!fromScan) alert(err.message); return { type:'err', msg:err.message }; }
 }
 async function resetAtt(id){
-  const g = murid.find(x => x.id === id);
-  if (!g || !confirm(`Batalkan kehadiran ${g.nama}?`)) return;
-  try { const r = await api('attendance', { id, status:'reset' }); Object.assign(g, r.record); renderAll(); } catch(err){ alert(err.message); }
+  const m = murid.find(x => x.id === id);
+  if (!m || !confirm(`Batalkan kehadiran ${m.nama}?`)) return;
+  try { const r = await api('attendance', { id, status:'reset' }); Object.assign(m, r.record); renderAll(); } catch(err){ alert(err.message); }
+}
+async function setParents(id, n){
+  const m = murid.find(x => x.id === id); if (!m) return;
+  try { await api('update', { record: { id, bilIbuBapa: String(n) } }); m.bilIbuBapa = String(n); renderAll(); showScanResult(scanState, false); toast(`${m.nama}: ${n} ibu bapa hadir`); }
+  catch(err){ alert(err.message); }
 }
 
 /* ===================== QR ===================== */
-function qrText(id){ return 'GRAD:' + id; }
+function qrText(id){ return 'PRAKASA:' + id; }
 function showQR(id){
-  const g = murid.find(x => x.id === id); if (!g) return;
-  currentQR = g;
-  QRCode.toCanvas($('qrCanvasBig'), qrText(g.id), { width:240, margin:1 }, err => { if (err) toast('Gagal menjana QR'); });
-  $('qrName').textContent = g.nama;
-  $('qrInfo').textContent = [g.kelas, g.meja && 'Meja ' + g.meja, g.kerusi && 'Kerusi ' + g.kerusi, 'ID ' + g.id].filter(Boolean).join(' · ');
+  const m = murid.find(x => x.id === id); if (!m) return;
+  currentQR = m;
+  QRCode.toCanvas($('qrCanvasBig'), qrText(m.id), { width:230, margin:1, color:{ dark:'#3c2a2f', light:'#ffffff' } }, err => { if (err) toast('Gagal menjana QR'); });
+  $('qrName').textContent = m.nama;
+  $('qrInfo').textContent = [m.kelas, m.meja && 'Meja ' + m.meja, m.kerusi && 'Kerusi ' + m.kerusi, 'ID ' + m.id].filter(Boolean).join(' · ');
   openModal('qrModal');
 }
 function downloadQR(){
   if (!currentQR) return;
   const a = document.createElement('a');
   a.href = $('qrCanvasBig').toDataURL('image/png');
-  a.download = 'QR-' + currentQR.nama.replace(/[^\w]+/g,'_') + '.png';
+  a.download = 'QR-' + currentQR.nama.replace(/[^\w]+/g, '_') + '.png';
   a.click();
 }
 async function printQR(){
-  const list = filterList($('qGrad').value, $('fKelas').value);
+  const list = filtered($('qMurid').value, kelasFilter);
   if (!list.length) return alert('Tiada murid untuk dicetak.');
-  const cards = await Promise.all(list.map(async g => {
-    const url = await QRCode.toDataURL(qrText(g.id), { width:300, margin:1 });
-    return `<div class="pcard"><div class="s">${esc(CONFIG.TAJUK)} ${esc(CONFIG.SEKOLAH)} ${esc(CONFIG.TAHUN)}</div><img src="${url}" alt=""><div class="n">${esc(g.nama)}</div><div class="s">${esc(g.kelas)}${g.meja ? ' · Meja '+esc(g.meja) : ''}${g.kerusi ? ' · Kerusi '+esc(g.kerusi) : ''}</div></div>`;
+  const cards = await Promise.all(list.map(async m => {
+    const url = await QRCode.toDataURL(qrText(m.id), { width:300, margin:1 });
+    return `<div class="pcard"><div class="t">${esc(CONFIG.NAMA_MAJLIS)} ${esc(CONFIG.TAHUN)}</div><img src="${url}" alt=""><div class="n">${esc(m.nama)}</div><div class="s">${esc(m.kelas)}${m.meja ? ' · Meja ' + esc(m.meja) : ''}${m.kerusi ? ' · Kerusi ' + esc(m.kerusi) : ''}</div><div class="s">${esc(CONFIG.SEKOLAH)}</div></div>`;
   }));
   $('printArea').innerHTML = cards.join('');
   setTimeout(() => window.print(), 300);
 }
 
 /* Pengimbas */
-let stream = null, scanLoop = null, lastScan = '', lastScanAt = 0, busy = false, audioCtx = null;
+let stream = null, scanLoop = null, lastScan = '', lastScanAt = 0, busy = false, audioCtx = null, scanState = null;
 function beep(ok){
   try {
     audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
@@ -705,21 +886,18 @@ function beep(ok){
     o.frequency.value = ok ? 1046 : 330; g.gain.value = .15;
     o.connect(g); g.connect(audioCtx.destination); o.start(); o.stop(audioCtx.currentTime + (ok ? .18 : .4));
   } catch(e){}
-  if (navigator.vibrate) navigator.vibrate(ok ? 80 : [80,60,80]);
+  if (navigator.vibrate) navigator.vibrate(ok ? 80 : [80, 60, 80]);
 }
 async function openScanner(){
   if (!isAdmin()) return toast('Sila log masuk sebagai admin');
-  openModal('scanModal');
-  $('scanResult').classList.add('hidden');
+  openModal('scanModal'); $('scanResult').classList.add('hidden');
   try { audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)(); audioCtx.resume(); } catch(e){}
   try {
     stream = await navigator.mediaDevices.getUserMedia({ video:{ facingMode:'environment' }, audio:false });
     const v = $('qrVideo'); v.srcObject = stream; await v.play();
     $('scanStatus').textContent = 'Halakan kamera ke kod QR murid';
     scanLoop = requestAnimationFrame(tick);
-  } catch(err){
-    $('scanStatus').textContent = 'Kamera tidak dapat dibuka. Benarkan akses kamera, atau taip nama di bawah.';
-  }
+  } catch(err){ $('scanStatus').textContent = 'Kamera tidak dapat dibuka. Benarkan akses kamera, atau taip nama di bawah.'; }
 }
 function tick(){
   const v = $('qrVideo'), c = $('scanCanvas');
@@ -730,31 +908,37 @@ function tick(){
     ctx.drawImage(v, 0, 0, w, h);
     const code = jsQR(ctx.getImageData(0, 0, w, h).data, w, h, { inversionAttempts:'dontInvert' });
     if (code && code.data && !(code.data === lastScan && Date.now() - lastScanAt < 4000)){
-      lastScan = code.data; lastScanAt = Date.now();
-      handleScan(code.data);
+      lastScan = code.data; lastScanAt = Date.now(); handleScan(code.data);
     }
   }
   scanLoop = requestAnimationFrame(tick);
 }
 async function handleScan(text){
   busy = true;
-  const id = String(text).trim().replace(/^GRAD:/i, '');
-  const res = murid.some(g => g.id === id) ? await checkin(id, true) : { type:'err', msg:'Kod QR tidak dikenali' };
-  showScanResult(res);
-  busy = false;
+  const id = String(text).trim().replace(/^(PRAKASA|GRAD):/i, '');
+  const res = murid.some(m => m.id === id) ? await checkin(id, true) : { type:'err', msg:'Kod QR tidak dikenali' };
+  showScanResult(res, true); busy = false;
 }
-function showScanResult(res){
+function showScanResult(res, sound){
+  if (!res) return;
+  scanState = res;
   const el = $('scanResult');
-  el.className = 'result ' + res.type; el.textContent = res.msg;
-  beep(res.type === 'ok');
+  el.className = 'result ' + res.type;
+  el.innerHTML = esc(res.msg);
+  if (res.id && res.type !== 'err'){
+    const n = bilIB(murid.find(m => m.id === res.id) || {});
+    el.innerHTML += `<div class="note" style="margin-top:8px">Bilangan ibu bapa / penjaga yang hadir bersama:</div><div class="famset">` +
+      [0,1,2,3,4].map(k => `<button type="button" class="btn btn-sm ${k === n ? 'btn-sage' : 'btn-line'}" onclick="setParents('${esc(res.id)}',${k})">${k}</button>`).join('') + '</div>';
+  }
+  if (sound) beep(res.type === 'ok');
 }
 async function manualCheckin(e){
   e.preventDefault();
   const q = $('manualInput').value.trim().toLowerCase(); if (!q) return;
-  const matches = murid.filter(g => g.id.toLowerCase() === q || g.nama.toLowerCase() === q);
-  const list = matches.length ? matches : murid.filter(g => g.nama.toLowerCase().includes(q));
-  if (list.length !== 1){ showScanResult({ type:'err', msg: list.length ? `${list.length} padanan — taip nama penuh` : 'Nama tidak dijumpai' }); return; }
-  showScanResult(await checkin(list[0].id, true));
+  const exact = murid.filter(m => m.id.toLowerCase() === q || m.nama.toLowerCase() === q);
+  const list = exact.length ? exact : murid.filter(m => m.nama.toLowerCase().includes(q));
+  if (list.length !== 1){ showScanResult({ type:'err', msg: list.length ? `${list.length} padanan — taip nama penuh` : 'Nama tidak dijumpai' }, true); return; }
+  showScanResult(await checkin(list[0].id, true), true);
   $('manualInput').value = '';
 }
 function closeScanner(){
@@ -766,13 +950,13 @@ function closeScanner(){
 /* ===================== TETAMU ===================== */
 async function submitVisitor(e){
   e.preventDefault();
-  const v = { nama:$('vNama').value.trim(), telefon:$('vTel').value.trim(), hubungan:$('vHub').value, murid:$('vGrad').value.trim(), bilangan: Math.max(1, Math.min(20, parseInt($('vBil').value,10) || 1)) };
-  const btn = $('vSubmit'); btn.disabled = true; btn.textContent = 'Menghantar...';
+  const v = { nama:$('vNama').value.trim(), telefon:$('vTel').value.trim(), hubungan:$('vHub').value, murid:$('vMurid').value.trim(), bilangan: Math.max(1, Math.min(20, parseInt($('vBil').value, 10) || 1)) };
+  const btn = $('vSubmit'); btn.disabled = true; btn.textContent = 'Menghantar…';
   try {
     const r = await api('visitor', { visitor: v });
     $('visitorForm').classList.add('hidden'); $('visitorDone').classList.remove('hidden');
     $('visitorDoneText').textContent = `${v.nama} (${v.bilangan} orang) berjaya didaftarkan pada ${r.masa}. Selamat datang ke ${CONFIG.TAJUK} ${CONFIG.SEKOLAH}!`;
-    bilTetamu += v.bilangan; $('sTetamu').textContent = bilTetamu;
+    bilTetamu += v.bilangan; renderAll();
     if (isAdmin()) renderVisitors();
   } catch(err){ alert('Pendaftaran gagal: ' + err.message); }
   finally { btn.disabled = false; btn.textContent = 'Daftar Kehadiran'; }
@@ -781,26 +965,27 @@ function resetVisitor(){ $('visitorForm').reset(); $('visitorForm').classList.re
 
 /* ===================== EKSPORT ===================== */
 function downloadCSV(name, rows){
-  const csv = rows.map(r => r.map(c => '"' + String(c == null ? '' : c).replace(/"/g,'""') + '"').join(',')).join('\r\n');
+  const csv = rows.map(r => r.map(c => '"' + String(c == null ? '' : c).replace(/"/g, '""') + '"').join(',')).join('\r\n');
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob(['﻿' + csv], { type:'text/csv;charset=utf-8' }));
   a.download = name; a.click();
 }
 function exportAttendance(){
-  downloadCSV(`kehadiran-prakasa-${CONFIG.TAHUN}.csv`, [['Bil','Nama','Kelas','No. Murid','Meja','Kerusi','Status','Masa Hadir','ID']]
-    .concat(murid.slice().sort(byName).map((g,i) => [i+1, g.nama, g.kelas, g.noMurid, g.meja, g.kerusi, g.status || 'Belum hadir', g.masaHadir, g.id])));
+  downloadCSV(`kehadiran-prakasa-${CONFIG.TAHUN}.csv`, [['Bil','Kelas','Nama Murid','L/P','Status','Masa Hadir','Bil. Ibu Bapa Hadir','Ibu Bapa / Penjaga','Meja','Kerusi','ID']]
+    .concat(murid.slice().sort(byKelasNama).map((m, i) => [i + 1, m.kelas, m.nama, m.jantina, hadir(m) ? 'Hadir' : 'Tidak hadir', m.masaHadir, bilIB(m), m.ibuBapa || '', m.meja, m.kerusi, m.id])));
 }
 function exportVisitors(){
   downloadCSV(`tetamu-prakasa-${CONFIG.TAHUN}.csv`, [['Bil','Masa','Nama','Telefon','Hubungan','Murid','Bilangan']]
-    .concat(visitors.map((v,i) => [i+1, v.masa, v.nama, v.telefon, v.hubungan, v.murid, v.bilangan])));
+    .concat(visitors.map((v, i) => [i + 1, v.masa, v.nama, v.telefon, v.hubungan, v.murid, v.bilangan])));
 }
 
 /* ===================== MULA ===================== */
 applyConfig();
-if (adminPass) setAdmin(adminPass);
+document.body.classList.toggle('is-admin', isAdmin());
+if (isAdmin()) $('adminBtn').textContent = '🚪 Log Keluar';
 loadData();
-// Segar semula data setiap 20 saat (untuk paparan kehadiran langsung di beberapa peranti)
-setInterval(() => { if (!document.hidden && $('gradModal').classList.contains('hidden')) loadData(); }, 20000);
+// Segar semula setiap 20 saat supaya kiraan sama di semua peranti
+setInterval(() => { if (!document.hidden && document.querySelectorAll('.modal:not(.hidden)').length === 0) loadData(); }, 20000);
 </script>
 </body>
 </html>

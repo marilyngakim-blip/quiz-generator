@@ -2,10 +2,11 @@
 
 Laman web satu halaman untuk Majlis Apresiasi PRAKASA Murid Tingkatan 5 SMK Langkon:
 
-- **Senarai Murid** — cari nama, lihat kelas, meja/kerusi dan **kod QR kehadiran** setiap murid.
+- **Cari Murid** — cari nama, lihat kelas, meja/kerusi dan **kod QR kehadiran** setiap murid.
 - **Daftar Tetamu** — ibu bapa / tetamu isi borang semasa tiba (nama, telefon, hubungan, nama murid, bilangan orang).
-- **Atur Cara** majlis, **Pelan Tempat Duduk**, pautan **Buku Atur Cara** (pilihan).
-- **Rekod Kehadiran** — statistik langsung (hadir / belum / peratus), dikemas kini setiap 20 saat.
+- **Tentatif** majlis, **Pelan Tempat Duduk**, pautan **Buku Atur Cara** (pilihan).
+- **Rekod Kehadiran** — jadual analisis ikut kelas (enrolmen, hadir, % hadir, ibu bapa hadir, jumlah), dikemas kini setiap 20 saat.
+- **Imbas QR** — selepas imbas, admin boleh tekan bilangan ibu bapa yang datang bersama (0–4).
 - **Panel Admin** — tambah/edit/padam murid, import senarai sekali gus, tanda hadir, **imbas QR dengan kamera telefon** (ada bunyi bip), cetak kad QR, muat turun CSV kehadiran & tetamu.
 
 Data disimpan dalam **Google Sheets** melalui Google Apps Script (percuma).
@@ -16,6 +17,7 @@ Data disimpan dalam **Google Sheets** melalui Google Apps Script (percuma).
 |---|---|
 | `index.html` | Laman web (letak di GitHub Pages) |
 | `Code.gs` | Backend Google Apps Script |
+| `data.js` | Senarai 118 murid T5 2026 (nama, kelas, L/P, status, bil. ibu bapa) — tanpa nama ibu bapa |
 
 ## Langkah pemasangan
 
@@ -54,7 +56,9 @@ Laman akan berada di `https://<nama-pengguna>.github.io/majlis-apresiasi-prakasa
 
 ## Cara guna pada hari majlis
 
-1. **Sebelum majlis**: Admin → *Import Senarai* (salin dari Excel: `Nama, Kelas, Meja, Kerusi`).
+1. **Sebelum majlis**: Admin → *Masukkan 118 murid asal* (sekali sahaja, bila Sheet masih kosong).
+   Untuk nama ibu bapa: buka fail Excel, helaian *Senarai Murid*, salin semua baris data →
+   Admin → *Import dari Excel* → tampal. Murid sedia ada dikemas kini, tidak digandakan.
    Kemudian *Cetak Kad QR* (boleh tapis ikut kelas) dan edarkan kepada murid,
    atau murid boleh cari nama sendiri dan tangkap layar QR.
 2. **Kaunter pendaftaran**: buka laman di telefon/tablet → Admin → tab *Rekod Kehadiran* → **Imbas QR**.

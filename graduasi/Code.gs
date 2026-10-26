@@ -15,16 +15,18 @@
  * bukan dalam laman web. Tukar dengan menjalankan `tukarKataLaluan`.
  */
 
-const SHEET_GRAD = 'Murid';
+const SHEET_MURID = 'Murid';
 const SHEET_VIS = 'Pengunjung';
-const GRAD_HEADERS = ['id', 'nama', 'kelas', 'noMurid', 'meja', 'kerusi', 'gambar', 'status', 'masaHadir'];
+const MURID_HEADERS = ['id', 'nama', 'kelas', 'jantina', 'meja', 'kerusi', 'gambar', 'status', 'masaHadir', 'bilIbuBapa', 'ibuBapa'];
 const VIS_HEADERS = ['id', 'masa', 'nama', 'telefon', 'hubungan', 'murid', 'bilangan'];
+const EDITABLE = ['nama', 'kelas', 'jantina', 'meja', 'kerusi', 'gambar', 'bilIbuBapa', 'ibuBapa'];
+const PRIVATE_FIELDS = ['ibuBapa']; // tidak dipaparkan kepada orang awam
 const TZ = 'Asia/Kuching';
 const DEFAULT_PASSWORD = 'prakasa2026';
 
 /** Jalankan sekali untuk cipta helaian dan kata laluan lalai. */
 function setup() {
-  getSheet_(SHEET_GRAD, GRAD_HEADERS);
+  getSheet_(SHEET_MURID, MURID_HEADERS);
   getSheet_(SHEET_VIS, VIS_HEADERS);
   const props = PropertiesService.getScriptProperties();
   if (!props.getProperty('ADMIN_PASSWORD')) props.setProperty('ADMIN_PASSWORD', DEFAULT_PASSWORD);
@@ -38,13 +40,7 @@ function tukarKataLaluan() {
 // ---------- HTTP ----------
 
 function doGet() {
-  // Data awam sahaja: maklumat pengunjung (no. telefon) tidak didedahkan.
-  return json_({
-    ok: true,
-    murid: readAll_(SHEET_GRAD, GRAD_HEADERS),
-    bilPengunjung: Math.max(0, getSheet_(SHEET_VIS, VIS_HEADERS).getLastRow() - 1),
-    bilTetamu: sumVisitors_()
-  });
+  return json_(publicData_());
 }
 
 function doPost(e) {
@@ -56,8 +52,7 @@ function doPost(e) {
   }
 
   const action = body.action;
-  const publicActions = ['visitor'];
-  if (publicActions.indexOf(action) === -1 && !isAdmin_(body.password)) {
+  if (action !== 'visitor' && !isAdmin_(body.password)) {
     return json_({ ok: false, error: 'Kata laluan admin salah' });
   }
 
@@ -66,11 +61,13 @@ function doPost(e) {
     lock.waitLock(20000);
     switch (action) {
       case 'login': return json_({ ok: true });
-      case 'add': return json_({ ok: true, record: addGrad_(body.record) });
-      case 'bulkAdd': return json_({ ok: true, count: bulkAdd_(body.records) });
-      case 'update': return json_(updateGrad_(body.record));
-      case 'delete': return json_(deleteRow_(SHEET_GRAD, GRAD_HEADERS, body.id));
+      case 'adminData': return json_(Object.assign(publicData_(), { murid: readAll_(SHEET_MURID, MURID_HEADERS) }));
+      case 'add': return json_({ ok: true, record: addMurid_(body.record) });
+      case 'bulkAdd': return json_(Object.assign({ ok: true }, bulkUpsert_(body.records)));
+      case 'update': return json_(updateMurid_(body.record));
+      case 'delete': return json_(deleteRow_(SHEET_MURID, MURID_HEADERS, body.id));
       case 'attendance': return json_(markAttendance_(body.id, body.status));
+      case 'resetAll': return json_(resetAll_());
       case 'listVisitors': return json_({ ok: true, pengunjung: readAll_(SHEET_VIS, VIS_HEADERS) });
       case 'deleteVisitor': return json_(deleteRow_(SHEET_VIS, VIS_HEADERS, body.id));
       case 'visitor': return json_(addVisitor_(body.visitor));
@@ -83,53 +80,88 @@ function doPost(e) {
   }
 }
 
-// ---------- Logik ----------
-
-function addGrad_(r) {
-  const rec = makeGrad_(r);
-  getSheet_(SHEET_GRAD, GRAD_HEADERS).appendRow(GRAD_HEADERS.map(h => rec[h]));
-  return rec;
-}
-
-function bulkAdd_(records) {
-  const rows = (records || []).filter(r => r && clean_(r.nama))
-    .map(r => { const rec = makeGrad_(r); return GRAD_HEADERS.map(h => rec[h]); });
-  if (!rows.length) return 0;
-  const sh = getSheet_(SHEET_GRAD, GRAD_HEADERS);
-  const range = sh.getRange(sh.getLastRow() + 1, 1, rows.length, GRAD_HEADERS.length);
-  range.setNumberFormat('@').setValues(rows);
-  return rows.length;
-}
-
-function makeGrad_(r) {
-  r = r || {};
-  const nama = clean_(r.nama);
-  if (!nama) throw new Error('Nama diperlukan');
+function publicData_() {
+  const murid = readAll_(SHEET_MURID, MURID_HEADERS).map(m => {
+    PRIVATE_FIELDS.forEach(k => delete m[k]);
+    return m;
+  });
+  const vis = readAll_(SHEET_VIS, VIS_HEADERS);
   return {
-    id: newId_(),
-    nama: nama,
-    kelas: clean_(r.kelas),
-    noMurid: clean_(r.noMurid),
-    meja: clean_(r.meja),
-    kerusi: clean_(r.kerusi),
-    gambar: clean_(r.gambar),
-    status: '',
-    masaHadir: ''
+    ok: true,
+    murid: murid,
+    bilPengunjung: vis.length,
+    bilTetamu: vis.reduce((t, v) => t + (parseInt(v.bilangan, 10) || 1), 0)
   };
 }
 
-function updateGrad_(r) {
-  const found = findRow_(SHEET_GRAD, GRAD_HEADERS, r && r.id);
-  if (!found) return { ok: false, error: 'Rekod tidak dijumpai' };
-  ['nama', 'kelas', 'noMurid', 'meja', 'kerusi', 'gambar'].forEach(k => {
-    if (r[k] !== undefined) found.record[k] = clean_(r[k]);
+// ---------- Murid ----------
+
+function makeMurid_(r) {
+  r = r || {};
+  const nama = clean_(r.nama);
+  if (!nama) throw new Error('Nama diperlukan');
+  const rec = { id: newId_(), status: '', masaHadir: '' };
+  EDITABLE.forEach(k => { rec[k] = clean_(r[k]); });
+  rec.nama = nama;
+  if (r.status === 'Hadir') rec.status = 'Hadir';
+  return rec;
+}
+
+function addMurid_(r) {
+  const rec = makeMurid_(r);
+  getSheet_(SHEET_MURID, MURID_HEADERS).appendRow(MURID_HEADERS.map(h => rec[h]));
+  return rec;
+}
+
+/**
+ * Import senarai: murid yang sama (nama + kelas) dikemas kini, yang baharu ditambah.
+ * Medan kosong dalam import tidak memadam data sedia ada.
+ */
+function bulkUpsert_(records) {
+  const sh = getSheet_(SHEET_MURID, MURID_HEADERS);
+  const existing = readAll_(SHEET_MURID, MURID_HEADERS);
+  const key = r => (clean_(r.nama) + '|' + clean_(r.kelas)).toLowerCase();
+  const index = {};
+  existing.forEach((r, i) => { index[key(r)] = i; });
+
+  const added = [];
+  let updated = 0;
+  (records || []).forEach(r => {
+    if (!r || !clean_(r.nama)) return;
+    const i = index[key(r)];
+    if (i === undefined) {
+      const rec = makeMurid_(r);
+      index[key(rec)] = -1;
+      added.push(MURID_HEADERS.map(h => rec[h]));
+    } else if (i >= 0) {
+      const rec = existing[i];
+      EDITABLE.forEach(k => { const v = clean_(r[k]); if (v) rec[k] = v; });
+      if (r.status === 'Hadir' && rec.status !== 'Hadir') rec.status = 'Hadir';
+      updated++;
+    }
   });
+
+  if (updated) {
+    sh.getRange(2, 1, existing.length, MURID_HEADERS.length)
+      .setValues(existing.map(rec => MURID_HEADERS.map(h => rec[h])));
+  }
+  if (added.length) {
+    sh.getRange(sh.getLastRow() + 1, 1, added.length, MURID_HEADERS.length)
+      .setNumberFormat('@').setValues(added);
+  }
+  return { added: added.length, updated: updated };
+}
+
+function updateMurid_(r) {
+  const found = findRow_(SHEET_MURID, MURID_HEADERS, r && r.id);
+  if (!found) return { ok: false, error: 'Rekod tidak dijumpai' };
+  EDITABLE.forEach(k => { if (r[k] !== undefined) found.record[k] = clean_(r[k]); });
   writeRow_(found);
   return { ok: true, record: found.record };
 }
 
 function markAttendance_(id, status) {
-  const found = findRow_(SHEET_GRAD, GRAD_HEADERS, id);
+  const found = findRow_(SHEET_MURID, MURID_HEADERS, id);
   if (!found) return { ok: false, error: 'Murid tidak dijumpai' };
   const rec = found.record;
   if (status === 'reset') {
@@ -144,11 +176,22 @@ function markAttendance_(id, status) {
   return { ok: true, record: rec };
 }
 
+function resetAll_() {
+  const sh = getSheet_(SHEET_MURID, MURID_HEADERS);
+  const n = sh.getLastRow() - 1;
+  if (n > 0) {
+    const col = MURID_HEADERS.indexOf('status') + 1;
+    sh.getRange(2, col, n, 2).clearContent(); // status + masaHadir
+  }
+  return { ok: true };
+}
+
+// ---------- Pengunjung ----------
+
 function addVisitor_(v) {
   v = v || {};
   const nama = clean_(v.nama);
   if (!nama) return { ok: false, error: 'Nama diperlukan' };
-  const bil = Math.min(20, Math.max(1, parseInt(v.bilangan, 10) || 1));
   const rec = {
     id: newId_(),
     masa: now_(),
@@ -156,7 +199,7 @@ function addVisitor_(v) {
     telefon: clean_(v.telefon),
     hubungan: clean_(v.hubungan),
     murid: clean_(v.murid),
-    bilangan: bil
+    bilangan: Math.min(20, Math.max(1, parseInt(v.bilangan, 10) || 1))
   };
   getSheet_(SHEET_VIS, VIS_HEADERS).appendRow(VIS_HEADERS.map(h => rec[h]));
   return { ok: true, id: rec.id, masa: rec.masa };
@@ -213,11 +256,6 @@ function deleteRow_(name, headers, id) {
   return { ok: true };
 }
 
-function sumVisitors_() {
-  return readAll_(SHEET_VIS, VIS_HEADERS)
-    .reduce((t, v) => t + (parseInt(v.bilangan, 10) || 1), 0);
-}
-
 // ---------- Utiliti ----------
 
 function isAdmin_(pw) {
@@ -237,11 +275,11 @@ function clean_(v) {
   return String(v == null ? '' : v).trim()
     .replace(/^[=@]+/, '')
     .replace(/^[+\-](?=\D)/, '')
-    .slice(0, 300);
+    .slice(0, 500);
 }
 
 function newId_() {
-  return 'G' + Utilities.getUuid().replace(/-/g, '').slice(0, 7).toUpperCase();
+  return 'P' + Utilities.getUuid().replace(/-/g, '').slice(0, 7).toUpperCase();
 }
 
 function now_() {

@@ -27,7 +27,7 @@ ditampal ke Quiz Generator jika anda mahukan Google Form juga.
 1. Pastikan repo ini **Public** (Settings → General → Danger Zone → Change visibility).
 2. Settings → **Pages** → Source: *Deploy from a branch* → Branch: **main**, folder **/ (root)** → Save.
 3. Selepas ~1 minit, laman anda: `https://marilyngakim-blip.github.io/quiz-generator/`
-   (cuba **Kuiz Contoh** di situ).
+   (kuiz contoh: `quiz.html?id=contoh`).
 
 ### Langkah 2 – Google Sheet "Kuiz Web"
 
@@ -91,12 +91,30 @@ B1, kemudian **QUIZ GENERATOR → Create Current Quiz** seperti biasa.
 - Saiz laman 1 GB (satu kuiz ≈ 20 KB), trafik ~100 GB sebulan. Lebih daripada cukup untuk sekolah.
 - Repo mesti Public. Soalan boleh dilihat umum, **jawapan tidak** (kekal dalam Google Sheet).
 
+## Ubah muka depan (`site.js`)
+
+Buka [`site.js`](site.js) di GitHub → ikon pensel ✏️ → ubah → **Commit changes**.
+
+- `TAJUK`, `SUBTAJUK`: teks besar di muka depan.
+- `ANAK`: nama anak-anak. Mereka pilih nama di muka depan, dan nama + kelas diisi automatik
+  dalam kuiz. Markah terbaik setiap anak dipaparkan pada kad kuiz (disimpan dalam pelayar itu).
+  ```js
+  ANAK: [
+    { nama: 'Aisyah', kelas: '2 Bestari', emoji: '🦄' },
+    { nama: 'Adam', kelas: '4 Cemerlang', emoji: '🚀' }
+  ],
+  ```
+- `SUBJEK`: petak subjek (nama, emoji, warna). Kuiz masuk ke subjek mengikut awal tajuknya,
+  contoh `Sejarah Tingkatan 2 (1.3-1.4)` → Sejarah. Tajuk yang tidak sepadan masuk "Lain-lain".
+
 ## Fail dalam repo ini
 
 | Fail | Fungsi |
 |---|---|
-| `index.html` | Senarai kuiz |
-| `quiz.html`, `assets/` | Laman menjawab kuiz |
+| `index.html`, `assets/home.js` | Muka depan: pilih anak, petak subjek, senarai kuiz |
+| `quiz.html`, `assets/quiz.js` | Laman menjawab kuiz (markah, bintang, konfeti) |
+| `assets/style.css`, `assets/common.js` | Reka bentuk dan fungsi dikongsi |
+| `site.js` | Tetapan muka depan (tajuk, anak, subjek) |
 | `quizzes/*.json` | Soalan setiap kuiz (tanpa jawapan) – dijana oleh Sheet |
 | `quizzes/index.json` | Senarai kuiz – dijana oleh Sheet |
 | `config.js` | URL Web App – dijana oleh Sheet |

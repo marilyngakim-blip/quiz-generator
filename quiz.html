@@ -4,13 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kuiz</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <div class="wrap" id="app">
-    <p class="muted">Memuatkan kuiz…</p>
-  </div>
+  <header class="hero small">
+    <a class="back" href="index.html">← Semua kuiz</a>
+    <h1 id="title">Memuatkan…</h1>
+    <p class="sub" id="subtitle"></p>
+  </header>
+  <main class="wrap narrow" id="app"></main>
+  <footer>Selamat mencuba! <b>Kamu boleh!</b> 💪</footer>
+
+  <script src="site.js"></script>
   <script src="config.js"></script>
+  <script src="assets/common.js"></script>
   <script src="assets/quiz.js"></script>
 </body>
 </html>

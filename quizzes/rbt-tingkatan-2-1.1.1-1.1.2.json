@@ -1,0 +1,407 @@
+{
+  "id": "rbt-tingkatan-2-1.1.1-1.1.2",
+  "title": "RBT Tingkatan 2 (1.1.1-1.1.2)",
+  "createdAt": "2026-10-27T14:51:16.436Z",
+  "questions": [
+    {
+      "q": "1. Apakah maksud masalah bukan inventif?",
+      "options": [
+        "A. Masalah yang tidak mempunyai sebarang jalan penyelesaian",
+        "B. Masalah yang dapat diselesaikan tanpa kesan sampingan",
+        "C. Masalah yang memerlukan prinsip inventif untuk diselesaikan",
+        "D. Masalah yang mempunyai kesan sampingan apabila penambahbaikan dilakukan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "2. Apakah maksud masalah inventif?",
+      "options": [
+        "A. Masalah yang hanya berlaku dalam kehidupan seharian",
+        "B. Masalah yang dapat diselesaikan tanpa kesan sampingan",
+        "C. Masalah yang mempunyai kesan sampingan apabila usaha penambahbaikan berlaku",
+        "D. Masalah yang tidak memerlukan sebarang penambahbaikan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "3. Pisau yang tumpul diasah sehingga tajam dan dapat digunakan semula dengan baik. Situasi ini ialah contoh",
+      "options": [
+        "A. penyelesaian masalah bukan inventif",
+        "B. penyelesaian masalah inventif",
+        "C. percanggahan fizikal",
+        "D. kaedah pemisahan masa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "4. TRIZ ialah akronim dalam bahasa",
+      "options": [
+        "A. Latin",
+        "B. Rusia",
+        "C. Jerman",
+        "D. Jepun"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "5. Apakah maksud TRIZ?",
+      "options": [
+        "A. Teori Penyelesaian Masalah Inventif",
+        "B. Teknik Reka Bentuk Industri",
+        "C. Teori Rekaan Inovasi Zaman",
+        "D. Teori Penyelesaian Masalah Bukan Inventif"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "6. Siapakah yang memperkenalkan kaedah TRIZ?",
+      "options": [
+        "A. Thomas Edison",
+        "B. Alexander Graham Bell",
+        "C. Genrich Altshuller",
+        "D. Nikola Tesla"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "7. Apakah langkah pertama dalam proses penyelesaian masalah bukan inventif?",
+      "options": [
+        "A. Mengenal pasti masalah",
+        "B. Membuat pilihan",
+        "C. Melaksanakan pilihan",
+        "D. Menyenaraikan pilihan untuk menyelesaikan masalah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "8. Apakah langkah kelima dalam proses penyelesaian masalah bukan inventif?",
+      "options": [
+        "A. Membuat pilihan",
+        "B. Melaksanakan pilihan",
+        "C. Menyenaraikan pilihan untuk menyelesaikan masalah",
+        "D. Menilai penyelesaian masalah sama ada berjaya atau tidak"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "9. Proses penyelesaian masalah secara inventif banyak digunakan dalam sektor",
+      "options": [
+        "A. industri",
+        "B. pelancongan",
+        "C. perbankan",
+        "D. hiburan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "10. Berapakah bilangan fasa dalam penyelesaian masalah inventif?",
+      "options": [
+        "A. 5",
+        "B. 4",
+        "C. 3",
+        "D. 7"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "11. Apakah fasa pertama dalam penyelesaian masalah inventif?",
+      "options": [
+        "A. Memodelkan masalah",
+        "B. Menganalisis punca masalah",
+        "C. Memilih prinsip inventif",
+        "D. Memilih kaedah pemisahan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "12. Proses kerja untuk mengesan punca masalah sesuatu produk dikenali sebagai",
+      "options": [
+        "A. kaedah pemisahan",
+        "B. prinsip inventif",
+        "C. analisis fungsi",
+        "D. percanggahan fizikal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "13. Konsep yang digunakan untuk memodelkan masalah dalam fasa kedua penyelesaian masalah inventif ialah",
+      "options": [
+        "A. carta alir",
+        "B. percanggahan fizikal",
+        "C. kaedah pemisahan masa",
+        "D. analisis fungsi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "14. Apakah dua kaedah pemisahan yang diperkenalkan dalam fasa ketiga penyelesaian masalah inventif?",
+      "options": [
+        "A. Pemisahan ruang dan pemisahan bahan",
+        "B. Pemisahan masa dan pemisahan tenaga",
+        "C. Pemisahan ruang dan pemisahan masa",
+        "D. Pemisahan bahan dan pemisahan tenaga"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "15. Berapakah bilangan prinsip inventif yang dibekalkan bagi kaedah pemisahan ruang?",
+      "options": [
+        "A. 7",
+        "B. 5",
+        "C. 4",
+        "D. 14"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "16. Penutup balang kuih yang tidak ketat menyebabkan biskut lemau. Penutup itu ditambah baik tetapi menjadi terlalu ketat. Mengapakah situasi ini dikategorikan sebagai masalah inventif?",
+      "options": [
+        "A. Penyelesaian tidak memerlukan sebarang penambahbaikan",
+        "B. Masalah diselesaikan tanpa sebarang kesan sampingan",
+        "C. Penambahbaikan menimbulkan masalah baharu sebagai kesan sampingan",
+        "D. Masalah tidak dapat diselesaikan langsung"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "17. Antara berikut, yang manakah ciri penyelesaian masalah bukan inventif?",
+      "options": [
+        "A. Alatan dapat digunakan semula dan tiada kesan sampingan",
+        "B. Wujud percanggahan fizikal pada alatan",
+        "C. Alatan menjadi lebih berat selepas penambahbaikan",
+        "D. Prinsip inventif perlu dipilih untuk alatan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "18. Kaki meja kayu digantikan dengan kaki besi supaya meja dapat menampung beban. Apakah kesan sampingan penambahbaikan ini?",
+      "options": [
+        "A. Meja masih tidak dapat menampung beban",
+        "B. Meja menjadi lebih berat dan memerlukan lebih ramai tenaga untuk dialihkan",
+        "C. Meja menjadi lebih ringan dan mudah terbalik",
+        "D. Muka meja menjadi mudah retak"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "19. Mengapakah proses mengasah pisau yang tumpul tidak menimbulkan kesan sampingan?",
+      "options": [
+        "A. Proses mengasah menjadikan pisau lebih berat",
+        "B. Proses mengasah memerlukan pisau diganti baharu",
+        "C. Proses mengasah menyebabkan mata pisau sumbing",
+        "D. Proses mengasah tidak menjejaskan bahagian pisau atau merosakkan hulu pisau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "20. Dalam proses penyelesaian masalah bukan inventif, jika masalah tidak berjaya diatasi, langkah manakah perlu dirujuk semula?",
+      "options": [
+        "A. Langkah kedua, iaitu menyenaraikan pilihan",
+        "B. Langkah ketiga, iaitu membuat pilihan",
+        "C. Langkah pertama, iaitu mengenal pasti masalah",
+        "D. Langkah keempat, iaitu melaksanakan pilihan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "21. Antara berikut, yang manakah urutan betul langkah kedua hingga keempat proses penyelesaian masalah bukan inventif?",
+      "options": [
+        "A. Menyenaraikan pilihan, melaksanakan pilihan, membuat pilihan",
+        "B. Melaksanakan pilihan, membuat pilihan, menyenaraikan pilihan",
+        "C. Membuat pilihan, menyenaraikan pilihan, melaksanakan pilihan",
+        "D. Menyenaraikan pilihan, membuat pilihan, melaksanakan pilihan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "22. Apakah percanggahan fizikal dalam contoh meja berkaki besi?",
+      "options": [
+        "A. Meja perlu besar dan kecil",
+        "B. Meja perlu tinggi dan rendah",
+        "C. Meja perlu panas dan sejuk",
+        "D. Meja perlu berat dan ringan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "23. Apakah soalan yang ditanya untuk menentukan kaedah pemisahan yang sesuai?",
+      "options": [
+        "A. Adakah masalah itu mempunyai kesan sampingan?",
+        "B. Adakah percanggahan berlaku pada masa yang sama?",
+        "C. Adakah percanggahan berlaku di tempat yang sama?",
+        "D. Adakah produk itu mempunyai banyak komponen?"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "24. Jika jawapan kepada soalan penentuan kaedah pemisahan ialah \"Ya\", kaedah manakah yang dipilih?",
+      "options": [
+        "A. Analisis fungsi",
+        "B. Pemisahan ruang",
+        "C. Pemisahan masa",
+        "D. Percanggahan fizikal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "25. Jika jawapan kepada soalan penentuan kaedah pemisahan ialah \"Tidak\", kaedah manakah yang dipilih?",
+      "options": [
+        "A. Analisis fungsi",
+        "B. Pemisahan ruang",
+        "C. Pemisahan masa",
+        "D. Percanggahan fizikal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "26. Mengapakah kaedah pemisahan masa dipilih bagi masalah meja berkaki besi?",
+      "options": [
+        "A. Meja digunakan untuk menampung beban dan dialihkan pada masa yang berlainan",
+        "B. Meja diletakkan di dua tempat yang berbeza",
+        "C. Meja perlu berat dan ringan pada masa yang sama",
+        "D. Meja diperbuat daripada dua jenis bahan yang berbeza"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "27. Fasa keempat penyelesaian masalah inventif, iaitu model penyelesaian spesifik, melibatkan pemilihan",
+      "options": [
+        "A. analisis fungsi",
+        "B. percanggahan fizikal",
+        "C. prinsip inventif",
+        "D. kaedah pemisahan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "28. Antara pernyataan berikut, yang manakah benar tentang pemilihan prinsip inventif?",
+      "options": [
+        "A. Murid boleh memilih satu atau menggabungkan beberapa prinsip inventif",
+        "B. Prinsip inventif hanya dibekalkan bagi kaedah pemisahan ruang",
+        "C. Prinsip inventif dipilih sebelum percanggahan fizikal dikenal pasti",
+        "D. Murid mesti menggunakan ketujuh-tujuh prinsip inventif sekali gus"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "29. Apakah kelebihan kaedah TRIZ dalam proses penyelesaian masalah?",
+      "options": [
+        "A. Masalah dapat diselesaikan tanpa sebarang analisis",
+        "B. Kaedah ini hanya sesuai untuk masalah bukan inventif",
+        "C. Masalah dapat diselesaikan dalam satu langkah sahaja",
+        "D. Proses penyelesaian masalah boleh diulang semula untuk mendapatkan keputusan terbaik"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "30. Genrich Altshuller dan rakan-rakannya menjalankan penyelidikan TRIZ melalui",
+      "options": [
+        "A. tinjauan pasaran dan jualan produk",
+        "B. kajian sejarah seni bina",
+        "C. kajian makmal kimia dan biologi",
+        "D. kajian paten dan penyelesaian masalah secara inventif"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "31. Ali mendapati tayar basikalnya kempis. Dia mengepam angin dan basikal itu dapat digunakan semula tanpa sebarang masalah lain. Apakah jenis masalah ini?",
+      "options": [
+        "A. Masalah inventif kerana melibatkan penambahbaikan",
+        "B. Masalah bukan inventif kerana tiada kesan sampingan selepas penyelesaian",
+        "C. Masalah inventif kerana wujud percanggahan fizikal",
+        "D. Masalah bukan inventif kerana masalah itu tidak dapat diselesaikan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "32. Siti menambah lapisan penebat pada beg makanannya supaya makanan kekal panas. Namun, beg itu menjadi berat dan sukar dibawa. Apakah jenis masalah ini?",
+      "options": [
+        "A. Masalah bukan inventif kerana makanan kekal panas",
+        "B. Masalah bukan inventif kerana beg masih boleh digunakan",
+        "C. Masalah inventif kerana beg tidak dapat menyimpan makanan",
+        "D. Masalah inventif kerana penambahbaikan menimbulkan kesan sampingan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "33. Cawan kopi yang panas mudah dipegang kerana bahagian pemegangnya sejuk. Kaedah pemisahan manakah yang sesuai dan mengapa?",
+      "options": [
+        "A. Pemisahan masa kerana panas dan sejuk berlaku pada masa yang sama",
+        "B. Pemisahan ruang kerana panas dan sejuk berlaku pada masa yang sama",
+        "C. Pemisahan ruang kerana panas dan sejuk berlaku pada masa yang berlainan",
+        "D. Pemisahan masa kerana panas dan sejuk berlaku pada masa yang berlainan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "34. Sebuah payung perlu besar untuk melindungi pengguna daripada hujan semasa digunakan, dan perlu kecil supaya mudah dibawa semasa tidak digunakan. Kaedah pemisahan manakah yang paling sesuai?",
+      "options": [
+        "A. Pemisahan masa kerana besar dan kecil diperlukan pada masa yang sama",
+        "B. Pemisahan ruang kerana besar dan kecil diperlukan pada masa yang sama",
+        "C. Pemisahan masa kerana besar dan kecil diperlukan pada masa yang berlainan",
+        "D. Pemisahan ruang kerana besar dan kecil diperlukan pada masa yang berlainan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "35. Seorang pereka menjelaskan fungsi setiap bahagian sebuah kerusi untuk mencari punca kerusi itu bergoyang. Pereka itu sedang berada dalam fasa",
+      "options": [
+        "A. kedua, iaitu memodelkan masalah",
+        "B. keempat, iaitu memilih prinsip inventif",
+        "C. pertama, iaitu menganalisis punca masalah",
+        "D. ketiga, iaitu memilih kaedah pemisahan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "36. Sebuah kotak simpanan perlu tebal supaya kukuh untuk melindungi barang, tetapi perlu nipis supaya ringan. Pernyataan \"kotak perlu tebal dan nipis\" ialah contoh",
+      "options": [
+        "A. analisis fungsi",
+        "B. prinsip inventif",
+        "C. masalah bukan inventif",
+        "D. percanggahan fizikal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "37. Aminah mendapati lampu mejanya malap. Dia menyenaraikan beberapa pilihan, memilih untuk menukar mentol, lalu menukarnya. Apakah langkah seterusnya yang perlu dilakukan oleh Aminah?",
+      "options": [
+        "A. Menilai sama ada penyelesaian itu berjaya atau tidak",
+        "B. Menyenaraikan semula pilihan yang ada",
+        "C. Membuat pilihan yang lain",
+        "D. Mengenal pasti masalah lampu meja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "38. Selepas menukar mentol, Aminah mendapati lampu mejanya masih malap. Apakah tindakan yang paling tepat?",
+      "options": [
+        "A. Menukar masalah yang dikenal pasti kepada masalah lain",
+        "B. Menghentikan proses kerana masalah gagal diselesaikan",
+        "C. Mengulang langkah melaksanakan pilihan yang sama",
+        "D. Merujuk semula senarai pilihan dan cuba membuat pilihan yang lain"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "39. P: Percanggahan fizikal  Q: Analisis fungsi  R: Prinsip inventif  S: Kaedah pemisahan. Antara berikut, yang manakah urutan betul penggunaannya dalam penyelesaian masalah inventif?",
+      "options": [
+        "A. Q, S, P, R",
+        "B. S, Q, P, R",
+        "C. Q, P, S, R",
+        "D. P, Q, S, R"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "40. Sebelum penambahbaikan, tenaga dua lelaki diperlukan untuk mengalihkan meja berkaki kayu. Selepas kaki meja ditukar kepada besi, tenaga empat lelaki diperlukan. Berapakah peratus pertambahan tenaga lelaki yang diperlukan?",
+      "options": [
+        "A. 25 peratus",
+        "B. 200 peratus",
+        "C. 50 peratus",
+        "D. 100 peratus"
+      ],
+      "marks": 1
+    }
+  ]
+}

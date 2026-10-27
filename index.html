@@ -3,38 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Senarai Kuiz</title>
+  <title>Jom Kuiz!</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <div class="wrap">
-    <h1>Senarai Kuiz</h1>
-    <p class="muted">Pilih kuiz yang diberikan oleh guru anda.</p>
-    <div class="card"><ul class="list" id="list"><li class="muted">Memuatkan…</li></ul></div>
-  </div>
-  <script>
-    fetch('quizzes/index.json', { cache: 'no-store' })
-      .then(r => r.json())
-      .then(items => {
-        const list = document.getElementById('list');
-        list.innerHTML = '';
-        items.sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
-        if (!items.length) list.innerHTML = '<li class="muted">Belum ada kuiz.</li>';
-        for (const it of items) {
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = 'quiz.html?id=' + encodeURIComponent(it.id);
-          a.textContent = it.title;
-          const meta = document.createElement('div');
-          meta.className = 'muted';
-          meta.textContent = it.questionCount + ' soalan';
-          li.append(a, meta);
-          list.append(li);
-        }
-      })
-      .catch(() => {
-        document.getElementById('list').innerHTML = '<li class="error">Senarai kuiz tidak dapat dimuatkan.</li>';
-      });
-  </script>
+  <header class="hero">
+    <span class="hello" id="hello">Hai! 👋</span>
+    <h1 id="title">Jom Kuiz!</h1>
+    <p class="sub" id="subtitle"></p>
+  </header>
+
+  <main class="wrap">
+    <section class="who hidden" id="who">
+      <h2>Siapa nak main hari ini?</h2>
+      <div class="kids" id="kids"></div>
+    </section>
+
+    <div class="head">
+      <h2>Pilih subjek 🎒</h2>
+      <p>Tekan satu subjek untuk lihat kuiznya</p>
+    </div>
+    <div class="subjects" id="subjects"></div>
+
+    <div class="list-head">
+      <h2 id="listTitle">Semua kuiz</h2>
+      <button class="chip-btn hidden" id="showAll" type="button">Tunjuk semua</button>
+    </div>
+    <div class="grid" id="list"><div class="empty">Memuatkan kuiz…</div></div>
+  </main>
+
+  <footer>Dibuat dengan ❤️ untuk <b>anak-anak tersayang</b></footer>
+
+  <script src="site.js"></script>
+  <script src="assets/common.js"></script>
+  <script src="assets/home.js"></script>
 </body>
 </html>

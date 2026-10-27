@@ -216,18 +216,24 @@ function bacaFormApp_(form) {
 }
 
 function muatGambarUri_(uri) {
-  let res = UrlFetchApp.fetch(uri, { muteHttpExceptions: true });
-  if (res.getResponseCode() !== 200) {
-    res = UrlFetchApp.fetch(uri, { headers: { Authorization: 'Bearer ' + ScriptApp.getOAuthToken() }, muteHttpExceptions: true });
+  // Kadang-kadang Google memulangkan respons kosong; cuba semula (tanpa/dengan token) sebelum menyerah.
+  const attempts = [{}, { headers: { Authorization: 'Bearer ' + ScriptApp.getOAuthToken() } }, {}];
+  let code = 0;
+  for (let i = 0; i < attempts.length; i++) {
+    if (i === 2) Utilities.sleep(1500);
+    const res = UrlFetchApp.fetch(uri, Object.assign({ muteHttpExceptions: true }, attempts[i]));
+    code = res.getResponseCode();
+    const blob = res.getBlob();
+    if (code === 200 && blob.getBytes().length > 0) return blob;
   }
-  if (res.getResponseCode() !== 200) throw new Error('muat turun gambar gagal (' + res.getResponseCode() + ')');
-  return res.getBlob();
+  throw new Error(code === 200 ? 'gambar kosong diterima dari Google Form' : 'muat turun gambar gagal (' + code + ')');
 }
 
 function simpanGambarDrive_(blob, name) {
   const NAMA_FOLDER = 'Kuiz Web – Gambar';
   const it = DriveApp.getFoldersByName(NAMA_FOLDER);
   const folder = it.hasNext() ? it.next() : DriveApp.createFolder(NAMA_FOLDER);
+  if (!blob.getBytes().length) throw new Error('gambar kosong');
   return folder.createFile(blob.setName(name)).getUrl();
 }
 
@@ -358,6 +364,7 @@ function gambarKeGitHub_(quizId, n, ref) {
   const type = String(blob.getContentType() || '');
   const ext = { 'image/png': 'png', 'image/jpeg': 'jpg', 'image/gif': 'gif', 'image/webp': 'webp', 'image/svg+xml': 'svg' }[type];
   if (!ext) throw new Error('Fail di lajur H soalan ' + n + ' bukan gambar (' + (type || 'jenis tidak diketahui') + ').');
+  if (!blob.getBytes().length) throw new Error('Gambar soalan ' + n + ' kosong (0 bait). Gantikan pautan di lajur H dengan gambar yang betul.');
   if (blob.getBytes().length > 5 * 1024 * 1024) throw new Error('Gambar soalan ' + n + ' melebihi 5 MB. Kecilkan dahulu.');
   const path = 'img/' + quizId + '/q' + n + '.' + ext;
   ghPutBase64_('quizzes/' + path, Utilities.base64Encode(blob.getBytes()), 'Gambar soalan ' + n + ': ' + quizId);

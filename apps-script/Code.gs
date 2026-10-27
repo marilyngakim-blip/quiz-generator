@@ -34,6 +34,7 @@ const LETTERS = ['A', 'B', 'C', 'D'];
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('KUIZ WEB')
+    .addItem('Import dari Google Form', 'importDariForm')
     .addItem('Terbitkan Kuiz ke GitHub', 'terbitkanKuiz')
     .addSeparator()
     .addItem('Sediakan Sheet (kali pertama)', 'sediakanSheet')
@@ -65,6 +66,77 @@ function sediakanSheet() {
 
 function getOrCreate_(ss, name) {
   return ss.getSheetByName(name) || ss.insertSheet(name);
+}
+
+/* ------------------------------------------------------------------ */
+/* Import dari Google Form                                             */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Salin soalan aneka pilihan (4 pilihan, ada kunci jawapan) dari Google Form kuiz
+ * ke tab "Input Kuiz". Semak hasilnya, kemudian guna "Terbitkan Kuiz ke GitHub".
+ */
+function importDariForm() {
+  const ui = SpreadsheetApp.getUi();
+  const res = ui.prompt('Import dari Google Form',
+    'Tampal pautan EDIT Google Form (yang berakhir dengan /edit):', ui.ButtonSet.OK_CANCEL);
+  if (res.getSelectedButton() !== ui.Button.OK) return;
+
+  try {
+    const text = res.getResponseText().trim();
+    if (/\/forms\/d\/e\//.test(text) || /forms\.gle/.test(text)) {
+      throw new Error('Ini pautan untuk murid. Buka Form → klik ⋮ atau salin pautan dari bar alamat semasa mengedit (…/forms/d/…/edit).');
+    }
+    const m = text.match(/\/forms\/d\/([\w-]+)/);
+    const form = FormApp.openById(m ? m[1] : text);
+
+    const ss = SpreadsheetApp.getActive();
+    const sheet = ss.getSheetByName(TAB_INPUT);
+    if (!sheet) throw new Error('Tab "' + TAB_INPUT + '" tiada. Jalankan "Sediakan Sheet" dahulu.');
+
+    const rows = [];
+    const skipped = [];
+    let others = 0;
+    form.getItems().forEach(item => {
+      const type = item.getType();
+      let q;
+      if (type === FormApp.ItemType.MULTIPLE_CHOICE) q = item.asMultipleChoiceItem();
+      else if (type === FormApp.ItemType.LIST) q = item.asListItem();
+      else { others++; return; }
+
+      const title = item.getTitle() + (item.getHelpText() ? '\n' + item.getHelpText() : '');
+      const choices = q.getChoices();
+      const correct = choices.map((c, i) => c.isCorrectAnswer() ? i : -1).filter(i => i >= 0);
+      if (choices.length !== 4) { skipped.push('"' + short_(title) + '" – ada ' + choices.length + ' pilihan (perlu 4)'); return; }
+      if (correct.length !== 1) { skipped.push('"' + short_(title) + '" – tiada kunci jawapan'); return; }
+      // Ruang di hadapan "=" menghalang teks dibaca sebagai formula (dibuang semasa terbit).
+      rows.push([title].concat(choices.map(c => c.getValue()), [LETTERS[correct[0]], q.getPoints() || 1, ''])
+        .map(v => typeof v === 'string' && v.charAt(0) === '=' ? ' ' + v : v));
+    });
+    if (!rows.length) throw new Error('Tiada soalan aneka pilihan 4-pilihan dengan kunci jawapan dalam Form ini.' +
+      (skipped.length ? '\n\nDilangkau:\n' + skipped.slice(0, 10).join('\n') : ''));
+
+    const last = Math.max(sheet.getLastRow(), FIRST_ROW);
+    sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, 8).clearContent();
+    // Format teks supaya jawapan seperti 1/2 atau 007 tidak ditukar menjadi tarikh/nombor.
+    sheet.getRange(FIRST_ROW, 1, rows.length, 8).setNumberFormat('@').setValues(rows);
+    sheet.getRange('B1').setValue(safe_(form.getTitle()));
+    sheet.getRange('B2').clearContent();
+
+    let msg = rows.length + ' soalan disalin ke tab "' + TAB_INPUT + '". Tajuk di B1: "' + form.getTitle() + '".\n\n' +
+      'Langkah seterusnya:\n1. Semak/ubah tajuk di B1 (awal tajuk = nama subjek, contoh "Sejarah Tingkatan 2 (1.3)").\n' +
+      '2. Semak soalan.\n3. KUIZ WEB → Terbitkan Kuiz ke GitHub.';
+    if (skipped.length) msg += '\n\nDilangkau (' + skipped.length + '):\n' + skipped.slice(0, 10).join('\n') + (skipped.length > 10 ? '\n…' : '');
+    if (others) msg += '\n\n' + others + ' item lain (contoh Nama, Kelas, tajuk bahagian, gambar) tidak disalin.';
+    ui.alert('Import selesai', msg, ui.ButtonSet.OK);
+  } catch (e) {
+    ui.alert('Import gagal', e.message, ui.ButtonSet.OK);
+  }
+}
+
+function short_(s) {
+  s = String(s).split('\n')[0];
+  return s.length > 50 ? s.slice(0, 50) + '…' : s;
 }
 
 /* ------------------------------------------------------------------ */

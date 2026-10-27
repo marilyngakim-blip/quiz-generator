@@ -76,6 +76,18 @@ Jangan kongsi token atau Sheet ini dengan murid.
 Menerbitkan tajuk yang sama sekali lagi akan **menggantikan** soalan kuiz itu (anda akan ditanya
 dahulu). Markah lama kekal.
 
+## Pindahkan kuiz dari Google Form
+
+1. Buka Google Form (akaun yang sama dengan Sheet Kuiz Web), salin pautan dari bar alamat semasa
+   **mengedit** Form (`https://docs.google.com/forms/d/…/edit`).
+2. Sheet **Kuiz Web** → **KUIZ WEB → Import dari Google Form** → tampal pautan → OK.
+3. Soalan aneka pilihan (4 pilihan, ada kunci jawapan) disalin ke tab Input Kuiz, tajuk Form di B1.
+   Mesej akhir menyenaraikan soalan yang dilangkau (tiada kunci jawapan / bukan 4 pilihan).
+4. Ubah tajuk di B1 supaya bermula dengan nama subjek (contoh `Sejarah Tingkatan 2 (1.3)`), kemudian
+   **KUIZ WEB → Terbitkan Kuiz ke GitHub**.
+
+Gambar dalam Form tidak disalin. Ulang langkah ini untuk setiap Form.
+
 ## Melihat markah
 
 Tab **Markah**: masa, kuiz, nama, kelas, nombor cubaan, markah, peratus dan jawapan murid.

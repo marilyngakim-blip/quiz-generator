@@ -74,7 +74,9 @@ function getOrCreate_(ss, name) {
 
 /**
  * Salin soalan aneka pilihan (4 pilihan, ada kunci jawapan) dari Google Form kuiz
- * ke tab "Input Kuiz". Semak hasilnya, kemudian guna "Terbitkan Kuiz ke GitHub".
+ * ke tab "Input Kuiz", termasuk gambar soalan. Gambar disimpan dalam folder Drive
+ * "Kuiz Web – Gambar" dan pautannya diletak di lajur H. Semasa "Terbitkan", gambar
+ * dimuat naik ke GitHub.
  */
 function importDariForm() {
   const ui = SpreadsheetApp.getUi();
@@ -88,29 +90,44 @@ function importDariForm() {
       throw new Error('Ini pautan untuk murid. Buka Form → klik ⋮ atau salin pautan dari bar alamat semasa mengedit (…/forms/d/…/edit).');
     }
     const m = text.match(/\/forms\/d\/([\w-]+)/);
-    const form = FormApp.openById(m ? m[1] : text);
+    const formId = m ? m[1] : text;
+    const form = FormApp.openById(formId);
 
     const ss = SpreadsheetApp.getActive();
     const sheet = ss.getSheetByName(TAB_INPUT);
     if (!sheet) throw new Error('Tab "' + TAB_INPUT + '" tiada. Jalankan "Sediakan Sheet" dahulu.');
 
+    // Forms API boleh membaca gambar yang dilekatkan pada soalan. Jika tidak dapat,
+    // guna FormApp (hanya item gambar berasingan dapat dibaca).
+    let data;
+    let apiNote = '';
+    try {
+      data = bacaFormApi_(formId);
+    } catch (e) {
+      data = bacaFormApp_(form);
+      apiNote = 'Gambar yang dilekatkan terus pada soalan tidak dapat dibaca (' + String(e.message).slice(0, 120) +
+        '). Hanya item gambar berasingan disalin. Tambah gambar lain secara manual di lajur H.';
+    }
+
     const rows = [];
     const skipped = [];
-    let others = 0;
-    form.getItems().forEach(item => {
-      const type = item.getType();
-      let q;
-      if (type === FormApp.ItemType.MULTIPLE_CHOICE) q = item.asMultipleChoiceItem();
-      else if (type === FormApp.ItemType.LIST) q = item.asListItem();
-      else { others++; return; }
-
-      const title = item.getTitle() + (item.getHelpText() ? '\n' + item.getHelpText() : '');
-      const choices = q.getChoices();
-      const correct = choices.map((c, i) => c.isCorrectAnswer() ? i : -1).filter(i => i >= 0);
-      if (choices.length !== 4) { skipped.push('"' + short_(title) + '" – ada ' + choices.length + ' pilihan (perlu 4)'); return; }
-      if (correct.length !== 1) { skipped.push('"' + short_(title) + '" – tiada kunci jawapan'); return; }
+    const imgErrors = [];
+    let images = 0;
+    data.list.forEach(it => {
+      const title = it.title;
+      if (it.options.length !== 4) { skipped.push('"' + short_(title) + '" – ada ' + it.options.length + ' pilihan (perlu 4)'); return; }
+      if (it.correct.length !== 1) { skipped.push('"' + short_(title) + '" – tiada kunci jawapan'); return; }
+      let imageUrl = '';
+      if (it.image) {
+        try {
+          imageUrl = simpanGambarDrive_(it.image(), form.getTitle() + ' – S' + (rows.length + 1));
+          images++;
+        } catch (e) {
+          imgErrors.push('S' + (rows.length + 1) + ': ' + String(e.message).slice(0, 80));
+        }
+      }
       // Ruang di hadapan "=" menghalang teks dibaca sebagai formula (dibuang semasa terbit).
-      rows.push([title].concat(choices.map(c => c.getValue()), [LETTERS[correct[0]], q.getPoints() || 1, ''])
+      rows.push([title].concat(it.options, [LETTERS[it.correct[0]], it.marks || 1, imageUrl])
         .map(v => typeof v === 'string' && v.charAt(0) === '=' ? ' ' + v : v));
     });
     if (!rows.length) throw new Error('Tiada soalan aneka pilihan 4-pilihan dengan kunci jawapan dalam Form ini.' +
@@ -123,15 +140,95 @@ function importDariForm() {
     sheet.getRange('B1').setValue(safe_(form.getTitle()));
     sheet.getRange('B2').clearContent();
 
-    let msg = rows.length + ' soalan disalin ke tab "' + TAB_INPUT + '". Tajuk di B1: "' + form.getTitle() + '".\n\n' +
+    let msg = rows.length + ' soalan disalin ke tab "' + TAB_INPUT + '"' +
+      (images ? ', termasuk ' + images + ' gambar (lajur H)' : '') + '. Tajuk di B1: "' + form.getTitle() + '".\n\n' +
       'Langkah seterusnya:\n1. Semak/ubah tajuk di B1 (awal tajuk = nama subjek, contoh "Sejarah Tingkatan 2 (1.3)").\n' +
       '2. Semak soalan.\n3. KUIZ WEB → Terbitkan Kuiz ke GitHub.';
     if (skipped.length) msg += '\n\nDilangkau (' + skipped.length + '):\n' + skipped.slice(0, 10).join('\n') + (skipped.length > 10 ? '\n…' : '');
-    if (others) msg += '\n\n' + others + ' item lain (contoh Nama, Kelas, tajuk bahagian, gambar) tidak disalin.';
+    if (imgErrors.length) msg += '\n\nGambar gagal disalin:\n' + imgErrors.slice(0, 5).join('\n');
+    if (data.optionImages) msg += '\n\n' + data.optionImages + ' soalan ada gambar pada pilihan jawapan. Gambar pilihan tidak disokong; hanya teks pilihan disalin.';
+    if (apiNote) msg += '\n\n' + apiNote;
+    if (data.others) msg += '\n\n' + data.others + ' item lain (contoh Nama, Kelas, tajuk bahagian) tidak disalin.';
     ui.alert('Import selesai', msg, ui.ButtonSet.OK);
   } catch (e) {
     ui.alert('Import gagal', e.message, ui.ButtonSet.OK);
   }
+}
+
+// Baca Form melalui Google Forms API (termasuk gambar soalan).
+function bacaFormApi_(formId) {
+  const res = UrlFetchApp.fetch('https://forms.googleapis.com/v1/forms/' + encodeURIComponent(formId), {
+    headers: { Authorization: 'Bearer ' + ScriptApp.getOAuthToken() },
+    muteHttpExceptions: true
+  });
+  if (res.getResponseCode() !== 200) throw new Error('Forms API ' + res.getResponseCode());
+  const data = JSON.parse(res.getContentText());
+  const out = { list: [], others: 0, optionImages: 0 };
+  let pending = null; // item gambar berasingan → dilekatkan pada soalan berikutnya
+  (data.items || []).forEach(it => {
+    if (it.imageItem && it.imageItem.image) { pending = it.imageItem.image; return; }
+    const qi = it.questionItem;
+    const cq = qi && qi.question && qi.question.choiceQuestion;
+    if (!cq || cq.type === 'CHECKBOX') { out.others++; return; }
+    const opts = (cq.options || []).filter(o => !o.isOther);
+    if (opts.some(o => o.image)) out.optionImages++;
+    const grading = qi.question.grading || {};
+    const correctVals = ((grading.correctAnswers || {}).answers || []).map(a => a.value);
+    const img = qi.image || pending;
+    pending = null;
+    out.list.push({
+      title: (it.title || '') + (it.description ? '\n' + it.description : ''),
+      options: opts.map(o => o.value || ''),
+      correct: opts.map((o, i) => correctVals.indexOf(o.value) >= 0 ? i : -1).filter(i => i >= 0),
+      marks: grading.pointValue || 1,
+      image: img && img.contentUri ? () => muatGambarUri_(img.contentUri) : null
+    });
+  });
+  return out;
+}
+
+// Cara simpanan: FormApp (tidak dapat membaca gambar yang dilekatkan pada soalan).
+function bacaFormApp_(form) {
+  const out = { list: [], others: 0, optionImages: 0 };
+  let pending = null;
+  form.getItems().forEach(item => {
+    const type = item.getType();
+    if (type === FormApp.ItemType.IMAGE) {
+      const blob = item.asImageItem().getImage();
+      pending = () => blob;
+      return;
+    }
+    let q;
+    if (type === FormApp.ItemType.MULTIPLE_CHOICE) q = item.asMultipleChoiceItem();
+    else if (type === FormApp.ItemType.LIST) q = item.asListItem();
+    else { out.others++; return; }
+    const choices = q.getChoices();
+    out.list.push({
+      title: item.getTitle() + (item.getHelpText() ? '\n' + item.getHelpText() : ''),
+      options: choices.map(c => c.getValue()),
+      correct: choices.map((c, i) => c.isCorrectAnswer() ? i : -1).filter(i => i >= 0),
+      marks: q.getPoints() || 1,
+      image: pending
+    });
+    pending = null;
+  });
+  return out;
+}
+
+function muatGambarUri_(uri) {
+  let res = UrlFetchApp.fetch(uri, { muteHttpExceptions: true });
+  if (res.getResponseCode() !== 200) {
+    res = UrlFetchApp.fetch(uri, { headers: { Authorization: 'Bearer ' + ScriptApp.getOAuthToken() }, muteHttpExceptions: true });
+  }
+  if (res.getResponseCode() !== 200) throw new Error('muat turun gambar gagal (' + res.getResponseCode() + ')');
+  return res.getBlob();
+}
+
+function simpanGambarDrive_(blob, name) {
+  const NAMA_FOLDER = 'Kuiz Web – Gambar';
+  const it = DriveApp.getFoldersByName(NAMA_FOLDER);
+  const folder = it.hasNext() ? it.next() : DriveApp.createFolder(NAMA_FOLDER);
+  return folder.createFile(blob.setName(name)).getUrl();
 }
 
 function short_(s) {
@@ -173,9 +270,9 @@ function terbitkanKuiz() {
       id: id,
       title: title,
       createdAt: new Date().toISOString(),
-      questions: rows.map(r => {
+      questions: rows.map((r, i) => {
         const q = { q: r.question, options: r.options, marks: r.marks };
-        if (r.image) q.image = r.image;
+        if (r.image) q.image = gambarKeGitHub_(id, i + 1, r.image);
         return q;
       })
     };
@@ -240,6 +337,33 @@ function simpanKunci_(ss, id, title, rows) {
   sheet.getRange(sheet.getLastRow() + 1, 1, data.length, 5).setValues(data);
 }
 
+/**
+ * Lajur H boleh berisi:
+ *  - pautan fail Google Drive (contoh dari import Form, atau gambar yang anda muat naik ke Drive)
+ *  - pautan gambar https://… lain
+ *  - laluan fail dalam repo (contoh img/rajah1.png dalam folder quizzes/)
+ * Pautan dimuat turun dan dimuat naik ke GitHub sebagai quizzes/img/<kuiz>/q<n>.<ext>.
+ */
+function gambarKeGitHub_(quizId, n, ref) {
+  if (!/^https?:\/\//i.test(ref)) return ref;
+  let blob;
+  try {
+    const m = ref.match(/\/d\/([\w-]{20,})/) || ref.match(/[?&]id=([\w-]{20,})/);
+    blob = (/(drive|docs)\.google\.com/.test(ref) && m)
+      ? DriveApp.getFileById(m[1]).getBlob()
+      : UrlFetchApp.fetch(ref).getBlob();
+  } catch (e) {
+    throw new Error('Gambar soalan ' + n + ' tidak dapat dibuka: ' + e.message);
+  }
+  const type = String(blob.getContentType() || '');
+  const ext = { 'image/png': 'png', 'image/jpeg': 'jpg', 'image/gif': 'gif', 'image/webp': 'webp', 'image/svg+xml': 'svg' }[type];
+  if (!ext) throw new Error('Fail di lajur H soalan ' + n + ' bukan gambar (' + (type || 'jenis tidak diketahui') + ').');
+  if (blob.getBytes().length > 5 * 1024 * 1024) throw new Error('Gambar soalan ' + n + ' melebihi 5 MB. Kecilkan dahulu.');
+  const path = 'img/' + quizId + '/q' + n + '.' + ext;
+  ghPutBase64_('quizzes/' + path, Utilities.base64Encode(blob.getBytes()), 'Gambar soalan ' + n + ': ' + quizId);
+  return path;
+}
+
 function slug_(title) {
   return title.toLowerCase()
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -298,10 +422,14 @@ function ghGetText_(path) {
 }
 
 function ghPutText_(path, text, message) {
+  ghPutBase64_(path, Utilities.base64Encode(text, Utilities.Charset.UTF_8), message);
+}
+
+function ghPutBase64_(path, base64, message) {
   const file = ghGetFile_(path);
   const body = {
     message: message,
-    content: Utilities.base64Encode(text, Utilities.Charset.UTF_8),
+    content: base64,
     branch: branch_()
   };
   if (file) body.sha = file.sha;

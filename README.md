@@ -67,8 +67,7 @@ Jangan kongsi token atau Sheet ini dengan murid.
 2. Dalam Sheet **Kuiz Web**, tab **Input Kuiz**:
    - B1: tajuk, contoh `Sejarah Tingkatan 2 (1.3-1.4)`
    - Kosongkan A7:H300, kemudian tampal soalan di **A7**.
-   - (Pilihan) Lajur H: nama fail gambar rajah, contoh `img/sejarah-1.png`. Fail gambar
-     diletakkan dalam folder `quizzes/img/` di repo ini.
+   - (Pilihan) Lajur H: pautan gambar Google Drive untuk soalan bergambar (lihat "Gambar soalan").
 3. Menu **KUIZ WEB → Terbitkan Kuiz ke GitHub**.
 4. Tunggu mesej **BERJAYA**. Pautan murid dipaparkan dan disimpan di **B2**. Laman siap
    dalam ~1 minit.
@@ -86,7 +85,18 @@ dahulu). Markah lama kekal.
 4. Ubah tajuk di B1 supaya bermula dengan nama subjek (contoh `Sejarah Tingkatan 2 (1.3)`), kemudian
    **KUIZ WEB → Terbitkan Kuiz ke GitHub**.
 
-Gambar dalam Form tidak disalin. Ulang langkah ini untuk setiap Form.
+Gambar soalan turut disalin: ia disimpan dalam folder Drive **Kuiz Web – Gambar**, pautannya di lajur H,
+dan dimuat naik ke GitHub semasa Terbitkan. Gambar pada *pilihan jawapan* tidak disokong. Ulang langkah ini
+untuk setiap Form.
+
+## Gambar soalan (lajur H)
+
+Lajur H di tab Input Kuiz boleh berisi:
+- pautan fail **Google Drive** (muat naik gambar ke Drive → klik kanan → *Copy link* → tampal), atau
+- pautan gambar `https://…` lain.
+
+Semasa **Terbitkan**, gambar dimuat naik ke `quizzes/img/<kuiz>/` dan dipaparkan di atas pilihan jawapan.
+Saiz maksimum 5 MB setiap gambar.
 
 ## Melihat markah
 

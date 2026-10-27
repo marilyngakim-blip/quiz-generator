@@ -4,9 +4,13 @@ window.SITE = {
   TAJUK: 'Jom Kuiz!',
   SUBTAJUK: 'Belajar sambil bermain — jawab, semak, ulang!',
 
-  // Anak-anak yang menjawab kuiz. Nama & kelas akan diisi automatik dalam kuiz.
+  // Anak-anak yang menjawab kuiz. Nama & kelas akan diisi automatik dalam kuiz (kelas boleh dibiarkan kosong).
   // Contoh: { nama: 'Aisyah', kelas: '2 Bestari', emoji: '🦄' }
-  ANAK: [],
+  ANAK: [
+    { nama: 'Elnathan', kelas: '', emoji: '🦁' },
+    { nama: 'Ezequiel', kelas: '', emoji: '🚀' },
+    { nama: 'Elzeario', kelas: '', emoji: '🐬' }
+  ],
 
   // Subjek di muka depan. Kuiz dipadankan dengan awal tajuknya
   // (contoh tajuk "Mathematics Tingkatan 2 (2.1)" → Mathematics).

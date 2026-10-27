@@ -44,7 +44,7 @@
     if (kid) { nama.value = kid.nama; kelas.value = kid.kelas || ''; }
     app.append(el('div', { class: 'card lift' },
       el('label', { class: 'field' }, 'Nama', nama),
-      el('label', { class: 'field' }, 'Kelas', kelas)));
+      el('label', { class: 'field' }, 'Kelas (pilihan)', kelas)));
 
     const form = el('form');
     quiz.questions.forEach((q, i) => {
@@ -81,8 +81,8 @@
     form.addEventListener('submit', async (ev) => {
       ev.preventDefault();
       msg.textContent = '';
-      if (!nama.value.trim() || !kelas.value.trim()) {
-        msg.textContent = 'Isi nama dan kelas dahulu ya. 😊';
+      if (!nama.value.trim()) {
+        msg.textContent = 'Isi nama dahulu ya. 😊';
         window.scrollTo({ top: 0, behavior: 'smooth' });
         return;
       }
@@ -98,7 +98,7 @@
       try {
         const result = quiz.demoKey
           ? gradeLocally(quiz, answers)
-          : await gradeOnServer(quiz, answers, nama.value.trim(), kelas.value.trim());
+          : await gradeOnServer(quiz, answers, nama.value.trim(), kelas.value.trim() || '-');
         showResult(quiz, form, result, nama, kelas);
       } catch (e) {
         msg.textContent = e.message || 'Jawapan tidak dapat dihantar. Cuba lagi.';

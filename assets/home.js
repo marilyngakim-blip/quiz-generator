@@ -17,7 +17,10 @@
   }
 
   // Kuiz tanpa tahap dalam tajuk dipaparkan untuk semua tahap.
-  const inLevel = q => !level || !levelOf(q.title) || levelOf(q.title) === level;
+  // Item boleh jadi kuiz (dari index.json) atau pautan aplikasi (SITE.PAUTAN) dengan subjek/tahap sendiri.
+  const itemLevel = q => q.tahap || levelOf(q.title);
+  const itemSubject = q => (q.subjek && (SITE.SUBJEK || []).find(s => s.nama === q.subjek)) || subjectOf(q.title);
+  const inLevel = q => !level || !itemLevel(q) || itemLevel(q) === level;
   const subjectsForLevel = () => (SITE.SUBJEK || []).filter(s => !level || !s.tahap || s.tahap.indexOf(level) >= 0);
 
   function renderAll() { renderKids(); renderLevels(); renderSubjects(); renderList(); }
@@ -64,7 +67,7 @@
   /* ---------- Petak subjek ---------- */
   function renderSubjects() {
     const counts = new Map();
-    quizzes.filter(inLevel).forEach(q => { const s = subjectOf(q.title); counts.set(s.nama, (counts.get(s.nama) || 0) + 1); });
+    quizzes.filter(inLevel).forEach(q => { const s = itemSubject(q); counts.set(s.nama, (counts.get(s.nama) || 0) + 1); });
     const list = subjectsForLevel();
     if (counts.get(LAIN.nama)) list.push(LAIN);
 
@@ -89,7 +92,7 @@
   /* ---------- Senarai kuiz ---------- */
   function renderList() {
     const me = currentKid();
-    const shown = quizzes.filter(q => inLevel(q) && (!subject || subjectOf(q.title).nama === subject));
+    const shown = quizzes.filter(q => inLevel(q) && (!subject || itemSubject(q).nama === subject));
     const s = subject && ((SITE.SUBJEK || []).find(x => x.nama === subject) || LAIN);
     $('listTitle').textContent = (s ? s.emoji + ' ' + s.nama : 'Semua kuiz') + (level ? ' · ' + level : '');
     $('showAll').classList.toggle('hidden', !subject);
@@ -101,18 +104,22 @@
       return;
     }
     shown.forEach((q, i) => {
-      const sub = subjectOf(q.title);
+      const sub = itemSubject(q);
       const a = el('a', 'qcard');
-      a.href = 'quiz.html?id=' + encodeURIComponent(q.id);
+      a.href = q.url || 'quiz.html?id=' + encodeURIComponent(q.id);
       a.style.setProperty('--c', sub.warna);
       a.style.animationDelay = (i * 40) + 'ms';
       const body = el('div');
-      body.append(el('h3', null, q.title), el('div', 'meta', q.questionCount + ' soalan'));
-      const best = me && store.get(bestKey(q.id, me.nama));
+      body.append(el('h3', null, q.title), el('div', 'meta', q.ket || q.questionCount + ' soalan'));
+      const best = me && !q.url && store.get(bestKey(q.id, me.nama));
       if (best) body.append(el('span', 'best', '⭐ Terbaik ' + me.nama + ': ' + best));
       a.append(el('span', 'e', sub.emoji), body, el('span', 'go', '➜'));
       box.append(a);
     });
+  }
+
+  function links() {
+    return (SITE.PAUTAN || []).map((p, i) => ({ id: 'pautan-' + i, title: p.tajuk, url: p.url, subjek: p.subjek, tahap: p.tahap, ket: p.ket }));
   }
 
   $('showAll').addEventListener('click', () => { subject = null; renderSubjects(); renderList(); });
@@ -122,12 +129,15 @@
   fetch('quizzes/index.json', { cache: 'no-store' })
     .then(r => r.json())
     .then(items => {
-      quizzes = items.filter(q => q.id !== 'contoh')
-        .sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
+      quizzes = links().concat(items.filter(q => q.id !== 'contoh')
+        .sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || '')));
       renderSubjects();
       renderList();
     })
     .catch(() => {
+      quizzes = links();
+      renderSubjects();
+      if (quizzes.length) { renderList(); return; }
       $('list').innerHTML = '';
       $('list').append(el('div', 'empty', 'Senarai kuiz tidak dapat dimuatkan. Cuba muat semula.'));
       renderSubjects();

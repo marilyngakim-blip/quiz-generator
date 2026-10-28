@@ -125,6 +125,10 @@ Buka [`site.js`](site.js) di GitHub → ikon pensel ✏️ → ubah → **Commit
 - `SUBJEK`: petak subjek (nama, emoji, warna), `awalan` tajuk kuiz yang dikira sebagai subjek itu
   (contoh `Mathematics` dan `Matematik`), dan `tahap` yang ada subjek itu.
 
+- `PAUTAN`: aplikasi/latihan lain (bukan kuiz dari Google Sheet) yang dipaparkan sebagai kad, contoh
+  kad imbas 听写 dalam folder `aplikasi/`. Isi `tajuk`, `url`, `subjek`, `tahap` dan `ket` (keterangan).
+  Markah aplikasi ini tidak direkodkan di Google Sheet.
+
 Tajuk kuiz yang baik: **Subjek + Tahap + (subtopik)**, contoh `Sains Tahun 2 (1.1)`.
 Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 
@@ -135,7 +139,8 @@ Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 | `index.html`, `assets/home.js` | Muka depan: pilih anak, petak subjek, senarai kuiz |
 | `quiz.html`, `assets/quiz.js` | Laman menjawab kuiz (markah, bintang, konfeti) |
 | `assets/style.css`, `assets/common.js` | Reka bentuk dan fungsi dikongsi |
-| `site.js` | Tetapan muka depan (tajuk, anak, subjek) |
+| `site.js` | Tetapan muka depan (tahap, anak, subjek, pautan aplikasi) |
+| `aplikasi/` | Aplikasi latihan tambahan, contoh `tingxie-tahun5.html` (kad imbas 听写 BC Tahun 5) |
 | `quizzes/*.json` | Soalan setiap kuiz (tanpa jawapan) – dijana oleh Sheet |
 | `quizzes/index.json` | Senarai kuiz – dijana oleh Sheet |
 | `config.js` | URL Web App – dijana oleh Sheet |

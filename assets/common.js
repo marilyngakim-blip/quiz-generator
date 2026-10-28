@@ -27,9 +27,20 @@
     });
   }
 
+  // Subjek kuiz: tajuk bermula dengan salah satu awalan subjek (diikuti ruang/tanda, bukan huruf).
   function subjectOf(title) {
-    const t = String(title || '').toLowerCase();
-    return (SITE.SUBJEK || []).find(s => t.startsWith(s.nama.toLowerCase())) || LAIN;
+    const t = String(title || '').toLowerCase().trim();
+    return (SITE.SUBJEK || []).find(s => (s.awalan || [s.nama]).some(a => {
+      a = a.toLowerCase();
+      return t.startsWith(a) && !/[a-z]/.test(t.charAt(a.length));
+    })) || LAIN;
+  }
+
+  // Tahap kuiz daripada tajuk: "… Tingkatan 2 …" atau "… Tahun 6 …". null jika tiada.
+  function levelOf(title) {
+    const m = String(title || '').match(/\b(Tingkatan|Tahun)\s*(\d)\b/i);
+    if (!m) return null;
+    return m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase() + ' ' + m[2];
   }
 
   // Simpanan pelayar: hanya untuk kemudahan (anak dipilih, markah terbaik).
@@ -47,5 +58,5 @@
     return 'best.' + quizId + '.' + String(nama || '').trim().toLowerCase();
   }
 
-  window.KUIZ = { SITE, LAIN, decorateHero, subjectOf, store, currentKid, bestKey };
+  window.KUIZ = { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, bestKey };
 })();

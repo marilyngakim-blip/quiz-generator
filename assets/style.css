@@ -244,3 +244,25 @@ input[type=text]:focus { border-color: var(--orange); }
 /* ---------- Footer ---------- */
 footer { text-align: center; padding: 28px 16px 36px; margin-top: 36px; color: var(--muted); font-weight: 700; }
 footer b { font-family: 'Fredoka', sans-serif; color: var(--orange); font-weight: 600; }
+
+/* ---------- Kad soalan: hitam putih sahaja ----------
+   Hanya kad soalan; bahagian atas laman dan kotak markah kekal berwarna. Gambar rajah tidak diubah. */
+.q-card { background: #fff; color: #000; border: 2px solid #000; box-shadow: none; }
+.q-card .q-no { background: #000; color: #fff; }
+.q-card .q-text { color: #000; }
+.q-card .opt { --lc: #000; background: #fff; color: #000; border: 2px solid #000; }
+.q-card .opt:hover { background: #f2f2f2; }
+.q-card .opt .L { background: #fff; color: #000; border: 2px solid #000; }
+.q-card .opt:has(input:focus-visible) { outline: 3px solid #000; }
+.q-card .opt.chosen { background: #000; color: #fff; border-color: #000; }
+.q-card .opt.chosen .L { background: #fff; color: #000; border-color: #fff; }
+/* Selepas hantar: betul = sempadan tebal + ✓; salah = garis putus-putus + ✗ */
+.q-card .opt.correct { background: #fff; color: #000; border: 4px solid #000; font-weight: 800; }
+.q-card .opt.correct .L { background: #000; color: #fff; }
+.q-card .opt.correct::after { content: '✓'; margin-left: auto; font-size: 1.3rem; font-weight: 800; }
+.q-card .opt.wrong { background: #fff; color: #000; border: 2px dashed #000; }
+.q-card .opt.wrong > span:last-child { text-decoration: line-through; }
+.q-card .opt.wrong::after { content: '✗'; margin-left: auto; font-size: 1.3rem; font-weight: 800; }
+.q-card .opt:has(input:disabled):not(.correct):not(.wrong):hover { background: #fff; }
+.q-card .badge, .q-card .badge.ok, .q-card .badge.bad { color: #000; }
+.q-card .muted { color: #000; font-weight: 700; }

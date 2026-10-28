@@ -1,0 +1,413 @@
+{
+  "id": "science-tingkatan-2-2.1-2.2",
+  "title": "Science Tingkatan 2 (2.1-2.2)",
+  "createdAt": "2026-10-28T02:03:43.931Z",
+  "questions": [
+    {
+      "q": "What is the source of energy in all ecosystems?",
+      "options": [
+        "Water",
+        "The Sun",
+        "The soil",
+        "Decomposers"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A producer is an organism that",
+      "options": [
+        "only eats plants",
+        "produces its own food through photosynthesis",
+        "eats other organisms",
+        "breaks down dead organisms"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A decomposer is an organism that",
+      "options": [
+        "produces food through photosynthesis",
+        "eats only producers",
+        "hunts other animals",
+        "breaks down dead animals and plants into simpler materials"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The interaction in which decomposers break down dead organisms is known as",
+      "options": [
+        "commensalism",
+        "mutualism",
+        "parasitism",
+        "saprophytism"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following is a decomposer?",
+      "options": [
+        "Fox",
+        "Cabbage",
+        "Caterpillar",
+        "Mushroom"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Primary consumers are",
+      "options": [
+        "organisms that make their own food",
+        "organisms that break down dead matter",
+        "herbivores and omnivores that eat producers",
+        "carnivores that eat other carnivores"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A tertiary consumer is a",
+      "options": [
+        "secondary carnivore that eats a secondary consumer",
+        "producer that makes food",
+        "decomposer that breaks down waste",
+        "herbivore that eats plants"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is a food web?",
+      "options": [
+        "A single feeding relationship",
+        "The cycle of water in nature",
+        "The interconnection of a few food chains",
+        "A list of decomposers"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Green plants convert light energy from the Sun into",
+      "options": [
+        "chemical energy",
+        "electrical energy",
+        "sound energy",
+        "heat energy"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In the food chain Cabbage → Snail → Bird → Fox, which organism is the producer?",
+      "options": [
+        "Snail",
+        "Cabbage",
+        "Bird",
+        "Fox"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In the food chain Cabbage → Snail → Bird → Fox, which organism is the tertiary consumer?",
+      "options": [
+        "Fox",
+        "Cabbage",
+        "Snail",
+        "Bird"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which are the three nutrient cycles learned in this chapter?",
+      "options": [
+        "Water cycle, carbon cycle and oxygen cycle",
+        "Nitrogen cycle, rock cycle and carbon cycle",
+        "Rock cycle, water cycle and life cycle",
+        "Life cycle, food cycle and energy cycle"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Plants release water into the atmosphere through",
+      "options": [
+        "absorption",
+        "condensation",
+        "precipitation",
+        "transpiration"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Photosynthesis",
+      "options": [
+        "absorbs carbon dioxide and releases oxygen",
+        "absorbs oxygen and releases carbon dioxide",
+        "absorbs water and releases heat",
+        "absorbs nitrogen and releases oxygen"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Respiration by plants and animals",
+      "options": [
+        "uses oxygen and releases carbon dioxide",
+        "uses nitrogen and releases oxygen",
+        "uses water and releases oxygen",
+        "uses carbon dioxide and releases oxygen"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The kingfisher eats snails, fish and shrimps, which are primary consumers. The kingfisher is a",
+      "options": [
+        "producer",
+        "decomposer",
+        "primary carnivore (secondary consumer)",
+        "primary consumer"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The Himalayan bluetail eats caterpillars and fruits. It is an",
+      "options": [
+        "producer",
+        "herbivore",
+        "decomposer",
+        "omnivore"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which statement explains why energy is lost in a food web?",
+      "options": [
+        "Energy is stored only in decomposers",
+        "Energy is used for movement and respiration, and lost as heat and through faeces",
+        "Energy increases at each level",
+        "Energy is created by consumers"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "E. coli bacteria that break down food molecules in the human large intestine act as",
+      "options": [
+        "primary consumers",
+        "producers",
+        "tertiary consumers",
+        "decomposers"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the role of plant roots in the water cycle?",
+      "options": [
+        "Increase the rate of evaporation",
+        "Cause rain to fall",
+        "Hold the soil tightly, slow down underground water flow and prevent soil erosion",
+        "Release clouds into the sky"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Fallen leaves covering the surface of the earth help to",
+      "options": [
+        "stop rainwater from falling",
+        "make the soil dry quickly",
+        "reduce the rate of evaporation and prevent the soil from becoming dry",
+        "increase the rate of evaporation"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Animals increase the water content in the atmosphere through",
+      "options": [
+        "respiration, defecation and excretion",
+        "photosynthesis",
+        "condensation",
+        "transpiration"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The decay of dead plants and animals by bacteria and fungi",
+      "options": [
+        "produces water and light",
+        "does not affect the air",
+        "uses oxygen and releases carbon dioxide",
+        "uses carbon dioxide and releases oxygen"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which human activity disrupts the carbon cycle?",
+      "options": [
+        "Using public transport",
+        "Burning of fossil fuels",
+        "Replanting trees",
+        "Storing rainwater"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which step helps to reduce the effect of burning fossil fuels on the nutrient cycle?",
+      "options": [
+        "Use public transport",
+        "Use more private cars",
+        "Cut down more trees",
+        "Burn rubbish openly"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which step helps to solve the problem of overconsumption of water resources?",
+      "options": [
+        "Wash cars every day with tap water",
+        "Store rainwater for daily use",
+        "Leave taps running",
+        "Cut down catchment forests"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which two processes change the state of matter in the water cycle?",
+      "options": [
+        "Photosynthesis and respiration",
+        "Transpiration and absorption",
+        "Evaporation and condensation",
+        "Decomposition and respiration"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "When plants are eaten by animals, carbon is",
+      "options": [
+        "turned into water",
+        "lost to outer space",
+        "stored in the body tissues of the animals",
+        "released as oxygen"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which step can solve the problem of unrestricted logging?",
+      "options": [
+        "Build more factories",
+        "Clear more forests for farming",
+        "Burn more fossil fuels",
+        "Replant trees and tighten laws"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Clouds are formed through the process of",
+      "options": [
+        "infiltration",
+        "condensation",
+        "transpiration",
+        "evaporation"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the food web in the diagram, how many food chains are there?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S2_Q31.png"
+    },
+    {
+      "q": "Based on the food web in the diagram, which organism is a secondary consumer only?",
+      "options": [
+        "Rat",
+        "Sparrow",
+        "Grasshopper",
+        "Paddy plant"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S2_Q31.png"
+    },
+    {
+      "q": "Based on the food web in the diagram, what will happen if the paddy plants die because of a long drought?",
+      "options": [
+        "Only the sparrows will be affected",
+        "The population of owls will increase",
+        "The population of rats will increase",
+        "The populations of all the consumers will decrease"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S2_Q31.png"
+    },
+    {
+      "q": "Based on the food web in the diagram, what will happen to the rat population if the owls are hunted until they disappear?",
+      "options": [
+        "It will decrease",
+        "It will increase",
+        "It will remain the same",
+        "It will become zero"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S2_Q31.png"
+    },
+    {
+      "q": "Based on the food web in the diagram, which organism is both a secondary consumer and a tertiary consumer?",
+      "options": [
+        "Caterpillar",
+        "Sparrow",
+        "Rat",
+        "Owl"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S2_Q31.png"
+    },
+    {
+      "q": "A man eats rice and chicken. Based on these two food chains, the man is",
+      "options": [
+        "both a primary and a secondary consumer",
+        "only a tertiary consumer",
+        "a decomposer",
+        "only a producer"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What will happen if there are no decomposers in an ecosystem?",
+      "options": [
+        "Nutrients are not returned to the soil and producers cannot get enough nutrients",
+        "Consumers will have more food",
+        "Producers will grow faster",
+        "The amount of oxygen will increase"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A large forest is cleared. What is the most likely effect on the air?",
+      "options": [
+        "Water vapour disappears",
+        "Carbon dioxide content decreases",
+        "Oxygen content increases",
+        "Carbon dioxide content increases because less photosynthesis occurs"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the food chain in the diagram, which organism is the secondary consumer?",
+      "options": [
+        "Caterpillar",
+        "Snake",
+        "Chicken",
+        "Cabbage"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S2_Q39.png"
+    },
+    {
+      "q": "Why are there usually fewer tertiary consumers than primary consumers in an ecosystem?",
+      "options": [
+        "Tertiary consumers do not need energy",
+        "Energy is lost at each level, so less energy is available at higher levels",
+        "Energy increases at higher levels",
+        "Primary consumers eat tertiary consumers"
+      ],
+      "marks": 1
+    }
+  ]
+}

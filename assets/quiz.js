@@ -1,5 +1,5 @@
 (function () {
-  const { decorateHero, subjectOf, levelOf, store, currentKid, bestKey } = window.KUIZ;
+  const { decorateHero, subjectOf, levelOf, store, currentKid, bestKey, getHistory, addLocalHistory, pctOf } = window.KUIZ;
   const app = document.getElementById('app');
   const LETTERS = ['A', 'B', 'C', 'D'];
   const quizId = new URLSearchParams(location.search).get('id');
@@ -207,8 +207,34 @@
       } else {
         restore();
       }
+      loadPrev();
     });
+
+    /* ---------- Markah cubaan sebelum ini ---------- */
+    const histCard = el('div', { class: 'card history hidden' });
+    app.insertBefore(histCard, banner);
+    quiz._prev = [];
+    function loadPrev() {
+      const n = nama.value.trim();
+      quiz._prev = [];
+      histCard.classList.add('hidden');
+      if (quiz.demoKey || !n) return;
+      getHistory(n, quiz.id).then(h => {
+        if (nama.value.trim() !== n) return;
+        const prev = h.items.filter(r => r.quizId === quiz.id).sort((a, b) => a.attempt - b.attempt);
+        quiz._prev = prev;
+        if (!prev.length) return;
+        histCard.innerHTML = '';
+        histCard.append(el('h3', { text: '📊 Markah kamu sebelum ini' }));
+        prev.forEach(r => histCard.append(histRow(r, false, null)));
+        histCard.append(el('p', { class: 'muted', text: 'Ini cubaan ke-' + (prev[prev.length - 1].attempt + 1) +
+          '. Jom cuba dapat markah lebih tinggi! 💪' }));
+        histCard.classList.remove('hidden');
+      });
+    }
+
     restore();
+    loadPrev();
     updateProgress();
 
     form.addEventListener('submit', async (ev) => {
@@ -239,6 +265,13 @@
         // Sheet memadam draf semasa menyemak; padam sekali lagi sekiranya simpanan lewat tiba selepas itu.
         if (cloud && draftName) postJSON({ action: 'clearDraft', quizId: quiz.id, nama: draftName }).catch(() => {});
         banner.remove();
+        histCard.remove();
+        if (!quiz.demoKey) {
+          const prev = quiz._prev || [];
+          result.attempt = result.attempt || (prev.length ? prev[prev.length - 1].attempt + 1 : 1);
+          addLocalHistory(nama.value.trim(), { quizId: quiz.id, title: quiz.title, attempt: result.attempt,
+            score: result.score, total: result.total, pct: pctOf(result), at: new Date().toISOString() });
+        }
         showResult(quiz, form, result, nama);
       } catch (e) {
         msg.textContent = e.message || 'Jawapan tidak dapat dihantar. Cuba lagi.';
@@ -307,6 +340,27 @@
     }
   }
 
+  // Satu baris markah: "Cubaan 2 (sekarang)   34/40 · 85%  📈 +6"
+  function histRow(r, now, delta) {
+    const right = el('span', { text: r.score + '/' + r.total + ' · ' + pctOf(r) + '%' });
+    if (delta != null && delta !== 0) right.append(el('span', { class: 'delta ' + (delta > 0 ? 'up' : 'down'),
+      text: '  ' + (delta > 0 ? '📈 +' : '📉 ') + delta }));
+    return el('div', { class: 'hist-row' + (now ? ' now' : '') },
+      el('span', { text: 'Cubaan ' + r.attempt + (now ? ' (sekarang)' : '') }), right);
+  }
+
+  // Markah semua cubaan untuk kuiz ini, termasuk yang baru dihantar.
+  function compareBlock(quiz, result) {
+    const prev = (quiz._prev || []).filter(r => r.attempt < (result.attempt || Infinity));
+    if (!prev.length) return null;
+    const last = prev[prev.length - 1];
+    const box = el('div', { class: 'card history', style: 'text-align:left;margin:12px 0' },
+      el('h3', { text: '📊 Perbandingan markah' }));
+    prev.forEach(r => box.append(histRow(r, false, null)));
+    box.append(histRow({ attempt: result.attempt, score: result.score, total: result.total }, true, result.score - last.score));
+    return box;
+  }
+
   function showResult(quiz, form, result, nama) {
     nama.disabled = true;
     form.querySelectorAll('input').forEach(i => { i.disabled = true; });
@@ -342,6 +396,7 @@
       el('h2', { text: words }),
       el('p', { class: 'muted', text: pct + '%' + (result.attempt ? ' · Cubaan ke-' + result.attempt : '') +
         (isBest && prevScore >= 0 ? ' · 🎖️ Rekod baharu!' : '') }),
+      compareBlock(quiz, result),
       el('p', { class: 'muted', text: 'Tatal ke bawah untuk semak jawapan.' }),
       el('div', { class: 'actions' },
         el('a', { class: 'btn teal', href: location.href, text: '🔁 Cuba lagi' }),

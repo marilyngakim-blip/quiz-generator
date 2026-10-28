@@ -460,6 +460,7 @@ function doPost(e) {
     if (req.action === 'saveDraft') return json_(simpanDraf_(req));
     if (req.action === 'loadDraft') return json_(ambilDraf_(req));
     if (req.action === 'clearDraft') return json_(padamDrafReq_(req));
+    if (req.action === 'history') return json_(sejarah_(req));
     return json_({ ok: false, error: 'Tindakan tidak sah.' });
   } catch (err) {
     return json_({ ok: false, error: 'Ralat pelayan: ' + err.message });
@@ -511,6 +512,27 @@ function semak_(req) {
   }
 
   return { ok: true, score: score, total: total, attempt: attempt, results: results };
+}
+
+/* ------------------------------------------------------------------ */
+/* Web App: rekod markah seorang anak (semua kuiz, semua cubaan)       */
+/* ------------------------------------------------------------------ */
+
+// Tab Markah: Masa | QuizId | Tajuk | Nama | Kelas | Cubaan | Markah | Jumlah | Peratus | Jawapan
+function sejarah_(req) {
+  const key = drafKey_(req.nama);
+  if (!key) return { ok: false, error: 'Nama diperlukan.' };
+  const sh = SpreadsheetApp.getActive().getSheetByName(TAB_MARKAH);
+  const last = sh ? sh.getLastRow() : 0;
+  if (last < 2) return { ok: true, items: [] };
+  const items = sh.getRange(2, 1, last - 1, 9).getValues()
+    .filter(r => drafKey_(r[3]) === key && (!req.quizId || r[1] === req.quizId))
+    .map(r => ({
+      quizId: String(r[1]), title: String(r[2]), attempt: Number(r[5]) || 1,
+      score: Number(r[6]) || 0, total: Number(r[7]) || 0, pct: Number(r[8]) || 0,
+      at: r[0] instanceof Date ? r[0].toISOString() : String(r[0])
+    }));
+  return { ok: true, items: items };
 }
 
 /* ------------------------------------------------------------------ */

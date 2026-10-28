@@ -121,6 +121,18 @@ jawapan dihantar. Label kemajuan menunjukkan status: *☁️ disimpan*, *⏳ men
 
 Kad imbas 听写 menyimpan kedudukan dalam setiap sesi dan mod (dalam peranti itu sahaja).
 
+## Rekod markah anak-anak
+
+Bila anak pilih nama di muka depan:
+- kotak **📋 Rekod** menunjukkan bilangan kuiz dijawab, cubaan dan purata markah terkini;
+- setiap kad kuiz menunjukkan markah setiap cubaan (*Cubaan 1: 28/40 · Cubaan 2: 34/40*);
+- tapisan **✅ Sudah dijawab / ⏳ Belum dijawab**.
+
+Sebelum menjawab kali kedua, laman kuiz menunjukkan **📊 Markah kamu sebelum ini**; selepas hantar,
+**📊 Perbandingan markah** menyenaraikan semua cubaan dengan beza markah (📈 +6).
+Rekod diambil dari tab **Markah** di Google Sheet (sama di semua peranti; perlu Deploy versi baharu
+selepas mengemas kini `Code.gs`). Jika Sheet tidak dapat dihubungi, rekod dalam peranti itu digunakan.
+
 ## Melihat markah
 
 Tab **Markah**: masa, kuiz, nama, kelas, nombor cubaan, markah, peratus dan jawapan murid.

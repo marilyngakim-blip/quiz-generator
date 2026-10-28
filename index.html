@@ -20,6 +20,7 @@
     <section class="who hidden" id="who">
       <h2>Siapa nak main hari ini?</h2>
       <div class="kids" id="kids"></div>
+      <div class="record hidden" id="record"></div>
     </section>
 
     <div class="head">
@@ -33,12 +34,18 @@
       <h2 id="listTitle">Semua kuiz</h2>
       <button class="chip-btn hidden" id="showAll" type="button">Tunjuk semua</button>
     </div>
+    <div class="status-filter hidden" id="statusFilter">
+      <button class="chip-btn active" type="button" data-f="all">Semua</button>
+      <button class="chip-btn" type="button" data-f="done">✅ Sudah dijawab</button>
+      <button class="chip-btn" type="button" data-f="todo">⏳ Belum dijawab</button>
+    </div>
     <div class="grid" id="list"><div class="empty">Memuatkan kuiz…</div></div>
   </main>
 
   <footer>Dibuat dengan ❤️ untuk <b>anak-anak tersayang</b></footer>
 
   <script src="site.js"></script>
+  <script src="config.js"></script>
   <script src="assets/common.js"></script>
   <script src="assets/home.js"></script>
 </body>

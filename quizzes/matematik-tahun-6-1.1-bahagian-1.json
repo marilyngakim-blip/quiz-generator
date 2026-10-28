@@ -1,7 +1,7 @@
 {
   "id": "matematik-tahun-6-1.1-bahagian-1",
   "title": "Matematik Tahun 6 (1.1 Bahagian 1)",
-  "createdAt": "2026-10-28T13:34:44.398Z",
+  "createdAt": "2026-10-28T14:44:24.029Z",
   "questions": [
     {
       "q": "1 177 648 读作什么？",
@@ -162,7 +162,7 @@
         "菲律宾"
       ],
       "marks": 1,
-      "image": "S1_Q16.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q16.png"
     },
     {
       "q": "根据下表，菲律宾的接种剂次读作什么？",
@@ -173,7 +173,7 @@
         "一百二十五万五千七百一十六"
       ],
       "marks": 1,
-      "image": "S1_Q16.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q16.png"
     },
     {
       "q": "根据下表，哪个国家的接种剂次读作“一百零四万”？",
@@ -184,7 +184,7 @@
         "马来西亚"
       ],
       "marks": 1,
-      "image": "S1_Q16.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q16.png"
     },
     {
       "q": "根据下表，泰国的接种剂次里，数字 6 的数值是多少？",
@@ -195,7 +195,7 @@
         "6 000"
       ],
       "marks": 1,
-      "image": "S1_Q16.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q16.png"
     },
     {
       "q": "根据下图，数列的下一个数目是多少？",
@@ -206,7 +206,7 @@
         "550 000"
       ],
       "marks": 1,
-      "image": "S1_Q20.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q20.png"
     },
     {
       "q": "数列 1 620 000，540 000，180 000，____ 的下一个数目是多少？",
@@ -247,7 +247,7 @@
         "7 175 220"
       ],
       "marks": 1,
-      "image": "S1_Q24.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q24.png"
     },
     {
       "q": "根据下表，表格表示的数目是多少？",
@@ -258,7 +258,7 @@
         "472 050"
       ],
       "marks": 1,
-      "image": "S1_Q25.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q25.png"
     },
     {
       "q": "根据下表，表格表示的数目读作什么？",
@@ -269,7 +269,7 @@
         "四百零七万二千零五十"
       ],
       "marks": 1,
-      "image": "S1_Q25.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q25.png"
     },
     {
       "q": "在计算器输入 1 200 000，再按“+ 300 000”和“=”，接着继续按“=”。一共按了 4 次“=”后，屏幕显示的数目是多少？",
@@ -310,7 +310,7 @@
         "每年的人数是前一年的 3 倍"
       ],
       "marks": 1,
-      "image": "S1_Q30.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q30.png"
     },
     {
       "q": "根据下图，如果规律不变，第五年的会员人数是多少？",
@@ -321,7 +321,7 @@
         "4 800 000"
       ],
       "marks": 1,
-      "image": "S1_Q30.png"
+      "image": "img/matematik-tahun-6-unit-1/S1_Q30.png"
     },
     {
       "q": "一个七位数：百万位是 5，万位是 4，其余数位都是 0。这个数目是多少？",

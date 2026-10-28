@@ -35,6 +35,8 @@ window.SITE = {
   //  subjek: nama subjek di atas;  tahap: tahap yang dipaparkan
   PAUTAN: [
     { tajuk: '听写 Kad Imbas Tahun 5 (Ulang kaji)', url: 'aplikasi/tingxie-tahun5.html',
-      subjek: 'Bahasa Cina', tahap: 'Tahun 6', ket: '200 perkataan · 20 sesi · Belajar, Kuiz, Tulis' }
+      subjek: 'Bahasa Cina', tahap: 'Tahun 6', ket: '200 perkataan · 20 sesi · Belajar, Kuiz, Tulis' },
+    { tajuk: '听写 Kad Imbas Tahun 2', url: 'aplikasi/tingxie-tahun2.html',
+      subjek: 'Bahasa Cina', tahap: 'Tahun 2', ket: '240 perkataan · 24 sesi · Belajar, Kuiz, Tulis' }
   ]
 };

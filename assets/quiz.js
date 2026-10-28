@@ -1,5 +1,5 @@
 (function () {
-  const { decorateHero, subjectOf, store, currentKid, bestKey } = window.KUIZ;
+  const { decorateHero, subjectOf, levelOf, store, currentKid, bestKey } = window.KUIZ;
   const app = document.getElementById('app');
   const LETTERS = ['A', 'B', 'C', 'D'];
   const quizId = new URLSearchParams(location.search).get('id');
@@ -40,11 +40,9 @@
 
     const kid = currentKid();
     const nama = el('input', { type: 'text', autocomplete: 'name', maxlength: '80' });
-    const kelas = el('input', { type: 'text', maxlength: '30' });
-    if (kid) { nama.value = kid.nama; kelas.value = kid.kelas || ''; }
+    if (kid) nama.value = kid.nama;
     app.append(el('div', { class: 'card lift' },
-      el('label', { class: 'field' }, 'Nama', nama),
-      el('label', { class: 'field' }, 'Kelas (pilihan)', kelas)));
+      el('label', { class: 'field' }, 'Nama', nama)));
 
     const form = el('form');
     quiz.questions.forEach((q, i) => {
@@ -98,8 +96,9 @@
       try {
         const result = quiz.demoKey
           ? gradeLocally(quiz, answers)
-          : await gradeOnServer(quiz, answers, nama.value.trim(), kelas.value.trim() || '-');
-        showResult(quiz, form, result, nama, kelas);
+          // Lajur "Kelas" di Google Sheet diisi dengan tahap kuiz (contoh Tingkatan 2).
+          : await gradeOnServer(quiz, answers, nama.value.trim(), levelOf(quiz.title) || '-');
+        showResult(quiz, form, result, nama);
       } catch (e) {
         msg.textContent = e.message || 'Jawapan tidak dapat dihantar. Cuba lagi.';
         btn.disabled = false;
@@ -158,9 +157,8 @@
     }
   }
 
-  function showResult(quiz, form, result, nama, kelas) {
+  function showResult(quiz, form, result, nama) {
     nama.disabled = true;
-    kelas.disabled = true;
     form.querySelectorAll('input').forEach(i => { i.disabled = true; });
     form.querySelector('.sticky').remove();
 

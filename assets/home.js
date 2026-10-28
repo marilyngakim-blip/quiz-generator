@@ -1,8 +1,9 @@
 (function () {
-  const { SITE, LAIN, decorateHero, subjectOf, store, currentKid, bestKey } = window.KUIZ;
+  const { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, bestKey } = window.KUIZ;
   const $ = id => document.getElementById(id);
   let quizzes = [];
-  let filter = null; // nama subjek yang dipilih
+  let subject = null;                       // nama subjek yang dipilih
+  let level = (currentKid() || {}).tahap || null; // tahap yang dipaparkan (null = semua)
 
   $('title').textContent = SITE.TAJUK || 'Jom Kuiz!';
   $('subtitle').textContent = SITE.SUBTAJUK || '';
@@ -14,6 +15,12 @@
     if (text != null) n.textContent = text;
     return n;
   }
+
+  // Kuiz tanpa tahap dalam tajuk dipaparkan untuk semua tahap.
+  const inLevel = q => !level || !levelOf(q.title) || levelOf(q.title) === level;
+  const subjectsForLevel = () => (SITE.SUBJEK || []).filter(s => !level || !s.tahap || s.tahap.indexOf(level) >= 0);
+
+  function renderAll() { renderKids(); renderLevels(); renderSubjects(); renderList(); }
 
   /* ---------- Pilih anak ---------- */
   function renderKids() {
@@ -27,8 +34,29 @@
     kids.forEach(k => {
       const b = el('button', 'kid' + (me && me.nama === k.nama ? ' active' : ''));
       b.type = 'button';
-      b.append(el('span', 'e', k.emoji || '🙂'), el('b', null, k.nama), el('small', null, k.kelas || ''));
-      b.addEventListener('click', () => { store.set('anak', k.nama); renderKids(); renderList(); });
+      b.append(el('span', 'e', k.emoji || '🙂'), el('b', null, k.nama), el('small', null, k.tahap || ''));
+      b.addEventListener('click', () => {
+        store.set('anak', k.nama);
+        level = k.tahap || null;
+        subject = null;
+        renderAll();
+      });
+      box.append(b);
+    });
+  }
+
+  /* ---------- Pilih tahap ---------- */
+  function renderLevels() {
+    const box = $('levels');
+    box.innerHTML = '';
+    [null].concat(SITE.TAHAP || []).forEach(t => {
+      const b = el('button', 'chip-btn' + (level === t ? ' active' : ''), t || 'Semua tahap');
+      b.type = 'button';
+      b.addEventListener('click', () => {
+        level = t;
+        if (subject && !subjectsForLevel().some(s => s.nama === subject)) subject = null;
+        renderLevels(); renderSubjects(); renderList();
+      });
       box.append(b);
     });
   }
@@ -36,20 +64,20 @@
   /* ---------- Petak subjek ---------- */
   function renderSubjects() {
     const counts = new Map();
-    quizzes.forEach(q => { const s = subjectOf(q.title); counts.set(s.nama, (counts.get(s.nama) || 0) + 1); });
-    const list = (SITE.SUBJEK || []).slice();
+    quizzes.filter(inLevel).forEach(q => { const s = subjectOf(q.title); counts.set(s.nama, (counts.get(s.nama) || 0) + 1); });
+    const list = subjectsForLevel();
     if (counts.get(LAIN.nama)) list.push(LAIN);
 
     const box = $('subjects');
     box.innerHTML = '';
     list.forEach(s => {
       const n = counts.get(s.nama) || 0;
-      const b = el('button', 'subject' + (n ? '' : ' empty-subject') + (filter === s.nama ? ' active' : ''));
+      const b = el('button', 'subject' + (n ? '' : ' empty-subject') + (subject === s.nama ? ' active' : ''));
       b.type = 'button';
       b.style.setProperty('--c', s.warna);
       b.append(el('span', 'e', s.emoji), el('b', null, s.nama), el('small', null, n ? n + ' kuiz' : 'Akan datang'));
       b.addEventListener('click', () => {
-        filter = filter === s.nama ? null : s.nama;
+        subject = subject === s.nama ? null : s.nama;
         renderSubjects();
         renderList();
         $('listTitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -61,15 +89,15 @@
   /* ---------- Senarai kuiz ---------- */
   function renderList() {
     const me = currentKid();
-    const shown = quizzes.filter(q => !filter || subjectOf(q.title).nama === filter);
-    const s = filter && ((SITE.SUBJEK || []).find(x => x.nama === filter) || LAIN);
-    $('listTitle').textContent = s ? s.emoji + ' ' + s.nama : 'Semua kuiz';
-    $('showAll').classList.toggle('hidden', !filter);
+    const shown = quizzes.filter(q => inLevel(q) && (!subject || subjectOf(q.title).nama === subject));
+    const s = subject && ((SITE.SUBJEK || []).find(x => x.nama === subject) || LAIN);
+    $('listTitle').textContent = (s ? s.emoji + ' ' + s.nama : 'Semua kuiz') + (level ? ' · ' + level : '');
+    $('showAll').classList.toggle('hidden', !subject);
 
     const box = $('list');
     box.innerHTML = '';
     if (!shown.length) {
-      box.append(el('div', 'empty', filter ? 'Belum ada kuiz untuk subjek ini. Nantikan! 🌱' : 'Belum ada kuiz.'));
+      box.append(el('div', 'empty', subject ? 'Belum ada kuiz untuk subjek ini. Nantikan! 🌱' : 'Belum ada kuiz untuk tahap ini. Nantikan! 🌱'));
       return;
     }
     shown.forEach((q, i) => {
@@ -87,9 +115,10 @@
     });
   }
 
-  $('showAll').addEventListener('click', () => { filter = null; renderSubjects(); renderList(); });
+  $('showAll').addEventListener('click', () => { subject = null; renderSubjects(); renderList(); });
 
   renderKids();
+  renderLevels();
   fetch('quizzes/index.json', { cache: 'no-store' })
     .then(r => r.json())
     .then(items => {

@@ -118,16 +118,15 @@ B1, kemudian **QUIZ GENERATOR → Create Current Quiz** seperti biasa.
 Buka [`site.js`](site.js) di GitHub → ikon pensel ✏️ → ubah → **Commit changes**.
 
 - `TAJUK`, `SUBTAJUK`: teks besar di muka depan.
-- `ANAK`: nama anak-anak. Mereka pilih nama di muka depan, dan nama + kelas diisi automatik
-  dalam kuiz. Markah terbaik setiap anak dipaparkan pada kad kuiz (disimpan dalam pelayar itu).
-  ```js
-  ANAK: [
-    { nama: 'Aisyah', kelas: '2 Bestari', emoji: '🦄' },
-    { nama: 'Adam', kelas: '4 Cemerlang', emoji: '🚀' }
-  ],
-  ```
-- `SUBJEK`: petak subjek (nama, emoji, warna). Kuiz masuk ke subjek mengikut awal tajuknya,
-  contoh `Sejarah Tingkatan 2 (1.3-1.4)` → Sejarah. Tajuk yang tidak sepadan masuk "Lain-lain".
+- `TAHAP`: senarai tahap (Tingkatan 2, Tahun 6, Tahun 2). Tahap kuiz diambil daripada tajuknya,
+  contoh `Matematik Tahun 6 (1.1)` → Tahun 6.
+- `ANAK`: nama, tahap dan emoji setiap anak. Bila anak pilih nama, hanya subjek dan kuiz tahapnya
+  dipaparkan, dan namanya diisi automatik dalam kuiz. Markah terbaik dipaparkan pada kad kuiz.
+- `SUBJEK`: petak subjek (nama, emoji, warna), `awalan` tajuk kuiz yang dikira sebagai subjek itu
+  (contoh `Mathematics` dan `Matematik`), dan `tahap` yang ada subjek itu.
+
+Tajuk kuiz yang baik: **Subjek + Tahap + (subtopik)**, contoh `Sains Tahun 2 (1.1)`.
+Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 
 ## Fail dalam repo ini
 

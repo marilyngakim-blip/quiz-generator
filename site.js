@@ -4,25 +4,28 @@ window.SITE = {
   TAJUK: 'Jom Kuiz!',
   SUBTAJUK: 'Belajar sambil bermain — jawab, semak, ulang!',
 
-  // Anak-anak yang menjawab kuiz. Nama & kelas akan diisi automatik dalam kuiz (kelas boleh dibiarkan kosong).
-  // Contoh: { nama: 'Aisyah', kelas: '2 Bestari', emoji: '🦄' }
+  // Tahap persekolahan. Tahap kuiz diambil daripada tajuknya,
+  // contoh "Mathematics Tingkatan 2 (2.1)" → Tingkatan 2, "Matematik Tahun 6 (1.1)" → Tahun 6.
+  TAHAP: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'],
+
+  // Anak-anak. Bila anak pilih nama, hanya subjek dan kuiz untuk tahapnya dipaparkan.
   ANAK: [
-    { nama: 'Elnathan', kelas: '', emoji: '🦁' },
-    { nama: 'Ezequiel', kelas: '', emoji: '🚀' },
-    { nama: 'Elzeario', kelas: '', emoji: '🐬' }
+    { nama: 'Elnathan', tahap: 'Tingkatan 2', emoji: '🦁' },
+    { nama: 'Ezequiel', tahap: 'Tahun 6',     emoji: '🚀' },
+    { nama: 'Elzeario', tahap: 'Tahun 2',     emoji: '🐬' }
   ],
 
-  // Subjek di muka depan. Kuiz dipadankan dengan awal tajuknya
-  // (contoh tajuk "Mathematics Tingkatan 2 (2.1)" → Mathematics).
+  // Subjek di muka depan.
+  //  nama  : nama yang dipaparkan
+  //  awalan: awal tajuk kuiz yang dikira sebagai subjek ini (huruf besar/kecil tidak penting)
+  //  tahap : tahap yang ada subjek ini
   SUBJEK: [
-    { nama: 'Mathematics',      emoji: '🔢', warna: '#ff8a3d' },
-    { nama: 'Science',          emoji: '🔬', warna: '#2bb3a3' },
-    { nama: 'Bahasa Melayu',    emoji: '📖', warna: '#ff6b6b' },
-    { nama: 'English',          emoji: '🔤', warna: '#5b8def' },
-    { nama: 'Sejarah',          emoji: '🏛️', warna: '#c47f3a' },
-    { nama: 'Geografi',         emoji: '🌏', warna: '#3fae5a' },
-    { nama: 'RBT',              emoji: '🛠️', warna: '#8e6cd8' },
-    { nama: 'Pendidikan Islam', emoji: '🕌', warna: '#14967f' },
-    { nama: 'Pendidikan Moral', emoji: '💛', warna: '#e0a800' }
+    { nama: 'Matematik',      awalan: ['Mathematics', 'Matematik'],  emoji: '🔢', warna: '#ff8a3d', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
+    { nama: 'Sains',          awalan: ['Science', 'Sains'],          emoji: '🔬', warna: '#2bb3a3', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
+    { nama: 'Bahasa Melayu',  awalan: ['Bahasa Melayu', 'BM'],       emoji: '📖', warna: '#ff6b6b', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
+    { nama: 'English',        awalan: ['English', 'Bahasa Inggeris'], emoji: '🔤', warna: '#5b8def', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
+    { nama: 'Sejarah',        awalan: ['Sejarah'],                   emoji: '🏛️', warna: '#c47f3a', tahap: ['Tingkatan 2', 'Tahun 6'] },
+    { nama: 'Geografi',       awalan: ['Geografi'],                  emoji: '🌏', warna: '#3fae5a', tahap: ['Tingkatan 2'] },
+    { nama: 'RBT',            awalan: ['RBT', 'Reka Bentuk'],        emoji: '🛠️', warna: '#8e6cd8', tahap: ['Tingkatan 2', 'Tahun 6'] }
   ]
 };

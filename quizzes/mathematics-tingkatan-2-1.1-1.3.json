@@ -1,413 +1,419 @@
 {
   "id": "mathematics-tingkatan-2-1.1-1.3",
   "title": "Mathematics Tingkatan 2 (1.1-1.3)",
-  "createdAt": "2026-10-27T15:09:21.107Z",
+  "createdAt": "2026-10-28T15:39:42.701Z",
   "questions": [
     {
-      "q": "1. What is the next term of the sequence 5, 12, 19, 26, ...?",
+      "q": "What is a pattern?",
       "options": [
-        "A. 34",
-        "B. 33",
-        "C. 32",
-        "D. 35"
+        "A list of even numbers only",
+        "A list of numbers arranged randomly",
+        "A list of numbers that always increases",
+        "A list of numbers or objects arranged based on a rule or design"
       ],
       "marks": 1
     },
     {
-      "q": "2. What is the pattern of the sequence 81, 27, 9, 3, ...?",
+      "q": "What is the pattern of the number sequence −10, −4, 2, 8, ...?",
       "options": [
-        "A. Multiply the previous number by 3",
-        "B. Divide the previous number by 9",
-        "C. Subtract 54 from the previous number",
-        "D. Divide the previous number by 3"
+        "Subtract 6 from the previous number",
+        "Add 4 to the previous number",
+        "Multiply the previous number by −2",
+        "Add 6 to the previous number"
       ],
       "marks": 1
     },
     {
-      "q": "3. Which of the following sets of numbers is NOT a sequence?",
+      "q": "What is the pattern of the number sequence 2, 6, 18, 54, ...?",
       "options": [
-        "A. 4, 5, −7, 10, −14, ...",
-        "B. 92, 88, 84, 80, ...",
-        "C. 3, 18, 33, 48, ...",
-        "D. 100, 116, 132, 148, ..."
+        "Multiply the previous number by 3",
+        "Add 12 to the previous number",
+        "Add 4 to the previous number",
+        "Multiply the previous number by 2"
       ],
       "marks": 1
     },
     {
-      "q": "4. Which statement best describes a sequence?",
+      "q": "What is the pattern of the number sequence 81, 27, 9, 3, ...?",
       "options": [
-        "A. The position of a number in a list",
-        "B. A single number taken from a list of numbers",
-        "C. A list of numbers arranged without any rule",
-        "D. A set of numbers or objects arranged according to a certain pattern"
+        "Multiply the previous number by 3",
+        "Divide the previous number by 3",
+        "Divide the previous number by 9",
+        "Subtract 54 from the previous number"
       ],
       "marks": 1
     },
     {
-      "q": "5. The Fibonacci Numbers are 0, 1, 1, 2, 3, 5, 8, ... . What is the next term?",
+      "q": "What is the pattern of the number sequence −2.3, −2.6, −2.9, −3.2, ...?",
       "options": [
-        "A. 12",
-        "B. 11",
-        "C. 16",
-        "D. 13"
+        "Add 0.3 to the previous number",
+        "Subtract 0.03 from the previous number",
+        "Multiply the previous number by 0.3",
+        "Subtract 0.3 from the previous number"
       ],
       "marks": 1
     },
     {
-      "q": "6. The diagram shows the first five rows of Pascal's Triangle. What are the numbers in the next row?",
+      "q": "What is the next term in the Fibonacci Numbers 0, 1, 1, 2, 3, 5, 8, ...?",
       "options": [
-        "A. 1, 4, 10, 10, 4, 1",
-        "B. 1, 5, 10, 5, 1",
-        "C. 1, 5, 10, 10, 5, 1",
-        "D. 1, 5, 9, 9, 5, 1"
+        "16",
+        "13",
+        "12",
+        "11"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In Pascal's Triangle, every row starts and ends with the number",
+      "options": [
+        "0",
+        "2",
+        "the row number",
+        "1"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which statement best describes a sequence?",
+      "options": [
+        "Any set of numbers written in a list",
+        "A set of numbers or objects arranged according to a certain pattern",
+        "A set of numbers with no repeated digits",
+        "A set of numbers that only increases"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following is a sequence?",
+      "options": [
+        "−10, −6, −2, 2, 6, ...",
+        "2, 7, 3, 12, 1, ...",
+        "4, 5, −7, 10, −14, ...",
+        "3, 1, 4, 1, 5, 9, ..."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Complete the number sequence: 7, 13, ___, 25, ...",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Complete the number sequence: 88, ___, 64, 52, ...",
+      "options": [
+        "74",
+        "76",
+        "70",
+        "78"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "For the sequence 4, 8, 12, 16, ..., what is the value of T₃?",
+      "options": [
+        "12",
+        "8",
+        "3",
+        "16"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The sequence 4, 9, 14, 19, 24, 29, ... has even numbers 4, 14, 24, ... What is the pattern of these even numbers?",
+      "options": [
+        "Add 5 to the previous number",
+        "Add 4 to the previous number",
+        "Add 10 to the previous number",
+        "Multiply the previous number by 2"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which algebraic expression represents the sequence 3, 6, 9, 12, ... where n = 1, 2, 3, ...?",
+      "options": [
+        "3n",
+        "3n + 3",
+        "n³",
+        "n + 3"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the next term of the sequence 96, 92, 88, 84, ...?",
+      "options": [
+        "76",
+        "78",
+        "80",
+        "82"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The diagram shows the first four patterns of a dot arrangement. How many dots are there in the 5th pattern?",
+      "options": [
+        "21",
+        "15",
+        "13",
+        "14"
       ],
       "marks": 1,
-      "image": "img/mathematics-tingkatan-2-1.1-1.3/q6.png"
+      "image": "img/mathematics-tingkatan-2/S1_Q16.png"
     },
     {
-      "q": "7. The diagram shows the first four patterns of a sequence of dots. How many dots are there in the 5th pattern?",
+      "q": "Based on the dot arrangement in the diagram, what is the pattern of the number of dots?",
       "options": [
-        "A. 14",
-        "B. 21",
-        "C. 15",
-        "D. 16"
+        "Add 3 to the previous number",
+        "Multiply the previous number by 2",
+        "Add 2 to the previous number",
+        "Add 2, 3, 4, ... to the previous number"
       ],
       "marks": 1,
-      "image": "img/mathematics-tingkatan-2-1.1-1.3/q7.png"
+      "image": "img/mathematics-tingkatan-2/S1_Q16.png"
     },
     {
-      "q": "8. In the sequence 4, 8, 12, 16, ..., what is the value of T₃?",
+      "q": "The diagram shows the number of squares in patterns 1, 2 and 3. How many squares are there in pattern 6?",
       "options": [
-        "A. 3",
-        "B. 12",
-        "C. 16",
-        "D. 8"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "9. What is the pattern of the sequence −10, −4, 2, 8, ...?",
-      "options": [
-        "A. Add 6 to the previous number",
-        "B. Subtract 6 from the previous number",
-        "C. Add 4 to the previous number",
-        "D. Add 8 to the previous number"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "10. What is the next term of the sequence 2, 6, 18, 54, ...?",
-      "options": [
-        "A. 108",
-        "B. 216",
-        "C. 72",
-        "D. 162"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "11. What is the pattern of the odd numbers 1, 3, 5, 7, ...?",
-      "options": [
-        "A. Multiply the previous number by 2",
-        "B. Add 3 to the previous number",
-        "C. Add 1 to the previous number",
-        "D. Add 2 to the previous number"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "12. What is the next term of the sequence −2.3, −2.6, −2.9, −3.2, ...?",
-      "options": [
-        "A. −3.5",
-        "B. −3.6",
-        "C. −3.4",
-        "D. −3.8"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "13. Find the missing term in the sequence 34, 28, ___, 16, ...",
-      "options": [
-        "A. 22",
-        "B. 21",
-        "C. 24",
-        "D. 20"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "14. The diagram shows the first three patterns of a sequence made of squares. How many squares are there in Pattern 4?",
-      "options": [
-        "A. 9",
-        "B. 11",
-        "C. 10",
-        "D. 12"
+        "18",
+        "19",
+        "16",
+        "13"
       ],
       "marks": 1,
-      "image": "img/mathematics-tingkatan-2-1.1-1.3/q14.png"
+      "image": "img/mathematics-tingkatan-2/S1_Q18.png"
     },
     {
-      "q": "15. In the notation Tₙ for a number sequence, what does n represent?",
+      "q": "Each term of the sequence 1, 3, ___, ___, 11, ... is the sum of the two previous terms. What are the missing numbers?",
       "options": [
-        "A. The value of the term",
-        "B. The total number of terms",
-        "C. The position of the term",
-        "D. The pattern of the sequence"
+        "4 and 8",
+        "5 and 7",
+        "4 and 7",
+        "5 and 8"
       ],
       "marks": 1
     },
     {
-      "q": "16. Which algebraic expression represents the pattern of the sequence 3, 6, 9, 12, ..., where n = 1, 2, 3, ...?",
+      "q": "The diagram shows part of Pascal's Triangle. What is the value of P?",
       "options": [
-        "A. 3n + 3",
-        "B. n + 3",
-        "C. 3n",
-        "D. 3n − 1"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "17. Which algebraic expression represents the pattern of the sequence 4, 7, 10, 13, ..., where n = 1, 2, 3, ...?",
-      "options": [
-        "A. 3n + 4",
-        "B. 4n",
-        "C. 3n + 1",
-        "D. 3n"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "18. What is the 5th term of the sequence 2, 10, 18, ...?",
-      "options": [
-        "A. 40",
-        "B. 42",
-        "C. 26",
-        "D. 34"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "19. Given the sequence 65, 60, 55, 50, ... . Which term of the sequence is 40?",
-      "options": [
-        "A. 8th term",
-        "B. 7th term",
-        "C. 5th term",
-        "D. 6th term"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "20. Complete the Fibonacci Numbers: 1, ___, 2, 3, 5, ___, 13, ...",
-      "options": [
-        "A. 1 and 8",
-        "B. 2 and 8",
-        "C. 0 and 8",
-        "D. 1 and 9"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "21. What is the sum of the numbers in the row 1, 4, 6, 4, 1 of Pascal's Triangle?",
-      "options": [
-        "A. 12",
-        "B. 16",
-        "C. 15",
-        "D. 14"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "22. What is the pattern of the sequence 1, 0.3, 0.09, 0.027, ...?",
-      "options": [
-        "A. Multiply the previous number by 0.3",
-        "B. Divide the previous number by 0.3",
-        "C. Subtract 0.7 from the previous number",
-        "D. Multiply the previous number by 3"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "23. For the sequence 28, 37, 46, 55, ..., 145, what is the pattern of the odd numbers in the sequence?",
-      "options": [
-        "A. Add 9 to the previous odd number",
-        "B. Add 19 to the previous odd number",
-        "C. Add 36 to the previous odd number",
-        "D. Add 18 to the previous odd number"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "24. The first four terms of a sequence are 9, x, −5, −12, ... . Find the value of x.",
-      "options": [
-        "A. 1",
-        "B. 3",
-        "C. 2",
-        "D. 4"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "25. The first four terms of a sequence are 11, x, −5, −13, ... . What is the tenth term, T₁₀?",
-      "options": [
-        "A. −69",
-        "B. −61",
-        "C. −53",
-        "D. −80"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "26. Which statement describes the sequence 100, 116, 132, 148, ... in words?",
-      "options": [
-        "A. The sequence begins with 100 and the pattern is add 32 to the number before it",
-        "B. The sequence begins with 100 and the pattern is add 16 to the number before it",
-        "C. The sequence begins with 100 and the pattern is multiply the number before it by 16",
-        "D. The sequence begins with 116 and the pattern is add 16 to the number before it"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "27. A sequence begins with 400 and the pattern is divide the previous number by 5. What is the 4th term?",
-      "options": [
-        "A. 0.32",
-        "B. 16",
-        "C. 3.2",
-        "D. 3.6"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "28. The diagram shows a row of squares made with matchsticks. How many matchsticks are needed to make a row of 6 squares?",
-      "options": [
-        "A. 22",
-        "B. 19",
-        "C. 18",
-        "D. 24"
+        "10",
+        "6",
+        "15",
+        "9"
       ],
       "marks": 1,
-      "image": "img/mathematics-tingkatan-2-1.1-1.3/q28.png"
+      "image": "img/mathematics-tingkatan-2/S1_Q20.png"
     },
     {
-      "q": "29. The nth term of a sequence is Tₙ = 5n − 2. What is the value of T₈?",
+      "q": "Based on Pascal's Triangle in the diagram, what is the value of Q?",
       "options": [
-        "A. 42",
-        "B. 38",
-        "C. 33",
-        "D. 40"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "30. What are the next two terms of the sequence 2, 4, 5, 10, 12, 24, 27, ...?",
-      "options": [
-        "A. 54, 58",
-        "B. 54, 57",
-        "C. 30, 60",
-        "D. 54, 108"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "31. Aina saves RM5 in the first week. Each week after that, she saves RM3 more than the previous week. How much does she save in the 10th week?",
-      "options": [
-        "A. RM35",
-        "B. RM32",
-        "C. RM30",
-        "D. RM29"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "32. Raiyan must take fever medicine 3 times a day at equal time intervals. He takes the first dose at 8:30 a.m. At what time should he take the third dose?",
-      "options": [
-        "A. 12:30 a.m.",
-        "B. 11:30 p.m.",
-        "C. 12:30 p.m.",
-        "D. 8:30 p.m."
-      ],
-      "marks": 1
-    },
-    {
-      "q": "33. The diagram shows the first three patterns of a sequence of small squares. If the pattern continues, how many small squares are there in the 10th pattern?",
-      "options": [
-        "A. 121",
-        "B. 40",
-        "C. 81",
-        "D. 100"
+        "30",
+        "16",
+        "25",
+        "20"
       ],
       "marks": 1,
-      "image": "img/mathematics-tingkatan-2-1.1-1.3/q33.png"
+      "image": "img/mathematics-tingkatan-2/S1_Q20.png"
     },
     {
-      "q": "34. Which term of the sequence 7, 11, 15, 19, ... is 87?",
+      "q": "What is the next term of the sequence 21, 63, 189, ...?",
       "options": [
-        "A. 19th term",
-        "B. 20th term",
-        "C. 21st term",
-        "D. 22nd term"
+        "567",
+        "252",
+        "1 701",
+        "378"
       ],
       "marks": 1
     },
     {
-      "q": "35. The nth term of a sequence is Tₙ = 2n + 3, where n = 1, 2, 3, ... . Which number is NOT a term of the sequence?",
+      "q": "The table shows the departure times of buses from Kuala Lumpur to Pulau Pinang. What is the interval between the departure of one bus and the next?",
       "options": [
-        "A. 41",
-        "B. 25",
-        "C. 58",
-        "D. 103"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "36. A hall has 12 seats in the first row. Each row after that has 3 more seats than the row in front of it. What is the total number of seats in the first 5 rows?",
-      "options": [
-        "A. 90",
-        "B. 72",
-        "C. 84",
-        "D. 96"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "37. In Pascal's Triangle, Row 1 is 1, Row 2 is 1, 1 and Row 3 is 1, 2, 1. What is the sum of the numbers in Row 8?",
-      "options": [
-        "A. 36",
-        "B. 256",
-        "C. 64",
-        "D. 128"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "38. A tree is 1.2 m tall when planted. It grows 0.15 m every year. After how many years will the tree be 2.4 m tall?",
-      "options": [
-        "A. 9 years",
-        "B. 8 years",
-        "C. 10 years",
-        "D. 7 years"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "39. The number of pairs of rabbits each month follows the Fibonacci Numbers 1, 1, 2, 3, 5, 8, ... starting from Month 1. How many pairs of rabbits are there in Month 10?",
-      "options": [
-        "A. 34",
-        "B. 55",
-        "C. 50",
-        "D. 89"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "40. The diagram shows a row of triangles made with matchsticks. How many triangles can be formed in one row using exactly 41 matchsticks?",
-      "options": [
-        "A. 20",
-        "B. 40",
-        "C. 19",
-        "D. 21"
+        "45 minutes",
+        "20 minutes",
+        "30 minutes",
+        "1 hour"
       ],
       "marks": 1,
-      "image": "img/mathematics-tingkatan-2-1.1-1.3/q40.png"
+      "image": "img/mathematics-tingkatan-2/S1_Q23.png"
+    },
+    {
+      "q": "Based on the bus timetable, at what time does Bus E leave?",
+      "options": [
+        "9:30 a.m.",
+        "11:00 a.m.",
+        "10:00 a.m.",
+        "10:30 a.m."
+      ],
+      "marks": 1,
+      "image": "img/mathematics-tingkatan-2/S1_Q23.png"
+    },
+    {
+      "q": "What is the next term of the sequence 13.3, 5.3, −2.7, ...?",
+      "options": [
+        "10.7",
+        "−8.7",
+        "−10.7",
+        "−10.3"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the next term of the sequence 80, 16, 3.2, ...?",
+      "options": [
+        "0.32",
+        "6.4",
+        "0.064",
+        "0.64"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Given the sequence 65, 60, 55, 50, ..., which term is 40?",
+      "options": [
+        "6th term",
+        "5th term",
+        "7th term",
+        "8th term"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the 5th term of the sequence 2, 10, 18, ...?",
+      "options": [
+        "26",
+        "42",
+        "34",
+        "40"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which algebraic expression represents the sequence 5, 8, 11, 14, ... where n = 1, 2, 3, ...?",
+      "options": [
+        "3n",
+        "3n + 2",
+        "5n",
+        "n + 3"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which algebraic expression represents the sequence 2, 4, 8, 16, ... where n = 1, 2, 3, ...?",
+      "options": [
+        "n²",
+        "2ⁿ",
+        "2n",
+        "2n + 2"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Nina arranges buttons as shown in the diagram. How many buttons are there in the 10th arrangement, T₁₀?",
+      "options": [
+        "21",
+        "30",
+        "23",
+        "19"
+      ],
+      "marks": 1,
+      "image": "img/mathematics-tingkatan-2/S1_Q31.png"
+    },
+    {
+      "q": "Based on Nina's button arrangement in the diagram, which arrangement has 41 buttons?",
+      "options": [
+        "19th arrangement",
+        "41st arrangement",
+        "20th arrangement",
+        "21st arrangement"
+      ],
+      "marks": 1,
+      "image": "img/mathematics-tingkatan-2/S1_Q31.png"
+    },
+    {
+      "q": "The first four terms of a sequence are 9, x, −5, −12, ... What is the value of x?",
+      "options": [
+        "2",
+        "−2",
+        "4",
+        "1"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the bus timetable, the journey from Kuala Lumpur to Pulau Pinang takes 5 hours. At what time does Bus E reach Pulau Pinang?",
+      "options": [
+        "2:30 p.m.",
+        "3:00 p.m.",
+        "3:30 p.m.",
+        "1:00 p.m."
+      ],
+      "marks": 1,
+      "image": "img/mathematics-tingkatan-2/S1_Q23.png"
+    },
+    {
+      "q": "Eng Wei feeds his fish 4 times a day at equal intervals. The first feeding time is 7:35 a.m. At what time is the third feeding?",
+      "options": [
+        "11:35 a.m.",
+        "1:35 a.m.",
+        "1:35 p.m.",
+        "7:35 p.m."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The table shows the first four terms of a sequence. What is the value of x?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "−3"
+      ],
+      "marks": 1,
+      "image": "img/mathematics-tingkatan-2/S1_Q36.png"
+    },
+    {
+      "q": "Based on the sequence in the table, what is the tenth term, T₁₀?",
+      "options": [
+        "−53",
+        "−61",
+        "−69",
+        "−72"
+      ],
+      "marks": 1,
+      "image": "img/mathematics-tingkatan-2/S1_Q36.png"
+    },
+    {
+      "q": "What are the 7th and 11th terms of the sequence −3, 5, 13, ...?",
+      "options": [
+        "37 and 69",
+        "53 and 85",
+        "45 and 85",
+        "45 and 77"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What are the next two terms of the sequence 3, 8, 15, 24, 35, ...?",
+      "options": [
+        "48 and 61",
+        "47 and 60",
+        "48 and 63",
+        "46 and 57"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Given 11 × 11 = 121, 111 × 111 = 12 321 and 1 111 × 1 111 = 1 234 321, what is 11 111 × 11 111?",
+      "options": [
+        "12 345 321",
+        "123 456 321",
+        "1 234 554 321",
+        "123 454 321"
+      ],
+      "marks": 1
     }
   ]
 }

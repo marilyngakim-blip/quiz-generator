@@ -153,7 +153,7 @@ B1, kemudian **QUIZ GENERATOR → Create Current Quiz** seperti biasa.
 Buka [`site.js`](site.js) di GitHub → ikon pensel ✏️ → ubah → **Commit changes**.
 
 - `TAJUK`, `SUBTAJUK`: teks besar di muka depan.
-- `TAHAP`: senarai tahap (Tingkatan 2, Tahun 6, Tahun 2). Tahap kuiz diambil daripada tajuknya,
+- `TAHAP`: senarai tahap (Tingkatan 2, Tahun 6, Tahun 3). Tahap kuiz diambil daripada tajuknya,
   contoh `Matematik Tahun 6 (1.1)` → Tahun 6.
 - `ANAK`: nama, tahap dan emoji setiap anak. Bila anak pilih nama, hanya subjek dan kuiz tahapnya
   dipaparkan, dan namanya diisi automatik dalam kuiz. Markah terbaik dipaparkan pada kad kuiz.
@@ -164,7 +164,7 @@ Buka [`site.js`](site.js) di GitHub → ikon pensel ✏️ → ubah → **Commit
   kad imbas 听写 dalam folder `aplikasi/`. Isi `tajuk`, `url`, `subjek`, `tahap` dan `ket` (keterangan).
   Markah aplikasi ini tidak direkodkan di Google Sheet.
 
-Tajuk kuiz yang baik: **Subjek + Tahap + (subtopik)**, contoh `Sains Tahun 2 (1.1)`.
+Tajuk kuiz yang baik: **Subjek + Tahap + (subtopik)**, contoh `Sains Tahun 3 (1.1)`.
 Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 
 ## Fail dalam repo ini

@@ -1,0 +1,411 @@
+{
+  "id": "science-tingkatan-2-1.1-1.2",
+  "title": "Science Tingkatan 2 (1.1-1.2)",
+  "createdAt": "2026-10-28T01:55:49.826Z",
+  "questions": [
+    {
+      "q": "What is biodiversity?",
+      "options": [
+        "The number of animals in a zoo",
+        "The diversity of non-living things in a habitat",
+        "The diversity of organisms such as microorganisms, animals and plants",
+        "The study of rocks and minerals"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Malaysia is one of how many megabiodiversity countries in the world?",
+      "options": [
+        "10",
+        "20",
+        "5",
+        "12"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The International Day for Biological Diversity is celebrated every year on",
+      "options": [
+        "5-Jun",
+        "22-Apr",
+        "22-May",
+        "31-Aug"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which act bans the killing or trade of endemic and endangered animals and plants in Malaysia?",
+      "options": [
+        "Wildlife Protection Act 1972",
+        "Fisheries Act 1985",
+        "Forestry Act 1984",
+        "Environmental Quality Act 1974"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is an endemic species?",
+      "options": [
+        "A species that lives in every country",
+        "A species that has become extinct",
+        "A species brought in from another country",
+        "A species that lives in clusters within a restricted habitat in a specific location"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following is an endemic plant in Malaysia?",
+      "options": [
+        "Rafflesia",
+        "Tulip",
+        "Sunflower",
+        "Rose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Invertebrates are animals",
+      "options": [
+        "with a backbone",
+        "without a backbone",
+        "with feathers",
+        "with fur"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which is the largest group of animals?",
+      "options": [
+        "Mammals",
+        "Fish",
+        "Insects",
+        "Birds"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "How many pairs of legs does an insect have?",
+      "options": [
+        "Three pairs",
+        "Five pairs",
+        "Two pairs",
+        "Four pairs"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Fish breathe through",
+      "options": [
+        "lungs",
+        "moist skin",
+        "gills",
+        "spiracles"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which group of animals is covered with feathers?",
+      "options": [
+        "Mammals",
+        "Amphibians",
+        "Reptiles",
+        "Birds"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which characteristic is found only in mammals?",
+      "options": [
+        "Give birth and nurse their young",
+        "Breathe through gills",
+        "Lay eggs with hard shells",
+        "Covered with scales"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Moss reproduces by producing",
+      "options": [
+        "spores",
+        "seeds",
+        "cones",
+        "flowers"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Conifers reproduce by",
+      "options": [
+        "bearing cones",
+        "producing flowers",
+        "budding",
+        "producing spores"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is a dichotomous key?",
+      "options": [
+        "A method to count the population of animals",
+        "A method to identify and classify organisms based on similarities and differences",
+        "A list of all organisms in a habitat",
+        "A key used to open a laboratory cabinet"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A poikilotherm is an organism whose body temperature",
+      "options": [
+        "never changes in water",
+        "is always higher than the surroundings",
+        "is always constant",
+        "changes according to the surrounding temperature"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which groups of animals are homeothermic?",
+      "options": [
+        "Amphibians and reptiles",
+        "Birds and mammals",
+        "Reptiles and fish",
+        "Fish and amphibians"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Amphibians produce",
+      "options": [
+        "eggs with a leathery shell",
+        "eggs with a hard shell",
+        "jelly-like eggs without a shell",
+        "live young"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following is a characteristic of reptiles?",
+      "options": [
+        "Covered with feathers and have wings",
+        "Have moist skin and breathe through gills",
+        "Covered with fur and nurse their young",
+        "Have scales and hard skin and produce eggs with a shell"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which invertebrate has no legs but has a segmented body?",
+      "options": [
+        "Snail",
+        "Sea anemone",
+        "Planaria",
+        "Earthworm"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which invertebrate has no legs and no segmented body?",
+      "options": [
+        "Planaria",
+        "Earthworm",
+        "Tapeworm",
+        "Leech"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which animal has more than three pairs of legs?",
+      "options": [
+        "Ant",
+        "Spider",
+        "Cockroach",
+        "Butterfly"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Invertebrates with legs have",
+      "options": [
+        "segmented bodies and hard outer shells (exoskeleton)",
+        "fur and feathers",
+        "moist skin and no segments",
+        "backbones and lungs"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A monocotyledon plant has",
+      "options": [
+        "tap roots and network-like veins",
+        "tap roots and parallel veins",
+        "fibrous roots and leaves with parallel veins",
+        "fibrous roots and network-like veins"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which plant is a dicotyledon?",
+      "options": [
+        "Orchid plant",
+        "Paddy plant",
+        "Maize plant",
+        "Durian tree"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which plant is a monocotyledon?",
+      "options": [
+        "Tomato plant",
+        "Maize plant",
+        "Durian tree",
+        "Sunflower plant"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A fern is a plant that",
+      "options": [
+        "is non-vascular and reproduces by seeds",
+        "produces flowers and fruits",
+        "reproduces by bearing cones",
+        "is vascular and reproduces by spores"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which plant is non-vascular?",
+      "options": [
+        "Fern",
+        "Moss",
+        "Conifer",
+        "Paddy"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which is an example of in situ conservation?",
+      "options": [
+        "Zoo",
+        "National park",
+        "Botanical garden",
+        "Seed bank in a laboratory"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which is an example of ex situ conservation?",
+      "options": [
+        "Forest reserve",
+        "Marine park",
+        "Zoo",
+        "National park"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the dichotomous key in the diagram, which animal is poikilothermic, has scaly skin and has fins?",
+      "options": [
+        "Chicken",
+        "Pomfret",
+        "Frog",
+        "Snake"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S1_Q31.png"
+    },
+    {
+      "q": "Based on the dichotomous key in the diagram, which animal is homeothermic and non-feathered?",
+      "options": [
+        "Frog",
+        "Pomfret",
+        "Chicken",
+        "Lion"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S1_Q31.png"
+    },
+    {
+      "q": "Based on the dichotomous key in the diagram, the frog is identified by which characteristics?",
+      "options": [
+        "Homeothermic and non-feathered",
+        "Poikilothermic, scaly skin and has fins",
+        "Poikilothermic and non-scaly skin",
+        "Homeothermic and feathered"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S1_Q31.png"
+    },
+    {
+      "q": "Based on the dichotomous key in the diagram, which plant is non-flowering, vascular and produces seeds?",
+      "options": [
+        "Fern",
+        "Gnetum sp.",
+        "Marchantia sp.",
+        "Maize plant"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S1_Q34.png"
+    },
+    {
+      "q": "Sik Mei says that a scorpion, a jellyfish and a crab belong to the same group. Which statement is correct?",
+      "options": [
+        "She is wrong because the crab has a backbone",
+        "She is right because all three have backbones",
+        "She is right because all three live in water",
+        "She is wrong because the jellyfish has no legs while the scorpion and crab have legs"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Animal X is homeothermic, covered with fur and gives birth to its young. Animal X is most likely a",
+      "options": [
+        "frog",
+        "crocodile",
+        "bat",
+        "owl"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Animal Y has moist skin, lives on land and in water, and lays jelly-like eggs. Animal Y is most likely a",
+      "options": [
+        "toad",
+        "eel",
+        "turtle",
+        "duck"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A plant has leaves with parallel veins and fibrous roots. The plant is most likely a",
+      "options": [
+        "paddy plant",
+        "sunflower plant",
+        "durian tree",
+        "tomato plant"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "How does uncontrolled deforestation affect biodiversity?",
+      "options": [
+        "More species are created",
+        "Animals lose their habitat and food sources and may become extinct",
+        "Plants grow faster in the area",
+        "Animals gain more food sources"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Why does hunting the leatherback turtle have serious consequences?",
+      "options": [
+        "It is a common animal found everywhere",
+        "It has no role in the ecosystem",
+        "It is an endangered endemic species that may become extinct",
+        "It is a pest that destroys crops"
+      ],
+      "marks": 1
+    }
+  ]
+}

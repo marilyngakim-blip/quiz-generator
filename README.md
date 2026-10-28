@@ -89,6 +89,13 @@ Gambar soalan turut disalin: ia disimpan dalam folder Drive **Kuiz Web – Gamba
 dan dimuat naik ke GitHub semasa Terbitkan. Gambar pada *pilihan jawapan* tidak disokong. Ulang langkah ini
 untuk setiap Form.
 
+## Ubah perkataan kad imbas 听写
+
+Buka `aplikasi/tingxie-tahun5-data.js` atau `aplikasi/tingxie-tahun2-data.js` di GitHub → ikon pensel ✏️.
+Setiap perkataan satu baris: `["aksara", "pinyin", "maksud BM", 1],` (1 = huruf wajib tulis ★, 0 = tidak).
+Tambah/buang baris, kemudian **Commit changes**. Jika tersilap tanda petik/koma, aplikasi memaparkan amaran
+dan tidak rosak selamanya – betulkan sahaja fail itu.
+
 ## Gambar soalan (lajur H)
 
 Lajur H di tab Input Kuiz boleh berisi:
@@ -140,7 +147,8 @@ Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 | `quiz.html`, `assets/quiz.js` | Laman menjawab kuiz (markah, bintang, konfeti) |
 | `assets/style.css`, `assets/common.js` | Reka bentuk dan fungsi dikongsi |
 | `site.js` | Tetapan muka depan (tahap, anak, subjek, pautan aplikasi) |
-| `aplikasi/` | Aplikasi latihan tambahan, contoh `tingxie-tahun5.html` (kad imbas 听写 BC Tahun 5) |
+| `aplikasi/tingxie-tahun5.html`, `aplikasi/tingxie-tahun2.html` | Kad imbas 听写 Bahasa Cina Tahun 5 dan Tahun 2 |
+| `aplikasi/tingxie-tahun5-data.js`, `aplikasi/tingxie-tahun2-data.js` | Senarai perkataan kad imbas – edit di sini (satu perkataan satu baris) |
 | `quizzes/*.json` | Soalan setiap kuiz (tanpa jawapan) – dijana oleh Sheet |
 | `quizzes/index.json` | Senarai kuiz – dijana oleh Sheet |
 | `config.js` | URL Web App – dijana oleh Sheet |

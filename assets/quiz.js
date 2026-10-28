@@ -69,30 +69,60 @@
     form.append(el('div', { class: 'sticky' }, el('div', { class: 'progress' }, bar), barLabel, msg, btn));
     app.append(form);
 
+    let cloudPending = null; // draf yang menunggu untuk dihantar ke Google Sheet
     function updateProgress() {
       const done = form.querySelectorAll('input[type=radio]:checked').length;
       bar.style.width = (done / quiz.questions.length * 100) + '%';
-      barLabel.textContent = done + ' / ' + quiz.questions.length + ' dijawab' + (done ? ' · 💾 disimpan automatik' : '');
+      const status = !cloud ? ' · 💾 disimpan automatik'
+        : cloudState === 'saving' ? ' · ⏳ menyimpan…'
+        : cloudState === 'fail' ? ' · 💾 disimpan dalam peranti ini sahaja'
+        : ' · ☁️ disimpan';
+      barLabel.textContent = done + ' / ' + quiz.questions.length + ' dijawab' + (done ? status : '');
     }
 
-    /* ---------- Simpan jawapan separuh jalan (dalam peranti ini) ---------- */
-    // Tanda kuiz: jika soalan diterbitkan semula dengan bilangan/teks berbeza, draf lama diabaikan.
+    /* ---------- Simpan jawapan separuh jalan ---------- */
+    // Disimpan serta-merta dalam peranti ini, dan di Google Sheet (tab "Draf") supaya boleh
+    // disambung di peranti lain. Tanda kuiz: draf diabaikan jika soalan diterbitkan semula.
     const sig = quiz.questions.length + ':' + quiz.questions.map(q => q.q.length).join(',');
+    const cloud = !quiz.demoKey && !!config.APPS_SCRIPT_URL;
     let draftName = nama.value.trim().toLowerCase();
+    let touched = false;   // anak sudah memilih jawapan sejak laman dibuka
+    let cloudTimer = null;
+    let cloudState = '';   // '' | 'saving' | 'ok' | 'fail'
     const keyFor = n => 'draf.' + quiz.id + '.' + (n || '-');
     const collect = () => quiz.questions.map((_, i) => {
       const c = form.querySelector('input[name="q' + i + '"]:checked');
       return c ? c.value : '';
     });
     function saveDraft() {
+      touched = true;
       const answers = collect();
-      if (answers.every(a => !a)) store.del(keyFor(draftName));
-      else store.set(keyFor(draftName), JSON.stringify({ sig, answers, at: Date.now() }));
+      const d = answers.some(Boolean) ? { sig, answers, at: Date.now() } : null;
+      if (d) store.set(keyFor(draftName), JSON.stringify(d)); else store.del(keyFor(draftName));
+      queueCloud(draftName, d);
     }
-    function loadDraft(n) {
+    function queueCloud(n, d) {
+      if (!cloud || !n) return;
+      cloudPending = { action: d ? 'saveDraft' : 'clearDraft', quizId: quiz.id, nama: n, data: d ? JSON.stringify(d) : '' };
+      cloudState = 'saving';
+      updateProgress();
+      clearTimeout(cloudTimer);
+      cloudTimer = setTimeout(flushCloud, 1500);
+    }
+    function flushCloud() {
+      clearTimeout(cloudTimer);
+      const body = cloudPending;
+      cloudPending = null;
+      if (!body) return;
+      postJSON(body)
+        .then(r => { cloudState = r && r.ok ? 'ok' : 'fail'; })
+        .catch(() => { cloudState = 'fail'; })
+        .then(updateProgress);
+    }
+    function parseDraft(text) {
       try {
-        const d = JSON.parse(store.get(keyFor(n)) || 'null');
-        return d && d.sig === sig && Array.isArray(d.answers) ? d : null;
+        const d = JSON.parse(text || 'null');
+        return d && d.sig === sig && Array.isArray(d.answers) && d.answers.some(Boolean) ? d : null;
       } catch (e) { return null; }
     }
     function applyAnswers(answers) {
@@ -113,7 +143,7 @@
 
     const banner = el('div', { class: 'card resume hidden' });
     app.insertBefore(banner, form);
-    function showBanner(d) {
+    function showBanner(d, fromOtherDevice) {
       const done = d.answers.filter(Boolean).length;
       const when = new Date(d.at).toLocaleString('ms-MY', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
       const go = el('button', { type: 'button', class: 'btn', text: '➜ Sambung menjawab' });
@@ -126,19 +156,43 @@
         if (!confirm('Padam semua jawapan yang disimpan dan mula semula?')) return;
         store.del(keyFor(draftName));
         applyAnswers([]);
+        queueCloud(draftName, null);
+        flushCloud();
         banner.classList.add('hidden');
       });
       banner.innerHTML = '';
       banner.append(
-        el('p', { class: 'resume-title', text: '💾 Selamat kembali! Jawapan kamu disimpan.' }),
+        el('p', { class: 'resume-title', text: fromOtherDevice ? '☁️ Selamat kembali! Jawapan dari peranti lain dipulihkan.' : '💾 Selamat kembali! Jawapan kamu disimpan.' }),
         el('p', { class: 'muted', text: done + ' / ' + quiz.questions.length + ' soalan sudah dijawab · disimpan ' + when }),
         el('div', { class: 'actions' }, go, reset));
       banner.classList.remove('hidden');
     }
     function restore() {
-      const d = loadDraft(draftName);
-      if (d) { applyAnswers(d.answers); showBanner(d); } else { banner.classList.add('hidden'); }
+      const n = draftName;
+      const local = parseDraft(store.get(keyFor(n)));
+      if (local) { applyAnswers(local.answers); showBanner(local, false); } else { banner.classList.add('hidden'); }
+      if (!cloud || !n) return;
+      // Ambil draf dari Google Sheet; guna yang paling baharu.
+      postJSON({ action: 'loadDraft', quizId: quiz.id, nama: n }).then(r => {
+        if (n !== draftName) return;
+        if (!r || !r.ok) { cloudState = 'fail'; updateProgress(); return; }
+        const remote = parseDraft(r.data);
+        if (local && (!remote || local.at > remote.at)) { if (!touched) queueCloud(n, local); return; }
+        if (!remote || touched) return;
+        store.set(keyFor(n), JSON.stringify(remote));
+        applyAnswers(remote.answers);
+        showBanner(remote, true);
+        cloudState = 'ok';
+        updateProgress();
+      }).catch(() => { cloudState = 'fail'; updateProgress(); });
     }
+    // Hantar draf terakhir jika laman ditutup sebelum sempat disimpan.
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState !== 'hidden' || !cloudPending) return;
+      clearTimeout(cloudTimer);
+      if (navigator.sendBeacon && navigator.sendBeacon(config.APPS_SCRIPT_URL, JSON.stringify(cloudPending))) cloudPending = null;
+      else flushCloud();
+    });
     // Tukar nama: pindah ke draf nama itu (jika belum menjawab), atau simpan di bawah nama baharu.
     nama.addEventListener('change', () => {
       const n = nama.value.trim().toLowerCase();
@@ -146,7 +200,13 @@
       const hadAnswers = collect().some(Boolean);
       const old = draftName;
       draftName = n;
-      if (hadAnswers) { store.del(keyFor(old)); saveDraft(); } else restore();
+      if (hadAnswers) {
+        store.del(keyFor(old));
+        if (cloud && old) postJSON({ action: 'clearDraft', quizId: quiz.id, nama: old }).catch(() => {});
+        saveDraft();
+      } else {
+        restore();
+      }
     });
     restore();
     updateProgress();
@@ -166,6 +226,8 @@
       const blank = answers.filter(a => !a).length;
       if (blank && !confirm(blank + ' soalan belum dijawab. Hantar juga?')) return;
 
+      clearTimeout(cloudTimer);
+      cloudPending = null;
       btn.disabled = true;
       btn.textContent = 'Menyemak… ⏳';
       try {
@@ -174,6 +236,8 @@
           // Lajur "Kelas" di Google Sheet diisi dengan tahap kuiz (contoh Tingkatan 2).
           : await gradeOnServer(quiz, answers, nama.value.trim(), levelOf(quiz.title) || '-');
         store.del(keyFor(draftName)); // sudah dihantar: draf tidak diperlukan lagi
+        // Sheet memadam draf semasa menyemak; padam sekali lagi sekiranya simpanan lewat tiba selepas itu.
+        if (cloud && draftName) postJSON({ action: 'clearDraft', quizId: quiz.id, nama: draftName }).catch(() => {});
         banner.remove();
         showResult(quiz, form, result, nama);
       } catch (e) {
@@ -203,15 +267,19 @@
     return { ok: true, score, total, attempt: null, results };
   }
 
-  async function gradeOnServer(quiz, answers, nama, kelas) {
-    if (!config.APPS_SCRIPT_URL) throw new Error('Kuiz belum disambungkan ke Google Sheet (APPS_SCRIPT_URL kosong dalam config.js).');
+  async function postJSON(body) {
     const res = await fetch(config.APPS_SCRIPT_URL, {
       method: 'POST',
       // text/plain mengelakkan semakan CORS tambahan oleh Apps Script.
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify({ action: 'submit', quizId: quiz.id, nama, kelas, answers })
+      body: JSON.stringify(body)
     });
-    const data = await res.json();
+    return res.json();
+  }
+
+  async function gradeOnServer(quiz, answers, nama, kelas) {
+    if (!config.APPS_SCRIPT_URL) throw new Error('Kuiz belum disambungkan ke Google Sheet (APPS_SCRIPT_URL kosong dalam config.js).');
+    const data = await postJSON({ action: 'submit', quizId: quiz.id, nama, kelas, answers });
     if (!data.ok) throw new Error(data.error || 'Ralat semasa menyemak jawapan.');
     return data;
   }

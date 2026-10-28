@@ -46,7 +46,8 @@
   // Simpanan pelayar: hanya untuk kemudahan (anak dipilih, markah terbaik).
   const store = {
     get(k) { try { return localStorage.getItem('kuiz.' + k); } catch (e) { return null; } },
-    set(k, v) { try { localStorage.setItem('kuiz.' + k, v); } catch (e) { /* abaikan */ } }
+    set(k, v) { try { localStorage.setItem('kuiz.' + k, v); } catch (e) { /* abaikan */ } },
+    del(k) { try { localStorage.removeItem('kuiz.' + k); } catch (e) { /* abaikan */ } }
   };
 
   function currentKid() {

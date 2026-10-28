@@ -1,7 +1,7 @@
 {
   "id": "matematik-tahun-3-unit-1-bahagian-1",
   "title": "Matematik Tahun 3 (Unit 1 Bahagian 1)",
-  "createdAt": "2026-10-28T12:32:41.120Z",
+  "createdAt": "2026-10-28T15:05:36.795Z",
   "questions": [
     {
       "q": "1 600 读作什么？",
@@ -92,7 +92,7 @@
         "9 297"
       ],
       "marks": 1,
-      "image": "S1_Q9.png"
+      "image": "img/matematik-tahun-3-unit-1/S1_Q9.png"
     },
     {
       "q": "2 个 1 000、6 个 100 和 9 个 10 组成的数目是多少？",
@@ -123,7 +123,7 @@
         "5 300"
       ],
       "marks": 1,
-      "image": "S1_Q12.png"
+      "image": "img/matematik-tahun-3-unit-1/S1_Q12.png"
     },
     {
       "q": "5 040 里，数字 5 的数值是多少？",
@@ -154,7 +154,7 @@
         "4 072"
       ],
       "marks": 1,
-      "image": "S1_Q15.png"
+      "image": "img/matematik-tahun-3-unit-1/S1_Q15.png"
     },
     {
       "q": "一盒拼图有 1 000 块。7 盒拼图共有几块？",
@@ -175,7 +175,7 @@
         "三千四百五"
       ],
       "marks": 1,
-      "image": "S1_Q17.png"
+      "image": "img/matematik-tahun-3-unit-1/S1_Q17.png"
     },
     {
       "q": "一个四位数：千位是 6，百位是 0，十位是 9，个位是 1。这个数目是多少？",

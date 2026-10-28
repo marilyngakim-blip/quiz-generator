@@ -1,9 +1,12 @@
 (function () {
-  const { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, bestKey } = window.KUIZ;
+  const { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, getHistory, byQuiz, pctOf } = window.KUIZ;
   const $ = id => document.getElementById(id);
   let quizzes = [];
   let subject = null;                       // nama subjek yang dipilih
   let level = (currentKid() || {}).tahap || null; // tahap yang dipaparkan (null = semua)
+  let status = 'all';                       // all | done | todo
+  let history = new Map();                  // quizId → [cubaan…] anak yang dipilih
+  let historySource = '';
 
   $('title').textContent = SITE.TAJUK || 'Jom Kuiz!';
   $('subtitle').textContent = SITE.SUBTAJUK || '';
@@ -42,10 +45,57 @@
         store.set('anak', k.nama);
         level = k.tahap || null;
         subject = null;
+        status = 'all';
+        history = new Map();
         renderAll();
+        loadHistory();
       });
       box.append(b);
     });
+  }
+
+  /* ---------- Rekod markah anak ---------- */
+  function loadHistory() {
+    const me = currentKid();
+    if (!me) { renderRecord(); return; }
+    $('record').classList.remove('hidden');
+    $('record').textContent = '⏳ Memuatkan rekod ' + me.nama + '…';
+    getHistory(me.nama).then(h => {
+      if ((currentKid() || {}).nama !== me.nama) return; // anak lain sudah dipilih
+      history = byQuiz(h.items);
+      historySource = h.source;
+      renderRecord();
+      renderList();
+    });
+  }
+
+  function renderRecord() {
+    const me = currentKid();
+    const box = $('record');
+    $('statusFilter').classList.toggle('hidden', !me);
+    if (!me) { box.classList.add('hidden'); return; }
+    box.classList.remove('hidden');
+    box.innerHTML = '';
+    const quizIds = [...history.keys()].filter(id => quizzes.some(q => q.id === id));
+    if (!quizIds.length) {
+      box.append(el('b', null, '📋 Rekod ' + me.nama), el('span', null, 'Belum ada kuiz dijawab. Jom mula! 🚀'));
+      return;
+    }
+    const latest = quizIds.map(id => { const a = history.get(id); return a[a.length - 1]; });
+    const tries = quizIds.reduce((n, id) => n + history.get(id).length, 0);
+    const avg = Math.round(latest.reduce((n, r) => n + pctOf(r), 0) / latest.length);
+    const btn = el('button', 'chip-btn', 'Lihat kuiz yang sudah dijawab');
+    btn.type = 'button';
+    btn.addEventListener('click', () => {
+      status = 'done'; subject = null; level = null;
+      renderLevels(); renderSubjects(); renderList();
+      $('listTitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    box.append(...[
+      el('b', null, '📋 Rekod ' + me.nama),
+      el('span', null, quizIds.length + ' kuiz dijawab · ' + tries + ' cubaan · purata markah terkini ' + avg + '%'),
+      historySource === 'local' ? el('small', 'muted', '(rekod dalam peranti ini – Google Sheet tidak dapat dihubungi)') : null,
+      btn].filter(Boolean));
   }
 
   /* ---------- Pilih tahap ---------- */
@@ -92,15 +142,21 @@
   /* ---------- Senarai kuiz ---------- */
   function renderList() {
     const me = currentKid();
-    const shown = quizzes.filter(q => inLevel(q) && (!subject || itemSubject(q).nama === subject));
+    const answered = q => !q.url && history.has(q.id);
+    const shown = quizzes.filter(q => inLevel(q) && (!subject || itemSubject(q).nama === subject) &&
+      (status === 'all' || (status === 'done' ? answered(q) : !q.url && !answered(q))));
+    document.querySelectorAll('#statusFilter button').forEach(b => b.classList.toggle('active', b.dataset.f === status));
     const s = subject && ((SITE.SUBJEK || []).find(x => x.nama === subject) || LAIN);
-    $('listTitle').textContent = (s ? s.emoji + ' ' + s.nama : 'Semua kuiz') + (level ? ' · ' + level : '');
+    const head = status === 'done' ? '✅ Sudah dijawab' : status === 'todo' ? '⏳ Belum dijawab' : 'Semua kuiz';
+    $('listTitle').textContent = (s ? s.emoji + ' ' + s.nama : head) + (level ? ' · ' + level : '');
     $('showAll').classList.toggle('hidden', !subject);
 
     const box = $('list');
     box.innerHTML = '';
     if (!shown.length) {
-      box.append(el('div', 'empty', subject ? 'Belum ada kuiz untuk subjek ini. Nantikan! 🌱' : 'Belum ada kuiz untuk tahap ini. Nantikan! 🌱'));
+      box.append(el('div', 'empty', status === 'done' ? 'Belum ada kuiz yang dijawab di sini. Jom cuba satu! 🚀'
+        : status === 'todo' ? 'Semua kuiz di sini sudah dijawab. Hebat! 🎉'
+        : subject ? 'Belum ada kuiz untuk subjek ini. Nantikan! 🌱' : 'Belum ada kuiz untuk tahap ini. Nantikan! 🌱'));
       return;
     }
     shown.forEach((q, i) => {
@@ -110,9 +166,16 @@
       a.style.setProperty('--c', sub.warna);
       a.style.animationDelay = (i * 40) + 'ms';
       const body = el('div');
-      body.append(el('h3', null, q.title), el('div', 'meta', q.ket || q.questionCount + ' soalan'));
-      const best = me && !q.url && store.get(bestKey(q.id, me.nama));
-      if (best) body.append(el('span', 'best', '⭐ Terbaik ' + me.nama + ': ' + best));
+      const tries = me && !q.url ? history.get(q.id) : null;
+      body.append(el('h3', null, q.title),
+        el('div', 'meta', q.ket || q.questionCount + ' soalan' + (tries ? ' · ✅ dijawab ' + tries.length + '×' : '')));
+      if (tries) {
+        // Markah setiap cubaan; yang terakhir ditonjolkan.
+        const row = el('div', 'tries');
+        tries.forEach((r, k) => row.append(el('span', 'try' + (k === tries.length - 1 ? ' latest' : ''),
+          'Cubaan ' + r.attempt + ': ' + r.score + '/' + r.total)));
+        body.append(row);
+      }
       a.append(el('span', 'e', sub.emoji), body, el('span', 'go', '➜'));
       box.append(a);
     });
@@ -123,6 +186,10 @@
   }
 
   $('showAll').addEventListener('click', () => { subject = null; renderSubjects(); renderList(); });
+  document.querySelectorAll('#statusFilter button').forEach(b => b.addEventListener('click', () => {
+    status = b.dataset.f;
+    renderList();
+  }));
 
   renderKids();
   renderLevels();
@@ -133,6 +200,7 @@
         .sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || '')));
       renderSubjects();
       renderList();
+      loadHistory();
     })
     .catch(() => {
       quizzes = links();

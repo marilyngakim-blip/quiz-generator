@@ -46,7 +46,7 @@
 
     const form = el('form');
     quiz.questions.forEach((q, i) => {
-      const card = el('div', { class: 'card', id: 'q' + (i + 1) });
+      const card = el('div', { class: 'card q-card', id: 'q' + (i + 1) });
       card.append(el('div', { class: 'q-no', text: 'Soalan ' + (i + 1) }), el('div', { class: 'q-text', text: q.q }));
       if (q.image) card.append(el('img', { class: 'q-img', src: 'quizzes/' + q.image, alt: 'Rajah soalan ' + (i + 1) }));
       q.options.forEach((opt, j) => {

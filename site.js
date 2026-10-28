@@ -24,8 +24,17 @@ window.SITE = {
     { nama: 'Sains',          awalan: ['Science', 'Sains'],          emoji: '🔬', warna: '#2bb3a3', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
     { nama: 'Bahasa Melayu',  awalan: ['Bahasa Melayu', 'BM'],       emoji: '📖', warna: '#ff6b6b', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
     { nama: 'English',        awalan: ['English', 'Bahasa Inggeris'], emoji: '🔤', warna: '#5b8def', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
+    { nama: 'Bahasa Cina',    awalan: ['Bahasa Cina', 'BC'],         emoji: '🏮', warna: '#d64545', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 2'] },
     { nama: 'Sejarah',        awalan: ['Sejarah'],                   emoji: '🏛️', warna: '#c47f3a', tahap: ['Tingkatan 2', 'Tahun 6'] },
     { nama: 'Geografi',       awalan: ['Geografi'],                  emoji: '🌏', warna: '#3fae5a', tahap: ['Tingkatan 2'] },
     { nama: 'RBT',            awalan: ['RBT', 'Reka Bentuk'],        emoji: '🛠️', warna: '#8e6cd8', tahap: ['Tingkatan 2', 'Tahun 6'] }
+  ],
+
+  // Aplikasi/latihan lain (bukan kuiz dari Google Sheet) yang dipaparkan sebagai kad kuiz.
+  //  url   : halaman dalam repo ini (contoh folder aplikasi/) atau pautan https://…
+  //  subjek: nama subjek di atas;  tahap: tahap yang dipaparkan
+  PAUTAN: [
+    { tajuk: '听写 Kad Imbas Tahun 5 (Ulang kaji)', url: 'aplikasi/tingxie-tahun5.html',
+      subjek: 'Bahasa Cina', tahap: 'Tahun 6', ket: '200 perkataan · 20 sesi · Belajar, Kuiz, Tulis' }
   ]
 };

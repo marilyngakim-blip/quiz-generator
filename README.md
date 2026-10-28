@@ -105,12 +105,21 @@ Lajur H di tab Input Kuiz boleh berisi:
 Semasa **Terbitkan**, gambar dimuat naik ke `quizzes/img/<kuiz>/` dan dipaparkan di atas pilihan jawapan.
 Saiz maksimum 5 MB setiap gambar.
 
-## Sambung kuiz yang belum siap
+## Sambung kuiz yang belum siap (walaupun di peranti lain)
 
-Setiap jawapan disimpan automatik dalam peranti (telefon/komputer) yang digunakan, mengikut nama anak.
+Setiap jawapan disimpan automatik, mengikut nama anak:
+- serta-merta dalam peranti yang digunakan, dan
+- dalam tab **Draf** di Google Sheet (±2 saat kemudian), supaya boleh disambung di telefon/komputer lain.
+
 Bila kembali ke kuiz yang sama, jawapan dipulihkan dan butang **➜ Sambung menjawab** membawa ke soalan
 pertama yang belum dijawab (**🔄 Mula semula** memadam jawapan yang disimpan). Draf dipadam selepas
-jawapan dihantar. Kad imbas 听写 juga menyimpan kedudukan dalam setiap sesi dan mod.
+jawapan dihantar. Label kemajuan menunjukkan status: *☁️ disimpan*, *⏳ menyimpan…* atau
+*💾 disimpan dalam peranti ini sahaja* (Sheet tidak dapat dihubungi / skrip belum dikemas kini).
+
+> Selepas mengubah `Code.gs`, gunakan **Deploy → Manage deployments → ✏️ Edit → Version: New version →
+> Deploy** supaya Web App menggunakan kod baharu (URL kekal sama).
+
+Kad imbas 听写 menyimpan kedudukan dalam setiap sesi dan mod (dalam peranti itu sahaja).
 
 ## Melihat markah
 

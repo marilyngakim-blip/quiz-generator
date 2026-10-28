@@ -24,6 +24,7 @@
 const TAB_INPUT = 'Input Kuiz';
 const TAB_KUNCI = 'Kunci';
 const TAB_MARKAH = 'Markah';
+const TAB_DRAF = 'Draf'; // jawapan separuh jalan (supaya boleh sambung di peranti lain)
 const FIRST_ROW = 7;
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -455,8 +456,11 @@ function doGet() {
 function doPost(e) {
   try {
     const req = JSON.parse(e.postData.contents);
-    if (req.action !== 'submit') return json_({ ok: false, error: 'Tindakan tidak sah.' });
-    return json_(semak_(req));
+    if (req.action === 'submit') return json_(semak_(req));
+    if (req.action === 'saveDraft') return json_(simpanDraf_(req));
+    if (req.action === 'loadDraft') return json_(ambilDraf_(req));
+    if (req.action === 'clearDraft') return json_(padamDrafReq_(req));
+    return json_({ ok: false, error: 'Tindakan tidak sah.' });
   } catch (err) {
     return json_({ ok: false, error: 'Ralat pelayan: ' + err.message });
   }
@@ -501,11 +505,87 @@ function semak_(req) {
     }
     markah.appendRow([new Date(), quizId, key[0][1], safe_(nama), safe_(kelas), attempt, score, total,
       total ? Math.round(score / total * 100) : 0, answers.map(a => a || '-').join(' ')]);
+    padamDraf_(quizId, nama); // sudah dihantar: draf tidak diperlukan lagi
   } finally {
     lock.releaseLock();
   }
 
   return { ok: true, score: score, total: total, attempt: attempt, results: results };
+}
+
+/* ------------------------------------------------------------------ */
+/* Web App: draf jawapan (sambung kuiz di peranti lain)                */
+/* ------------------------------------------------------------------ */
+
+// Satu baris setiap kuiz + nama: QuizId | Nama (huruf kecil) | Masa | Data (JSON jawapan)
+function drafSheet_() {
+  const ss = SpreadsheetApp.getActive();
+  let sh = ss.getSheetByName(TAB_DRAF);
+  if (!sh) {
+    sh = ss.insertSheet(TAB_DRAF);
+    sh.appendRow(['QuizId', 'Nama', 'Masa', 'Data']);
+    sh.getRange('1:1').setFontWeight('bold');
+    sh.setFrozenRows(1);
+    sh.getRange('D:D').setNumberFormat('@');
+  }
+  return sh;
+}
+
+function drafKey_(nama) {
+  return String(nama || '').trim().toLowerCase().replace(/\s+/g, ' ').slice(0, 80);
+}
+
+function drafRow_(sh, quizId, key) {
+  const last = sh.getLastRow();
+  if (last < 2) return -1;
+  const v = sh.getRange(2, 1, last - 1, 2).getValues();
+  for (let i = 0; i < v.length; i++) if (v[i][0] === quizId && v[i][1] === key) return i + 2;
+  return -1;
+}
+
+function simpanDraf_(req) {
+  const quizId = String(req.quizId || '');
+  const key = drafKey_(req.nama);
+  const data = String(req.data || '');
+  if (!quizId || !key) return { ok: false, error: 'Kuiz dan nama diperlukan.' };
+  if (data.length > 20000) return { ok: false, error: 'Draf terlalu besar.' };
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const sh = drafSheet_();
+    const row = drafRow_(sh, quizId, key);
+    const values = [[quizId, key, new Date(), data]];
+    if (row > 0) sh.getRange(row, 1, 1, 4).setValues(values);
+    else sh.getRange(sh.getLastRow() + 1, 1, 1, 4).setValues(values);
+  } finally {
+    lock.releaseLock();
+  }
+  return { ok: true };
+}
+
+function ambilDraf_(req) {
+  const quizId = String(req.quizId || '');
+  const key = drafKey_(req.nama);
+  if (!quizId || !key) return { ok: false, error: 'Kuiz dan nama diperlukan.' };
+  const sh = drafSheet_();
+  const row = drafRow_(sh, quizId, key);
+  if (row < 0) return { ok: true, data: null };
+  return { ok: true, data: String(sh.getRange(row, 4).getValue()) };
+}
+
+function padamDrafReq_(req) {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try { padamDraf_(String(req.quizId || ''), req.nama); } finally { lock.releaseLock(); }
+  return { ok: true };
+}
+
+// Dipanggil semasa lock sudah dipegang.
+function padamDraf_(quizId, nama) {
+  const sh = SpreadsheetApp.getActive().getSheetByName(TAB_DRAF);
+  if (!sh) return;
+  const row = drafRow_(sh, quizId, drafKey_(nama));
+  if (row > 0) sh.deleteRow(row);
 }
 
 // Elak teks murid dibaca sebagai formula.

@@ -163,15 +163,23 @@ function tian(h,hide){const ch=[...h];const cell=ch.length<=2?150:ch.length===3?
 
 // ---------- modes ----------
 let q=[],i=0,score=0,missed=[],revealed=false;
-function start(){q=order(words());i=0;score=0;missed=[];revealed=false;render()}
-function render(){const S=$("stage");
+// Simpan kedudukan dalam sesi (peranti ini) supaya anak boleh sambung kemudian.
+const PROG_KEY="kad-tingxie-sesi-sambung";let resumed=false;
+function progKey(){return st.s+"|"+st.m}
+function saveProg(){const all=store.get(PROG_KEY,{});if(i>0&&i<q.length){all[progKey()]={q:q.map(w=>w.h),i,score,missed:missed.map(w=>w.h),at:Date.now()}}else delete all[progKey()];store.set(PROG_KEY,all)}
+function start(fresh){const all=store.get(PROG_KEY,{}),p=all[progKey()];resumed=false;
+  if(fresh!==true&&p&&p.i>0&&p.i<p.q.length){const map=new Map(words().map(w=>[w.h,w]));const qq=p.q.map(h=>map.get(h));
+    if(qq.every(Boolean)){q=qq;i=p.i;score=p.score||0;missed=(p.missed||[]).map(h=>map.get(h)).filter(Boolean);revealed=false;resumed=true;render();return}}
+  if(p){delete all[progKey()];store.set(PROG_KEY,all)}
+  q=order(words());i=0;score=0;missed=[];revealed=false;render()}
+function render(){saveProg();const S=$("stage");
   if(i>=q.length){const pct=Math.round(score/q.length*100);
     S.innerHTML=`<div class="done"><p class="label">Selesai</p><div class="score">${score} / ${q.length}</div>
     <p class="hint">${pct>=90?"Hebat! Hampir semua betul.":pct>=60?"Bagus. Ulang perkataan yang salah.":"Teruskan berlatih. Cuba mod Belajar dahulu."}</p></div>
     ${missed.length?`<div class="tblwrap"><p class="label">Perlu ulang</p><table class="list">${missed.map(w=>`<tr class="miss"><td>${w.h}</td><td>${w.p}</td><td>${w.m}</td></tr>`).join("")}</table></div>`:""}
     <div class="row">${missed.length?`<button class="btn primary" id="again-miss">Ulang yang salah (${missed.length})</button>`:""}<button class="btn" id="again">Mula semula</button></div>${typeof st.s==="number"&&st.s<DATA.length?`<div class="row"><button class="btn primary" id="nexts">Sesi ${st.s+1} →</button></div>`:""}`;
-    $("again").onclick=start;if($("nexts"))$("nexts").onclick=()=>{st.s++;save();renderAll();window.scrollTo(0,0)};if(missed.length)$("again-miss").onclick=()=>{q=shuffle(missed);i=0;score=0;missed=[];revealed=false;render()};renderList();return}
-  const w=q[i];const head=`<div class="count"><span>${i+1} / ${q.length}</span><span>${w.s?'<span class="star">★ huruf wajib tulis</span> · ':''}Betul: ${score}</span></div>`;
+    $("again").onclick=()=>start(true);if($("nexts"))$("nexts").onclick=()=>{st.s++;save();renderAll();window.scrollTo(0,0)};if(missed.length)$("again-miss").onclick=()=>{q=shuffle(missed);i=0;score=0;missed=[];revealed=false;render()};renderList();return}
+  const w=q[i];const head=`<div class="count"><span>${i+1} / ${q.length}${resumed?' · 💾 disambung':''}</span><span>${w.s?'<span class="star">★ huruf wajib tulis</span> · ':''}Betul: ${score}</span></div>`;
   if(st.m==="belajar"){
     S.innerHTML=head+tian(w.h,false)+`<div class="back">${revealed?`<div class="py">${w.p}</div><div class="bm">${w.m}</div>`:`<div class="hint">Sebut perkataan ini, kemudian tekan kad untuk semak.</div>`}</div>
     <button class="speak" id="spk">🔊 Dengar</button>

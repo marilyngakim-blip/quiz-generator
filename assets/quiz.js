@@ -53,9 +53,9 @@
         const input = el('input', { type: 'radio', name: 'q' + i, value: LETTERS[j] });
         const label = el('label', { class: 'opt' }, input, el('span', { class: 'L', text: LETTERS[j] }), el('span', { text: opt }));
         input.addEventListener('change', () => {
-          card.querySelectorAll('.opt').forEach(o => o.classList.remove('chosen'));
-          label.classList.add('chosen');
+          markChosen(card, label);
           updateProgress();
+          saveDraft();
         });
         card.append(label);
       });
@@ -72,8 +72,83 @@
     function updateProgress() {
       const done = form.querySelectorAll('input[type=radio]:checked').length;
       bar.style.width = (done / quiz.questions.length * 100) + '%';
-      barLabel.textContent = done + ' / ' + quiz.questions.length + ' dijawab';
+      barLabel.textContent = done + ' / ' + quiz.questions.length + ' dijawab' + (done ? ' · 💾 disimpan automatik' : '');
     }
+
+    /* ---------- Simpan jawapan separuh jalan (dalam peranti ini) ---------- */
+    // Tanda kuiz: jika soalan diterbitkan semula dengan bilangan/teks berbeza, draf lama diabaikan.
+    const sig = quiz.questions.length + ':' + quiz.questions.map(q => q.q.length).join(',');
+    let draftName = nama.value.trim().toLowerCase();
+    const keyFor = n => 'draf.' + quiz.id + '.' + (n || '-');
+    const collect = () => quiz.questions.map((_, i) => {
+      const c = form.querySelector('input[name="q' + i + '"]:checked');
+      return c ? c.value : '';
+    });
+    function saveDraft() {
+      const answers = collect();
+      if (answers.every(a => !a)) store.del(keyFor(draftName));
+      else store.set(keyFor(draftName), JSON.stringify({ sig, answers, at: Date.now() }));
+    }
+    function loadDraft(n) {
+      try {
+        const d = JSON.parse(store.get(keyFor(n)) || 'null');
+        return d && d.sig === sig && Array.isArray(d.answers) ? d : null;
+      } catch (e) { return null; }
+    }
+    function applyAnswers(answers) {
+      quiz.questions.forEach((_, i) => {
+        const card = document.getElementById('q' + (i + 1));
+        card.querySelectorAll('.opt').forEach(o => o.classList.remove('chosen'));
+        form.querySelectorAll('input[name="q' + i + '"]').forEach(r => {
+          r.checked = r.value === answers[i];
+          if (r.checked) markChosen(card, r.parentElement);
+        });
+      });
+      updateProgress();
+    }
+    function firstUnanswered() {
+      const i = collect().findIndex(a => !a);
+      return i < 0 ? null : document.getElementById('q' + (i + 1));
+    }
+
+    const banner = el('div', { class: 'card resume hidden' });
+    app.insertBefore(banner, form);
+    function showBanner(d) {
+      const done = d.answers.filter(Boolean).length;
+      const when = new Date(d.at).toLocaleString('ms-MY', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
+      const go = el('button', { type: 'button', class: 'btn', text: '➜ Sambung menjawab' });
+      const reset = el('button', { type: 'button', class: 'btn ghost', text: '🔄 Mula semula' });
+      go.addEventListener('click', () => {
+        const t = firstUnanswered() || form.querySelector('.sticky');
+        t.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      reset.addEventListener('click', () => {
+        if (!confirm('Padam semua jawapan yang disimpan dan mula semula?')) return;
+        store.del(keyFor(draftName));
+        applyAnswers([]);
+        banner.classList.add('hidden');
+      });
+      banner.innerHTML = '';
+      banner.append(
+        el('p', { class: 'resume-title', text: '💾 Selamat kembali! Jawapan kamu disimpan.' }),
+        el('p', { class: 'muted', text: done + ' / ' + quiz.questions.length + ' soalan sudah dijawab · disimpan ' + when }),
+        el('div', { class: 'actions' }, go, reset));
+      banner.classList.remove('hidden');
+    }
+    function restore() {
+      const d = loadDraft(draftName);
+      if (d) { applyAnswers(d.answers); showBanner(d); } else { banner.classList.add('hidden'); }
+    }
+    // Tukar nama: pindah ke draf nama itu (jika belum menjawab), atau simpan di bawah nama baharu.
+    nama.addEventListener('change', () => {
+      const n = nama.value.trim().toLowerCase();
+      if (n === draftName) return;
+      const hadAnswers = collect().some(Boolean);
+      const old = draftName;
+      draftName = n;
+      if (hadAnswers) { store.del(keyFor(old)); saveDraft(); } else restore();
+    });
+    restore();
     updateProgress();
 
     form.addEventListener('submit', async (ev) => {
@@ -98,6 +173,8 @@
           ? gradeLocally(quiz, answers)
           // Lajur "Kelas" di Google Sheet diisi dengan tahap kuiz (contoh Tingkatan 2).
           : await gradeOnServer(quiz, answers, nama.value.trim(), levelOf(quiz.title) || '-');
+        store.del(keyFor(draftName)); // sudah dihantar: draf tidak diperlukan lagi
+        banner.remove();
         showResult(quiz, form, result, nama);
       } catch (e) {
         msg.textContent = e.message || 'Jawapan tidak dapat dihantar. Cuba lagi.';
@@ -105,6 +182,11 @@
         btn.textContent = 'Hantar jawapan 🚀';
       }
     });
+  }
+
+  function markChosen(card, label) {
+    card.querySelectorAll('.opt').forEach(o => o.classList.remove('chosen'));
+    label.classList.add('chosen');
   }
 
   // Hanya untuk kuiz contoh (demoKey). Kuiz sebenar disemak di Google Sheet.

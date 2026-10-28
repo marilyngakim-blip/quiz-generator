@@ -199,6 +199,10 @@ input[type=text]:focus { border-color: var(--orange); }
 }
 .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 #d96a22; }
 .btn.teal { background: var(--teal); box-shadow: 0 5px 0 var(--teal-d); }
+.btn.ghost { background: #fff; color: var(--ink); box-shadow: 0 5px 0 var(--line); border: 2px solid var(--line); }
+.resume { text-align: center; border: 3px dashed var(--sun); background: var(--cream); }
+.resume p { margin: 0 0 4px; }
+.resume-title { font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 1.15rem; }
 .btn:disabled { opacity: .6; cursor: wait; }
 .sticky { position: sticky; bottom: 0; padding: 12px 0 16px; text-align: center; background: linear-gradient(transparent, var(--bg) 35%); }
 .progress { height: 12px; background: var(--cream); border-radius: 99px; overflow: hidden; margin: 0 auto 6px; max-width: 420px; border: 2px solid #fff; }

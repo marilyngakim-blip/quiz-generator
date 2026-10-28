@@ -105,6 +105,13 @@ Lajur H di tab Input Kuiz boleh berisi:
 Semasa **Terbitkan**, gambar dimuat naik ke `quizzes/img/<kuiz>/` dan dipaparkan di atas pilihan jawapan.
 Saiz maksimum 5 MB setiap gambar.
 
+## Sambung kuiz yang belum siap
+
+Setiap jawapan disimpan automatik dalam peranti (telefon/komputer) yang digunakan, mengikut nama anak.
+Bila kembali ke kuiz yang sama, jawapan dipulihkan dan butang **➜ Sambung menjawab** membawa ke soalan
+pertama yang belum dijawab (**🔄 Mula semula** memadam jawapan yang disimpan). Draf dipadam selepas
+jawapan dihantar. Kad imbas 听写 juga menyimpan kedudukan dalam setiap sesi dan mod.
+
 ## Melihat markah
 
 Tab **Markah**: masa, kuiz, nama, kelas, nombor cubaan, markah, peratus dan jawapan murid.

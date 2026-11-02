@@ -35,6 +35,7 @@ const LETTERS = ['A', 'B', 'C', 'D'];
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('KUIZ WEB')
+    .addItem('Kosongkan Input Kuiz', 'kosongkanInput')
     .addItem('Import dari Google Form', 'importDariForm')
     .addItem('Terbitkan Kuiz ke GitHub', 'terbitkanKuiz')
     .addSeparator()
@@ -263,6 +264,16 @@ function terbitkanKuiz() {
     const webAppUrl = (props.getProperty('WEBAPP_URL') || '').trim();
     if (!webAppUrl) throw new Error('Script property WEBAPP_URL belum diisi. Lihat README, Langkah 2.');
 
+    // Pengesahan: elak soalan kuiz lama yang tertinggal di tab Input Kuiz ikut diterbitkan.
+    const amaran = semakCampur_(id, rows);
+    const sahkan = ui.alert('Semak sebelum terbit',
+      'Tajuk: ' + title + '\nJumlah soalan: ' + rows.length +
+      '\n\nSoalan 1: ' + short_(rows[0].question) +
+      '\nSoalan ' + rows.length + ': ' + short_(rows[rows.length - 1].question) +
+      (amaran.length ? '\n\n⚠️ AMARAN:\n' + amaran.join('\n') : '') +
+      '\n\nTeruskan terbit?', ui.ButtonSet.YES_NO);
+    if (sahkan !== ui.Button.YES) return;
+
     const existing = ghGetText_('quizzes/' + id + '.json');
     if (existing) {
       const ans = ui.alert('Kuiz "' + title + '" sudah wujud.', 'Ganti dengan soalan baharu? (Markah lama kekal dalam tab Markah.)', ui.ButtonSet.YES_NO);
@@ -305,6 +316,33 @@ function terbitkanKuiz() {
   } catch (e) {
     ui.alert('Gagal menerbitkan kuiz', e.message, ui.ButtonSet.OK);
   }
+}
+
+// Kosongkan tajuk, pautan dan semua soalan di tab Input Kuiz (sebelum menampal kuiz baharu).
+function kosongkanInput() {
+  const ui = SpreadsheetApp.getUi();
+  const sheet = SpreadsheetApp.getActive().getSheetByName(TAB_INPUT);
+  if (!sheet) { ui.alert('Tab "' + TAB_INPUT + '" tiada. Jalankan "Sediakan Sheet" dahulu.'); return; }
+  if (ui.alert('Kosongkan Input Kuiz?', 'Tajuk (B1), pautan (B2) dan semua soalan dari baris 7 akan dipadam. ' +
+    'Kuiz yang sudah diterbitkan tidak terjejas.', ui.ButtonSet.YES_NO) !== ui.Button.YES) return;
+  sheet.getRange('B1:B2').clearContent();
+  const last = Math.max(sheet.getLastRow(), FIRST_ROW);
+  sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, 8).clearContent();
+  ui.alert('Input Kuiz sudah kosong. Tampal soalan baharu di A7 dan tajuk di B1.');
+}
+
+// Tanda-tanda soalan dari kuiz lain bercampur: gambar dari folder kuiz/subjek lain.
+function semakCampur_(id, rows) {
+  const subjek = id.split('-')[0];
+  const luar = [];
+  rows.forEach((r, i) => {
+    const m = String(r.image || '').match(/^img\/([^/]+)\//);
+    if (m && m[1] !== id && m[1].split('-')[0] !== subjek) luar.push(i + 1);
+  });
+  return luar.length
+    ? ['Soalan ' + luar.join(', ') + ' menggunakan gambar dari folder kuiz lain. Mungkin ada soalan lama yang ' +
+       'tertinggal di tab Input Kuiz – guna "Kosongkan Input Kuiz" dan tampal semula.']
+    : [];
 }
 
 function bacaSoalan_(sheet) {

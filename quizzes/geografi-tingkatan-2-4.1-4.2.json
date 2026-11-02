@@ -1,0 +1,413 @@
+{
+  "id": "geografi-tingkatan-2-4.1-4.2",
+  "title": "Geografi Tingkatan 2 (4.1-4.2)",
+  "createdAt": "2026-11-02T04:06:27.802Z",
+  "questions": [
+    {
+      "q": "Apakah jenis iklim di Malaysia?",
+      "options": [
+        "Iklim Khatulistiwa",
+        "Iklim Gurun Panas",
+        "Iklim Monsun Tropika",
+        "Iklim Sederhana Sejuk"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Iklim Khatulistiwa dialami oleh kawasan yang terletak di antara garisan lintang",
+      "options": [
+        "0° hingga 10°U dan 0° hingga 10°S",
+        "10°U hingga 23½°U",
+        "0° hingga 5°U sahaja",
+        "23½°U hingga 23½°S"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah min suhu tahunan di Malaysia?",
+      "options": [
+        "21°C",
+        "32°C",
+        "18°C",
+        "27°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah julat suhu tahunan di Malaysia?",
+      "options": [
+        "8°C hingga 12°C",
+        "5°C hingga 10°C",
+        "18°C hingga 21°C",
+        "1°C hingga 3°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jumlah hujan tahunan di Malaysia adalah kira-kira",
+      "options": [
+        "5 000 mm",
+        "600 mm",
+        "2 600 mm",
+        "1 500 mm"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud iklim?",
+      "options": [
+        "Perbezaan suhu maksimum dan minimum harian",
+        "Keadaan atmosfera sesuatu tempat dalam tempoh sehari",
+        "Purata suhu, hujan, tekanan udara dan angin sesuatu tempat selama 30 tahun",
+        "Jumlah hujan yang diterima dalam sebulan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah dua jenis angin monsun yang bertiup di Malaysia?",
+      "options": [
+        "Monsun Timur Laut dan Monsun Barat Daya",
+        "Angin Sumatera dan angin Timuran",
+        "Monsun Barat Laut dan Monsun Tenggara",
+        "Bayu laut dan bayu darat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angin Monsun Timur Laut bertiup dari",
+      "options": [
+        "April hingga Mei",
+        "Pertengahan Mei hingga akhir September",
+        "Awal November hingga Mac",
+        "Jun hingga Ogos"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angin Monsun Barat Daya bertiup dari",
+      "options": [
+        "Oktober hingga Disember",
+        "Awal November hingga Mac",
+        "Januari hingga April",
+        "Pertengahan Mei hingga akhir September"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angin Sumatera juga dikenali sebagai",
+      "options": [
+        "Bayu laut",
+        "Skual",
+        "Bayu darat",
+        "Monsun"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bayu laut berlaku pada waktu",
+      "options": [
+        "Subuh",
+        "Siang",
+        "Tengah malam",
+        "Malam"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bayu darat berlaku pada waktu",
+      "options": [
+        "Malam",
+        "Tengah hari",
+        "Siang",
+        "Petang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah kawasan utama penanaman padi di Malaysia?",
+      "options": [
+        "Lahad Datu",
+        "Segi Tiga Jengka",
+        "Dataran Kedah–Perlis",
+        "Sri Aman"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Lada hitam banyak ditanam di sekitar",
+      "options": [
+        "Kuching dan Sri Aman (Sarawak)",
+        "Segi Tiga Jengka (Pahang)",
+        "Dataran Kelantan",
+        "Lahad Datu (Sabah)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah pokok kayu keras di hutan hujan tropika?",
+      "options": [
+        "Koko",
+        "Kelapa sawit",
+        "Getah",
+        "Cengal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angin Monsun Timur Laut bermula dari",
+      "options": [
+        "Lautan Hindi",
+        "Sumatera",
+        "Benua Australia",
+        "Pedalaman Benua Asia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angin Monsun Barat Daya berasal dari",
+      "options": [
+        "Benua Australia",
+        "Lautan Pasifik",
+        "Laut China Selatan",
+        "Pedalaman Benua Asia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah benar tentang angin Monsun Timur Laut? I. Bertiup dari awal bulan November hingga Mac II. Bermula dari pedalaman Benua Asia III. Membawa hujan lebat ke pantai timur Semenanjung Malaysia IV. Dihalang oleh tanah tinggi di Sumatera",
+      "options": [
+        "I dan II sahaja",
+        "I, II, III dan IV",
+        "I, II dan III sahaja",
+        "II, III dan IV sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Hujan perolakan biasanya turun pada",
+      "options": [
+        "Waktu subuh di cerun terlindung",
+        "Lewat petang disertai kilat dan petir",
+        "Awal pagi tanpa awan",
+        "Tengah malam di kawasan lindungan hujan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan pembentukan hujan bukit. Kawasan Q dikenali sebagai",
+      "options": [
+        "Kawasan lindungan hujan",
+        "Cerun yang menghadap udara lembap",
+        "Kawasan hujan perolakan",
+        "Kawasan bayu laut"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S7_Q20.png"
+    },
+    {
+      "q": "Kawasan manakah menerima hujan paling sedikit di Malaysia?",
+      "options": [
+        "Mulu",
+        "Kuala Pilah",
+        "Kapit",
+        "Kota Bharu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Hujan tahunan tertinggi di Malaysia berlaku di",
+      "options": [
+        "Cerun bukit kawasan pedalaman Sarawak",
+        "Pantai barat Semenanjung Malaysia",
+        "Dataran Kedah–Perlis",
+        "Kuala Pilah, Negeri Sembilan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Hujan maksimum di Malaysia diterima semasa",
+      "options": [
+        "Pertengahan Monsun Barat Daya",
+        "Peralihan monsun",
+        "Bayu darat bertiup",
+        "Angin Sumatera bertiup"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan sejenis angin tempatan. Apakah angin itu dan bilakah ia berlaku?",
+      "options": [
+        "Bayu laut, pada waktu malam",
+        "Bayu laut, pada waktu siang",
+        "Bayu darat, pada waktu malam",
+        "Bayu darat, pada waktu siang"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S7_Q24.png"
+    },
+    {
+      "q": "Angin Sumatera bertiup dengan kencang secara tiba-tiba pada waktu",
+      "options": [
+        "Tengah hari",
+        "Pagi hingga tengah hari",
+        "Lewat petang",
+        "Malam hingga subuh"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Teh dan sayur-sayuran hawa sederhana sesuai ditanam di tanah tinggi yang bersuhu antara",
+      "options": [
+        "24°C hingga 27°C",
+        "27°C hingga 30°C",
+        "10°C hingga 12°C",
+        "18°C hingga 21°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Nelayan di pantai timur Semenanjung Malaysia tidak dapat turun ke laut semasa",
+      "options": [
+        "Monsun Barat Daya",
+        "Peralihan monsun",
+        "Monsun Timur Laut",
+        "Bayu laut"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah nelayan di pantai barat Semenanjung Malaysia dapat menangkap ikan sepanjang tahun?",
+      "options": [
+        "Angin Monsun Timur Laut bertiup di pantai barat",
+        "Pantai barat tidak mengalami bayu laut",
+        "Selat Melaka tidak menerima hujan",
+        "Selat Melaka terlindung oleh Banjaran Titiwangsa dan Sumatera"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Suhu air laut antara 20°C hingga 30°C menggalakkan",
+      "options": [
+        "Penanaman teh",
+        "Pertumbuhan batu karang dan aktiviti menyelam skuba",
+        "Pertumbuhan hutan paya bakau",
+        "Penanaman padi sawah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah kawasan peranginan tanah tinggi di Malaysia?",
+      "options": [
+        "Pulau Sipadan",
+        "Pantai Damai",
+        "Cameron Highlands",
+        "Pulau Redang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jadual di bawah menunjukkan min suhu bulanan Malaysia pada tahun 2016. Berapakah julat suhu tahunan?",
+      "options": [
+        "56.0°C",
+        "27.8°C",
+        "1.2°C",
+        "2.2°C"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S7_Q31.png"
+    },
+    {
+      "q": "Suhu maksimum harian di sebuah bandar ialah 33°C dan suhu minimum harian ialah 24°C. Berapakah julat suhu harian?",
+      "options": [
+        "9°C",
+        "28.5°C",
+        "11°C",
+        "57°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan jadual, bulan manakah mencatatkan min suhu bulanan tertinggi di Malaysia pada tahun 2016?",
+      "options": [
+        "Mei",
+        "April",
+        "Disember",
+        "Mac"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S7_Q31.png"
+    },
+    {
+      "q": "Jadual di bawah menunjukkan jumlah hujan bulanan Malaysia pada tahun 2016. Bulan manakah menerima hujan paling banyak?",
+      "options": [
+        "Mei",
+        "Disember",
+        "November",
+        "Oktober"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S7_Q34.png"
+    },
+    {
+      "q": "Mengapakah aktiviti pembalakan sukar dijalankan pada musim tengkujuh?",
+      "options": [
+        "Suhu terlalu rendah",
+        "Pokok kayu keras tidak tumbuh",
+        "Jalan licin dan terdedah kepada bahaya tanah runtuh",
+        "Hutan ditenggelami air laut"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan rajah hujan bukit, mengapakah kawasan P menerima hujan lebih banyak daripada kawasan Q?",
+      "options": [
+        "Kawasan P terletak di cerun yang menghadap udara lembap dari laut",
+        "Kawasan P lebih jauh dari laut",
+        "Kawasan P terletak di kawasan lindungan hujan",
+        "Kawasan P menerima bayu darat"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S7_Q20.png"
+    },
+    {
+      "q": "Apakah aktiviti yang paling mungkin dilakukan oleh nelayan di Kuala Terengganu pada bulan Disember?",
+      "options": [
+        "Menangkap ikan di laut dalam",
+        "Menjemur ikan setiap hari",
+        "Membaiki jala dan pukat di darat",
+        "Menyelam skuba bersama pelancong"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sebuah keluarga ingin menyelam skuba di Pulau Redang, Terengganu. Bulan manakah kurang sesuai?",
+      "options": [
+        "Julai",
+        "Disember",
+        "Jun",
+        "Ogos"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah kegiatan pertanian di Malaysia dapat dijalankan sepanjang tahun?",
+      "options": [
+        "Malaysia mengalami empat musim",
+        "Julat suhu tahunan Malaysia sangat besar",
+        "Malaysia tidak menerima tiupan angin monsun",
+        "Iklim panas dan lembap serta menerima hujan sepanjang tahun"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pada waktu malam di kawasan pantai, angin bertiup dari darat ke laut. Mengapa?",
+      "options": [
+        "Daya koriolis menolak angin ke laut",
+        "Daratan bertekanan tinggi dan laut bertekanan rendah",
+        "Laut bertekanan tinggi dan daratan bertekanan rendah",
+        "Angin Monsun Barat Daya bertiup ke laut"
+      ],
+      "marks": 1
+    }
+  ]
+}

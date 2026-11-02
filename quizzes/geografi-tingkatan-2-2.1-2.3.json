@@ -1,0 +1,415 @@
+{
+  "id": "geografi-tingkatan-2-2.1-2.3",
+  "title": "Geografi Tingkatan 2 (2.1-2.3)",
+  "createdAt": "2026-11-02T04:03:07.003Z",
+  "questions": [
+    {
+      "q": "Peta topografi ialah peta yang menggambarkan",
+      "options": [
+        "Ciri pandang darat fizikal dan ciri pandang darat budaya sesuatu kawasan",
+        "Taburan suhu dan hujan sesuatu kawasan",
+        "Jarak relatif berdasarkan kos dan masa",
+        "Sempadan negeri dan negara sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud topografi?",
+      "options": [
+        "Bentuk muka bumi sesuatu kawasan",
+        "Purata suhu dan hujan sesuatu tempat",
+        "Perbandingan ukuran di atas peta",
+        "Ukuran jauh di antara dua tempat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sebuah peta topografi perlu mempunyai",
+      "options": [
+        "Petunjuk, jadual dan carta",
+        "Skala, gambar dan jadual",
+        "Tajuk, gambar dan graf",
+        "Tajuk, petunjuk dan skala"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Garisan grid yang dilukis secara menegak dalam peta topografi dikenali sebagai",
+      "options": [
+        "Garisan utaraan",
+        "Garisan lintang",
+        "Garisan timuran",
+        "Garisan kontur"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Garisan grid yang dilukis secara melintang dalam peta topografi dikenali sebagai",
+      "options": [
+        "Garisan timuran",
+        "Garisan bujur",
+        "Garisan utaraan",
+        "Garisan kontur"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Nilai garisan timuran semakin bertambah ke arah",
+      "options": [
+        "Barat",
+        "Timur",
+        "Selatan",
+        "Utara"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Nilai garisan utaraan semakin bertambah ke arah",
+      "options": [
+        "Barat",
+        "Utara",
+        "Timur",
+        "Selatan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah yang dimaksudkan dengan rujukan grid?",
+      "options": [
+        "Garisan yang menyambungkan tempat yang sama tinggi",
+        "Kombinasi nilai garisan timuran dengan nilai garisan utaraan pada titik persilangan",
+        "Simbol yang mewakili ciri pandang darat budaya",
+        "Nisbah jarak di atas peta dengan jarak sebenar"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah dua cara untuk menyatakan rujukan grid?",
+      "options": [
+        "Rujukan grid 4 angka dan 8 angka",
+        "Rujukan grid 4 angka dan 6 angka",
+        "Rujukan grid 6 angka dan 8 angka",
+        "Rujukan grid 2 angka dan 4 angka"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Semasa membaca rujukan grid, nilai garisan manakah yang dibaca dahulu?",
+      "options": [
+        "Garisan timuran",
+        "Garisan skala",
+        "Garisan kontur",
+        "Garisan utaraan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rujukan grid 4 angka lebih sesuai digunakan untuk menentukan kedudukan",
+      "options": [
+        "Puncak bukit dengan tepat",
+        "Objek kecil secara spesifik",
+        "Bangunan seperti sekolah dan masjid",
+        "Kawasan yang luas dalam satu segi empat grid"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rujukan grid 6 angka digunakan untuk menentukan kedudukan",
+      "options": [
+        "Objek atau ciri geografi yang kecil secara spesifik",
+        "Kawasan pertanian yang luas",
+        "Seluruh kawasan dalam peta",
+        "Kawasan hutan yang luas"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah sesuai dinyatakan menggunakan rujukan grid 4 angka?",
+      "options": [
+        "Masjid",
+        "Sekolah",
+        "Kawasan hutan",
+        "Puncak bukit"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah sesuai dinyatakan menggunakan rujukan grid 6 angka?",
+      "options": [
+        "Kawasan pertanian",
+        "Masjid",
+        "Kawasan hutan",
+        "Kawasan perlombongan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Garisan grid ialah garisan dalam peta topografi yang dilukis secara",
+      "options": [
+        "Condong dan melengkung",
+        "Bulat dan berliku",
+        "Menegak dan melintang",
+        "Melengkung sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Peta di bawah ialah peta topografi Kuala Krau. Apakah rujukan grid 4 angka bagi Kg. Raya?",
+      "options": [
+        "RG 3253",
+        "RG 5331",
+        "RG 3153",
+        "RG 3154"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Berdasarkan peta, apakah rujukan grid 4 angka bagi Kg. Jambu?",
+      "options": [
+        "RG 3052",
+        "RG 2953",
+        "RG 5229",
+        "RG 2952"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Nilai rujukan grid 4 angka merujuk penjuru manakah bagi segi empat grid?",
+      "options": [
+        "Timur laut",
+        "Barat daya",
+        "Tenggara",
+        "Barat laut"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rujukan grid 6 angka kilang ialah RG 314533. Apakah nilai garisan timurannya?",
+      "options": [
+        "533",
+        "4533",
+        "3145",
+        "314"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Untuk membaca rujukan grid 6 angka, jarak di antara dua garisan grid dibahagikan kepada",
+      "options": [
+        "6 bahagian yang sekata",
+        "10 bahagian yang sekata",
+        "4 bahagian yang sekata",
+        "100 bahagian yang sekata"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kilang dengan RG 314533 terletak dalam segi empat grid",
+      "options": [
+        "RG 1453",
+        "RG 3145",
+        "RG 5331",
+        "RG 3153"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan peta, kawasan hutan terletak dalam segi empat grid",
+      "options": [
+        "RG 3151",
+        "RG 3051",
+        "RG 3152",
+        "RG 5131"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Apakah kebaikan menggunakan kaedah rujukan grid?",
+      "options": [
+        "Ketinggian bukit dapat ditentukan",
+        "Skala peta dapat ditukar dengan mudah",
+        "Kedudukan tempat atau objek dapat ditentukan dengan cepat dan mudah",
+        "Jarak relatif dapat dikira dengan tepat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang murid menulis RG 5329 bagi tempat di garisan timuran 29 dan garisan utaraan 53. Apakah kesalahannya?",
+      "options": [
+        "Nilai garisan timuran ditulis dahulu",
+        "Rujukan grid sepatutnya 6 angka",
+        "Nilai garisan timuran sepatutnya 53",
+        "Nilai garisan utaraan ditulis dahulu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan kedudukan sebuah sekolah dalam segi empat grid 3052. Apakah rujukan grid 6 angka sekolah itu?",
+      "options": [
+        "RG 304526",
+        "RG 3052",
+        "RG 524306",
+        "RG 306524"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q25.png"
+    },
+    {
+      "q": "Antara pernyataan berikut, yang manakah BENAR tentang garisan timuran? I. Dilukis secara menegak II. Nilainya semakin bertambah ke arah timur III. Nilainya dibaca selepas nilai garisan utaraan IV. Menunjukkan kedudukan sesuatu tempat ke arah timur",
+      "options": [
+        "I, II dan IV sahaja",
+        "I dan II sahaja",
+        "I, II, III dan IV",
+        "II, III dan IV sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Peta topografi dilukis menggunakan",
+      "options": [
+        "Graf dan carta",
+        "Jarak relatif dan kos",
+        "Skala dan simbol-simbol tertentu",
+        "Gambar foto sebenar sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah rujukan grid 6 angka digunakan untuk sekolah atau masjid?",
+      "options": [
+        "Rujukan grid 6 angka lebih spesifik dan tepat",
+        "Sekolah dan masjid terletak di luar segi empat grid",
+        "Rujukan grid 6 angka meliputi kawasan yang lebih luas",
+        "Rujukan grid 4 angka hanya untuk sungai"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Garisan utaraan menunjukkan kedudukan sesuatu tempat ke arah",
+      "options": [
+        "Barat",
+        "Selatan",
+        "Timur",
+        "Utara"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah BUKAN ciri peta topografi?",
+      "options": [
+        "Mempunyai tajuk",
+        "Tidak mempunyai skala",
+        "Mempunyai petunjuk",
+        "Mempunyai garisan grid"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan peta topografi Kuala Krau, masjid terletak dalam segi empat grid",
+      "options": [
+        "RG 2951",
+        "RG 2852",
+        "RG 5128",
+        "RG 2851"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Berdasarkan peta, di arah manakah Kg. Raya dari Kg. Timbau?",
+      "options": [
+        "Timur laut",
+        "Barat laut",
+        "Tenggara",
+        "Barat daya"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Kg. P terletak pada RG 2952 dan Kg. Q terletak pada RG 2953. Di manakah kedudukan Kg. Q dari Kg. P?",
+      "options": [
+        "Barat",
+        "Utara",
+        "Selatan",
+        "Timur"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan peta, apakah rujukan grid 4 angka bagi kawasan Bukit Kelang?",
+      "options": [
+        "RG 5329",
+        "RG 3053",
+        "RG 2953",
+        "RG 2853"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Seorang murid ingin memberitahu rakannya lokasi sebuah stesen trigonometri dengan tepat. Rujukan grid manakah paling sesuai?",
+      "options": [
+        "Rujukan grid 6 angka kerana objek itu kecil",
+        "Rujukan grid 4 angka kerana objek itu kecil",
+        "Rujukan grid 6 angka kerana kawasannya luas",
+        "Rujukan grid 4 angka kerana lebih spesifik"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sebuah ladang kelapa sawit memenuhi satu segi empat grid. Rujukan grid manakah paling sesuai untuk menyatakan kedudukannya?",
+      "options": [
+        "Rujukan grid 6 angka kerana ladang ialah objek kecil",
+        "Rujukan grid 6 angka kerana kawasannya luas",
+        "Rujukan grid 4 angka kerana objeknya kecil",
+        "Rujukan grid 4 angka kerana kawasannya luas"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sebuah jambatan terletak tepat pada persilangan garisan timuran 31 dan garisan utaraan 54. Apakah rujukan grid 6 angkanya?",
+      "options": [
+        "RG 310540",
+        "RG 311541",
+        "RG 3154",
+        "RG 540310"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara rujukan grid 6 angka berikut, yang manakah terletak dalam segi empat grid RG 3053?",
+      "options": [
+        "RG 307544",
+        "RG 317534",
+        "RG 307534",
+        "RG 537304"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan peta topografi Kuala Krau, berapakah bilangan segi empat grid yang lengkap dalam peta itu?",
+      "options": [
+        "9",
+        "12",
+        "16",
+        "20"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S3_Q16.png"
+    },
+    {
+      "q": "Seorang murid menyatakan kedudukan sebuah kilang sebagai RG 3153. Guru meminta dia membetulkannya. Mengapa?",
+      "options": [
+        "Kilang tidak boleh dinyatakan dengan rujukan grid",
+        "Nilai garisan utaraan sepatutnya dibaca dahulu",
+        "Rujukan grid 4 angka hanya menunjukkan segi empat grid, bukan kedudukan objek yang tepat",
+        "Rujukan grid 4 angka hanya untuk sungai"
+      ],
+      "marks": 1
+    }
+  ]
+}

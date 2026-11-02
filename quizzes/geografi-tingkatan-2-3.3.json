@@ -1,0 +1,415 @@
+{
+  "id": "geografi-tingkatan-2-3.3",
+  "title": "Geografi Tingkatan 2 (3.3)",
+  "createdAt": "2026-11-02T04:05:22.059Z",
+  "questions": [
+    {
+      "q": "Berapa lamakah masa yang diambil untuk satu peredaran bumi yang lengkap mengelilingi matahari?",
+      "options": [
+        "24 jam",
+        "30 hari",
+        "366½ hari",
+        "365¼ hari"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bumi beredar mengelilingi matahari mengikut arah",
+      "options": [
+        "Pusingan jam",
+        "Timur ke barat",
+        "Lawan jam",
+        "Utara ke selatan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah kesan peredaran bumi di kawasan beriklim sederhana?",
+      "options": [
+        "Kejadian pasang surut",
+        "Pembiasan angin lazim",
+        "Kejadian empat musim",
+        "Kejadian siang dan malam"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Perihelion ialah kedudukan bumi yang",
+      "options": [
+        "Paling jauh dari bulan",
+        "Paling hampir dengan bulan",
+        "Paling jauh dari matahari",
+        "Paling hampir dengan matahari"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Afelion ialah kedudukan bumi yang",
+      "options": [
+        "Paling hampir dengan bulan",
+        "Paling jauh dari matahari",
+        "Tegak di atas Garisan Khatulistiwa",
+        "Paling hampir dengan matahari"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ekuinoks musim bunga berlaku pada",
+      "options": [
+        "21 Mac",
+        "22 Disember",
+        "21-Jun",
+        "23-Sep"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Solstis musim panas berlaku pada",
+      "options": [
+        "21-Jun",
+        "23-Sep",
+        "22 Disember",
+        "21 Mac"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ekuinoks musim luruh berlaku pada",
+      "options": [
+        "22 Disember",
+        "21 Mac",
+        "21-Jun",
+        "23-Sep"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Solstis musim sejuk berlaku pada",
+      "options": [
+        "21 Mac",
+        "22 Disember",
+        "23-Sep",
+        "21-Jun"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Semasa ekuinoks, matahari tengah hari tegak di atas",
+      "options": [
+        "Garisan Sartan",
+        "Kutub Utara",
+        "Garisan Jadi",
+        "Garisan Khatulistiwa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapa kalikah ekuinoks berlaku dalam setahun?",
+      "options": [
+        "Dua kali",
+        "Sekali",
+        "Empat kali",
+        "Tiga kali"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Musim bunga di hemisfera utara berlaku pada bulan",
+      "options": [
+        "Mac hingga Mei",
+        "Jun hingga Ogos",
+        "September hingga November",
+        "Disember hingga Februari"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Musim panas di hemisfera selatan berlaku pada bulan",
+      "options": [
+        "Disember hingga Februari",
+        "Mac hingga Mei",
+        "Jun hingga Ogos",
+        "September hingga November"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Fenomena gerhana ialah kesan daripada",
+      "options": [
+        "Peredaran bumi",
+        "Daya koriolis",
+        "Tiupan angin monsun",
+        "Pembiasan angin lazim"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, negara Asia manakah yang mengalami empat musim?",
+      "options": [
+        "Singapura",
+        "Malaysia",
+        "Jepun",
+        "Indonesia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan matahari tengah hari tegak di atas garisan X. Bilakah keadaan ini berlaku?",
+      "options": [
+        "23-Sep",
+        "22 Disember",
+        "21-Jun",
+        "21 Mac"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q16.png"
+    },
+    {
+      "q": "Pada 22 Disember, matahari tengah hari tegak di atas",
+      "options": [
+        "Kutub Utara",
+        "Garisan Sartan (23½°U)",
+        "Garisan Jadi (23½°S)",
+        "Garisan Khatulistiwa (0°)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan rajah, apakah musim yang dialami oleh hemisfera utara dan hemisfera selatan masing-masing?",
+      "options": [
+        "Bunga dan luruh",
+        "Panas dan sejuk",
+        "Luruh dan bunga",
+        "Sejuk dan panas"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q16.png"
+    },
+    {
+      "q": "Semasa solstis musim sejuk (22 Disember), Kutub Selatan mengalami",
+      "options": [
+        "12 jam siang dan 12 jam malam",
+        "Gerhana matahari",
+        "24 jam siang",
+        "24 jam malam"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan kedudukan matahari, bumi dan bulan dalam satu garisan lurus. Apakah fenomena yang berlaku?",
+      "options": [
+        "Pasang anak",
+        "Gerhana matahari",
+        "Gerhana bulan",
+        "Ekuinoks"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q20.png"
+    },
+    {
+      "q": "Rajah di bawah menunjukkan satu fenomena gerhana. Apakah fenomena tersebut?",
+      "options": [
+        "Gerhana bulan",
+        "Gerhana matahari",
+        "Solstis",
+        "Pasang perbani"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q21.png"
+    },
+    {
+      "q": "Berdasarkan rajah, apakah zon X yang mengalami gerhana penuh?",
+      "options": [
+        "Umbra",
+        "Orbit",
+        "Korona",
+        "Penumbra"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q21.png"
+    },
+    {
+      "q": "Gerhana matahari separa berlaku di zon",
+      "options": [
+        "Korona",
+        "Umbra",
+        "Afelion",
+        "Penumbra"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jalur cahaya terang di sekeliling matahari semasa gerhana penuh matahari dikenali sebagai",
+      "options": [
+        "Penumbra",
+        "Korona",
+        "Umbra",
+        "Perihelion"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan kedudukan bumi pada bulan Januari dan Julai. Apakah nama kedudukan bumi di P?",
+      "options": [
+        "Solstis",
+        "Ekuinoks",
+        "Afelion",
+        "Perihelion"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q25.png"
+    },
+    {
+      "q": "Berdasarkan rajah, berapakah jarak bumi dari matahari pada kedudukan Q?",
+      "options": [
+        "147 juta km",
+        "150 juta km",
+        "5 juta km",
+        "152 juta km"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q25.png"
+    },
+    {
+      "q": "Jadual di bawah menunjukkan kejadian empat musim di hemisfera utara dan hemisfera selatan. Apakah P?",
+      "options": [
+        "Disember – Februari",
+        "Mac – Mei",
+        "Jun – Ogos",
+        "September – November"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S6_Q27.png"
+    },
+    {
+      "q": "Antara berikut, yang manakah berlaku pada 22 Disember? I. Matahari tengah hari tegak di atas Garisan Jadi II. Hemisfera utara mengalami musim sejuk III. Kutub Selatan mengalami 24 jam malam IV. Waktu siang di hemisfera selatan lebih panjang daripada waktu malam",
+      "options": [
+        "I, II dan IV sahaja",
+        "I, II, III dan IV",
+        "I dan II sahaja",
+        "II dan III sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah gerhana matahari tidak meliputi seluruh permukaan bumi?",
+      "options": [
+        "Bumi lebih kecil daripada bulan",
+        "Matahari lebih kecil daripada bulan",
+        "Bulan berada jauh di belakang bumi",
+        "Bulan lebih kecil daripada bumi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Semasa ekuinoks, tempoh siang dan malam di hampir semua kawasan di bumi adalah",
+      "options": [
+        "Malam lebih panjang",
+        "Siang lebih panjang",
+        "Sama panjang",
+        "24 jam siang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "John menyambut hari Krismas pada musim panas di Perth, Australia. Apakah musim yang dialami oleh Andrew di London pada hari yang sama?",
+      "options": [
+        "Musim panas",
+        "Musim luruh",
+        "Musim bunga",
+        "Musim sejuk"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah Perth dan London mengalami musim yang berbeza pada hari Krismas?",
+      "options": [
+        "Perth mengalami 24 jam malam",
+        "Kedua-dua tempat berada di hemisfera yang berbeza",
+        "London lebih hampir dengan Garisan Khatulistiwa",
+        "Kedua-dua tempat berada pada longitud yang sama"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang pelancong ingin melihat suasana musim bunga di Jepun. Bulan manakah paling sesuai?",
+      "options": [
+        "Januari",
+        "April",
+        "Oktober",
+        "Julai"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pada 21 Jun, kawasan manakah mengalami 24 jam siang?",
+      "options": [
+        "Garisan Khatulistiwa",
+        "Kutub Selatan",
+        "Kutub Utara",
+        "Garisan Jadi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah penduduk sekitar Garisan Khatulistiwa tidak dapat merasakan perbezaan panjang siang dan malam ketika ekuinoks?",
+      "options": [
+        "Kawasan itu terletak di Garisan Jadi",
+        "Kawasan itu mengalami 24 jam malam",
+        "Kawasan itu menerima sinaran matahari penuh setiap hari",
+        "Kawasan itu mengalami empat musim"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pada bulan Disember, apakah musim yang dialami oleh Australia dan Kanada?",
+      "options": [
+        "Australia musim panas, Kanada musim sejuk",
+        "Kedua-duanya musim panas",
+        "Australia musim sejuk, Kanada musim panas",
+        "Kedua-duanya musim sejuk"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jika paksi bumi tidak condong, apakah kesan yang paling mungkin?",
+      "options": [
+        "Pasang surut berlaku sekali sehari",
+        "Kejadian siang dan malam tidak berlaku",
+        "Bumi tidak lagi beredar mengelilingi matahari",
+        "Kejadian empat musim tidak berlaku"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sekumpulan pelancong ingin mengalami 24 jam siang di Kutub Utara. Bulan manakah paling sesuai?",
+      "options": [
+        "Disember",
+        "Jun",
+        "Februari",
+        "Januari"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah perbezaan antara gerhana bulan dengan gerhana matahari?",
+      "options": [
+        "Gerhana bulan disebabkan putaran bumi; gerhana matahari disebabkan daya koriolis",
+        "Gerhana bulan: bayang-bayang bumi menutupi bulan; gerhana matahari: bayang-bayang bulan melindungi bumi",
+        "Gerhana bulan: bayang-bayang bulan melindungi bumi; gerhana matahari: bayang-bayang bumi menutupi bulan",
+        "Gerhana bulan berlaku pada sudut tegak; gerhana matahari pada garis lurus"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ramai mengaitkan ekuinoks Mac 2016 dengan kenaikan suhu. Pernyataan manakah yang disokong oleh petikan dalam buku teks?",
+      "options": [
+        "Tiada kaitan langsung antara ekuinoks dengan peningkatan suhu di bumi",
+        "Ekuinoks menyebabkan siang lebih panjang di Khatulistiwa",
+        "Ekuinoks ialah punca utama pemanasan global",
+        "Ekuinoks berlaku empat kali setahun"
+      ],
+      "marks": 1
+    }
+  ]
+}

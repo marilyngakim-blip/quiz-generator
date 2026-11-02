@@ -1,7 +1,7 @@
 {
   "id": "sejarah-tingkatan-2-3.1-3.2",
   "title": "Sejarah Tingkatan 2 (3.1-3.2)",
-  "createdAt": "2026-11-02T00:07:03.967Z",
+  "createdAt": "2026-11-02T00:17:30.737Z",
   "questions": [
     {
       "q": "Apakah bahasa utama kerajaan Funan?",
@@ -237,178 +237,172 @@
       "image": "img/sejarah-tingkatan-2/S1_Q23.png"
     },
     {
-      "q": "Based on the bus timetable, at what time does Bus E leave?",
+      "q": "Antara berikut, yang manakah benar tentang persuratan kerajaan Kedah Tua? I. Menggunakan bahasa Sanskrit II. Menggunakan tulisan Palava III. Menggunakan tulisan Kawi IV. Batu bersurat abad kelima ditemukan di Sungai Mas dan Cherok Tok Kun",
       "options": [
-        "9:30 a.m.",
-        "11:00 a.m.",
-        "10:00 a.m.",
-        "10:30 a.m."
-      ],
-      "marks": 1,
-      "image": "img/mathematics-tingkatan-2/S1_Q23.png"
-    },
-    {
-      "q": "What is the next term of the sequence 13.3, 5.3, −2.7, ...?",
-      "options": [
-        "10.7",
-        "−8.7",
-        "−10.7",
-        "−10.3"
+        "I dan II sahaja",
+        "I, II, III dan IV",
+        "I, II dan IV sahaja",
+        "II, III dan IV sahaja"
       ],
       "marks": 1
     },
     {
-      "q": "What is the next term of the sequence 80, 16, 3.2, ...?",
+      "q": "Antara berikut, yang manakah batu bersurat kerajaan Srivijaya? I. Kedukan Bukit II. Sdok Kok Thom III. Talang Tuwo IV. Trowulan",
       "options": [
-        "0.32",
-        "6.4",
-        "0.064",
-        "0.64"
+        "III dan IV sahaja",
+        "I dan II sahaja",
+        "I dan III sahaja",
+        "II dan IV sahaja"
       ],
       "marks": 1
     },
     {
-      "q": "Given the sequence 65, 60, 55, 50, ..., which term is 40?",
+      "q": "Batu bersurat Sdok Kok Thom mengisahkan pemerintahan",
       "options": [
-        "6th term",
-        "5th term",
-        "7th term",
-        "8th term"
+        "Suryavarman II",
+        "Hayam Wuruk",
+        "Sri Jayanasa",
+        "Jayavarman II"
       ],
       "marks": 1
     },
     {
-      "q": "What is the 5th term of the sequence 2, 10, 18, ...?",
+      "q": "Batu bersurat tertua kerajaan Champa yang ditemukan di Kauthara bertarikh",
       "options": [
-        "26",
-        "42",
-        "34",
-        "40"
+        "192 M",
+        "684 M",
+        "1358 M",
+        "1035 M"
       ],
       "marks": 1
     },
     {
-      "q": "Which algebraic expression represents the sequence 5, 8, 11, 14, ... where n = 1, 2, 3, ...?",
+      "q": "Karya Nagarakertagama dikarang oleh",
       "options": [
-        "3n",
-        "3n + 2",
-        "5n",
-        "n + 3"
+        "I-Tsing",
+        "Sri Jayanasa",
+        "Prapanca",
+        "Hiranyadama"
       ],
       "marks": 1
     },
     {
-      "q": "Which algebraic expression represents the sequence 2, 4, 8, 16, ... where n = 1, 2, 3, ...?",
+      "q": "Batu bersurat Trowulan bertarikh 1358 merupakan bukti persuratan kerajaan",
       "options": [
-        "n²",
-        "2ⁿ",
-        "2n",
-        "2n + 2"
+        "Srivijaya",
+        "Majapahit",
+        "Funan",
+        "Kedah Tua"
       ],
       "marks": 1
     },
     {
-      "q": "Nina arranges buttons as shown in the diagram. How many buttons are there in the 10th arrangement, T₁₀?",
+      "q": "Antara berikut, yang manakah karya sastera Champa yang masyhur?",
       "options": [
-        "21",
-        "30",
-        "23",
-        "19"
-      ],
-      "marks": 1,
-      "image": "img/mathematics-tingkatan-2/S1_Q31.png"
-    },
-    {
-      "q": "Based on Nina's button arrangement in the diagram, which arrangement has 41 buttons?",
-      "options": [
-        "19th arrangement",
-        "41st arrangement",
-        "20th arrangement",
-        "21st arrangement"
-      ],
-      "marks": 1,
-      "image": "img/mathematics-tingkatan-2/S1_Q31.png"
-    },
-    {
-      "q": "The first four terms of a sequence are 9, x, −5, −12, ... What is the value of x?",
-      "options": [
-        "2",
-        "−2",
-        "4",
-        "1"
+        "Pararaton",
+        "Akayet Inra Patra",
+        "Nagarakertagama",
+        "Hikayat Seri Rama"
       ],
       "marks": 1
     },
     {
-      "q": "Based on the bus timetable, the journey from Kuala Lumpur to Pulau Pinang takes 5 hours. At what time does Bus E reach Pulau Pinang?",
+      "q": "Apakah kepentingan bahasa dan tulisan kepada masyarakat kerajaan Alam Melayu selain sebagai alat komunikasi?",
       "options": [
-        "2:30 p.m.",
-        "3:00 p.m.",
-        "3:30 p.m.",
-        "1:00 p.m."
-      ],
-      "marks": 1,
-      "image": "img/mathematics-tingkatan-2/S1_Q23.png"
-    },
-    {
-      "q": "Eng Wei feeds his fish 4 times a day at equal intervals. The first feeding time is 7:35 a.m. At what time is the third feeding?",
-      "options": [
-        "11:35 a.m.",
-        "1:35 a.m.",
-        "1:35 p.m.",
-        "7:35 p.m."
+        "Menyimpan rekod pemerintahan, perundangan, perdagangan dan keagamaan",
+        "Menggantikan sistem pengairan",
+        "Menghalang perdagangan asing",
+        "Menggantikan peranan raja"
       ],
       "marks": 1
     },
     {
-      "q": "The table shows the first four terms of a sequence. What is the value of x?",
+      "q": "Mengapakah penemuan batu bersurat penting kepada ahli sejarah hari ini?",
       "options": [
-        "3",
-        "2",
-        "4",
-        "−3"
-      ],
-      "marks": 1,
-      "image": "img/mathematics-tingkatan-2/S1_Q36.png"
-    },
-    {
-      "q": "Based on the sequence in the table, what is the tenth term, T₁₀?",
-      "options": [
-        "−53",
-        "−61",
-        "−69",
-        "−72"
-      ],
-      "marks": 1,
-      "image": "img/mathematics-tingkatan-2/S1_Q36.png"
-    },
-    {
-      "q": "What are the 7th and 11th terms of the sequence −3, 5, 13, ...?",
-      "options": [
-        "37 and 69",
-        "53 and 85",
-        "45 and 85",
-        "45 and 77"
+        "Menunjukkan harga barang dagangan hari ini",
+        "Menggantikan buku teks sekolah",
+        "Menjadi sumber rujukan dan dokumentasi untuk memahami tamadun silam",
+        "Menjadi bahan binaan bangunan"
       ],
       "marks": 1
     },
     {
-      "q": "What are the next two terms of the sequence 3, 8, 15, 24, 35, ...?",
+      "q": "Golongan pemerintah menerima pendidikan formal di istana. Apakah hasil pendidikan ini?",
       "options": [
-        "48 and 61",
-        "47 and 60",
-        "48 and 63",
-        "46 and 57"
+        "Lahir golongan bijak pandai dan pujangga istana yang menghasilkan batu bersurat dan manuskrip",
+        "Bahasa Melayu tidak lagi digunakan",
+        "Rakyat tidak lagi menerima pendidikan",
+        "Lahir golongan hamba yang ramai"
       ],
       "marks": 1
     },
     {
-      "q": "Given 11 × 11 = 121, 111 × 111 = 12 321 and 1 111 × 1 111 = 1 234 321, what is 11 111 × 11 111?",
+      "q": "Pendidikan tidak formal yang diterima oleh rakyat lebih mengkhusus kepada",
       "options": [
-        "12 345 321",
-        "123 456 321",
-        "1 234 554 321",
-        "123 454 321"
+        "Ilmu pentadbiran istana",
+        "Ilmu ubat-ubatan, petua bercucuk tanam, pertukangan dan adat resam",
+        "Penulisan manuskrip istana",
+        "Pengurusan perbendaharaan negara"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apabila Islam tersebar ke Alam Melayu, bentuk sastera manakah mula mempengaruhi persuratan Melayu? I. Syair II. Gurindam III. Hikayat IV. Nazam",
+      "options": [
+        "II, III dan IV sahaja",
+        "I dan III sahaja",
+        "I dan II sahaja",
+        "I, II, III dan IV"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Hikayat Seri Rama ialah karya saduran daripada epik",
+      "options": [
+        "Ramayana",
+        "Purana",
+        "Jataka",
+        "Mahabhrata"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud saduran?",
+      "options": [
+        "Cerita asli tanpa pengaruh luar",
+        "Cerita yang isi utamanya diambil daripada karya lain",
+        "Cerita yang ditulis pada batu",
+        "Cerita yang dilakonkan di istana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sebahagian besar inskripsi yang ditemukan di Kedah Tua menyentuh tentang",
+      "options": [
+        "Kisah nabi-nabi",
+        "Perdagangan rempah",
+        "Peperangan dengan Majapahit",
+        "Doa dan amalan dalam agama Buddha"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bahasa Melayu menerima pengaruh bahasa Sanskrit, Tamil, Cina, Parsi dan Arab. Apakah kesannya?",
+      "options": [
+        "Bahasa Melayu tidak lagi digunakan",
+        "Tulisan Jawi dihapuskan",
+        "Perbendaharaan kata bahasa Melayu bertambah kaya",
+        "Bahasa Melayu pupus"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah faktor yang mendorong perkembangan persuratan masyarakat kerajaan Alam Melayu?",
+      "options": [
+        "Struktur sosial masyarakat",
+        "Pembinaan kapal",
+        "Sistem pengairan",
+        "Sistem tulisan"
       ],
       "marks": 1
     }

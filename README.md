@@ -64,11 +64,11 @@ Jangan kongsi token atau Sheet ini dengan murid.
 
 1. Minta Claude: *"Buat kuiz Sejarah subtopik 1.3-1.4"*. Claude memberi 40 soalan dalam format
    TSV (Question, A, B, C, D, Answer, Marks).
-2. Dalam Sheet **Kuiz Web**, tab **Input Kuiz**:
+2. Dalam Sheet **Kuiz Web**, klik **KUIZ WEB → Kosongkan Input Kuiz** (supaya tiada soalan lama tertinggal), kemudian di tab **Input Kuiz**:
    - B1: tajuk, contoh `Sejarah Tingkatan 2 (1.3-1.4)`
    - Kosongkan A7:H300, kemudian tampal soalan di **A7**.
    - (Pilihan) Lajur H: pautan gambar Google Drive untuk soalan bergambar (lihat "Gambar soalan").
-3. Menu **KUIZ WEB → Terbitkan Kuiz ke GitHub**.
+3. Menu **KUIZ WEB → Terbitkan Kuiz ke GitHub**. Semak kotak pengesahan (jumlah soalan, soalan pertama dan terakhir, amaran gambar dari kuiz lain) sebelum tekan **Yes**.
 4. Tunggu mesej **BERJAYA**. Pautan murid dipaparkan dan disimpan di **B2**. Laman siap
    dalam ~1 minit.
 

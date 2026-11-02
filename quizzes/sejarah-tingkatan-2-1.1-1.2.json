@@ -1,0 +1,407 @@
+{
+  "id": "sejarah-tingkatan-2-1.1-1.2",
+  "title": "Sejarah Tingkatan 2 (1.1-1.2)",
+  "createdAt": "2026-11-02T02:20:41.923Z",
+  "questions": [
+    {
+      "q": "1. Alam Melayu merangkumi gugusan kepulauan dan tanah besar di bahagian ______ benua Asia.",
+      "options": [
+        "A. selatan",
+        "B. barat daya",
+        "C. tenggara",
+        "D. timur"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "2. Pada masa dahulu, gugusan tanah luas yang menghubungkan kawasan daratan dengan kepulauan di Alam Melayu dikenali sebagai",
+      "options": [
+        "A. Pentas Sahul",
+        "B. Segenting Kra",
+        "C. Pentas Sunda",
+        "D. Tenasserim"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "3. Profesor Emeritus Dato' Dr. Nik Hassan Shuhaimi Nik Abdul Rahman dikenali sebagai seorang",
+      "options": [
+        "A. ahli arkeologi",
+        "B. pengkaji manuskrip Melayu",
+        "C. ahli bahasa",
+        "D. budayawan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "4. Siapakah penulis buku Ilmu Alam Melayu yang digunakan di sekolah-sekolah di Tanah Melayu?",
+      "options": [
+        "A. Sutan Takdir Alisjahbana",
+        "B. R. O. Winstedt",
+        "C. Abdul Hadi Haji Hassan",
+        "D. Alfred Russel Wallace"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "5. Bahasa Melayu tergolong dalam rumpun bahasa",
+      "options": [
+        "A. Indochina",
+        "B. Tagalog",
+        "C. Austronesia",
+        "D. Sanskrit"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "6. Pada tahun 1972, UNESCO telah memilih istilah ______ bagi merujuk suku bangsa yang berbahasa Melayu yang mendiami Asia Tenggara.",
+      "options": [
+        "A. Dunia Melayu",
+        "B. Melayu Polinesia",
+        "C. Melayu",
+        "D. Austronesia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "7. Seni persembahan wayang kulit dalam budaya Alam Melayu muncul di",
+      "options": [
+        "A. Kelantan dan Pulau Jawa",
+        "B. Sabah dan Filipina",
+        "C. Kedah dan Sumatera",
+        "D. Johor dan Brunei"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "8. Pusat Kerajaan Funan ialah",
+      "options": [
+        "A. Vyadhapura",
+        "B. Kota Trowulan",
+        "C. Hariharalaya",
+        "D. Indrapura"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "9. Pusat Kerajaan Srivijaya terletak di",
+      "options": [
+        "A. Vyadhapura",
+        "B. Pangkalan Bujang",
+        "C. Sungai Mas",
+        "D. Palembang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "10. Pusat Kerajaan Majapahit ialah",
+      "options": [
+        "A. Palembang",
+        "B. Indrapura",
+        "C. Kota Trowulan",
+        "D. Hariharalaya"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "11. Pusat Kerajaan Champa ialah",
+      "options": [
+        "A. Vyadhapura",
+        "B. Indrapura",
+        "C. Kota Trowulan",
+        "D. Hariharalaya"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "12. Pada hari ini, Alam Melayu merupakan sebahagian daripada",
+      "options": [
+        "A. Asia Tenggara",
+        "B. Asia Timur",
+        "C. Lautan Pasifik",
+        "D. Asia Selatan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "13. Nilai serumpun yang wujud terutamanya dalam masyarakat Alam Melayu ialah",
+      "options": [
+        "A. persuratan",
+        "B. struktur sosial",
+        "C. kepercayaan",
+        "D. gotong-royong"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "14. Profesor Emeritus Dato' Dr. Asmah Haji Omar dikenali sebagai seorang",
+      "options": [
+        "A. ahli arkeologi",
+        "B. budayawan",
+        "C. tokoh bahasa",
+        "D. sarjana Barat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "15. Kerajaan Majapahit terletak di Lembah Sungai Brantas di",
+      "options": [
+        "A. Jawa Timur",
+        "B. Sumatera",
+        "C. selatan Vietnam",
+        "D. Jawa Tengah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "16. Konsep Alam Melayu boleh dilihat dari sudut",
+      "options": [
+        "A. politik, budaya dan pertahanan",
+        "B. geografi, bahasa dan budaya",
+        "C. bahasa, agama dan ekonomi",
+        "D. geografi, ekonomi dan politik"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "17. Selain Alam Melayu, kawasan ini juga dikenali dengan istilah",
+      "options": [
+        "A. Pentas Sahul dan Indochina",
+        "B. Austronesia dan Melayu Polinesia",
+        "C. Segenting Kra dan Tenasserim",
+        "D. Kepulauan Melayu dan Dunia Melayu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "18. Tokoh yang berpendapat Alam Melayu meliputi kawasan dari Madagaskar hingga ke Taiwan ialah",
+      "options": [
+        "A. Alfred Russel Wallace",
+        "B. Nik Hassan Shuhaimi Nik Abdul Rahman",
+        "C. Ding Choo Ming",
+        "D. Ismail Hussein"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "19. Menurut Abdul Hadi Haji Hassan, Alam Melayu merupakan suatu lingkungan geografi yang luas meliputi Kepulauan Melayu hingga",
+      "options": [
+        "A. selatan Myanmar",
+        "B. selatan Thailand",
+        "C. Taiwan",
+        "D. Papua New Guinea"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "20. Tan Sri Dato' Pendeta (Dr.) Ismail Hussein dikenali sebagai",
+      "options": [
+        "A. ahli bahasa dan budayawan",
+        "B. sarjana Barat",
+        "C. ahli arkeologi",
+        "D. pengkaji manuskrip Melayu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "21. Menurut Alfred Russel Wallace, Kepulauan Melayu meliputi Tanah Melayu hingga Tenasserim dan",
+      "options": [
+        "A. Kepulauan Nicobar",
+        "B. Madagaskar",
+        "C. New Zealand",
+        "D. Kepulauan Pasifik"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "22. Profesor Dr. Ding Choo Ming yang mengemukakan pandangan tentang Dunia Melayu ialah seorang",
+      "options": [
+        "A. tokoh bahasa",
+        "B. ahli arkeologi",
+        "C. ahli akademik",
+        "D. pengkaji manuskrip Melayu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "23. Istilah yang digunakan sebelum digantikan dengan istilah Austronesia ialah",
+      "options": [
+        "A. Dunia Melayu",
+        "B. Pentas Sunda",
+        "C. Melayu Polinesia",
+        "D. Kepulauan Melayu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "24. Berdasarkan jadual persamaan bunyi perkataan, perkataan \"empat\" disebut \"pat\" dalam bahasa",
+      "options": [
+        "A. Kadazandusun",
+        "B. Jawa",
+        "C. Tagalog",
+        "D. Melanau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "25. Menurut Sutan Takdir Alisjahbana, bahasa Melayu berkembang ke seluruh Alam Melayu kerana",
+      "options": [
+        "A. orang Melayu gemar belayar",
+        "B. dipilih oleh UNESCO",
+        "C. berasal daripada bahasa Jawa",
+        "D. digunakan oleh British"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "26. Pembuatan gangsa dan seni mempertahankan diri merupakan",
+      "options": [
+        "A. pengaruh tamadun India",
+        "B. seni persembahan Pulau Jawa",
+        "C. warisan Kerajaan Funan",
+        "D. ciptaan asli di Alam Melayu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "27. Antara berikut, yang manakah merupakan aspek budaya serumpun penduduk Alam Melayu?",
+      "options": [
+        "A. Kesenian, pertanian dan cukai",
+        "B. Persuratan, kesenian dan adat",
+        "C. Bahasa, pelabuhan dan perdagangan",
+        "D. Adat, ketenteraan dan pelabuhan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "28. Apakah urutan perkembangan kerajaan di Alam Melayu?",
+      "options": [
+        "A. Kerajaan → pelabuhan → petempatan kecil",
+        "B. Pelabuhan → petempatan kecil → kerajaan",
+        "C. Petempatan kecil → kerajaan → pelabuhan",
+        "D. Petempatan kecil → pelabuhan → kerajaan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "29. Kerajaan Kedah Tua terletak di kawasan",
+      "options": [
+        "A. Lembah Sungai Musi",
+        "B. Sungai Mas dan Sungai Bujang",
+        "C. pantai barat bahagian tengah Tanah Melayu",
+        "D. Lembah Sungai Brantas"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "30. Kerajaan Gangga Nagara terletak di",
+      "options": [
+        "A. Lembah Sungai Mekong",
+        "B. selatan dan tengah Vietnam",
+        "C. pantai barat bahagian tengah Tanah Melayu",
+        "D. Sungai Mas dan Sungai Bujang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "31. Susunan manakah yang menunjukkan kemunculan kerajaan Alam Melayu mengikut kronologi yang betul?",
+      "options": [
+        "A. Funan → Champa → Srivijaya → Angkor",
+        "B. Funan → Srivijaya → Champa → Angkor",
+        "C. Champa → Srivijaya → Funan → Majapahit",
+        "D. Champa → Funan → Angkor → Srivijaya"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "32. Kerajaan Funan muncul pada abad pertama manakala Kerajaan Majapahit muncul pada abad ke-13. Berapakah jarak masa antara kemunculan kedua-dua kerajaan ini?",
+      "options": [
+        "A. 11 abad",
+        "B. 12 abad",
+        "C. 13 abad",
+        "D. 14 abad"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "33. Kerajaan Srivijaya muncul pada abad ketujuh. Kerajaan manakah yang muncul dua abad selepas Kerajaan Srivijaya?",
+      "options": [
+        "A. Kedah Tua",
+        "B. Gangga Nagara",
+        "C. Angkor",
+        "D. Majapahit"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "34. Dua buah kerajaan manakah yang sama-sama terletak di Lembah Sungai Mekong?",
+      "options": [
+        "A. Funan dan Champa",
+        "B. Srivijaya dan Majapahit",
+        "C. Champa dan Angkor",
+        "D. Funan dan Angkor"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "35. Kawasan manakah terdapat dalam pandangan Nik Hassan Shuhaimi Nik Abdul Rahman tetapi tidak terdapat dalam pandangan Alfred Russel Wallace?",
+      "options": [
+        "A. Madagaskar",
+        "B. Tenasserim",
+        "C. Tanah Melayu",
+        "D. Papua New Guinea"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "36. Kawasan manakah disebut oleh Ismail Hussein tetapi tidak disebut oleh Ding Choo Ming dalam pandangan mereka tentang Dunia Melayu?",
+      "options": [
+        "A. Brunei",
+        "B. Kemboja",
+        "C. Indonesia",
+        "D. Filipina"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "37. Aina dari Sabah dan rakannya dari Pulau Jawa sama-sama menyebut \"limo\" bagi perkataan \"lima\". Apakah yang dibuktikan oleh situasi ini?",
+      "options": [
+        "A. Istilah Melayu dipilih oleh UNESCO",
+        "B. Bahasa Jawa berasal daripada bahasa Kadazandusun",
+        "C. Bahasa di Alam Melayu adalah serumpun",
+        "D. Kedua-dua etnik menggunakan tulisan yang sama"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "38. Murid dari Malaysia, Indonesia dan Brunei mempersembahkan silat bersama-sama dalam satu festival. Apakah kesimpulan yang paling tepat tentang situasi ini?",
+      "options": [
+        "A. Ketiga-tiga negara mempunyai sistem pemerintahan yang sama",
+        "B. Penduduk Alam Melayu berkongsi budaya serumpun",
+        "C. Silat hanya wujud selepas negara-negara itu merdeka",
+        "D. Silat diperkenalkan oleh Kerajaan Majapahit"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "39. Kewujudan kerajaan-kerajaan di Alam Melayu sejak abad pertama membuktikan bahawa",
+      "options": [
+        "A. kerajaan Alam Melayu muncul selepas kedatangan British",
+        "B. semua kerajaan Alam Melayu berpusat di Tanah Melayu",
+        "C. Alam Melayu menerima kerajaan daripada tamadun lain",
+        "D. Alam Melayu mempunyai kerajaan yang sezaman dengan tamadun lain"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "40. Kerajaan Kedah Tua muncul pada abad kelima. Kerajaan manakah yang muncul satu abad kemudian?",
+      "options": [
+        "A. Champa",
+        "B. Srivijaya",
+        "C. Angkor",
+        "D. Gangga Nagara"
+      ],
+      "marks": 1
+    }
+  ]
+}

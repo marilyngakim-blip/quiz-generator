@@ -1,0 +1,412 @@
+{
+  "id": "sejarah-tingkatan-2-3.3-3.4",
+  "title": "Sejarah Tingkatan 2 (3.3-3.4)",
+  "createdAt": "2026-11-02T00:12:03.551Z",
+  "questions": [
+    {
+      "q": "Apakah maksud seni bina?",
+      "options": [
+        "Seni mengukir patung sahaja",
+        "Seni menulis batu bersurat",
+        "Seni mencipta lagu istana",
+        "Seni mereka bentuk sesebuah binaan yang mempunyai fungsi tertentu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah hasil seni bina masyarakat kerajaan Alam Melayu?",
+      "options": [
+        "Syair, gurindam dan nazam",
+        "Batu bersurat, manuskrip dan hikayat",
+        "Candi, perkapalan dan sistem pengairan",
+        "Kalendar, tulisan dan bahasa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kapal besar kerajaan Funan boleh memuatkan sehingga",
+      "options": [
+        "100 orang",
+        "7 000 orang",
+        "70 orang",
+        "700 orang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Tinggalan candi kerajaan Funan yang ditemukan di Oc Eo ialah",
+      "options": [
+        "Candi Tikus",
+        "Candi Go Cay Thi",
+        "Candi Mi Son",
+        "Candi Muara Takus"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angkor Wat dibina oleh",
+      "options": [
+        "Hayam Wuruk",
+        "Raja Sambhuvarman",
+        "Raja Suryavarman II",
+        "Raja Jayavarman II"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Angkor Wat dibina pada abad",
+      "options": [
+        "Ke-12",
+        "Kelima",
+        "Ke-15",
+        "Kedua"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jadual di bawah menunjukkan tinggalan candi beberapa kerajaan Alam Melayu. Apakah kerajaan Q?",
+      "options": [
+        "Srivijaya",
+        "Champa",
+        "Majapahit",
+        "Funan"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S2_Q7.png"
+    },
+    {
+      "q": "Antara berikut, yang manakah candi kerajaan Srivijaya?",
+      "options": [
+        "Candi Go Cay Thi",
+        "Candi Po Nagar",
+        "Candi Tikus",
+        "Candi Muara Takus"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ibu kota Srivijaya, Palembang, dicatatkan oleh kerajaan China sebagai pusat binaan",
+      "options": [
+        "Patung gangsa",
+        "Baray yang luas",
+        "Candi Buddha terbesar",
+        "Kapal-kapal Melayu (Kun-lun-po)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan jadual tinggalan candi, apakah kerajaan S?",
+      "options": [
+        "Angkor",
+        "Champa",
+        "Kedah Tua",
+        "Majapahit"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S2_Q7.png"
+    },
+    {
+      "q": "Seni bina kerajaan Kedah Tua banyak tertumpu kepada binaan candi di",
+      "options": [
+        "Lembah Bujang",
+        "Lembah Sungai Musi",
+        "Lembah Mi Son",
+        "Lembah Kinta"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Patung Buddha gangsa setinggi 18 meter yang membuktikan seni bina kerajaan Gangga Nagara ditemukan di",
+      "options": [
+        "Oc Eo",
+        "Lembah Bujang",
+        "Tanjung Rambutan",
+        "Palembang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan struktur sosial masyarakat kerajaan Alam Melayu. Apakah golongan S?",
+      "options": [
+        "Hamba",
+        "Golongan agama",
+        "Bangsawan",
+        "Pedagang asing"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S2_Q13.png"
+    },
+    {
+      "q": "Berdasarkan rajah struktur sosial, apakah golongan P yang mempunyai status tertinggi?",
+      "options": [
+        "Golongan bangsawan",
+        "Rakyat merdeka",
+        "Golongan diraja",
+        "Golongan agama"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S2_Q13.png"
+    },
+    {
+      "q": "Antara berikut, yang manakah termasuk dalam golongan hamba? I. Tawanan perang II. Petani III. Hamba berhutang IV. Askar",
+      "options": [
+        "II dan IV sahaja",
+        "I, III dan IV sahaja",
+        "I dan II sahaja",
+        "I dan III sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kerajaan Funan membina sistem pengairan untuk",
+      "options": [
+        "Membina kapal perang",
+        "Mengawal limpahan air dan mengalirkan air masin keluar dari tanah pertanian",
+        "Menghalang kedatangan pedagang",
+        "Menyimpan air minuman di istana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Candi kerajaan Funan dibina sebagai I. Rumah ibadat II. Pusat pendidikan III. Tempat pertemuan masyarakat IV. Kubu pertahanan tentera",
+      "options": [
+        "II dan IV sahaja",
+        "I, II dan III sahaja",
+        "I dan II sahaja",
+        "I, II, III dan IV"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Baray kerajaan Angkor berukuran 2 x 8 kilometer dapat menampung",
+      "options": [
+        "30 ribu meter padu air",
+        "30 juta meter padu air",
+        "3 juta meter padu air",
+        "300 juta meter padu air"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah keluasan Angkor Wat?",
+      "options": [
+        "208 hektar",
+        "700 hektar",
+        "65 hektar",
+        "18 hektar"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Menara utama di tengah-tengah Angkor Wat setinggi",
+      "options": [
+        "100 meter",
+        "208 meter",
+        "18 meter",
+        "65 meter"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Perahu panjang masyarakat kerajaan Funan boleh membawa",
+      "options": [
+        "10 orang penumpang",
+        "1 000 orang penumpang",
+        "100 orang penumpang",
+        "700 orang penumpang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Candi Borobudur dibina pada abad kesembilan semasa pemerintahan kerajaan",
+      "options": [
+        "Majapahit",
+        "Sailendra",
+        "Funan",
+        "Angkor"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah bilangan patung Buddha di bahagian puncak Candi Borobudur?",
+      "options": [
+        "100 buah",
+        "208 buah",
+        "72 buah",
+        "65 buah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Gapura Wringin Lawang di Majapahit berfungsi sebagai",
+      "options": [
+        "Pintu gerbang laluan raja",
+        "Tempat menyimpan air",
+        "Pintu masuk bangunan suci",
+        "Pusat binaan kapal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Candi Hindu di Bukit Batu Pahat dan Bendang Dalam mendapat pengaruh seni bina kerajaan",
+      "options": [
+        "Cola, India",
+        "Ming, China",
+        "Gupta, India",
+        "Sailendra, Jawa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah tinggalan candi Buddha di Kedah Tua?",
+      "options": [
+        "Bendang Dalam",
+        "Bukit Batu Pahat",
+        "Bukit Choras",
+        "Lembah Mi Son"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seni bina arca Buddha kerajaan Gangga Nagara menerima pengaruh daripada kerajaan",
+      "options": [
+        "Cola, India",
+        "Gupta, India",
+        "Ming, China",
+        "Khmer, Angkor"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Golongan bangsawan terdiri daripada",
+      "options": [
+        "Pembesar, ilmuwan, golongan agama, pujangga dan pendeta istana",
+        "Petani, nelayan dan pedagang",
+        "Tawanan perang dan hamba berhutang",
+        "Raja, permaisuri dan putera"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rakyat merdeka terdiri daripada",
+      "options": [
+        "Pembesar dan pendeta istana",
+        "Tawanan perang dan hamba berhutang",
+        "Raja dan kerabat diraja",
+        "Pekerja istana, askar, petani, penternak, pedagang, nelayan dan artisan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah peranan rakyat merdeka dalam struktur sosial?",
+      "options": [
+        "Meningkatkan status pemiliknya",
+        "Mendukung sistem pentadbiran sebagai pembesar",
+        "Mengukuhkan sistem beraja melalui taat setia dan menjana ekonomi kerajaan",
+        "Menjadi pemerintah kerajaan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kerajaan Angkor membina baray. Apakah kepentingan utama baray?",
+      "options": [
+        "Pengairan",
+        "Perdagangan",
+        "Pusat ibadat",
+        "Petempatan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Struktur sosial yang tersusun dalam masyarakat kerajaan Alam Melayu telah",
+      "options": [
+        "Menghapuskan golongan bangsawan",
+        "Menyebabkan kerajaan runtuh",
+        "Melemahkan kedudukan raja",
+        "Memperkukuh sistem politik dan kedudukan pemerintah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang tawanan perang dijadikan pembantu di rumah seorang pembesar. Dia tergolong dalam golongan",
+      "options": [
+        "Golongan diraja",
+        "Rakyat merdeka",
+        "Bangsawan",
+        "Hamba"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang pujangga istana menulis karya persuratan untuk raja. Berdasarkan rajah struktur sosial, dia tergolong dalam golongan",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "S"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S2_Q13.png"
+    },
+    {
+      "q": "Apakah peranan kelas atasan terhadap kelas bawahan?",
+      "options": [
+        "Menjalankan kegiatan menangkap ikan",
+        "Memberikan taat setia kepada rakyat",
+        "Menjaga dan melindungi rakyat",
+        "Berkhidmat sebagai hamba"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kapal besar kerajaan Funan yang memuatkan 1 000 tan kargo membuktikan bahawa",
+      "options": [
+        "Masyarakatnya hanya bergantung kepada pertanian",
+        "Masyarakatnya mahir dalam seni bina perkapalan untuk perdagangan",
+        "Masyarakatnya tidak tahu belayar",
+        "Masyarakatnya tidak menjalankan perdagangan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Penemuan candi Hindu di Bukit Batu Pahat dan candi Buddha di Bukit Choras menunjukkan bahawa",
+      "options": [
+        "Agama Hindu dan Buddha wujud dalam masyarakat Kedah Tua",
+        "Kedah Tua dijajah oleh Angkor",
+        "Kedah Tua hanya mengamalkan agama Islam",
+        "Kedah Tua tidak mempunyai candi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah warisan seni bina seperti Angkor Wat perlu dipelihara dan dipulihara?",
+      "options": [
+        "Supaya dapat dijadikan gudang",
+        "Kerana tiada nilai sejarah",
+        "Merupakan khazanah sejarah dan bukti kebijaksanaan masyarakat silam",
+        "Supaya boleh dirobohkan kemudian"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang petani dan seorang pedagang di kerajaan Srivijaya tergolong dalam golongan",
+      "options": [
+        "Golongan diraja",
+        "Rakyat merdeka",
+        "Hamba",
+        "Bangsawan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bandingkan peranan golongan pemerintah dengan golongan diperintah. Pernyataan manakah BETUL?",
+      "options": [
+        "Rakyat melindungi pemerintah, pemerintah memberi taat setia",
+        "Pemerintah melindungi rakyat, rakyat memberi taat setia kepada pemerintah",
+        "Kedua-dua golongan tidak mempunyai peranan",
+        "Pemerintah berkhidmat sebagai hamba kepada rakyat"
+      ],
+      "marks": 1
+    }
+  ]
+}

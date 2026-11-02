@@ -1,0 +1,409 @@
+{
+  "id": "sejarah-tingkatan-2-4.1-4.2",
+  "title": "Sejarah Tingkatan 2 (4.1-4.2)",
+  "createdAt": "2026-11-02T00:43:27.094Z",
+  "questions": [
+    {
+      "q": "Apakah kepercayaan awal masyarakat kerajaan Alam Melayu?",
+      "options": [
+        "Animisme dan dinamisme",
+        "Hindu dan Buddha",
+        "Hindu dan Islam",
+        "Islam dan Kristian"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Animisme ialah kepercayaan bahawa",
+      "options": [
+        "Setiap makhluk, hidupan dan tumbuhan memiliki roh atau semangat",
+        "Hanya manusia mempunyai roh",
+        "Raja ialah titisan dewa",
+        "Tuhan itu Esa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Roh nenek moyang yang telah meninggal dunia dipanggil",
+      "options": [
+        "Dewaraja",
+        "Khalifah",
+        "Mana",
+        "Hyang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Dinamisme berkait rapat dengan kepercayaan terhadap kekuatan yang dikenali sebagai",
+      "options": [
+        "Hyang",
+        "Tripaksa",
+        "Mana atau semangat",
+        "Varman"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Agama Islam tiba di Alam Melayu mulai abad",
+      "options": [
+        "Kedua",
+        "Ke-15",
+        "Ketujuh",
+        "Ke-12"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Raja Funan yang mengambil peranan besar terhadap perkembangan agama Buddha ialah",
+      "options": [
+        "Bhadravarman",
+        "Fan Shih-man",
+        "Hayam Wuruk",
+        "Jayavarman VII"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Candi Hindu yang termasyhur di Angkor ialah",
+      "options": [
+        "Candi Borobudur",
+        "Angkor Wat",
+        "Candi Dong Duong",
+        "Candi Muara Jambi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pendeta Buddha dari China yang datang ke Srivijaya untuk mempelajari bahasa Sanskrit ialah",
+      "options": [
+        "Wu Ping",
+        "I-Tsing",
+        "Hiranyadama",
+        "Prapanca"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pemerintah Pasai, Merah Silu, memeluk Islam dan bergelar",
+      "options": [
+        "Sultan Muzaffar Syah",
+        "Sultan Malik al-Saleh",
+        "Maharaja Derbar Raja II",
+        "Sultan Zainal Abidin"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Masyarakat kerajaan Gangga Nagara menganut agama",
+      "options": [
+        "Buddha",
+        "Animisme sahaja",
+        "Islam",
+        "Hindu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Gelaran Sultan digunakan setelah",
+      "options": [
+        "Kedatangan Buddha",
+        "Kedatangan Hindu",
+        "Kemunculan kerajaan Funan",
+        "Kedatangan Islam"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah benar tentang gelaran pemerintah kerajaan Alam Melayu? I. Raja Funan, Champa, Angkor dan Srivijaya menggunakan gelaran Varman II. Gelaran Sultan digunakan setelah kedatangan Islam III. Gelaran Varman berasal daripada bahasa Arab IV. Gelaran Sultan digunakan sebelum kedatangan Islam",
+      "options": [
+        "I dan II sahaja",
+        "II dan IV sahaja",
+        "III dan IV sahaja",
+        "I dan III sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Konsep pemerintahan yang diperkenalkan dengan kedatangan Islam ialah",
+      "options": [
+        "Titisan dewa",
+        "Dewaraja",
+        "Khalifah",
+        "Varman"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan tiga bentuk pelabuhan di kerajaan Alam Melayu. Apakah X?",
+      "options": [
+        "Pelabuhan bebas cukai",
+        "Pelabuhan entrepot",
+        "Pelabuhan nelayan",
+        "Pelabuhan sungai"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S3_Q14.png"
+    },
+    {
+      "q": "Gunung yang menjadi mercu tanda kerajaan Kedah ialah",
+      "options": [
+        "Gunung Ledang",
+        "Gunung Tahan",
+        "Gunung Jerai",
+        "Gunung Kinabalu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Peranan agama Hindu sebagai agama utama di Angkor diambil alih oleh agama Buddha semasa pemerintahan",
+      "options": [
+        "Jayavarman II",
+        "Suryavarman II",
+        "Jayavarman VII",
+        "Bhadravarman"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Candi Hindu yang didirikan oleh Bhadravarman di Lembah Mi Son dikenali sebagai",
+      "options": [
+        "Angkor Wat",
+        "Muara Takus",
+        "Go Cay Thi",
+        "Siva-Bhadresvara"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Penyebaran Islam di Champa dibuktikan dengan penemuan batu bersurat 1035 dan batu nisan 1039 di",
+      "options": [
+        "Kauthara",
+        "Panduranga",
+        "Tuban",
+        "Oc Eo"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Islam mulai tersebar luas dalam kerajaan Champa semasa pemerintahan",
+      "options": [
+        "Sultan Malik al-Saleh",
+        "Fan Shih-man",
+        "Bhadravarman",
+        "Sultan Zainal Abidin"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Hayam Wuruk menyatukan aliran agama Hindu dan Buddha yang dipanggil",
+      "options": [
+        "Hyang",
+        "Tripaksa",
+        "Dewaraja",
+        "Varman"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Garis masa di bawah menunjukkan penyebaran Islam di Alam Melayu. Apakah peristiwa X?",
+      "options": [
+        "Kerajaan Demak menjadi pusat pengajian Islam",
+        "Merah Silu memeluk Islam dan bergelar Sultan Malik al-Saleh",
+        "Islam tersebar luas di Champa semasa pemerintahan Sultan Zainal Abidin",
+        "Pemerintah Kedah, Maharaja Derbar Raja II, memeluk Islam"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2/S3_Q21.png"
+    },
+    {
+      "q": "Setelah kerajaan Majapahit runtuh, kerajaan manakah menjadi pusat pengajian Islam terbesar di Jawa pada abad ke-16?",
+      "options": [
+        "Demak",
+        "Champa",
+        "Kedah",
+        "Pasai"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Dalam kerajaan manakah wanita keturunan diraja boleh dilantik sebagai pemerintah?",
+      "options": [
+        "Angkor",
+        "Srivijaya",
+        "Majapahit",
+        "Funan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Raja boleh dipilih daripada golongan tentera dalam kerajaan",
+      "options": [
+        "Majapahit dan Srivijaya",
+        "Angkor dan Kedah Tua",
+        "Gangga Nagara dan Majapahit",
+        "Funan dan Champa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan entrepot berperanan sebagai",
+      "options": [
+        "Pusat pentadbiran kerajaan sahaja",
+        "Kawasan pertanian",
+        "Tempat persinggahan untuk bekalan makanan sahaja",
+        "Pengumpul, pengendali dan pengedar barang dagangan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan pembekal ialah pelabuhan",
+      "options": [
+        "Persinggahan untuk membekalkan bahan dagangan dan makanan kepada pedagang",
+        "Pengumpul dan pengedar barangan antarabangsa",
+        "Pusat binaan kapal perang",
+        "Pusat pentadbiran kerajaan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pengasas kerajaan Angkor, Jayavarman II, diisytiharkan sebagai Dewaraja oleh seorang Brahmin bernama",
+      "options": [
+        "Prapanca",
+        "Wu Ping",
+        "Hiranyadama",
+        "I-Tsing"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Penganut Hindu membina Candi Prambanan berdekatan Candi Borobudur. Ini menunjukkan sifat",
+      "options": [
+        "Toleransi dalam amalan beragama",
+        "Persaingan perdagangan",
+        "Permusuhan antara agama",
+        "Penolakan pengaruh luar"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Maharaja Chola dari India menghantar tentera ke Srivijaya pada abad ke-11. Ini contoh hubungan diplomatik dalam bentuk",
+      "options": [
+        "Persahabatan melalui utusan",
+        "Perdagangan rempah",
+        "Perkahwinan",
+        "Bantuan ketenteraan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah bentuk hubungan diplomatik kerajaan Alam Melayu? I. Hubungan persahabatan II. Bantuan ketenteraan atau senjata III. Perkahwinan IV. Penjajahan wilayah",
+      "options": [
+        "I, II, III dan IV",
+        "I, II dan III sahaja",
+        "II dan IV sahaja",
+        "I dan II sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah monumen yang membuktikan penyebaran agama Hindu di kerajaan Alam Melayu?",
+      "options": [
+        "Candi Dong Duong",
+        "Candi Borobudur",
+        "Candi Muara Jambi",
+        "Angkor Wat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah pemerintah memilih lembah sungai sebagai pusat pemerintahan?",
+      "options": [
+        "Tanahnya subur untuk pertanian dan sungai menjadi laluan pengangkutan",
+        "Lembah sungai jauh dari laut dan sungai",
+        "Lembah sungai tidak mempunyai air",
+        "Lembah sungai sukar dikunjungi pedagang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud asimilasi?",
+      "options": [
+        "Penjelmaan dewa",
+        "Penyerapan budaya-budaya yang berbeza hingga menjadi satu",
+        "Penolakan semua budaya luar",
+        "Pembinaan candi baharu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pada zaman kerajaan Alam Melayu, mengingkari raja dianggap",
+      "options": [
+        "Perbuatan yang terpuji",
+        "Tanda taat setia",
+        "Menderhaka",
+        "Perkara biasa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Penyebaran agama Hindu, Buddha dan Islam ke Alam Melayu berkait rapat dengan",
+      "options": [
+        "Peranan mubaligh, pemerintah dan perdagangan antarabangsa",
+        "Peperangan dan penjajahan",
+        "Pertanian padi sahaja",
+        "Bencana alam"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Petani mengadakan upacara pemujaan semangat tanaman supaya hasil tanaman subur. Amalan ini berkait dengan",
+      "options": [
+        "Konsep khalifah",
+        "Islam",
+        "Tripaksa",
+        "Dinamisme"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah amalan yang berkait dengan kepercayaan animisme? I. Menyambut Hari Moyang II. Membina masjid III. Menghormati roh nenek moyang (Hyang) IV. Membaca kitab suci",
+      "options": [
+        "I dan III sahaja",
+        "III dan IV sahaja",
+        "II dan IV sahaja",
+        "I dan II sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah faedah hubungan diplomatik kepada kerajaan Alam Melayu?",
+      "options": [
+        "Melemahkan agama dan budaya",
+        "Mengurangkan perdagangan",
+        "Memelihara kedaulatan, mendapat perlindungan dan meluaskan perdagangan",
+        "Menyebabkan kerajaan dijajah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan Klang hari ini menjadi tumpuan pedagang dan mengedarkan barangan serantau dan antarabangsa. Pelabuhan ini menyerupai",
+      "options": [
+        "Pelabuhan nelayan",
+        "Pelabuhan entrepot",
+        "Pelabuhan kerajaan",
+        "Pelabuhan pembekal"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apabila Islam tersebar, masjid dibina sebagai",
+      "options": [
+        "Tempat pemujaan roh nenek moyang",
+        "Gudang barang dagangan",
+        "Pusat ibadat, pendidikan dan kebajikan",
+        "Pusat binaan kapal"
+      ],
+      "marks": 1
+    }
+  ]
+}

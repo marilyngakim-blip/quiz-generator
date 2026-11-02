@@ -27,6 +27,9 @@ const TAB_MARKAH = 'Markah';
 const TAB_DRAF = 'Draf'; // jawapan separuh jalan (supaya boleh sambung di peranti lain)
 const FIRST_ROW = 7;
 const LETTERS = ['A', 'B', 'C', 'D'];
+// Google menghentikan skrip selepas 6 minit. Berhenti dengan selamat selepas 4.5 minit.
+const HAD_MASA_MS = 4.5 * 60 * 1000;
+const masaHampirTamat_ = mula => Date.now() - mula > HAD_MASA_MS;
 
 /* ------------------------------------------------------------------ */
 /* Menu                                                                */
@@ -81,6 +84,7 @@ function getOrCreate_(ss, name) {
  * dimuat naik ke GitHub.
  */
 function importDariForm() {
+  const mula = Date.now();
   const ui = SpreadsheetApp.getUi();
   const res = ui.prompt('Import dari Google Form',
     'Tampal pautan EDIT Google Form (yang berakhir dengan /edit):', ui.ButtonSet.OK_CANCEL);
@@ -120,7 +124,9 @@ function importDariForm() {
       if (it.options.length !== 4) { skipped.push('"' + short_(title) + '" – ada ' + it.options.length + ' pilihan (perlu 4)'); return; }
       if (it.correct.length !== 1) { skipped.push('"' + short_(title) + '" – tiada kunci jawapan'); return; }
       let imageUrl = '';
-      if (it.image) {
+      if (it.image && masaHampirTamat_(mula)) {
+        imgErrors.push('S' + (rows.length + 1) + ': masa tamat – tampal pautan gambar di lajur H secara manual');
+      } else if (it.image) {
         try {
           imageUrl = simpanGambarDrive_(it.image(), form.getTitle() + ' – S' + (rows.length + 1));
           images++;
@@ -249,6 +255,7 @@ function short_(s) {
 /* ------------------------------------------------------------------ */
 
 function terbitkanKuiz() {
+  const mula = Date.now();
   const ui = SpreadsheetApp.getUi();
   try {
     const ss = SpreadsheetApp.getActive();
@@ -283,14 +290,16 @@ function terbitkanKuiz() {
     // 1. Simpan kunci jawapan dalam Sheet.
     simpanKunci_(ss, id, title, rows);
 
-    // 2. Hantar soalan (tanpa jawapan) ke GitHub.
+    // 2. Hantar soalan (tanpa jawapan) ke GitHub. Gambar yang sudah ada dan sama tidak dimuat naik semula.
+    const imgCtx = { mula: mula, sedia: ghListDir_('quizzes/img/' + id), siap: {}, dimuatNaik: 0,
+      jumlah: rows.filter(r => /^https?:\/\//i.test(r.image || '')).length, diproses: 0 };
     const publicQuiz = {
       id: id,
       title: title,
       createdAt: new Date().toISOString(),
       questions: rows.map((r, i) => {
         const q = { q: r.question, options: r.options, marks: r.marks };
-        if (r.image) q.image = gambarKeGitHub_(id, i + 1, r.image);
+        if (r.image) q.image = gambarKeGitHub_(id, i + 1, r.image, imgCtx);
         return q;
       })
     };
@@ -312,7 +321,9 @@ function terbitkanKuiz() {
     sheet.getRange('A2').setValue('Pautan murid:');
     sheet.getRange('B2').setValue(link);
     ui.alert('BERJAYA – Jumlah Soalan: ' + rows.length,
-      'Pautan murid (tersedia dalam ~1 minit):\n' + link + '\n\nPautan juga disimpan di B2.', ui.ButtonSet.OK);
+      'Pautan murid (tersedia dalam ~1 minit):\n' + link + '\n\nPautan juga disimpan di B2.' +
+      (imgCtx.jumlah ? '\n\nGambar: ' + imgCtx.dimuatNaik + ' dimuat naik, ' + (imgCtx.diproses - imgCtx.dimuatNaik) + ' sudah sedia ada.' : ''),
+      ui.ButtonSet.OK);
   } catch (e) {
     ui.alert('Gagal menerbitkan kuiz', e.message, ui.ButtonSet.OK);
   }
@@ -389,8 +400,14 @@ function simpanKunci_(ss, id, title, rows) {
  *  - laluan fail dalam repo (contoh img/rajah1.png dalam folder quizzes/)
  * Pautan dimuat turun dan dimuat naik ke GitHub sebagai quizzes/img/<kuiz>/q<n>.<ext>.
  */
-function gambarKeGitHub_(quizId, n, ref) {
+function gambarKeGitHub_(quizId, n, ref, ctx) {
   if (!/^https?:\/\//i.test(ref)) return ref;
+  ctx = ctx || { mula: Date.now(), sedia: {}, siap: {}, dimuatNaik: 0, jumlah: 1, diproses: 0 };
+  if (ctx.siap[ref]) return ctx.siap[ref]; // gambar sama digunakan oleh beberapa soalan
+  if (masaHampirTamat_(ctx.mula)) {
+    throw new Error('Masa hampir tamat: ' + ctx.diproses + ' daripada ' + ctx.jumlah + ' gambar sudah siap. ' +
+      'Klik "Terbitkan Kuiz ke GitHub" sekali lagi untuk sambung (gambar yang siap tidak dimuat naik semula).');
+  }
   let blob;
   try {
     const m = ref.match(/\/d\/([\w-]{20,})/) || ref.match(/[?&]id=([\w-]{20,})/);
@@ -403,11 +420,26 @@ function gambarKeGitHub_(quizId, n, ref) {
   const type = String(blob.getContentType() || '');
   const ext = { 'image/png': 'png', 'image/jpeg': 'jpg', 'image/gif': 'gif', 'image/webp': 'webp', 'image/svg+xml': 'svg' }[type];
   if (!ext) throw new Error('Fail di lajur H soalan ' + n + ' bukan gambar (' + (type || 'jenis tidak diketahui') + ').');
-  if (!blob.getBytes().length) throw new Error('Gambar soalan ' + n + ' kosong (0 bait). Gantikan pautan di lajur H dengan gambar yang betul.');
-  if (blob.getBytes().length > 5 * 1024 * 1024) throw new Error('Gambar soalan ' + n + ' melebihi 5 MB. Kecilkan dahulu.');
-  const path = 'img/' + quizId + '/q' + n + '.' + ext;
-  ghPutBase64_('quizzes/' + path, Utilities.base64Encode(blob.getBytes()), 'Gambar soalan ' + n + ': ' + quizId);
+  const bytes = blob.getBytes();
+  if (!bytes.length) throw new Error('Gambar soalan ' + n + ' kosong (0 bait). Gantikan pautan di lajur H dengan gambar yang betul.');
+  if (bytes.length > 5 * 1024 * 1024) throw new Error('Gambar soalan ' + n + ' melebihi 5 MB. Kecilkan dahulu.');
+  const name = 'q' + n + '.' + ext;
+  const path = 'img/' + quizId + '/' + name;
+  const lama = ctx.sedia[name];
+  if (lama !== gitBlobSha_(bytes)) {
+    ghPutBase64_('quizzes/' + path, Utilities.base64Encode(bytes), 'Gambar soalan ' + n + ': ' + quizId, lama || null);
+    ctx.dimuatNaik++;
+  }
+  ctx.diproses++;
+  ctx.siap[ref] = path;
   return path;
+}
+
+// SHA fail seperti yang dikira oleh GitHub (untuk tahu sama ada gambar sudah sama).
+function gitBlobSha_(bytes) {
+  const head = Utilities.newBlob('blob ' + bytes.length + '\u0000').getBytes();
+  const d = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_1, head.concat(bytes));
+  return d.map(b => ('0' + (b & 0xff).toString(16)).slice(-2)).join('');
 }
 
 function slug_(title) {
@@ -471,8 +503,20 @@ function ghPutText_(path, text, message) {
   ghPutBase64_(path, Utilities.base64Encode(text, Utilities.Charset.UTF_8), message);
 }
 
-function ghPutBase64_(path, base64, message) {
-  const file = ghGetFile_(path);
+// { namaFail: sha } bagi satu folder di GitHub ({} jika folder tiada).
+function ghListDir_(path) {
+  const res = ghRequest_(path);
+  if (res.getResponseCode() === 404) return {};
+  if (res.getResponseCode() !== 200) throw new Error('GitHub ' + res.getResponseCode() + ': ' + res.getContentText().slice(0, 300));
+  const out = {};
+  const list = JSON.parse(res.getContentText());
+  (Array.isArray(list) ? list : []).forEach(f => { out[f.name] = f.sha; });
+  return out;
+}
+
+// knownSha: undefined = semak di GitHub; null = fail baharu; teks = sha fail sedia ada.
+function ghPutBase64_(path, base64, message, knownSha) {
+  const file = knownSha === undefined ? ghGetFile_(path) : (knownSha ? { sha: knownSha } : null);
   const body = {
     message: message,
     content: base64,

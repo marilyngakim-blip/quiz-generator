@@ -181,3 +181,9 @@ Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 | `quizzes/index.json` | Senarai kuiz – dijana oleh Sheet |
 | `config.js` | URL Web App – dijana oleh Sheet |
 | `apps-script/Code.gs` | Skrip untuk Google Sheet |
+
+## Kuiz Matematik Tingkatan 4 (sekolah)
+
+Sistem berasingan dengan log masuk murid (Kelas → Nama → PIN), ranking kelas dan laman guru ada dalam
+folder [`t4/`](t4/). Lihat [`t4/README.md`](t4/README.md). Ia menggunakan Google Sheet dan Apps Script
+sendiri, jadi kuiz di atas tidak terjejas.

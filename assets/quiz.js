@@ -41,8 +41,16 @@
     const kid = currentKid();
     const nama = el('input', { type: 'text', autocomplete: 'name', maxlength: '80' });
     if (kid) nama.value = kid.nama;
-    app.append(el('div', { class: 'card lift' },
-      el('label', { class: 'field' }, 'Nama', nama)));
+    const nameCard = el('div', { class: 'card lift' }, el('label', { class: 'field' }, 'Nama', nama));
+    app.append(nameCard);
+    // Anak sudah dipilih di muka depan: paparkan nama dalam satu baris kecil supaya soalan lebih dekat.
+    if (kid) {
+      const change = el('button', { type: 'button', class: 'linkish', text: 'Tukar' });
+      const line = el('div', { class: 'who-line' }, el('span', { text: (kid.emoji || '👤') + ' ' + kid.nama }), change);
+      nameCard.classList.add('compact');
+      nameCard.prepend(line);
+      change.addEventListener('click', () => { nameCard.classList.remove('compact'); nama.focus(); });
+    }
 
     const form = el('form');
     quiz.questions.forEach((q, i) => {
@@ -62,22 +70,58 @@
       form.append(card);
     });
 
+    /* ---------- Satu soalan satu paparan ---------- */
+    const N = quiz.questions.length;
+    const cards = [...form.querySelectorAll('.q-card')];
+    let cur = 0;
     const bar = el('i');
-    const barLabel = el('div', { class: 'progress-label' });
+    const barLabel = el('div', { class: 'progress-label' });  // "Soalan 2 / 28 · 1 dijawab"
+    const saveLabel = el('div', { class: 'save-label' });
+    const listBtn = el('button', { type: 'button', class: 'btn ghost list-btn', text: '☰ Senarai soalan' });
+    const grid = el('div', { class: 'q-grid hidden' });
+    const gridBtns = cards.map((_, i) => {
+      const b = el('button', { type: 'button', text: String(i + 1), 'aria-label': 'Soalan ' + (i + 1) });
+      b.addEventListener('click', () => { grid.classList.add('hidden'); showQ(i); });
+      return b;
+    });
+    grid.append(el('div', { class: 'legend', text: '⬛ sudah dijawab · ⬜ belum dijawab · tekan nombor untuk pergi ke soalan' }),
+      ...gridBtns, el('button', { type: 'submit', class: 'btn teal grid-submit', text: 'Hantar jawapan 🚀' }));
+    listBtn.addEventListener('click', () => grid.classList.toggle('hidden'));
+    const prevBtn = el('button', { type: 'button', class: 'btn ghost', text: '← Sebelum' });
+    const nextBtn = el('button', { type: 'button', class: 'btn', text: 'Seterusnya →' });
+    const btn = el('button', { type: 'submit', class: 'btn teal', text: 'Hantar jawapan 🚀' });
     const msg = el('p', { class: 'error' });
-    const btn = el('button', { type: 'submit', class: 'btn', text: 'Hantar jawapan 🚀' });
-    form.append(el('div', { class: 'sticky' }, el('div', { class: 'progress' }, bar), barLabel, msg, btn));
+    prevBtn.addEventListener('click', () => showQ(cur - 1));
+    nextBtn.addEventListener('click', () => showQ(cur + 1));
+    form.prepend(el('div', { class: 'quiz-top' }, barLabel, el('div', { class: 'progress' }, bar), saveLabel), listBtn, grid);
+    form.append(msg, el('div', { class: 'q-nav' }, prevBtn, nextBtn, btn));
     app.append(form);
+
+    function showQ(i) {
+      cur = Math.max(0, Math.min(N - 1, i));
+      cards.forEach((c, k) => c.classList.toggle('hidden', k !== cur));
+      prevBtn.disabled = cur === 0;
+      nextBtn.classList.toggle('hidden', cur === N - 1);
+      btn.classList.toggle('hidden', cur !== N - 1);
+      updateProgress();
+      const topEl = form.querySelector('.quiz-top');
+      if (topEl.getBoundingClientRect().top < 0) topEl.scrollIntoView({ block: 'start' });
+    }
 
     let cloudPending = null; // draf yang menunggu untuk dihantar ke Google Sheet
     function updateProgress() {
       const done = form.querySelectorAll('input[type=radio]:checked').length;
-      bar.style.width = (done / quiz.questions.length * 100) + '%';
-      const status = !cloud ? ' · 💾 disimpan automatik'
-        : cloudState === 'saving' ? ' · ⏳ menyimpan…'
-        : cloudState === 'fail' ? ' · 💾 disimpan dalam peranti ini sahaja'
-        : ' · ☁️ disimpan';
-      barLabel.textContent = done + ' / ' + quiz.questions.length + ' dijawab' + (done ? status : '');
+      bar.style.width = (done / N * 100) + '%';
+      barLabel.textContent = 'Soalan ' + (cur + 1) + ' / ' + N + ' · ' + done + ' dijawab';
+      saveLabel.textContent = !done ? 'Belum menjawab'
+        : !cloud ? '💾 Disimpan automatik'
+        : cloudState === 'saving' ? '⏳ Menyimpan…'
+        : cloudState === 'fail' ? '💾 Disimpan dalam peranti ini sahaja'
+        : '☁️ Disimpan';
+      gridBtns.forEach((b, k) => {
+        b.classList.toggle('done', !!form.querySelector('input[name="q' + k + '"]:checked'));
+        b.classList.toggle('cur', k === cur);
+      });
     }
 
     /* ---------- Simpan jawapan separuh jalan ---------- */
@@ -136,10 +180,6 @@
       });
       updateProgress();
     }
-    function firstUnanswered() {
-      const i = collect().findIndex(a => !a);
-      return i < 0 ? null : document.getElementById('q' + (i + 1));
-    }
 
     const banner = el('div', { class: 'card resume hidden' });
     app.insertBefore(banner, form);
@@ -149,8 +189,9 @@
       const go = el('button', { type: 'button', class: 'btn', text: '➜ Sambung menjawab' });
       const reset = el('button', { type: 'button', class: 'btn ghost', text: '🔄 Mula semula' });
       go.addEventListener('click', () => {
-        const t = firstUnanswered() || form.querySelector('.sticky');
-        t.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const k = collect().findIndex(a => !a);
+        showQ(k < 0 ? N - 1 : k);
+        form.querySelector('.quiz-top').scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
       reset.addEventListener('click', () => {
         if (!confirm('Padam semua jawapan yang disimpan dan mula semula?')) return;
@@ -237,6 +278,14 @@
     loadPrev();
     updateProgress();
 
+    function setBusy(busy) {
+      form.querySelectorAll('button[type=submit]').forEach(b => {
+        b.disabled = busy;
+        b.textContent = busy ? 'Menyemak… ⏳' : 'Hantar jawapan 🚀';
+      });
+    }
+    showQ(0);
+
     form.addEventListener('submit', async (ev) => {
       ev.preventDefault();
       msg.textContent = '';
@@ -254,8 +303,7 @@
 
       clearTimeout(cloudTimer);
       cloudPending = null;
-      btn.disabled = true;
-      btn.textContent = 'Menyemak… ⏳';
+      setBusy(true);
       try {
         const result = quiz.demoKey
           ? gradeLocally(quiz, answers)
@@ -275,8 +323,7 @@
         showResult(quiz, form, result, nama);
       } catch (e) {
         msg.textContent = e.message || 'Jawapan tidak dapat dihantar. Cuba lagi.';
-        btn.disabled = false;
-        btn.textContent = 'Hantar jawapan 🚀';
+        setBusy(false);
       }
     });
   }
@@ -364,7 +411,9 @@
   function showResult(quiz, form, result, nama) {
     nama.disabled = true;
     form.querySelectorAll('input').forEach(i => { i.disabled = true; });
-    form.querySelector('.sticky').remove();
+    // Semakan: paparkan semua soalan sekali gus (betul/salah).
+    form.querySelectorAll('.quiz-top, .list-btn, .q-grid, .q-nav').forEach(x => x.remove());
+    form.querySelectorAll('.q-card').forEach(c => c.classList.remove('hidden'));
 
     result.results.forEach((r, i) => {
       const card = document.getElementById('q' + (i + 1));

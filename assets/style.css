@@ -266,3 +266,31 @@ footer b { font-family: 'Fredoka', sans-serif; color: var(--orange); font-weight
 .q-card .opt:has(input:disabled):not(.correct):not(.wrong):hover { background: #fff; }
 .q-card .badge, .q-card .badge.ok, .q-card .badge.bad { color: #000; }
 .q-card .muted { color: #000; font-weight: 700; }
+
+/* ---------- Satu soalan satu paparan ---------- */
+.quiz-top { position: sticky; top: 0; z-index: 10; background: var(--bg); padding: 12px 0 10px; margin-top: 6px; }
+.quiz-top .progress-label { text-align: left; font-weight: 800; color: var(--ink); font-size: 1.05rem; margin: 0 0 8px; }
+.quiz-top .progress { max-width: none; margin: 0 0 6px; }
+.save-label { font-size: .85rem; color: var(--muted); font-weight: 700; }
+.list-btn { width: 100%; margin: 4px 0; }
+.q-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); gap: 8px;
+  background: #fff; border-radius: 18px; padding: 14px; margin: 10px 0; box-shadow: var(--shadow);
+}
+.q-grid > button:not(.btn) {
+  aspect-ratio: 1; border: 2px solid #000; background: #fff; color: #000; border-radius: 12px;
+  font: inherit; font-weight: 800; cursor: pointer;
+}
+.q-grid > button.done { background: #000; color: #fff; }
+.q-grid > button.cur { outline: 3px solid var(--orange); outline-offset: 2px; }
+.q-grid .legend { grid-column: 1 / -1; font-size: .82rem; color: var(--muted); font-weight: 700; }
+.q-grid .grid-submit { grid-column: 1 / -1; margin-top: 6px; }
+.q-nav { display: flex; gap: 12px; margin: 6px 0 28px; }
+.q-nav .btn { flex: 1; padding: 14px 10px; }
+.q-nav .btn:disabled { opacity: .45; cursor: default; }
+
+.card.compact { padding: 10px 16px; }
+.card.compact .field { display: none; }
+.card:not(.compact) .who-line { display: none; }
+.who-line { display: flex; justify-content: space-between; align-items: center; font-weight: 800; }
+.linkish { background: none; border: 0; color: var(--orange); font: inherit; font-weight: 800; cursor: pointer; text-decoration: underline; }

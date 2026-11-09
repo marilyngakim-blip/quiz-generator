@@ -1,0 +1,313 @@
+{
+  "id": "geografi-tingkatan-2-7.1-7.2",
+  "title": "Geografi Tingkatan 2 (7.1-7.2)",
+  "createdAt": "2026-11-09T15:10:44.401Z",
+  "questions": [
+    {
+      "q": "Benua Asia boleh dibahagikan kepada berapa zon iklim?",
+      "options": [
+        "Tiga",
+        "Lima",
+        "Enam",
+        "Empat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah empat zon iklim di Asia?",
+      "options": [
+        "Zon kering, zon lembap, zon salji dan zon hujan",
+        "Zon sejuk, zon sejuk sederhana, zon panas sederhana dan zon panas",
+        "Zon tropika, zon gurun, zon kutub dan zon laut",
+        "Zon utara, zon selatan, zon timur dan zon barat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Iklim Tundra terletak dalam zon",
+      "options": [
+        "Sejuk sederhana",
+        "Panas",
+        "Panas sederhana",
+        "Sejuk"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Iklim Siberia dan iklim Laurentia terletak dalam zon",
+      "options": [
+        "Panas",
+        "Sejuk",
+        "Panas sederhana",
+        "Sejuk sederhana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Iklim Mediterranean, iklim Steppe dan iklim China terletak dalam zon",
+      "options": [
+        "Panas sederhana",
+        "Panas",
+        "Sejuk",
+        "Sejuk sederhana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara negara berikut, yang manakah mengalami iklim Gurun Panas?",
+      "options": [
+        "Arab Saudi",
+        "Laos",
+        "Brunei Darussalam",
+        "Korea Selatan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara negara berikut, yang manakah mengalami iklim Monsun Tropika?",
+      "options": [
+        "Thailand",
+        "Syria",
+        "Oman",
+        "Singapura"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara negara berikut, yang manakah mengalami iklim Mediterranean?",
+      "options": [
+        "Myanmar",
+        "Turki",
+        "Mongolia",
+        "Malaysia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara negara berikut, yang manakah mengalami iklim Steppe?",
+      "options": [
+        "Mongolia",
+        "India",
+        "Lubnan",
+        "Brunei Darussalam"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kawasan manakah mengalami iklim Tundra?",
+      "options": [
+        "Arab Saudi",
+        "Rusia (utara)",
+        "Malaysia",
+        "China (selatan)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara negara berikut, yang manakah mengalami iklim Laurentia?",
+      "options": [
+        "Korea Selatan",
+        "Thailand",
+        "Korea Utara",
+        "Iraq"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara negara berikut, yang manakah mengalami iklim China?",
+      "options": [
+        "Korea Selatan",
+        "Oman",
+        "Korea Utara",
+        "Mongolia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kerpasan di kawasan beriklim Tundra turun dalam bentuk",
+      "options": [
+        "Hujan perolakan sepanjang tahun",
+        "Hujan bukit",
+        "Salji",
+        "Hujan asid"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Suhu musim panas iklim Tundra tidak melebihi",
+      "options": [
+        "10°C",
+        "32°C",
+        "20°C",
+        "27°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Julat suhu harian iklim Gurun Panas adalah tinggi, iaitu kira-kira",
+      "options": [
+        "5°C",
+        "50°C",
+        "25°C",
+        "1°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Iklim manakah mengalami ribut salji pada musim sejuk dan suhu musim panas kira-kira 21°C?",
+      "options": [
+        "Mediterranean",
+        "Gurun Panas",
+        "Steppe",
+        "Khatulistiwa"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah benar tentang iklim Gurun Panas? I. Suhu musim panas 32°C hingga 38°C II. Jumlah hujan tahunan kurang daripada 250 mm III. Julat suhu harian kira-kira 25°C IV. Kerpasan turun dalam bentuk salji",
+      "options": [
+        "I, II, III dan IV",
+        "I, II dan III sahaja",
+        "II, III dan IV sahaja",
+        "I dan IV sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Min suhu tahunan iklim Khatulistiwa ialah",
+      "options": [
+        "15°C",
+        "35°C",
+        "21°C",
+        "27°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jumlah hujan tahunan iklim Monsun Tropika ialah",
+      "options": [
+        "Kira-kira 500 mm",
+        "Kurang daripada 250 mm",
+        "250 mm hingga 300 mm",
+        "1 000 mm hingga 2 000 mm"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jepun (selatan) mengalami iklim",
+      "options": [
+        "China",
+        "Laurentia",
+        "Tundra",
+        "Gurun Panas"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Suhu musim panas iklim Siberia ialah",
+      "options": [
+        "15°C hingga 20°C",
+        "32°C hingga 38°C",
+        "Tidak melebihi 5°C",
+        "28°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jumlah hujan tahunan iklim China ialah",
+      "options": [
+        "Melebihi 2 600 mm",
+        "Kurang daripada 250 mm",
+        "500 mm hingga 1 500 mm",
+        "250 mm hingga 300 mm"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan zon iklim Benua Asia mengikut garisan lintang. Apakah zon P?",
+      "options": [
+        "Zon panas",
+        "Zon sejuk",
+        "Zon panas sederhana",
+        "Zon sejuk sederhana"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S14_Q29.png"
+    },
+    {
+      "q": "Berdasarkan rajah zon iklim, apakah zon R?",
+      "options": [
+        "Zon sejuk",
+        "Zon sejuk sederhana",
+        "Zon panas sederhana",
+        "Zon panas"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S14_Q29.png"
+    },
+    {
+      "q": "Jadual di bawah menunjukkan ciri iklim empat kawasan. Apakah iklim kawasan A?",
+      "options": [
+        "Mediterranean",
+        "Khatulistiwa",
+        "Gurun Panas",
+        "Monsun Tropika"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S14_Q31.png"
+    },
+    {
+      "q": "Berdasarkan jadual, apakah iklim kawasan B?",
+      "options": [
+        "Steppe",
+        "Gurun Panas",
+        "Laurentia",
+        "Khatulistiwa"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S14_Q31.png"
+    },
+    {
+      "q": "Berdasarkan jadual, apakah iklim kawasan C?",
+      "options": [
+        "Siberia",
+        "China",
+        "Monsun Tropika",
+        "Tundra"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S14_Q31.png"
+    },
+    {
+      "q": "Berdasarkan jadual, apakah iklim kawasan D?",
+      "options": [
+        "Gurun Panas",
+        "Monsun Tropika",
+        "Laurentia",
+        "Khatulistiwa"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S14_Q31.png"
+    },
+    {
+      "q": "Apakah perbezaan utama antara iklim Malaysia dengan iklim Iraq?",
+      "options": [
+        "Malaysia kering, Iraq lembap",
+        "Malaysia lembap dengan hujan banyak, Iraq kering dengan hujan sedikit",
+        "Kedua-duanya mengalami salji",
+        "Kedua-duanya mengalami iklim Tundra"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang murid ingin melawat negara yang beriklim Mediterranean. Negara manakah patut dipilih?",
+      "options": [
+        "Mongolia",
+        "Lubnan",
+        "Laos",
+        "Brunei Darussalam"
+      ],
+      "marks": 1
+    }
+  ]
+}

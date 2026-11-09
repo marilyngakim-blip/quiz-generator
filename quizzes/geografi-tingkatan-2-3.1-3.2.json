@@ -1,13 +1,13 @@
 {
   "id": "geografi-tingkatan-2-3.1-3.2",
   "title": "Geografi Tingkatan 2 (3.1-3.2)",
-  "createdAt": "2026-11-02T04:04:40.779Z",
+  "createdAt": "2026-11-09T15:06:35.768Z",
   "questions": [
     {
       "q": "Sistem suria terdiri daripada matahari dan berapa buah planet utama?",
       "options": [
-        "Sembilan",
         "Tujuh",
+        "Sembilan",
         "Lapan",
         "Sepuluh"
       ],
@@ -16,29 +16,29 @@
     {
       "q": "Apakah dua cara pergerakan bumi?",
       "options": [
-        "Putaran bumi dan putaran bulan",
-        "Peredaran bumi dan peredaran matahari",
         "Gerhana bumi dan pasang surut",
-        "Putaran bumi dan peredaran bumi"
+        "Peredaran bumi dan peredaran matahari",
+        "Putaran bumi dan peredaran bumi",
+        "Putaran bumi dan putaran bulan"
       ],
       "marks": 1
     },
     {
       "q": "Apakah bentuk orbit bumi mengelilingi matahari?",
       "options": [
-        "Segi empat",
-        "Elips (bujur)",
         "Bulat sempurna",
-        "Garis lurus"
+        "Garis lurus",
+        "Segi empat",
+        "Elips (bujur)"
       ],
       "marks": 1
     },
     {
       "q": "Apakah maksud orbit?",
       "options": [
-        "Kecondongan paksi bumi pada satah tegak",
-        "Garisan khayalan yang melalui Kutub Utara dan Kutub Selatan",
         "Daya tarikan ke arah pusat bumi",
+        "Garisan khayalan yang melalui Kutub Utara dan Kutub Selatan",
+        "Kecondongan paksi bumi pada satah tegak",
         "Laluan yang diikuti oleh planet dan satelit mengelilingi matahari"
       ],
       "marks": 1
@@ -47,49 +47,29 @@
       "q": "Berapakah kecondongan paksi bumi pada satah tegak?",
       "options": [
         "90°",
-        "23½°",
         "66½°",
+        "23½°",
         "45°"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Bumi berputar pada paksinya dari arah",
-      "options": [
-        "Utara ke selatan",
-        "Barat ke timur",
-        "Timur ke barat",
-        "Selatan ke utara"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Berapa lamakah masa yang diambil untuk satu putaran bumi yang lengkap?",
-      "options": [
-        "30 hari",
-        "365¼ hari",
-        "24 jam",
-        "12 jam"
       ],
       "marks": 1
     },
     {
       "q": "Putaran bumi adalah mengikut arah",
       "options": [
-        "Lawan pusingan jam",
-        "Utara ke selatan",
+        "Pusingan jam",
         "Timur ke barat",
-        "Pusingan jam"
+        "Lawan pusingan jam",
+        "Utara ke selatan"
       ],
       "marks": 1
     },
     {
       "q": "Bahagian bumi yang menghadap matahari akan mengalami",
       "options": [
+        "Waktu malam",
         "Waktu siang",
         "Gerhana",
-        "Air surut",
-        "Waktu malam"
+        "Air surut"
       ],
       "marks": 1
     },
@@ -97,37 +77,37 @@
       "q": "Dalam satu jam, bumi berputar sebanyak",
       "options": [
         "1° longitud",
-        "15° longitud",
+        "4° longitud",
         "24° longitud",
-        "4° longitud"
+        "15° longitud"
       ],
       "marks": 1
     },
     {
       "q": "Kesan putaran bumi dalam tempoh 24 jam telah mewujudkan berapa zon waktu?",
       "options": [
-        "360",
-        "12",
+        "24",
         "15",
-        "24"
+        "12",
+        "360"
       ],
       "marks": 1
     },
     {
       "q": "Putaran bumi dari barat ke timur menghasilkan daya yang dinamakan",
       "options": [
-        "Daya apungan",
-        "Daya magnet",
         "Daya koriolis",
-        "Daya geseran"
+        "Daya apungan",
+        "Daya geseran",
+        "Daya magnet"
       ],
       "marks": 1
     },
     {
       "q": "Fenomena pasang surut berlaku sebanyak berapa kali dalam tempoh 24 jam?",
       "options": [
-        "Sekali",
         "Tiga kali",
+        "Sekali",
         "Empat kali",
         "Dua kali"
       ],
@@ -136,60 +116,30 @@
     {
       "q": "Pasang surut berlaku disebabkan oleh",
       "options": [
-        "Tarikan graviti antara bumi dengan bulan atau bumi dengan matahari",
         "Daya koriolis di hemisfera selatan",
+        "Tarikan graviti antara bumi dengan bulan atau bumi dengan matahari",
         "Tiupan angin monsun",
         "Peredaran bumi mengelilingi matahari"
       ],
       "marks": 1
     },
     {
-      "q": "Antara berikut, yang manakah BUKAN kesan putaran bumi?",
-      "options": [
-        "Kejadian pasang surut",
-        "Perbezaan waktu tempatan",
-        "Kejadian siang dan malam",
-        "Kejadian empat musim"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Bumi berputar 1° longitud dalam masa",
-      "options": [
-        "15 minit",
-        "4 minit",
-        "60 minit",
-        "1 minit"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Di hemisfera utara, tiupan angin lazim terbias ke arah",
       "options": [
-        "Kiri",
         "Tidak terbias",
+        "Kanan",
         "Atas",
-        "Kanan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Di hemisfera selatan, tiupan angin lazim terbias ke arah",
-      "options": [
-        "Tidak terbias",
-        "Atas",
-        "Kiri",
-        "Kanan"
+        "Kiri"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan kedudukan matahari, bumi dan bulan dalam satu garis lurus. Apakah jenis pasang surut yang berlaku?",
       "options": [
+        "Air surut kecil",
         "Pasang tegak",
-        "Pasang anak",
         "Pasang perbani",
-        "Air surut kecil"
+        "Pasang anak"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S5_Q19.png"
@@ -219,19 +169,19 @@
       "q": "Apakah maksud daya koriolis?",
       "options": [
         "Daya pesongan aliran udara yang terhasil kesan putaran bumi pada paksinya",
+        "Daya yang menggerakkan bumi mengelilingi matahari",
         "Daya tarikan bulan terhadap air laut",
-        "Daya yang menyebabkan gerhana matahari",
-        "Daya yang menggerakkan bumi mengelilingi matahari"
+        "Daya yang menyebabkan gerhana matahari"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan kedudukan bumi dan bulan. Kawasan manakah mengalami air pasang?",
       "options": [
-        "A dan B",
+        "C dan D",
         "B dan D",
-        "A dan C",
-        "C dan D"
+        "A dan B",
+        "A dan C"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S5_Q23.png"
@@ -239,39 +189,29 @@
     {
       "q": "Pasang perbani juga dikenali sebagai",
       "options": [
-        "Pasang anak",
         "Air pasang kecil",
         "Air surut besar",
-        "Air pasang besar"
+        "Air pasang besar",
+        "Pasang anak"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan cahaya matahari yang memancar ke arah bumi. Apakah yang sedang dialami oleh kawasan Q?",
       "options": [
-        "Musim panas",
         "Air pasang",
         "Waktu malam",
-        "Waktu siang"
+        "Waktu siang",
+        "Musim panas"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S5_Q25.png"
     },
     {
-      "q": "Setiap satu zon waktu mewakili perbezaan masa sebanyak",
-      "options": [
-        "24 jam",
-        "15 minit",
-        "4 minit",
-        "Satu jam"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Planet manakah terletak di antara Zuhrah dengan Marikh?",
       "options": [
-        "Zuhal",
         "Bumi",
+        "Zuhal",
         "Musytari",
         "Utarid"
       ],
@@ -280,10 +220,10 @@
     {
       "q": "Antara berikut, yang manakah kesan putaran bumi? I. Kejadian siang dan malam II. Kejadian empat musim III. Pembiasan angin lazim IV. Kejadian pasang surut",
       "options": [
-        "II dan III sahaja",
+        "I, III dan IV sahaja",
         "I dan II sahaja",
         "I, II, III dan IV",
-        "I, III dan IV sahaja"
+        "II dan III sahaja"
       ],
       "marks": 1
     },
@@ -291,29 +231,29 @@
       "q": "Apakah maksud graviti?",
       "options": [
         "Daya tarikan yang menggerakkan jasad ke arah pusat bulan atau bumi",
-        "Laluan planet mengelilingi matahari",
+        "Daya pesongan aliran udara",
         "Kecondongan paksi bumi",
-        "Daya pesongan aliran udara"
+        "Laluan planet mengelilingi matahari"
       ],
       "marks": 1
     },
     {
       "q": "Semasa kawasan B dan D mengalami air pasang, kawasan A dan C mengalami air surut kerana",
       "options": [
-        "Air laut tertarik ke kawasan B dan D",
-        "Kawasan A dan C menghadap bulan",
+        "Bumi berhenti berputar seketika",
         "Daya koriolis menolak air ke A dan C",
-        "Bumi berhenti berputar seketika"
+        "Kawasan A dan C menghadap bulan",
+        "Air laut tertarik ke kawasan B dan D"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan waktu tempatan di beberapa tempat. Pada pukul 11.30 malam hari Rabu di London (0°), pukul berapakah di Lahore (75°T)?",
       "options": [
-        "4.30 pagi Khamis",
         "6.30 pagi Khamis",
+        "6.30 petang Rabu",
         "4.30 petang Rabu",
-        "6.30 petang Rabu"
+        "4.30 pagi Khamis"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S5_Q31.png"
@@ -322,90 +262,50 @@
       "q": "Berdasarkan rajah, pukul berapakah di Alaska (150°B) ketika waktu di London (0°) ialah 11.30 malam hari Rabu?",
       "options": [
         "1.30 pagi Khamis",
-        "9.30 malam Rabu",
         "1.30 petang Rabu",
+        "9.30 malam Rabu",
         "9.30 pagi Khamis"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S5_Q31.png"
     },
     {
-      "q": "Tempat X terletak pada 30°T dan tempat Y pada 60°T. Berapakah perbezaan waktu antara kedua-dua tempat?",
-      "options": [
-        "30 minit",
-        "2 jam",
-        "4 jam",
-        "1 jam"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Waktu di Garisan Meridian Pangkal (0°) ialah 12.00 tengah hari. Pukul berapakah di tempat yang terletak pada 45°T?",
-      "options": [
-        "3.00 petang",
-        "12.45 petang",
-        "3.00 pagi",
-        "9.00 pagi"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Perlawanan di Rio de Janeiro (45°B) bermula pukul 8.30 malam hari Rabu. Pukul berapakah di London (0°)?",
       "options": [
-        "11.30 malam Rabu",
-        "11.30 pagi Rabu",
         "5.30 petang Rabu",
-        "2.30 pagi Khamis"
+        "2.30 pagi Khamis",
+        "11.30 malam Rabu",
+        "11.30 pagi Rabu"
       ],
       "marks": 1
     },
     {
       "q": "Jika bumi tidak berputar pada paksinya, apakah kesan yang paling mungkin?",
       "options": [
-        "Tiada fenomena gerhana",
         "Tiada kejadian siang dan malam yang silih berganti",
-        "Bumi tidak lagi beredar mengelilingi matahari",
-        "Tiada kejadian empat musim"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Angin di hemisfera utara bertiup dari utara ke selatan. Ke arah manakah angin itu terbias?",
-      "options": [
-        "Tidak terbias",
-        "Timur",
-        "Barat",
-        "Utara"
+        "Tiada kejadian empat musim",
+        "Tiada fenomena gerhana",
+        "Bumi tidak lagi beredar mengelilingi matahari"
       ],
       "marks": 1
     },
     {
       "q": "Seorang nelayan ingin mengetahui bila paras air laut paling tinggi. Keadaan ini berlaku apabila",
       "options": [
-        "Matahari tegak di Garisan Jadi",
+        "Bumi berada pada kedudukan afelion",
         "Bulan, bumi dan matahari berada pada sudut tegak",
-        "Bulan, bumi dan matahari berada dalam satu garis lurus",
-        "Bumi berada pada kedudukan afelion"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Berapakah perbezaan waktu di antara tempat yang terletak pada 120°T dengan Garisan Meridian Pangkal (0°)?",
-      "options": [
-        "120 minit",
-        "12 jam",
-        "4 jam",
-        "8 jam"
+        "Matahari tegak di Garisan Jadi",
+        "Bulan, bumi dan matahari berada dalam satu garis lurus"
       ],
       "marks": 1
     },
     {
       "q": "Sebuah perlawanan di Rio de Janeiro (45°B) disiarkan secara langsung pada pukul 8.30 malam hari Rabu. Pukul berapakah siaran itu ditonton di tempat yang terletak pada 15°T?",
       "options": [
-        "11.30 malam Rabu",
         "12.30 tengah hari Khamis",
         "12.30 pagi Khamis",
-        "4.30 petang Rabu"
+        "4.30 petang Rabu",
+        "11.30 malam Rabu"
       ],
       "marks": 1
     }

@@ -1,54 +1,34 @@
 {
   "id": "geografi-tingkatan-2-1.3-1.4",
   "title": "Geografi Tingkatan 2 (1.3-1.4)",
-  "createdAt": "2026-11-02T04:02:05.269Z",
+  "createdAt": "2026-11-09T15:04:27.682Z",
   "questions": [
-    {
-      "q": "Alat manakah yang paling sesuai untuk mengukur jarak melengkung seperti sungai yang berliku pada peta?",
-      "options": [
-        "Kompas",
-        "Jangka tolok",
-        "Protraktor",
-        "Benang"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Alat manakah yang digunakan untuk mengukur jarak lurus di antara dua tempat pada peta?",
-      "options": [
-        "Protraktor",
-        "Benang",
-        "Jangka tolok",
-        "Kompas"
-      ],
-      "marks": 1
-    },
     {
       "q": "Jarak di antara dua tempat pada peta dapat diukur secara",
       "options": [
+        "Lurus atau melengkung",
         "Mutlak atau relatif",
-        "Utara atau selatan",
         "Mendatar atau menegak",
-        "Lurus atau melengkung"
+        "Utara atau selatan"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah contoh jarak melengkung pada peta?",
       "options": [
-        "Jarak lurus dari hospital ke sekolah",
-        "Sungai yang berliku",
         "Garisan lurus di antara dua tanda ×",
-        "Jalan raya yang lurus"
+        "Jarak lurus dari hospital ke sekolah",
+        "Jalan raya yang lurus",
+        "Sungai yang berliku"
       ],
       "marks": 1
     },
     {
       "q": "Apakah langkah pertama untuk mengukur jarak di antara dua tempat pada peta?",
       "options": [
+        "Tandakan × di kedua-dua tempat",
         "Lukiskan garisan lurus pada skala",
         "Darabkan jarak dengan nilai skala",
-        "Tandakan × di kedua-dua tempat",
         "Letakkan pembaris pada peta"
       ],
       "marks": 1
@@ -56,10 +36,10 @@
     {
       "q": "Selepas menandakan × di kedua-dua tempat, apakah langkah seterusnya untuk mengukur jarak lurus?",
       "options": [
-        "Lukiskan garisan lurus yang menyambungkan kedua-dua tanda ×",
-        "Pindahkan jangka tolok ke petunjuk peta",
         "Tukarkan skala penyata kepada pecahan wakilan",
-        "Rentangkan benang di atas pembaris"
+        "Rentangkan benang di atas pembaris",
+        "Pindahkan jangka tolok ke petunjuk peta",
+        "Lukiskan garisan lurus yang menyambungkan kedua-dua tanda ×"
       ],
       "marks": 1
     },
@@ -78,8 +58,8 @@
       "options": [
         "1.1 km",
         "12 km",
-        "110 km",
-        "11 km"
+        "11 km",
+        "110 km"
       ],
       "marks": 1
     },
@@ -97,19 +77,19 @@
       "q": "Semasa mengukur jarak sungai menggunakan benang, benang itu diletakkan",
       "options": [
         "Secara lurus dari titik pertama ke titik kedua",
-        "Di atas skala penyata peta",
+        "Mengikut lengkungan sungai dari titik ke titik",
         "Mengikut garisan grid peta",
-        "Mengikut lengkungan sungai dari titik ke titik"
+        "Di atas skala penyata peta"
       ],
       "marks": 1
     },
     {
       "q": "Selepas benang ditandakan pada titik akhir, apakah yang perlu dilakukan?",
       "options": [
-        "Rentangkan benang di atas pembaris dan ukur jaraknya",
-        "Potong benang mengikut garisan grid",
         "Letakkan benang di atas tajuk peta",
-        "Gulung benang dan letakkan di atas petunjuk"
+        "Gulung benang dan letakkan di atas petunjuk",
+        "Potong benang mengikut garisan grid",
+        "Rentangkan benang di atas pembaris dan ukur jaraknya"
       ],
       "marks": 1
     },
@@ -126,8 +106,8 @@
     {
       "q": "Jarak di antara dua tempat di atas peta biasanya diukur dalam unit",
       "options": [
-        "Sentimeter",
         "Minit",
+        "Sentimeter",
         "Kilometer",
         "Ringgit"
       ],
@@ -137,130 +117,90 @@
       "q": "Bagaimanakah jarak sebenar dikira?",
       "options": [
         "Jarak pada peta dibahagi dengan nilai skala",
-        "Jarak pada peta ditambah dengan nilai skala",
         "Jarak pada peta didarab dengan nilai skala",
-        "Nilai skala ditolak dengan jarak pada peta"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Jarak Sungai Jernih dari titik C ke titik D pada peta ialah 8 cm. Skala peta ialah 1 : 100 000. Berapakah jarak sebenar sungai itu?",
-      "options": [
-        "0.8 km",
-        "800 km",
-        "80 km",
-        "8 km"
+        "Nilai skala ditolak dengan jarak pada peta",
+        "Jarak pada peta ditambah dengan nilai skala"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan jangka tolok yang diletakkan di atas skala lurus peta selepas mengukur jarak sekolah ke pejabat pos. Berapakah jarak sebenar di antara kedua-dua tempat itu?",
       "options": [
+        "10 km",
         "6 km",
         "12 km",
-        "10 km",
         "14 km"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S2_Q16.png"
     },
     {
-      "q": "Jarak lurus dua tempat pada peta ialah 5 cm. Skala peta ialah 1 : 50 000. Berapakah jarak sebenar?",
-      "options": [
-        "5 km",
-        "2.5 km",
-        "25 km",
-        "0.25 km"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Jarak dua bandar pada peta ialah 7 cm. Skala peta ialah 1 : 200 000. Berapakah jarak sebenar?",
       "options": [
         "140 km",
         "14 km",
-        "1.4 km",
-        "7 km"
+        "7 km",
+        "1.4 km"
       ],
       "marks": 1
     },
     {
       "q": "Jarak lurus dari hospital ke rumah Khairul pada peta ialah 4.5 cm. Skala peta ialah 1 cm mewakili 1 km. Berapakah jarak sebenar?",
       "options": [
-        "4.5 km",
         "0.45 km",
-        "45 km",
-        "9 km"
+        "4.5 km",
+        "9 km",
+        "45 km"
       ],
       "marks": 1
     },
     {
       "q": "Antara pernyataan berikut, yang manakah BENAR tentang alat mengukur jarak pada peta? I. Jangka tolok digunakan untuk mengukur jarak lurus II. Benang digunakan untuk mengukur jarak melengkung III. Jalur kertas boleh mengukur jarak lurus dan jarak melengkung IV. Protraktor digunakan untuk mengukur jarak melengkung",
       "options": [
-        "I, II, III dan IV",
         "II, III dan IV sahaja",
-        "I dan II sahaja",
-        "I, II dan III sahaja"
+        "I, II, III dan IV",
+        "I, II dan III sahaja",
+        "I dan II sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah jarak mengikut sungai dari titik C ke titik D lebih panjang daripada jarak lurus di antara kedua-dua titik itu?",
       "options": [
-        "Jarak lurus diukur dalam unit meter",
-        "Sungai itu diukur menggunakan jangka tolok",
         "Sungai itu berliku-liku",
-        "Skala peta berubah mengikut sungai"
+        "Skala peta berubah mengikut sungai",
+        "Jarak lurus diukur dalam unit meter",
+        "Sungai itu diukur menggunakan jangka tolok"
       ],
       "marks": 1
     },
     {
       "q": "Jarak dari balai polis ke sekolah melalui jalan raya yang berliku paling sesuai diukur menggunakan",
       "options": [
-        "Jangka tolok",
-        "Benang",
+        "Kompas",
         "Protraktor",
-        "Kompas"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Skala peta ialah 1 cm mewakili 2 km. Jarak sebenar dua tempat ialah 10 km. Berapakah jarak kedua-dua tempat itu pada peta?",
-      "options": [
-        "10 cm",
-        "2 cm",
-        "5 cm",
-        "20 cm"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Skala peta ialah 1 : 200 000. Jarak sebenar dua bandar ialah 24 km. Berapakah jarak kedua-dua bandar itu pada peta?",
-      "options": [
-        "12 cm",
-        "6 cm",
-        "24 cm",
-        "48 cm"
+        "Benang",
+        "Jangka tolok"
       ],
       "marks": 1
     },
     {
       "q": "Skala yang dilukis sebagai satu garisan bernombor 0, 1, 2 dan 3 km pada peta ialah",
       "options": [
-        "Skala lurus",
-        "Pecahan wakilan",
         "Skala penyata",
-        "Rujukan grid"
+        "Pecahan wakilan",
+        "Rujukan grid",
+        "Skala lurus"
       ],
       "marks": 1
     },
     {
       "q": "Jadual di bawah menunjukkan maklumat perjalanan lima orang murid ke sekolah. Jika tambang bas ialah RM0.50 bagi setiap 1 km, berapakah tambang bas sehala Amirul ke sekolah?",
       "options": [
-        "RM4.00",
-        "RM0.50",
+        "RM1.00",
         "RM2.00",
-        "RM1.00"
+        "RM4.00",
+        "RM0.50"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S2_Q26.png"
@@ -268,10 +208,10 @@
     {
       "q": "Berdasarkan jadual, mengapakah masa perjalanan Suhaida, Jeevan dan Kok Ann ke sekolah berbeza walaupun jarak rumah mereka sama?",
       "options": [
-        "Jarak mutlak rumah mereka berbeza",
-        "Jenis pengangkutan yang digunakan berbeza",
         "Skala peta rumah mereka berbeza",
-        "Jalan ke rumah mereka diukur dengan benang"
+        "Jarak mutlak rumah mereka berbeza",
+        "Jalan ke rumah mereka diukur dengan benang",
+        "Jenis pengangkutan yang digunakan berbeza"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S2_Q26.png"
@@ -279,10 +219,10 @@
     {
       "q": "Berdasarkan jadual, jika semua murid menaiki kereta pada kelajuan yang sama, siapakah yang akan sampai ke sekolah paling lewat?",
       "options": [
-        "Lomas",
-        "Suhaida",
         "Kok Ann",
-        "Amirul"
+        "Lomas",
+        "Amirul",
+        "Suhaida"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S2_Q26.png"
@@ -290,18 +230,18 @@
     {
       "q": "Jarak pada peta ialah 3 cm dan skala peta ialah 1 : 100 000. Berapakah jarak sebenar dalam meter?",
       "options": [
-        "30 000 m",
-        "30 m",
+        "3 000 m",
         "300 m",
-        "3 000 m"
+        "30 000 m",
+        "30 m"
       ],
       "marks": 1
     },
     {
       "q": "Antara pasangan berikut, yang manakah BETUL tentang alat dan jenis jarak yang diukur?",
       "options": [
-        "Benang untuk jarak lurus sahaja",
         "Jangka tolok untuk jarak melengkung sahaja",
+        "Benang untuk jarak lurus sahaja",
         "Jangka tolok untuk jarak lurus, benang untuk jarak melengkung",
         "Benang untuk jarak lurus, jangka tolok untuk jarak melengkung"
       ],
@@ -310,10 +250,10 @@
     {
       "q": "Peta di bawah menunjukkan kedudukan rumah Steven dan sekolah. Berapakah jarak sebenar dari rumah Steven ke sekolah mengikut jalan raya?",
       "options": [
-        "4 km",
+        "3 km",
         "8 km",
-        "5 km",
-        "3 km"
+        "4 km",
+        "5 km"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S2_Q31.png"
@@ -322,8 +262,8 @@
       "q": "Berdasarkan peta, Steven berbasikal ke sekolah dengan kelajuan 5 minit bagi setiap 1 km. Jika dia bertolak dari rumah pada pukul 6.40 pagi, pukul berapakah dia sampai ke sekolah?",
       "options": [
         "7.05 pagi",
-        "7.20 pagi",
         "6.45 pagi",
+        "7.20 pagi",
         "7.00 pagi"
       ],
       "marks": 1,
@@ -332,39 +272,29 @@
     {
       "q": "Ali mengukur panjang sebatang sungai menggunakan benang dan mendapati jaraknya 6.5 cm. Skala peta ialah 1 : 50 000. Berapakah panjang sebenar sungai itu?",
       "options": [
+        "3.25 km",
         "6.5 km",
-        "13 km",
         "32.5 km",
-        "3.25 km"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Jarak sebenar dua bandar ialah 10 km. Berapakah jarak bandar itu pada Peta X (1 : 50 000) dan Peta Y (1 : 100 000)?",
-      "options": [
-        "Peta X 20 cm, Peta Y 10 cm",
-        "Peta X 10 cm, Peta Y 20 cm",
-        "Peta X 5 cm, Peta Y 10 cm",
-        "Peta X 10 cm, Peta Y 10 cm"
+        "13 km"
       ],
       "marks": 1
     },
     {
       "q": "Jarak dua pekan pada peta ialah 9 cm dan skala peta ialah 1 cm mewakili 2 km. Sebuah bas bergerak sejauh 36 km dalam satu jam. Berapakah masa perjalanan bas itu?",
       "options": [
-        "45 minit",
-        "18 minit",
         "30 minit",
-        "60 minit"
+        "60 minit",
+        "18 minit",
+        "45 minit"
       ],
       "marks": 1
     },
     {
       "q": "Jarak rumah Mei Ling ke pasar pada peta ialah 4 cm. Skala peta ialah 1 : 200 000. Tambang teksi ialah RM1.50 sekilometer. Berapakah tambang teksi sehala?",
       "options": [
-        "RM8.00",
         "RM12.00",
         "RM3.00",
+        "RM8.00",
         "RM6.00"
       ],
       "marks": 1
@@ -374,38 +304,8 @@
       "options": [
         "7 cm, kerana benang mengikut lengkungan sungai",
         "Kedua-duanya sama tepat kerana skalanya sama",
-        "5 cm, kerana jangka tolok tepat untuk semua jenis jarak",
-        "5 cm, kerana jarak lurus selalu lebih panjang"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Jarak lurus dua tempat pada peta ialah 8 cm. Skala peta ialah 1 : 25 000. Berapakah jarak sebenar?",
-      "options": [
-        "200 km",
-        "0.2 km",
-        "2 km",
-        "20 km"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Jarak sebenar dua tempat ialah 15 km. Jarak kedua-dua tempat itu pada peta ialah 3 cm. Apakah pecahan wakilan peta itu?",
-      "options": [
-        "1 : 5 000 000",
-        "1 : 500 000",
-        "1 : 150 000",
-        "1 : 50 000"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Jalan raya yang berliku dari A ke B berukuran 12 cm pada peta berskala 1 cm mewakili 0.5 km. Sebuah kereta bergerak 1 km setiap minit. Berapakah masa perjalanannya?",
-      "options": [
-        "12 minit",
-        "6 minit",
-        "3 minit",
-        "24 minit"
+        "5 cm, kerana jarak lurus selalu lebih panjang",
+        "5 cm, kerana jangka tolok tepat untuk semua jenis jarak"
       ],
       "marks": 1
     }

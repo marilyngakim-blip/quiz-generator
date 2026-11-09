@@ -1,43 +1,23 @@
 {
   "id": "sejarah-tingkatan-2-8.1-8.2",
   "title": "Sejarah Tingkatan 2 (8.1-8.2)",
-  "createdAt": "2026-11-02T03:11:15.354Z",
+  "createdAt": "2026-11-09T14:26:28.077Z",
   "questions": [
-    {
-      "q": "Kerajaan manakah merupakan kerajaan terawal yang diasaskan di negara kita?",
-      "options": [
-        "Negeri Sembilan",
-        "Kedah",
-        "Perlis",
-        "Kelantan"
-      ],
-      "marks": 1
-    },
     {
       "q": "Kerajaan Kedah diasaskan oleh keturunan raja yang datang dari",
       "options": [
         "Parsi",
-        "Minangkabau",
         "Patani",
+        "Minangkabau",
         "Siam"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pengasas kerajaan Kedah ialah",
-      "options": [
-        "Maharaja Derbar Raja",
-        "Syed Hussin Jamalullail",
-        "Raja Melewar",
-        "Long Yunus"
       ],
       "marks": 1
     },
     {
       "q": "Maharaja Derbar Raja tiba di Kuala Sungai Merbok sekitar tahun",
       "options": [
-        "630 M",
         "1762",
+        "630 M",
         "1843",
         "1773"
       ],
@@ -48,47 +28,37 @@
       "options": [
         "Cap mohor",
         "Mahkota",
-        "Nobat",
-        "Keris Taming Sari"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pengasas kerajaan Kelantan ialah",
-      "options": [
-        "Raja Bahar",
-        "Long Yunus",
-        "Long Gaffar",
-        "Raja Sakti I"
+        "Keris Taming Sari",
+        "Nobat"
       ],
       "marks": 1
     },
     {
       "q": "Long Yunus mengasaskan kerajaan Kelantan pada tahun",
       "options": [
-        "1670",
-        "1762",
         "1844",
-        "1650"
+        "1650",
+        "1762",
+        "1670"
       ],
       "marks": 1
     },
     {
       "q": "Pengasas kerajaan Negeri Sembilan ialah",
       "options": [
-        "Long Yunus",
+        "Raja Melewar",
         "Yamtuan Radin",
-        "Yamtuan Antah",
-        "Raja Melewar"
+        "Long Yunus",
+        "Yamtuan Antah"
       ],
       "marks": 1
     },
     {
       "q": "Raja Melewar mengasaskan kerajaan Negeri Sembilan yang berpusat di",
       "options": [
+        "Rembau",
         "Seri Menanti",
         "Sungai Ujong",
-        "Rembau",
         "Seremban"
       ],
       "marks": 1
@@ -96,20 +66,20 @@
     {
       "q": "Raja Melewar dijemput dari",
       "options": [
-        "Parsi",
+        "Patani",
         "Siam",
-        "Minangkabau, Sumatera",
-        "Patani"
+        "Parsi",
+        "Minangkabau, Sumatera"
       ],
       "marks": 1
     },
     {
       "q": "Jadual di bawah menunjukkan pengasas dan pusat pemerintahan beberapa kerajaan. Siapakah P?",
       "options": [
-        "Raja Melewar",
         "Syed Hussin Jamalullail",
         "Long Yunus",
-        "Maharaja Derbar Raja"
+        "Maharaja Derbar Raja",
+        "Raja Melewar"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S8_Q11.png"
@@ -118,49 +88,49 @@
       "q": "Syed Hussin Jamalullail menjadikan pusat pentadbiran Perlis di",
       "options": [
         "Kuala Perlis",
-        "Kangar",
         "Arau",
-        "Kota Kayang"
+        "Kota Kayang",
+        "Kangar"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah asas hubungan kerajaan Kedah, Kelantan, Negeri Sembilan dan Perlis dengan negeri Melayu lain? I. Keserumpunan II. Perdagangan rempah dengan Eropah III. Geografi IV. Agama",
       "options": [
-        "I, III dan IV sahaja",
-        "II dan III sahaja",
         "I dan II sahaja",
-        "I, II, III dan IV"
+        "I, II, III dan IV",
+        "II dan III sahaja",
+        "I, III dan IV sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah benar tentang Bunga Mas? I. Dihantar ke Bangkok II. Dihantar setiap tiga tahun III. Dihantar ke China IV. Sebagai tanda persahabatan dan menjamin keselamatan",
       "options": [
-        "I dan III sahaja",
         "II dan III sahaja",
+        "I, II dan IV sahaja",
         "I, II, III dan IV",
-        "I, II dan IV sahaja"
+        "I dan III sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Masjid yang menjadi simbol pentadbiran Islam di Kelantan yang dibina atas arahan Long Yunus ialah",
       "options": [
-        "Masjid Pangkalan Kakap",
         "Masjid Demak",
         "Masjid Negeri Selangor",
-        "Masjid Kampung Laut"
+        "Masjid Kampung Laut",
+        "Masjid Pangkalan Kakap"
       ],
       "marks": 1
     },
     {
       "q": "Siapakah ketua orang Melayu di Kedah yang melantik Maharaja Derbar Raja sebagai raja?",
       "options": [
-        "Tan Dermadewa dan Tun Perkasa",
-        "Undang Yang Empat",
         "Long Gaffar dan Long Yunus",
-        "Tun Saban dan Nakhoda Kassim"
+        "Undang Yang Empat",
+        "Tun Saban dan Nakhoda Kassim",
+        "Tan Dermadewa dan Tun Perkasa"
       ],
       "marks": 1
     },
@@ -168,59 +138,39 @@
       "q": "Naskhah yang mencatatkan pengasas pertama Kedah dari Parsi ialah",
       "options": [
         "Tuhfat al-Nafis",
-        "Sulalatus Salatin",
         "Misa Melayu",
-        "Al-Tarikh Salasilah Negeri Kedah"
+        "Al-Tarikh Salasilah Negeri Kedah",
+        "Sulalatus Salatin"
       ],
       "marks": 1
     },
     {
       "q": "Kota Siputih dibuka pada tahun 1282 untuk",
       "options": [
-        "Menjadi pusat perdagangan rempah",
-        "Menjadi istana hinggap",
         "Menyambut utusan China",
-        "Menghadapi ancaman Siam dan Acheh di utara"
+        "Menjadi pusat perdagangan rempah",
+        "Menghadapi ancaman Siam dan Acheh di utara",
+        "Menjadi istana hinggap"
       ],
       "marks": 1
     },
     {
       "q": "Sultan Kedah yang mengasaskan Alor Setar ialah",
       "options": [
-        "Sultan Muhyiddin Mansur Shah",
+        "Sultan Ibrahim",
         "Sultan Dhiauddin Mukarram Shah I",
-        "Sultan Muhammad Jiwa Zainal Adilin Mu'adzam Shah II",
-        "Sultan Ibrahim"
+        "Sultan Muhyiddin Mansur Shah",
+        "Sultan Muhammad Jiwa Zainal Adilin Mu'adzam Shah II"
       ],
       "marks": 1
     },
     {
       "q": "Sebelum disatukan, Kelantan merupakan sebahagian daripada",
       "options": [
-        "Negara Patani Besar",
+        "Kerajaan Kedah",
         "Kesultanan Johor Riau",
-        "Kerajaan Siam",
-        "Kerajaan Kedah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Selepas kemangkatan Raja Bahar pada 1670, Kelantan berpecah kepada",
-      "options": [
-        "Kelantan Darat dan Kelantan Laut",
-        "Kelantan Barat dan Kelantan Timur",
-        "Kelantan Utara dan Kelantan Selatan",
-        "Kelantan Hulu dan Kelantan Hilir"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Long Yunus mendapat pengiktirafan daripada",
-      "options": [
-        "Sultan Johor",
-        "Raja Siam",
-        "Sultan Kedah",
-        "Sultan Terengganu"
+        "Negara Patani Besar",
+        "Kerajaan Siam"
       ],
       "marks": 1
     },
@@ -228,19 +178,19 @@
       "q": "Sultan Kelantan yang mengasaskan Kota Bharu sebagai pusat pemerintahan pada 1844 ialah",
       "options": [
         "Sultan Muhammad II",
-        "Sultan Ibrahim",
         "Long Gaffar",
-        "Long Yunus"
+        "Long Yunus",
+        "Sultan Ibrahim"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan Empat Penghulu Luak yang menjemput anak raja Minangkabau. Apakah luak X?",
       "options": [
-        "Naning",
-        "Rembau",
         "Linggi",
-        "Seri Menanti"
+        "Seri Menanti",
+        "Rembau",
+        "Naning"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S8_Q24.png"
@@ -258,10 +208,10 @@
     {
       "q": "Rajah di bawah menunjukkan pemecahan wilayah Kedah pada tahun 1839 di bawah pengaruh Siam. Apakah wilayah X?",
       "options": [
-        "Patani",
-        "Perlis",
         "Reman",
-        "Seberang Perai"
+        "Patani",
+        "Seberang Perai",
+        "Perlis"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S8_Q26.png"
@@ -269,10 +219,10 @@
     {
       "q": "Sultan Kedah yang membina Kota Sena, asas perkembangan bandar Kangar, ialah",
       "options": [
-        "Sultan Muhyiddin Mansur Shah",
         "Sultan Muhammad Jiwa",
-        "Sultan Dhiauddin Mukarram Shah II",
-        "Sultan Ibrahim"
+        "Sultan Muhyiddin Mansur Shah",
+        "Sultan Ibrahim",
+        "Sultan Dhiauddin Mukarram Shah II"
       ],
       "marks": 1
     },
@@ -280,88 +230,58 @@
       "q": "Long Yunus mendapat bantuan ketenteraan untuk menyatukan Kelantan daripada",
       "options": [
         "Patani dan Acheh",
+        "Terengganu dan Reman",
         "Siam dan Kedah",
-        "Johor dan Perak",
-        "Terengganu dan Reman"
+        "Johor dan Perak"
       ],
       "marks": 1
     },
     {
       "q": "Puteri Kelantan, Onang Kening, dikahwinkan dengan Sultan Mahmud Shah dari Melaka. Hasil perkahwinan ini melahirkan",
       "options": [
-        "Long Yunus",
-        "Raja Melewar",
         "Raja Muzaffar, Sultan Perak yang pertama",
-        "Raja Lumu, Sultan Selangor pertama"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kelantan menggunakan mata wang logam dinar dalam urusan perdagangan sejak tahun",
-      "options": [
-        "1630",
-        "1762",
-        "1181",
-        "1844"
+        "Raja Lumu, Sultan Selangor pertama",
+        "Long Yunus",
+        "Raja Melewar"
       ],
       "marks": 1
     },
     {
       "q": "Empat Undang bersetuju menghantar utusan menjemput pemerintah dari Minangkabau. Nilai manakah ditunjukkan?",
       "options": [
-        "Bersaing sesama sendiri",
         "Permuafakatan dalam membuat keputusan",
-        "Gigih mempertahankan sempadan wilayah",
-        "Menghormati kuasa asing"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Mengapakah pelabuhan penting kepada sesebuah kerajaan Melayu?",
-      "options": [
-        "Lambang kedaulatan",
-        "Meningkatkan kemakmuran",
-        "Perluasan wilayah",
-        "Menjamin keselamatan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Mengapakah Perlis menghantar Bunga Mas ke Siam?",
-      "options": [
-        "Sebagai bayaran membina istana",
-        "Sebagai hadiah perkahwinan",
-        "Sebagai tanda persahabatan dan menjamin keselamatan",
-        "Sebagai cukai perdagangan beras"
+        "Menghormati kuasa asing",
+        "Bersaing sesama sendiri",
+        "Gigih mempertahankan sempadan wilayah"
       ],
       "marks": 1
     },
     {
       "q": "Bagaimanakah hubungan perkahwinan diraja dapat menjamin kedaulatan sesebuah kerajaan?",
       "options": [
+        "Menyebabkan kerajaan dijajah",
         "Mengukuhkan hubungan kekeluargaan dan sokongan antara kerajaan",
-        "Menghapuskan sistem beraja",
         "Menghentikan perdagangan",
-        "Menyebabkan kerajaan dijajah"
+        "Menghapuskan sistem beraja"
       ],
       "marks": 1
     },
     {
       "q": "Kedudukan Kuala Sungai Merbok dan Gunung Jerai menarik pedagang ke Kedah kerana",
       "options": [
-        "Kawasan itu jauh dari laut",
-        "Kawasan itu dilitupi salji",
         "Gunung Jerai menjadi petunjuk arah dan sungai menghala ke Selat Melaka",
-        "Kawasan itu tidak mempunyai sungai"
+        "Kawasan itu tidak mempunyai sungai",
+        "Kawasan itu dilitupi salji",
+        "Kawasan itu jauh dari laut"
       ],
       "marks": 1
     },
     {
       "q": "Pelantikan Long Gaffar dari Reman sebagai Perdana Menteri merangkap Panglima Perang Kelantan menunjukkan hubungan diplomatik dalam bentuk",
       "options": [
-        "Perkahwinan",
-        "Perdagangan beras",
         "Pengiktirafan oleh Melaka",
+        "Perdagangan beras",
+        "Perkahwinan",
         "Pertahanan"
       ],
       "marks": 1
@@ -370,39 +290,19 @@
       "q": "Sungai Linggi penting kepada Negeri Sembilan kerana",
       "options": [
         "Menjadi tempat persemayaman Yamtuan",
-        "Menjadi sempadan dengan Siam",
+        "Menjadi laluan perhubungan, perdagangan dan kawasan pungutan cukai",
         "Menjadi tapak Masjid Kampung Laut",
-        "Menjadi laluan perhubungan, perdagangan dan kawasan pungutan cukai"
+        "Menjadi sempadan dengan Siam"
       ],
       "marks": 1
     },
     {
       "q": "Kedah membekalkan beras, garam dan emas urai, manakala pedagang Perak dan Melaka membawa arang kayu dan ikan kering. Situasi ini menunjukkan",
       "options": [
+        "Hubungan perdagangan antara negeri Melayu",
         "Perkahwinan diraja",
         "Penjajahan Kedah ke atas Perak",
-        "Peperangan antara negeri Melayu",
-        "Hubungan perdagangan antara negeri Melayu"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Persamaan bahasa dan budaya antara negeri Melayu memudahkan interaksi. Asas hubungan manakah ditunjukkan?",
-      "options": [
-        "Geografi",
-        "Keserumpunan",
-        "Ketenteraan",
-        "Agama"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kehadiran penuntut dari pelbagai wilayah di institusi pendidikan agama menunjukkan asas hubungan",
-      "options": [
-        "Keserumpunan",
-        "Perdagangan",
-        "Agama",
-        "Geografi"
+        "Peperangan antara negeri Melayu"
       ],
       "marks": 1
     }

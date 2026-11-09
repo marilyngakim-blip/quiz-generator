@@ -1,13 +1,13 @@
 {
   "id": "geografi-tingkatan-2-1.1-1.2",
   "title": "Geografi Tingkatan 2 (1.1-1.2)",
-  "createdAt": "2026-11-02T03:47:23.415Z",
+  "createdAt": "2026-11-09T15:03:20.310Z",
   "questions": [
     {
       "q": "Apakah yang dimaksudkan dengan skala?",
       "options": [
-        "Jarak yang diukur berdasarkan kos dan masa",
         "Ukuran jauh di antara satu tempat dengan tempat yang lain",
+        "Jarak yang diukur berdasarkan kos dan masa",
         "Garisan yang dilukis secara menegak dan melintang pada peta",
         "Nisbah jarak di atas peta berbanding dengan jarak sebenar di atas permukaan bumi"
       ],
@@ -17,8 +17,8 @@
       "q": "Berapakah jenis skala yang digunakan pada peta?",
       "options": [
         "Dua",
-        "Empat",
         "Lima",
+        "Empat",
         "Tiga"
       ],
       "marks": 1
@@ -26,10 +26,10 @@
     {
       "q": "Skala yang berbentuk satu garisan lurus yang dibahagikan kepada beberapa bahagian yang sama jaraknya dikenali sebagai",
       "options": [
-        "Skala lurus",
         "Pecahan wakilan",
         "Skala penyata",
-        "Skala kontur"
+        "Skala kontur",
+        "Skala lurus"
       ],
       "marks": 1
     },
@@ -44,42 +44,22 @@
       "marks": 1
     },
     {
-      "q": "Skala yang dinyatakan dalam bentuk nisbah atau pecahan dikenali sebagai",
+      "q": "1 cm mewakili 1 km ialah contoh",
       "options": [
-        "Skala penyata",
-        "Skala lurus",
-        "Skala relatif",
-        "Pecahan wakilan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "\"1 cm mewakili 1 km\" ialah contoh",
-      "options": [
-        "Jarak relatif",
-        "Skala penyata",
         "Pecahan wakilan",
-        "Skala lurus"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "\"1 : 100 000\" ialah contoh",
-      "options": [
-        "Skala penyata",
         "Skala lurus",
-        "Jarak mutlak",
-        "Pecahan wakilan"
+        "Skala penyata",
+        "Jarak relatif"
       ],
       "marks": 1
     },
     {
       "q": "1 km bersamaan dengan",
       "options": [
-        "10 000 cm",
         "100 000 cm",
-        "1 000 000 cm",
-        "1 000 cm"
+        "10 000 cm",
+        "1 000 cm",
+        "1 000 000 cm"
       ],
       "marks": 1
     },
@@ -87,19 +67,19 @@
       "q": "1 m bersamaan dengan",
       "options": [
         "100 cm",
-        "1 cm",
+        "1 000 cm",
         "10 cm",
-        "1 000 cm"
+        "1 cm"
       ],
       "marks": 1
     },
     {
       "q": "Apakah yang dimaksudkan dengan jarak?",
       "options": [
-        "Nisbah jarak di atas peta dengan jarak sebenar",
-        "Ukuran jauh di antara satu tempat dengan tempat yang lain",
+        "Simbol yang mewakili ciri di atas peta",
         "Tambang perjalanan ke tempat yang dituju",
-        "Simbol yang mewakili ciri di atas peta"
+        "Nisbah jarak di atas peta dengan jarak sebenar",
+        "Ukuran jauh di antara satu tempat dengan tempat yang lain"
       ],
       "marks": 1
     },
@@ -108,28 +88,18 @@
       "options": [
         "Jarak relatif",
         "Jarak mutlak",
-        "Jarak masa",
-        "Jarak melengkung"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Jarak yang diukur berdasarkan kos dan masa dikenali sebagai",
-      "options": [
-        "Jarak relatif",
-        "Jarak lurus",
-        "Jarak mutlak",
-        "Jarak sebenar"
+        "Jarak melengkung",
+        "Jarak masa"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah ciri jarak mutlak?",
       "options": [
-        "Berubah mengikut jenis pengangkutan",
-        "Diukur dalam unit ringgit",
+        "Diukur dalam unit minit",
         "Tetap dan tidak berubah",
-        "Diukur dalam unit minit"
+        "Diukur dalam unit ringgit",
+        "Berubah mengikut jenis pengangkutan"
       ],
       "marks": 1
     },
@@ -137,29 +107,29 @@
       "q": "Jarak relatif berubah-ubah berdasarkan",
       "options": [
         "Jenis pengangkutan",
+        "Jenis skala peta",
         "Arah utara peta",
-        "Nilai garisan grid",
-        "Jenis skala peta"
+        "Nilai garisan grid"
       ],
       "marks": 1
     },
     {
       "q": "Dua jenis skala lurus ialah",
       "options": [
+        "Skala lurus mutlak dan skala lurus relatif",
         "Skala lurus penyata dan skala lurus wakilan",
-        "Skala lurus besar dan skala lurus kecil",
         "Skala lurus mudah dan skala lurus penuh",
-        "Skala lurus mutlak dan skala lurus relatif"
+        "Skala lurus besar dan skala lurus kecil"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan sejenis skala pada peta. Apakah jenis skala tersebut?",
       "options": [
-        "Pecahan wakilan",
         "Skala lurus penuh",
-        "Skala penyata",
-        "Skala lurus mudah"
+        "Pecahan wakilan",
+        "Skala lurus mudah",
+        "Skala penyata"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q16.png"
@@ -167,10 +137,10 @@
     {
       "q": "Berdasarkan skala dalam rajah, setiap bahagian utama di sebelah kanan angka 0 mewakili jarak sebenar",
       "options": [
-        "10 km",
-        "1 000 km",
         "100 m",
-        "1 km"
+        "1 km",
+        "1 000 km",
+        "10 km"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q16.png"
@@ -178,70 +148,40 @@
     {
       "q": "Bagaimanakah pecahan wakilan 1 : 100 000 disebut?",
       "options": [
-        "1 darab 100 000",
-        "1 bahagi 100 000",
         "1 nisbah 100 000",
-        "1 tolak 100 000"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pecahan wakilan 1 : 50 000 bermaksud 1 cm di atas peta mewakili",
-      "options": [
-        "50 km di atas permukaan bumi",
-        "50 m di atas permukaan bumi",
-        "500 m di atas permukaan bumi",
-        "5 km di atas permukaan bumi"
+        "1 bahagi 100 000",
+        "1 tolak 100 000",
+        "1 darab 100 000"
       ],
       "marks": 1
     },
     {
       "q": "Skala penyata manakah yang sama dengan pecahan wakilan 1 : 200 000?",
       "options": [
-        "1 cm mewakili 2 km",
         "1 cm mewakili 200 m",
-        "1 cm mewakili 0.2 km",
-        "1 cm mewakili 20 km"
+        "1 cm mewakili 20 km",
+        "1 cm mewakili 2 km",
+        "1 cm mewakili 0.2 km"
       ],
       "marks": 1
     },
     {
       "q": "Skala penyata \"1 cm mewakili 5 km\" jika ditukarkan kepada pecahan wakilan ialah",
       "options": [
-        "1 : 5 000",
-        "1 : 5 000 000",
         "1 : 50 000",
-        "1 : 500 000"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Antara berikut, yang manakah contoh jarak relatif?",
-      "options": [
-        "Tambang bas dari Ipoh ke Bidor ialah RM6.60",
-        "Jarak dari Ipoh ke Bidor ialah 66 km",
-        "Skala peta ialah 1 cm mewakili 1 km",
-        "Panjang jalan dari Ipoh ke Bidor ialah 66 000 m"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Antara berikut, yang manakah contoh jarak mutlak?",
-      "options": [
-        "Kos petrol dari Ipoh ke Bidor ialah RM15.00",
-        "Masa perjalanan dari Ipoh ke Bidor ialah 1 jam 10 minit",
-        "Jarak dari Ipoh ke Bidor ialah 66 km",
-        "Tambang bas dari Ipoh ke Bidor ialah RM6.60"
+        "1 : 5 000",
+        "1 : 500 000",
+        "1 : 5 000 000"
       ],
       "marks": 1
     },
     {
       "q": "Masa perjalanan dari Ipoh ke Bidor dengan kereta ialah 1 jam 10 minit. Maklumat ini ialah contoh",
       "options": [
-        "Jarak relatif berdasarkan kos",
-        "Skala penyata",
+        "Jarak mutlak",
         "Jarak relatif berdasarkan masa",
-        "Jarak mutlak"
+        "Skala penyata",
+        "Jarak relatif berdasarkan kos"
       ],
       "marks": 1
     },
@@ -249,9 +189,9 @@
       "q": "Jadual di bawah menunjukkan jarak mutlak dan jarak relatif di antara rumah tiga orang murid dengan sekolah. Berapakah jarak mutlak rumah Adeline dari sekolah?",
       "options": [
         "10 km",
+        "8.0 km",
         "2.5 km",
-        "5.0 km",
-        "8.0 km"
+        "5.0 km"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q25.png"
@@ -259,10 +199,10 @@
     {
       "q": "Berdasarkan jadual, berapakah tambang teksi dari rumah Kavitha ke sekolah?",
       "options": [
-        "RM4.80",
-        "RM10.00",
         "RM8.00",
-        "RM16.00"
+        "RM10.00",
+        "RM16.00",
+        "RM4.80"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q25.png"
@@ -270,10 +210,10 @@
     {
       "q": "Berdasarkan jadual, berapakah masa yang diambil oleh Kavitha untuk ke sekolah dengan menaiki bas?",
       "options": [
-        "32 minit",
-        "16 minit",
+        "1 jam 4 minit",
         "20 minit",
-        "1 jam 4 minit"
+        "32 minit",
+        "16 minit"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q25.png"
@@ -281,9 +221,9 @@
     {
       "q": "Antara pernyataan berikut, yang manakah benar tentang jarak relatif? I. Diukur berdasarkan kos dan masa II. Tetap dan tidak berubah III. Berubah-ubah berdasarkan jenis pengangkutan IV. Dinyatakan dalam unit meter atau kilometer",
       "options": [
-        "I dan II sahaja",
-        "II dan IV sahaja",
         "I dan III sahaja",
+        "II dan IV sahaja",
+        "I dan II sahaja",
         "III dan IV sahaja"
       ],
       "marks": 1
@@ -291,20 +231,20 @@
     {
       "q": "Skala manakah yang lebih besar, 1 : 30 000 atau 1 : 300 000?",
       "options": [
+        "1 : 300 000, kerana kawasan yang ditunjukkan lebih luas",
         "1 : 300 000, kerana nilai penyebutnya lebih besar",
-        "1 : 30 000, kerana nilai penyebutnya lebih kecil",
         "Kedua-duanya sama besar kerana pengangkanya 1",
-        "1 : 300 000, kerana kawasan yang ditunjukkan lebih luas"
+        "1 : 30 000, kerana nilai penyebutnya lebih kecil"
       ],
       "marks": 1
     },
     {
       "q": "Dalam jarak relatif, kos perjalanan diukur dalam unit",
       "options": [
-        "Meter dan kilometer",
         "Sen dan ringgit",
-        "Minit dan jam",
-        "Sentimeter dan milimeter"
+        "Meter dan kilometer",
+        "Sentimeter dan milimeter",
+        "Minit dan jam"
       ],
       "marks": 1
     },
@@ -312,8 +252,8 @@
       "q": "Berdasarkan jadual, mengapakah tambang teksi Kavitha ke sekolah paling mahal?",
       "options": [
         "Jarak mutlak rumahnya dari sekolah paling jauh",
-        "Teksi yang dinaikinya paling laju",
         "Rumahnya terletak paling hampir dengan sekolah",
+        "Teksi yang dinaikinya paling laju",
         "Dia menaiki teksi pada waktu puncak"
       ],
       "marks": 1,
@@ -322,10 +262,10 @@
     {
       "q": "Berdasarkan jadual, berapa minitkah lebih lama masa perjalanan Adeline jika dia berbasikal berbanding menaiki teksi?",
       "options": [
-        "10 minit",
+        "20 minit",
         "40 minit",
         "30 minit",
-        "20 minit"
+        "10 minit"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q25.png"
@@ -333,10 +273,10 @@
     {
       "q": "Jadual di bawah menunjukkan kos dan masa perjalanan dengan tiga jenis kenderaan ke destinasi yang sama. Kenderaan manakah paling menjimatkan masa?",
       "options": [
-        "Komuter",
         "Teksi dan bas",
         "Bas",
-        "Teksi"
+        "Teksi",
+        "Komuter"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q33.png"
@@ -346,8 +286,8 @@
       "options": [
         "Teksi",
         "Bas",
-        "Komuter",
-        "Teksi dan komuter"
+        "Teksi dan komuter",
+        "Komuter"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q33.png"
@@ -356,60 +296,20 @@
       "q": "Berdasarkan jadual, mengapakah komuter ialah pilihan yang paling baik?",
       "options": [
         "Jarak mutlaknya paling dekat",
-        "Masa perjalanannya paling lama tetapi paling murah",
+        "Masa perjalanannya paling singkat dan tambangnya rendah",
         "Tambangnya paling mahal tetapi paling selesa",
-        "Masa perjalanannya paling singkat dan tambangnya rendah"
+        "Masa perjalanannya paling lama tetapi paling murah"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S1_Q33.png"
     },
     {
-      "q": "Bas mengambil masa 1 jam dan kereta mengambil masa 45 minit untuk bergerak sejauh 60 km di antara dua bandar yang sama. Apakah kesimpulan yang tepat?",
-      "options": [
-        "Jarak mutlak sama tetapi jarak relatif berbeza",
-        "Jarak mutlak dan jarak relatif berbeza",
-        "Jarak mutlak dan jarak relatif adalah sama",
-        "Jarak mutlak berbeza tetapi jarak relatif sama"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Ali ingin menukarkan skala penyata \"1 cm mewakili 0.5 km\" kepada pecahan wakilan. Apakah jawapan yang betul?",
-      "options": [
-        "1 : 500 000",
-        "1 : 50 000",
-        "1 : 5 000",
-        "0.388889"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Peta A berskala 1 : 25 000 dan Peta B berskala 1 : 250 000. Peta manakah menunjukkan butiran kawasan dengan lebih terperinci?",
-      "options": [
-        "Kedua-duanya sama terperinci",
-        "Peta B, kerana skalanya lebih besar",
-        "Peta A, kerana skalanya lebih kecil",
-        "Peta A, kerana skalanya lebih besar"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Antara pernyataan berikut, yang manakah BENAR tentang jenis-jenis skala? I. Skala penyata dinyatakan dalam bentuk ayat II. Pecahan wakilan dinyatakan dalam bentuk nisbah atau pecahan III. Skala lurus dibahagikan kepada beberapa bahagian yang sama jaraknya IV. Skala lurus mudah mempunyai bahagian kecil di sebelah kiri angka 0",
       "options": [
-        "II, III dan IV sahaja",
-        "I, II, III dan IV",
+        "I dan II sahaja",
         "I, II dan III sahaja",
-        "I dan II sahaja"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Tambang teksi ialah RM2.00 sekilometer. Berapakah tambang teksi pergi dan balik bagi seorang murid yang tinggal 8.0 km dari sekolah?",
-      "options": [
-        "RM16.00",
-        "RM10.00",
-        "RM8.00",
-        "RM32.00"
+        "II, III dan IV sahaja",
+        "I, II, III dan IV"
       ],
       "marks": 1
     }

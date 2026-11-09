@@ -1,25 +1,15 @@
 {
   "id": "sejarah-tingkatan-2-5.1-5.2",
   "title": "Sejarah Tingkatan 2 (5.1-5.2)",
-  "createdAt": "2026-11-02T03:03:50.862Z",
+  "createdAt": "2026-11-09T14:20:12.485Z",
   "questions": [
-    {
-      "q": "Siapakah pengasas Kesultanan Melayu Melaka?",
-      "options": [
-        "Parameswara",
-        "Sultan Mansur Shah",
-        "Sultan Muzaffar Shah",
-        "Tun Perak"
-      ],
-      "marks": 1
-    },
     {
       "q": "Kesultanan Melayu Melaka diasaskan sekitar tahun",
       "options": [
+        "1136",
         "1511",
         "1400",
-        "1528",
-        "1136"
+        "1528"
       ],
       "marks": 1
     },
@@ -27,8 +17,8 @@
       "q": "Parameswara mengasaskan kerajaan di muara Sungai Bertam yang juga dikenali sebagai",
       "options": [
         "Sungai Linggi",
-        "Sungai Melaka",
         "Sungai Johor",
+        "Sungai Melaka",
         "Sungai Muar"
       ],
       "marks": 1
@@ -37,27 +27,27 @@
       "q": "Pada asalnya, muara Sungai Bertam merupakan sebuah",
       "options": [
         "Perkampungan nelayan",
-        "Bandar pelabuhan antarabangsa",
+        "Pusat pentadbiran Majapahit",
         "Kawasan perlombongan",
-        "Pusat pentadbiran Majapahit"
+        "Bandar pelabuhan antarabangsa"
       ],
       "marks": 1
     },
     {
       "q": "Pokok bakau dan api-api di pesisir pantai Melaka berfungsi sebagai",
       "options": [
-        "Bahan binaan istana",
-        "Tempat penginapan pedagang",
+        "Benteng pertahanan dan pelindung semula jadi",
         "Bahan dagangan utama",
-        "Benteng pertahanan dan pelindung semula jadi"
+        "Tempat penginapan pedagang",
+        "Bahan binaan istana"
       ],
       "marks": 1
     },
     {
       "q": "Menurut Sulalatus Salatin, pemerintah Melaka berasal daripada keturunan",
       "options": [
-        "Raja Siam",
         "Raja Pasai",
+        "Raja Siam",
         "Raja Majapahit",
         "Raja Palembang"
       ],
@@ -66,10 +56,10 @@
     {
       "q": "Antara berikut, yang manakah alat kebesaran diraja Kesultanan Melayu Melaka? I. Cap mohor II. Nobat III. Bunga Mas IV. Keris",
       "options": [
-        "I, II, III dan IV",
         "II dan III sahaja",
+        "I, II dan IV sahaja",
         "I dan II sahaja",
-        "I, II dan IV sahaja"
+        "I, II, III dan IV"
       ],
       "marks": 1
     },
@@ -77,29 +67,19 @@
       "q": "Daulat bermaksud",
       "options": [
         "Cukai yang dibayar oleh pedagang",
-        "Kuasa dan kewibawaan raja sebagai pemimpin",
         "Undang-undang laut",
-        "Pembesar peringkat jajahan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pentadbiran Kesultanan Melayu Melaka berasaskan",
-      "options": [
-        "Sistem Tripaksa",
-        "Sistem Pembesar Empat Lipatan",
-        "Sistem Dewaraja",
-        "Adat Perpatih"
+        "Pembesar peringkat jajahan",
+        "Kuasa dan kewibawaan raja sebagai pemimpin"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan Sistem Pembesar Empat Lipatan Kesultanan Melayu Melaka. Apakah P?",
       "options": [
-        "Datuk Ketemenggungan",
+        "Penghulu Bendahari",
         "Syahbandar",
-        "Orang Besar Lapan",
-        "Penghulu Bendahari"
+        "Datuk Ketemenggungan",
+        "Orang Besar Lapan"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S4_Q10.png"
@@ -107,40 +87,30 @@
     {
       "q": "Undang-undang tersohor Kesultanan Melayu Melaka ialah",
       "options": [
-        "Hukum Kanun Melaka dan Undang-Undang Laut Melaka",
-        "Undang-Undang 99 dan Adat Perpatih",
+        "Hukum Kanun Pahang dan Undang-Undang Kedah",
         "Undang-Undang Tubuh Johor dan Adat Temenggung",
-        "Hukum Kanun Pahang dan Undang-Undang Kedah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Adat yang digunakan dalam sistem pemerintahan Kesultanan Melayu Melaka ialah",
-      "options": [
-        "Adat Temenggung",
-        "Adat Tripaksa",
-        "Adat Dewaraja",
-        "Adat Perpatih"
+        "Hukum Kanun Melaka dan Undang-Undang Laut Melaka",
+        "Undang-Undang 99 dan Adat Perpatih"
       ],
       "marks": 1
     },
     {
       "q": "Pedagang yang paling ramai mengunjungi pelabuhan Melaka ialah pedagang",
       "options": [
-        "Pasai, Jawa dan Siam",
-        "Pegu, Luzon dan Ceylon",
+        "Arab, China dan Gujerat",
         "Portugis, Belanda dan Inggeris",
-        "Arab, China dan Gujerat"
+        "Pegu, Luzon dan Ceylon",
+        "Pasai, Jawa dan Siam"
       ],
       "marks": 1
     },
     {
       "q": "Mata wang timah yang digunakan di Melaka dikenali sebagai",
       "options": [
-        "Dinar",
-        "Real",
+        "Cowrie",
         "Calains",
-        "Cowrie"
+        "Real",
+        "Dinar"
       ],
       "marks": 1
     },
@@ -149,28 +119,18 @@
       "options": [
         "Yin Ching",
         "Lopez de Sequeira",
-        "Wu Ping",
-        "Laksamana Zheng He"
+        "Laksamana Zheng He",
+        "Wu Ping"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah kapal dagang dapat berlabuh di pelabuhan Melaka dengan selamat?",
       "options": [
-        "Melaka tidak mempunyai pantai",
         "Melaka jauh dari laluan perdagangan",
-        "Muara sungai di Selat Melaka terlindung daripada tiupan angin monsun",
-        "Melaka terletak di tanah tinggi"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Bentuk muka bumi Melaka yang berbukit-bukau sesuai dijadikan",
-      "options": [
-        "Pusat binaan candi",
-        "Benteng pertahanan dan panduan kapal dagang",
-        "Kawasan sawah padi",
-        "Kawasan perlombongan bijih timah"
+        "Melaka tidak mempunyai pantai",
+        "Melaka terletak di tanah tinggi",
+        "Muara sungai di Selat Melaka terlindung daripada tiupan angin monsun"
       ],
       "marks": 1
     },
@@ -187,35 +147,35 @@
     {
       "q": "Sultan Mansur Shah menasihatkan puteranya, Sultan Alauddin Riayat Shah, supaya",
       "options": [
+        "Mengurangkan bilangan pembesar",
         "Menyerang Siam dengan segera",
         "Bersikap adil terhadap rakyat dan menyiasat tuduhan dengan teliti",
-        "Menaikkan cukai pelabuhan",
-        "Mengurangkan bilangan pembesar"
+        "Menaikkan cukai pelabuhan"
       ],
       "marks": 1
     },
     {
       "q": "Siapakah pembesar yang bertugas sebagai penasihat raja, ketua hakim dan pemangku sultan?",
       "options": [
-        "Bendahara",
-        "Temenggung",
         "Penghulu Bendahari",
-        "Laksamana"
+        "Laksamana",
+        "Bendahara",
+        "Temenggung"
       ],
       "marks": 1
     },
     {
       "q": "Siapakah pembesar yang menjadi ketua angkatan laut dan ketua utusan ke negara luar?",
       "options": [
-        "Temenggung",
-        "Laksamana",
         "Bendahara",
-        "Penghulu Bendahari"
+        "Penghulu Bendahari",
+        "Temenggung",
+        "Laksamana"
       ],
       "marks": 1
     },
     {
-      "q": "Siapakah pembesar yang menjadi ketua polis dan penjara serta penguasa bandar Melaka?",
+      "q": "Siapakah pembesar yang menjadi pemungut hasil, ketua bendahari dan ketua syahbandar?",
       "options": [
         "Bendahara",
         "Penghulu Bendahari",
@@ -225,42 +185,22 @@
       "marks": 1
     },
     {
-      "q": "Siapakah pembesar yang menjadi pemungut hasil, ketua bendahari dan ketua syahbandar?",
-      "options": [
-        "Temenggung",
-        "Laksamana",
-        "Penghulu Bendahari",
-        "Bendahara"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Kawasan yang dikurniakan kepada pembesar berempat dikenali sebagai",
       "options": [
-        "Kawasan pemakanan",
         "Kawasan naungan",
         "Kawasan pegangan",
-        "Kawasan jajahan"
+        "Kawasan jajahan",
+        "Kawasan pemakanan"
       ],
       "marks": 1
     },
     {
       "q": "Hukum Kanun Melaka mula ditulis semasa pemerintahan",
       "options": [
-        "Sultan Mahmud Shah",
         "Parameswara",
-        "Sultan Muzaffar Shah",
-        "Sultan Alauddin Riayat Shah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Berapakah fasal yang terkandung dalam Hukum Kanun Melaka?",
-      "options": [
-        "44 fasal",
-        "25 fasal",
-        "12 fasal",
-        "99 fasal"
+        "Sultan Alauddin Riayat Shah",
+        "Sultan Mahmud Shah",
+        "Sultan Muzaffar Shah"
       ],
       "marks": 1
     },
@@ -268,8 +208,8 @@
       "q": "Undang-Undang Laut Melaka mengandungi 25 fasal yang menerangkan",
       "options": [
         "Hak keistimewaan raja dan pembesar",
-        "Pembahagian harta pusaka",
         "Peraturan di laut, tertib berniaga dan tatacara berjual beli",
+        "Pembahagian harta pusaka",
         "Sistem penggantian sultan"
       ],
       "marks": 1
@@ -277,9 +217,9 @@
     {
       "q": "Adat Temenggung diasaskan oleh",
       "options": [
+        "Tun Perak",
         "Datuk Ketemenggungan",
         "Parameswara",
-        "Tun Perak",
         "Datuk Perpatih Nan Sebatang"
       ],
       "marks": 1
@@ -287,10 +227,10 @@
     {
       "q": "Antara berikut, yang manakah benar tentang cukai di pelabuhan Melaka? I. Cukai rasmi atau cukai import dikenali sebagai panduan II. Kadar panduan berbeza-beza mengikut tempat asal pedagang III. Pedagang dari China dan Jepun memberikan hadiah yang nilainya sama dengan cukai lima peratus IV. Semua pedagang dikecualikan daripada cukai",
       "options": [
-        "I, II dan III sahaja",
-        "II dan IV sahaja",
         "I, II, III dan IV",
-        "I dan IV sahaja"
+        "I, II dan III sahaja",
+        "I dan IV sahaja",
+        "II dan IV sahaja"
       ],
       "marks": 1
     },
@@ -298,38 +238,18 @@
       "q": "Perkahwinan Sultan Mansur Shah dengan puteri Majapahit, Raden Galuh Cendera Kirana, menyebabkan",
       "options": [
         "Melaka dijajah oleh Majapahit",
-        "Pengaruh Melaka semakin meluas",
         "Melaka memutuskan hubungan dengan China",
-        "Melaka diserang oleh Siam"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Apakah kepentingan politik pembentukan empayar Melaka?",
-      "options": [
-        "Menyebarkan tulisan Kawi",
-        "Mewujudkan masyarakat majmuk",
-        "Menerima hadiah emas dan timah",
-        "Menyekat pengaruh kuasa serantau seperti Siam, Majapahit dan Pasai"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Bagaimanakah hubungan Melaka dengan China membantu Melaka?",
-      "options": [
-        "Melaka menguasai semua barang dagangan China",
-        "Melaka menjadi jajahan China",
-        "Melaka mendapat perlindungan China daripada ancaman Siam",
-        "Melaka mendapat bantuan kewangan daripada China"
+        "Melaka diserang oleh Siam",
+        "Pengaruh Melaka semakin meluas"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah Orang Laut penting kepada perdagangan Melaka?",
       "options": [
-        "Mereka mencipta mata wang Calains",
         "Mereka pelayar, penunjuk arah dan tentera yang menjaga keselamatan pedagang",
         "Mereka menjadi ketua syahbandar",
+        "Mereka mencipta mata wang Calains",
         "Mereka menulis Hukum Kanun Melaka"
       ],
       "marks": 1
@@ -337,20 +257,10 @@
     {
       "q": "Mengapakah pedagang tertarik untuk berdagang di Melaka? I. Cukai yang rendah II. Pengurusan pelabuhan yang cekap III. Pelabuhan terlindung daripada tiupan angin monsun IV. Pedagang dipaksa berlabuh oleh tentera Melaka",
       "options": [
-        "I dan IV sahaja",
+        "I, II dan III sahaja",
         "II dan IV sahaja",
         "II, III dan IV sahaja",
-        "I, II dan III sahaja"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Seorang pedagang China di Melaka hanya memberikan hadiah yang nilainya sama dengan cukai lima peratus. Ini merupakan contoh",
-      "options": [
-        "Sistem serah",
-        "Cukai panduan",
-        "Cukai tidak rasmi",
-        "Sistem kerah"
+        "I dan IV sahaja"
       ],
       "marks": 1
     },
@@ -358,38 +268,28 @@
       "q": "Rakyat Melaka bergotong-royong membina kubu tanpa diberi upah. Sistem ini dikenali sebagai",
       "options": [
         "Sistem naungan",
+        "Sistem kerah",
         "Sistem serah",
-        "Sistem panduan",
-        "Sistem kerah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Apakah kesan Undang-Undang Laut Melaka terhadap perdagangan?",
-      "options": [
-        "Kapal dilarang berlabuh",
-        "Perdagangan berjalan dengan lancar dan adil serta memberi keyakinan kepada pedagang",
-        "Cukai menjadi sangat tinggi",
-        "Pedagang enggan datang ke Melaka"
+        "Sistem panduan"
       ],
       "marks": 1
     },
     {
       "q": "Raja Lingga, Patani dan Kedah rela bernaung di bawah Melaka. Ini menunjukkan cara pembentukan empayar melalui",
       "options": [
-        "Naungan",
+        "Perkahwinan",
         "Pembelian",
         "Penaklukan",
-        "Perkahwinan"
+        "Naungan"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan aliran penyebaran Islam di Melaka. Apakah cara penyebaran Islam yang ditunjukkan?",
       "options": [
+        "Pengislaman pemerintah",
         "Perkahwinan dengan pedagang",
         "Peranan pendakwah dari Pasai",
-        "Pengislaman pemerintah",
         "Penaklukan wilayah"
       ],
       "marks": 1,
@@ -398,10 +298,10 @@
     {
       "q": "Tome Pires menyatakan 'Barang siapa yang menguasai Melaka, ia boleh menggugat Venice'. Apakah maksud kenyataan ini?",
       "options": [
-        "Venice ialah pelabuhan di Alam Melayu",
         "Melaka ialah jajahan Venice",
+        "Melaka tidak mempunyai nilai ekonomi",
         "Melaka sangat penting sebagai pusat perdagangan dunia",
-        "Melaka tidak mempunyai nilai ekonomi"
+        "Venice ialah pelabuhan di Alam Melayu"
       ],
       "marks": 1
     }

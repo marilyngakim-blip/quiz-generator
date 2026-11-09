@@ -1,405 +1,312 @@
 {
   "id": "sejarah-tingkatan-2-2.1-2.2",
   "title": "Sejarah Tingkatan 2 (2.1-2.2)",
-  "createdAt": "2026-11-02T02:01:54.196Z",
+  "createdAt": "2026-11-09T15:00:16.280Z",
   "questions": [
     {
-      "q": "1. Gelaran raja Funan yang bermaksud raja gunung ialah",
+      "q": "Sistem pemerintahan yang diamalkan oleh kerajaan Alam Melayu yang masyhur ialah",
       "options": [
-        "A. Dewaraja",
-        "B. Cakravatin",
-        "C. Rajadhiraja",
-        "D. Kurung Bnam"
+        "Sistem pemerintahan tentera",
+        "Sistem republik",
+        "Sistem demokrasi berparlimen",
+        "Sistem beraja"
       ],
       "marks": 1
     },
     {
-      "q": "2. Kerajaan Funan dibahagikan kepada berapa buah wilayah?",
+      "q": "Sistem beraja kerajaan Alam Melayu terbahagi kepada dua peringkat, iaitu",
       "options": [
-        "A. 14",
-        "B. 4",
-        "C. 7",
-        "D. 5"
+        "Pusat dan wilayah",
+        "Bandar dan luar bandar",
+        "Istana dan kampung",
+        "Kerajaan dan jajahan"
       ],
       "marks": 1
     },
     {
-      "q": "3. Ketua wilayah kerajaan Funan yang terdiri daripada putera raja digelar",
+      "q": "Gelaran Kurung Bnam yang digunakan oleh raja Funan bermaksud",
       "options": [
-        "A. Yuvaraja",
-        "B. Raja Kecil",
-        "C. Datu",
-        "D. Raja Muda"
+        "Raja segala raja",
+        "Buddha di bumi",
+        "Raja gunung",
+        "Pemerintah alam sejagat"
       ],
       "marks": 1
     },
     {
-      "q": "4. Gelaran raja Angkor yang mengaitkan raja sebagai dewa ialah",
+      "q": "Ketua wilayah Funan yang terdiri daripada putera-putera raja digelar",
       "options": [
-        "A. Cakravatin",
-        "B. Rajadhiraja",
-        "C. Dewaraja",
-        "D. Bodhisattva"
+        "Datu",
+        "Raja Muda",
+        "Yuvaraja",
+        "Raja Kecil"
       ],
       "marks": 1
     },
     {
-      "q": "5. Raja-raja Champa dikaitkan dengan",
+      "q": "Kerajaan Champa dibahagikan kepada berapa buah wilayah?",
       "options": [
-        "A. Sapta Prabu",
-        "B. Dewa Siva",
-        "C. Kurung Bnam",
-        "D. Bodhisattva"
+        "Lima",
+        "Empat belas",
+        "Tujuh",
+        "Dua"
       ],
       "marks": 1
     },
     {
-      "q": "6. Apakah nama Majlis Penasihat Diraja kerajaan Majapahit?",
+      "q": "Raja Srivijaya dianggap sebagai Bodhisattva yang bermaksud",
       "options": [
-        "A. Kabupaten",
-        "B. Sapta Prabu",
-        "C. Pradatuan",
-        "D. Kedatuan"
+        "Pemerintah alam sejagat",
+        "Raja gunung",
+        "Buddha di bumi",
+        "Penjelmaan Dewa Siva"
       ],
       "marks": 1
     },
     {
-      "q": "7. Dalam kerajaan Srivijaya, Yuvaraja merujuk",
+      "q": "Yuvaraja dalam kerajaan Srivijaya merujuk kepada",
       "options": [
-        "A. Putera Mahkota",
-        "B. Penasihat Diraja",
-        "C. Raja Muda",
-        "D. Raja Kecil"
+        "Raja Muda",
+        "Datu",
+        "Putera Mahkota",
+        "Penjaga harta kerajaan"
       ],
       "marks": 1
     },
     {
-      "q": "8. Kolam yang dibina oleh pemerintah Angkor untuk menyimpan air dikenali sebagai",
+      "q": "Sapta Prabu dalam kerajaan Majapahit ialah",
       "options": [
-        "A. relung",
-        "B. daik",
-        "C. teres",
-        "D. baray"
+        "Pemungut cukai",
+        "Majlis Penasihat Diraja",
+        "Ketua angkatan tentera",
+        "Ketua wilayah"
       ],
       "marks": 1
     },
     {
-      "q": "9. Bunga cengkih di Alam Melayu ditanam di",
+      "q": "Kolam yang dibina oleh pemerintah Angkor untuk menyimpan air dikenali sebagai",
       "options": [
-        "A. Kepulauan Maluku",
-        "B. Pulau Banda",
-        "C. Tanah Tinggi Pasemah",
-        "D. Hulu Musi"
+        "Baray",
+        "Teres",
+        "Relung",
+        "Daik"
       ],
       "marks": 1
     },
     {
-      "q": "10. Apakah pelabuhan kerajaan Funan?",
+      "q": "Bunga cengkih di Alam Melayu ditanam di",
       "options": [
-        "A. Turan",
-        "B. Oc Eo",
-        "C. Palembang",
-        "D. Yasodharapura"
+        "Lembah Sungai Mekong",
+        "Pulau Banda",
+        "Sumatera",
+        "Kepulauan Maluku"
       ],
       "marks": 1
     },
     {
-      "q": "11. Apakah pelabuhan kerajaan Angkor?",
+      "q": "Pelabuhan kerajaan Funan ialah",
       "options": [
-        "A. Kam ran",
-        "B. Yasodharapura",
-        "C. Tuban",
-        "D. Oc Eo"
+        "Turan",
+        "Yasodharapura",
+        "Oc Eo",
+        "Palembang"
       ],
       "marks": 1
     },
     {
-      "q": "12. Di manakah bijih besi dilombong di kerajaan Angkor?",
+      "q": "Di Angkor, bijih besi dilombong di",
       "options": [
-        "A. Indrapura",
-        "B. Pergunungan Hue",
-        "C. Pergunungan Phnom Dek",
-        "D. Hulu Musi"
+        "Indrapura",
+        "Pergunungan Hue",
+        "Lembah Kinta",
+        "Pergunungan Phnom Dek"
       ],
       "marks": 1
     },
     {
-      "q": "13. Sarang burung layang-layang banyak didapati di",
+      "q": "Jadual di bawah menunjukkan gelaran raja-raja kerajaan Alam Melayu. Apakah X?",
       "options": [
-        "A. Tanah Tinggi Pasemah",
-        "B. Lembah Sungai Mekong",
-        "C. utara Pulau Borneo",
-        "D. Kepulauan Maluku"
+        "Bodhisattva",
+        "Dewaraja",
+        "Sri Bathara",
+        "Cakravatin"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q13.png"
+    },
+    {
+      "q": "Berdasarkan jadual gelaran raja, gelaran Rajadhiraja digunakan oleh raja-raja",
+      "options": [
+        "Angkor dan Majapahit",
+        "Funan dan Champa",
+        "Champa dan Angkor",
+        "Srivijaya dan Majapahit"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q13.png"
+    },
+    {
+      "q": "Rajah di bawah menunjukkan pentadbiran wilayah kerajaan Srivijaya. Apakah X?",
+      "options": [
+        "Pradatuan",
+        "Raja Kecil",
+        "Kabupaten",
+        "Kebuyutan"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q15.png"
+    },
+    {
+      "q": "Berdasarkan rajah pentadbiran wilayah Srivijaya, siapakah yang mentadbir wilayah X?",
+      "options": [
+        "Putera Mahkota",
+        "Datu bukan berketurunan raja",
+        "Datu berketurunan raja",
+        "Raja Kecil"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q15.png"
+    },
+    {
+      "q": "Antara berikut, yang manakah membantu raja Srivijaya dalam pemerintahan pusat? I. Yuvaraja II. Pratiyuvaraja III. Rajakumara IV. Sapta Prabu",
+      "options": [
+        "II dan IV sahaja",
+        "I, II dan III sahaja",
+        "I, II, III dan IV",
+        "I dan IV sahaja"
       ],
       "marks": 1
     },
     {
-      "q": "14. Jawatan di pelabuhan Srivijaya yang menyelia kegiatan perdagangan dan perkapalan ialah",
+      "q": "Di Champa, siapakah yang bertanggungjawab menyelenggarakan terusan dan daik di setiap kampung?",
       "options": [
-        "A. Yuvaraja",
-        "B. Sapta Prabu",
-        "C. Ketua Air",
-        "D. Tuhan Vatakvurah"
+        "Datu",
+        "Raja Kecil",
+        "Tuhan Vatakvurah",
+        "Ketua Air"
       ],
       "marks": 1
     },
     {
-      "q": "15. Apakah tugas Ketua Air di setiap kampung di Champa?",
+      "q": "Di Angkor, penanaman padi dapat dituai sebanyak",
       "options": [
-        "A. Memungut cukai hasil padi sawah",
-        "B. Mengawal pelabuhan dan perkapalan",
-        "C. Membina baray untuk menyimpan air",
-        "D. Menyelenggarakan terusan dan daik"
+        "Sekali setahun",
+        "Tiga hingga empat kali setahun",
+        "Dua kali setahun",
+        "Setiap bulan"
       ],
       "marks": 1
     },
     {
-      "q": "16. Dalam kerajaan Srivijaya, wilayah Kedatuan ditadbir oleh",
+      "q": "Padi di kawasan tanah tinggi atau bukit yang kurang mendapat bekalan air ditanam dengan cara",
       "options": [
-        "A. Datu bukan berketurunan raja",
-        "B. Raja Kecil yang dilantik raja",
-        "C. Datu berketurunan raja",
-        "D. Pratiyuvaraja sebagai Raja Muda"
+        "Membina daik",
+        "Menggali terusan di tepi laut",
+        "Membina baray",
+        "Membuat teres atau relung"
       ],
       "marks": 1
     },
     {
-      "q": "17. Antara berikut, yang manakah BUKAN wilayah kerajaan Champa?",
+      "q": "Jadual di bawah menunjukkan pelabuhan dan barang dagangan beberapa kerajaan. Apakah kerajaan P?",
       "options": [
-        "A. Hariharalaya",
-        "B. Panduranga",
-        "C. Kauthara",
-        "D. Amaravati"
+        "Champa",
+        "Majapahit",
+        "Funan",
+        "Srivijaya"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q21.png"
+    },
+    {
+      "q": "Berdasarkan jadual pelabuhan, apakah kerajaan Q?",
+      "options": [
+        "Srivijaya",
+        "Angkor",
+        "Gangga Nagara",
+        "Kedah Tua"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q21.png"
+    },
+    {
+      "q": "Pedagang India membawa barangan seperti",
+      "options": [
+        "Kain kapas, tembikar dan batu berharga seperti akik dan karnelian",
+        "Sutera, payung dan gula",
+        "Gamat, mutiara dan rumpai laut",
+        "Rempah, gaharu dan kapur barus"
       ],
       "marks": 1
     },
     {
-      "q": "18. Pentadbiran wilayah Angkor disusun daripada unit terbesar kepada terkecil seperti berikut:",
+      "q": "Antara berikut, yang manakah hasil hutan dan laut Alam Melayu yang mendapat permintaan tinggi daripada pedagang asing? I. Gaharu II. Sutera III. Sarang burung IV. Gamat",
       "options": [
-        "A. Daerah, wilayah, kampung, daerah kecil",
-        "B. Daerah, daerah kecil, wilayah, kampung",
-        "C. Wilayah, kampung, daerah, daerah kecil",
-        "D. Wilayah, daerah, daerah kecil, kampung"
+        "I, II, III dan IV",
+        "I, III dan IV sahaja",
+        "I dan II sahaja",
+        "II dan IV sahaja"
       ],
       "marks": 1
     },
     {
-      "q": "19. Apabila kerajaan Kedah Tua menjadi sebahagian daripada Srivijaya, Kedah Tua menjadi",
+      "q": "Jadual di bawah menunjukkan hasil perlombongan dan kawasannya. Kerajaan manakah melombong emas dan perak seperti dalam jadual?",
       "options": [
-        "A. Pradatuan kerajaan Srivijaya",
-        "B. Kabupaten kerajaan Srivijaya",
-        "C. Kedatuan kerajaan Srivijaya",
-        "D. Wilayah Raja Kecil Srivijaya"
+        "Funan",
+        "Angkor",
+        "Champa",
+        "Majapahit"
+      ],
+      "marks": 1,
+      "image": "img/sejarah-tingkatan-2-bab1-2/S3_Q25.png"
+    },
+    {
+      "q": "Masyarakat Majapahit menghasilkan garam, gula, pembungkusan daging kerbau dan mi daripada beras. Apakah nilai yang dapat dikaitkan?",
+      "options": [
+        "Kreatif dalam penciptaan",
+        "Bertoleransi dalam kehidupan",
+        "Tabah menghadapi cabaran",
+        "Menghargai alam sekitar"
       ],
       "marks": 1
     },
     {
-      "q": "20. Apakah peranan raja kerajaan Gangga Nagara?",
+      "q": "Wanita kerabat diraja Majapahit menjadi anggota Sapta Prabu dan ada yang dilantik menjadi raja. Apakah yang dapat disimpulkan?",
       "options": [
-        "A. Mengurus hal perdagangan dan keagamaan",
-        "B. Mengutip cukai dan mengukuhkan pertahanan",
-        "C. Memajukan perdagangan dan menjaga keselamatan",
-        "D. Menyelenggarakan terusan dan daik kampung"
+        "Wanita dilarang terlibat dalam pentadbiran",
+        "Majapahit tidak mempunyai raja lelaki",
+        "Wanita mendapat tempat yang tinggi dalam pentadbiran Majapahit",
+        "Sapta Prabu dianggotai rakyat biasa"
       ],
       "marks": 1
     },
     {
-      "q": "21. Dalam sistem pemerintahan Angkor, kuasa kedua dan ketiga yang penting ialah",
+      "q": "Mengapakah pelabuhan kerajaan Alam Melayu dilengkapi bekalan air, tempat tinggal dan tempat menyimpan barang dagangan?",
       "options": [
-        "A. Permaisuri dan Raja Muda",
-        "B. Yuvaraja dan Pratiyuvaraja",
-        "C. Sapta Prabu dan pembesar",
-        "D. Putera Mahkota dan Raja Kecil"
+        "Untuk menarik pedagang dan memajukan perdagangan",
+        "Untuk menghalang kedatangan pedagang luar",
+        "Untuk dijadikan kubu pertahanan sahaja",
+        "Untuk dijadikan kawasan pertanian"
       ],
       "marks": 1
     },
     {
-      "q": "22. Raja Srivijaya dianggap Bodhisattva. Apakah maksudnya?",
+      "q": "Pada peringkat awal, pertanian bertujuan menyara diri. Apakah yang berlaku apabila terdapat lebihan hasil?",
       "options": [
-        "A. Raja berperanan sebagai Buddha di bumi",
-        "B. Raja ialah pemerintah alam sejagat",
-        "C. Raja dianggap sebagai raja segala raja",
-        "D. Raja dianggap sebagai dewa di kayangan"
+        "Penduduk berhenti bertani",
+        "Lebihan diserahkan kepada kerajaan China",
+        "Lebihan dibuang ke laut",
+        "Lebihan dipasarkan atau dibekalkan kepada penduduk yang tidak bertani"
       ],
       "marks": 1
     },
     {
-      "q": "23. Bagaimanakah padi ditanam di kawasan tanah tinggi yang kurang bekalan air?",
+      "q": "Sistem pemerintahan dengan raja di puncak yang dibantu oleh pembesar pusat dan wilayah telah",
       "options": [
-        "A. Dibina baray di tepi sawah",
-        "B. Dibina daik di sekeliling bukit",
-        "C. Diairi dari tasik Tonle Sap",
-        "D. Dibuat teres atau relung"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "24. Sungai yang membekalkan air untuk pengairan padi sawah kerajaan Majapahit ialah",
-      "options": [
-        "A. Sungai Mekong dan Sungai Bengawan Solo",
-        "B. Sungai Bengawan Solo dan Sungai Brantas",
-        "C. Sungai Musi dan Sungai Mekong",
-        "D. Sungai Musi dan Sungai Brantas"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "25. Apakah barangan yang dibawa oleh pedagang China ke Alam Melayu?",
-      "options": [
-        "A. Kain kapas, akik dan karnelian",
-        "B. Rempah, gaharu dan kapur barus",
-        "C. Sutera, payung, gula dan gendang",
-        "D. Minyak wangi, barangan kaca dan manik"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "26. Batu berharga seperti akik dan karnelian dibawa ke Alam Melayu oleh pedagang",
-      "options": [
-        "A. India",
-        "B. China",
-        "C. Rom",
-        "D. Arab dan Parsi"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "27. Antara berikut, yang manakah pelabuhan kerajaan Majapahit?",
-      "options": [
-        "A. Gresik",
-        "B. Bidor",
-        "C. Sri Banoy",
-        "D. Maliti"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "28. Di manakah perak dilombong di kerajaan Champa?",
-      "options": [
-        "A. Pergunungan Hue",
-        "B. Indrapura",
-        "C. Pergunungan Phnom Dek",
-        "D. Lembah Kinta"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "29. Masyarakat kerajaan manakah yang mahir membuat tembikar dan mengusahakan cuka kelapa?",
-      "options": [
-        "A. Majapahit",
-        "B. Champa",
-        "C. Funan",
-        "D. Angkor"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "30. Hasil hutan yang digunakan sebagai bahan binaan dan kraf tangan ialah",
-      "options": [
-        "A. damar",
-        "B. kapur barus",
-        "C. rotan",
-        "D. gaharu"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "31. Seorang raja dibantu oleh Putera Mahkota, Raja Muda dan Rajakumara, manakala wilayahnya ditadbir oleh Datu. Kerajaan manakah yang dimaksudkan?",
-      "options": [
-        "A. Angkor",
-        "B. Funan",
-        "C. Majapahit",
-        "D. Srivijaya"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "32. Funan mempunyai 7 wilayah, Champa 5 wilayah dan Majapahit 14 wilayah. Berapakah jumlah wilayah ketiga-tiga kerajaan ini?",
-      "options": [
-        "A. 24",
-        "B. 26",
-        "C. 28",
-        "D. 25"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "33. Di Angkor, padi dituai tiga hingga empat kali setahun. Jika padi dituai mengikut bilangan maksimum setiap tahun, berapakah kali tuaian dalam tempoh 3 tahun?",
-      "options": [
-        "A. 10",
-        "B. 12",
-        "C. 9",
-        "D. 16"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "34. Apakah persamaan sistem pemerintahan kerajaan Funan, Champa, Srivijaya, Angkor dan Majapahit?",
-      "options": [
-        "A. Sistem beraja dengan pemerintahan pusat dan wilayah",
-        "B. Wilayah ditadbir oleh Datu bukan keturunan raja",
-        "C. Raja dipilih oleh Majlis Penasihat Diraja",
-        "D. Wilayah dibahagikan kepada Kedatuan dan Pradatuan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "35. Gelaran Bodhisattva di Srivijaya, Dewaraja di Angkor dan kaitan raja Champa dengan Dewa Siva menunjukkan bahawa",
-      "options": [
-        "A. raja dilantik oleh golongan agama setempat",
-        "B. kuasa raja dikongsi sama rata dengan rakyat",
-        "C. kedudukan raja dikaitkan dengan unsur keagamaan",
-        "D. raja tunduk kepada kerajaan luar yang kuat"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "36. Seorang pedagang ingin mendapatkan emas dan bijih timah di pelabuhan yang sama. Pelabuhan manakah paling sesuai?",
-      "options": [
-        "A. Yasodharapura",
-        "B. Oc Eo",
-        "C. Sungai Mas",
-        "D. Lembah Kinta"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "37. Mengapakah pelabuhan kerajaan Alam Melayu dilengkapi bekalan air, tempat tinggal dan tempat menyimpan barang?",
-      "options": [
-        "A. Mengawal kemasukan agama dari kerajaan luar",
-        "B. Menyimpan hasil pertanian untuk sara diri",
-        "C. Menarik pedagang luar untuk singgah berdagang",
-        "D. Menghalang pedagang luar menjalankan perdagangan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "38. Pada awalnya hasil pertanian, hutan dan laut digunakan untuk keperluan sendiri, kemudian lebihannya didagangkan. Apakah kesimpulan yang tepat?",
-      "options": [
-        "A. Kegiatan ekonomi bergantung sepenuhnya pada pedagang luar",
-        "B. Masyarakat tidak lagi mengusahakan pertanian sara diri",
-        "C. Perdagangan bermula sebelum kegiatan pertanian dijalankan",
-        "D. Kegiatan ekonomi berkembang daripada sara diri kepada perdagangan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "39. Pedagang China mencari barangan Alam Melayu yang bernilai perubatan. Antara berikut, yang manakah paling sesuai?",
-      "options": [
-        "A. Sarang burung",
-        "B. Mutiara",
-        "C. Rotan",
-        "D. Rumpai laut"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "40. Malaysia kini mengkomersialkan hasil hutan seperti rotan untuk dijadikan perabot. Amalan ini selari dengan iktibar",
-      "options": [
-        "A. mentaati pemerintah demi kestabilan politik negara",
-        "B. mengekalkan kegiatan pertanian untuk sara diri sahaja",
-        "C. menghormati kerajaan luar dalam hubungan diplomatik",
-        "D. bijak memanfaatkan sumber alam untuk kemakmuran"
+        "Mewujudkan kestabilan di Alam Melayu",
+        "Menghapuskan golongan pembesar",
+        "Melemahkan kuasa raja",
+        "Menyebabkan kekacauan di wilayah"
       ],
       "marks": 1
     }

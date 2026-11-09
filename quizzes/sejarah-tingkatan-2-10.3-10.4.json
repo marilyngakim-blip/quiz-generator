@@ -1,28 +1,18 @@
 {
   "id": "sejarah-tingkatan-2-10.3-10.4",
   "title": "Sejarah Tingkatan 2 (10.3-10.4)",
-  "createdAt": "2026-11-02T03:17:22.034Z",
+  "createdAt": "2026-11-09T14:31:09.517Z",
   "questions": [
     {
       "q": "Rajah di bawah menunjukkan bentuk muka bumi di Sarawak dan Sabah. Apakah X?",
       "options": [
-        "Tanah tinggi",
         "Pulau",
-        "Lembah sungai",
-        "Delta"
+        "Tanah tinggi",
+        "Delta",
+        "Lembah sungai"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S11_Q1.png"
-    },
-    {
-      "q": "Kaum manakah mengusahakan perusahaan sagu di pesisir pantai Sarawak?",
-      "options": [
-        "Kenyah",
-        "Kelabit",
-        "Melanau",
-        "Penan"
-      ],
-      "marks": 1
     },
     {
       "q": "Antara kegiatan ekonomi kaum di pedalaman Sabah ialah",
@@ -37,39 +27,29 @@
     {
       "q": "Kaum di pedalaman Sabah yang mengutip hasil hutan dan sarang burung ialah",
       "options": [
-        "Suluk",
-        "Murut",
         "Bajau",
-        "Iranun"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kaum Iban berasal dari",
-      "options": [
-        "Sungkung, Kalimantan",
-        "Kepulauan Sulu",
-        "Sungai Kapuas",
-        "Sungai Kayan"
+        "Murut",
+        "Iranun",
+        "Suluk"
       ],
       "marks": 1
     },
     {
       "q": "Kaum Bidayuh berasal dari",
       "options": [
-        "Sungai Kayan",
         "Sungkung, Kalimantan",
+        "Sungai Kapuas",
         "Zamboanga",
-        "Sungai Kapuas"
+        "Sungai Kayan"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah kaum yang tergolong dalam Orang Ulu? I. Kayan II. Kenyah III. Iban IV. Kelabit",
       "options": [
-        "I dan III sahaja",
         "I, II, III dan IV",
         "II dan III sahaja",
+        "I dan III sahaja",
         "I, II dan IV sahaja"
       ],
       "marks": 1
@@ -77,19 +57,19 @@
     {
       "q": "Nama Dusun yang diberi oleh orang Brunei bermaksud",
       "options": [
-        "Orang sungai",
-        "Orang laut",
         "Orang bukit",
-        "Petani pedalaman"
+        "Petani pedalaman",
+        "Orang laut",
+        "Orang sungai"
       ],
       "marks": 1
     },
     {
       "q": "Nama Murut yang diberikan oleh orang Brunei bermaksud",
       "options": [
+        "Pedagang dari Sulu",
         "Petani pedalaman",
         "Orang pesisir pantai",
-        "Pedagang dari Sulu",
         "Orang bukit atau orang dari pedalaman pergunungan"
       ],
       "marks": 1
@@ -98,9 +78,9 @@
       "q": "Kaum Suluk berasal dari",
       "options": [
         "Johor",
-        "Sungkung",
+        "Kepulauan Sulu",
         "Sungai Kapuas",
-        "Kepulauan Sulu"
+        "Sungkung"
       ],
       "marks": 1
     },
@@ -108,9 +88,9 @@
       "q": "Pua kumbu merupakan hasil kerja tangan kaum",
       "options": [
         "Bajau",
-        "Iban",
+        "Melanau",
         "Rungus",
-        "Melanau"
+        "Iban"
       ],
       "marks": 1
     },
@@ -118,9 +98,9 @@
       "q": "Jadual di bawah menunjukkan hasil kerja tangan beberapa kaum. Apakah hasil kerja tangan P?",
       "options": [
         "Inavol",
+        "Terendak",
         "Pua kumbu",
-        "Keringkam",
-        "Terendak"
+        "Keringkam"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S11_Q12.png"
@@ -128,8 +108,8 @@
     {
       "q": "Perayaan Gawai Dayak dirayakan oleh kaum",
       "options": [
-        "Bisaya dan Kadayan",
         "Bajau dan Suluk",
+        "Bisaya dan Kadayan",
         "Iban, Bidayuh dan Orang Ulu",
         "Kadazandusun dan Murut"
       ],
@@ -139,60 +119,50 @@
       "q": "Jadual di bawah menunjukkan perayaan beberapa kaum di Sarawak dan Sabah. Apakah perayaan X?",
       "options": [
         "Gawai Dayak",
-        "Upacara Miring",
         "Pesta Kaamatan",
+        "Upacara Miring",
         "Pesta Kaul"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S11_Q14.png"
     },
     {
-      "q": "Rumah tinggi merupakan hasil binaan unik kaum",
-      "options": [
-        "Melanau",
-        "Bidayuh",
-        "Rungus",
-        "Iban"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Pasar terbuka yang menjadi tempat pertemuan kaum-kaum di Sabah dikenali sebagai",
       "options": [
+        "Tamu",
         "Bazar",
-        "Pekan sehari",
         "Pasar malam",
-        "Tamu"
+        "Pekan sehari"
       ],
       "marks": 1
     },
     {
       "q": "Keunikan kaum Bajau/Sama di pantai barat Sabah ialah budaya",
       "options": [
+        "Menenun pua kumbu",
         "Membina rumah tinggi",
         "Membuat terendak",
-        "Menunggang kuda",
-        "Menenun pua kumbu"
+        "Menunggang kuda"
       ],
       "marks": 1
     },
     {
       "q": "Keringkam merupakan kerja tangan kaum Melayu yang disulam dengan",
       "options": [
-        "Benang emas, perak dan tembaga",
         "Kulit kayu",
-        "Manik dan bulu burung",
-        "Daun serdang"
+        "Daun serdang",
+        "Benang emas, perak dan tembaga",
+        "Manik dan bulu burung"
       ],
       "marks": 1
     },
     {
       "q": "Patung Burung Kenyalang melambangkan",
       "options": [
+        "Kepahlawanan kaum Iban",
         "Pertanian kaum Bidayuh",
-        "Kekayaan kaum Melanau",
         "Perdagangan kaum Bajau",
-        "Kepahlawanan kaum Iban"
+        "Kekayaan kaum Melanau"
       ],
       "marks": 1
     },
@@ -200,9 +170,9 @@
       "q": "Tiang Totem yang dihasilkan oleh Orang Ulu melambangkan",
       "options": [
         "Hasil tuaian padi",
-        "Kemenangan perang",
         "Musim perayaan",
-        "Status masyarakat"
+        "Status masyarakat",
+        "Kemenangan perang"
       ],
       "marks": 1
     },
@@ -210,159 +180,109 @@
       "q": "Kaum Rungus terkenal menggubah",
       "options": [
         "Dastar",
+        "Keringkam",
         "Inavol",
-        "Pua kumbu",
-        "Keringkam"
+        "Pua kumbu"
       ],
       "marks": 1
     },
     {
       "q": "Kain dastar yang biasa digunakan sebagai tanjak dihasilkan oleh kaum",
       "options": [
-        "Melanau",
+        "Rungus",
         "Iranun",
-        "Iban",
-        "Rungus"
+        "Melanau",
+        "Iban"
       ],
       "marks": 1
     },
     {
       "q": "Upacara Miring semasa Gawai Dayak diadakan oleh kaum Iban untuk",
       "options": [
-        "Menghalau roh jahat Ipok",
+        "Memilih ratu cantik",
+        "Memperingati peranan lepa",
         "Menyatakan rasa terima kasih kepada petara atau tuhan",
-        "Memperingati peranan lepa",
-        "Memilih ratu cantik"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pesta Kaul kaum Melanau bertujuan untuk",
-      "options": [
-        "Mengelak malapetaka oleh roh jahat yang dipanggil Ipok",
-        "Meraikan semangat padi",
-        "Memperingati peranan lepa",
-        "Memilih jejaka tampan"
+        "Menghalau roh jahat Ipok"
       ],
       "marks": 1
     },
     {
       "q": "Pertandingan ratu cantik dalam Pesta Kaamatan dikenali sebagai",
       "options": [
-        "Unduk Ngadau",
-        "Keling Gawai",
         "Regata Lepa",
-        "Kumang Gawai"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Tarian Sumazau berasal daripada kaum",
-      "options": [
-        "Murut",
-        "Bajau/Sama",
-        "Kadazandusun",
-        "Iban"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Tarian Magunatip yang menggunakan dua batang buluh ditarikan oleh kaum",
-      "options": [
-        "Kadazandusun",
-        "Melanau",
-        "Murut",
-        "Iban"
+        "Unduk Ngadau",
+        "Kumang Gawai",
+        "Keling Gawai"
       ],
       "marks": 1
     },
     {
       "q": "Rumah baruk kaum Bidayuh berbentuk",
       "options": [
-        "Bulat dan kon dengan puncak berlambang burung kenyalang",
-        "Memanjang dengan banyak bilik",
         "Tinggi 10 meter dari tanah",
-        "Perahu terapung di laut"
+        "Perahu terapung di laut",
+        "Memanjang dengan banyak bilik",
+        "Bulat dan kon dengan puncak berlambang burung kenyalang"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah padanan seni bina rumah dengan kaum yang betul? I. Rumah tinggi – Melanau II. Rumah baruk – Bidayuh III. Vinatang – Rungus IV. Lepa – Iban",
       "options": [
-        "II dan IV sahaja",
-        "I, II dan III sahaja",
         "I, II, III dan IV",
-        "I dan IV sahaja"
+        "I dan IV sahaja",
+        "II dan IV sahaja",
+        "I, II dan III sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Lepa ialah perahu kaum Bajau/Sama di pantai timur Sabah yang digunakan untuk",
       "options": [
+        "Mengangkut barang dan dijadikan tempat kediaman",
         "Menyimpan tengkorak",
         "Perlumbaan sahaja",
-        "Mengangkut barang dan dijadikan tempat kediaman",
         "Upacara Miring"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Mengapakah rumah tinggi Melanau dibina setinggi 10 meter dari aras tanah?",
-      "options": [
-        "Untuk mengelak serangan musuh",
-        "Untuk menarik pelancong",
-        "Untuk mengelak salji",
-        "Untuk menyimpan padi"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah rumah panjang dibina oleh kaum Iban, Bidayuh dan Orang Ulu?",
       "options": [
-        "Untuk keselamatan, pertahanan dan kerjasama penduduk",
         "Untuk dijadikan gudang perdagangan",
-        "Untuk upacara pertabalan sultan",
-        "Untuk dijadikan tempat menyimpan perahu"
+        "Untuk keselamatan, pertahanan dan kerjasama penduduk",
+        "Untuk dijadikan tempat menyimpan perahu",
+        "Untuk upacara pertabalan sultan"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah sungai dianggap nadi kehidupan masyarakat Sarawak dan Sabah?",
       "options": [
+        "Sungai menjadi sumber air, pengangkutan, petempatan, rezeki dan perdagangan",
         "Sungai hanya untuk sempadan negeri",
-        "Sungai tidak digunakan oleh penduduk",
         "Sungai hanya digunakan untuk rekreasi",
-        "Sungai menjadi sumber air, pengangkutan, petempatan, rezeki dan perdagangan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Seorang nelayan Bajau tinggal di dalam perahu bersama keluarganya. Ini menunjukkan keunikan seni bina",
-      "options": [
-        "Rumah tinggi",
-        "Vinatang",
-        "Lepa",
-        "Rumah baruk"
+        "Sungai tidak digunakan oleh penduduk"
       ],
       "marks": 1
     },
     {
       "q": "Persamaan seni bina rumah masyarakat Sarawak ialah",
       "options": [
-        "Menggunakan konkrit dan besi",
         "Menggunakan bahan daripada sumber hutan seperti kayu belian",
+        "Semua rumah berbentuk kon",
         "Semua rumah dibina di atas air",
-        "Semua rumah berbentuk kon"
+        "Menggunakan konkrit dan besi"
       ],
       "marks": 1
     },
     {
       "q": "Pesta Kaamatan diadakan sebagai simbol kesyukuran kepada semangat padi. Apakah harapan penduduk?",
       "options": [
-        "Menghalau semua pedagang",
         "Mengelak serangan musuh",
         "Memilih Undang yang baharu",
-        "Mendapat lebih banyak hasil tuaian padi pada tahun hadapan"
+        "Mendapat lebih banyak hasil tuaian padi pada tahun hadapan",
+        "Menghalau semua pedagang"
       ],
       "marks": 1
     },
@@ -370,39 +290,19 @@
       "q": "Masyarakat Sarawak dan Sabah menghasilkan barangan kesenian pada mulanya untuk kegunaan sendiri. Apabila ada permintaan, barangan itu dikomersialkan. Apakah kesannya?",
       "options": [
         "Pendapatan masyarakat bertambah",
-        "Kraf tangan tidak lagi dihasilkan",
         "Pendapatan masyarakat berkurang",
-        "Kesenian dilarang"
+        "Kesenian dilarang",
+        "Kraf tangan tidak lagi dihasilkan"
       ],
       "marks": 1
     },
     {
       "q": "Kepelbagaian kaum di Sarawak dan Sabah disebabkan oleh",
       "options": [
-        "Arahan kerajaan Brunei",
-        "Sejarah budaya setiap kaum yang berbeza-beza",
         "Penjajahan Portugis",
-        "Perpindahan dari Eropah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Masyarakat di lembah sungai Sabah seperti Kadazandusun dan Rungus kebanyakannya",
-      "options": [
-        "Menanam padi, buah-buahan dan sayur-sayuran",
-        "Berdagang dengan kuasa Barat",
-        "Mengutip sarang burung sahaja",
-        "Membuat perahu dan menangkap ikan di laut"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Apakah iktibar daripada cara masyarakat Sarawak dan Sabah memanfaatkan alam sekitar?",
-      "options": [
-        "Alam sekitar perlu dimusnahkan",
-        "Kebijaksanaan menggunakan sumber alam membantu kelangsungan hidup",
-        "Sungai tidak penting kepada kehidupan",
-        "Sumber hutan tidak berguna"
+        "Perpindahan dari Eropah",
+        "Sejarah budaya setiap kaum yang berbeza-beza",
+        "Arahan kerajaan Brunei"
       ],
       "marks": 1
     }

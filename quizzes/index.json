@@ -54,12 +54,6 @@
     "createdAt": "2026-11-02T02:01:54.196Z"
   },
   {
-    "id": "sejarah-tingkatan-2-1.1-1.2",
-    "title": "Sejarah Tingkatan 2 (1.1-1.2)",
-    "questionCount": 40,
-    "createdAt": "2026-11-02T02:20:41.923Z"
-  },
-  {
     "id": "sejarah-tingkatan-2-1.3-1.4",
     "title": "Sejarah Tingkatan 2 (1.3-1.4)",
     "questionCount": 40,
@@ -172,5 +166,11 @@
     "title": "Sejarah Tingkatan 2 (10.3-10.4)",
     "questionCount": 30,
     "createdAt": "2026-11-09T14:31:09.517Z"
+  },
+  {
+    "id": "sejarah-tingkatan-2-1.1-1.2",
+    "title": "Sejarah Tingkatan 2 (1.1-1.2)",
+    "questionCount": 30,
+    "createdAt": "2026-11-09T14:56:13.734Z"
   }
 ]

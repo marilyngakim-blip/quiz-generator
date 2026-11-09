@@ -1,44 +1,34 @@
 {
   "id": "sejarah-tingkatan-2-7.1-7.2",
   "title": "Sejarah Tingkatan 2 (7.1-7.2)",
-  "createdAt": "2026-11-02T03:09:15.674Z",
+  "createdAt": "2026-11-09T14:24:53.935Z",
   "questions": [
-    {
-      "q": "Kesultanan Pahang diasaskan oleh",
-      "options": [
-        "Raja Muhammad, putera Sultan Mansur Shah",
-        "Raja Lumu",
-        "Raja Muzaffar, putera Sultan Mahmud Shah",
-        "Tun Zainal Abidin"
-      ],
-      "marks": 1
-    },
     {
       "q": "Raja Muhammad mengasaskan Kesultanan Pahang pada tahun",
       "options": [
-        "1470",
-        "1528",
+        "1708",
         "1766",
-        "1708"
+        "1470",
+        "1528"
       ],
       "marks": 1
     },
     {
       "q": "Pusat pemerintahan Kesultanan Pahang didirikan di",
       "options": [
-        "Tanah Abang",
-        "Tanjung Baru, Kuala Berang",
+        "Pekan, berhampiran Kuala Sungai Pahang",
         "Kuala Selangor",
-        "Pekan, berhampiran Kuala Sungai Pahang"
+        "Tanah Abang",
+        "Tanjung Baru, Kuala Berang"
       ],
       "marks": 1
     },
     {
       "q": "Kesultanan Perak diasaskan oleh",
       "options": [
-        "Raja Lumu",
-        "Raja Muhammad",
         "Tun Zainal Abidin",
+        "Raja Muhammad",
+        "Raja Lumu",
         "Raja Muzaffar, putera Sultan Mahmud Shah"
       ],
       "marks": 1
@@ -48,8 +38,8 @@
       "options": [
         "1708",
         "1766",
-        "1528",
-        "1470"
+        "1470",
+        "1528"
       ],
       "marks": 1
     },
@@ -57,8 +47,8 @@
       "q": "Pusat pemerintahan pertama Kesultanan Perak didirikan di",
       "options": [
         "Kuala Berang",
-        "Pekan",
         "Tanah Abang, di pesisir Sungai Perak",
+        "Pekan",
         "Kuala Selangor"
       ],
       "marks": 1
@@ -66,9 +56,9 @@
     {
       "q": "Jadual di bawah menunjukkan pengasas empat kesultanan Melayu. Siapakah P?",
       "options": [
-        "Tun Zainal Abidin",
-        "Long Yunus",
         "Raja Lumu",
+        "Long Yunus",
+        "Tun Zainal Abidin",
         "Raja Muhammad"
       ],
       "marks": 1,
@@ -77,61 +67,41 @@
     {
       "q": "Tun Zainal Abidin mengasaskan Kesultanan Terengganu pada tahun",
       "options": [
-        "1528",
         "1766",
+        "1528",
         "1708",
         "1470"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kesultanan Selangor diasaskan oleh",
-      "options": [
-        "Wan Ahmad",
-        "Raja Muzaffar",
-        "Tun Zainal Abidin",
-        "Raja Lumu"
       ],
       "marks": 1
     },
     {
       "q": "Berdasarkan jadual pengasas kesultanan, apakah tahun Q?",
       "options": [
-        "1708",
-        "1766",
         "1528",
+        "1766",
+        "1708",
         "1470"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S7_Q7.png"
     },
     {
-      "q": "Pusat pemerintahan pertama Kesultanan Selangor didirikan di",
-      "options": [
-        "Jugra",
-        "Kuala Selangor",
-        "Shah Alam",
-        "Klang"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Hukum Kanun Pahang mengandungi",
       "options": [
-        "92 fasal",
         "44 fasal",
+        "25 fasal",
         "99 fasal",
-        "25 fasal"
+        "92 fasal"
       ],
       "marks": 1
     },
     {
       "q": "Jadual di bawah menunjukkan undang-undang bertulis tiga kesultanan. Apakah P?",
       "options": [
-        "Undang-Undang Laut Melaka",
+        "Adat Temenggung",
         "Hukum Kanun Melaka",
         "Undang-Undang 99 Perak",
-        "Adat Temenggung"
+        "Undang-Undang Laut Melaka"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S7_Q13.png"
@@ -139,30 +109,30 @@
     {
       "q": "Karya Misa Melayu dikarang oleh",
       "options": [
-        "Raja Chulan",
-        "Tengku Dalam Kalthum",
+        "Wan Muhamad Amin",
         "Haji Muhammad Nor",
-        "Wan Muhamad Amin"
+        "Tengku Dalam Kalthum",
+        "Raja Chulan"
       ],
       "marks": 1
     },
     {
       "q": "Mata wang bongkah timah negeri Perak sejak abad ke-17 dinamakan",
       "options": [
-        "Kupang",
+        "Bidor",
         "Tampang",
         "Pitis",
-        "Bidor"
+        "Kupang"
       ],
       "marks": 1
     },
     {
       "q": "Pembesar Perak yang menjemput Raja Muzaffar dari Kampar ialah",
       "options": [
-        "Tun Perak dan Tun Habib",
+        "Tun Saban dan Nakhoda Kassim",
         "Daeng Chelak dan Daeng Merewah",
         "Tok Temong dan Seri Bija Diraja",
-        "Tun Saban dan Nakhoda Kassim"
+        "Tun Perak dan Tun Habib"
       ],
       "marks": 1
     },
@@ -170,69 +140,39 @@
       "q": "Antara alat kebesaran yang dibawa Raja Muzaffar ke Perak ialah",
       "options": [
         "Pedang Cura Si Manja Kini",
-        "Mestika Embun",
+        "Keris panjang Nang Chayam",
         "Keris Beruk Berayun",
-        "Keris panjang Nang Chayam"
+        "Mestika Embun"
       ],
       "marks": 1
     },
     {
       "q": "Tok Temong menghadiahi Sultan Muzaffar Shah sebutir batu geliga bernama",
       "options": [
-        "Cura Si Manja Kini",
-        "Surat Ciri",
         "Mestika Embun",
-        "Taming Sari"
+        "Taming Sari",
+        "Surat Ciri",
+        "Cura Si Manja Kini"
       ],
       "marks": 1
     },
     {
       "q": "Tun Zainal Abidin ialah putera angkat Raja Patani yang digelar",
       "options": [
-        "Raja Hijau",
         "Nang Chayam (Raja Kuning)",
+        "Raja Ungu",
         "Raja Biru",
-        "Raja Ungu"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pusat pemerintahan pertama Kesultanan Terengganu didirikan di",
-      "options": [
-        "Tanjung Baru, Kuala Berang",
-        "Tanah Abang",
-        "Pekan",
-        "Kuala Selangor"
+        "Raja Hijau"
       ],
       "marks": 1
     },
     {
       "q": "Raja Lumu mendapat pengiktirafan sebagai Sultan Selangor setelah ditabalkan oleh",
       "options": [
-        "Sultan Pahang",
-        "Sultan Perak, Sultan Mahmud Shah",
+        "Raja Patani",
         "Sultan Johor Riau",
-        "Raja Patani"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Selepas Sultan Abdul Ghafur Muhaiyuddin Shah tidak meninggalkan waris, Pahang diperintah oleh",
-      "options": [
-        "Kesultanan Johor Riau dari 1614 hingga 1884",
-        "Kesultanan Terengganu",
-        "Portugis",
-        "Kesultanan Perak"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kesultanan Pahang yang baharu diasaskan oleh",
-      "options": [
-        "Tun Saban",
-        "Bendahara Siwa Raja Wan Ahmad",
-        "Daeng Chelak",
-        "Raja Chulan"
+        "Sultan Pahang",
+        "Sultan Perak, Sultan Mahmud Shah"
       ],
       "marks": 1
     },
@@ -249,19 +189,19 @@
     {
       "q": "Sultan Perak yang mula mengguna pakai Undang-Undang 99 Perak ialah",
       "options": [
-        "Sultan Muzaffar Shah",
         "Sultan Zainal Abidin III",
         "Sultan Abdul Ghafur Muhaiyuddin Shah",
-        "Sultan Iskandar Dzulkarnain"
+        "Sultan Iskandar Dzulkarnain",
+        "Sultan Muzaffar Shah"
       ],
       "marks": 1
     },
     {
       "q": "Undang-Undang Bagi Diri Kerajaan Terengganu dikenali sebagai",
       "options": [
+        "Undang-Undang 99 Perak",
         "Undang-Undang Laut Melaka",
         "Hukum Kanun Pahang",
-        "Undang-Undang 99 Perak",
         "Itqan al-muluk bi ta'dil al-suluk"
       ],
       "marks": 1
@@ -269,20 +209,20 @@
     {
       "q": "Waris ganti takhta di Pahang digelar",
       "options": [
-        "Raja Muda",
         "Raja Di Hilir",
+        "Yang Di-Pertuan Muda",
         "Tengku Mahkota",
-        "Yang Di-Pertuan Muda"
+        "Raja Muda"
       ],
       "marks": 1
     },
     {
       "q": "Mata wang yang diperkenalkan oleh Sultan Zainal Abidin I di Terengganu ialah",
       "options": [
-        "Tampang",
-        "Calains",
         "Bidor",
-        "Kupang emas"
+        "Kupang emas",
+        "Calains",
+        "Tampang"
       ],
       "marks": 1
     },
@@ -291,8 +231,8 @@
       "options": [
         "Daeng Abdul Hamid",
         "Haji Muhammad Nor",
-        "Wan Muhamad Amin",
-        "Raja Chulan"
+        "Raja Chulan",
+        "Wan Muhamad Amin"
       ],
       "marks": 1
     },
@@ -300,59 +240,29 @@
       "q": "Antara berikut, yang manakah adat keputeraan diraja? I. Melenggang perut II. Mendengar azan III. Berinai besar IV. Bercukur",
       "options": [
         "II dan III sahaja",
+        "I dan III sahaja",
         "I, II, III dan IV",
-        "I, II dan IV sahaja",
-        "I dan III sahaja"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kesultanan Pahang dan Perak ialah kesinambungan langsung Kesultanan Melayu Melaka kerana",
-      "options": [
-        "Pengasasnya berasal dari Patani",
-        "Pengasasnya berketurunan Bugis",
-        "Pengasasnya dilantik oleh Portugis",
-        "Pengasasnya ialah keturunan langsung Sultan Melaka"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pengasasan Kesultanan Terengganu berkait rapat dengan Kesultanan Johor Riau kerana pengasasnya ialah",
-      "options": [
-        "Keluarga diraja daripada susur galur Bendahara Johor Riau",
-        "Putera Sultan Johor Riau berketurunan Laksamana",
-        "Waris Raja Patani yang menguasai Johor Riau",
-        "Pembesar wakil pemerintah Johor Riau"
+        "I, II dan IV sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah agama Islam penting dalam pemerintahan negeri-negeri Melayu hari ini?",
       "options": [
-        "Agama Islam tidak disebut dalam perlembagaan",
-        "Sultan ialah ketua agama dan Islam termaktub sebagai agama Persekutuan",
         "Mufti tiada dalam pentadbiran",
-        "Sultan tidak terlibat dengan hal agama"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Hukum Kanun Pahang dan Undang-Undang 99 Perak menunjukkan warisan",
-      "options": [
-        "Undang-undang Belanda",
-        "Adat Perpatih dalam pemerintahan",
-        "Hukum Kanun Melaka dalam bidang perundangan",
-        "Undang-undang Portugis"
+        "Sultan ialah ketua agama dan Islam termaktub sebagai agama Persekutuan",
+        "Sultan tidak terlibat dengan hal agama",
+        "Agama Islam tidak disebut dalam perlembagaan"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan susunan adat perkahwinan diraja. Apakah X?",
       "options": [
-        "Berendoi",
-        "Bercukur",
+        "Melenggang perut",
         "Bertunang",
-        "Melenggang perut"
+        "Berendoi",
+        "Bercukur"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S7_Q35.png"
@@ -361,39 +271,29 @@
       "q": "Sultan Zainal Abidin III terkenal sebagai sultan yang membawa pemodenan Terengganu. Apakah buktinya?",
       "options": [
         "Menggubal undang-undang tubuh, menubuhkan mahkamah syariah dan pasukan polis",
-        "Menandatangani perjanjian dengan Portugis",
         "Membina Kota Kara di Pekan Tua",
-        "Menyerang Jambi"
+        "Menyerang Jambi",
+        "Menandatangani perjanjian dengan Portugis"
       ],
       "marks": 1
     },
     {
       "q": "Pelabuhan Kuala Selangor dan Kuala Sungai Perak aktif pada abad ke-17 hingga ke-19 kerana",
       "options": [
-        "Terletak di Laut China Selatan",
         "Menjadi pusat penanaman teh",
         "Kedudukan strategik di Selat Melaka dengan hasil utama bijih timah",
+        "Terletak di Laut China Selatan",
         "Dikuasai oleh Patani"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pada zaman Sultan Ala'iddin Suleiman Shah, banyak jalan raya dan landasan kereta api dibina di Selangor. Apakah kesannya?",
-      "options": [
-        "Perdagangan bijih timah dihentikan",
-        "Pembinaan rumah dan kedai meningkat terutamanya di Kuala Lumpur dan Klang",
-        "Selangor menjadi negeri yang mundur",
-        "Penduduk berpindah ke Pahang"
       ],
       "marks": 1
     },
     {
       "q": "Mengapakah adat istiadat diraja perlu dipelihara?",
       "options": [
+        "Merupakan identiti dan warisan budaya Melayu yang bernilai",
         "Adat istiadat tidak mempunyai nilai",
-        "Adat istiadat milik kuasa asing",
         "Adat istiadat menghalang perpaduan",
-        "Merupakan identiti dan warisan budaya Melayu yang bernilai"
+        "Adat istiadat milik kuasa asing"
       ],
       "marks": 1
     },
@@ -401,8 +301,8 @@
       "q": "Penggunaan Sistem Pembesar Empat Lipatan di Pahang dan Perak menunjukkan bahawa",
       "options": [
         "Pahang dan Perak tidak mempunyai pembesar",
-        "Sistem pentadbiran Kesultanan Melayu Melaka diwarisi dan disesuaikan",
         "Sistem pentadbiran Melaka dihapuskan",
+        "Sistem pentadbiran Kesultanan Melayu Melaka diwarisi dan disesuaikan",
         "Pahang dan Perak meniru sistem Portugis"
       ],
       "marks": 1

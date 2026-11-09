@@ -48,12 +48,6 @@
     "createdAt": "2026-10-28T15:39:42.701Z"
   },
   {
-    "id": "geografi-tingkatan-2-1.1-1.2",
-    "title": "Geografi Tingkatan 2 (1.1-1.2)",
-    "questionCount": 40,
-    "createdAt": "2026-11-02T03:47:23.415Z"
-  },
-  {
     "id": "geografi-tingkatan-2-1.3-1.4",
     "title": "Geografi Tingkatan 2 (1.3-1.4)",
     "questionCount": 40,
@@ -172,5 +166,11 @@
     "title": "Sejarah Tingkatan 2 (2.1-2.2)",
     "questionCount": 30,
     "createdAt": "2026-11-09T15:00:16.280Z"
+  },
+  {
+    "id": "geografi-tingkatan-2-1.1-1.2",
+    "title": "Geografi Tingkatan 2 (1.1-1.2)",
+    "questionCount": 30,
+    "createdAt": "2026-11-09T15:03:20.310Z"
   }
 ]

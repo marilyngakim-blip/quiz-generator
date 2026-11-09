@@ -1,18 +1,8 @@
 {
   "id": "sejarah-tingkatan-2-3.1-3.2",
   "title": "Sejarah Tingkatan 2 (3.1-3.2)",
-  "createdAt": "2026-11-02T00:19:29.687Z",
+  "createdAt": "2026-11-09T14:14:30.960Z",
   "questions": [
-    {
-      "q": "Apakah bahasa utama kerajaan Funan?",
-      "options": [
-        "Bahasa Jawa Kuno",
-        "Bahasa Khmer",
-        "Bahasa Melayu Champa",
-        "Bahasa Sanskrit"
-      ],
-      "marks": 1
-    },
     {
       "q": "Kalendar yang digunakan oleh kerajaan Funan ialah",
       "options": [
@@ -26,60 +16,50 @@
     {
       "q": "Kalendar Saka berasal dari",
       "options": [
-        "India",
-        "Arab",
         "China",
-        "Parsi"
+        "Parsi",
+        "Arab",
+        "India"
       ],
       "marks": 1
     },
     {
       "q": "Masyarakat kerajaan Champa menuturkan bahasa",
       "options": [
-        "Tamil dan Sanskrit",
-        "Melayu Champa dan Sanskrit",
         "Khmer dan Melayu",
-        "Jawa Kuno dan Sanskrit"
+        "Jawa Kuno dan Sanskrit",
+        "Tamil dan Sanskrit",
+        "Melayu Champa dan Sanskrit"
       ],
       "marks": 1
     },
     {
       "q": "Jenis tulisan yang digunakan oleh masyarakat kerajaan Champa ialah",
       "options": [
-        "Tulisan Kawi dan tulisan Pegon",
-        "Tulisan Khmer dan tulisan Kawi",
         "Tulisan Jawi dan tulisan Kawi",
-        "Tulisan Palava dan tulisan Champa Kuno"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Apakah bahasa utama dalam urusan pentadbiran dan harian kerajaan Srivijaya?",
-      "options": [
-        "Bahasa Tamil",
-        "Bahasa Melayu",
-        "Bahasa Jawa Kuno",
-        "Bahasa Khmer"
+        "Tulisan Palava dan tulisan Champa Kuno",
+        "Tulisan Khmer dan tulisan Kawi",
+        "Tulisan Kawi dan tulisan Pegon"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah batu bersurat kerajaan Srivijaya?",
       "options": [
-        "Sdok Kok Thom",
         "Trowulan",
-        "Cherok Tok Kun",
-        "Kedukan Bukit"
+        "Sdok Kok Thom",
+        "Kedukan Bukit",
+        "Cherok Tok Kun"
       ],
       "marks": 1
     },
     {
       "q": "Masyarakat kerajaan Angkor menggunakan bahasa",
       "options": [
-        "Melayu dan Sanskrit",
         "Sanskrit dan Khmer",
-        "Tamil dan Khmer",
-        "Jawa Kuno dan Khmer"
+        "Melayu dan Sanskrit",
+        "Jawa Kuno dan Khmer",
+        "Tamil dan Khmer"
       ],
       "marks": 1
     },
@@ -87,19 +67,19 @@
       "q": "Apakah bahasa utama masyarakat kerajaan Majapahit?",
       "options": [
         "Jawa Kuno",
-        "Melayu Champa",
+        "Khmer",
         "Sanskrit",
-        "Khmer"
+        "Melayu Champa"
       ],
       "marks": 1
     },
     {
       "q": "Masyarakat kerajaan Majapahit menggunakan tulisan",
       "options": [
-        "Palava",
-        "Kawi",
+        "Champa Kuno",
         "Khmer",
-        "Champa Kuno"
+        "Palava",
+        "Kawi"
       ],
       "marks": 1
     },
@@ -108,27 +88,27 @@
       "options": [
         "Tulisan Kawi",
         "Tulisan Pegon",
-        "Tulisan Rumi",
-        "Tulisan Palava"
+        "Tulisan Palava",
+        "Tulisan Rumi"
       ],
       "marks": 1
     },
     {
       "q": "Kerajaan Kedah Tua menggunakan bahasa dan tulisan",
       "options": [
+        "Melayu dan Jawi",
         "Sanskrit dan Palava",
         "Khmer dan Palava",
-        "Jawa Kuno dan Kawi",
-        "Melayu dan Jawi"
+        "Jawa Kuno dan Kawi"
       ],
       "marks": 1
     },
     {
       "q": "Jadual di bawah menunjukkan bahasa dan tulisan empat kerajaan Alam Melayu. Apakah kerajaan Q?",
       "options": [
+        "Majapahit",
         "Champa",
         "Angkor",
-        "Majapahit",
         "Srivijaya"
       ],
       "marks": 1,
@@ -137,30 +117,20 @@
     {
       "q": "Sebelum sistem tulisan digunakan dengan meluas, masyarakat kerajaan Alam Melayu terkenal dengan",
       "options": [
-        "Tradisi lisan",
-        "Manuskrip",
+        "Tulisan Jawi",
         "Mesin cetak",
-        "Tulisan Jawi"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Bukti kegiatan persuratan awal kerajaan Alam Melayu yang ditemukan adalah dalam bentuk",
-      "options": [
-        "Kepingan kertas",
-        "Surat khabar",
-        "Batu bersurat",
-        "Buku bercetak"
+        "Tradisi lisan",
+        "Manuskrip"
       ],
       "marks": 1
     },
     {
       "q": "Berdasarkan jadual bahasa dan tulisan, apakah kerajaan P?",
       "options": [
-        "Kedah Tua",
         "Champa",
-        "Majapahit",
-        "Funan"
+        "Kedah Tua",
+        "Funan",
+        "Majapahit"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S1_Q13.png"
@@ -168,40 +138,40 @@
     {
       "q": "Penggunaan tulisan Palava di Champa dibuktikan dengan inskripsi abad keenam yang ditulis oleh",
       "options": [
-        "Hayam Wuruk",
-        "Raja Jayavarman II",
         "Raja Suryavarman II",
-        "Raja Sambhuvarman"
+        "Raja Sambhuvarman",
+        "Raja Jayavarman II",
+        "Hayam Wuruk"
       ],
       "marks": 1
     },
     {
       "q": "Sejak bilakah agama Islam tersebar di Champa?",
       "options": [
-        "Abad ke-15",
-        "Abad kedua",
         "Abad kelapan",
-        "Abad ke-18"
+        "Abad kedua",
+        "Abad ke-18",
+        "Abad ke-15"
       ],
       "marks": 1
     },
     {
       "q": "Kalendar Saka diperkenalkan oleh Raja Kanishka daripada dinasti",
       "options": [
-        "Ming",
+        "Cola",
         "Gupta",
         "Kushan",
-        "Cola"
+        "Ming"
       ],
       "marks": 1
     },
     {
       "q": "Batu bersurat Talang Tuwo mencatatkan pembukaan taman Sriksetra di bawah pimpinan",
       "options": [
-        "Sri Jayanasa",
+        "Raja Sambhuvarman",
         "Fan Shih-man",
-        "Prapanca",
-        "Raja Sambhuvarman"
+        "Sri Jayanasa",
+        "Prapanca"
       ],
       "marks": 1
     },
@@ -209,19 +179,19 @@
       "q": "Perkataan Kawi diambil daripada istilah Kavi dalam bahasa Sanskrit yang bermaksud",
       "options": [
         "Pendeta",
+        "Penyair",
         "Pedagang",
-        "Raja",
-        "Penyair"
+        "Raja"
       ],
       "marks": 1
     },
     {
       "q": "Berapakah huruf yang ditambah kepada huruf Arab untuk membentuk tulisan Jawi?",
       "options": [
-        "Lima",
-        "Tiga",
         "Sepuluh",
-        "Tujuh"
+        "Tujuh",
+        "Tiga",
+        "Lima"
       ],
       "marks": 1
     },
@@ -239,70 +209,40 @@
     {
       "q": "Antara berikut, yang manakah benar tentang persuratan kerajaan Kedah Tua? I. Menggunakan bahasa Sanskrit II. Menggunakan tulisan Palava III. Menggunakan tulisan Kawi IV. Batu bersurat abad kelima ditemukan di Sungai Mas dan Cherok Tok Kun",
       "options": [
-        "I dan II sahaja",
         "I, II, III dan IV",
+        "II, III dan IV sahaja",
         "I, II dan IV sahaja",
-        "II, III dan IV sahaja"
+        "I dan II sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah batu bersurat kerajaan Srivijaya? I. Kedukan Bukit II. Sdok Kok Thom III. Talang Tuwo IV. Trowulan",
       "options": [
-        "III dan IV sahaja",
-        "I dan II sahaja",
         "I dan III sahaja",
-        "II dan IV sahaja"
+        "II dan IV sahaja",
+        "I dan II sahaja",
+        "III dan IV sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Batu bersurat Sdok Kok Thom mengisahkan pemerintahan",
       "options": [
+        "Sri Jayanasa",
         "Suryavarman II",
         "Hayam Wuruk",
-        "Sri Jayanasa",
         "Jayavarman II"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Batu bersurat tertua kerajaan Champa yang ditemukan di Kauthara bertarikh",
-      "options": [
-        "192 M",
-        "684 M",
-        "1358 M",
-        "1035 M"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Karya Nagarakertagama dikarang oleh",
-      "options": [
-        "I-Tsing",
-        "Sri Jayanasa",
-        "Prapanca",
-        "Hiranyadama"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Batu bersurat Trowulan bertarikh 1358 merupakan bukti persuratan kerajaan",
-      "options": [
-        "Srivijaya",
-        "Majapahit",
-        "Funan",
-        "Kedah Tua"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah karya sastera Champa yang masyhur?",
       "options": [
-        "Pararaton",
         "Akayet Inra Patra",
-        "Nagarakertagama",
-        "Hikayat Seri Rama"
+        "Pararaton",
+        "Hikayat Seri Rama",
+        "Nagarakertagama"
       ],
       "marks": 1
     },
@@ -310,8 +250,8 @@
       "q": "Apakah kepentingan bahasa dan tulisan kepada masyarakat kerajaan Alam Melayu selain sebagai alat komunikasi?",
       "options": [
         "Menyimpan rekod pemerintahan, perundangan, perdagangan dan keagamaan",
-        "Menggantikan sistem pengairan",
         "Menghalang perdagangan asing",
+        "Menggantikan sistem pengairan",
         "Menggantikan peranan raja"
       ],
       "marks": 1
@@ -319,30 +259,10 @@
     {
       "q": "Mengapakah penemuan batu bersurat penting kepada ahli sejarah hari ini?",
       "options": [
-        "Menunjukkan harga barang dagangan hari ini",
+        "Menjadi bahan binaan bangunan",
         "Menggantikan buku teks sekolah",
         "Menjadi sumber rujukan dan dokumentasi untuk memahami tamadun silam",
-        "Menjadi bahan binaan bangunan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Golongan pemerintah menerima pendidikan formal di istana. Apakah hasil pendidikan ini?",
-      "options": [
-        "Lahir golongan bijak pandai dan pujangga istana yang menghasilkan batu bersurat dan manuskrip",
-        "Bahasa Melayu tidak lagi digunakan",
-        "Rakyat tidak lagi menerima pendidikan",
-        "Lahir golongan hamba yang ramai"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pendidikan tidak formal yang diterima oleh rakyat lebih mengkhusus kepada",
-      "options": [
-        "Ilmu pentadbiran istana",
-        "Ilmu ubat-ubatan, petua bercucuk tanam, pertukangan dan adat resam",
-        "Penulisan manuskrip istana",
-        "Pengurusan perbendaharaan negara"
+        "Menunjukkan harga barang dagangan hari ini"
       ],
       "marks": 1
     },
@@ -357,22 +277,12 @@
       "marks": 1
     },
     {
-      "q": "Hikayat Seri Rama ialah karya saduran daripada epik",
-      "options": [
-        "Ramayana",
-        "Purana",
-        "Jataka",
-        "Mahabhrata"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Apakah maksud saduran?",
       "options": [
-        "Cerita asli tanpa pengaruh luar",
-        "Cerita yang isi utamanya diambil daripada karya lain",
         "Cerita yang ditulis pada batu",
-        "Cerita yang dilakonkan di istana"
+        "Cerita yang isi utamanya diambil daripada karya lain",
+        "Cerita yang dilakonkan di istana",
+        "Cerita asli tanpa pengaruh luar"
       ],
       "marks": 1
     },
@@ -380,29 +290,19 @@
       "q": "Sebahagian besar inskripsi yang ditemukan di Kedah Tua menyentuh tentang",
       "options": [
         "Kisah nabi-nabi",
+        "Doa dan amalan dalam agama Buddha",
         "Perdagangan rempah",
-        "Peperangan dengan Majapahit",
-        "Doa dan amalan dalam agama Buddha"
+        "Peperangan dengan Majapahit"
       ],
       "marks": 1
     },
     {
       "q": "Bahasa Melayu menerima pengaruh bahasa Sanskrit, Tamil, Cina, Parsi dan Arab. Apakah kesannya?",
       "options": [
-        "Bahasa Melayu tidak lagi digunakan",
-        "Tulisan Jawi dihapuskan",
+        "Bahasa Melayu pupus",
         "Perbendaharaan kata bahasa Melayu bertambah kaya",
-        "Bahasa Melayu pupus"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Apakah faktor yang mendorong perkembangan persuratan masyarakat kerajaan Alam Melayu?",
-      "options": [
-        "Struktur sosial masyarakat",
-        "Pembinaan kapal",
-        "Sistem pengairan",
-        "Sistem tulisan"
+        "Bahasa Melayu tidak lagi digunakan",
+        "Tulisan Jawi dihapuskan"
       ],
       "marks": 1
     }

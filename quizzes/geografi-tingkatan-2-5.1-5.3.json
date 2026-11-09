@@ -1,0 +1,311 @@
+{
+  "id": "geografi-tingkatan-2-5.1-5.3",
+  "title": "Geografi Tingkatan 2 (5.1-5.3)",
+  "createdAt": "2026-11-09T15:08:32.143Z",
+  "questions": [
+    {
+      "q": "Lebuhraya Utara-Selatan menganjur dari Bukit Kayu Hitam di Kedah ke",
+      "options": [
+        "Kuantan",
+        "Johor Bahru",
+        "Kota Bharu",
+        "Pelabuhan Klang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah panjang Lebuhraya Utara-Selatan?",
+      "options": [
+        "478.5 km",
+        "620 km",
+        "847.7 km",
+        "1 024 km"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Organisasi yang bertanggungjawab terhadap jalan raya dan jalan kereta api di Malaysia ialah",
+      "options": [
+        "Jabatan Meteorologi Malaysia",
+        "Jabatan Ukur dan Pemetaan Malaysia (JUPEM)",
+        "Suruhanjaya Pengangkutan Awam Darat (SPAD)",
+        "Suruhanjaya Komunikasi dan Multimedia Malaysia (SKMM)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Landasan kereta api yang pertama di Malaysia dibina dari",
+      "options": [
+        "Tumpat ke Gemas",
+        "Padang Besar ke Johor Bahru",
+        "Tanjung Aru ke Tenom",
+        "Taiping ke Port Weld"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pada tahun berapakah landasan kereta api yang pertama dibuka?",
+      "options": [
+        "1885",
+        "1891",
+        "1970",
+        "1876"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Landasan kereta api yang pertama dibina untuk mengangkut",
+      "options": [
+        "Kelapa sawit",
+        "Penumpang",
+        "Bijih timah",
+        "Getah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah pusat pengangkutan rel bersepadu di Kuala Lumpur?",
+      "options": [
+        "Stesen Kereta Api Gemas",
+        "Stesen Sentral Kuala Lumpur",
+        "Stesen Padang Besar",
+        "Stesen Kereta Api Tumpat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah bilangan lapangan terbang antarabangsa di Malaysia?",
+      "options": [
+        "16",
+        "4",
+        "18",
+        "6"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan manakah dikenali sebagai Pusat Muatan Negara?",
+      "options": [
+        "Pelabuhan Bintulu",
+        "Pelabuhan Pulau Pinang",
+        "Pelabuhan Klang",
+        "Pelabuhan Kuantan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan manakah mempunyai terminal kontena yang paling canggih di Malaysia?",
+      "options": [
+        "Pelabuhan Pulau Pinang",
+        "Pelabuhan Tanjung Pelepas",
+        "Pelabuhan Kuantan",
+        "Pelabuhan Bintulu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah pengangkutan awam air?",
+      "options": [
+        "Feri",
+        "Teksi",
+        "ETS",
+        "Monorel"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud e-panggilan (e-hailing)?",
+      "options": [
+        "Menaiki bas di perhentian bas",
+        "Menghantar surat melalui pos",
+        "Membeli tiket kapal terbang di kaunter",
+        "Menempah kenderaan melalui komputer atau peranti bergerak"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Peta di bawah menunjukkan jaringan landasan kereta api di Semenanjung Malaysia. Apakah nama stesen persimpangan yang bertanda Q?",
+      "options": [
+        "Ipoh",
+        "Seremban",
+        "Gemas",
+        "Kuala Lipis"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S9_Q16.png"
+    },
+    {
+      "q": "Landasan kereta api pantai timur menganjur dari Tumpat (Kelantan) ke",
+      "options": [
+        "Padang Besar (Perlis)",
+        "Gemas (Negeri Sembilan)",
+        "Kuantan (Pahang)",
+        "Johor Bahru (Johor)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Landasan kereta api utama di Semenanjung Malaysia menganjur dari",
+      "options": [
+        "Padang Besar ke Johor Bahru",
+        "Tumpat ke Gemas",
+        "Kuala Lumpur ke Kuantan",
+        "Taiping ke Port Weld"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Landasan kereta api di Sabah menghubungkan",
+      "options": [
+        "Kota Kinabalu, Lahad Datu, Semporna dan Tawau",
+        "Kuching, Sarikei, Bintulu dan Miri",
+        "Tanjung Aru, Papar, Beaufort dan Tenom",
+        "Kudat, Ranau, Sandakan dan Tawau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Perkhidmatan kereta api di Semenanjung Malaysia diuruskan oleh",
+      "options": [
+        "Keretapi Tanah Melayu Berhad (KTMB)",
+        "Jabatan Keretapi Negeri Sabah",
+        "PLUS Berhad",
+        "Telekom Malaysia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan Klang terdiri daripada dua terminal, iaitu",
+      "options": [
+        "Westport dan Southport",
+        "Southport dan Eastport",
+        "Northport dan Eastport",
+        "Northport dan Westport"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan manakah merupakan laluan tunggal eksport gas asli cecair negara?",
+      "options": [
+        "Pelabuhan Bintulu",
+        "Pelabuhan Klang",
+        "Pelabuhan Tanjung Pelepas",
+        "Pelabuhan Kuantan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pelabuhan Kontena Teluk Sepanggar mengendalikan hampir 70 peratus operasi kontena bagi",
+      "options": [
+        "Seluruh Sarawak",
+        "Seluruh Sabah",
+        "Pantai timur Semenanjung",
+        "Seluruh Semenanjung Malaysia"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Peta di bawah menunjukkan beberapa pelabuhan utama di Semenanjung Malaysia. Pelabuhan S menyediakan perkhidmatan bagi pukal kering, pecah pukal, pukal cecair dan kargo berbahaya. Apakah pelabuhan S?",
+      "options": [
+        "Pelabuhan Pulau Pinang",
+        "Pelabuhan Klang",
+        "Pelabuhan Tanjung Pelepas",
+        "Pelabuhan Kuantan"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S9_Q26.png"
+    },
+    {
+      "q": "Apakah maksud kargo?",
+      "options": [
+        "Barang kering dalam kuantiti yang banyak",
+        "Barang dagangan yang dibawa dengan kapal",
+        "Cecair yang diangkut dalam jumlah besar",
+        "Pangkalan perahu kecil untuk persiaran"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud marina?",
+      "options": [
+        "Barang dagangan yang dibawa dengan kapal",
+        "Terminal kontena yang canggih",
+        "Stesen persimpangan kereta api",
+        "Pangkalan perahu kecil untuk persiaran"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah pengangkutan awam rel bersepadu? I. Monorel II. e-panggilan III. Transit Aliran Massa (MRT) IV. Perkhidmatan Tren Elektrik (ETS)",
+      "options": [
+        "I, III dan IV sahaja",
+        "I, II, III dan IV",
+        "I dan II sahaja",
+        "II, III dan IV sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan peta jaringan landasan kereta api, laluan manakah dilalui oleh seorang penumpang dari Tumpat ke Seremban?",
+      "options": [
+        "Tumpat – Kuantan – Gemas – Seremban",
+        "Tumpat – Padang Besar – Ipoh – Seremban",
+        "Tumpat – Butterworth – Ipoh – Kuala Lumpur – Seremban",
+        "Tumpat – Gua Musang – Kuala Lipis – Gemas – Seremban"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S9_Q16.png"
+    },
+    {
+      "q": "Sebuah syarikat ingin mengeksport gas asli cecair ke luar negara. Pelabuhan manakah paling sesuai?",
+      "options": [
+        "Pelabuhan Kontena Teluk Sepanggar",
+        "Pelabuhan Bintulu",
+        "Pelabuhan Pulau Pinang",
+        "Pelabuhan Kuantan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang pelancong ingin ke KLIA dari Kuala Lumpur dengan perkhidmatan rel yang terus. Pilihan manakah paling sesuai?",
+      "options": [
+        "KLIA Ekspres (ERL)",
+        "Monorel",
+        "Feri",
+        "KTM Antarabandar"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan peta pelabuhan, pelabuhan manakah paling sesuai bagi seorang usahawan di Lembah Klang untuk mengimport kontena barangan?",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "S"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S9_Q26.png"
+    },
+    {
+      "q": "Monorel, ETS dan MRT tergolong dalam kategori",
+      "options": [
+        "Pengangkutan awam darat (jalan raya)",
+        "Pengangkutan awam darat (jalan kereta api)",
+        "Pengangkutan awam udara",
+        "Pengangkutan awam air"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sekeluarga ingin ke Pulau Langkawi dari tanah besar menggunakan pengangkutan awam air. Pilihan manakah paling sesuai?",
+      "options": [
+        "ETS",
+        "LRT",
+        "Feri",
+        "Monorel"
+      ],
+      "marks": 1
+    }
+  ]
+}

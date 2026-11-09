@@ -1,0 +1,312 @@
+{
+  "id": "geografi-tingkatan-2-9.1-9.2",
+  "title": "Geografi Tingkatan 2 (9.1-9.2)",
+  "createdAt": "2026-11-09T15:12:33.782Z",
+  "questions": [
+    {
+      "q": "Apakah maksud pemanasan global?",
+      "options": [
+        "Pertukaran musim di kawasan iklim sederhana",
+        "Kejadian hujan lebat yang luar biasa",
+        "Penurunan suhu bumi akibat salji",
+        "Peningkatan suhu atmosfera bumi secara berterusan akibat kesan rumah hijau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud global?",
+      "options": [
+        "Berlaku di satu kawasan kecil sahaja",
+        "Meliputi, mempengaruhi atau mengenai seluruh dunia",
+        "Berkaitan dengan satu negara sahaja",
+        "Berlaku pada waktu malam sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Gas manakah terlibat dalam pemanasan global?",
+      "options": [
+        "Karbon dioksida dan klorofluorokarbon",
+        "Oksigen dan hidrogen",
+        "Oksigen dan helium",
+        "Nitrogen dan helium"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah suhu bumi semakin panas?",
+      "options": [
+        "Bumi berhenti berputar",
+        "Bumi semakin jauh dari matahari",
+        "Haba yang dibalikkan oleh bumi terperangkap dalam atmosfera oleh gas rumah hijau",
+        "Bulan memancarkan haba ke bumi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Tahun manakah mencatatkan suhu permukaan terpanas sejak rekod moden bermula?",
+      "options": [
+        "2010",
+        "1980",
+        "2016",
+        "1997"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah peningkatan suhu permukaan pada tahun 2016?",
+      "options": [
+        "Kira-kira 0.1°C",
+        "Kira-kira 11°C",
+        "Kira-kira 1.1°C",
+        "Kira-kira 5°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Faktor-faktor pemanasan global terbahagi kepada",
+      "options": [
+        "Faktor ekonomi dan faktor politik",
+        "Faktor darat dan faktor laut",
+        "Faktor aktiviti manusia dan faktor semula jadi",
+        "Faktor suhu dan faktor hujan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah maksud penyahhutanan?",
+      "options": [
+        "Penanaman semula hutan",
+        "Pemuliharaan hutan simpan",
+        "Pemusnahan hutan secara kekal",
+        "Penebangan pokok secara terpilih"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Simbol CO bermaksud",
+      "options": [
+        "Kobalt",
+        "Karbon monoksida",
+        "Karbon dioksida",
+        "Klorofluorokarbon"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Simbol NO2 bermaksud",
+      "options": [
+        "Nitrus oksida",
+        "Nitrogen dioksida",
+        "Nitrogen monoksida",
+        "Natrium oksida"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Aktiviti pertanian membebaskan gas",
+      "options": [
+        "Metana dan nitrus oksida",
+        "CFC dan nitrogen dioksida",
+        "Oksigen dan hidrogen",
+        "Sulfur dioksida dan karbon monoksida"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pembakaran terbuka membebaskan gas",
+      "options": [
+        "Nitrus oksida",
+        "Metana",
+        "Oksigen",
+        "Karbon dioksida"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bagaimanakah aktiviti pertanian menyumbang kepada pemanasan global?",
+      "options": [
+        "Penggunaan tenaga suria",
+        "Penanaman pokok di sekitar rumah",
+        "Penggunaan racun serangga dan baja kimia secara berlebihan",
+        "Penggunaan baja kompos"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Penyahhutanan secara besar-besaran dijalankan untuk",
+      "options": [
+        "Pertanian, petempatan dan perindustrian",
+        "Pemuliharaan hidupan liar",
+        "Pendidikan alam sekitar",
+        "Kawasan tadahan air"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kenderaan bermotor dan aktiviti perindustrian menggunakan bahan bakar utama, iaitu",
+      "options": [
+        "Tenaga ombak",
+        "Bahan api fosil",
+        "Tenaga angin",
+        "Tenaga suria"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Gas manakah dibebaskan oleh aktiviti perindustrian?",
+      "options": [
+        "Karbon dioksida, nitrogen dioksida dan CFC",
+        "Oksigen dan nitrogen",
+        "Metana dan nitrus oksida sahaja",
+        "Sulfur dioksida sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jadual di bawah menunjukkan sumber gas rumah hijau. Berdasarkan jadual, gas manakah dibebaskan oleh pengangkutan?",
+      "options": [
+        "Metana dan nitrus oksida",
+        "Oksigen dan hidrogen",
+        "CFC dan oksigen",
+        "Karbon dioksida dan karbon monoksida"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S19_Q20.png"
+    },
+    {
+      "q": "Letusan gunung berapi membebaskan gas",
+      "options": [
+        "Oksigen dan helium",
+        "CFC dan nitrogen dioksida",
+        "Metana dan nitrus oksida",
+        "Karbon dioksida, karbon monoksida dan sulfur dioksida"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Penjanaan tenaga elektrik terma membebaskan gas",
+      "options": [
+        "Oksigen",
+        "Nitrus oksida",
+        "Karbon dioksida",
+        "Metana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rajah di bawah menunjukkan kesan rumah hijau. Proses R menunjukkan sebahagian haba diserap dan disebarkan ke semua arah oleh",
+      "options": [
+        "Bulan",
+        "Lautan",
+        "Salji",
+        "Molekul gas rumah hijau"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S19_Q23.png"
+    },
+    {
+      "q": "Berdasarkan rajah kesan rumah hijau, apakah yang ditunjukkan oleh proses Q?",
+      "options": [
+        "Sebahagian besar haba daripada pancaran matahari diserap oleh bumi",
+        "Haba dipantulkan oleh salji di kutub",
+        "Sebahagian pancaran matahari terbebas ke angkasa",
+        "Haba diserap oleh bulan"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S19_Q23.png"
+    },
+    {
+      "q": "Letusan gunung berapi menyumbang kepada pemanasan global kerana",
+      "options": [
+        "Menambah hutan",
+        "Mengeluarkan banyak asap dan debu",
+        "Mengurangkan gas rumah hijau",
+        "Menyejukkan suhu bumi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah faktor semula jadi pemanasan global? I. Letusan gunung berapi II. Penyahhutanan III. Penerimaan pancaran matahari yang berlebihan IV. Kebakaran hutan secara semula jadi",
+      "options": [
+        "I, III dan IV sahaja",
+        "I dan II sahaja",
+        "II, III dan IV sahaja",
+        "I, II, III dan IV"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah perkaitan antara gas rumah hijau dengan peningkatan suhu global?",
+      "options": [
+        "Gas rumah hijau hanya mempengaruhi hujan",
+        "Semakin banyak gas rumah hijau, semakin banyak haba terperangkap dan suhu meningkat",
+        "Gas rumah hijau tidak mempengaruhi suhu",
+        "Semakin banyak gas rumah hijau, semakin sejuk suhu bumi"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang petani menggunakan baja kimia dan racun serangga secara berlebihan. Faktor manakah ditunjukkan?",
+      "options": [
+        "Faktor semula jadi",
+        "Penerimaan pancaran matahari berlebihan",
+        "Letusan gunung berapi",
+        "Aktiviti manusia (pertanian)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sebuah bandar mempunyai banyak stesen jana kuasa terma. Gas manakah paling banyak dibebaskan?",
+      "options": [
+        "Oksigen",
+        "Karbon dioksida",
+        "Nitrus oksida",
+        "Metana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan jadual sumber gas rumah hijau, aktiviti manakah membebaskan paling banyak jenis gas?",
+      "options": [
+        "Perindustrian",
+        "Pengangkutan",
+        "Pembakaran terbuka",
+        "Penjanaan tenaga elektrik terma"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S19_Q20.png"
+    },
+    {
+      "q": "Mengapakah penebangan hutan secara besar-besaran meningkatkan pemanasan global?",
+      "options": [
+        "Hujan bertambah lebat",
+        "Suhu bumi menjadi lebih sejuk",
+        "Lebih banyak oksigen dihasilkan",
+        "Pokok yang menyerap karbon dioksida berkurang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan jadual sumber gas rumah hijau, pasangan aktiviti dan gas manakah BETUL?",
+      "options": [
+        "Pertanian: Metana",
+        "Letusan gunung berapi: CFC",
+        "Pembakaran terbuka: Metana",
+        "Pengangkutan: CFC"
+      ],
+      "marks": 1,
+      "image": "img/geografi-tingkatan-2/S19_Q20.png"
+    },
+    {
+      "q": "Mengapakah fenomena pemanasan global ketara di kawasan kutub?",
+      "options": [
+        "Kawasan kutub mempunyai banyak kenderaan",
+        "Ais di kutub mencair apabila suhu meningkat",
+        "Kawasan kutub mempunyai banyak kilang",
+        "Kawasan kutub menerima hujan lebat"
+      ],
+      "marks": 1
+    }
+  ]
+}

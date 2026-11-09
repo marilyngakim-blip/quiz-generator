@@ -1,14 +1,14 @@
 {
   "id": "geografi-tingkatan-2-2.4-2.5",
   "title": "Geografi Tingkatan 2 (2.4-2.5)",
-  "createdAt": "2026-11-02T04:04:00.758Z",
+  "createdAt": "2026-11-09T15:06:01.079Z",
   "questions": [
     {
       "q": "Ciri pandang darat fizikal merujuk",
       "options": [
-        "Ciri semula jadi seperti bentuk muka bumi, saliran dan tumbuh-tumbuhan semula jadi",
-        "Ciri buatan manusia seperti petempatan dan jalan raya",
         "Kegiatan ekonomi penduduk seperti pertanian",
+        "Ciri buatan manusia seperti petempatan dan jalan raya",
+        "Ciri semula jadi seperti bentuk muka bumi, saliran dan tumbuh-tumbuhan semula jadi",
         "Kemudahan sosial seperti sekolah dan hospital"
       ],
       "marks": 1
@@ -16,20 +16,10 @@
     {
       "q": "Ciri pandang darat budaya merujuk",
       "options": [
-        "Ciri semula jadi",
-        "Ciri buatan manusia",
+        "Bentuk muka bumi",
         "Tumbuh-tumbuhan semula jadi",
-        "Bentuk muka bumi"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Antara berikut, yang manakah ciri pandang darat fizikal?",
-      "options": [
-        "Jambatan",
-        "Sungai",
-        "Masjid",
-        "Jalan raya"
+        "Ciri buatan manusia",
+        "Ciri semula jadi"
       ],
       "marks": 1
     },
@@ -37,68 +27,48 @@
       "q": "Antara berikut, yang manakah ciri pandang darat budaya?",
       "options": [
         "Jalan kereta api",
-        "Tasik",
+        "Paya bakau",
         "Kontur",
-        "Paya bakau"
+        "Tasik"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah tumbuh-tumbuhan semula jadi?",
       "options": [
-        "Getah",
-        "Padi sawah",
+        "Paya nipah",
         "Kelapa sawit",
-        "Paya nipah"
+        "Padi sawah",
+        "Getah"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah ciri pandang darat budaya dalam bentuk guna tanah pertanian?",
       "options": [
-        "Hutan",
         "Rumput",
+        "Hutan",
         "Belukar",
         "Kelapa sawit"
       ],
       "marks": 1
     },
     {
-      "q": "Kontur dalam peta topografi ialah contoh ciri pandang darat",
-      "options": [
-        "Sosial",
-        "Ekonomi",
-        "Budaya",
-        "Fizikal"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Masjid, kuil, tokong dan gereja dalam peta topografi dikategorikan sebagai",
-      "options": [
-        "Ciri pandang darat fizikal",
-        "Ciri pandang darat budaya",
-        "Ciri saliran",
-        "Ciri bentuk muka bumi"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Jabatan manakah yang menerbitkan peta topografi di Malaysia?",
       "options": [
-        "Jabatan Perhutanan",
+        "Jabatan Alam Sekitar",
         "Jabatan Ukur dan Pemetaan Malaysia",
         "Jabatan Meteorologi Malaysia",
-        "Jabatan Alam Sekitar"
+        "Jabatan Perhutanan"
       ],
       "marks": 1
     },
     {
       "q": "Tanaman yang sesuai diusahakan di kawasan tanah tinggi ialah",
       "options": [
-        "Kelapa dan paya nipah",
         "Padi sawah dan nanas",
         "Getah dan kelapa sawit",
+        "Kelapa dan paya nipah",
         "Teh dan sayur-sayuran hawa sederhana"
       ],
       "marks": 1
@@ -116,9 +86,9 @@
     {
       "q": "Kegiatan ekonomi utama di kawasan pinggir laut ialah",
       "options": [
-        "Perikanan",
-        "Penanaman getah",
         "Penanaman teh",
+        "Penanaman getah",
+        "Perikanan",
         "Pembalakan"
       ],
       "marks": 1
@@ -126,20 +96,20 @@
     {
       "q": "Tanaman yang biasa diusahakan di kawasan tanah pamah ialah",
       "options": [
-        "Getah dan kelapa sawit",
-        "Bunga-bungaan hawa sederhana",
+        "Padi sawah dan nanas",
         "Teh dan sayur-sayuran",
-        "Padi sawah dan nanas"
+        "Bunga-bungaan hawa sederhana",
+        "Getah dan kelapa sawit"
       ],
       "marks": 1
     },
     {
       "q": "Apakah langkah pertama untuk mentafsir peta topografi?",
       "options": [
-        "Tafsirkan peta menggunakan bukti",
-        "Kira jarak sebenar dalam peta",
+        "Kaitkan ciri fizikal dengan ciri budaya",
         "Perhatikan peta secara keseluruhan",
-        "Kaitkan ciri fizikal dengan ciri budaya"
+        "Kira jarak sebenar dalam peta",
+        "Tafsirkan peta menggunakan bukti"
       ],
       "marks": 1
     },
@@ -148,98 +118,78 @@
       "options": [
         "Skala peta topografi",
         "Arah utara peta",
-        "Nilai garisan timuran",
-        "Kewujudan ciri pandang darat budaya"
+        "Kewujudan ciri pandang darat budaya",
+        "Nilai garisan timuran"
       ],
       "marks": 1
     },
     {
       "q": "Empangan kuasa hidroelektrik biasanya dibina di kawasan",
       "options": [
-        "Pinggir laut",
         "Paya bakau",
-        "Tanah tinggi",
-        "Tanah pamah"
+        "Pinggir laut",
+        "Tanah pamah",
+        "Tanah tinggi"
       ],
       "marks": 1
     },
     {
       "q": "Ciri pandang darat budaya yang diwujudkan oleh saliran ialah",
       "options": [
-        "Ladang teh",
         "Jeti dan pangkalan bot",
         "Kem pembalakan",
-        "Kemudahan penginapan tanah tinggi"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kem pembalakan dan laluan pejalan kaki diwujudkan di kawasan",
-      "options": [
-        "Tumbuhan semula jadi",
-        "Pinggir laut",
-        "Tanah pamah",
-        "Saliran"
+        "Kemudahan penginapan tanah tinggi",
+        "Ladang teh"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah ciri pandang darat fizikal? I. Paya bakau II. Jeti III. Kontur IV. Ladang getah",
       "options": [
+        "III dan IV sahaja",
         "I dan II sahaja",
         "I dan III sahaja",
-        "II dan IV sahaja",
-        "III dan IV sahaja"
+        "II dan IV sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Selain menghubungkaitkan ciri pandang darat, mentafsir peta topografi membolehkan kita menentukan",
       "options": [
-        "Taburan penduduk, kedudukan dan pola petempatan",
-        "Jarak relatif berdasarkan kos",
         "Arah tiupan angin monsun",
-        "Suhu dan jumlah hujan kawasan"
+        "Suhu dan jumlah hujan kawasan",
+        "Taburan penduduk, kedudukan dan pola petempatan",
+        "Jarak relatif berdasarkan kos"
       ],
       "marks": 1
     },
     {
       "q": "Berdasarkan Peta Jerteh, apakah saliran utama di kawasan itu?",
       "options": [
-        "Sungai Meranti",
-        "Sungai Nering",
         "Sungai Jernih",
-        "Sungai Timah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Berdasarkan Peta Jerteh, apakah kegiatan ekonomi utama penduduk?",
-      "options": [
-        "Perlombongan",
-        "Pembalakan",
-        "Perikanan",
-        "Pertanian"
+        "Sungai Timah",
+        "Sungai Meranti",
+        "Sungai Nering"
       ],
       "marks": 1
     },
     {
       "q": "Di Jerteh, padi sawah ditanam di kawasan",
       "options": [
-        "Tanah tinggi di barat daya",
-        "Kaki bukit yang bersaliran baik",
+        "Kawasan paya nipah",
         "Lembah sungai dan tanah pamah",
-        "Kawasan paya nipah"
+        "Kaki bukit yang bersaliran baik",
+        "Tanah tinggi di barat daya"
       ],
       "marks": 1
     },
     {
       "q": "Peta di bawah ialah peta topografi Sentosa. Apakah pola petempatan di Pekan Sentosa?",
       "options": [
-        "Berjajar",
         "Berkelompok",
         "Berpusat",
-        "Berselerak"
+        "Berselerak",
+        "Berjajar"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S4_Q24.png"
@@ -247,10 +197,10 @@
     {
       "q": "Berdasarkan peta, apakah pola petempatan di sepanjang jalan raya di bahagian utara peta?",
       "options": [
-        "Berpusat",
         "Berkelompok",
-        "Berjajar",
-        "Berselerak"
+        "Berselerak",
+        "Berpusat",
+        "Berjajar"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S4_Q24.png"
@@ -258,8 +208,8 @@
     {
       "q": "Berdasarkan peta, petempatan berjajar terletak dalam segi empat grid",
       "options": [
-        "RG 1123",
         "RG 2311",
+        "RG 1123",
         "RG 1122",
         "RG 1223"
       ],
@@ -269,30 +219,20 @@
     {
       "q": "Di Jerteh, tanaman getah diusahakan di kawasan",
       "options": [
-        "Lembah sungai secara sawah",
-        "Tanah tinggi berhawa sederhana",
+        "Kawasan paya nipah",
         "Kaki bukit dan tanah pamah secara kebun kecil dan ladang",
-        "Kawasan paya nipah"
+        "Tanah tinggi berhawa sederhana",
+        "Lembah sungai secara sawah"
       ],
       "marks": 1
     },
     {
       "q": "Kawasan tanah pamah di Jerteh digunakan untuk",
       "options": [
-        "Petempatan, pengangkutan dan pertanian",
         "Penanaman teh dan sayur-sayuran",
-        "Empangan hidroelektrik",
-        "Pembalakan dan perlombongan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Antara berikut, yang manakah ciri pandang darat fizikal dalam Peta Jerteh?",
-      "options": [
-        "Paya nipah",
-        "Pejabat daerah",
-        "Jambatan",
-        "Ladang getah"
+        "Petempatan, pengangkutan dan pertanian",
+        "Pembalakan dan perlombongan",
+        "Empangan hidroelektrik"
       ],
       "marks": 1
     },
@@ -300,19 +240,19 @@
       "q": "Mengapakah Pekan Jabir menjadi kawasan tumpuan penduduk?",
       "options": [
         "Terletak di kawasan tanah tinggi",
-        "Mempunyai kemudahan sosial seperti sekolah, klinik, balai polis dan pejabat pos",
         "Dikelilingi kawasan hutan dan paya nipah",
-        "Mempunyai kem pembalakan"
+        "Mempunyai kem pembalakan",
+        "Mempunyai kemudahan sosial seperti sekolah, klinik, balai polis dan pejabat pos"
       ],
       "marks": 1
     },
     {
       "q": "Berdasarkan peta topografi Sentosa, mengapakah tiada petempatan di bahagian barat daya peta?",
       "options": [
-        "Kawasan itu terletak di pinggir laut",
-        "Kawasan itu dipenuhi sawah padi",
+        "Kawasan itu tanah tinggi berbukit dan berhutan",
         "Kawasan itu tanah pamah yang rata",
-        "Kawasan itu tanah tinggi berbukit dan berhutan"
+        "Kawasan itu dipenuhi sawah padi",
+        "Kawasan itu terletak di pinggir laut"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S4_Q24.png"
@@ -320,62 +260,32 @@
     {
       "q": "Berdasarkan peta, apakah kegiatan ekonomi utama penduduk di Kg. Nelayan?",
       "options": [
+        "Perikanan",
         "Pembalakan",
         "Penanaman teh",
-        "Perikanan",
         "Penanaman padi"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S4_Q24.png"
     },
     {
-      "q": "Sebuah lapangan terbang ingin dibina. Kawasan manakah paling sesuai?",
-      "options": [
-        "Paya bakau",
-        "Tanah pamah",
-        "Tanah tinggi",
-        "Hutan di cerun bukit"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Berdasarkan peta, mengapakah padi sawah banyak ditanam di sepanjang Sungai Damai?",
       "options": [
-        "Kawasannya tanah tinggi berhawa sederhana",
         "Kawasannya paya bakau di pinggir laut",
-        "Kawasannya hutan yang tebal",
-        "Kawasannya tanah pamah dan mudah mendapat bekalan air"
+        "Kawasannya tanah pamah dan mudah mendapat bekalan air",
+        "Kawasannya tanah tinggi berhawa sederhana",
+        "Kawasannya hutan yang tebal"
       ],
       "marks": 1,
       "image": "img/geografi-tingkatan-2/S4_Q24.png"
     },
     {
-      "q": "Sebuah peta menunjukkan kemudahan penginapan dan ladang teh. Ciri pandang darat fizikal manakah paling mungkin di kawasan itu?",
-      "options": [
-        "Pinggir laut",
-        "Tanah pamah",
-        "Tanah tinggi",
-        "Paya nipah"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kawasan yang mempunyai sekolah, hospital, jalan raya dan jalan kereta api paling mungkin ialah",
-      "options": [
-        "Paya bakau",
-        "Tanah tinggi",
-        "Hutan tebal",
-        "Tanah pamah"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Encik Ahmad ingin membuka sawah padi. Kawasan manakah paling sesuai?",
       "options": [
-        "Pinggir laut berpaya bakau",
-        "Tanah pamah di lembah sungai",
         "Tanah tinggi berhawa sederhana",
-        "Cerun bukit yang curam"
+        "Pinggir laut berpaya bakau",
+        "Cerun bukit yang curam",
+        "Tanah pamah di lembah sungai"
       ],
       "marks": 1
     },
@@ -383,29 +293,19 @@
       "q": "Hutan di sebuah kawasan diterokai lalu kem pembalakan dan jalan balak dibina. Pernyataan manakah paling tepat?",
       "options": [
         "Ciri pandang darat fizikal mempengaruhi kewujudan ciri pandang darat budaya",
-        "Tiada kaitan antara hutan dengan pembalakan",
         "Ciri pandang darat budaya mewujudkan hutan",
-        "Hutan ialah ciri pandang darat budaya"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Sebuah peta menunjukkan jeti, petempatan nelayan dan tempat berkelah. Ciri pandang darat fizikal manakah paling mungkin?",
-      "options": [
-        "Tanah tinggi",
-        "Tanah beralun",
-        "Pinggir laut",
-        "Hutan simpan"
+        "Hutan ialah ciri pandang darat budaya",
+        "Tiada kaitan antara hutan dengan pembalakan"
       ],
       "marks": 1
     },
     {
       "q": "Antara pernyataan berikut, yang manakah tafsiran peta yang disokong oleh bukti dalam peta?",
       "options": [
-        "Penduduk menangkap ikan kerana terdapat ladang getah",
         "Penduduk menjalankan perlombongan kerana terdapat sungai",
+        "Kawasan itu tanah tinggi kerana terdapat sawah padi",
         "Penduduk menjalankan pertanian kerana terdapat banyak sawah padi dan ladang getah",
-        "Kawasan itu tanah tinggi kerana terdapat sawah padi"
+        "Penduduk menangkap ikan kerana terdapat ladang getah"
       ],
       "marks": 1
     }

@@ -1,55 +1,35 @@
 {
   "id": "sejarah-tingkatan-2-10.1-10.2",
   "title": "Sejarah Tingkatan 2 (10.1-10.2)",
-  "createdAt": "2026-11-02T03:16:04.494Z",
+  "createdAt": "2026-11-09T14:29:36.905Z",
   "questions": [
     {
       "q": "Pusat pembuatan tembikar sejak sebelum Masihi di Sabah terletak di",
       "options": [
+        "Kalka",
         "Santubong",
-        "Pulau Banggi",
         "Bukit Tengkorak, Semporna",
-        "Kalka"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Pada abad ketiga, muncul pelabuhan Chu-Po di",
-      "options": [
-        "Utara Sabah",
-        "Pantai timur Sabah",
-        "Selatan Sarawak",
-        "Tengah Sarawak"
+        "Pulau Banggi"
       ],
       "marks": 1
     },
     {
       "q": "Pelabuhan Chu-Po menjadi tempat mengeksport besi ke",
       "options": [
-        "Funan dan Champa",
         "Siam dan Pegu",
+        "Funan dan Champa",
         "Melaka dan Johor",
         "Srivijaya dan Majapahit"
       ],
       "marks": 1
     },
     {
-      "q": "Pada abad ketujuh, pusat perdagangan utama di Sarawak ialah",
-      "options": [
-        "Pulau Banggi",
-        "Santubong",
-        "Bukit Tengkorak",
-        "Chu-Po"
-      ],
-      "marks": 1
-    },
-    {
       "q": "Barangan tembikar dari zaman dinasti manakah ditemukan di Santubong?",
       "options": [
-        "Han dan Zhou",
-        "Yuan dan Ming",
         "Ming dan Qing",
-        "T'ang dan Sung"
+        "T'ang dan Sung",
+        "Han dan Zhou",
+        "Yuan dan Ming"
       ],
       "marks": 1
     },
@@ -67,29 +47,19 @@
       "q": "Gendang gangsa jenis Moko yang membuktikan hubungan dengan Majapahit ditemukan di",
       "options": [
         "Limbang, Sarawak",
-        "Pulau Banggi, Sabah",
+        "Santubong, Sarawak",
         "Bukit Tengkorak, Sabah",
-        "Santubong, Sarawak"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kesultanan yang muncul pada abad ke-14 dan menerima wilayah Sambas di Sarawak ialah",
-      "options": [
-        "Kesultanan Melayu Brunei",
-        "Kesultanan Melayu Melaka",
-        "Kesultanan Sulu",
-        "Kesultanan Johor Riau"
+        "Pulau Banggi, Sabah"
       ],
       "marks": 1
     },
     {
       "q": "Patung Ganesha yang membuktikan pengaruh Hindu ditemukan di",
       "options": [
-        "Limbang",
-        "Semporna",
+        "Kudat",
         "Santubong",
-        "Kudat"
+        "Semporna",
+        "Limbang"
       ],
       "marks": 1
     },
@@ -97,29 +67,29 @@
       "q": "Ketua masyarakat Iban dikenali sebagai",
       "options": [
         "Peran Lepo",
-        "Laih Rayeh",
+        "Orang Tua",
         "Tuai Rumah",
-        "Orang Tua"
+        "Laih Rayeh"
       ],
       "marks": 1
     },
     {
       "q": "Pemimpin kaum Kenyah digelar",
       "options": [
-        "Laih Rayeh",
-        "Peran Lepo",
         "Tuai Rumah",
-        "Hipun Uma"
+        "Hipun Uma",
+        "Laih Rayeh",
+        "Peran Lepo"
       ],
       "marks": 1
     },
     {
       "q": "Jadual di bawah menunjukkan gelaran pemimpin beberapa kaum di Sarawak. Apakah P?",
       "options": [
+        "Penghulu",
         "Laih Rayeh",
-        "Datu",
         "Orang Tua",
-        "Penghulu"
+        "Datu"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S10_Q12.png"
@@ -127,30 +97,30 @@
     {
       "q": "Kerajaan Sawaku di Santubong diasaskan oleh",
       "options": [
-        "Pengiran Temenggung Abdul Kadir",
-        "Tugau",
         "Datu Merpati",
-        "Dayang Hubu"
+        "Pengiran Temenggung Abdul Kadir",
+        "Dayang Hubu",
+        "Tugau"
       ],
       "marks": 1
     },
     {
       "q": "Ketua bagi kaum Kadazandusun, Murut dan Orang Sungai dikenali sebagai",
       "options": [
-        "Peran Lepo",
+        "Orang Tua",
         "Penghulu",
-        "Tuai Rumah",
-        "Orang Tua"
+        "Peran Lepo",
+        "Tuai Rumah"
       ],
       "marks": 1
     },
     {
       "q": "Rajah di bawah menunjukkan bentuk pemerintahan tempatan di Sarawak dan Sabah. Apakah X?",
       "options": [
-        "Kepimpinan kesukuan",
         "Kepimpinan lembah sungai",
+        "Kepimpinan pesisir pantai",
         "Kepimpinan wakil Belanda",
-        "Kepimpinan pesisir pantai"
+        "Kepimpinan kesukuan"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S10_Q15.png"
@@ -158,28 +128,28 @@
     {
       "q": "Santubong membekalkan barangan seperti",
       "options": [
-        "Kapur barus, kayu laka, lilin, lebah madu dan kulit penyu",
-        "Beras, garam dan gula",
+        "Sutera, tembikar dan teh",
         "Lada hitam, cengkih dan pala",
-        "Sutera, tembikar dan teh"
+        "Kapur barus, kayu laka, lilin, lebah madu dan kulit penyu",
+        "Beras, garam dan gula"
       ],
       "marks": 1
     },
     {
       "q": "Kerajaan Alam Melayu manakah pernah meluaskan pengaruhnya di selatan Sarawak untuk mengawal perdagangan di Laut China Selatan?",
       "options": [
-        "Srivijaya",
-        "Funan",
         "Champa",
-        "Angkor"
+        "Angkor",
+        "Srivijaya",
+        "Funan"
       ],
       "marks": 1
     },
     {
       "q": "Kerajaan Sambas meluaskan pengaruhnya ke Samarahan, Sadong dan Saribas dengan mengambil peluang daripada",
       "options": [
-        "Kebangkitan Srivijaya",
         "Kedatangan Portugis",
+        "Kebangkitan Srivijaya",
         "Kejatuhan Melaka",
         "Kemerosotan Majapahit"
       ],
@@ -188,39 +158,29 @@
     {
       "q": "Kebangkitan Kesultanan Melayu Brunei telah melemahkan pusat perdagangan di Sarawak kerana",
       "options": [
-        "Pedagang China dilarang ke Sarawak",
-        "Tumpuan perdagangan dialihkan ke Brunei",
         "Sarawak tiada hasil hutan",
-        "Sarawak dijajah oleh Siam"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kesultanan Sulu meningkatkan perdagangan di utara Sabah yang kaya dengan",
-      "options": [
-        "Lada hitam dan rempah",
-        "Beras dan gandum",
-        "Hasil laut dan sarang burung",
-        "Bijih timah dan emas"
+        "Sarawak dijajah oleh Siam",
+        "Tumpuan perdagangan dialihkan ke Brunei",
+        "Pedagang China dilarang ke Sarawak"
       ],
       "marks": 1
     },
     {
       "q": "Antara berikut, yang manakah peranan Kesultanan Sulu di Sabah? I. Menyebarkan Islam di pantai timur Sabah II. Meningkatkan perdagangan hasil laut dan sarang burung di utara Sabah III. Mengasaskan kerajaan Sawaku di Santubong IV. Menerima wilayah Sambas di Sarawak",
       "options": [
-        "III dan IV sahaja",
         "I dan III sahaja",
+        "I dan II sahaja",
         "II dan IV sahaja",
-        "I dan II sahaja"
+        "III dan IV sahaja"
       ],
       "marks": 1
     },
     {
       "q": "Objek-objek emas berkaitan agama Buddha di Santubong membuktikan pengaruh kerajaan",
       "options": [
-        "Majapahit",
-        "Sulu",
         "Srivijaya",
+        "Sulu",
+        "Majapahit",
         "Brunei"
       ],
       "marks": 1
@@ -228,30 +188,20 @@
     {
       "q": "Pemimpin kaum Kayan dikenali sebagai",
       "options": [
-        "Tuai Rumah",
         "Laih Rayeh",
         "Peran Lepo",
+        "Tuai Rumah",
         "Kelunan Maren atau Hipun Uma"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Kerajaan Melano di Sungai Retus diasaskan oleh",
-      "options": [
-        "Syarif Osman",
-        "Datu Merpati",
-        "Tugau",
-        "Dayang Ruku"
       ],
       "marks": 1
     },
     {
       "q": "Jadual di bawah menunjukkan kerajaan tempatan di Sarawak dan pengasasnya. Siapakah P?",
       "options": [
+        "Syarif Osman",
         "Datu Merpati",
         "Tugau",
-        "Dayang Hubu dan Dayang Ruku",
-        "Syarif Osman"
+        "Dayang Hubu dan Dayang Ruku"
       ],
       "marks": 1,
       "image": "img/sejarah-tingkatan-2/S10_Q25.png"
@@ -269,10 +219,10 @@
     {
       "q": "Wakil raja di Sarawak dan Sabah menjalankan pemerintahan dalam aspek",
       "options": [
-        "Penulisan karya sastera",
+        "Kehakiman, kebajikan, keamanan dan kutipan cukai",
         "Pembinaan candi dan stupa",
         "Pembinaan kapal jong",
-        "Kehakiman, kebajikan, keamanan dan kutipan cukai"
+        "Penulisan karya sastera"
       ],
       "marks": 1
     },
@@ -281,8 +231,8 @@
       "options": [
         "Menjadi wakil Sultan Brunei",
         "Mengurus soal adat dan pantang larang",
-        "Mengetuai angkatan laut",
-        "Mengutip cukai perdagangan"
+        "Mengutip cukai perdagangan",
+        "Mengetuai angkatan laut"
       ],
       "marks": 1
     },
@@ -291,18 +241,8 @@
       "options": [
         "Syarif Osman",
         "Datu Kurunding",
-        "Tugau",
-        "Datu Merpati"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Sumber Majapahit, Negarakertagama, menyatakan terdapat empat kerajaan di Sarawak, iaitu",
-      "options": [
-        "Saribas, Sambas, Brunei dan Sulu",
-        "Santubong, Gedong, Kalka dan Limbang",
-        "Sawaku, Kalka, Samadong dan Melano",
-        "Kuching, Sibu, Miri dan Bintulu"
+        "Datu Merpati",
+        "Tugau"
       ],
       "marks": 1
     },
@@ -319,50 +259,20 @@
     {
       "q": "Hubungan Sarawak dan Sabah dengan kerajaan Alam Melayu dan pedagang luar menunjukkan sikap masyarakat yang",
       "options": [
-        "Memusuhi pedagang asing",
+        "Terbuka dan bertoleransi menerima pengaruh luar",
         "Tidak berminat berdagang",
-        "Menolak semua pengaruh luar",
-        "Terbuka dan bertoleransi menerima pengaruh luar"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Penemuan tembikar dinasti T'ang dan Sung di Santubong membuktikan bahawa",
-      "options": [
-        "Santubong mempunyai hubungan perdagangan dengan China",
-        "Tembikar dibuat di Santubong sahaja",
-        "Santubong dijajah oleh China",
-        "Santubong tidak menjalankan perdagangan"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Mengapakah kawasan pedalaman Sarawak membentuk kepimpinan kesukuan?",
-      "options": [
-        "Pedalaman dikuasai oleh Brunei sepenuhnya",
-        "Pedalaman diperintah oleh Majapahit",
-        "Setiap kaum mempunyai ketua sendiri yang bebas daripada kuasa luar",
-        "Pedalaman tidak berpenghuni"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Suku kaum pedalaman yang diiktiraf oleh Kesultanan Melayu Brunei diberi gelaran Orang Kaya. Apakah tujuannya?",
-      "options": [
-        "Menghalang perdagangan",
-        "Mengutip cukai yang tinggi",
-        "Menghapuskan kaum pedalaman",
-        "Menguatkan hubungan Brunei dengan kaum-kaum di pedalaman"
+        "Memusuhi pedagang asing",
+        "Menolak semua pengaruh luar"
       ],
       "marks": 1
     },
     {
       "q": "Ketua bebas di Sabah biasanya mempunyai pertalian dengan",
       "options": [
-        "Raja Siam",
-        "Raja Majapahit",
+        "Keluarga diraja Brunei, Sulu atau keturunan Arab Sharif",
         "Sultan Melaka",
-        "Keluarga diraja Brunei, Sulu atau keturunan Arab Sharif"
+        "Raja Majapahit",
+        "Raja Siam"
       ],
       "marks": 1
     },
@@ -370,9 +280,9 @@
       "q": "Bentuk pemerintahan tempatan di Sarawak dan Sabah wujud berdasarkan kawasan geografi, iaitu",
       "options": [
         "Pulau dan laut dalam",
+        "Gunung dan gurun",
         "Pedalaman dan lembah sungai",
-        "Bandar dan pelabuhan antarabangsa",
-        "Gunung dan gurun"
+        "Bandar dan pelabuhan antarabangsa"
       ],
       "marks": 1
     },
@@ -381,18 +291,8 @@
       "options": [
         "Tidak mempunyai sebarang pemimpin",
         "Mempunyai kesedaran kepimpinan dan pentadbiran yang tersusun",
-        "Diperintah sepenuhnya oleh kuasa Barat",
-        "Tidak mengenal sistem pentadbiran"
-      ],
-      "marks": 1
-    },
-    {
-      "q": "Penerimaan agama Islam oleh kebanyakan penduduk pesisir pantai Sarawak dan Sabah ialah kesan pengaruh",
-      "options": [
-        "Kesultanan Melayu Brunei",
-        "Kerajaan Funan",
-        "Kerajaan Majapahit",
-        "Kerajaan Srivijaya"
+        "Tidak mengenal sistem pentadbiran",
+        "Diperintah sepenuhnya oleh kuasa Barat"
       ],
       "marks": 1
     },
@@ -400,8 +300,8 @@
       "q": "Kajian ahli arkeologi di Santubong menemukan barang dagangan, kawasan peleburan bijih besi dan objek keagamaan. Apakah kesimpulan yang tepat?",
       "options": [
         "Santubong ialah kawasan pertanian sahaja",
-        "Santubong tidak pernah didiami",
         "Santubong hanya dibuka selepas tahun 1900",
+        "Santubong tidak pernah didiami",
         "Santubong ialah pusat perdagangan dan petempatan yang penting"
       ],
       "marks": 1

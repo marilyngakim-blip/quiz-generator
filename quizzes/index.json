@@ -282,12 +282,6 @@
     "createdAt": "2026-11-10T01:24:54.749Z"
   },
   {
-    "id": "matematik-tahun-6-2.3",
-    "title": "Matematik Tahun 6 (2.3)",
-    "questionCount": 20,
-    "createdAt": "2026-11-10T03:36:39.447Z"
-  },
-  {
     "id": "matematik-tahun-6-2.4",
     "title": "Matematik Tahun 6 (2.4)",
     "questionCount": 20,
@@ -298,5 +292,11 @@
     "title": "Matematik Tahun 6 (2.1-2.2)",
     "questionCount": 20,
     "createdAt": "2026-11-10T06:41:42.676Z"
+  },
+  {
+    "id": "matematik-tahun-6-2.3",
+    "title": "Matematik Tahun 6 (2.3)",
+    "questionCount": 20,
+    "createdAt": "2026-11-10T06:42:09.271Z"
   }
 ]

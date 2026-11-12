@@ -143,9 +143,10 @@ def semak_jawapan():
     assert betul(14) == f"RM{int(pampasan):,}".replace(",", " ")
 
 
-def semak_had_kahoot():
-    assert len(SOALAN) == 15, "Mesti 15 soalan"
-    for n, (_, q, pilihan, masa, k) in enumerate(SOALAN, 1):
+def semak_had_kahoot(soalan=None, bilangan=15):
+    soalan = SOALAN if soalan is None else soalan
+    assert len(soalan) == bilangan, f"Mesti {bilangan} soalan"
+    for n, (_, q, pilihan, masa, k) in enumerate(soalan, 1):
         assert len(q) <= 120, f"S{n}: soalan {len(q)} aksara (> 120)"
         assert len(pilihan) == 4, f"S{n}: mesti 4 pilihan"
         assert len(set(pilihan)) == 4, f"S{n}: pilihan berulang"
@@ -155,15 +156,16 @@ def semak_had_kahoot():
         assert 1 <= k <= 4, f"S{n}: jawapan betul mesti 1–4"
 
 
-def bina_xlsx(laluan: Path):
+def bina_xlsx(laluan: Path, soalan=None, tajuk=None):
     """Susun atur sama seperti templat rasmi Kahoot (tajuk lajur di baris 8, data dari B9)."""
+    soalan = SOALAN if soalan is None else soalan
     wb = Workbook()
     ws = wb.active
     ws.title = "Sheet1"
 
     ws["B2"] = "Quiz template"
     ws["B2"].font = Font(bold=True, size=16)
-    ws["B3"] = TAJUK
+    ws["B3"] = tajuk or TAJUK
     ws["B3"].font = Font(bold=True, size=12)
     ws["B4"] = ("Import: Kahoot → Create → Add question → Import spreadsheet. "
                 "Soalan maks 120 aksara, jawapan maks 75 aksara.")
@@ -184,7 +186,7 @@ def bina_xlsx(laluan: Path):
         sel.fill = isi_tajuk
         sel.alignment = Alignment(wrap_text=True, vertical="center")
 
-    for i, (_, q, pilihan, masa, k) in enumerate(SOALAN):
+    for i, (_, q, pilihan, masa, k) in enumerate(soalan):
         r = 9 + i
         ws.cell(row=r, column=1, value=i + 1)
         ws.cell(row=r, column=2, value=q)
@@ -212,7 +214,7 @@ def bina_xlsx(laluan: Path):
     kunci.append(["No", "Topik", "Soalan", "Jawapan Betul", "Huruf"])
     for c in range(1, 6):
         kunci.cell(row=1, column=c).font = Font(bold=True)
-    for i, (topik, q, pilihan, _, k) in enumerate(SOALAN, 1):
+    for i, (topik, q, pilihan, _, k) in enumerate(soalan, 1):
         kunci.append([i, topik, q, pilihan[k - 1], "ABCD"[k - 1]])
     for col, w in {"A": 5, "B": 38, "C": 70, "D": 30, "E": 8}.items():
         kunci.column_dimensions[col].width = w

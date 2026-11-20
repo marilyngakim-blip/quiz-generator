@@ -1,0 +1,312 @@
+{
+  "id": "science-tingkatan-2-5.1",
+  "title": "Science Tingkatan 2 (5.1)",
+  "createdAt": "2026-11-20T07:03:17.297Z",
+  "questions": [
+    {
+      "q": "What is the boiling point of pure water?",
+      "options": [
+        "100°C",
+        "0°C",
+        "212°C",
+        "50°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the freezing point of pure water?",
+      "options": [
+        "4°C",
+        "32°C",
+        "0°C",
+        "100°C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the density of pure water?",
+      "options": [
+        "10 g cm⁻³",
+        "0.1 g cm⁻³",
+        "100 g cm⁻³",
+        "1 g cm⁻³"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pure water is",
+      "options": [
+        "cloudy, odourless and tasteless",
+        "colourless, odourless and tasteless",
+        "blue, odourless and salty",
+        "colourless, smelly and sweet"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Surface tension of water is the result of",
+      "options": [
+        "cohesive force between water molecules at the surface",
+        "salt dissolved in water",
+        "adhesive force between water and glass",
+        "heat from the Sun"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Insects such as the daddy longlegs can stay afloat on water because of",
+      "options": [
+        "capillary action",
+        "surface tension",
+        "evaporation",
+        "electrolysis"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Capillary action allows water to",
+      "options": [
+        "turn into ice",
+        "be drawn up from the roots to the leaves of plants",
+        "break into hydrogen and oxygen",
+        "evaporate from the leaves"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The attractive force between the same molecules is called",
+      "options": [
+        "adhesive force",
+        "cohesive force",
+        "frictional force",
+        "gravitational force"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The attractive force between different molecules is called",
+      "options": [
+        "elastic force",
+        "adhesive force",
+        "magnetic force",
+        "cohesive force"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Water is a compound made up of the elements",
+      "options": [
+        "carbon and oxygen",
+        "hydrogen and nitrogen",
+        "hydrogen and oxygen",
+        "oxygen only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the chemical formula of water?",
+      "options": [
+        "HO₂",
+        "H₂O",
+        "CO₂",
+        "H₂O₂"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Anhydrous cobalt chloride paper is blue when dry and turns",
+      "options": [
+        "black when wet",
+        "pink when wet",
+        "white when wet",
+        "green when wet"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "During the electrolysis of water, oxygen gas is produced at the",
+      "options": [
+        "switch",
+        "measuring cylinder base",
+        "anode",
+        "cathode"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "During the electrolysis of water, hydrogen gas is produced at the",
+      "options": [
+        "anode",
+        "battery",
+        "switch",
+        "cathode"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The anode is the electrode connected to the",
+      "options": [
+        "measuring cylinder",
+        "switch only",
+        "negative terminal of a battery",
+        "positive terminal of a battery"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A water molecule is made up of",
+      "options": [
+        "one hydrogen atom and one oxygen atom",
+        "two hydrogen atoms and two oxygen atoms",
+        "one hydrogen atom and two oxygen atoms",
+        "two hydrogen atoms and one oxygen atom"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The change of state from gas to liquid is called",
+      "options": [
+        "melting",
+        "sublimation",
+        "evaporation",
+        "condensation"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The change of state from solid directly to gas is called",
+      "options": [
+        "freezing",
+        "sublimation",
+        "condensation",
+        "melting"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "During freezing, heat is",
+      "options": [
+        "absorbed from the surroundings",
+        "neither absorbed nor released",
+        "released to the surroundings",
+        "turned into light"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the effect of high humidity on the rate of evaporation?",
+      "options": [
+        "Water stops existing",
+        "There is no effect",
+        "The rate of evaporation decreases",
+        "The rate of evaporation increases"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Clothes hung on a clothes line dry faster because",
+      "options": [
+        "the air is very humid",
+        "they have a small surface area",
+        "they have a large exposed surface area",
+        "they are folded"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A hair dryer dries hair quickly because it",
+      "options": [
+        "adds water to the hair",
+        "blows cold humid air",
+        "reduces the surface area of hair",
+        "blows hot air, increasing temperature and air movement"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, which sample is pure water?",
+      "options": [
+        "P",
+        "Both P and Q",
+        "Q",
+        "Neither P nor Q"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S7_Q41.png"
+    },
+    {
+      "q": "Based on the table, what is the effect of impurities in sample Q?",
+      "options": [
+        "They lower the melting point and raise the boiling point",
+        "They raise both the melting point and boiling point",
+        "They do not change the melting point and boiling point",
+        "They raise the melting point and lower the boiling point"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S7_Q41.png"
+    },
+    {
+      "q": "The diagram shows the electrolysis of water. The gas in cylinder K relights a glowing wooden splinter. What is the gas?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S7_Q31.png"
+    },
+    {
+      "q": "The diagram shows the electrolysis of water. The gas in cylinder L produces a 'pop' sound with a burning wooden splinter. What is the gas?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Chlorine",
+        "Carbon dioxide"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S7_Q31.png"
+    },
+    {
+      "q": "Based on the diagram, what is the ratio of the volume of hydrogen to oxygen produced?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "1 : 1",
+        "3 : 1"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S7_Q31.png"
+    },
+    {
+      "q": "Ikram wants to check whether a bottle of water is pure. What is the best way?",
+      "options": [
+        "Smell the water",
+        "Shake the bottle",
+        "Heat it and check whether it boils at exactly 100°C",
+        "Check its colour only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Why do we feel cold when sweat evaporates from our skin?",
+      "options": [
+        "Sweat is always cold",
+        "Evaporation releases heat to the body",
+        "Evaporation increases body temperature",
+        "Evaporation absorbs heat from the body"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Three wet filter papers are hung up: P is open, Q is folded into two and R is folded into four. Which dries the slowest and why?",
+      "options": [
+        "R, because it has the smallest exposed surface area",
+        "Q, because it is folded into two",
+        "P, because it has the largest surface area",
+        "All dry at the same time"
+      ],
+      "marks": 1
+    }
+  ]
+}

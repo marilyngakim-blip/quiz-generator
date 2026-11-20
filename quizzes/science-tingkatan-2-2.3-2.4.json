@@ -1,0 +1,311 @@
+{
+  "id": "science-tingkatan-2-2.3-2.4",
+  "title": "Science Tingkatan 2 (2.3-2.4)",
+  "createdAt": "2026-11-20T06:47:48.419Z",
+  "questions": [
+    {
+      "q": "What is a habitat?",
+      "options": [
+        "A group of organisms of the same species",
+        "A group of different populations",
+        "The food eaten by an organism",
+        "The natural surroundings or home of an organism"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A population is a group of organisms",
+      "options": [
+        "of the same species that live in the same habitat",
+        "including non-living components",
+        "that live in different habitats",
+        "of different species that live together"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A community is",
+      "options": [
+        "a group of non-living things",
+        "a few populations of different organisms living together in one habitat",
+        "one organism living alone",
+        "a single species in many habitats"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "An ecosystem consists of",
+      "options": [
+        "only non-living components",
+        "only living organisms",
+        "a few communities together with the non-living components such as water, air and soil",
+        "one population only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mutualism is an interaction that",
+      "options": [
+        "harms both organisms",
+        "benefits one organism without affecting the other",
+        "benefits both organisms",
+        "benefits one organism and harms the other"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Commensalism is an interaction that",
+      "options": [
+        "benefits both organisms",
+        "harms both organisms",
+        "benefits one and harms the other",
+        "benefits one organism without harming or benefitting the other"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Parasitism is an interaction that",
+      "options": [
+        "harms neither organism",
+        "benefits one organism and harms the other",
+        "involves competition for mates",
+        "benefits both organisms"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which is an example of parasitism?",
+      "options": [
+        "Remora fish on a shark",
+        "A tapeworm living in the human intestine",
+        "Lichens",
+        "Mynah and buffalo"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which is an example of mutualism?",
+      "options": [
+        "Algae and fungi living together as lichens",
+        "Bird's nest fern on a tree",
+        "Lion eating a zebra",
+        "Lice sucking blood"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is biological control?",
+      "options": [
+        "Using natural predators, parasites or pathogens to reduce the number of pests",
+        "Using machines to catch pests",
+        "Burning crops to remove pests",
+        "Using chemical pesticides to kill pests"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Owls are kept in oil palm plantations to control the population of",
+      "options": [
+        "mosquitoes",
+        "rats",
+        "aphids",
+        "snails"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Guppies are used in ponds to control",
+      "options": [
+        "aphids",
+        "rats",
+        "rhinoceros beetles",
+        "mosquito larvae"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A remora fish latches on to a shark and eats scraps of its food. This interaction is",
+      "options": [
+        "commensalism",
+        "parasitism",
+        "competition",
+        "mutualism"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A bird's nest fern grows between the branches of a tree to get sunlight. This interaction is",
+      "options": [
+        "mutualism",
+        "parasitism",
+        "prey-predator",
+        "commensalism"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A mynah eats lice on the body of a buffalo. This interaction is",
+      "options": [
+        "competition",
+        "commensalism",
+        "parasitism",
+        "mutualism"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Two roosters fight to get a mate. This interaction is",
+      "options": [
+        "commensalism",
+        "parasitism",
+        "competition",
+        "mutualism"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A lion hunts and eats a zebra. This interaction is",
+      "options": [
+        "competition",
+        "commensalism",
+        "mutualism",
+        "prey-predator"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which factors influence population size in an ecosystem?",
+      "options": [
+        "Disease, presence of predators, source of food and change of weather",
+        "Only the number of producers",
+        "Only the amount of rain",
+        "Colour, shape, size and smell of organisms"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The ladybird beetle is used to control",
+      "options": [
+        "snails",
+        "aphids",
+        "rhinoceros beetles",
+        "rats"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is a weakness of biological control?",
+      "options": [
+        "It takes a long time before any effect is seen",
+        "It pollutes the air and soil",
+        "It is very expensive and harmful to humans",
+        "It uses a lot of chemicals"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which is an effect of forest logging?",
+      "options": [
+        "Acid rain from factories",
+        "Flash floods from rubbish",
+        "Soil erosion",
+        "Foul odour from organic waste"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, which pair of organisms shows mutualism?",
+      "options": [
+        "P",
+        "S",
+        "R",
+        "Q"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S3_Q41.png"
+    },
+    {
+      "q": "Based on the table, which pair of organisms shows parasitism?",
+      "options": [
+        "P",
+        "R",
+        "Q",
+        "S"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S3_Q41.png"
+    },
+    {
+      "q": "Which of the following are effects of uncontrolled human activities on the ecosystem? I. Soil erosion II. Acid rain III. Increase in biodiversity IV. Flash floods",
+      "options": [
+        "II and III only",
+        "I and III only",
+        "I, II and IV only",
+        "I, II, III and IV"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The diagram shows the results of an experiment on woodlice. What can be concluded?",
+      "options": [
+        "Woodlice prefer hot places",
+        "Woodlice are more likely to gather in a dark place",
+        "Woodlice prefer bright places",
+        "Light does not affect woodlice"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S3_Q31.png"
+    },
+    {
+      "q": "In the experiment on the effect of temperature on woodlice, what is the responding variable?",
+      "options": [
+        "Light",
+        "Distribution of woodlice",
+        "Temperature",
+        "Number of woodlice"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Razak shot all the hawk-eagles that ate his chickens. A year later, the rat population increased. Why?",
+      "options": [
+        "The natural predator of the rats was removed",
+        "The rats were given more space",
+        "The weather became colder",
+        "The chickens ate the rats"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A pond has lotus plants, grass, tadpoles, fish, ducks and frogs. Which is an example of a population?",
+      "options": [
+        "Lotus plants and ducks together",
+        "All the organisms in the pond",
+        "The pond and all its organisms",
+        "A group of tadpoles in the pond"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A long drought occurs in a paddy field ecosystem. What is the most likely effect?",
+      "options": [
+        "The paddy population decreases and the food web is affected",
+        "The ecosystem becomes more balanced",
+        "The paddy population increases",
+        "Only the birds are affected"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The graph shows the populations of rats and owls in an oil palm plantation. Why did the rat population decrease after year 2?",
+      "options": [
+        "The rats migrated to another plantation",
+        "The owls preyed on the rats",
+        "The owls competed with the rats for oil palm fruits",
+        "The rats were killed by pesticides"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S3_Q42.png"
+    }
+  ]
+}

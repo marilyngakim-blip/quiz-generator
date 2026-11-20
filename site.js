@@ -27,8 +27,17 @@ window.SITE = {
     { nama: 'Bahasa Cina',    awalan: ['Bahasa Cina', 'BC'],         emoji: '🏮', warna: '#d64545', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 3'] },
     { nama: 'Sejarah',        awalan: ['Sejarah'],                   emoji: '🏛️', warna: '#c47f3a', tahap: ['Tingkatan 2', 'Tahun 6'] },
     { nama: 'Geografi',       awalan: ['Geografi'],                  emoji: '🌏', warna: '#3fae5a', tahap: ['Tingkatan 2'] },
-    { nama: 'RBT',            awalan: ['RBT', 'Reka Bentuk'],        emoji: '🛠️', warna: '#8e6cd8', tahap: ['Tingkatan 2', 'Tahun 6'] }
+    { nama: 'RBT',            awalan: ['RBT', 'Reka Bentuk'],        emoji: '🛠️', warna: '#8e6cd8', tahap: ['Tingkatan 2', 'Tahun 6'] },
+    { nama: 'Kangaroo Math',  awalan: ['Kangaroo'],                  emoji: '🦘', warna: '#e0a800', tahap: ['Tingkatan 2', 'Tahun 6', 'Tahun 3'] }
   ],
+
+  // Tajuk tanpa "Tingkatan/Tahun": kata kunci → tahap (kategori Kangaroo Math).
+  KATA_TAHAP: {
+    'Pre-Ecolier': 'Tahun 3',   // Tahun 1–2
+    'Ecolier': 'Tahun 3',       // Tahun 3–4
+    'Benjamin': 'Tahun 6',      // Tahun 5–6
+    'Cadet': 'Tingkatan 2'      // Tingkatan 1–2
+  },
 
   // Aplikasi/latihan lain (bukan kuiz dari Google Sheet) yang dipaparkan sebagai kad kuiz.
   //  url   : halaman dalam repo ini (contoh folder aplikasi/) atau pautan https://…

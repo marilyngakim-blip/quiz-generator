@@ -37,10 +37,14 @@
   }
 
   // Tahap kuiz daripada tajuk: "… Tingkatan 2 …" atau "… Tahun 6 …". null jika tiada.
+  // Jika tajuk tiada "Tingkatan/Tahun", cuba kata kunci dalam SITE.KATA_TAHAP (cth Kangaroo "Benjamin").
   function levelOf(title) {
-    const m = String(title || '').match(/\b(Tingkatan|Tahun)\s*(\d)\b/i);
-    if (!m) return null;
-    return m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase() + ' ' + m[2];
+    const t = String(title || '');
+    const m = t.match(/\b(Tingkatan|Tahun)\s*(\d)\b/i);
+    if (m) return m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase() + ' ' + m[2];
+    const kata = Object.keys(SITE.KATA_TAHAP || {}).sort((a, b) => b.length - a.length)
+      .find(k => new RegExp('(^|[^a-z-])' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[^a-z-])', 'i').test(t));
+    return kata ? SITE.KATA_TAHAP[kata] : null;
   }
 
   // Simpanan pelayar: hanya untuk kemudahan (anak dipilih, markah terbaik).

@@ -164,6 +164,9 @@ Buka [`site.js`](site.js) di GitHub → ikon pensel ✏️ → ubah → **Commit
   kad imbas 听写 dalam folder `aplikasi/`. Isi `tajuk`, `url`, `subjek`, `tahap` dan `ket` (keterangan).
   Markah aplikasi ini tidak direkodkan di Google Sheet.
 
+- `KATA_TAHAP`: kata kunci dalam tajuk yang menentukan tahap jika tajuk tiada "Tingkatan/Tahun",
+  contoh kategori Kangaroo Math: Pre-Ecolier/Ecolier → Tahun 3, Benjamin → Tahun 6, Cadet → Tingkatan 2.
+
 Tajuk kuiz yang baik: **Subjek + Tahap + (subtopik)**, contoh `Sains Tahun 3 (1.1)`.
 Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 

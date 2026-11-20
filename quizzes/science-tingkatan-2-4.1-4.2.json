@@ -1,0 +1,312 @@
+{
+  "id": "science-tingkatan-2-4.1-4.2",
+  "title": "Science Tingkatan 2 (4.1-4.2)",
+  "createdAt": "2026-11-20T06:59:09.316Z",
+  "questions": [
+    {
+      "q": "An infectious disease is a disease that",
+      "options": [
+        "can be transmitted from one individual to another",
+        "is only caused by lifestyle",
+        "is only caused by genetic factors",
+        "cannot be transmitted to others"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following is an infectious disease?",
+      "options": [
+        "Diabetes",
+        "Tuberculosis",
+        "Asthma",
+        "Hypertension"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following is a non-infectious disease?",
+      "options": [
+        "Malaria",
+        "Flu",
+        "Cholera",
+        "Diabetes"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A pathogen is",
+      "options": [
+        "a vaccine",
+        "an animal that transmits disease",
+        "a protein that fights disease",
+        "an organism that causes disease"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A vector is",
+      "options": [
+        "a type of antibody",
+        "an animal that transmits pathogens from one host to another",
+        "a non-infectious disease",
+        "a white blood cell"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which disease is spread through the air?",
+      "options": [
+        "Cholera",
+        "Tinea",
+        "Chicken pox",
+        "Leptospirosis"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which disease is spread through water?",
+      "options": [
+        "Dengue",
+        "Cholera",
+        "Tuberculosis",
+        "Ringworm"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The pathogen that causes malaria is",
+      "options": [
+        "Leptospira sp.",
+        "Salmonella typhi",
+        "Vibrio cholerae",
+        "Plasmodium malariae"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The vector of malaria is the",
+      "options": [
+        "Aedes mosquito",
+        "rat",
+        "female Anopheles mosquito",
+        "housefly"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Dengue fever is spread by the",
+      "options": [
+        "rat",
+        "cockroach",
+        "Aedes mosquito",
+        "Anopheles mosquito"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the first line of defence of the body?",
+      "options": [
+        "Phagocytosis",
+        "Antibodies",
+        "Skin and mucous membrane",
+        "Vaccines"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "An antibody is",
+      "options": [
+        "a vector that spreads disease",
+        "a type of pathogen",
+        "a protein produced by white blood cells in response to antigens",
+        "a foreign substance that enters the body"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Non-infectious diseases are caused by",
+      "options": [
+        "genetic factors or lifestyle",
+        "contaminated water",
+        "airborne droplets",
+        "pathogens through vectors"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which practice helps to prevent airborne diseases?",
+      "options": [
+        "Cover the mouth and nose when sneezing or coughing",
+        "Wear thick clothes",
+        "Boil drinking water",
+        "Use mosquito nets"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which practice helps to prevent waterborne diseases?",
+      "options": [
+        "Wear a face mask",
+        "Boil drinking water properly",
+        "Avoid crowded places",
+        "Cover the mouth when yawning"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What happens in the second line of defence?",
+      "options": [
+        "Skin prevents pathogens from entering",
+        "Vaccines are injected",
+        "White blood cells engulf and digest pathogens through phagocytosis",
+        "Antibodies are produced"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "An antigen is",
+      "options": [
+        "a foreign substance that induces the production of antibodies",
+        "a protein produced by white blood cells",
+        "a medicine that kills bacteria",
+        "a type of white blood cell"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Immunity is",
+      "options": [
+        "the process of making vaccines",
+        "the spread of disease through vectors",
+        "the breakdown of food",
+        "the ability of the body to resist pathogens before it is infected"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The BCG vaccine gives protection against",
+      "options": [
+        "polio",
+        "tuberculosis",
+        "hepatitis B",
+        "measles"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A baby receives antibodies from breast milk. This is an example of",
+      "options": [
+        "artificial passive immunity",
+        "artificial active immunity",
+        "natural active immunity",
+        "natural passive immunity"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Artificial passive immunity is obtained when",
+      "options": [
+        "a vaccine is injected",
+        "a baby drinks breast milk",
+        "a person recovers from an infection",
+        "an antiserum is injected into the body"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, what is P?",
+      "options": [
+        "Vibrio cholerae",
+        "Dengue virus",
+        "Leptospira sp. bacteria",
+        "Mycobacterium tuberculosis"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S6_Q41.png"
+    },
+    {
+      "q": "Based on the table, which disease is caused by pathogen Q?",
+      "options": [
+        "Leptospirosis",
+        "Typhoid",
+        "Malaria",
+        "Dengue fever"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S6_Q41.png"
+    },
+    {
+      "q": "Which of the following are part of the body defence mechanism? I. Skin and mucous membrane II. Phagocytosis by white blood cells III. Production of antibodies IV. Production of bile",
+      "options": [
+        "I and IV only",
+        "I, II, III and IV",
+        "I, II and III only",
+        "II and IV only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The graph in the diagram shows the antibody concentration of a person after two infections. What type of immunity is shown?",
+      "options": [
+        "Natural active immunity",
+        "Natural passive immunity",
+        "Artificial active immunity",
+        "Artificial passive immunity"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S6_Q31.png"
+    },
+    {
+      "q": "The graph in the diagram shows the antibody concentration after two injections of antiserum. What type of immunity is shown?",
+      "options": [
+        "Artificial active immunity",
+        "Natural active immunity",
+        "Natural passive immunity",
+        "Artificial passive immunity"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S6_Q32.png"
+    },
+    {
+      "q": "Amin does not get chickenpox anymore because he had the disease when he was 7 years old. What type of immunity does he have?",
+      "options": [
+        "Natural active immunity",
+        "Artificial passive immunity",
+        "Natural passive immunity",
+        "Artificial active immunity"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kelvin is not infected with hepatitis B because he was immunised against it. What type of immunity does he have?",
+      "options": [
+        "Natural active immunity",
+        "Artificial active immunity",
+        "Artificial passive immunity",
+        "Natural passive immunity"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Why is passive immunity only temporary?",
+      "options": [
+        "The antibodies come from an external source and are not produced by the body itself",
+        "The pathogens become stronger",
+        "The body produces too many antibodies",
+        "Vaccines are injected many times"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, which action is the most suitable example of X?",
+      "options": [
+        "Eating a balanced diet",
+        "Fogging to kill vectors",
+        "Getting vaccines for babies",
+        "Separating patients from others"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S6_Q42.png"
+    }
+  ]
+}

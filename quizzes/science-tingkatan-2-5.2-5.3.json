@@ -1,0 +1,310 @@
+{
+  "id": "science-tingkatan-2-5.2-5.3",
+  "title": "Science Tingkatan 2 (5.2-5.3)",
+  "createdAt": "2026-11-20T07:03:55.891Z",
+  "questions": [
+    {
+      "q": "A solute is",
+      "options": [
+        "a substance that can dissolve in a liquid",
+        "a cloudy mixture",
+        "a liquid that dissolves a substance",
+        "an undissolved particle"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A solvent is",
+      "options": [
+        "a liquid that dissolves a substance",
+        "a gas in water",
+        "a substance that dissolves",
+        "a solid that does not dissolve"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A solution is",
+      "options": [
+        "a pure liquid",
+        "a solid that settles at the bottom",
+        "the mixture formed when a solute dissolves in a solvent",
+        "a cloudy mixture of undissolved particles"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A saturated solution is a solution that",
+      "options": [
+        "contains only solvent",
+        "cannot dissolve any more solute",
+        "can dissolve much more solute",
+        "contains no solute"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A suspension is",
+      "options": [
+        "a gas dissolved in water",
+        "a clear uniform mixture",
+        "a cloudy mixture formed from undissolved solute particles in a solvent",
+        "a pure substance"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following forms a suspension?",
+      "options": [
+        "Sugar in water",
+        "Salt in water",
+        "Chalk powder in water",
+        "Copper(II) sulphate in water"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Solubility is",
+      "options": [
+        "the maximum amount of solute that can dissolve in 100 ml of solvent at a specific temperature",
+        "the speed of stirring",
+        "the colour of a solution",
+        "the volume of water"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Water is known as a universal solvent because it",
+      "options": [
+        "cannot dissolve anything",
+        "can dissolve almost all substances",
+        "is a gas",
+        "only dissolves salt"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which water purification method kills microorganisms?",
+      "options": [
+        "Sedimentation",
+        "Coagulation",
+        "Filtration",
+        "Boiling"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which water purification method produces pure water?",
+      "options": [
+        "Chlorination",
+        "Distillation",
+        "Filtration",
+        "Sedimentation"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In the water supply system, alum is added to",
+      "options": [
+        "prevent tooth decay",
+        "reduce the acidity of water",
+        "kill microorganisms",
+        "make mud particles stick together and sink"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sodium fluoride is added to water to",
+      "options": [
+        "kill bacteria",
+        "remove bad smell",
+        "prevent tooth decay",
+        "make mud particles sink"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A dilute solution",
+      "options": [
+        "has less solute and can dissolve more solute",
+        "forms a precipitate",
+        "has excess solute",
+        "cannot dissolve any more solute"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "When a suspension is filtered,",
+      "options": [
+        "no residue is left",
+        "it turns into a gas",
+        "it becomes a pure substance",
+        "residue is left on the filter paper"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which statement about a solution is correct?",
+      "options": [
+        "Light can pass through it",
+        "It is always cloudy",
+        "It leaves residue when filtered",
+        "Its particles settle when left"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which factors affect the rate of solubility?",
+      "options": [
+        "Mass of the beaker only",
+        "Temperature of solvent, rate of stirring and size of solute",
+        "Type of glass rod only",
+        "Colour of solute, smell and shape of beaker"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Why does fine sugar dissolve faster than a sugar cube?",
+      "options": [
+        "It is heavier",
+        "It is a different substance",
+        "It has a bigger total surface area exposed to the solvent",
+        "It has a smaller surface area"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A colloid is",
+      "options": [
+        "intermediate between a solution and a suspension",
+        "a solid only",
+        "a type of saturated solution",
+        "the same as a pure substance"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the function of oxidation in the water purification process?",
+      "options": [
+        "Kills microorganisms",
+        "Increases oxygen content to remove unpleasant smell and taste",
+        "Makes particles sink",
+        "Prevents tooth decay"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Slaked lime (calcium hydroxide) is added during coagulation to",
+      "options": [
+        "kill microorganisms",
+        "add colour to water",
+        "prevent tooth decay",
+        "reduce the acidity of water"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What happens during sedimentation?",
+      "options": [
+        "Suspended particles deposit at the bottom of the tank",
+        "Chlorine kills bacteria",
+        "Oxygen is added",
+        "Fluoride is added"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, which beaker contains a saturated solution?",
+      "options": [
+        "P and Q",
+        "P",
+        "Q",
+        "R"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S8_Q41.png"
+    },
+    {
+      "q": "Based on the table, which statement about the solution in beaker P is correct?",
+      "options": [
+        "It is a saturated solution",
+        "It is a dilute solution that can dissolve more solute",
+        "It cannot dissolve any more solute",
+        "It is a suspension"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S8_Q41.png"
+    },
+    {
+      "q": "Which of the following are stages in a water treatment plant? I. Coagulation II. Sedimentation III. Distillation IV. Chlorination",
+      "options": [
+        "I and III only",
+        "I, II, III and IV",
+        "I, II and IV only",
+        "II and III only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The diagram shows the stages in a water supply system. What is stage X?",
+      "options": [
+        "Chlorination",
+        "Distillation",
+        "Oxidation",
+        "Sedimentation"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S8_Q31.png"
+    },
+    {
+      "q": "K: Coagulation, L: Chlorination, M: Sedimentation, N: Filtration. What is the correct sequence?",
+      "options": [
+        "N, M, K, L",
+        "K, M, N, L",
+        "L, K, M, N",
+        "M, K, L, N"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Vicki treats cloudy river water in four ways: filtered, boiled, distilled and chlorinated. Which sample becomes pure water?",
+      "options": [
+        "The boiled sample",
+        "The chlorinated sample",
+        "The filtered sample",
+        "The distilled sample"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Vicki treats cloudy river water in four ways: filtered, boiled, distilled and chlorinated. Which samples still contain suspended particles?",
+      "options": [
+        "All four samples",
+        "The boiled and chlorinated samples",
+        "The filtered and distilled samples",
+        "The distilled sample only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "You want to make a cup of coffee as fast as possible. What should you do?",
+      "options": [
+        "Use sugar cubes and hot water without stirring",
+        "Use cold water and stir slowly",
+        "Use hot water and fine sugar, then stir fast",
+        "Use cold water and sugar cubes, then do not stir"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Three spatulas of salt make a saturated solution in 50 ml of water. What happens if five spatulas are added to 50 ml of water at the same temperature?",
+      "options": [
+        "Excess salt will not dissolve and will settle at the bottom",
+        "All five spatulas will dissolve",
+        "The solution becomes dilute",
+        "The water turns into ice"
+      ],
+      "marks": 1
+    }
+  ]
+}

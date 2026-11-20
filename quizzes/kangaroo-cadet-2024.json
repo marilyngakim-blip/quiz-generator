@@ -1,7 +1,7 @@
 {
   "id": "kangaroo-cadet-2024",
   "title": "Kangaroo Cadet 2024",
-  "createdAt": "2026-11-20T02:29:51.471Z",
+  "createdAt": "2026-11-20T03:34:21.983Z",
   "questions": [
     {
       "q": "Which of the following strings cannot be transformed into the string shown (top) without cutting? / Tali manakah antara yang berikut tidak boleh diubah menjadi tali yang ditunjukkan (atas) tanpa dipotong?",
@@ -12,7 +12,7 @@
         "D"
       ],
       "marks": 1,
-      "image": "K24_Q01.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q01.png"
     },
     {
       "q": "A shape is made of equal-sized pentagonal tiles. Which of the following tiles can be placed in the empty space to produce two closed curves? / Bentuk berikut terdiri daripada jubin-jubin pentagon yang sama saiz. Jubin manakah boleh diletakkan pada ruang kosong untuk menghasilkan dua lengkung yang tertutup?",
@@ -23,7 +23,7 @@
         "D"
       ],
       "marks": 1,
-      "image": "K24_Q02.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q02.png"
     },
     {
       "q": "The first diagram shows a rhombus. Its area is increased by adding two right-angled triangles, as shown. By what percentage has the area increased? / Rajah pertama menunjukkan suatu rombus. Luasnya dinaikkan dengan menambahkan dua segi tiga bersudut tegak, seperti yang ditunjukkan. Berapa peratuskah kenaikan bagi luas tersebut?",
@@ -34,7 +34,7 @@
         "50%"
       ],
       "marks": 1,
-      "image": "K24_Q03.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q03.png"
     },
     {
       "q": "What is the value of (20 × 24) ÷ (2 × 0 + 2 × 4)? / Apakah nilai bagi (20 × 24) ÷ (2 × 0 + 2 × 4)?",
@@ -55,7 +55,7 @@
         "15"
       ],
       "marks": 1,
-      "image": "K24_Q05.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q05.png"
     },
     {
       "q": "Ria has three counters marked 1, 5 and 11. She wants to place them side by side to make a four-digit number. How many different four-digit numbers can she make? / Ria mempunyai tiga pembilang bertulis 1, 5 dan 11. Dia ingin meletakkannya secara bersebelahan untuk membentuk suatu nombor empat digit. Berapakah bilangan nombor empat digit berlainan yang boleh dibentuk?",
@@ -76,7 +76,7 @@
         "Eli"
       ],
       "marks": 1,
-      "image": "K24_Q07.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q07.png"
     },
     {
       "q": "An elevator notice says that it can carry either 12 adults or 20 children. According to this weight restriction, what is the largest number of children that can ride in the elevator with nine adults? / Notis had muatan suatu lif menyatakan bahawa lif boleh membawa sama ada 12 orang dewasa atau 20 orang kanak-kanak. Berdasarkan had muatan itu, berapakah bilangan terbesar kanak-kanak yang boleh menaiki lif bersama sembilan orang dewasa?",
@@ -97,7 +97,7 @@
         "14"
       ],
       "marks": 1,
-      "image": "K24_Q09.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q09.png"
     },
     {
       "q": "The length of four supermarket trolleys fitted together is 108 cm. The length of ten trolleys fitted together is 168 cm. What is the length of a single trolley? / Panjang empat troli pasar raya yang tersusun rapi ialah 108 cm. Panjang sepuluh troli yang tersusun rapi ialah 168 cm. Berapakah panjang satu troli?",
@@ -108,7 +108,7 @@
         "90 cm"
       ],
       "marks": 1,
-      "image": "K24_Q10.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q10.png"
     },
     {
       "q": "Carina cut a cake into ten equal pieces. She ate one piece and then arranged the remaining pieces evenly, as shown. What is the size of the angle between two neighbouring pieces? / Carina memotong sebiji kek kepada sepuluh bahagian yang sama besar. Dia memakan satu bahagian dan menyusun bahagian yang tinggal secara sekata, seperti yang ditunjukkan. Apakah ukuran sudut di antara dua bahagian yang bersebelahan?",
@@ -119,7 +119,7 @@
         "1°"
       ],
       "marks": 1,
-      "image": "K24_Q11.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q11.png"
     },
     {
       "q": "Werner can make a 4 × 4 square, where the sum of the numbers in each row and each column is the same, using the three pieces shown and one other piece. Which piece is needed to complete his square? / Werner boleh membentuk segi empat sama 4 × 4 dengan hasil tambah nombor pada setiap baris dan lajur adalah sama, menggunakan tiga kepingan yang ditunjukkan dan satu lagi kepingan. Kepingan manakah yang diperlukan?",
@@ -130,7 +130,7 @@
         "[2|2|2]"
       ],
       "marks": 1,
-      "image": "K24_Q12.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q12.png"
     },
     {
       "q": "A square has side-length 10 m. It is divided into parts by three line segments, as shown. The areas of the two shaded triangles are A and B. What is the value of A − B? / Suatu segi empat sama mempunyai panjang sisi 10 m. Ia dibahagikan oleh tiga tembereng garis, seperti yang ditunjukkan. Luas kedua-dua segi tiga berlorek ialah A dan B. Apakah nilai A − B?",
@@ -141,7 +141,7 @@
         "5 m²"
       ],
       "marks": 1,
-      "image": "K24_Q13.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q13.png"
     },
     {
       "q": "Paula the penguin goes fishing every day and always brings back twelve fish for her two chicks. Each day, she gives seven fish to the first chick she meets and five fish to the other chick. In the last few days, one chick has eaten 44 fish. How many fish has the other chick eaten? / Paula si penguin menangkap ikan setiap hari dan sentiasa membawa pulang dua belas ekor ikan untuk dua anaknya. Setiap hari, dia memberikan tujuh ekor ikan kepada anak yang pertama ditemuinya dan lima ekor kepada anak yang lagi satu. Dalam beberapa hari yang lalu, seekor anak penguin telah memakan 44 ekor ikan. Berapakah bilangan ikan yang dimakan oleh anak penguin yang lagi satu?",
@@ -162,7 +162,7 @@
         "12"
       ],
       "marks": 1,
-      "image": "K24_Q15.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q15.png"
     },
     {
       "q": "A kangaroo jumps up a mountain and then jumps back down along the same route. Each downhill jump covers three times the distance of each uphill jump. Going uphill, it covers 1 metre per jump. In total, the kangaroo makes 2024 jumps. What is the total distance, in metres, that the kangaroo jumps? / Seekor kanggaru melompat naik sebuah gunung dan kemudian melompat turun mengikut laluan yang sama. Setiap lompatan menurun adalah tiga kali ganda jarak lompatan menaik. Setiap lompatan menaik ialah 1 meter. Kanggaru itu membuat sejumlah 2024 lompatan. Berapakah jumlah jarak lompatan, dalam meter?",
@@ -183,7 +183,7 @@
         "14"
       ],
       "marks": 1,
-      "image": "K24_Q17.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q17.png"
     },
     {
       "q": "Water makes up 80% of the mass of fresh mushrooms but only 20% of the mass of dried mushrooms. By what percentage does the mass of the mushrooms decrease during drying? / Air membentuk 80% daripada jisim cendawan segar tetapi hanya 20% daripada jisim cendawan kering. Berapakah peratus pengurangan jisim cendawan semasa proses pengeringan?",
@@ -204,7 +204,7 @@
         "6000"
       ],
       "marks": 1,
-      "image": "K24_Q19.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q19.png"
     },
     {
       "q": "Nine cards numbered 1 to 9 are placed facedown. Aleksa, Bart, Clara and Deindra each pick two cards. Aleksa: \"My numbers add up to 6.\" Bart: \"The difference between my numbers is 5.\" Clara: \"The product of my numbers is 18.\" Deindra: \"One of my numbers is twice the other.\" All four are true. Which number is left on the table? / Sembilan kad bernombor 1 hingga 9 diletakkan menghadap ke bawah. Aleksa, Bart, Clara dan Deindra masing-masing mengambil dua kad. Aleksa: \"Nombor saya berjumlah 6.\" Bart: \"Beza nombor saya ialah 5.\" Clara: \"Hasil darab nombor saya ialah 18.\" Deindra: \"Satu nombor saya dua kali ganda nombor yang lagi satu.\" Semuanya benar. Apakah nombor yang tertinggal di atas meja?",
@@ -235,7 +235,7 @@
         "90°"
       ],
       "marks": 1,
-      "image": "K24_Q22.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q22.png"
     },
     {
       "q": "Captain Flint asked four pirates to write how many gold, silver and bronze coins were in the treasure chest. Their answers are shown, but part of the paper is damaged. Only one pirate told the truth; the other three lied in all their answers. There are 30 coins in total. Who told the truth? / Kapten Flint meminta empat lanun menulis bilangan syiling emas, perak dan gangsa dalam peti harta karun. Jawapan mereka ditunjukkan, tetapi sebahagian kertas telah rosak. Hanya seorang lanun bercakap benar; tiga yang lain berbohong dalam semua jawapan. Jumlah syiling ialah 30. Siapakah yang bercakap benar?",
@@ -246,7 +246,7 @@
         "Jim"
       ],
       "marks": 1,
-      "image": "K24_Q23.png"
+      "image": "img/kangaroo-cadet-2024/K24_Q23.png"
     },
     {
       "q": "Alex drives from A to B, then immediately returns to A. Bob drives from B to A, then immediately returns to B. They use the same road, start at the same time and travel at constant speeds. Alex is three times as fast as Bob. They pass each other for the first time 15 minutes after the start. When do they pass each other for the second time? / Alex memandu dari A ke B, kemudian terus kembali ke A. Bob memandu dari B ke A, kemudian terus kembali ke B. Mereka menggunakan jalan yang sama, bertolak serentak dan bergerak dengan laju seragam. Laju Alex tiga kali ganda laju Bob. Mereka berselisih kali pertama 15 minit selepas bertolak. Bilakah mereka berselisih kali kedua?",

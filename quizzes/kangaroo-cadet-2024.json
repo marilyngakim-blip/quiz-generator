@@ -1,0 +1,262 @@
+{
+  "id": "kangaroo-cadet-2024",
+  "title": "Kangaroo Cadet 2024",
+  "createdAt": "2026-11-20T02:29:51.471Z",
+  "questions": [
+    {
+      "q": "Which of the following strings cannot be transformed into the string shown (top) without cutting? / Tali manakah antara yang berikut tidak boleh diubah menjadi tali yang ditunjukkan (atas) tanpa dipotong?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "marks": 1,
+      "image": "K24_Q01.png"
+    },
+    {
+      "q": "A shape is made of equal-sized pentagonal tiles. Which of the following tiles can be placed in the empty space to produce two closed curves? / Bentuk berikut terdiri daripada jubin-jubin pentagon yang sama saiz. Jubin manakah boleh diletakkan pada ruang kosong untuk menghasilkan dua lengkung yang tertutup?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "marks": 1,
+      "image": "K24_Q02.png"
+    },
+    {
+      "q": "The first diagram shows a rhombus. Its area is increased by adding two right-angled triangles, as shown. By what percentage has the area increased? / Rajah pertama menunjukkan suatu rombus. Luasnya dinaikkan dengan menambahkan dua segi tiga bersudut tegak, seperti yang ditunjukkan. Berapa peratuskah kenaikan bagi luas tersebut?",
+      "options": [
+        "25%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "marks": 1,
+      "image": "K24_Q03.png"
+    },
+    {
+      "q": "What is the value of (20 × 24) ÷ (2 × 0 + 2 × 4)? / Apakah nilai bagi (20 × 24) ÷ (2 × 0 + 2 × 4)?",
+      "options": [
+        "30",
+        "48",
+        "60",
+        "120"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Julio cuts off the four corners of a regular tetrahedron, as shown. How many corners does the shape that remains have? / Julio memotong empat bucu pada suatu tetrahedron sekata, seperti yang ditunjukkan. Berapakah bilangan bucu pada bentuk yang tinggal?",
+      "options": [
+        "9",
+        "11",
+        "12",
+        "15"
+      ],
+      "marks": 1,
+      "image": "K24_Q05.png"
+    },
+    {
+      "q": "Ria has three counters marked 1, 5 and 11. She wants to place them side by side to make a four-digit number. How many different four-digit numbers can she make? / Ria mempunyai tiga pembilang bertulis 1, 5 dan 11. Dia ingin meletakkannya secara bersebelahan untuk membentuk suatu nombor empat digit. Berapakah bilangan nombor empat digit berlainan yang boleh dibentuk?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are five different kinds of fruit in a bowl: apple, grapes, cherry, strawberry and banana. The favourite fruits of each person are shown in the table. Everyone gets a fruit that they like, and everyone gets a different kind of fruit. Who gets the cherry? / Terdapat lima jenis buah berbeza di dalam mangkuk: epal, anggur, ceri, strawberi dan pisang. Buah kesukaan setiap orang ditunjukkan dalam jadual. Setiap orang mendapat sebiji buah yang mereka sukai dan jenis buah yang berbeza. Siapakah yang mendapat ceri?",
+      "options": [
+        "Ben",
+        "Cam",
+        "Dan",
+        "Eli"
+      ],
+      "marks": 1,
+      "image": "K24_Q07.png"
+    },
+    {
+      "q": "An elevator notice says that it can carry either 12 adults or 20 children. According to this weight restriction, what is the largest number of children that can ride in the elevator with nine adults? / Notis had muatan suatu lif menyatakan bahawa lif boleh membawa sama ada 12 orang dewasa atau 20 orang kanak-kanak. Berdasarkan had muatan itu, berapakah bilangan terbesar kanak-kanak yang boleh menaiki lif bersama sembilan orang dewasa?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Four different positive integers are placed on a 2 × 2 grid and covered up. The products of the integers in each row and each column are shown in the diagram. What is the sum of the four integers? / Empat integer positif berbeza diletakkan pada grid 2 × 2 dan ditutup. Hasil darab integer pada setiap baris dan lajur ditunjukkan dalam rajah. Apakah hasil tambah keempat-empat integer tersebut?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "14"
+      ],
+      "marks": 1,
+      "image": "K24_Q09.png"
+    },
+    {
+      "q": "The length of four supermarket trolleys fitted together is 108 cm. The length of ten trolleys fitted together is 168 cm. What is the length of a single trolley? / Panjang empat troli pasar raya yang tersusun rapi ialah 108 cm. Panjang sepuluh troli yang tersusun rapi ialah 168 cm. Berapakah panjang satu troli?",
+      "options": [
+        "68 cm",
+        "78 cm",
+        "88 cm",
+        "90 cm"
+      ],
+      "marks": 1,
+      "image": "K24_Q10.png"
+    },
+    {
+      "q": "Carina cut a cake into ten equal pieces. She ate one piece and then arranged the remaining pieces evenly, as shown. What is the size of the angle between two neighbouring pieces? / Carina memotong sebiji kek kepada sepuluh bahagian yang sama besar. Dia memakan satu bahagian dan menyusun bahagian yang tinggal secara sekata, seperti yang ditunjukkan. Apakah ukuran sudut di antara dua bahagian yang bersebelahan?",
+      "options": [
+        "4°",
+        "3°",
+        "2°",
+        "1°"
+      ],
+      "marks": 1,
+      "image": "K24_Q11.png"
+    },
+    {
+      "q": "Werner can make a 4 × 4 square, where the sum of the numbers in each row and each column is the same, using the three pieces shown and one other piece. Which piece is needed to complete his square? / Werner boleh membentuk segi empat sama 4 × 4 dengan hasil tambah nombor pada setiap baris dan lajur adalah sama, menggunakan tiga kepingan yang ditunjukkan dan satu lagi kepingan. Kepingan manakah yang diperlukan?",
+      "options": [
+        "[1|1|3]",
+        "[2|1|0]",
+        "[1|2|1]",
+        "[2|2|2]"
+      ],
+      "marks": 1,
+      "image": "K24_Q12.png"
+    },
+    {
+      "q": "A square has side-length 10 m. It is divided into parts by three line segments, as shown. The areas of the two shaded triangles are A and B. What is the value of A − B? / Suatu segi empat sama mempunyai panjang sisi 10 m. Ia dibahagikan oleh tiga tembereng garis, seperti yang ditunjukkan. Luas kedua-dua segi tiga berlorek ialah A dan B. Apakah nilai A − B?",
+      "options": [
+        "0 m²",
+        "1 m²",
+        "2 m²",
+        "5 m²"
+      ],
+      "marks": 1,
+      "image": "K24_Q13.png"
+    },
+    {
+      "q": "Paula the penguin goes fishing every day and always brings back twelve fish for her two chicks. Each day, she gives seven fish to the first chick she meets and five fish to the other chick. In the last few days, one chick has eaten 44 fish. How many fish has the other chick eaten? / Paula si penguin menangkap ikan setiap hari dan sentiasa membawa pulang dua belas ekor ikan untuk dua anaknya. Setiap hari, dia memberikan tujuh ekor ikan kepada anak yang pertama ditemuinya dan lima ekor kepada anak yang lagi satu. Dalam beberapa hari yang lalu, seekor anak penguin telah memakan 44 ekor ikan. Berapakah bilangan ikan yang dimakan oleh anak penguin yang lagi satu?",
+      "options": [
+        "40",
+        "46",
+        "52",
+        "58"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Johan made the structure on the right by taking a single cube and sticking another cube to each of its faces. He wants to extend it in the same way, so that each face of this structure has a cube stuck to it. How many extra cubes will he need? / Johan membentuk struktur di sebelah kanan dengan mengambil satu kubus dan melekatkan satu kubus lain pada setiap mukanya. Dia ingin melanjutkannya dengan cara yang sama, iaitu setiap muka struktur itu mempunyai satu kubus yang dilekatkan. Berapakah bilangan kubus tambahan yang diperlukan?",
+      "options": [
+        "18",
+        "16",
+        "14",
+        "12"
+      ],
+      "marks": 1,
+      "image": "K24_Q15.png"
+    },
+    {
+      "q": "A kangaroo jumps up a mountain and then jumps back down along the same route. Each downhill jump covers three times the distance of each uphill jump. Going uphill, it covers 1 metre per jump. In total, the kangaroo makes 2024 jumps. What is the total distance, in metres, that the kangaroo jumps? / Seekor kanggaru melompat naik sebuah gunung dan kemudian melompat turun mengikut laluan yang sama. Setiap lompatan menurun adalah tiga kali ganda jarak lompatan menaik. Setiap lompatan menaik ialah 1 meter. Kanggaru itu membuat sejumlah 2024 lompatan. Berapakah jumlah jarak lompatan, dalam meter?",
+      "options": [
+        "1012",
+        "2024",
+        "3036",
+        "4048"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Gerard cuts a large rectangle into four smaller rectangles. The perimeters of three of them are 16, 18 and 24, as shown. What is the perimeter of the fourth small rectangle? / Gerard memotong suatu segi empat tepat besar kepada empat segi empat tepat kecil. Perimeter tiga daripadanya ialah 16, 18 dan 24, seperti yang ditunjukkan. Apakah perimeter segi empat tepat kecil yang keempat?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "marks": 1,
+      "image": "K24_Q17.png"
+    },
+    {
+      "q": "Water makes up 80% of the mass of fresh mushrooms but only 20% of the mass of dried mushrooms. By what percentage does the mass of the mushrooms decrease during drying? / Air membentuk 80% daripada jisim cendawan segar tetapi hanya 20% daripada jisim cendawan kering. Berapakah peratus pengurangan jisim cendawan semasa proses pengeringan?",
+      "options": [
+        "70",
+        "75",
+        "80",
+        "85"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Teri is making a large square floor with a repeating pattern of hexagonal and triangular tiles, as shown. She thinks she will use 3000 hexagonal tiles. Approximately how many triangular tiles will she need? / Teri sedang membuat lantai besar berbentuk segi empat sama dengan corak berulang jubin heksagon dan segi tiga, seperti dalam rajah. Dia akan menggunakan 3000 jubin heksagon. Secara anggaran, berapakah bilangan jubin segi tiga yang diperlukan?",
+      "options": [
+        "1000",
+        "1500",
+        "3000",
+        "6000"
+      ],
+      "marks": 1,
+      "image": "K24_Q19.png"
+    },
+    {
+      "q": "Nine cards numbered 1 to 9 are placed facedown. Aleksa, Bart, Clara and Deindra each pick two cards. Aleksa: \"My numbers add up to 6.\" Bart: \"The difference between my numbers is 5.\" Clara: \"The product of my numbers is 18.\" Deindra: \"One of my numbers is twice the other.\" All four are true. Which number is left on the table? / Sembilan kad bernombor 1 hingga 9 diletakkan menghadap ke bawah. Aleksa, Bart, Clara dan Deindra masing-masing mengambil dua kad. Aleksa: \"Nombor saya berjumlah 6.\" Bart: \"Beza nombor saya ialah 5.\" Clara: \"Hasil darab nombor saya ialah 18.\" Deindra: \"Satu nombor saya dua kali ganda nombor yang lagi satu.\" Semuanya benar. Apakah nombor yang tertinggal di atas meja?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "50 students sit in a circle. Each student who gets the ball throws it to the 6th student anti-clockwise from where they sit. Freda catches the ball 100 times. In that time, how many students never get to catch the ball? / 50 orang pelajar duduk dalam satu bulatan. Setiap pelajar yang mendapat bola akan melontarkannya kepada pelajar ke-6 mengikut arah lawan jam. Freda menangkap bola itu sebanyak 100 kali. Sepanjang masa itu, berapakah bilangan pelajar yang tidak pernah menangkap bola?",
+      "options": [
+        "0",
+        "8",
+        "10",
+        "25"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Three angles α, β and γ are marked on squared paper, as shown. What is the value of α + β + γ? / Tiga sudut α, β dan γ ditandakan pada kertas berpetak, seperti yang ditunjukkan. Apakah nilai α + β + γ?",
+      "options": [
+        "60°",
+        "70°",
+        "75°",
+        "90°"
+      ],
+      "marks": 1,
+      "image": "K24_Q22.png"
+    },
+    {
+      "q": "Captain Flint asked four pirates to write how many gold, silver and bronze coins were in the treasure chest. Their answers are shown, but part of the paper is damaged. Only one pirate told the truth; the other three lied in all their answers. There are 30 coins in total. Who told the truth? / Kapten Flint meminta empat lanun menulis bilangan syiling emas, perak dan gangsa dalam peti harta karun. Jawapan mereka ditunjukkan, tetapi sebahagian kertas telah rosak. Hanya seorang lanun bercakap benar; tiga yang lain berbohong dalam semua jawapan. Jumlah syiling ialah 30. Siapakah yang bercakap benar?",
+      "options": [
+        "Tom",
+        "Al",
+        "Pit",
+        "Jim"
+      ],
+      "marks": 1,
+      "image": "K24_Q23.png"
+    },
+    {
+      "q": "Alex drives from A to B, then immediately returns to A. Bob drives from B to A, then immediately returns to B. They use the same road, start at the same time and travel at constant speeds. Alex is three times as fast as Bob. They pass each other for the first time 15 minutes after the start. When do they pass each other for the second time? / Alex memandu dari A ke B, kemudian terus kembali ke A. Bob memandu dari B ke A, kemudian terus kembali ke B. Mereka menggunakan jalan yang sama, bertolak serentak dan bergerak dengan laju seragam. Laju Alex tiga kali ganda laju Bob. Mereka berselisih kali pertama 15 minit selepas bertolak. Bilakah mereka berselisih kali kedua?",
+      "options": [
+        "20 minutes / minit",
+        "25 minutes / minit",
+        "30 minutes / minit",
+        "35 minutes / minit"
+      ],
+      "marks": 1
+    }
+  ]
+}

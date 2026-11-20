@@ -11,7 +11,8 @@
  * Susun atur tab "Input Kuiz" sama seperti Sheet Quiz Generator:
  *   B1 = Tajuk kuiz, contoh: Sejarah Tingkatan 2 (1.3-1.4)
  *   Baris 6 = tajuk lajur, soalan bermula di A7
- *   A Question | B A | C B | D C | E D | F Answer | G Marks | H Gambar (pilihan)
+ *   A Question | B A | C B | D C | E D | F Answer | G Marks | H Gambar (pilihan) | I E (pilihan)
+ *   Lajur I diisi hanya untuk soalan 5 pilihan (contoh Kangaroo); kosongkan untuk soalan 4 pilihan.
  *
  * Script properties (Project Settings → Script properties):
  *   GITHUB_TOKEN  = token GitHub (Contents: Read and write, untuk repo ini sahaja)
@@ -26,7 +27,8 @@ const TAB_KUNCI = 'Kunci';
 const TAB_MARKAH = 'Markah';
 const TAB_DRAF = 'Draf'; // jawapan separuh jalan (supaya boleh sambung di peranti lain)
 const FIRST_ROW = 7;
-const LETTERS = ['A', 'B', 'C', 'D'];
+const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+const NCOL = 9; // A–I
 // Google menghentikan skrip selepas 6 minit. Berhenti dengan selamat selepas 4.5 minit.
 const HAD_MASA_MS = 4.5 * 60 * 1000;
 const masaHampirTamat_ = mula => Date.now() - mula > HAD_MASA_MS;
@@ -50,7 +52,7 @@ function sediakanSheet() {
   const ss = SpreadsheetApp.getActive();
   const input = getOrCreate_(ss, TAB_INPUT);
   input.getRange('A1').setValue('Tajuk:');
-  input.getRange('A6:H6').setValues([['Question', 'A', 'B', 'C', 'D', 'Answer', 'Marks', 'Gambar (pilihan)']]).setFontWeight('bold');
+  input.getRange('A6:I6').setValues([['Question', 'A', 'B', 'C', 'D', 'Answer', 'Marks', 'Gambar (pilihan)', 'E (pilihan)']]).setFontWeight('bold');
   input.setFrozenRows(6);
 
   const kunci = getOrCreate_(ss, TAB_KUNCI);
@@ -121,7 +123,7 @@ function importDariForm() {
     let images = 0;
     data.list.forEach(it => {
       const title = it.title;
-      if (it.options.length !== 4) { skipped.push('"' + short_(title) + '" – ada ' + it.options.length + ' pilihan (perlu 4)'); return; }
+      if (it.options.length !== 4 && it.options.length !== 5) { skipped.push('"' + short_(title) + '" – ada ' + it.options.length + ' pilihan (perlu 4 atau 5)'); return; }
       if (it.correct.length !== 1) { skipped.push('"' + short_(title) + '" – tiada kunci jawapan'); return; }
       let imageUrl = '';
       if (it.image && masaHampirTamat_(mula)) {
@@ -135,16 +137,16 @@ function importDariForm() {
         }
       }
       // Ruang di hadapan "=" menghalang teks dibaca sebagai formula (dibuang semasa terbit).
-      rows.push([title].concat(it.options, [LETTERS[it.correct[0]], it.marks || 1, imageUrl])
+      rows.push([title].concat(it.options.slice(0, 4), [LETTERS[it.correct[0]], it.marks || 1, imageUrl, it.options[4] || ''])
         .map(v => typeof v === 'string' && v.charAt(0) === '=' ? ' ' + v : v));
     });
-    if (!rows.length) throw new Error('Tiada soalan aneka pilihan 4-pilihan dengan kunci jawapan dalam Form ini.' +
+    if (!rows.length) throw new Error('Tiada soalan aneka pilihan (4 atau 5 pilihan) dengan kunci jawapan dalam Form ini.' +
       (skipped.length ? '\n\nDilangkau:\n' + skipped.slice(0, 10).join('\n') : ''));
 
     const last = Math.max(sheet.getLastRow(), FIRST_ROW);
-    sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, 8).clearContent();
+    sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, NCOL).clearContent();
     // Format teks supaya jawapan seperti 1/2 atau 007 tidak ditukar menjadi tarikh/nombor.
-    sheet.getRange(FIRST_ROW, 1, rows.length, 8).setNumberFormat('@').setValues(rows);
+    sheet.getRange(FIRST_ROW, 1, rows.length, NCOL).setNumberFormat('@').setValues(rows);
     sheet.getRange('B1').setValue(safe_(form.getTitle()));
     sheet.getRange('B2').clearContent();
 
@@ -338,7 +340,7 @@ function kosongkanInput() {
     'Kuiz yang sudah diterbitkan tidak terjejas.', ui.ButtonSet.YES_NO) !== ui.Button.YES) return;
   sheet.getRange('B1:B2').clearContent();
   const last = Math.max(sheet.getLastRow(), FIRST_ROW);
-  sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, 8).clearContent();
+  sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, NCOL).clearContent();
   ui.alert('Input Kuiz sudah kosong. Tampal soalan baharu di A7 dan tajuk di B1.');
 }
 
@@ -359,7 +361,7 @@ function semakCampur_(id, rows) {
 function bacaSoalan_(sheet) {
   const last = sheet.getLastRow();
   if (last < FIRST_ROW) throw new Error('Tiada soalan. Tampal soalan bermula di A7.');
-  const values = sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, 8).getDisplayValues();
+  const values = sheet.getRange(FIRST_ROW, 1, last - FIRST_ROW + 1, NCOL).getDisplayValues();
   const rows = [];
   const errors = [];
   for (let i = 0; i < values.length; i++) {
@@ -370,9 +372,11 @@ function bacaSoalan_(sheet) {
     const marks = v[6] === '' ? 1 : Number(v[6]);
     if (!v[0]) errors.push('Baris ' + rowNo + ': soalan kosong');
     if (v.slice(1, 5).some(x => x === '')) errors.push('Baris ' + rowNo + ': ada pilihan A–D kosong');
-    if (LETTERS.indexOf(answer) < 0) errors.push('Baris ' + rowNo + ': Answer mesti A, B, C atau D');
+    const options = v.slice(1, 5).concat(v[8] ? [v[8]] : []); // E (lajur I) jika ada
+    if (LETTERS.slice(0, options.length).indexOf(answer) < 0)
+      errors.push('Baris ' + rowNo + ': Answer mesti ' + LETTERS.slice(0, options.length).join(', ') + (options.length === 4 ? ' (isi lajur I untuk pilihan E)' : ''));
     if (!(marks > 0)) errors.push('Baris ' + rowNo + ': Marks tidak sah');
-    rows.push({ question: v[0], options: v.slice(1, 5), answer: answer, marks: marks, image: v[7] });
+    rows.push({ question: v[0], options: options, answer: answer, marks: marks, image: v[7] });
   }
   if (errors.length) throw new Error('Soalan perlu dibetulkan dahulu:\n' + errors.slice(0, 15).join('\n'));
   if (!rows.length) throw new Error('Tiada soalan. Tampal soalan bermula di A7.');

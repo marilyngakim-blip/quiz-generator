@@ -1,7 +1,7 @@
 (function () {
   const { decorateHero, subjectOf, levelOf, store, currentKid, bestKey, getHistory, addLocalHistory, pctOf } = window.KUIZ;
   const app = document.getElementById('app');
-  const LETTERS = ['A', 'B', 'C', 'D'];
+  const LETTERS = ['A', 'B', 'C', 'D', 'E'];
   const quizId = new URLSearchParams(location.search).get('id');
   const config = window.KUIZ_CONFIG || {};
   decorateHero();

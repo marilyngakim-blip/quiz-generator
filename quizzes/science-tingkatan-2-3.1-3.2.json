@@ -1,0 +1,312 @@
+{
+  "id": "science-tingkatan-2-3.1-3.2",
+  "title": "Science Tingkatan 2 (3.1-3.2)",
+  "createdAt": "2026-11-20T06:48:10.960Z",
+  "questions": [
+    {
+      "q": "How many main classes of food are there?",
+      "options": [
+        "Six",
+        "Eight",
+        "Five",
+        "Seven"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Carbohydrate contains the elements",
+      "options": [
+        "hydrogen and oxygen only",
+        "carbon, hydrogen and oxygen",
+        "carbon and nitrogen only",
+        "carbon, hydrogen, oxygen and nitrogen"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Food stored in plants is in the form of",
+      "options": [
+        "cellulose only",
+        "starch",
+        "glycogen",
+        "protein"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Food stored in animals is in the form of",
+      "options": [
+        "cellulose",
+        "fibre",
+        "starch",
+        "glycogen"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Protein contains carbon, hydrogen, oxygen and",
+      "options": [
+        "iron",
+        "nitrogen",
+        "iodine",
+        "calcium"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Protein is digested into its basic unit called",
+      "options": [
+        "amino acid",
+        "fatty acid",
+        "glycerol",
+        "glucose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kwashiorkor is caused by a deficiency of",
+      "options": [
+        "iron",
+        "protein",
+        "vitamin C",
+        "fat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Fat is formed from",
+      "options": [
+        "amino acids",
+        "glycerol and fatty acid",
+        "glucose and maltose",
+        "starch and cellulose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Scurvy (bleeding gums) is caused by a deficiency of",
+      "options": [
+        "vitamin C",
+        "vitamin K",
+        "vitamin D",
+        "vitamin A"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Night blindness is caused by a deficiency of",
+      "options": [
+        "vitamin E",
+        "vitamin B",
+        "vitamin A",
+        "vitamin C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Goitre is caused by a deficiency of",
+      "options": [
+        "iron",
+        "calcium",
+        "iodine",
+        "sodium"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which mineral deficiency causes anaemia?",
+      "options": [
+        "Sodium",
+        "Iodine",
+        "Potassium",
+        "Iron"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Compared to carbohydrate, each gram of fat supplies",
+      "options": [
+        "no energy",
+        "half the energy",
+        "the same energy",
+        "two times the energy"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which vitamins are fat-soluble?",
+      "options": [
+        "Vitamin A, D, E and K",
+        "Vitamin B and C",
+        "Vitamin B only",
+        "Vitamin C and K"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which vitamin is produced through exposure to the Sun and helps in the absorption of calcium?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which vitamin speeds up the blood-clotting process?",
+      "options": [
+        "Vitamin K",
+        "Vitamin B",
+        "Vitamin A",
+        "Vitamin C"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Beri-beri is caused by a deficiency of",
+      "options": [
+        "vitamin B",
+        "vitamin C",
+        "vitamin D",
+        "vitamin A"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Osteoporosis is caused by a deficiency of",
+      "options": [
+        "sodium",
+        "calcium",
+        "iodine",
+        "iron"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Millon's reagent is used to test for the presence of",
+      "options": [
+        "starch",
+        "fat",
+        "protein",
+        "glucose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The alcohol-emulsion test is used to test for the presence of",
+      "options": [
+        "starch",
+        "protein",
+        "fat",
+        "glucose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The calorific value of food is",
+      "options": [
+        "the mass of food in 1 serving",
+        "the total energy released when 1 g of food is burned completely",
+        "the amount of water in food",
+        "the number of vitamins in food"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, what is reagent X?",
+      "options": [
+        "Iodine solution",
+        "Ethanol",
+        "Millon's reagent",
+        "Benedict's solution"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S4_Q41.png"
+    },
+    {
+      "q": "Based on the table, which tests are carried out by heating the test tube in a water bath?",
+      "options": [
+        "The tests for starch and fat",
+        "The tests for protein and fat",
+        "The tests for starch and glucose",
+        "The tests for glucose and protein"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S4_Q41.png"
+    },
+    {
+      "q": "Which of the following are fat-soluble vitamins? I. Vitamin A II. Vitamin B III. Vitamin D IV. Vitamin K",
+      "options": [
+        "I, III and IV only",
+        "I, II, III and IV",
+        "I and II only",
+        "II and III only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The table shows Suraya's breakfast. What is the total calorific value of her breakfast?",
+      "options": [
+        "590 kcal",
+        "820 kcal",
+        "750 kcal",
+        "690 kcal"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S4_Q31.png"
+    },
+    {
+      "q": "The table shows Suraya's breakfast. What is the total calorific value in kilojoules? (1 kcal = 4.2 kJ)",
+      "options": [
+        "2 898 kJ",
+        "178.6 kJ",
+        "3 000 kJ",
+        "3 150 kJ"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S4_Q31.png"
+    },
+    {
+      "q": "A student has a mass of 50 kg and a height of 1.6 m. What is his Body Mass Index (BMI)? (BMI = mass ÷ height²)",
+      "options": [
+        "31.3",
+        "19.5",
+        "12.2",
+        "78.1"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A fisherman and a school teacher are the same age and size. Who needs more energy and why?",
+      "options": [
+        "The fisherman, because he does heavy work",
+        "The teacher, because he works in a school",
+        "Both need the same energy",
+        "The teacher, because he talks a lot"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The diagram shows the results of Amirah's food tests. What conclusion can be made?",
+      "options": [
+        "Rice contains starch and honey contains glucose",
+        "Both contain fat",
+        "Both contain protein",
+        "Rice contains glucose and honey contains starch"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S4_Q37.png"
+    },
+    {
+      "q": "Amri, aged 15, is obese and has diabetes. Which practice is most suitable for him?",
+      "options": [
+        "Skip all meals",
+        "Drink more sweet drinks",
+        "Reduce sugar and fat intake and exercise regularly",
+        "Eat more fried food"
+      ],
+      "marks": 1
+    }
+  ]
+}

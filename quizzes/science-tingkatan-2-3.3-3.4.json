@@ -1,0 +1,311 @@
+{
+  "id": "science-tingkatan-2-3.3-3.4",
+  "title": "Science Tingkatan 2 (3.3-3.4)",
+  "createdAt": "2026-11-20T06:48:50.469Z",
+  "questions": [
+    {
+      "q": "An enzyme is a substance that",
+      "options": [
+        "speeds up chemical digestion",
+        "slows down digestion",
+        "absorbs water",
+        "stores food in the body"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Physical digestion",
+      "options": [
+        "involves bile only",
+        "happens in the stomach and involves enzymes",
+        "happens in the mouth and does not involve enzymes",
+        "only happens in the large intestine"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The digestive tract begins at the mouth and ends at the",
+      "options": [
+        "anus",
+        "small intestine",
+        "rectum",
+        "stomach"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Food that enters the oesophagus is called",
+      "options": [
+        "villus",
+        "faeces",
+        "chyme",
+        "bolus"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The semi-liquid food in the stomach is called",
+      "options": [
+        "bile",
+        "bolus",
+        "faeces",
+        "chyme"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bile is produced by the",
+      "options": [
+        "stomach",
+        "gall bladder",
+        "liver",
+        "pancreas"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Bile is stored in the",
+      "options": [
+        "duodenum",
+        "gall bladder",
+        "liver",
+        "pancreas"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Salivary amylase breaks down starch into",
+      "options": [
+        "amino acids",
+        "maltose",
+        "fatty acids",
+        "glucose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The walls of the stomach secrete protease and",
+      "options": [
+        "hydrochloric acid",
+        "maltase",
+        "lipase",
+        "bile"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Reabsorption of water happens in the",
+      "options": [
+        "oesophagus",
+        "mouth",
+        "stomach",
+        "large intestine"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Faeces are stored temporarily in the",
+      "options": [
+        "anus",
+        "duodenum",
+        "stomach",
+        "rectum"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The function of the villi in the small intestine is to",
+      "options": [
+        "increase the surface area for absorption of digested food",
+        "produce bile",
+        "break down protein",
+        "store faeces"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the function of hydrochloric acid in the stomach?",
+      "options": [
+        "Digests starch into maltose",
+        "Activates protease and kills bacteria in the food",
+        "Absorbs water",
+        "Emulsifies fat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the function of bile?",
+      "options": [
+        "Emulsifies fat into small droplets and neutralises the acid in chyme",
+        "Kills bacteria in the food",
+        "Digests protein into amino acids",
+        "Digests starch into maltose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pancreatic juice contains the enzymes",
+      "options": [
+        "lipase and bile",
+        "amylase, protease and lipase",
+        "maltase only",
+        "amylase and maltase only"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Lipase digests fat into",
+      "options": [
+        "maltose",
+        "amino acids",
+        "glucose",
+        "fatty acids and glycerol"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Maltase in the small intestine digests maltose into",
+      "options": [
+        "amino acids",
+        "starch",
+        "glycerol",
+        "glucose"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The wall of the villus is one cell thick in order to",
+      "options": [
+        "slow down absorption",
+        "store faeces",
+        "increase the rate of absorption",
+        "produce enzymes"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In assimilation, glucose is used to",
+      "options": [
+        "produce energy",
+        "form cell components",
+        "make bile",
+        "form fat"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In assimilation, amino acids are used to",
+      "options": [
+        "store energy as glycogen only",
+        "form components of cells",
+        "regulate temperature only",
+        "produce bile"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The large intestine reabsorbs",
+      "options": [
+        "glucose and amino acids",
+        "fat and protein",
+        "water and minerals",
+        "starch and enzymes"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In the Visking tube experiment, the Visking tube represents the",
+      "options": [
+        "stomach",
+        "small intestine",
+        "blood",
+        "large intestine"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Based on the table, what are X and Y?",
+      "options": [
+        "X: Glucose, Y: Amino acids",
+        "X: Glycogen, Y: Nitrogen",
+        "X: Amino acids, Y: Glucose",
+        "X: Maltose, Y: Polypeptides"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S5_Q41.png"
+    },
+    {
+      "q": "Which statements about the small intestine are correct? I. It has many villi II. It absorbs digested food III. It produces bile IV. Digestion of food is completed here",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I, II and IV only",
+        "I, II, III and IV"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The diagram shows the flow of food in the digestive tract. What is X?",
+      "options": [
+        "Pancreas",
+        "Gall bladder",
+        "Liver",
+        "Duodenum"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S5_Q31.png"
+    },
+    {
+      "q": "The diagram shows the flow of food in the digestive tract. What process mainly happens in Y?",
+      "options": [
+        "Digestion of protein",
+        "Production of bile",
+        "Reabsorption of water",
+        "Chewing of food"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S5_Q31.png"
+    },
+    {
+      "q": "The diagram shows the experiment on saliva and starch. Which observation is expected for boiling tube Q after 30 minutes?",
+      "options": [
+        "Iodine test does not turn dark blue; Benedict's test forms a brick-red precipitate",
+        "Both tests show no change",
+        "Iodine test turns brick-red; Benedict's test turns dark blue",
+        "Iodine test turns dark blue; Benedict's test stays blue"
+      ],
+      "marks": 1,
+      "image": "img/science-tingkatan-2/S5_Q34.png"
+    },
+    {
+      "q": "A man has his pancreas removed. Which effect on digestion is most likely?",
+      "options": [
+        "Food can no longer be chewed",
+        "Digestion of starch, protein and fat in the duodenum is affected",
+        "Bile cannot be produced",
+        "Water cannot be reabsorbed"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In the Visking tube experiment, glucose is found in the distilled water but starch is not. Why?",
+      "options": [
+        "The Visking tube only allows starch to pass",
+        "Glucose molecules are small enough to pass through the Visking tube, starch molecules are not",
+        "Starch molecules are smaller than glucose",
+        "Glucose is a protein"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A patient has a blocked bile duct. Which food is most difficult for him to digest?",
+      "options": [
+        "Plain water",
+        "Rice",
+        "Fatty food",
+        "Fruits"
+      ],
+      "marks": 1
+    }
+  ]
+}

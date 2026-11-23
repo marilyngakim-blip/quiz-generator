@@ -54,13 +54,28 @@ def ke_pdf(docx: str, folder: str | None = None) -> str:
 
 
 def kira_muka(pdf: str) -> int:
-    out = subprocess.run([alat.wajib("pdfinfo"), pdf], capture_output=True, text=True, encoding="utf-8", errors="replace", check=True).stdout
+    out = subprocess.run([alat.wajib("pdfinfo"), pdf], capture_output=True,
+                         check=True).stdout.decode("utf-8", "replace")
     return int(re.search(r"^Pages:\s+(\d+)", out, re.M).group(1))
 
 
+def pdftotext(pdf: str, *pilihan: str) -> str:
+    """Jalankan pdftotext ke fail sementara dan baca sebagai UTF-8.
+
+    (Membaca stdout terus gagal di Windows kerana pengekodan konsol cp1252.)
+    """
+    with tempfile.TemporaryDirectory() as d:
+        keluar = os.path.join(d, "teks.txt")
+        r = subprocess.run([alat.wajib("pdftotext"), *pilihan, "-enc", "UTF-8", pdf, keluar],
+                           capture_output=True)
+        if not os.path.exists(keluar):
+            raise RuntimeError("pdftotext gagal: " + r.stderr.decode("utf-8", "replace")[-300:])
+        with open(keluar, "rb") as f:
+            return f.read().decode("utf-8", "replace")
+
+
 def teks_halaman(pdf: str) -> list[str]:
-    out = subprocess.run([alat.wajib("pdftotext"), "-layout", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
-                         check=True).stdout
+    out = pdftotext(pdf, "-layout")
     hal = out.split("\f")
     if hal and not hal[-1].strip():
         hal = hal[:-1]

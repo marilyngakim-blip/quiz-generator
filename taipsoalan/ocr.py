@@ -123,11 +123,11 @@ _PKT = re.compile(r'<word xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="
 
 def lapisan_teks(pdf: str, dpi: int) -> list[list[Perkataan]]:
     """Perkataan daripada lapisan teks PDF (kosong bagi halaman imbasan)."""
-    r = subprocess.run([alat.wajib("pdftotext"), "-bbox", "-enc", "UTF-8", pdf, "-"],
-                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    from semak import pdftotext
+    teks = pdftotext(pdf, "-bbox")
     halaman = []
     k = dpi / 72.0
-    for m in _HAL.finditer(r.stdout):
+    for m in _HAL.finditer(teks):
         hal = []
         for w in _PKT.finditer(m.group(3)):
             x0, y0, x1, y1 = (float(w.group(i)) * k for i in range(1, 5))

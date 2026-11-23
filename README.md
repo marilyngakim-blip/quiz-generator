@@ -184,3 +184,7 @@ Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 | `quizzes/index.json` | Senarai kuiz – dijana oleh Sheet |
 | `config.js` | URL Web App – dijana oleh Sheet |
 | `apps-script/Code.gs` | Skrip untuk Google Sheet |
+
+## TaipSoalan
+
+Folder [`taipsoalan/`](taipsoalan/) mengandungi sistem Python untuk menaip semula kertas soalan Matematik SPM Kertas 2 kepada fail Word yang bersih. Lihat [`taipsoalan/README.md`](taipsoalan/README.md).

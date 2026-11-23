@@ -389,7 +389,7 @@ class Penyusun:
         spec = {"jenis": "gambar_hiasan", "halaman": halaman,
                 "kotak": [round(k.x0 / W, 4), round(k.y0 / H, 4), round(k.x1 / W, 4),
                           round(k.y1 / H, 4)],
-                "lebar_cm": round((k.x1 - k.x0) / dpi * 2.54, 2), "ambang": 175,
+                "lebar_cm": min(16.0, round((k.x1 - k.x0) / dpi * 2.54, 2)), "ambang": 175,
                 "dpi_asal": dpi}
         if getattr(k, "persamaan", False):
             spec["catatan"] = "persamaan — boleh ditukar kepada {\"latex\": ...}"

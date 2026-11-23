@@ -188,13 +188,17 @@ def editor_rajah(s, kunci):
         with st.expander(f"{lab}: {r.get('kapsyen') or r.get('jenis')} ({r.get('jenis')})"):
             if r.get("jenis") == "gambar_hiasan":
                 st.caption("Laras kotak potongan (pecahan lebar/tinggi halaman asal).")
-                x0, y0, x1, y1 = r.get("kotak", [0.1, 0.1, 0.9, 0.5])
+                x0, y0, x1, y1 = [min(1.0, max(0.0, float(v))) for v in
+                                  (r.get("kotak") or [0.1, 0.1, 0.9, 0.5])[:4]]
                 c1, c2 = st.columns(2)
                 x0, x1 = c1.slider("Kiri–kanan", 0.0, 1.0, (float(x0), float(x1)), 0.002, key=k + "x")
                 y0, y1 = c2.slider("Atas–bawah", 0.0, 1.0, (float(y0), float(y1)), 0.002, key=k + "y")
                 c3, c4, c5 = st.columns(3)
-                lebar = c3.number_input("Lebar (cm)", 1.0, 17.4, float(r.get("lebar_cm", 8)), 0.5, key=k + "w")
-                ambang = c4.slider("Putihkan latar (>)", 120, 240, int(r.get("ambang", 175)), 5, key=k + "a")
+                lebar = c3.number_input("Lebar (cm)", 1.0, 17.4,
+                                        min(17.4, max(1.0, float(r.get("lebar_cm") or 8))), 0.5,
+                                        key=k + "w")
+                ambang = c4.slider("Putihkan latar (>)", 120, 240,
+                                   min(240, max(120, int(r.get("ambang") or 175))), 5, key=k + "a")
                 kapsyen = c5.text_input("Kapsyen", r.get("kapsyen", ""), key=k + "c")
                 if st.button("Guna potongan ini", key=k + "g"):
                     r.update(kotak=[round(x0, 4), round(y0, 4), round(x1, 4), round(y1, 4)],

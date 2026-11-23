@@ -1,0 +1,730 @@
+{
+ "tajuk": "MATEMATIK\nKertas 2\nPeperiksaan Percubaan (Contoh)",
+ "bahagian": [
+  {
+   "nama": "Bahagian A",
+   "markah": 22,
+   "arahan": "Jawab **semua** soalan dalam bahagian ini.",
+   "soalan": [
+    {
+     "no": 1,
+     "halaman": [
+      2
+     ],
+     "teks": "Rajah 1 menunjukkan graf fungsi kuadratik *y* = *x*² − 2*x* − 3.",
+     "rajah": [
+      {
+       "jenis": "graf_fungsi",
+       "persamaan": "x^2 - 2x - 3",
+       "julat_x": [
+        -2,
+        4
+       ],
+       "label_lengkung": "*y* = *x*² − 2*x* − 3",
+       "titik": [
+        {
+         "x": 3,
+         "y": 0,
+         "label": "*k*",
+         "kedudukan": "bawah_kanan"
+        },
+        {
+         "x": -1,
+         "y": 0,
+         "label": "−1",
+         "kedudukan": "bawah_kiri"
+        },
+        {
+         "x": 0,
+         "y": -3,
+         "label": "−3",
+         "kedudukan": "kiri"
+        }
+       ],
+       "garis_putus": [
+        {
+         "dari": [
+          1,
+          0
+         ],
+         "ke": [
+          1,
+          -4
+         ]
+        }
+       ],
+       "lebar_cm": 8,
+       "tinggi_cm": 7,
+       "kapsyen": "Rajah 1",
+       "halaman": 2,
+       "kotak": [
+        0.3,
+        0.2,
+        0.7,
+        0.5
+       ]
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Nyatakan nilai *k*.",
+       "markah": 1
+      },
+      {
+       "label": "(b)",
+       "teks": "Nyatakan persamaan paksi simetri bagi graf itu.",
+       "markah": 1
+      },
+      {
+       "label": "(c)",
+       "teks": "Cari koordinat titik minimum graf itu.",
+       "markah": 2
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "teks": [
+      "Selesaikan persamaan matriks berikut untuk mencari nilai *x* dan nilai *y*.\n",
+      {
+       "latex": "\\begin{pmatrix} 3 & -2 \\\\ 1 & 4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 11 \\end{pmatrix}",
+       "papar": true
+      }
+     ],
+     "markah": 4
+    },
+    {
+     "no": 3,
+     "teks": "Rajah 3 menunjukkan graf laju-masa bagi pergerakan sebuah kereta dalam tempoh *t* saat.",
+     "rajah": [
+      {
+       "jenis": "graf_laju_masa",
+       "titik": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         10,
+         12
+        ],
+        [
+         14,
+         0
+        ]
+       ],
+       "tick_x": [
+        4,
+        10,
+        {
+         "nilai": 14,
+         "label": "*t*"
+        }
+       ],
+       "tick_y": [
+        {
+         "nilai": 12,
+         "label": "*v*"
+        }
+       ],
+       "label_x": "Masa (s)",
+       "label_y": "Laju (m s⁻¹)",
+       "lebar_cm": 10,
+       "tinggi_cm": 6,
+       "kapsyen": "Rajah 3"
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Nyatakan tempoh masa, dalam saat, kereta itu bergerak dengan laju seragam.",
+       "markah": 1
+      },
+      {
+       "label": "(b)",
+       "teks": [
+        "Diberi jumlah jarak yang dilalui ialah 120 m. Hitung nilai *v*. Guna ",
+        {
+         "latex": "\\text{jarak} = \\dfrac{1}{2}(a+b)h"
+        },
+        "."
+       ],
+       "markah": 3
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "teks": "Gambar rajah Venn di ruang jawapan menunjukkan set semesta ξ = P ∪ Q ∪ R. Lorek set\n- P ∩ Q′,\n- (P ∪ R) ∩ Q.",
+     "markah": 3,
+     "ruang_jawapan": "rajah",
+     "rajah": [
+      {
+       "jenis": "venn",
+       "set": [
+        {
+         "label": "P"
+        },
+        {
+         "label": "Q"
+        },
+        {
+         "label": "R"
+        }
+       ],
+       "nilai": {},
+       "lebar_cm": 7,
+       "tinggi_cm": 5
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "teks": "Jadual 5 menunjukkan bilangan murid mengikut kelab dan jantina.",
+     "jadual": [
+      {
+       "baris": [
+        [
+         {
+          "teks": "Kelab",
+          "rowspan": 2
+         },
+         {
+          "teks": "Bilangan murid",
+          "colspan": 2
+         },
+         {
+          "teks": "Jumlah",
+          "rowspan": 2
+         }
+        ],
+        [
+         "Lelaki",
+         "Perempuan"
+        ],
+        [
+         "Robotik",
+         "18",
+         "12",
+         "30"
+        ],
+        [
+         "Catur",
+         "9",
+         {
+          "teks": "*m*"
+         },
+         "25"
+        ]
+       ],
+       "lebar_lajur_cm": [
+        3.5,
+        3,
+        3,
+        3
+       ],
+       "kapsyen": "Jadual 5"
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Cari nilai *m*.",
+       "markah": 1
+      },
+      {
+       "label": "(b)",
+       "teks": "Seorang murid dipilih secara rawak daripada kelab Catur. Hitung kebarangkalian bahawa murid itu ialah perempuan.",
+       "markah": 2
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "teks": "Dua orang murid dipilih secara rawak. Rajah 6 menunjukkan rajah pokok yang tidak lengkap.",
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Lengkapkan rajah pokok di ruang jawapan.",
+       "markah": 2,
+       "ruang_jawapan": "rajah",
+       "rajah": [
+        {
+         "jenis": "rajah_pokok",
+         "cabang": [
+          {
+           "label": "M",
+           "kebarangkalian": "3/5",
+           "cabang": [
+            {
+             "label": "M",
+             "kosong": true
+            },
+            {
+             "label": "H",
+             "kebarangkalian": "1/2"
+            }
+           ]
+          },
+          {
+           "label": "H",
+           "kebarangkalian": "2/5",
+           "cabang": [
+            {
+             "label": "M",
+             "kebarangkalian": "3/4"
+            },
+            {
+             "label": "H",
+             "kosong": true
+            }
+           ]
+          }
+         ],
+         "tajuk_peringkat": [
+          "Pertama",
+          "Kedua"
+         ],
+         "kapsyen": "Rajah 6"
+        }
+       ]
+      },
+      {
+       "label": "(b)",
+       "teks": "Hitung kebarangkalian kedua-dua murid itu daripada kumpulan yang sama.",
+       "markah": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Bahagian B",
+   "markah": 19,
+   "arahan": "Jawab **semua** soalan dalam bahagian ini.",
+   "soalan": [
+    {
+     "no": 7,
+     "teks": "Rajah 7 menunjukkan segi tiga ABC yang dilukis pada suatu satah Cartes.",
+     "rajah": [
+      {
+       "jenis": "satah_cartes",
+       "julat_x": [
+        -6,
+        6
+       ],
+       "julat_y": [
+        -4,
+        6
+       ],
+       "unit_cm": 0.75,
+       "poligon": [
+        {
+         "bucu": [
+          [
+           1,
+           1
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           3,
+           4
+          ]
+         ],
+         "label_bucu": [
+          "A",
+          "B",
+          "C"
+         ],
+         "lorek": true
+        }
+       ],
+       "tick": 2,
+       "kapsyen": "Rajah 7"
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": [
+        "Penjelmaan **T** ialah translasi",
+        {
+         "latex": "\\begin{pmatrix} -4 \\\\ -2 \\end{pmatrix}",
+         "papar": true
+        }
+       ],
+       "ceraian": [
+        {
+         "label": "(i)",
+         "teks": "Nyatakan koordinat imej bagi titik C di bawah penjelmaan **T**.",
+         "markah": 1
+        },
+        {
+         "label": "(ii)",
+         "teks": "Nyatakan koordinat imej bagi titik A di bawah penjelmaan **T**².",
+         "markah": 2
+        }
+       ]
+      },
+      {
+       "label": "(b)",
+       "teks": "Huraikan selengkapnya satu pantulan yang memetakan segi tiga ABC kepada imejnya pada garis *x* = 0.",
+       "markah": 3
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "teks": "Rajah 8 menunjukkan graf berpemberat yang mewakili jalan raya antara empat bandar P, Q, R dan S. Pemberat mewakili jarak dalam km.",
+     "rajah": [
+      {
+       "jenis": "graf_berpemberat",
+       "bucu": [
+        {
+         "nama": "P",
+         "x": 0,
+         "y": 0
+        },
+        {
+         "nama": "Q",
+         "x": 4,
+         "y": 2
+        },
+        {
+         "nama": "R",
+         "x": 8,
+         "y": 0
+        },
+        {
+         "nama": "S",
+         "x": 4,
+         "y": -2
+        }
+       ],
+       "tepi": [
+        {
+         "dari": "P",
+         "ke": "Q",
+         "pemberat": "15"
+        },
+        {
+         "dari": "Q",
+         "ke": "R",
+         "pemberat": "12"
+        },
+        {
+         "dari": "P",
+         "ke": "S",
+         "pemberat": "10",
+         "sisi": -1
+        },
+        {
+         "dari": "S",
+         "ke": "R",
+         "pemberat": "20",
+         "sisi": -1
+        },
+        {
+         "dari": "Q",
+         "ke": "S",
+         "pemberat": "8"
+        }
+       ],
+       "lebar_cm": 9,
+       "kapsyen": "Rajah 8"
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Nyatakan darjah bagi bucu Q.",
+       "markah": 1
+      },
+      {
+       "label": "(b)",
+       "teks": "Cari jarak terpendek dari P ke R.",
+       "markah": 2
+      },
+      {
+       "label": "(c)",
+       "teks": "Lukis satu pokok yang merentasi graf itu dengan jumlah pemberat minimum.",
+       "markah": 3
+      }
+     ]
+    },
+    {
+     "no": 9,
+     "teks": "Plot titik di bawah menunjukkan bilangan buku yang dibaca oleh sekumpulan murid dalam sebulan.",
+     "rajah": [
+      {
+       "jenis": "plot_titik",
+       "nilai": [
+        2,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        7
+       ],
+       "julat": [
+        0,
+        8
+       ],
+       "label_x": "Bilangan buku",
+       "kapsyen": "Rajah 9.1"
+      },
+      {
+       "jenis": "plot_kotak",
+       "min": 12,
+       "q1": 18,
+       "median": 24,
+       "q3": 30,
+       "maks": 41,
+       "julat": [
+        10,
+        45
+       ],
+       "tick": 5,
+       "label_x": "Jisim (kg)",
+       "kapsyen": "Rajah 9.2"
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Nyatakan mod data dalam Rajah 9.1.",
+       "markah": 1
+      },
+      {
+       "label": "(b)",
+       "teks": "Berdasarkan Rajah 9.2, hitung julat antara kuartil.",
+       "markah": 2
+      },
+      {
+       "label": "(c)",
+       "teks": "Lengkapkan jadual kekerapan di ruang jawapan.",
+       "markah": 2,
+       "ruang_jawapan": "jadual",
+       "jadual": [
+        {
+         "baris": [
+          [
+           "Bilangan buku",
+           "2",
+           "3",
+           "4",
+           "5",
+           "7"
+          ],
+          [
+           "Kekerapan",
+           {
+            "kosong": true
+           },
+           {
+            "kosong": true
+           },
+           {
+            "kosong": true
+           },
+           {
+            "kosong": true
+           },
+           {
+            "kosong": true
+           }
+          ]
+         ],
+         "lebar_lajur_cm": [
+          3.5,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6
+         ],
+         "tajuk_baris": 0
+        }
+       ]
+      },
+      {
+       "label": "(d)",
+       "teks": [
+        "Selesaikan ketaksamaan linear 2*x* − 3 < 5 dan wakilkan jawapan pada garis nombor."
+       ],
+       "markah": 2,
+       "ruang_jawapan": "rajah",
+       "rajah": [
+        {
+         "jenis": "garis_nombor",
+         "julat": [
+          -3,
+          5
+         ],
+         "lebar_cm": 10
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Bahagian C",
+   "markah": 12,
+   "arahan": "Jawab **mana-mana satu** soalan dalam bahagian ini.",
+   "soalan": [
+    {
+     "no": 10,
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Lengkapkan Jadual 10 di ruang jawapan bagi persamaan *y* = *x*³ − 4*x* + 3.",
+       "markah": 2,
+       "ruang_jawapan": "jadual",
+       "jadual": [
+        {
+         "baris": [
+          [
+           "*x*",
+           "−3",
+           "−2",
+           "−1",
+           "0",
+           "1",
+           "2",
+           "3"
+          ],
+          [
+           "*y*",
+           "−12",
+           {
+            "kosong": true
+           },
+           "6",
+           "3",
+           {
+            "kosong": true
+           },
+           "3",
+           "18"
+          ]
+         ],
+         "tajuk_baris": 0,
+         "lebar_lajur_cm": [
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4
+         ],
+         "kapsyen": "Jadual 10"
+        }
+       ]
+      },
+      {
+       "label": "(b)",
+       "teks": "Untuk ceraian soalan ini, gunakan kertas graf. Dengan menggunakan skala 2 cm kepada 1 unit pada paksi-*x* dan 2 cm kepada 5 unit pada paksi-*y*, lukis graf *y* = *x*³ − 4*x* + 3 bagi −3 ≤ *x* ≤ 3.",
+       "markah": 4,
+       "ruang_jawapan": "kertas_graf",
+       "kertas_graf": {
+        "jenis": "kertas_graf",
+        "lebar_cm": 16,
+        "tinggi_cm": 22,
+        "kecil_mm": 2,
+        "besar_cm": 1
+       }
+      },
+      {
+       "label": "(c)",
+       "teks": "Daripada graf anda, cari nilai *y* apabila *x* = 1.5.",
+       "markah": 2
+      },
+      {
+       "label": "(d)",
+       "teks": "Lukis satu garis lurus yang sesuai pada graf anda untuk mencari nilai *x* yang memuaskan persamaan *x*³ − 6*x* + 2 = 0 bagi −3 ≤ *x* ≤ 3.",
+       "markah": 4
+      }
+     ]
+    },
+    {
+     "no": 11,
+     "teks": "Rajah 11 menunjukkan dua garis lurus pada satah Cartes.",
+     "rajah": [
+      {
+       "jenis": "graf_garis_lurus",
+       "julat_x": [
+        -2,
+        6
+       ],
+       "julat_y": [
+        -3,
+        8
+       ],
+       "garis": [
+        {
+         "persamaan": "2x + 1",
+         "label": "*y* = 2*x* + 1"
+        },
+        {
+         "dua_titik": [
+          [
+           0,
+           6
+          ],
+          [
+           6,
+           0
+          ]
+         ],
+         "label": "*x* + *y* = 6"
+        }
+       ],
+       "lebar_cm": 8,
+       "kapsyen": "Rajah 11"
+      }
+     ],
+     "ceraian": [
+      {
+       "label": "(a)",
+       "teks": "Cari pintasan-*x* bagi garis *y* = 2*x* + 1.",
+       "markah": 2
+      },
+      {
+       "label": "(b)",
+       "teks": [
+        "Hitung ",
+        {
+         "latex": "\\dfrac{150}{W}"
+        },
+        " apabila *W* ialah koordinat-*y* titik persilangan kedua-dua garis itu."
+       ],
+       "markah": 3
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "pembetulan": [
+  "Soalan 3(b): 'jarah' → 'jarak'",
+  "Soalan 7: 'satak Cartes' → 'satah Cartes'"
+ ],
+ "hilang": [
+  "Halaman 14 tiada dalam fail asal (dijangka mengandungi Soalan 10(d))."
+ ]
+}

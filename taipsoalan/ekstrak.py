@@ -18,6 +18,7 @@ import subprocess
 
 from PIL import Image
 
+import alat
 import semak
 from skema import PROMPT_SISTEM, normalkan
 
@@ -47,7 +48,7 @@ def render_halaman(pdf: str, kerja: str, dpi: int = 170) -> list[str]:
         return sedia
     for f in glob.glob(os.path.join(folder, "*")):
         os.remove(f)
-    subprocess.run(["pdftoppm", "-png", "-r", str(dpi), pdf, os.path.join(folder, "h")],
+    subprocess.run([alat.wajib("pdftoppm"), "-png", "-r", str(dpi), pdf, os.path.join(folder, "h")],
                    check=True)
     open(os.path.join(folder, f".dpi{dpi}"), "w").close()
     fail = sorted(glob.glob(os.path.join(folder, "h-*.png")))

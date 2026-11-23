@@ -17,6 +17,8 @@ import subprocess
 import tempfile
 from xml.sax.saxutils import escape
 
+import alat
+
 M_NS = "http://schemas.openxmlformats.org/officeDocument/2006/math"
 W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 
@@ -285,7 +287,7 @@ def latex_ke_omml(latex: str, papar: bool = False) -> str:
 # ---- sandaran PNG -----------------------------------------------------------
 
 def _pdflatex_png(latex: str, out_png: str, dpi: int = 300) -> bool:
-    if not shutil.which("pdflatex") or not shutil.which("pdftoppm"):
+    if not shutil.which("pdflatex") or not alat.cari("pdftoppm"):
         return False
     with tempfile.TemporaryDirectory() as d:
         tex = os.path.join(d, "p.tex")
@@ -297,7 +299,7 @@ def _pdflatex_png(latex: str, out_png: str, dpi: int = 300) -> bool:
                            cwd=d, capture_output=True, timeout=60)
         if r.returncode != 0:
             return False
-        subprocess.run(["pdftoppm", "-png", "-r", str(dpi), "-singlefile", "-gray",
+        subprocess.run([alat.cari("pdftoppm"), "-png", "-r", str(dpi), "-singlefile", "-gray",
                         os.path.join(d, "p.pdf"), os.path.join(d, "p")], check=True)
         shutil.copy(os.path.join(d, "p.png"), out_png)
     return True

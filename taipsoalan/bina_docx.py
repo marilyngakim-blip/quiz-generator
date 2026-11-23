@@ -226,6 +226,8 @@ class PembinaDocx:
             if skala < 1.0:
                 self.amaran.append(f"Rajah {spec.get('jenis')} dikecilkan {skala:.2f}× untuk muat")
         p = self._para(aras, jajar=WD_ALIGN_PARAGRAPH.CENTER, keep_next=True)
+        if p.paragraph_format.space_before is None:
+            p.paragraph_format.space_before = Pt(4)
         p.add_run().add_picture(laluan, width=Cm(w * skala))
         if spec.get("kapsyen"):
             pk = self._para(aras, jajar=WD_ALIGN_PARAGRAPH.CENTER, keep_next=False)

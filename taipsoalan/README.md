@@ -4,13 +4,44 @@ Menukar kertas soalan **Matematik SPM Kertas 2** (PDF imbasan, PDF teks, `.doc`,
 fail **Word (.docx) yang bersih**, dalam **Bahasa Melayu sahaja**, dengan **rajah dilukis
 semula** (hitam, saiz sebenar) dan sedia untuk difotostat.
 
+**Lalai: OFFLINE & PERCUMA** — tiada internet, tiada kunci API. Claude API hanyalah pilihan
+tambahan (`--enjin claude`).
+
 ```
-PDF/DOC/DOCX ─► imej halaman ─► Claude (vision) ─► soalan.json ─► SEMAKAN GURU (Streamlit)
+PDF/DOC/DOCX ─► imej halaman ─► OCR offline (Tesseract) ─► soalan.json ─► SEMAKAN GURU (Streamlit)
+                                 atau Claude API (pilihan)
                                                                       │
           laporan + contact sheet ◄── semakan akhir ◄── gelung muka surat ◄── bina .docx + rajah
 ```
 
-## Pemasangan
+## Pemasangan di Windows (disyorkan)
+
+1. Muat turun folder `taipsoalan` (Code → Download ZIP di GitHub) dan ekstrak.
+2. Klik kanan **`pasang_windows.bat`** → *Run as administrator*. Ia memasang Python,
+   LibreOffice, Poppler, Tesseract OCR (+ data bahasa Melayu) dan pakej Python melalui
+   `winget`. Jika Python baru dipasang, jalankan fail itu sekali lagi.
+3. Klik dua kali **`jalankan.bat`** — TaipSoalan dibuka dalam pelayar (berjalan di komputer
+   anda sendiri, `localhost`).
+
+Semak pemasangan: `py -3 main.py --semak-pemasangan`. Jika sesuatu program dipasang di lokasi
+lain, tetapkan `TAIPSOALAN_SOFFICE`, `TAIPSOALAN_POPPLER` (folder `bin`) atau
+`TAIPSOALAN_TESSERACT`.
+
+## Mod offline: apa yang automatik, apa yang guru semak
+
+| Automatik | Guru semak dalam Streamlit |
+|---|---|
+| Teks soalan (OCR msa+eng untuk imbasan; terus dari lapisan teks untuk PDF teks/DOCX) | Ejaan hasil OCR — baris "kurang pasti" disenaraikan dalam *Catatan OCR* |
+| Buang Bahasa Inggeris, pengepala/pengaki, kulit depan, maklumat calon, halaman rumus | Persamaan sebaris (pecahan) yang OCR tersilap |
+| Bahagian, nombor soalan, (a), (i), `[x markah]`, "Jawapan:", kapsyen Rajah/Jadual | |
+| Rajah & jadual dipotong dari halaman asal, skala kelabu, latar diputihkan | Laras kotak potongan (peluncur), atau **Lukis semula** sebagai rajah bersih (pilih jenis, isi nilai) |
+| Persamaan papar (matriks, vektor) dipotong sebagai imej | Pilihan: **Ganti dengan persamaan** LaTeX |
+| Ruang jawapan rajah/jadual (selepas "Jawapan:") dan kertas graf | |
+
+Untuk imbasan, guna sekurang-kurangnya 200 dpi (`--dpi 200`, lalai) — imbasan 300 dpi memberi
+OCR yang lebih tepat.
+
+## Pemasangan manual (Linux / macOS)
 
 ```bash
 pip install -r requirements.txt
@@ -19,21 +50,21 @@ pip install -r requirements.txt
 Alat sistem (Ubuntu/Debian):
 
 ```bash
-sudo apt-get install -y libreoffice-writer libreoffice-math poppler-utils
+sudo apt-get install -y libreoffice-writer libreoffice-math poppler-utils tesseract-ocr tesseract-ocr-msa
 ```
 
 - `libreoffice-math` **wajib** supaya persamaan (OMML) kelihatan dalam PDF semakan dan
   kiraan muka surat tepat. (Word sendiri memaparkannya tanpa pakej ini.)
 - `pdflatex` (pilihan): jika ada, persamaan di luar subset OMML dirender sebagai PNG 300 dpi;
   jika tiada, matplotlib mathtext digunakan.
-- Kunci API: `export ANTHROPIC_API_KEY=...` (model lalai `claude-opus-5-5`).
+- (Pilihan, berbayar) enjin Claude: `export ANTHROPIC_API_KEY=...` dan `--enjin claude`.
 
 ## Penggunaan
 
 ### 1. CLI (`main.py`)
 
 ```bash
-# Ekstrak, berhenti untuk semakan guru
+# Ekstrak OFFLINE, berhenti untuk semakan guru
 python main.py kertas.pdf --ekstrak-sahaja
 
 # Semak/betulkan dalam Streamlit (lihat di bawah), kemudian bina tepat 16 muka surat
@@ -43,7 +74,7 @@ python main.py kertas_kerja/soalan.json --muka-surat 16
 python main.py kertas.pdf --muka-surat 16
 ```
 
-Pilihan penting: `--muka-surat N`, `--model`, `--effort`, `--dpi 170`, `--kumpulan 12`
+Pilihan penting: `--muka-surat N`, `--enjin offline|claude`, `--paksa-ocr`, `--model`, `--effort`, `--dpi 170`, `--kumpulan 12`
 (halaman setiap panggilan API), `--tanpa-kertas-graf`, `--persamaan-png`,
 `--tanpa-muka-baharu-graf`, `--faktor-ruang 1.0`.
 
@@ -65,7 +96,7 @@ Keluaran dalam folder kerja `<nama>_kerja/`:
 streamlit run app.py
 ```
 
-Muat naik kertas/JSON → **Ekstrak dengan Claude** → tab *Semak soalan*: imej halaman asal
+Muat naik kertas/JSON → **Muat fail** → **Ekstrak** (enjin *Offline* lalai) → tab *Semak soalan*: imej halaman asal
 (serta potongan rajah asal) di kiri, pratonton teks/rajah/jadual di kanan, dan editor JSON
 untuk membetulkan teks, koordinat dan nilai. Tab *Bina Word* menjalankan gelung sasaran
 muka surat dan memberi pautan muat turun `.docx`/`.pdf` beserta laporan.
@@ -159,7 +190,11 @@ semakan) dan `lebar_cm`/`tinggi_cm`.
 taipsoalan/
   main.py        CLI
   app.py         Streamlit: muat naik, semak, betulkan, bina, muat turun
-  ekstrak.py     input → imej → Claude API → JSON
+  ekstrak_offline.py  OCR/lapisan teks → struktur soalan + potongan rajah (offline)
+  ocr.py         Tesseract & pdftotext -bbox (perkataan + kedudukan)
+  alat.py        cari LibreOffice/Poppler/Tesseract (termasuk lokasi Windows)
+  ekstrak.py     input → imej halaman; enjin Claude API (pilihan)
+  pasang_windows.bat, jalankan.bat
   skema.py       prompt sistem, skema, normalisasi & amaran
   teks.py        markup teks
   persamaan.py   LaTeX → OMML / PNG

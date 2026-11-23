@@ -2,7 +2,8 @@
 """TaipSoalan — CLI.
 
 Contoh:
-  python main.py kertas.pdf --muka-surat 16          # ekstrak → (semak) → Word 16 muka surat
+  python main.py kertas.pdf --muka-surat 16          # ekstrak offline → Word 16 muka surat
+  python main.py kertas.pdf --enjin claude           # ekstrak dengan Claude API (berbayar)
   python main.py kertas.pdf --ekstrak-sahaja         # berhenti selepas JSON untuk disemak
   python main.py kerja/soalan.json --muka-surat 20   # bina terus dari JSON yang disemak
   python main.py lama.doc --padat --fon-dari 10 --fon-ke 12 --muka-surat 16
@@ -12,7 +13,6 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import shutil
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -58,8 +58,14 @@ def jalan_utama(a):
             log(f"Guna JSON sedia ada (telah disemak?): {json_laluan}  [--ekstrak-semula untuk ulang]")
             data = ekstrak.muat_json(json_laluan)
         else:
-            data = ekstrak.ekstrak(imej, model=a.model, kumpulan=a.kumpulan, log=log,
-                                   effort=a.effort)
+            if a.enjin == "claude":
+                data = ekstrak.ekstrak(imej, model=a.model, kumpulan=a.kumpulan, log=log,
+                                       effort=a.effort)
+            else:
+                import ekstrak_offline
+                log("Ekstrak OFFLINE (Tesseract OCR / lapisan teks)...")
+                data = ekstrak_offline.ekstrak_offline(pdf, imej, a.dpi, log=log,
+                                                       paksa_ocr=a.paksa_ocr)
             ekstrak.simpan_json(data, json_laluan)
             log(f"JSON disimpan: {json_laluan}")
         if a.ekstrak_sahaja:
@@ -164,16 +170,26 @@ def jalan_padat(a):
 
 
 def main(argv=None):
+    for strim in (sys.stdout, sys.stderr):
+        try:
+            strim.reconfigure(errors="replace")
+        except (AttributeError, ValueError):
+            pass
     p = argparse.ArgumentParser(prog="taipsoalan", description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("input", help="kertas.pdf / .doc / .docx, atau soalan.json yang disemak")
+    p.add_argument("input", nargs="?", help="kertas.pdf / .doc / .docx, atau soalan.json yang disemak")
+    p.add_argument("--semak-pemasangan", action="store_true",
+                   help="semak LibreOffice, Poppler dan Tesseract sudah dipasang")
     p.add_argument("--muka-surat", type=int, help="sasaran bilangan muka surat (cth 16 atau 20)")
     p.add_argument("--keluar", help="laluan .docx keluaran")
     p.add_argument("--kerja", help="folder kerja (lalai: <nama>_kerja)")
     g = p.add_argument_group("ekstrak")
-    g.add_argument("--model", default="claude-opus-5-5")
+    g.add_argument("--enjin", default="offline", choices=["offline", "claude"],
+                   help="offline = Tesseract/lapisan teks, percuma (lalai); claude = Claude API")
+    g.add_argument("--paksa-ocr", action="store_true", help="OCR walaupun PDF ada lapisan teks")
+    g.add_argument("--model", default="claude-opus-5-5", help="(enjin claude)")
     g.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
-    g.add_argument("--dpi", type=int, default=170, help="dpi render halaman (150–200)")
+    g.add_argument("--dpi", type=int, default=200, help="dpi render halaman (150–300)")
     g.add_argument("--kumpulan", type=int, help="bilangan halaman setiap panggilan API")
     g.add_argument("--ekstrak-sahaja", action="store_true", help="berhenti selepas JSON")
     g.add_argument("--ekstrak-semula", action="store_true", help="abaikan soalan.json sedia ada")
@@ -195,10 +211,23 @@ def main(argv=None):
                    help="faktor F untuk perenggan kosong berturutan")
     d.add_argument("--ganti-imej", help="JSON {\"media/image3.wmf\": <spesifikasi rajah>}")
     a = p.parse_args(argv)
+    if a.semak_pemasangan:
+        import alat
+        masalah = alat.semak_semua(perlu_ocr=True)
+        for n in ("soffice", "pdftoppm", "pdfinfo", "pdftotext", "tesseract"):
+            print(f"  {n:10s} {alat.cari(n) or '-- TIADA --'}")
+        print("\n".join(["", "Masalah:"] + [f"  - {m}" for m in masalah]) if masalah
+              else "\n✓ Semua alat lengkap. Sistem boleh digunakan secara offline.")
+        return 1 if masalah else 0
+    if not a.input:
+        p.error("sila beri fail input")
     if not os.path.exists(a.input):
         p.error(f"fail tidak wujud: {a.input}")
-    if not shutil.which("pdftoppm") or not shutil.which("pdfinfo"):
-        p.error("poppler-utils (pdftoppm, pdfinfo) diperlukan")
+    import alat
+    masalah = alat.semak_semua(perlu_ocr=(a.enjin == "offline" and not a.padat
+                                          and not a.input.lower().endswith(".json")))
+    if masalah:
+        p.error("Pemasangan belum lengkap:\n  - " + "\n  - ".join(masalah))
     return jalan_padat(a) if a.padat else jalan_utama(a)
 
 

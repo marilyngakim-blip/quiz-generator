@@ -4,27 +4,28 @@ from __future__ import annotations
 import glob
 import math
 import os
+import pathlib
 import re
-import shutil
 import subprocess
 import tempfile
 
 from PIL import Image, ImageDraw
 
+import alat
+
 _PROFIL_LO = os.path.join(os.path.expanduser("~"), ".cache", "taipsoalan", "lo_profil")
 
 
 def soffice() -> str:
-    for n in ("soffice", "libreoffice"):
-        if shutil.which(n):
-            return n
-    raise RuntimeError("LibreOffice (soffice) tidak dijumpai")
+    return alat.wajib("soffice")
 
 
 def lo_ada_math() -> bool:
     """Modul Math LibreOffice diperlukan untuk memaparkan persamaan OMML dalam PDF."""
     try:
-        exe = os.path.realpath(shutil.which(soffice()))
+        if alat.WINDOWS:
+            return True  # pemasang Windows sentiasa menyertakan modul Math
+        exe = os.path.realpath(soffice())
     except RuntimeError:
         return False
     prog = os.path.dirname(exe)
@@ -37,9 +38,9 @@ def tukar(fail: str, format_: str, folder: str) -> str:
     """Tukar fail dengan LibreOffice headless. Pulang laluan fail keluaran."""
     os.makedirs(folder, exist_ok=True)
     os.makedirs(_PROFIL_LO, exist_ok=True)
-    cmd = [soffice(), f"-env:UserInstallation=file://{_PROFIL_LO}", "--headless",
+    cmd = [soffice(), "-env:UserInstallation=" + pathlib.Path(_PROFIL_LO).as_uri(), "--headless",
            "--convert-to", format_, "--outdir", folder, fail]
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    r = subprocess.run(cmd, capture_output=True, text=True, errors="replace", timeout=300)
     asas = os.path.splitext(os.path.basename(fail))[0]
     ext = format_.split(":")[0]
     keluar = os.path.join(folder, f"{asas}.{ext}")
@@ -53,12 +54,12 @@ def ke_pdf(docx: str, folder: str | None = None) -> str:
 
 
 def kira_muka(pdf: str) -> int:
-    out = subprocess.run(["pdfinfo", pdf], capture_output=True, text=True, check=True).stdout
+    out = subprocess.run([alat.wajib("pdfinfo"), pdf], capture_output=True, text=True, encoding="utf-8", errors="replace", check=True).stdout
     return int(re.search(r"^Pages:\s+(\d+)", out, re.M).group(1))
 
 
 def teks_halaman(pdf: str) -> list[str]:
-    out = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True,
+    out = subprocess.run([alat.wajib("pdftotext"), "-layout", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
                          check=True).stdout
     hal = out.split("\f")
     if hal and not hal[-1].strip():
@@ -70,7 +71,7 @@ def render(pdf: str, folder: str, dpi: int, awalan: str = "h") -> list[str]:
     os.makedirs(folder, exist_ok=True)
     for f in glob.glob(os.path.join(folder, f"{awalan}-*.png")):
         os.remove(f)
-    subprocess.run(["pdftoppm", "-png", "-r", str(dpi), pdf, os.path.join(folder, awalan)],
+    subprocess.run([alat.wajib("pdftoppm"), "-png", "-r", str(dpi), pdf, os.path.join(folder, awalan)],
                    check=True)
     return sorted(glob.glob(os.path.join(folder, f"{awalan}-*.png")))
 

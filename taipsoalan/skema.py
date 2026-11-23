@@ -143,3 +143,41 @@ def normalkan(data: dict) -> tuple[dict, list[str]]:
             if not s.get("ceraian") and s.get("markah") in (None, ""):
                 amaran.append(f"Soalan {s.get('no')}: tiada markah")
     return data, amaran
+
+
+# Templat untuk borang "lukis semula" dalam Streamlit (guru ubah nilai sahaja).
+TEMPLAT = {
+    "graf_fungsi": {"persamaan": "x^2 - 2x - 3", "julat_x": [-2, 4], "label_lengkung": "*y* = *x*² − 2*x* − 3",
+                    "titik": [{"x": 3, "y": 0, "label": "3", "kedudukan": "bawah_kanan"}],
+                    "garis_putus": [], "lebar_cm": 8, "tinggi_cm": 7},
+    "graf_laju_masa": {"titik": [[0, 0], [4, 12], [10, 12], [14, 0]], "tick_x": [4, 10, 14],
+                       "tick_y": [12], "label_x": "Masa (s)", "label_y": "Laju (m s⁻¹)",
+                       "lebar_cm": 10, "tinggi_cm": 6},
+    "graf_jarak_masa": {"titik": [[0, 0], [2, 60], [3, 60], [5, 0]], "tick_x": [2, 3, 5],
+                        "tick_y": [60], "label_x": "Masa (minit)", "label_y": "Jarak (km)",
+                        "lebar_cm": 10, "tinggi_cm": 6},
+    "graf_garis_lurus": {"julat_x": [-2, 6], "julat_y": [-3, 8],
+                         "garis": [{"persamaan": "2x + 1", "label": "*y* = 2*x* + 1"}],
+                         "grid": True, "lebar_cm": 8},
+    "kertas_graf": {"lebar_cm": 16, "tinggi_cm": 22, "kecil_mm": 2, "besar_cm": 1},
+    "satah_cartes": {"julat_x": [-6, 6], "julat_y": [-4, 6], "unit_cm": 0.75, "tick": 2,
+                     "poligon": [{"bucu": [[1, 1], [3, 1], [3, 4]], "label_bucu": ["A", "B", "C"],
+                                  "lorek": True}]},
+    "venn": {"set": [{"label": "P"}, {"label": "Q"}], "nilai": {"P": "5", "PQ": "2", "Q": "3",
+                                                                "luar": "4"},
+             "lorek": [], "lebar_cm": 8, "tinggi_cm": 5.5},
+    "graf_berpemberat": {"bucu": [{"nama": "P", "x": 0, "y": 0}, {"nama": "Q", "x": 4, "y": 2},
+                                  {"nama": "R", "x": 8, "y": 0}],
+                         "tepi": [{"dari": "P", "ke": "Q", "pemberat": "5"},
+                                  {"dari": "Q", "ke": "R", "pemberat": "7"}], "lebar_cm": 9},
+    "rajah_pokok": {"cabang": [{"label": "M", "kebarangkalian": "3/5",
+                                "cabang": [{"label": "M", "kosong": True},
+                                           {"label": "H", "kebarangkalian": "1/2"}]},
+                               {"label": "H", "kebarangkalian": "2/5",
+                                "cabang": [{"label": "M", "kebarangkalian": "3/4"},
+                                           {"label": "H", "kosong": True}]}]},
+    "plot_titik": {"nilai": [2, 3, 3, 4, 4, 4, 5], "julat": [0, 8], "label_x": ""},
+    "garis_nombor": {"julat": [-3, 5], "selang": []},
+    "plot_kotak": {"min": 12, "q1": 18, "median": 24, "q3": 30, "maks": 41, "julat": [10, 45],
+                   "tick": 5, "label_x": ""},
+}

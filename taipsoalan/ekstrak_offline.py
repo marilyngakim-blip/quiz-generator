@@ -33,7 +33,16 @@ hours minutes weighted network tree tables diagrams paper write your answers wor
 complete calculate whose where when then than form express simplest given shows find answer
 road roads towns town cities city spanning weight weights least travelled car cars moves move
 moving uniform rate period seconds second length width height volume angle angles circle
-radius diameter respectively if into such smallest largest""".split())
+radius diameter respectively if into such smallest largest her his she he they them you
+was were will would can could should must may so as or but no yes do does did done paid pay pays
+every month months year years annual policy insured insurance life face states allocation claim
+medical hospital cost costs treatment compensation company admitted covered under owner bought
+purchased buys buy sells sold price discount profit loss interest saving savings loan rate
+tax income expenses expenditure budget person people man woman boy girl friend friends school
+class teacher pupils marks calculated nearest decimal places significant figures correct
+represent graph scale vertical horizontal according based shown complete completes construct
+plot plots straight curve value values its own other another first second third last next
+following figure figures given answer""".split())
 MSA = set("""yang dan ialah di bagi nilai hitung cari nyatakan rajah jadual menunjukkan jawab
 semua soalan dalam bahagian ini itu pada dengan daripada kepada untuk tentukan lukis lengkapkan
 persamaan titik garis lurus graf kebarangkalian murid jarak masa laju koordinat imej penjelmaan
@@ -60,7 +69,7 @@ RE_MARKAH_ENG = re.compile(r"[\[(]\s*\d{1,2}\s*marks?\s*[\])]", re.I)
 RE_KAPSYEN = re.compile(r"^(Rajah|Jadual)\s*(\d{1,2}(\.\d)?)\s*$", re.I)
 RE_LABEL = re.compile(r"^\(\s*([a-hA-H]|i{1,3}|iv|vi{0,3}|ix|x)\s*\)\s*")
 RE_BAHAGIAN = re.compile(r"^Bahagian\s+([A-C])\b", re.I)
-RE_JAWAPAN = re.compile(r"^(Jawapan|Answer)\s*[:/;.]?\s*(/\s*Answer\s*:?)?\s*$", re.I)
+RE_JAWAPAN = re.compile(r"^(Jawapan|Answer)\s*(/\s*Answer)?\s*[:;.]?\s*$", re.I)
 
 
 @dataclass
@@ -72,6 +81,7 @@ class Baris:
     x1: float = 0
     yakin_rendah: int = 0
     teks: str = ""
+    condong: bool = False
 
     def kemas(self):
         self.perkataan.sort(key=lambda p: p.x0)
@@ -96,13 +106,18 @@ class Kawasan:
 
 # ---- 1. kawasan rajah ------------------------------------------------------------
 
-def kawasan_rajah(png: str, perkataan: list[Perkataan], dpi: int) -> list[Kawasan]:
+def kawasan_rajah(png: str, perkataan: list[Perkataan], dpi: int,
+                  zon: tuple[float, float] = (0.0, 1.0)) -> list[Kawasan]:
     im = np.asarray(Image.open(png).convert("L"))
     H, W = im.shape
     dakwat = im < 150
+    dakwat[:int(zon[0] * H)] = False   # pengepala
+    dakwat[int(zon[1] * H):] = False   # pengaki & tera air
     cm = dpi / 2.54
     # padam teks berkeyakinan tinggi (huruf); label kecil dalam graf tinggal sebagai dakwat lemah
     for p in perkataan:
+        if _sampah(p.teks):   # titik/bulatan rajah yang dibaca OCR sebagai "e", "@"
+            continue
         if p.yakin >= 30 and p.h < 0.8 * cm:
             dakwat[max(0, int(p.y0) - 2):int(p.y1) + 2, max(0, int(p.x0) - 2):int(p.x1) + 2] = False
     B = max(4, dpi // 25)  # sel ~1 mm
@@ -133,14 +148,22 @@ def kawasan_rajah(png: str, perkataan: list[Perkataan], dpi: int) -> list[Kawasa
             x0, x1 = (xs[0] + r) * B, (xs[1] - r + 1) * B
             y0, y1 = (ys[0] + r) * B, (ys[1] - r + 1) * B
             w, h = x1 - x0, y1 - y0
-            if w < 2.0 * cm or h < 1.2 * cm:
-                continue
+            kecil_tengah = (w >= 0.7 * cm and h >= 0.9 * cm and w < 5 * cm
+                            and abs((x0 + x1) / 2 - W / 2) < 0.2 * W)
+            if (w < 2.0 * cm or h < (0.6 * cm if w >= 5 * cm else 1.2 * cm)) and not kecil_tengah:
+                continue  # (rajah lebar & rendah dibenarkan: garis nombor)
             if w > 0.95 * W and h > 0.9 * H:  # bingkai halaman
+                continue
+            if w > 0.6 * W and h > 0.6 * H:   # kertas graf saiz penuh (dijana semula)
                 continue
             ketumpatan = dakwat[y0:y1, x0:x1].mean()
             if ketumpatan < 0.002:
                 continue
-            hasil.append(Kawasan(x0, y0, x1, y1))
+            k_ = Kawasan(x0, y0, x1, y1)
+            if kecil_tengah and (w < 2.0 * cm or h < 1.2 * cm):
+                k_.persamaan = True   # vektor/pecahan papar yang tidak dibaca OCR
+                k_.teks = ""
+            hasil.append(k_)
     # perkataan di dalam / bersebelahan kawasan = label rajah
     kapsyen_y = [(p.y0, p.y1) for p in perkataan
                  if re.fullmatch(r"(Rajah|Jadual|Diagram|Table)", p.teks, re.I)]
@@ -204,7 +227,13 @@ def _perkataan(teks):
     return re.findall(r"[A-Za-z][A-Za-z'-]+", teks.lower())
 
 
-def bahasa_inggeris(teks: str) -> bool:
+def bahasa_inggeris(teks: str, condong: bool = False) -> bool:
+    if condong:
+        w = _perkataan(teks)
+        m = sum(1 for x in w if x in MSA)
+        e = sum(1 for x in w if x in ENG)
+        if not (m >= 2 and m > e + 1):
+            return True
     if re.match(r"^\s*(Diagram|Table|Section|Answer|Question)s?\b", teks, re.I):
         return True
     if RE_MARKAH_ENG.fullmatch(teks.strip()):
@@ -214,7 +243,7 @@ def bahasa_inggeris(teks: str) -> bool:
     m = sum(1 for x in w if x in MSA)
     if e >= 2 and e > m:
         return True
-    return e >= 1 and m == 0 and len(w) <= 3 and len(w) > 0
+    return e >= 2 and m == 0 and len(w) <= 3
 
 
 def baiki_ocr(t: str) -> str:
@@ -226,6 +255,7 @@ def baiki_ocr(t: str) -> str:
     t = re.sub(r"\b([a-z])([23])(?=\s*[−+=<>)]|\s*$|[.,;])",
                lambda m: m.group(1) + {"2": "²", "3": "³"}[m.group(2)], t)   # x3 → x³
     t = t.replace("§", "ξ")
+    t = re.sub(r"(?<=\d)[Oo](?=\d)", "0", t)
     t = re.sub(r"(?<=[A-Z′')])\s*[nN]\s*(?=[A-Z(])", " ∩ ", t)   # PnQ → P ∩ Q
     t = re.sub(r"(?<=[A-Z′')])\s*U\s*(?=[A-Z(])", " ∪ ", t)   # P U Q → P ∪ Q
     t = re.sub(r"^[•°·«»*®©eo]\s+(?=\S)", "- ", t)           # titik senarai
@@ -262,6 +292,8 @@ class Penyusun:
         self.tinggi_baris = 30
         self.kapsyen_tertunda = ""
         self.inggeris_dibuang = 0
+        self.dalam_inggeris = False
+        self.persamaan_akhir = None
 
     def nod(self):
         return self.sub or self.ceraian or self.soalan
@@ -304,9 +336,11 @@ class Penyusun:
         # nombor halaman di tengah bawah
         if re.fullmatch(r"\d{1,2}", teks) and abs((b.x0 + b.x1) / 2 - kiri - 8.7 * cm) < 2 * cm:
             return
-        if bahasa_inggeris(teks):
+        if bahasa_inggeris(teks, getattr(b, "condong", False)):
             self.inggeris_dibuang += 1
+            self.dalam_inggeris = True
             return
+        self.dalam_inggeris = False
         teks = RE_MARKAH_ENG.sub("", teks).strip()
         self.tinggi_baris = 0.8 * self.tinggi_baris + 0.2 * max(10, b.y1 - b.y0)
         m = RE_BAHAGIAN.match(teks)
@@ -337,11 +371,18 @@ class Penyusun:
             self.kapsyen_tertunda = RE_KAPSYEN.match(teks).group(0).title()
             self._lekat_kapsyen()
             return
+        teks = re.sub(r"^\(\s*6\s*\)", "(b)", teks)   # OCR: (b) → (6)
+        # label ruang jawapan "(a) (i)", "(ii)" selepas "Jawapan:" — bukan ceraian baharu
+        if self.jawapan_dilihat and re.fullmatch(
+                r"(\s*\(\s*([a-hA-H]|i{1,3}|iv|vi{0,3}|ix|x)\s*\)\s*)+", teks):
+            return
         # nombor soalan di lajur kiri
         m = re.match(r"^(\d{1,2})\b\s*(.*)$", teks)
-        if m and b.x0 < kiri - 0.3 * cm:
+        baki_ok = m and (not m.group(2) or m.group(2)[0].isupper() or m.group(2)[0] == "(")
+        if m and baki_ok and b.x0 < kiri + 0.5 * cm:
             n = int(m.group(1))
-            if (self.no_akhir == 0 and n <= 3) or self.no_akhir < n <= self.no_akhir + 2:
+            if (self.no_akhir == 0 and n <= 3) or n == self.no_akhir + 1 or (
+                    n == self.no_akhir + 2 and b.x0 < kiri - 0.3 * cm):
                 self._pastikan_bahagian()
                 self.soalan = {"no": n, "teks": "", "halaman": [halaman], "rajah": [],
                                "jadual": [], "ceraian": []}
@@ -392,6 +433,10 @@ class Penyusun:
                 "lebar_cm": min(16.0, round((k.x1 - k.x0) / dpi * 2.54, 2)), "ambang": 175,
                 "dpi_asal": dpi}
         if getattr(k, "persamaan", False):
+            kunci = re.sub(r"\s+", "", getattr(k, "teks", ""))
+            if self.dalam_inggeris or (kunci and kunci == self.persamaan_akhir):
+                return  # persamaan versi Bahasa Inggeris / berganda
+            self.persamaan_akhir = kunci
             spec["catatan"] = "persamaan — boleh ditukar kepada {\"latex\": ...}"
             spec["ambang"] = 165
             nod.setdefault("rajah", []).append(spec)
@@ -481,14 +526,51 @@ def _persamaan_papar(baris, kaw, kiri, W, cm):
         k = Kawasan(int(min(b.x0 for b in g)) - m, int(min(b.y0 for b in g)) - m,
                     int(max(b.x1 for b in g)) + m, int(max(b.y1 for b in g)) + m)
         k.persamaan = True
+        k.teks = " ".join(b.teks for b in g)
         kaw.append(k)
     return simpan, kaw
+
+
+def skor_condong(dakwat: np.ndarray, b: "Baris") -> float:
+    """< ~0.88 = tulisan condong (italik). Bandingkan ketajaman profil lajur selepas
+    ricih ke kanan vs ke kiri: huruf condong menjadi tegak (tajam) pada satu arah sahaja."""
+    c = dakwat[int(b.y0):int(b.y1), int(b.x0):int(b.x1)]
+    h, w = c.shape
+    if h < 8 or w < 40 or c.sum() < 50:
+        return 1.0
+
+    def tajam(s):
+        pad = int(abs(s) * h) + 2
+        prof = np.zeros(w + 2 * pad)
+        for r in range(h):
+            off = pad + int(round(s * (h - 1 - r)))
+            prof[off:off + w] += c[r]
+        return float((prof ** 2).sum())
+    a = max(tajam(x) for x in (0.15, 0.2, 0.25))
+    b_ = max(tajam(-x) for x in (0.15, 0.2, 0.25))
+    return a / max(b_, 1e-9)
+
+
+AMBANG_CONDONG = 0.88
+ZON_ATAS, ZON_BAWAH = 0.065, 0.915   # pengepala / pengaki (pecahan tinggi halaman)
+
+
+def _sampah(t: str) -> bool:
+    """Baris hingar OCR daripada titik/bulatan rajah: "e", "ee @", "oe ee e ."."""
+    tok = t.split()
+    return bool(tok) and all(re.fullmatch(r"[eocEOC@.,°•·*©®'\"~-]{1,4}", x) for x in tok)
+
+
+def _kunci_ulang(t: str) -> str:
+    return re.sub(r"[\W\d_]+", "", t.lower())[:40]
 
 
 def ekstrak_offline(pdf: str, imej: list[str], dpi: int, log=print, paksa_ocr=False) -> dict:
     semua, kaedah = perkataan_halaman(pdf, imej, dpi, log=log, paksa_ocr=paksa_ocr)
     cm = dpi / 2.54
     p = Penyusun(log)
+    # ---- laluan 1: baris & kawasan setiap halaman
+    halaman = []
     for i, (png, pk) in enumerate(zip(imej, semua)):
         h = i + 1
         teks_hal = " ".join(x.teks for x in pk)
@@ -502,18 +584,44 @@ def ekstrak_offline(pdf: str, imej: list[str], dpi: int, log=print, paksa_ocr=Fa
             log(f"  halaman {h}: kosong — diabaikan")
             continue
         W, H = Image.open(png).size
-        kaw = kawasan_rajah(png, pk, dpi)
+        # buang pengepala, pengaki & tera air (zon atas/bawah halaman)
+        pk = [x for x in pk if ZON_ATAS * H < x.cy < ZON_BAWAH * H
+              and not re.search(r"TELEGRAM|WHATSAPP|@\w|https?:|www\.|t\.me", x.teks, re.I)]
+        kaw = kawasan_rajah(png, pk, dpi, zon=(ZON_ATAS, ZON_BAWAH))
         dalam = {id(x) for k in kaw for x in k.perkataan}
         baris = jadikan_baris([x for x in pk if id(x) not in dalam])
         kiri = _kiri_teks(baris, cm)
         if kaedah[i] == "ocr":
             # nombor soalan di lajur kiri: OCR kedua (digit sahaja)
             baru = [x for x in ocr_lajur_nombor(png, kiri - 1.8 * cm, kiri - 0.15 * cm)
-                    if not any(min(x.x1, q.x1) > max(x.x0, q.x0) and
-                               min(x.y1, q.y1) > max(x.y0, q.y0) for q in pk)]
+                    if ZON_ATAS * H < x.cy < ZON_BAWAH * H and
+                    not any(min(x.x1, q.x1) > max(x.x0, q.x0) and
+                            min(x.y1, q.y1) > max(x.y0, q.y0) for q in pk)]
             if baru:
                 pk = pk + baru
                 baris = jadikan_baris([x for x in pk if id(x) not in dalam])
+        dakwat = (np.asarray(Image.open(png).convert("L")) < 140).astype(np.float32)
+        for b in baris:
+            # hanya baris ayat (≥ 2 perkataan ≥ 3 huruf); baris simbol/persamaan tidak diuji
+            b.condong = len(re.findall(r"[A-Za-z]{3,}", b.teks)) >= 2 and \
+                skor_condong(dakwat, b) < AMBANG_CONDONG
+            b.zon_tepi = b.y0 < 0.15 * H or b.y1 > 0.85 * H
+        halaman.append((h, png, baris, kaw, kiri, W, H, kaedah[i]))
+    # ---- teks yang berulang pada banyak halaman (pengepala/pengaki seperti "MRSM 2026 K2")
+    kiraan = {}
+    for h, _, baris, *_ in halaman:
+        for kk in {_kunci_ulang(b.teks) for b in baris
+                   if getattr(b, "zon_tepi", False) and len(_kunci_ulang(b.teks)) >= 4}:
+            kiraan[kk] = kiraan.get(kk, 0) + 1
+    had = max(3, int(0.3 * len(halaman)))
+    ulang = {kk for kk, n in kiraan.items() if n >= had
+             and not re.match(r"(jawapan|answer|jawab|markah|marks|rajah|jadual|diagram|table|"
+                              r"bahagian|section)", kk)}
+    # ---- laluan 2: struktur
+    for h, png, baris, kaw, kiri, W, H, kae in halaman:
+        baris = [b for b in baris if not (getattr(b, "zon_tepi", False)
+                                          and _kunci_ulang(b.teks) in ulang)
+                 and not _sampah(b.teks)]
         _kemas_kawasan(kaw, baris, cm, W, H)
         baris, kaw = _persamaan_papar(baris, kaw, kiri, W, cm)
         item = [(b.y0, 0, b) for b in baris] + [(k.y0, 1, k) for k in kaw]
@@ -522,7 +630,7 @@ def ekstrak_offline(pdf: str, imej: list[str], dpi: int, log=print, paksa_ocr=Fa
                 p.proses_baris(obj, h, kiri, cm)
             else:
                 p.proses_kawasan(obj, h, W, H, dpi)
-        log(f"  halaman {h}: {len(baris)} baris, {len(kaw)} rajah ({kaedah[i]})")
+        log(f"  halaman {h}: {len(baris)} baris, {len(kaw)} rajah ({kae})")
     data, amaran = normalkan(p.siap())
     for a in amaran:
         log(f"  amaran: {a}")

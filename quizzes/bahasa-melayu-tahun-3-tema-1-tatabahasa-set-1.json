@@ -1,0 +1,210 @@
+{
+  "id": "bahasa-melayu-tahun-3-tema-1-tatabahasa-set-1",
+  "title": "Bahasa Melayu Tahun 3 (Tema 1 Tatabahasa Set 1)",
+  "createdAt": "2026-11-24T01:35:36.078Z",
+  "questions": [
+    {
+      "q": "Perkataan manakah ialah kata nama am?",
+      "options": [
+        "Sang Kancil",
+        "kucing",
+        "Restoran Enak",
+        "Encik Ridzuan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kata nama khas ialah kata nama yang merujuk orang, haiwan, tempat atau benda yang ______.",
+      "options": [
+        "khusus",
+        "umum",
+        "kecil",
+        "banyak"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah kata nama khas?",
+      "options": [
+        "haiwan",
+        "klinik",
+        "Klinik Haiwan Mulia",
+        "doktor"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Perkataan manakah ialah kata ganti nama diri?",
+      "options": [
+        "taman",
+        "Varuni",
+        "kami",
+        "sekolah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pilih penjodoh bilangan yang betul. Ayah membeli dua ______ kereta.",
+      "options": [
+        "ekor",
+        "helai",
+        "buah",
+        "batang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pilih penjodoh bilangan yang betul. Ayah membela beberapa ______ ikan di dalam kolam.",
+      "options": [
+        "buah",
+        "biji",
+        "ekor",
+        "orang"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah penjodoh bilangan yang sesuai untuk surat khabar?",
+      "options": [
+        "pasang",
+        "ekor",
+        "kaki",
+        "naskhah"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Lengkapkan ayat dengan kata ganti nama diri yang betul. Saya ke padang bola dengan abang. ______ mahu bermain bola.",
+      "options": [
+        "Beliau",
+        "Mereka",
+        "Kami",
+        "Kamu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan jadual di bawah, apakah penjodoh bilangan bagi X?",
+      "options": [
+        "kaki",
+        "ekor",
+        "helai",
+        "biji"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tahun-3-tema-1/S1_Q9.png"
+    },
+    {
+      "q": "Ayat manakah menggunakan penjodoh bilangan dengan betul?",
+      "options": [
+        "Ibu membeli seekor buku cerita.",
+        "Adik memakai sebiji baju baharu.",
+        "Datuk memakai sehelai cermin mata.",
+        "Kakak menghidangkan beberapa potong buah betik."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah kata nama khas dalam ayat ini? Doktor Maria bertugas di sebuah klinik di Kuala Lumpur.",
+      "options": [
+        "Doktor Maria dan Kuala Lumpur",
+        "Doktor Maria dan klinik",
+        "klinik dan Kuala Lumpur",
+        "bertugas dan klinik"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jadual di bawah menunjukkan jenis kata nama. Perkataan manakah diletakkan di tempat yang SALAH?",
+      "options": [
+        "tayar",
+        "Pusat Sains Negara",
+        "Sang Kancil",
+        "mereka"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tahun-3-tema-1/S1_Q12.png"
+    },
+    {
+      "q": "Varuni bertanya kepada Ming Jun: Ming Jun, adakah ______ seronok melihat objek sains di sini? Pilih kata ganti nama diri yang betul.",
+      "options": [
+        "beliau",
+        "kami",
+        "saya",
+        "kamu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah kata nama am? I. padang II. ujian III. Encik Ridzuan IV. abang",
+      "options": [
+        "III dan IV",
+        "I, II dan IV",
+        "I dan III",
+        "II dan III"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Varuni dan Ming Jun melawat bahagian pameran sains. Apakah kata ganti nama diri yang boleh menggantikan \"Varuni dan Ming Jun\"?",
+      "options": [
+        "Beliau",
+        "Kami",
+        "Kita",
+        "Mereka"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Baca petikan. Datuk duduk di atas se(1) kerusi. Yen Ni menghulurkan se(2) cermin mata kepada datuk. Ibu memberikan se(3) payung kepada ayah. Pilih penjodoh bilangan yang betul bagi (1), (2) dan (3).",
+      "options": [
+        "(1) buah, (2) pasang, (3) kaki",
+        "(1) buah, (2) kaki, (3) pasang",
+        "(1) kaki, (2) pasang, (3) buah",
+        "(1) pasang, (2) buah, (3) kaki"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan perbualan di bawah, apakah kata ganti nama diri yang betul bagi P dan Q?",
+      "options": [
+        "P: mereka, Q: Dia",
+        "P: beliau, Q: Kami",
+        "P: saya, Q: Kamu",
+        "P: kamu, Q: Saya"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tahun-3-tema-1/S1_Q17.png"
+    },
+    {
+      "q": "Ayat manakah menulis kata nama khas dengan betul?",
+      "options": [
+        "Hanif pulang ke kampung datuknya di Kuala Kangsar.",
+        "hanif pulang ke Kampung datuknya di Kuala Kangsar.",
+        "Hanif pulang ke Kampung Datuknya di kuala Kangsar.",
+        "Hanif pulang ke kampung datuknya di kuala kangsar."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ayat manakah mengandungi kata nama khas DAN penjodoh bilangan?",
+      "options": [
+        "Doktor Maria memeriksa kucing itu.",
+        "Anis membawa seekor kucing ke klinik.",
+        "Mereka menanam bunga di taman.",
+        "Ibu membeli sebuah kereta baharu."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah bilangan kata nama am dalam ayat ini? Ayah dan adik memberi ikan makanan di kolam.",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "marks": 1
+    }
+  ]
+}

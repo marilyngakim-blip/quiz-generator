@@ -1,0 +1,101 @@
+{
+  "id": "kangaroo-benjamin-2023-set-3",
+  "title": "Kangaroo Benjamin 2023 Set 3",
+  "createdAt": "2026-11-25T14:28:14.410Z",
+  "questions": [
+    {
+      "q": "The figure shows five rectangles. Lukas wants to colour them red, blue and yellow so that any two adjacent rectangles have different colours. In how many different ways can he do this? / Rajah menunjukkan lima segi empat tepat. Lukas ingin mewarnakannya dengan warna merah, biru dan kuning supaya mana-mana dua segi empat tepat yang bersentuhan berlainan warna. Berapakah bilangan cara mewarna yang berbeza?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q17.png"
+    },
+    {
+      "q": "If you count all possible triangles and all possible squares in the figure, how many more triangles than squares are there? / Jika anda mengira semua segi tiga dan semua segi empat sama yang mungkin dalam rajah, berapakah lebihnya bilangan segi tiga berbanding segi empat sama?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q18.png"
+    },
+    {
+      "q": "The triangle and the square have the same perimeter. What is the perimeter of the whole figure? / Segi tiga dan segi empat sama itu mempunyai perimeter yang sama. Berapakah perimeter seluruh rajah?",
+      "options": [
+        "12 cm",
+        "24 cm",
+        "28 cm",
+        "32 cm",
+        "36 cm"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q19.png"
+    },
+    {
+      "q": "The natural numbers are coloured red, blue or green: 1 is red, 2 is blue, 3 is green, 4 is red, 5 is blue, 6 is green, and so on. What colour can the sum of a red number and a blue number be? / Nombor asli diwarnakan merah, biru atau hijau: 1 merah, 2 biru, 3 hijau, 4 merah, 5 biru, 6 hijau, dan seterusnya. Apakah warna yang mungkin bagi hasil tambah satu nombor merah dan satu nombor biru?",
+      "options": [
+        "Impossible to decide / Mustahil ditentukan",
+        "Red or blue / Merah atau biru",
+        "Only green / Hijau sahaja",
+        "Only red / Merah sahaja",
+        "Only blue / Biru sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kangaroo thinks of an integer and places it in box B. It then follows one of the paths shown by the arrows and performs the operations. Can Kangaroo obtain 2009 when it arrives at box F? / Kanggaru memikirkan satu integer dan meletakkannya dalam kotak B. Kemudian ia mengikuti salah satu laluan anak panah dan melakukan operasi yang ditunjukkan. Bolehkah Kanggaru memperoleh 2009 apabila tiba di kotak F?",
+      "options": [
+        "Yes, three possible paths / Ya, tiga laluan yang mungkin",
+        "Yes, two possible paths starting with the same number / Ya, dua laluan yang bermula dengan nombor yang sama",
+        "Yes, two possible paths starting with different numbers / Ya, dua laluan yang bermula dengan nombor berbeza",
+        "Yes, only one possible path / Ya, satu laluan sahaja",
+        "No, it is not possible / Tidak, tiada laluan yang mungkin"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q21.png"
+    },
+    {
+      "q": "The figure shows three identical dice stacked on top of each other. On each die, the pips on every pair of opposite faces add up to 7. The stack was made so that the pips on every pair of faces that meet add up to 5. How many pips are on the face marked X? / Rajah menunjukkan tiga dadu yang serupa disusun bertindih. Bagi setiap dadu, jumlah titik pada setiap pasangan permukaan bertentangan ialah 7. Dadu disusun supaya jumlah titik pada setiap pasangan permukaan yang bersentuhan ialah 5. Berapakah bilangan titik pada permukaan bertanda X?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q22.png"
+    },
+    {
+      "q": "Ann calculated the sum of the greatest and the least two-digit multiples of three. Bob calculated the sum of the greatest and the least two-digit numbers that are not multiples of three. How much greater is Ann's number than Bob's? / Ann mengira hasil tambah nombor dua digit terbesar dan terkecil yang merupakan gandaan tiga. Bob mengira hasil tambah nombor dua digit terbesar dan terkecil yang bukan gandaan tiga. Berapakah lebihnya nombor Ann berbanding nombor Bob?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Four poles are placed along a 120 m track, as shown. What is the smallest number of poles that must be added so that the track is divided into sections of equal length? / Empat tiang diletakkan di sepanjang trek 120 m, seperti yang ditunjukkan. Berapakah bilangan tiang paling sedikit yang perlu ditambah supaya trek terbahagi kepada bahagian yang sama panjang?",
+      "options": [
+        "12",
+        "15",
+        "17",
+        "20",
+        "37"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q24.png"
+    }
+  ]
+}

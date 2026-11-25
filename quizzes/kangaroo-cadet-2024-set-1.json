@@ -1,0 +1,100 @@
+{
+  "id": "kangaroo-cadet-2024-set-1",
+  "title": "Kangaroo Cadet 2024 Set 1",
+  "createdAt": "2026-11-25T14:22:06.052Z",
+  "questions": [
+    {
+      "q": "Which of the following strings cannot be transformed into the string shown (top) without cutting? / Tali manakah antara yang berikut tidak boleh diubah menjadi tali yang ditunjukkan (atas) tanpa dipotong?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q01.png"
+    },
+    {
+      "q": "A shape is made of equal-sized pentagonal tiles. Which of the following tiles can be placed in the empty space to produce two closed curves? / Bentuk berikut terdiri daripada jubin-jubin pentagon yang sama saiz. Jubin manakah boleh diletakkan pada ruang kosong untuk menghasilkan dua lengkung yang tertutup?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q02.png"
+    },
+    {
+      "q": "The first diagram shows a rhombus. Its area is increased by adding two right-angled triangles, as shown. By what percentage has the area increased? / Rajah pertama menunjukkan suatu rombus. Luasnya dinaikkan dengan menambahkan dua segi tiga bersudut tegak, seperti yang ditunjukkan. Berapa peratuskah kenaikan bagi luas tersebut?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q03.png"
+    },
+    {
+      "q": "What is the value of (20 × 24) ÷ (2 × 0 + 2 × 4)? / Apakah nilai bagi (20 × 24) ÷ (2 × 0 + 2 × 4)?",
+      "options": [
+        "12",
+        "30",
+        "48",
+        "60",
+        "120"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Julio cuts off the four corners of a regular tetrahedron, as shown. How many corners does the shape that remains have? / Julio memotong empat bucu pada suatu tetrahedron sekata, seperti yang ditunjukkan. Berapakah bilangan bucu pada bentuk yang tinggal?",
+      "options": [
+        "8",
+        "9",
+        "11",
+        "12",
+        "15"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q05.png"
+    },
+    {
+      "q": "Ria has three counters marked 1, 5 and 11. She wants to place them side by side to make a four-digit number. How many different four-digit numbers can she make? / Ria mempunyai tiga pembilang bertulis 1, 5 dan 11. Dia ingin meletakkannya secara bersebelahan untuk membentuk suatu nombor empat digit. Berapakah bilangan nombor empat digit berlainan yang boleh dibentuk?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are five different kinds of fruit in a bowl: apple, grapes, cherry, strawberry and banana. The favourite fruits of each person are shown in the table. Everyone gets a fruit that they like, and everyone gets a different kind of fruit. Who gets the cherry? / Terdapat lima jenis buah berbeza di dalam mangkuk: epal, anggur, ceri, strawberi dan pisang. Buah kesukaan setiap orang ditunjukkan dalam jadual. Setiap orang mendapat sebiji buah yang mereka sukai dan jenis buah yang berbeza. Siapakah yang mendapat ceri?",
+      "options": [
+        "Ann",
+        "Ben",
+        "Cam",
+        "Dan",
+        "Eli"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q07.png"
+    },
+    {
+      "q": "An elevator notice says that it can carry either 12 adults or 20 children. According to this weight restriction, what is the largest number of children that can ride in the elevator with nine adults? / Notis had muatan suatu lif menyatakan bahawa lif boleh membawa sama ada 12 orang dewasa atau 20 orang kanak-kanak. Berdasarkan had muatan itu, berapakah bilangan terbesar kanak-kanak yang boleh menaiki lif bersama sembilan orang dewasa?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "marks": 1
+    }
+  ]
+}

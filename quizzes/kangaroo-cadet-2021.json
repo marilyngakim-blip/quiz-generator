@@ -1,0 +1,286 @@
+{
+  "id": "kangaroo-cadet-2021",
+  "title": "Kangaroo Cadet 2021",
+  "createdAt": "2026-11-25T03:29:49.473Z",
+  "questions": [
+    {
+      "q": "Which of the following symbols for signs of the Zodiac has an axis of symmetry? (A) Sagittarius (B) Scorpio (C) Leo (D) Cancer (E) Capricorn / Antara simbol Zodiak berikut, yang manakah mempunyai paksi simetri?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q01.png"
+    },
+    {
+      "q": "The figure shows three concentric circles with four lines passing through their common centre. What percentage of the figure is shaded? / Rajah menunjukkan tiga bulatan sepusat dengan empat garisan yang melalui pusat sepunya kesemua bulatan. Apakah peratus rajah yang berlorek?",
+      "options": [
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q02.png"
+    },
+    {
+      "q": "What is the value of (20 × 21) ÷ (2 + 0 + 2 + 1)? / Berapakah nilai (20 × 21) ÷ (2 + 0 + 2 + 1)?",
+      "options": [
+        "42",
+        "64",
+        "80",
+        "84",
+        "105"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "How many four-digit numbers have the property that their digits, from left to right, are consecutive and in ascending order? / Berapakah bilangan nombor empat digit yang digitnya berturutan dan menaik dari kiri ke kanan?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "When the five pieces shown are fitted together correctly, the result is a rectangle with a calculation written on it. What is the answer to this calculation? / Jika lima kepingan yang ditunjukkan dicantum dengan betul, hasilnya ialah satu segi empat tepat dengan satu pengiraan tertulis di atasnya. Apakah hasil pengiraan ini?",
+      "options": [
+        "−100",
+        "−8",
+        "−1",
+        "199",
+        "208"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q05.png"
+    },
+    {
+      "q": "Each of the five vases shown has the same height and each has a volume of 1 litre. Half a litre of water is poured into each vase. In which vase would the level of the water be the highest? / Setiap daripada lima pasu yang ditunjukkan sama tinggi dan mempunyai isi padu 1 liter. Setengah liter air dituang ke dalam setiap pasu. Pasu manakah yang mempunyai paras air tertinggi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q06.png"
+    },
+    {
+      "q": "A student correctly added the two two-digit numbers on the left of the board (AB + CD) and got the answer 137. What answer will he get if he adds the two four-digit numbers on the right of the board (ADCB + CBAD)? / Seorang murid menambah dua nombor dua digit di sebelah kiri papan (AB + CD) dengan betul dan mendapat jawapan 137. Apakah jawapan yang akan diperolehnya jika dia menambah dua nombor empat digit di sebelah kanan papan (ADCB + CBAD)?",
+      "options": [
+        "13737",
+        "13837",
+        "14747",
+        "23737",
+        "137137"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q07.png"
+    },
+    {
+      "q": "A 3 × 3 × 3 cube is made from white, grey and black 1 × 1 × 1 cubes, as shown in the first diagram. The other two diagrams show the white part and the black part of the cube. Which of the following diagrams shows the grey part? / Sebuah kubus 3 × 3 × 3 dihasilkan daripada kubus 1 × 1 × 1 berwarna putih, kelabu dan hitam seperti dalam rajah pertama. Dua rajah lain menunjukkan bahagian putih dan bahagian hitam kubus itu. Rajah manakah yang menunjukkan bahagian berwarna kelabu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q08.png"
+    },
+    {
+      "q": "A bike lock has four wheels numbered with the digits 0 to 9 in order. Each of the four wheels is rotated by 180° from the code shown in the first diagram to get the correct code. What is the correct code for the bike lock? / Sebuah kunci basikal mempunyai empat roda yang dinomborkan 0 hingga 9 mengikut turutan. Setiap roda diputar sebanyak 180° daripada kod dalam rajah pertama untuk mendapat kod yang betul. Apakah kod yang betul?",
+      "options": [
+        "0 8 1 5",
+        "1 8 9 3",
+        "1 9 7 2",
+        "4 8 9 2",
+        "8 4 3 6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q09.png"
+    },
+    {
+      "q": "Byron is 5 cm taller than Aaron, but 10 cm shorter than Caron. Darren is 10 cm taller than Caron, but 5 cm shorter than Erin. Which of the following statements is true? / Byron 5 cm lebih tinggi daripada Aaron, tetapi 10 cm lebih rendah daripada Caron. Darren 10 cm lebih tinggi daripada Caron, tetapi 5 cm lebih rendah daripada Erin. Antara berikut, kenyataan manakah benar?",
+      "options": [
+        "Aaron and Erin are equal heights / Aaron dan Erin sama tinggi",
+        "Aaron is 10 cm taller than Erin / Aaron 10 cm lebih tinggi daripada Erin",
+        "Aaron is 10 cm shorter than Erin / Aaron 10 cm lebih rendah daripada Erin",
+        "Aaron is 30 cm taller than Erin / Aaron 30 cm lebih tinggi daripada Erin",
+        "Aaron is 30 cm shorter than Erin / Aaron 30 cm lebih rendah daripada Erin"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A rectangular chocolate bar is made of equal squares. Neil breaks off two complete strips of squares and eats the 12 squares he obtains. Later, Jack breaks off one complete strip of squares from the same bar and eats the 9 squares he obtains. How many squares of chocolate are left in the bar? / Sekeping coklat segi empat tepat terdiri daripada segi empat sama yang sama saiz. Neil mematahkan dua jalur lengkap dan makan 12 segi empat sama yang diperoleh. Kemudian Jack mematahkan satu jalur lengkap daripada coklat yang sama dan makan 9 segi empat sama. Berapakah segi empat sama yang tinggal?",
+      "options": [
+        "72",
+        "63",
+        "54",
+        "45",
+        "36"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A jar one fifth filled with water weighs 560 g. The same jar four fifths filled with water weighs 740 g. What is the weight of the empty jar? / Berat sebuah balang yang berisi satu per lima air ialah 560 g. Balang yang sama berisi empat per lima air beratnya 740 g. Apakah berat balang yang kosong?",
+      "options": [
+        "60 g",
+        "112 g",
+        "180 g",
+        "300 g",
+        "500 g"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The area of the large square is 16 cm² and the area of each small square is 1 cm². What is the total area of the flower (shaded)? / Luas segi empat sama besar ialah 16 cm² dan luas setiap segi empat sama kecil ialah 1 cm². Apakah jumlah luas bunga (berlorek)?",
+      "options": [
+        "3 cm²",
+        "7/2 cm²",
+        "4 cm²",
+        "11/2 cm²",
+        "6 cm²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q13.png"
+    },
+    {
+      "q": "Costa is building a new fence in his garden. He uses 25 planks of wood, each of which is 30 cm long. He arranges these planks so that there is the same slight overlap between any two adjacent planks. The total length of the fence is 6.9 metres. What is the length in centimetres of the overlap between any pair of adjacent planks? / Costa membina pagar baru di tamannya. Dia menggunakan 25 papan kayu yang setiap satunya 30 cm panjang. Dia menyusun papan supaya terdapat pertindihan yang sama antara setiap pasangan papan bersebelahan. Jumlah panjang pagar ialah 6.9 meter. Berapakah panjang pertindihan (cm) antara dua papan bersebelahan?",
+      "options": [
+        "2.4",
+        "2.5",
+        "3",
+        "4.8",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q14.png"
+    },
+    {
+      "q": "Five identical right-angled triangles can be arranged so that their larger acute angles touch to form the star shown. It is also possible to form a different star by arranging more of these triangles so that their smaller acute angles touch. How many triangles are needed to form the second star? / Lima segi tiga bersudut tegak yang sama boleh disusun supaya sudut tirus mereka yang lebih besar bersentuhan untuk membentuk bintang seperti dalam rajah. Bintang lain juga boleh dibentuk dengan menyusun lebih banyak segi tiga supaya sudut tirus yang lebih kecil bersentuhan. Berapakah segi tiga yang diperlukan untuk bintang kedua?",
+      "options": [
+        "10",
+        "12",
+        "18",
+        "20",
+        "24"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q15.png"
+    },
+    {
+      "q": "Five squares are positioned as shown. The smallest square indicated has area 1. What is the value of h? / Lima segi empat sama diletakkan seperti dalam rajah. Segi empat sama paling kecil yang ditanda mempunyai luas 1. Apakah nilai h?",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "4.2",
+        "4.5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q16.png"
+    },
+    {
+      "q": "There are 20 questions in a quiz. Each correct answer scores 7 points, each wrong answer scores −4 points, and each question left blank scores 0 points. Eric took the quiz and scored 100 points. How many questions did he leave blank? / Terdapat 20 soalan dalam satu kuiz. Setiap jawapan betul diberi 7 mata, setiap jawapan salah diberi −4 mata, dan setiap soalan kosong diberi 0 mata. Eric mendapat 100 mata. Berapakah soalan yang dibiarkan kosong?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A rectangular strip of paper of dimensions 4 × 13 is folded as shown in the diagram. Two rectangles are formed with areas P and Q where P = 2Q. What is the value of x? / Sehelai jalur kertas berukuran 4 × 13 dilipat seperti dalam rajah. Dua segi empat tepat terbentuk dengan luas P dan Q di mana P = 2Q. Apakah nilai x?",
+      "options": [
+        "5",
+        "5.5",
+        "6",
+        "6.5",
+        "4√2"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q18.png"
+    },
+    {
+      "q": "In a particular fraction the numerator and denominator are both positive. The numerator of this fraction is increased by 40%. By what percentage should its denominator be decreased so that the new fraction is double the original fraction? / Pembilang dan penyebut suatu pecahan adalah positif. Pembilang pecahan ini ditingkatkan sebanyak 40%. Berapa peratus penyebut perlu dikurangkan supaya pecahan baru dua kali ganda pecahan asal?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The 6-digit number 2ABCDE is multiplied by 3 and the result is the 6-digit number ABCDE2. What is the sum of the digits of this number? / Nombor 6 digit 2ABCDE didarab dengan 3 dan hasilnya ialah nombor 6 digit ABCDE2. Apakah hasil tambah digit-digit nombor ini?",
+      "options": [
+        "24",
+        "27",
+        "30",
+        "33",
+        "36"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A soccer ball is made of white hexagons and black pentagons, as seen in the picture. There are a total of 12 pentagons. How many hexagons are there? / Sebiji bola sepak dibuat daripada heksagon putih dan pentagon hitam seperti dalam gambar. Terdapat 12 pentagon kesemuanya. Berapakah bilangan heksagon?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q21.png"
+    },
+    {
+      "q": "A 3 × 4 × 5 cuboid consists of 60 identical small cubes. A termite eats its way along the diagonal from P to Q. This diagonal does not intersect the edges of any small cube inside the cuboid. How many of the small cubes does it pass through on its journey? / Sebuah kuboid 3 × 4 × 5 terdiri daripada 60 kubus kecil yang sama. Seekor anai-anai memakan kuboid itu sepanjang pepenjuru dari P ke Q. Pepenjuru ini tidak menyilang mana-mana sisi kubus kecil di dalam kuboid. Berapakah kubus kecil yang dilaluinya?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q22.png"
+    },
+    {
+      "q": "In a town there are 21 knights who always tell the truth and 2000 knaves who always lie. A wizard divided 2020 of these 2021 people into 1010 pairs. Every person in a pair described the other person as either a knight or a knave. As a result, 2000 people were called knights and 20 people were called knaves. How many pairs of knaves were there? / Di sebuah bandar terdapat 21 satria yang sentiasa jujur dan 2000 pembohong. Seorang ahli sihir membahagikan 2020 daripada 2021 orang ini kepada 1010 pasangan. Setiap orang dalam pasangan menyebut orang yang lain sebagai satria atau pembohong. Akibatnya, 2000 orang dipanggil satria dan 20 orang dipanggil pembohong. Berapakah pasangan pembohong yang ada?",
+      "options": [
+        "980",
+        "985",
+        "990",
+        "995",
+        "1000"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The diagram shows a quadrilateral divided into four smaller quadrilaterals with a common vertex K. The other labelled points divide the sides of the large quadrilateral into three equal parts. The numbers indicate the areas of the corresponding small quadrilaterals. What is the area of the shaded quadrilateral? / Rajah menunjukkan segi empat yang dibahagikan kepada empat segi empat kecil dengan satu bucu sepunya K. Titik-titik lain yang dilabel membahagikan sisi segi empat besar kepada tiga bahagian yang sama panjang. Nombor-nombor menunjukkan luas setiap segi empat kecil. Apakah luas segi empat yang berlorek?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "6.5",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q24.png"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "kangaroo-cadet-2020-set-1",
+  "title": "Kangaroo Cadet 2020 Set 1",
+  "createdAt": "2026-11-25T14:16:30.941Z",
+  "questions": [
+    {
+      "q": "How many of the four numbers 2, 20, 202, 2020 are prime? / Berapakah bilangan nombor perdana antara empat nombor berikut: 2, 20, 202, 2020?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which marked angle is the largest in these regular polygons? / Sudut bertanda manakah yang paling besar dalam poligon sekata di bawah?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q02.png"
+    },
+    {
+      "q": "Miguel solves six math problems every day and Lázaro solves four math problems every day. How many days does it take for Lázaro to solve the same number of problems that Miguel solves in four days? / Miguel menyelesaikan enam masalah matematik setiap hari dan Lázaro menyelesaikan empat masalah matematik setiap hari. Berapakah bilangan hari yang diperlukan oleh Lázaro untuk menyelesaikan bilangan masalah yang sama dengan Miguel dalam empat hari?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of these fractions has the largest value? / Antara berikut, pecahan yang manakah mempunyai nilai terbesar?",
+      "options": [
+        "(8 + 5)/3",
+        "8/(3 + 5)",
+        "(3 + 5)/8",
+        "(8 + 3)/5",
+        "3/(8 + 5)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are 4 teams in a soccer tournament. Each team plays every other team exactly once. In each match, the winner scores 3 points and the loser scores 0 points. In the case of a draw, both teams score 1 point. After all matches have been played, which of the following total number of points is impossible for a team to achieve? / Terdapat 4 pasukan dalam suatu kejohanan bola sepak. Setiap pasukan bertemu setiap pasukan lain sekali sahaja. Pemenang mendapat 3 mata dan yang kalah 0 mata. Jika seri, kedua-dua pasukan mendapat 1 mata. Selepas semua perlawanan, jumlah mata manakah yang mustahil dicapai oleh mana-mana pasukan?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A large square is divided into smaller squares. What fraction of the large square is shaded? / Suatu segi empat sama besar dibahagikan kepada beberapa segi empat sama yang lebih kecil. Apakah pecahan segi empat sama besar yang berlorek?",
+      "options": [
+        "⅘",
+        "⅜",
+        "4/9",
+        "⅓",
+        "½"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q06.png"
+    },
+    {
+      "q": "The diagram shows a shape made up of 36 identical triangles. What is the least number of such triangles that could be added to turn the shape into a hexagon? / Rajah menunjukkan bentuk yang terdiri daripada 36 segi tiga yang kongruen. Apakah bilangan segi tiga paling sedikit yang perlu ditambah untuk mengubah bentuk itu menjadi heksagon?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18",
+        "24"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q07.png"
+    },
+    {
+      "q": "Kanga wants to multiply three different numbers from the following list: −5, −3, −1, 2, 4, and 6. What is the smallest result she could obtain? / Kanga ingin mendarabkan tiga nombor berbeza daripada senarai berikut: −5, −3, −1, 2, 4 dan 6. Apakah hasil darab terkecil yang mungkin diperoleh?",
+      "options": [
+        "−200",
+        "−120",
+        "−90",
+        "−48",
+        "−15"
+      ],
+      "marks": 1
+    }
+  ]
+}

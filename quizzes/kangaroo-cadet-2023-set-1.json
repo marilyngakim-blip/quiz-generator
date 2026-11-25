@@ -1,0 +1,102 @@
+{
+  "id": "kangaroo-cadet-2023-set-1",
+  "title": "Kangaroo Cadet 2023 Set 1",
+  "createdAt": "2026-11-25T14:20:49.206Z",
+  "questions": [
+    {
+      "q": "The figure shows a set of horizontal and vertical lines with one part removed. Which is the missing part? / Rajah berikut menunjukkan satu set garis melintang dan menegak dengan satu bahagian yang hilang. Yang manakah bahagian yang hilang tersebut?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q01.png"
+    },
+    {
+      "q": "Werner wants to write a number on each vertex and on each edge of the rhombus shown. He wants the sum of the numbers on the two vertices at the ends of each edge to equal the number on that edge. What number should replace the question mark? / Werner ingin menulis satu nombor pada setiap bucu dan pada setiap sisi rombus yang ditunjukkan. Dia mahukan supaya hasil tambah nombor pada dua bucu di hujung setiap sisi adalah sama dengan nombor pada sisi tersebut. Apakah nombor yang patut menggantikan tanda soal?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q02.png"
+    },
+    {
+      "q": "The figure shows the initial position, the direction of travel and how far four toy cars move in five seconds. Which two cars will collide? / Rajah berikut menunjukkan kedudukan awal, arah perjalanan dan sejauh mana empat buah kereta mainan bergerak dalam masa lima saat. Dua kereta yang manakah akan berlanggar?",
+      "options": [
+        "A & B",
+        "A & C",
+        "A & D",
+        "B & C",
+        "C & D"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q03.png"
+    },
+    {
+      "q": "A palindromic number is a number that reads the same forward and backward, such as 13931. What is the difference between the smallest 5-digit palindromic number and the largest 6-digit palindromic number? / Nombor palindromik ialah nombor yang kekal sama apabila dibaca dari kanan, contohnya 13931. Apakah beza antara nombor palindromik 5 digit yang terkecil dengan nombor palindromik 6 digit yang terbesar?",
+      "options": [
+        "989989",
+        "989998",
+        "998998",
+        "999898",
+        "999988"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which one could be the net of the cube with two holes, as shown? / Bentangan yang manakah mungkin menghasilkan kubus dengan dua lubang, seperti yang ditunjukkan?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q05.png"
+    },
+    {
+      "q": "How many pieces of string are there in the figure? / Berapakah bilangan tali yang terdapat dalam rajah berikut?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q06.png"
+    },
+    {
+      "q": "There are seven bars in the box, each with size 3 cm × 1 cm. The box is of size 5 cm × 5 cm. At least how many bars must be slid so there will be room for one more bar? / Terdapat tujuh bar di dalam kotak berikut, setiap satu bersaiz 3 cm × 1 cm. Kotak itu bersaiz 5 cm × 5 cm. Berapakah bilangan terkecil bar yang perlu digerakkan di dalam kotak itu supaya ada ruang untuk memuatkan satu lagi bar?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "It is impossible / Mustahil"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q07.png"
+    },
+    {
+      "q": "The figure shows an L-shape made from four squares. Ria wants to add an extra square in order to form a shape with a line of symmetry. In how many different ways can she do this? / Rajah menunjukkan satu bentuk L yang diperbuat daripada empat segi empat sama. Ria ingin menambah satu segi empat sama untuk menghasilkan suatu bentuk dengan garis simetri. Berapakah cara berbeza untuk dia lakukan sedemikian?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q08.png"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "kangaroo-benjamin-2021-set-1",
+  "title": "Kangaroo Benjamin 2021 Set 1",
+  "createdAt": "2026-11-25T14:24:44.903Z",
+  "questions": [
+    {
+      "q": "Which of the following solid shapes can be made with these 6 bricks? / Antara bentuk pepejal berikut, yang manakah boleh dibuat menggunakan 6 batu-bata ini?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q01.png"
+    },
+    {
+      "q": "In how many places in the picture are two children holding each other with their left hands? / Berapakah bilangan tempat dalam rajah yang menunjukkan dua kanak-kanak saling berpegangan dengan tangan kiri?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q02.png"
+    },
+    {
+      "q": "In the square you can see the digits from 1 to 9. A number is created by starting at the star, following the line and writing down the digits along the line while passing. For example, the line shown represents the number 42685. Which of the following lines represents the largest number? / Dalam segi empat sama terdapat digit 1 hingga 9. Satu nombor dihasilkan bermula pada bintang, mengikut garisan dan menulis semua digit yang dilalui. Contohnya garisan yang ditunjukkan mewakili nombor 42685. Antara garisan berikut, yang manakah mewakili nombor terbesar?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q03.png"
+    },
+    {
+      "q": "Sofie wants to write the word KENGU by using letters from the boxes. She can only take one letter from each box. What letter must Sofie take from box 4? / Sofie mahu menulis perkataan KENGU menggunakan huruf daripada kotak-kotak ini. Dia hanya boleh mengambil satu huruf daripada setiap kotak. Apakah huruf yang mesti Sofie ambil daripada kotak 4?",
+      "options": [
+        "K",
+        "E",
+        "N",
+        "G",
+        "U"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q04.png"
+    },
+    {
+      "q": "When the 5 pieces shown are fitted together correctly, the result is a rectangle with a calculation written on it. What is the answer to this calculation? / Apabila 5 kepingan ini dicantum dengan betul, hasilnya ialah segi empat tepat dengan satu pengiraan tertulis padanya. Apakah jawapan bagi pengiraan tersebut?",
+      "options": [
+        "22",
+        "32",
+        "41",
+        "122",
+        "203"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q05.png"
+    },
+    {
+      "q": "A measuring tape is wound around a cylinder. Which number should be at the place shown by the question mark? / Segulung pita pengukur dililit pada sebuah silinder. Apakah nombor yang sepatutnya berada pada tanda soal?",
+      "options": [
+        "53",
+        "60",
+        "69",
+        "77",
+        "81"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q06.png"
+    },
+    {
+      "q": "The 5 figures on the grid can only move in the directions indicated by the black arrows. Which figure can leave through gate G? / 5 bentuk pada grid hanya boleh bergerak mengikut arah yang ditunjukkan oleh anak panah hitam. Bentuk manakah yang boleh keluar melalui pintu G?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q07.png"
+    },
+    {
+      "q": "Carin is going to paint the walls in her room in green. The green paint is too dark so she mixes it with white paint. She tries different mixtures. Which of the following mixtures will give the darkest green colour? / Carin akan mengecat dinding biliknya dengan warna hijau. Cat hijau terlalu gelap, jadi dia mencampurkannya dengan cat putih. Dia mencuba campuran yang berlainan. Antara berikut, campuran manakah yang akan menghasilkan warna hijau paling gelap?",
+      "options": [
+        "1 part green + 3 parts white / 1 bahagian hijau + 3 bahagian putih",
+        "2 parts green + 6 parts white / 2 bahagian hijau + 6 bahagian putih",
+        "3 parts green + 9 parts white / 3 bahagian hijau + 9 bahagian putih",
+        "4 parts green + 12 parts white / 4 bahagian hijau + 12 bahagian putih",
+        "They will all be equally dark / Kesemuanya sama gelap"
+      ],
+      "marks": 1
+    }
+  ]
+}

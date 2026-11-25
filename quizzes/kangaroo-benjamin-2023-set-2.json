@@ -1,0 +1,101 @@
+{
+  "id": "kangaroo-benjamin-2023-set-2",
+  "title": "Kangaroo Benjamin 2023 Set 2",
+  "createdAt": "2026-11-25T14:27:47.609Z",
+  "questions": [
+    {
+      "q": "If we fold up the net below, which of these cubes can we make? / Jika kita melipat bentangan di bawah, kubus manakah yang akan terhasil?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q09.png"
+    },
+    {
+      "q": "We pour 1000 litres of water into the top of the pipework shown. Every time a pipe forks, the water splits into two equal parts. How many litres of water will reach container Y? / Kita tuangkan 1000 liter air ke dalam bahagian atas paip seperti dalam rajah. Setiap kali paip bercabang, air terbahagi kepada dua bahagian yang sama. Berapa liter air yang akan sampai ke bekas Y?",
+      "options": [
+        "660",
+        "800",
+        "1200",
+        "750",
+        "500"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q10.png"
+    },
+    {
+      "q": "Francesca wrote down three consecutive 2-digit numbers in order, but used symbols instead of digits: □◇, ♡△, ♡□. Which number comes next? / Francesca menulis tiga nombor 2 digit yang berturutan mengikut susunan, tetapi menggunakan simbol dan bukan digit: □◇, ♡△, ♡□. Apakah nombor yang seterusnya?",
+      "options": [
+        "□♡",
+        "□□",
+        "♡♡",
+        "◇□",
+        "♡◇"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Maria, Peter, Richard and Tina were playing football in the classroom and one of them broke a window. Maria: \"It was Peter.\" Peter: \"It was Richard.\" Richard: \"It wasn't me.\" Tina: \"It wasn't me.\" Only one child was telling the truth. Who broke the window? / Maria, Peter, Richard dan Tina bermain bola sepak di dalam kelas dan salah seorang daripada mereka memecahkan tingkap. Maria: \"Peter yang buat.\" Peter: \"Richard yang buat.\" Richard: \"Bukan saya.\" Tina: \"Bukan saya.\" Hanya seorang sahaja yang bercakap benar. Siapakah yang memecahkan tingkap?",
+      "options": [
+        "Maria",
+        "Tina",
+        "Peter",
+        "Richard",
+        "Cannot be determined / Tidak dapat ditentukan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Lonneke wants the sum of the numbers in the white cells to equal the sum of the numbers in the grey cells. Which two numbers does she need to swap? / Lonneke mahu hasil tambah nombor dalam petak putih sama dengan hasil tambah nombor dalam petak kelabu. Dua nombor manakah yang perlu ditukar?",
+      "options": [
+        "1 & 11",
+        "2 & 8",
+        "3 & 7",
+        "4 & 13",
+        "7 & 13"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q13.png"
+    },
+    {
+      "q": "The gear marked A is turned clockwise, as shown. Which two boxes will move upwards? / Gear bertanda A dipusingkan mengikut arah jam, seperti yang ditunjukkan. Dua kotak manakah akan bergerak ke atas?",
+      "options": [
+        "1 & 4",
+        "2 & 3",
+        "1 & 3",
+        "2 & 4",
+        "Cannot be determined / Tidak boleh ditentukan"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q14.png"
+    },
+    {
+      "q": "The perimeter of the figure, built up of identical squares, is 42 cm. What is the area of the figure? / Rajah yang terbina daripada beberapa segi empat sama yang serupa mempunyai perimeter 42 cm. Berapakah luas rajah itu?",
+      "options": [
+        "8 cm²",
+        "9 cm²",
+        "24 cm²",
+        "72 cm²",
+        "128 cm²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q15.png"
+    },
+    {
+      "q": "Each block in the answers consists of exactly 5 cubes. Which block cannot be obtained from the block shown (top) by moving exactly one cube? / Setiap bongkah dalam pilihan jawapan terdiri daripada 5 kubus. Bongkah manakah yang tidak dapat diperoleh daripada bongkah yang ditunjukkan (atas) dengan menggerakkan hanya satu kubus?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q16.png"
+    }
+  ]
+}

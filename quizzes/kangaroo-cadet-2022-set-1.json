@@ -1,0 +1,100 @@
+{
+  "id": "kangaroo-cadet-2022-set-1",
+  "title": "Kangaroo Cadet 2022 Set 1",
+  "createdAt": "2026-11-25T14:19:30.240Z",
+  "questions": [
+    {
+      "q": "Meike paddled around five buoys as shown. Around which of the buoys did Meike paddle in a clockwise direction? / Meike mendayung sekeliling lima pelampung, seperti yang ditunjukkan. Pada pelampung manakah Meike dayung mengikut arah jam?",
+      "options": [
+        "2, 3 & 4",
+        "1, 2 & 3",
+        "1, 3 & 5",
+        "2, 4 & 5",
+        "2, 3 & 5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q01.png"
+    },
+    {
+      "q": "Beate rearranges the five numbered pieces 4, 8, 31, 59 and 109 to display the smallest possible nine-digit number. Which piece does she place at the right-hand end? / Beate menyusun semula lima kepingan nombor 4, 8, 31, 59 dan 109 untuk memaparkan nombor sembilan digit terkecil yang mungkin. Kepingan manakah yang Beate letak di akhir sebelah kanan?",
+      "options": [
+        "4",
+        "8",
+        "31",
+        "59",
+        "109"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kengu enjoys jumping on the number line. He always makes two large jumps followed by three small jumps, as shown, and then repeats this process over and over again. Kengu starts his jumping routine on 0. On which of these numbers will Kengu land during his routine? / Kengu seronok melompat pada garis nombor. Dia sentiasa membuat dua lompatan besar diikuti dengan tiga lompatan kecil, seperti yang ditunjukkan, kemudian mengulangi proses ini berulang kali. Kengu memulakan rutin lompatannya pada angka 0. Antara berikut, nombor manakah yang akan Kengu mendarat semasa rutinnya?",
+      "options": [
+        "82",
+        "83",
+        "84",
+        "85",
+        "86"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q03.png"
+    },
+    {
+      "q": "The number plate of Kangy's car fell off. He put it back upside down but luckily this didn't make any difference. Which one of the following could be Kangy's number plate? / Nombor plat kereta Kangy terjatuh. Dia meletakkannya semula secara terbalik tetapi tidak memberi sebarang perbezaan. Antara berikut, yang manakah mungkin nombor plat Kangy?",
+      "options": [
+        "04 NSN 40",
+        "60 HOH 09",
+        "80 BNB 08",
+        "03 HNH 30",
+        "08 XBX 80"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rob the Builder has a brick whose shortest side is 4 cm. He uses several such bricks to build the cube shown. What are the dimensions, in cm, of his brick? / Rob si pembina mempunyai batu bata yang sisi terpendeknya ialah 4 cm. Dia menggunakan beberapa batu bata tersebut untuk membina kubus yang ditunjukkan. Apakah dimensi, dalam cm, batu batanya?",
+      "options": [
+        "4 × 6 × 12",
+        "4 × 6 × 16",
+        "4 × 8 × 12",
+        "4 × 8 × 16",
+        "4 × 12 × 16"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q05.png"
+    },
+    {
+      "q": "The black and white caterpillar shown in the picture curls up to sleep. Which of the following could be seen? / Beluncas hitam dan putih yang ditunjukkan dalam gambar bergulung untuk tidur. Antara berikut, yang manakah dapat dilihat?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q06.png"
+    },
+    {
+      "q": "In the statement 6 □ 9 □ 12 □ 15 □ 18 □ 21 = 45 there are five empty spaces. Sanja wants to fill four of them with plus signs and one with a minus sign so that the statement is correct. Where should she place the minus sign? / Dalam pernyataan 6 □ 9 □ 12 □ 15 □ 18 □ 21 = 45 terdapat lima ruang kosong. Sanja ingin mengisi empat daripadanya dengan tanda tambah dan satu dengan tanda tolak supaya pernyataan itu benar. Di manakah tanda tolak harus diletakkan?",
+      "options": [
+        "Between 6 and 9 / Antara 6 dan 9",
+        "Between 9 and 12 / Antara 9 dan 12",
+        "Between 12 and 15 / Antara 12 dan 15",
+        "Between 15 and 18 / Antara 15 dan 18",
+        "Between 18 and 21 / Antara 18 dan 21"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are five big trees and three paths in a park. In which region of the park should a new tree be planted so that for each path, there are the same number of trees on both sides? / Terdapat lima pokok besar dan tiga laluan di sebuah taman. Di kawasan taman yang manakah sebatang pokok baru perlu ditanam supaya setiap laluan terdapat bilangan pokok yang sama di kedua-dua belah sisi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q08.png"
+    }
+  ]
+}

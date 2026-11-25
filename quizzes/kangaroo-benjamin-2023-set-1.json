@@ -1,0 +1,100 @@
+{
+  "id": "kangaroo-benjamin-2023-set-1",
+  "title": "Kangaroo Benjamin 2023 Set 1",
+  "createdAt": "2026-11-25T14:27:20.873Z",
+  "questions": [
+    {
+      "q": "Matchsticks can be placed to form numbers, as shown. For example, to form the number 15 we need 7 matchsticks. To form the number 8 we need the same number of matchsticks. What is the largest number that can be built with 7 matchsticks? / Batang mancis boleh disusun untuk membina nombor, seperti yang ditunjukkan. Contohnya, untuk membina nombor 15 kita perlukan 7 batang mancis. Untuk membina nombor 8 kita perlukan bilangan batang mancis yang sama. Apakah nombor terbesar yang boleh dibina dengan 7 batang mancis?",
+      "options": [
+        "31",
+        "51",
+        "74",
+        "711",
+        "800"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q01.png"
+    },
+    {
+      "q": "The figure shows a parcel. Four tapes labelled M, N, P and Q are placed around the parcel. In what order, from first to last, were the tapes placed? / Rajah menunjukkan sebuah bungkusan. Empat pita berlabel M, N, P dan Q dilekatkan di sekeliling bungkusan itu. Apakah turutan pita itu dilekatkan, dari pertama hingga terakhir?",
+      "options": [
+        "M, N, Q, P",
+        "N, M, P, Q",
+        "N, Q, M, P",
+        "N, M, Q, P",
+        "Q, N, M, P"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q02.png"
+    },
+    {
+      "q": "To the number 6 we add 3. Then we multiply the result by 2, and then we add 1. The final result is the same as which computation? / Nombor 3 ditambahkan kepada nombor 6. Kemudian hasilnya didarab dengan 2, dan seterusnya ditambah 1. Kiraan manakah yang sama dengan hasil itu?",
+      "options": [
+        "(6 + 3 × 2) + 1",
+        "6 + 3 × 2 + 1",
+        "(6 + 3) × (2 + 1)",
+        "(6 + 3) × 2 + 1",
+        "6 + 3 × (2 + 1)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Rosalinde has a piece of paper, marked as shown, which she folds to form a cube. Which of the following cubes can she get from this paper? / Rosalinde mempunyai sekeping kertas bercorak seperti yang ditunjukkan, yang dilipatnya untuk membentuk sebuah kubus. Antara kubus berikut, yang manakah akan diperolehnya?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q04.png"
+    },
+    {
+      "q": "The quadrilateral ABCD has sides AB = 11, BC = 7, CD = 9 and DA = 3. It has right angles at A and C. What is the area of this quadrilateral? / Sisi empat ABCD mempunyai sisi AB = 11, BC = 7, CD = 9 dan DA = 3. Ia mempunyai sudut tegak di A dan C. Berapakah luas sisi empat ini?",
+      "options": [
+        "30",
+        "44",
+        "48",
+        "52",
+        "60"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q05.png"
+    },
+    {
+      "q": "On the left side of Main Street are all the odd house numbers from 1 to 39. On the right side are all the even house numbers from 2 to 34. How many houses are there on Main Street? / Di sebelah kiri Main Street, nombor rumahnya ialah semua nombor ganjil dari 1 hingga 39. Di sebelah kanan, nombor rumahnya ialah semua nombor genap dari 2 hingga 34. Berapakah bilangan rumah di Main Street?",
+      "options": [
+        "8",
+        "36",
+        "37",
+        "38",
+        "73"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The number 4 is next to two mirrors, so it reflects twice as shown. When the same thing happens to the number 5, what do we get in place of the question mark? / Nombor 4 berada di sebelah dua cermin, maka berlaku pantulan dua kali seperti yang ditunjukkan. Apabila perkara yang sama berlaku kepada nombor 5, apakah yang kita lihat di tempat tanda soal?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2023/B23_Q07.png"
+    },
+    {
+      "q": "Vanda cuts a square piece of paper with a perimeter of 20 cm into two rectangles. The perimeter of one rectangle is 16 cm. What is the perimeter of the second rectangle? / Vanda memotong sekeping kertas berbentuk segi empat sama dengan perimeter 20 cm kepada dua segi empat tepat. Perimeter salah satu segi empat tepat ialah 16 cm. Berapakah perimeter segi empat tepat yang kedua?",
+      "options": [
+        "8 cm",
+        "9 cm",
+        "12 cm",
+        "14 cm",
+        "16 cm"
+      ],
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "kangaroo-benjamin-2021-set-3",
+  "title": "Kangaroo Benjamin 2021 Set 3",
+  "createdAt": "2026-11-25T14:25:36.491Z",
+  "questions": [
+    {
+      "q": "My little brother has a 4-digit bike lock with the digits 0 to 9 on each part of the lock, as shown. He started on the correct combination and turned each part the same amount in the same direction, and now the lock shows 6348. Which of the following cannot be the correct combination? / Adik saya mempunyai mangga basikal 4 digit dengan angka 0 hingga 9 pada setiap bahagian. Dia bermula dari gabungan yang betul dan memutar setiap bahagian dengan jumlah putaran yang sama pada arah yang sama, dan kini mangga menunjukkan 6348. Antara berikut, yang manakah tidak mungkin gabungan yang betul?",
+      "options": [
+        "8 5 6 0",
+        "3 0 1 5",
+        "4 9 0 6",
+        "1 8 9 3",
+        "0 7 8 2"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q17.png"
+    },
+    {
+      "q": "There were 20 apples and 20 pears in a box. Carl randomly took 20 pieces of fruit from the box and Luca took the rest. Which of the following statements is always true? / Terdapat 20 epal dan 20 pir dalam sebuah kotak. Carl mengambil 20 biji buah secara rawak dan Luca mengambil bakinya. Antara kenyataan berikut, yang manakah sentiasa benar?",
+      "options": [
+        "Carl got at least one pear / Carl mendapat sekurang-kurangnya satu pir",
+        "Carl got as many apples as pears / Carl mendapat jumlah epal dan pir yang sama",
+        "Carl got as many apples as Luca / Carl mendapat jumlah epal yang sama seperti Luca",
+        "Carl got as many pears as Luca got apples / Bilangan pir Carl sama dengan bilangan epal Luca",
+        "Carl got as many pears as Luca / Carl mendapat jumlah pir yang sama seperti Luca"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ann, Bob, Carina, Dan and Ed are sitting around a round table. Ann is not next to Bob, Dan is next to Ed and Bob is not next to Dan. Which two people are sitting next to Carina? / Ann, Bob, Carina, Dan dan Ed duduk mengelilingi meja bulat. Ann tidak bersebelahan dengan Bob, Dan bersebelahan dengan Ed dan Bob tidak bersebelahan dengan Dan. Siapakah dua orang yang duduk bersebelahan dengan Carina?",
+      "options": [
+        "Ann and Bob / Ann dan Bob",
+        "Bob and Dan / Bob dan Dan",
+        "Dan and Ed / Dan dan Ed",
+        "Ed and Ann / Ed dan Ann",
+        "It is not possible to be certain / Mustahil untuk diketahui"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The recipe for 100 pancakes needs 25 eggs, 4 litres of milk, 5 kg of flour and 1 kg of butter. Maurice has 6 eggs, 400 g of flour, 0.5 litres of milk and 200 g of butter. What is the largest number of pancakes he can make using this recipe? / Resipi untuk 100 lempeng memerlukan 25 biji telur, 4 liter susu, 5 kg tepung dan 1 kg mentega. Maurice mempunyai 6 biji telur, 400 g tepung, 0.5 liter susu dan 200 g mentega. Berapakah bilangan lempeng paling banyak yang boleh dihasilkan?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The picture shows three gears with a black gear tooth on each. Which picture shows the correct position of the black teeth after the small gear has turned a full turn clockwise? / Gambar menunjukkan tiga gear dengan satu gigi hitam pada setiap gear. Gambar manakah yang menunjukkan kedudukan gigi hitam yang betul selepas gear terkecil berputar satu pusingan lengkap mengikut arah jam?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q21.png"
+    },
+    {
+      "q": "An apple and an orange weigh as much as a pear and a peach. An apple and a pear weigh less than an orange and a peach, and a pear and an orange weigh less than an apple and a peach. Which of the pieces of fruit is the heaviest? / Berat sebiji epal dan sebiji oren sama dengan berat sebiji pir dan sebiji pic. Epal dan pir lebih ringan daripada oren dan pic, dan pir dan oren lebih ringan daripada epal dan pic. Buah manakah yang paling berat?",
+      "options": [
+        "Apple / Epal",
+        "Orange / Oren",
+        "Peach / Pic",
+        "Pear / Pir",
+        "Impossible to determine / Mustahil diketahui"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What is the smallest number of shaded squares that can be added to the diagram to create a design with four axes of symmetry? / Berapakah bilangan terkecil segi empat sama berlorek yang perlu ditambah pada rajah untuk menghasilkan reka bentuk dengan empat paksi simetri?",
+      "options": [
+        "1",
+        "9",
+        "12",
+        "13",
+        "21"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q23.png"
+    },
+    {
+      "q": "A large cube has side length 7 cm. On each of its 6 faces, the two diagonals are drawn in red. The large cube is then cut into small cubes with side length 1 cm. How many small cubes will have at least one red line drawn on them? / Sebuah kubus besar mempunyai sisi 7 cm. Pada setiap 6 mukanya, dua pepenjuru dilukis dengan warna merah. Kubus itu kemudian dipotong kepada kubus kecil bersisi 1 cm. Berapakah bilangan kubus kecil yang mempunyai sekurang-kurangnya satu garis merah?",
+      "options": [
+        "54",
+        "62",
+        "70",
+        "78",
+        "86"
+      ],
+      "marks": 1
+    }
+  ]
+}

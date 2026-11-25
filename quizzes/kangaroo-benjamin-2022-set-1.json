@@ -1,0 +1,102 @@
+{
+  "id": "kangaroo-benjamin-2022-set-1",
+  "title": "Kangaroo Benjamin 2022 Set 1",
+  "createdAt": "2026-11-25T14:26:03.122Z",
+  "questions": [
+    {
+      "q": "Six points are numbered as shown. Kirsten draws two triangles, one by joining the even numbered points and one by joining the odd numbered points, and colours the inside of one of the triangles red and the inside of the other green. Which of the five options shows the picture Kirsten draws? / Enam titik dinomborkan seperti dalam rajah. Kirsten melukis dua segi tiga, satu dengan mencantumkan titik bernombor genap dan satu dengan mencantumkan titik bernombor ganjil. Kemudian dia mewarnakan kedua-dua segi tiga dengan warna merah dan hijau masing-masing. Antara lima pilihan berikut, yang manakah menunjukkan gambar yang dilukis oleh Kirsten?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q01.png"
+    },
+    {
+      "q": "Eileen rowed around five buoys, as shown. Which buoys did Eileen row around in an anticlockwise direction? / Eileen mendayung sekeliling lima pelampung seperti dalam rajah. Pelampung manakah yang Eileen dayung mengikut arah lawan jam?",
+      "options": [
+        "1 & 4",
+        "2, 3 & 5",
+        "2 & 3",
+        "1, 4 & 5",
+        "1 & 3"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q02.png"
+    },
+    {
+      "q": "Laser beams reflect in mirrors in the way shown in the left picture. At which letter will this laser beam end in the right picture? / Pancaran laser memantul pada cermin seperti gambar di sebelah kiri. Berdasarkan gambar di sebelah kanan, pada huruf manakah pancaran laser ini akan berakhir?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q03.png"
+    },
+    {
+      "q": "Cistercian numerals were used in the early thirteenth century. Any integer from 1 to 99 can be represented by a single glyph formed by combining two of the glyphs shown. The glyphs for 24, 81 and 93 are shown. What does the glyph for 45 look like? / Angka Cistercian digunakan pada awal abad ke-13. Mana-mana integer dari 1 hingga 99 boleh diwakili oleh glif tunggal yang dibentuk dengan menggabungkan dua daripada glif yang ditunjukkan. Glif untuk 24, 81 dan 93 ditunjukkan. Apakah bentuk glif untuk 45?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q04.png"
+    },
+    {
+      "q": "Marbles are sold in packages of 5, 10 or 25. Tom buys exactly 95 marbles. What is the minimum number of packages he could buy? / Guli dijual dalam bungkusan 5, 10 atau 25. Tom membeli tepat 95 biji guli. Berapakah bilangan minimum bungkusan yang dia boleh beli?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "8",
+        "10"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "ABCD is a square with side length 10 cm. What is the area of the shaded part? / ABCD ialah segi empat sama dengan panjang sisi 10 cm. Berapakah luas bahagian yang berlorek?",
+      "options": [
+        "40 cm²",
+        "45 cm²",
+        "50 cm²",
+        "55 cm²",
+        "60 cm²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q06.png"
+    },
+    {
+      "q": "In the garage shown, vehicles can only move forward or backward but cannot turn. What is the smallest number of vehicles that have to move for the black car to be able to exit the garage? / Di dalam garaj seperti dalam gambar, kenderaan hanya boleh bergerak ke hadapan atau ke belakang tetapi tidak boleh membelok. Apakah bilangan kenderaan terkecil yang perlu digerakkan supaya kereta hitam itu boleh keluar dari garaj?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q07.png"
+    },
+    {
+      "q": "Giulia has one long string of spaghetti. Every time she breaks one piece of spaghetti, it becomes three pieces, as shown. Which of the following numbers of pieces could she not get? / Giulia mempunyai sebatang spageti yang panjang. Setiap kali dia mematahkan satu bahagian spageti, ia menjadi tiga bahagian seperti dalam gambar. Antara berikut, bilangan bahagian manakah yang Giulia tidak akan dapat?",
+      "options": [
+        "13",
+        "17",
+        "20",
+        "23",
+        "25"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q08.png"
+    }
+  ]
+}

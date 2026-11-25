@@ -1,0 +1,99 @@
+{
+  "id": "kangaroo-cadet-2020-set-2",
+  "title": "Kangaroo Cadet 2020 Set 2",
+  "createdAt": "2026-11-25T14:17:06.499Z",
+  "questions": [
+    {
+      "q": "If John goes to school by bus and walks back, he takes 3 hours. If he goes by bus both ways, he takes 1 hour. How many hours does it take to walk both ways? / Jika John pergi ke sekolah dengan bas dan pulang dengan berjalan kaki, dia mengambil masa 3 jam. Jika dia pergi dan pulang dengan bas, dia mengambil masa 1 jam. Berapa jamkah yang diperlukan untuk berjalan kaki pergi dan pulang?",
+      "options": [
+        "3.5",
+        "4",
+        "4.5",
+        "5",
+        "5.5"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The shortest path from Atown to Cetown passes through Betown. The two signposts shown appear along this path. What distance was written on the broken sign? / Jalan terpendek dari Atown ke Cetown melalui Betown. Kedua-dua papan tanda yang ditunjukkan terdapat di sepanjang laluan ini. Apakah jarak yang tertulis pada papan tanda yang patah?",
+      "options": [
+        "1 km",
+        "3 km",
+        "4 km",
+        "5 km",
+        "9 km"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q10.png"
+    },
+    {
+      "q": "Anna wants to walk 5 km on average each day in March. At bedtime on 16th March, she realised that she had walked 95 km so far. What distance does she need to walk on average for the remaining days of the month to achieve her target? / Anna mahu berjalan kaki dengan jarak purata 5 km setiap hari pada bulan Mac. Semasa waktu tidur pada 16 Mac, dia mendapati dia telah berjalan sejauh 95 km. Berapakah jarak purata yang perlu dilaluinya bagi hari-hari yang selebihnya untuk mencapai sasarannya?",
+      "options": [
+        "5.4 km",
+        "5 km",
+        "4 km",
+        "3.6 km",
+        "3.1 km"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following shows the view of the object from above? / Antara berikut, yang manakah menunjukkan pandangan objek tersebut dari atas?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q12.png"
+    },
+    {
+      "q": "Every pupil in a class either swims or plays tennis or both. Three fifths of the class swim and three fifths play tennis. Five pupils both swim and play tennis. How many pupils are in the class? / Setiap murid dalam satu kelas sama ada berenang atau bermain tenis atau kedua-duanya. Tiga perlima kelas berenang dan tiga perlima bermain tenis. Lima orang murid berenang dan bermain tenis. Berapakah bilangan murid dalam kelas itu?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sacha's garden has the following shape. What is the perimeter of Sacha's garden? / Taman Sacha mempunyai bentuk seperti dalam rajah. Apakah perimeter taman Sacha?",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q14.png"
+    },
+    {
+      "q": "Andrew buys 27 identical small cubes, each with two adjacent faces painted red. He uses all of these cubes to build a large cube. What is the largest number of completely red faces of the large cube that he can make? / Andrew membeli 27 kiub kecil yang sama saiz, setiap satu dengan dua permukaan bersebelahan dicat merah. Dia menggunakan semua kiub untuk membina satu kiub besar. Apakah bilangan paling banyak permukaan kiub besar yang berwarna merah sepenuhnya?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are three squares in the figure. The area of the largest square is 49 cm², and the length of AB is 5 cm. What is the area of the smallest (white) square? / Terdapat tiga segi empat sama dalam rajah. Luas segi empat sama terbesar ialah 49 cm², dan panjang AB ialah 5 cm. Apakah luas segi empat sama yang paling kecil (berwarna putih)?",
+      "options": [
+        "1 cm²",
+        "4 cm²",
+        "9 cm²",
+        "16 cm²",
+        "25 cm²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q16.png"
+    }
+  ]
+}

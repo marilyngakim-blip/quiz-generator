@@ -426,24 +426,6 @@
     "createdAt": "2026-11-11T01:31:13.488Z"
   },
   {
-    "id": "kangaroo-cadet-2024",
-    "title": "Kangaroo Cadet 2024",
-    "questionCount": 24,
-    "createdAt": "2026-11-20T06:23:50.501Z"
-  },
-  {
-    "id": "kangaroo-ecolier-2023",
-    "title": "Kangaroo Ecolier 2023",
-    "questionCount": 20,
-    "createdAt": "2026-11-20T06:24:32.883Z"
-  },
-  {
-    "id": "kangaroo-benjamin-2023",
-    "title": "Kangaroo Benjamin 2023",
-    "questionCount": 24,
-    "createdAt": "2026-11-20T06:27:21.215Z"
-  },
-  {
     "id": "science-tingkatan-2-2.3-2.4",
     "title": "Science Tingkatan 2 (2.3-2.4)",
     "questionCount": 30,
@@ -550,48 +532,6 @@
     "title": "Bahasa Melayu Tingkatan 2 (Tema 1 Tatabahasa Set 1)",
     "questionCount": 30,
     "createdAt": "2026-11-25T01:47:16.419Z"
-  },
-  {
-    "id": "kangaroo-cadet-2023",
-    "title": "Kangaroo Cadet 2023",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T02:46:13.917Z"
-  },
-  {
-    "id": "kangaroo-cadet-2022",
-    "title": "Kangaroo Cadet 2022",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T03:28:46.505Z"
-  },
-  {
-    "id": "kangaroo-cadet-2021",
-    "title": "Kangaroo Cadet 2021",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T03:29:49.473Z"
-  },
-  {
-    "id": "kangaroo-cadet-2020",
-    "title": "Kangaroo Cadet 2020",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T03:30:25.848Z"
-  },
-  {
-    "id": "kangaroo-benjamin-2022",
-    "title": "Kangaroo Benjamin 2022",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T04:35:13.399Z"
-  },
-  {
-    "id": "kangaroo-benjamin-2021",
-    "title": "Kangaroo Benjamin 2021",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T04:35:51.528Z"
-  },
-  {
-    "id": "kangaroo-benjamin-2020",
-    "title": "Kangaroo Benjamin 2020",
-    "questionCount": 24,
-    "createdAt": "2026-11-25T04:36:26.913Z"
   },
   {
     "id": "kangaroo-cadet-2020-set-1",

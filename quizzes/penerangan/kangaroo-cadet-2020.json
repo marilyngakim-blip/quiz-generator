@@ -1,0 +1,28 @@
+{
+ "penerangan": [
+  "Nombor perdana hanya boleh dibahagi dengan 1 dan dirinya sendiri.\n2 ialah perdana. 20, 202 dan 2020 genap dan lebih besar daripada 2, jadi boleh dibahagi dengan 2 — bukan perdana.\nJadi hanya 1 nombor perdana.",
+  "Sudut pedalaman poligon sekata = (n − 2) × 180° ÷ n. Lebih banyak sisi, lebih besar sudutnya.\nHeksagon (A): (6 − 2) × 180° ÷ 6 = 120°, iaitu yang terbesar (pentagon 108°, segi empat sama 90°, segi tiga 60°).",
+  "Miguel dalam 4 hari: 6 × 4 = 24 soalan.\nLázaro: 24 ÷ 4 = 6 hari.",
+  "Kira setiap pecahan:\n(A) 13/3 ≈ 4.33  (B) 8/8 = 1  (C) 8/8 = 1  (D) 11/5 = 2.2  (E) 3/13 ≈ 0.23\nJadi (A) paling besar.",
+  "Setiap pasukan bermain 3 perlawanan. Jumlah mata yang mungkin:\nM-M-M = 9, M-M-S = 7, M-M-K = 6, M-S-S = 5, M-S-K = 4, M-K-K = 3, S-S-S = 3, S-S-K = 2, S-K-K = 1, K-K-K = 0.\n(M = menang, S = seri, K = kalah)\n8 mata tidak mungkin dicapai.",
+  "Bahagikan segi empat sama besar kepada 4 bahagian, kemudian setiap bahagian kepada 4 petak kecil: 16 petak kecil.\nBahagian berlorek = 4 (petak bawah kanan) + 2 (segi tiga atas kanan) + 2 (dua petak kecil atas kiri) = 8.\nPecahan = 8/16 = ½.",
+  "Heksagon terkecil yang boleh mengandungi bentuk bintang ini memerlukan 54 segi tiga.\nSegi tiga yang perlu ditambah = 54 − 36 = 18.\n(Skema: 36 ÷ 2 = 18.)",
+  "Untuk hasil negatif terkecil, gunakan satu nombor negatif dengan nilai terbesar dan dua nombor positif terbesar.\n(−5) × 4 × 6 = −120.\n(Tiga nombor negatif memberi (−5) × (−3) × (−1) = −15 sahaja.)",
+  "Bas pergi dan balik = 1 jam, jadi bas sehala = 30 minit.\nBas pergi + jalan balik = 3 jam → jalan sehala = 3 − 0.5 = 2.5 jam.\nJalan pergi dan balik = 2.5 + 2.5 = 5 jam.",
+  "Papan tanda pertama: Atown 2 km di belakang, Betown 4 km di hadapan, Cetown 9 km di hadapan.\nPapan tanda kedua: Atown 7 km di belakang, jadi papan kedua 5 km lebih jauh daripada papan pertama.\nBetown hanya 4 km dari papan pertama, jadi papan kedua sudah melepasi Betown sejauh 5 − 4 = 1 km.\n(Semak: Cetown = 9 − 5 = 4 km ✓.) Papan patah menulis 1 km.",
+  "Sasaran Mac: 5 km × 31 hari = 155 km.\nSudah berjalan 95 km pada 1–16 Mac. Baki = 155 − 95 = 60 km.\nHari yang tinggal = 31 − 16 = 15 hari.\nPurata = 60 ÷ 15 = 4 km.",
+  "Labelkan setiap garisan mengikut warna (putih, kelabu, hitam) dalam rajah objek. Lihat dari atas: puncak piramid berada di tengah, dan setiap tepi tapak mengekalkan warnanya. Pandangan yang sepadan (selepas diputar 90°) ialah B.",
+  "Katakan bilangan murid = c.\nBerenang + tenis = ⅗c + ⅗c = 6/5 c, lebih 1/5 c daripada jumlah kelas.\nLebihan ini ialah murid yang buat kedua-duanya: ⅕c = 5 → c = 25.",
+  "Garis menegak: jumlah 3, dibahagi tiga bahagian sama, setiap satu 1.\nGaris mendatar atas = 5. Bawah = 4 + 1 + 1 = 6 (beza 5 dan 4 ialah 1, ditambah lagi 1). Garis tengah = 3 dan 4.\nPerimeter = 5 + 1 + 3 + 1 + 4 + 1 + 6 + 3 = 24.",
+  "Kiub besar 3 × 3 × 3 mempunyai 6 muka, setiap satu 9 kiub kecil.\nSetiap kiub kecil hanya ada 2 muka merah bersebelahan. Susunan terbaik boleh menjadikan 4 muka merah sepenuhnya (bentuk '+'), tetapi tidak 5 atau 6 kerana kiub bucu memerlukan 3 muka merah.\nJawapan: 4.",
+  "Segi empat sama berlorek garis-garis: AB = 5 cm adalah sisinya, luas = 25 cm².\nBahagian kelabu terdiri daripada 4 segi tiga bersudut tegak 3-4-5 (kerana sisi segi empat besar 7 = 3 + 4).\nLuas 4 segi tiga = 4 × ½ × 3 × 4 = 24 cm².\nSegi empat sama putih = 25 − 24 = 1 cm².",
+  "Gaji majikan = 5 kali gaji Werner (20% × 5 = 100%).\nWerner perlu menambah 4 kali gajinya sendiri.\nPeningkatan = 4 × 100% = 400%.",
+  "Pandangan atas menunjukkan 9 tempat yang ada kiub. Pandangan sisi memberi ketinggian maksimum setiap baris: 3, 2, 0... (diputar supaya padan).\nUntuk bilangan maksimum, setiap kiub dalam baris boleh setinggi ketinggian baris itu.\nIkut skema: 9 + (3 + 6 + 0 + 6) = 24 kiub.",
+  "Bayangkan cara jalur itu dilipat. Dalam susunan (E) 3, 4, 2, 1, 5, petak 5 perlu berada di bawah 1, tetapi lipatan antara 4 dan 5 (yang bersambung) akan memotong lipatan antara 1 dan 2. Jadi (E) mustahil. Susunan A hingga D boleh dilipat (lihat lakaran dalam skema).",
+  "Sudut segi empat sama = 90°. Selepas dilipat ke pepenjuru, sudut di bucu terlipat menjadi 45° (separuh daripada 90°).\nSisi empat mempunyai sudut 45°, 90° dan dua sudut besar yang sama, x.\n45° + x + x + 90° = 360° → 2x = 225° → x = 112.5°.",
+  "A/2 boleh dibahagi 2 → A gandaan 4.\nA/3 boleh dibahagi 3 → A gandaan 9.\nA/5 boleh dibahagi 5 → A gandaan 25.\nJadi A gandaan 4 × 9 × 25 = 900.\nGandaan 900 empat digit: 1800, 2700, …, 9900 = 10 nombor.",
+  "Setiap juri memberi 0, 1, 2, 3, 4 kepada lima peserta (setiap markah sekali).\nIsi jadual supaya setiap baris menggunakan 0–4 sekali dan jumlah setiap peserta betul:\nJuri I: 2, 0, 1, 3, 4. Juri II: 4, 2, 0, 1, 3. Juri III: 1, 3, 2, 0, 4.\nAdam = 2 + 4 + 1 = 7 ✓. Adam mendapat 1 mata daripada juri III.",
+  "Segi empat sama boleh dibina daripada 2k² segi tiga (petak k × k, setiap petak 2 segi tiga) atau 4m² segi tiga (petak senget).\nSaiz yang mungkin (≤ 52 segi tiga): 2, 8, 18, 32, 50 dan 4, 16, 36.\nJumlah = 8 saiz berbeza.",
+  "Katakan jarak = x. Nisbah laju sama dengan nisbah jarak dalam masa yang sama.\nBoris : Carl = (x − 15) : (x − 35) = x : (x − 22).\n(x − 15)(x − 22) = x(x − 35)\nx² − 37x + 330 = x² − 35x → 2x = 330 → x = 165 m."
+ ]
+}

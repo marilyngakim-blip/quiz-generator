@@ -1,0 +1,102 @@
+{
+  "id": "kangaroo-benjamin-2021-set-2",
+  "title": "Kangaroo Benjamin 2021 Set 2",
+  "createdAt": "2026-11-25T14:25:12.039Z",
+  "questions": [
+    {
+      "q": "Mary had a piece of paper. She folded it exactly in half. Then she folded it exactly in half again. She got the shape shown. Which of the shapes P, Q or R could have been the shape of her original piece of paper? / Mary ada sehelai kertas. Dia melipatnya tepat separuh, kemudian melipat separuh sekali lagi, dan mendapat bentuk yang ditunjukkan. Antara bentuk P, Q atau R, yang manakah mungkin bentuk asal kertasnya?",
+      "options": [
+        "Only P / P sahaja",
+        "Only Q / Q sahaja",
+        "Only R / R sahaja",
+        "Only P or Q / P atau Q sahaja",
+        "Any of P, Q or R / Mana-mana P, Q atau R"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q09.png"
+    },
+    {
+      "q": "There is a square with line segments drawn inside it. The line segments are drawn either from the vertices or the midpoints of other line segments. We coloured ⅛ of the large square. Which one is our colouring? / Terdapat satu segi empat sama dengan garisan dilukis di dalamnya. Garisan dilukis bermula dari bucu atau titik tengah garisan lain. Kami mewarnakan ⅛ daripada segi empat sama besar. Antara berikut, yang manakah pewarnaan kami?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q10.png"
+    },
+    {
+      "q": "The number 5021972970 is written on a sheet of paper. Julian cuts the sheet twice so he gets three numbers. What is the smallest sum he can get by adding these three numbers? / Nombor 5021972970 ditulis pada sehelai kertas. Julian memotong kertas itu dua kali supaya dia mendapat tiga nombor. Apakah hasil tambah terkecil yang boleh diperoleh daripada tiga nombor itu?",
+      "options": [
+        "3244",
+        "3444",
+        "5172",
+        "5217",
+        "5444"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The map shows three bus stations at points A, B and C. A tour from station A to the Zoo and to the Port and back to A is 10 km long. A tour from B to the Park and to the Zoo and back to B is 12 km long. A tour from C to the Port and to the Park and back to C is 13 km long. A tour from the Zoo to the Park and to the Port and back to the Zoo is 15 km long. How long is the shortest tour from A to B to C and back to A? / Peta menunjukkan tiga hentian bas di A, B dan C. Lawatan dari A ke Zoo, ke Pelabuhan dan kembali ke A ialah 10 km. Lawatan dari B ke Taman, ke Zoo dan kembali ke B ialah 12 km. Lawatan dari C ke Pelabuhan, ke Taman dan kembali ke C ialah 13 km. Lawatan dari Zoo ke Taman, ke Pelabuhan dan kembali ke Zoo ialah 15 km. Berapakah jarak lawatan paling pendek dari A ke B ke C dan kembali ke A?",
+      "options": [
+        "18 km",
+        "20 km",
+        "25 km",
+        "35 km",
+        "50 km"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q12.png"
+    },
+    {
+      "q": "Rosa wants to start at the arrow, follow the line, and get out at the other arrow. Which piece is NOT possible to put in the middle to obtain that? / Rosa ingin bermula di anak panah, mengikut garisan dan keluar di anak panah yang satu lagi. Kepingan manakah yang TIDAK mungkin diletakkan di tengah untuk mencapai matlamat Rosa?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q13.png"
+    },
+    {
+      "q": "The diagram shows three hexagons with numbers at their vertices, but some numbers are invisible. The sum of the six numbers around each hexagon is 30. What is the number on the vertex marked with a question mark? / Rajah menunjukkan tiga heksagon dengan nombor di bucu, tetapi sesetengah nombor tidak kelihatan. Jumlah enam nombor di bucu setiap heksagon ialah 30. Apakah nombor di bucu bertanda soal?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q14.png"
+    },
+    {
+      "q": "Three rectangles of the same height are positioned as shown. The numbers within the rectangles indicate their areas in cm². If AB = 6 cm, how long is CD? / Tiga segi empat tepat yang sama tinggi diletakkan seperti dalam rajah. Nombor di dalam segi empat tepat menunjukkan luasnya dalam cm². Jika AB = 6 cm, berapakah panjang CD?",
+      "options": [
+        "7 cm",
+        "7.5 cm",
+        "8 cm",
+        "8.2 cm",
+        "8.5 cm"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q15.png"
+    },
+    {
+      "q": "Ronja had four white tokens and Wanja had four grey tokens. They played a game in which they took turns to place one of their tokens to create two piles. Ronja placed her first token first. Which pair of piles could they not create? / Ronja mempunyai empat token putih dan Wanja empat token kelabu. Mereka bergilir-gilir meletakkan satu token untuk membina dua timbunan. Ronja meletakkan token pertama dahulu. Pasangan timbunan manakah yang tidak boleh dihasilkan?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2021/B21_Q16.png"
+    }
+  ]
+}

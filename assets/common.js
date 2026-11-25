@@ -105,7 +105,14 @@
     return m;
   }
   const pctOf = r => r.total ? Math.round(r.score / r.total * 100) : 0;
+  // Tarikh cubaan, contoh "25 Nov 2026, 8:15 PG" (atau "25 Nov" jika ringkas). '' jika tiada.
+  function fmtDate(at, ringkas) {
+    const d = new Date(at);
+    if (!at || isNaN(d)) return '';
+    return d.toLocaleString('ms-MY', ringkas ? { day: 'numeric', month: 'short' }
+      : { day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+  }
 
   window.KUIZ = { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, bestKey,
-    api, getHistory, addLocalHistory, byQuiz, pctOf };
+    api, getHistory, addLocalHistory, byQuiz, pctOf, fmtDate };
 })();

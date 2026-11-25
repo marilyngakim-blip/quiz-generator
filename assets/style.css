@@ -299,3 +299,5 @@ footer b { font-family: 'Fredoka', sans-serif; color: var(--orange); font-weight
 .q-card .explain { margin-top: 12px; padding: 10px 14px; border-radius: 12px; background: #eef8f6; border-left: 5px solid var(--teal); color: #1f2d2b; }
 .q-card .explain strong { display: block; margin-bottom: 4px; color: var(--teal-d); }
 .q-card .explain p { margin: 0; white-space: pre-line; line-height: 1.5; }
+
+.hist-date { display: block; font-size: .78rem; font-weight: 700; color: var(--muted); }

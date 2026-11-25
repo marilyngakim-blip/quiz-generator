@@ -1,5 +1,5 @@
 (function () {
-  const { decorateHero, subjectOf, levelOf, store, currentKid, bestKey, getHistory, addLocalHistory, pctOf } = window.KUIZ;
+  const { decorateHero, subjectOf, levelOf, store, currentKid, bestKey, getHistory, addLocalHistory, pctOf, fmtDate } = window.KUIZ;
   const app = document.getElementById('app');
   const LETTERS = ['A', 'B', 'C', 'D', 'E'];
   const quizId = new URLSearchParams(location.search).get('id');
@@ -392,8 +392,9 @@
     const right = el('span', { text: r.score + '/' + r.total + ' · ' + pctOf(r) + '%' });
     if (delta != null && delta !== 0) right.append(el('span', { class: 'delta ' + (delta > 0 ? 'up' : 'down'),
       text: '  ' + (delta > 0 ? '📈 +' : '📉 ') + delta }));
-    return el('div', { class: 'hist-row' + (now ? ' now' : '') },
-      el('span', { text: 'Cubaan ' + r.attempt + (now ? ' (sekarang)' : '') }), right);
+    const left = el('span', { text: 'Cubaan ' + r.attempt + (now ? ' (sekarang)' : '') });
+    if (fmtDate(r.at)) left.append(el('small', { class: 'hist-date', text: fmtDate(r.at) }));
+    return el('div', { class: 'hist-row' + (now ? ' now' : '') }, left, right);
   }
 
   // Markah semua cubaan untuk kuiz ini, termasuk yang baru dihantar.
@@ -404,7 +405,7 @@
     const box = el('div', { class: 'card history', style: 'text-align:left;margin:12px 0' },
       el('h3', { text: '📊 Perbandingan markah' }));
     prev.forEach(r => box.append(histRow(r, false, null)));
-    box.append(histRow({ attempt: result.attempt, score: result.score, total: result.total }, true, result.score - last.score));
+    box.append(histRow({ attempt: result.attempt, score: result.score, total: result.total, at: new Date().toISOString() }, true, result.score - last.score));
     return box;
   }
 

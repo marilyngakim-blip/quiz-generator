@@ -1,5 +1,5 @@
 (function () {
-  const { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, getHistory, byQuiz, pctOf } = window.KUIZ;
+  const { SITE, LAIN, decorateHero, subjectOf, levelOf, store, currentKid, getHistory, byQuiz, pctOf, fmtDate } = window.KUIZ;
   const $ = id => document.getElementById(id);
   let quizzes = [];
   let subject = null;                       // nama subjek yang dipilih
@@ -173,7 +173,7 @@
         // Markah setiap cubaan; yang terakhir ditonjolkan.
         const row = el('div', 'tries');
         tries.forEach((r, k) => row.append(el('span', 'try' + (k === tries.length - 1 ? ' latest' : ''),
-          'Cubaan ' + r.attempt + ': ' + r.score + '/' + r.total)));
+          'Cubaan ' + r.attempt + ': ' + r.score + '/' + r.total + (fmtDate(r.at, true) ? ' · ' + fmtDate(r.at, true) : ''))));
         body.append(row);
       }
       a.append(el('span', 'e', sub.emoji), body, el('span', 'go', '➜'));

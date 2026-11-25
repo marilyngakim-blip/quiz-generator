@@ -1,0 +1,88 @@
+{
+  "id": "kangaroo-ecolier-2023-set-1",
+  "title": "Kangaroo Ecolier 2023 Set 1",
+  "createdAt": "2026-11-25T14:28:44.000Z",
+  "questions": [
+    {
+      "q": "Akira lit 5 identical candles at the same time. They stopped burning at different times and now look as shown. Which candle stopped burning first? / Akira menyalakan 5 lilin yang serupa pada masa yang sama. Lilin itu terpadam pada masa berbeza dan kini kelihatan seperti dalam rajah. Lilin manakah yang terpadam dahulu?",
+      "options": [
+        "Candle A / Lilin A",
+        "Candle B / Lilin B",
+        "Candle C / Lilin C",
+        "Candle D / Lilin D",
+        "Candle E / Lilin E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2023/E23_Q01.png"
+    },
+    {
+      "q": "Alice has these 4 puzzle pieces. Which 2 pieces can she put together to form the square shown? / Alice mempunyai 4 kepingan suai gambar ini. 2 kepingan manakah yang boleh dicantum untuk membentuk segi empat sama yang ditunjukkan?",
+      "options": [
+        "1 & 2",
+        "1 & 3",
+        "1 & 4",
+        "2 & 3",
+        "2 & 4"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2023/E23_Q02.png"
+    },
+    {
+      "q": "Anna has 4 discs of different sizes. She wants to build a tower of 3 discs so that every disc is smaller than the disc below it. How many different towers can Anna make? / Anna mempunyai 4 cakera yang berlainan saiz. Dia mahu membina menara 3 cakera supaya setiap cakera lebih kecil daripada cakera di bawahnya. Berapakah bilangan menara berbeza yang boleh dibina?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Helga lives with her father, mother, brother, one dog, two cats, two parrots and four fish. What is the total number of legs they have altogether? / Helga tinggal bersama bapa, ibu, adik, seekor anjing, dua ekor kucing, dua ekor burung kakak tua dan empat ekor ikan. Berapakah jumlah kaki mereka semua?",
+      "options": [
+        "22",
+        "24",
+        "28",
+        "32",
+        "40"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The figure shows the number 930. How many squares must be switched from black to white or from white to black to obtain the number 806 (bottom)? / Rajah menunjukkan nombor 930. Berapakah bilangan petak yang mesti ditukar daripada hitam kepada putih atau putih kepada hitam untuk mendapat nombor 806 (bawah)?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2023/E23_Q05.png"
+    },
+    {
+      "q": "A square piece of paper has been cut into three pieces. Two of them are shown. What is the third piece? / Sekeping kertas segi empat sama dipotong kepada tiga bahagian. Dua daripadanya ditunjukkan. Apakah bahagian yang ketiga?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2023/E23_Q06.png"
+    },
+    {
+      "q": "Ivo is playing darts. He has 10 darts. For each throw that hits the centre, he gains two extra darts. At the end of the round, Ivo has thrown 20 darts. How many times did he hit the centre? / Ivo bermain dart. Dia mempunyai 10 dart. Bagi setiap lontaran yang kena sasaran tengah, dia mendapat dua dart tambahan. Pada akhir pusingan, Ivo telah melontar 20 dart. Berapa kalikah dia kena sasaran tengah?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "5",
+        "4"
+      ],
+      "marks": 1
+    }
+  ]
+}

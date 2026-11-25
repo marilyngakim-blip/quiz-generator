@@ -1,0 +1,414 @@
+{
+  "id": "bahasa-melayu-tingkatan-2-tema-1-tatabahasa-set-1",
+  "title": "Bahasa Melayu Tingkatan 2 (Tema 1 Tatabahasa Set 1)",
+  "createdAt": "2026-11-25T00:44:12.109Z",
+  "questions": [
+    {
+      "q": "Apakah yang dimaksudkan dengan akronim?",
+      "options": [
+        "Singkatan yang disebut huruf demi huruf",
+        "Singkatan yang dieja dan dilafazkan sebagai satu perkataan",
+        "Gabungan dua perkataan yang membawa maksud kiasan",
+        "Perkataan yang dipinjam daripada bahasa asing"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Akronim tadika berasal daripada",
+      "options": [
+        "taman didikan kanak-kanak",
+        "taman bimbingan kanak-kanak",
+        "tadbiran didikan kanak-kanak",
+        "taman asuhan kanak-kanak"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Apakah akronim bagi cerita pendek?",
+      "options": [
+        "cerpen",
+        "cepen",
+        "cerpek",
+        "cerdek"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Akronim kugiran berasal daripada",
+      "options": [
+        "kumpulan gitar rancak",
+        "kumpulan pemain gitar",
+        "kumpulan iringan rancak",
+        "kumpulan gitar dan piano"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah akronim?",
+      "options": [
+        "Sdn. Bhd.",
+        "KKM",
+        "SPM",
+        "MARA"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Perkataan senamrobik terbentuk daripada gabungan perkataan",
+      "options": [
+        "seni dan aerobik",
+        "senaman dan aerobik",
+        "senaman dan robotik",
+        "senam dan rebana"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kata ganti nama diri pertama ialah kata ganti nama yang merujuk",
+      "options": [
+        "orang yang dilawan bercakap",
+        "orang yang bercakap",
+        "orang yang dibicarakan",
+        "benda yang ditunjukkan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah kata ganti nama diri kedua?",
+      "options": [
+        "awak",
+        "mereka",
+        "beliau",
+        "kami"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah kata ganti nama diri ketiga?",
+      "options": [
+        "anda",
+        "kita",
+        "saya",
+        "mereka"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kata ganti nama diri ketiga yang digunakan untuk merujuk orang yang dihormati ialah",
+      "options": [
+        "kami",
+        "beliau",
+        "engkau",
+        "kamu"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kata ganti nama diri ketiga yang digunakan untuk merujuk raja ialah",
+      "options": [
+        "baginda",
+        "patik",
+        "beliau",
+        "tuanku"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kata ganti nama diri patik digunakan oleh rakyat apabila",
+      "options": [
+        "bercakap dengan raja",
+        "bercakap dengan rakan sebaya",
+        "bercakap tentang raja",
+        "bercakap dengan guru"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Akronim pawagam berasal daripada",
+      "options": [
+        "panggung wayang gamelan",
+        "pameran wayang gambar",
+        "panggung wajah gambar",
+        "panggung wayang gambar"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kata ganti nama diri kami digunakan apabila",
+      "options": [
+        "orang yang dilawan bercakap termasuk",
+        "merujuk seorang sahaja",
+        "orang yang dilawan bercakap tidak termasuk",
+        "merujuk orang yang dibicarakan"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara berikut, yang manakah BUKAN kata ganti nama diri?",
+      "options": [
+        "anda",
+        "dia",
+        "kalian",
+        "ini"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan poster di bawah, berapakah bilangan akronim dalam senarai acara dan penaja?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q16.png"
+    },
+    {
+      "q": "Berdasarkan poster di bawah, perkataan manakah ialah singkatan, bukan akronim?",
+      "options": [
+        "pawagam",
+        "KKM",
+        "MARA",
+        "kugiran"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q16.png"
+    },
+    {
+      "q": "Berdasarkan poster di bawah, akronim sukaneka terbentuk daripada gabungan",
+      "options": [
+        "suka dan kenangan",
+        "suka dan aneka",
+        "sukan dan kanak-kanak",
+        "sukan dan aneka"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q16.png"
+    },
+    {
+      "q": "Jadual di bawah menunjukkan akronim dan bentuk penuhnya. Apakah akronim X?",
+      "options": [
+        "taska",
+        "tabika",
+        "tadika",
+        "tasika"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q19.png"
+    },
+    {
+      "q": "Antara pernyataan berikut, yang manakah benar tentang akronim? I. Akronim dilafazkan sebagai satu perkataan. II. Akronim yang menjadi kata nama am ditulis dengan huruf kecil. III. Semua akronim ditulis dengan huruf besar. IV. SPM ialah contoh akronim.",
+      "options": [
+        "I, II dan IV sahaja",
+        "II dan IV sahaja",
+        "I dan II sahaja",
+        "I dan III sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ayat manakah menggunakan ejaan akronim dengan betul?",
+      "options": [
+        "Kakak gemar membaca Cerpen dalam majalah.",
+        "Kami menonton filem di Pawagam semalam.",
+        "Adik saya belajar di TADIKA berhampiran rumah.",
+        "Adik saya belajar di tadika berhampiran rumah."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan perbualan di bawah, apakah kata ganti nama diri yang sesuai bagi P, Q dan R?",
+      "options": [
+        "P: beliau, Q: kita, R: Mereka",
+        "P: saya, Q: mereka, R: Dia",
+        "P: anda, Q: kami, R: Kami",
+        "P: mereka, Q: anda, R: Kami"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q22.png"
+    },
+    {
+      "q": "Ayat manakah menggunakan kata ganti nama diri dengan betul?",
+      "options": [
+        "Dia orang sudah pulang ke kampung.",
+        "Beliau sedang menyalak di halaman rumah.",
+        "Kami akan menghadiri ceramah kesihatan itu esok.",
+        "Mereka-mereka akan hadir ke majlis itu."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Baca petikan. Saya cemburu melihat rambut rakan-rakan yang lebat dan berkilat. Apabila saya bertanya kepada mereka tentang tip penjagaan rambut, antara jawapan yang diberikan ialah kita hendaklah mengelakkan makanan berminyak. Oleh itu, jika anda menyukai makanan berminyak, ubahlah tabiat itu. Apakah kata ganti nama diri ketiga dalam petikan?",
+      "options": [
+        "mereka",
+        "kita",
+        "saya",
+        "anda"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Baca petikan. Saya cemburu melihat rambut rakan-rakan yang lebat dan berkilat. Apabila saya bertanya kepada mereka tentang tip penjagaan rambut, antara jawapan yang diberikan ialah kita hendaklah mengelakkan makanan berminyak. Oleh itu, jika anda menyukai makanan berminyak, ubahlah tabiat itu. Apakah kata ganti nama diri kedua dalam petikan?",
+      "options": [
+        "kita",
+        "saya",
+        "anda",
+        "mereka"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Jadual di bawah menunjukkan penggolongan kata ganti nama diri. Perkataan manakah diletakkan dalam lajur yang SALAH?",
+      "options": [
+        "beliau",
+        "kalian",
+        "kamu",
+        "kita"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q26.png"
+    },
+    {
+      "q": "Ibu berkata kepada Ali dan adiknya, \"______ berdua mesti tidur awal malam ini.\" Pilih kata ganti nama diri yang betul.",
+      "options": [
+        "Kami",
+        "Kamu",
+        "Kita",
+        "Mereka"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sultan Ahmad berangkat ke majlis itu. ______ disambut oleh pengetua di pintu dewan. Pilih kata ganti nama diri yang betul.",
+      "options": [
+        "Patik",
+        "Dia",
+        "Baginda",
+        "Beliau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Perkataan manakah ialah akronim yang telah menjadi kata nama am?",
+      "options": [
+        "KKM",
+        "MARA",
+        "cerpen",
+        "ASEAN"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ayat manakah mengandungi kata ganti nama diri pertama DAN kata ganti nama diri ketiga?",
+      "options": [
+        "Anda perlu menjaga kebersihan.",
+        "Saya memberikan buku itu kepada mereka.",
+        "Kita mesti membantu kalian.",
+        "Kamu dan dia akan ke kantin."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mengapakah MARA ditulis dengan huruf besar semua tetapi kugiran ditulis dengan huruf kecil?",
+      "options": [
+        "MARA ialah akronim nama khas daripada huruf awal, manakala kugiran ialah kata nama am",
+        "MARA ialah singkatan, manakala kugiran ialah akronim",
+        "MARA lebih penting daripada kugiran",
+        "kugiran berasal daripada bahasa asing"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Pilih kata ganti nama diri yang paling sesuai untuk iklan kempen kesihatan yang ditujukan kepada orang ramai: \"Jagalah kesihatan ______!\"",
+      "options": [
+        "mereka",
+        "anda",
+        "engkau",
+        "kau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ketua pengawas berkata kepada pengetua, \"Tuan, ______ akan membersihkan kawasan sekolah pada hari Sabtu.\" Kata ganti nama diri yang paling tepat ialah",
+      "options": [
+        "mereka",
+        "kalian",
+        "kami",
+        "kita"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berdasarkan perbualan di bawah, apakah kata ganti nama diri yang paling tepat bagi P, Q dan R?",
+      "options": [
+        "P: kami, Q: mereka, R: baginda",
+        "P: kita, Q: kami, R: mereka",
+        "P: kita, Q: mereka, R: beliau",
+        "P: anda, Q: mereka, R: baginda"
+      ],
+      "marks": 1,
+      "image": "img/bahasa-melayu-tingkatan-2-tema-1/S1_Q34.png"
+    },
+    {
+      "q": "Seorang murid menulis: Kakak saya bekerja di TASKA, manakala abang saya bermain gitar dalam sebuah Kugiran. Apakah kesalahan dalam ayat itu?",
+      "options": [
+        "Tiada kesalahan dalam ayat itu",
+        "Kugiran betul tetapi TASKA salah",
+        "TASKA betul tetapi Kugiran salah",
+        "TASKA dan Kugiran sepatutnya ditulis dengan huruf kecil"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Antara pernyataan berikut, yang manakah benar? I. kita merangkumi orang yang dilawan bercakap. II. beliau boleh digunakan untuk haiwan. III. anda sesuai digunakan untuk khalayak umum. IV. Kata ganti nama diri boleh digandakan, contohnya mereka-mereka.",
+      "options": [
+        "I dan III sahaja",
+        "I, III dan IV sahaja",
+        "I dan II sahaja",
+        "II dan IV sahaja"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Baiki ayat ini: Dia orang telah menyertai jerayawara itu. Mereka-mereka berasa gembira. Pembetulan yang tepat ialah",
+      "options": [
+        "Mereka telah menyertai jerayawara itu. Mereka-mereka berasa gembira.",
+        "Mereka telah menyertai jerayawara itu. Mereka berasa gembira.",
+        "Dia orang telah menyertai jerayawara itu. Mereka berasa gembira.",
+        "Beliau-beliau telah menyertai jerayawara itu. Mereka berasa gembira."
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Kumpulan perkataan manakah semuanya akronim?",
+      "options": [
+        "tadika, SPM, MARA",
+        "KKM, cerpen, pawagam",
+        "Sdn. Bhd., taska, ASEAN",
+        "tadika, kugiran, MARA"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Seorang murid bercakap dengan rakannya tentang guru besar yang akan bersara. Kata ganti nama diri yang paling sesuai untuk merujuk guru besar itu ialah",
+      "options": [
+        "kamu",
+        "engkau",
+        "baginda",
+        "beliau"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Berapakah bilangan kata ganti nama diri dalam ayat ini? Saya dan Aminah akan membantu mereka, tetapi kamu perlu menunggu kami di sini.",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "marks": 1
+    }
+  ]
+}

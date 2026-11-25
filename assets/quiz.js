@@ -408,6 +408,21 @@
     return box;
   }
 
+  // Penerangan jalan kerja (pilihan): quizzes/penerangan/<id>.json = { "penerangan": ["...", ...] }
+  function tambahPenerangan(quiz) {
+    fetch('quizzes/penerangan/' + quiz.id + '.json', { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : null))
+      .then(d => {
+        const list = d && Array.isArray(d.penerangan) ? d.penerangan : [];
+        list.forEach((t, i) => {
+          const card = document.getElementById('q' + (i + 1));
+          if (card && t) card.append(el('div', { class: 'explain' },
+            el('strong', { text: '💡 Penerangan' }), el('p', { text: t })));
+        });
+      })
+      .catch(() => {});
+  }
+
   function showResult(quiz, form, result, nama) {
     nama.disabled = true;
     form.querySelectorAll('input').forEach(i => { i.disabled = true; });
@@ -426,6 +441,7 @@
         text: r.correct ? '✓ Betul' : (r.chosen ? '✗ Salah' : '✗ Tidak dijawab') }));
       if (!r.correct) card.append(el('p', { class: 'muted', text: 'Jawapan betul: ' + r.answer }));
     });
+    tambahPenerangan(quiz);
 
     const pct = result.total ? Math.round(result.score / result.total * 100) : 0;
     const [stars, words] = cheer(pct);

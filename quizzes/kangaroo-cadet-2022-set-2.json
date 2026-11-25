@@ -1,0 +1,99 @@
+{
+  "id": "kangaroo-cadet-2022-set-2",
+  "title": "Kangaroo Cadet 2022 Set 2",
+  "createdAt": "2026-11-25T14:19:57.467Z",
+  "questions": [
+    {
+      "q": "How many positive integers between 100 and 300 have only odd digits? / Berapakah bilangan integer positif antara 100 dan 300 yang mempunyai digit ganjil sahaja?",
+      "options": [
+        "25",
+        "50",
+        "75",
+        "100",
+        "150"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Gerard wrote down the sum of squares of two numbers, as shown. Unfortunately some of the digits cannot be seen because they are covered in ink. What is the last digit of the first number? / Gerard menulis jumlah kuasa dua bagi dua nombor seperti yang ditunjukkan. Malangnya, beberapa digit tidak dapat dilihat kerana ditutup dengan dakwat. Apakah digit terakhir bagi nombor pertama?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q10.png"
+    },
+    {
+      "q": "The distance between two shelves in the cupboard in Monica's kitchen is 36 cm. She knows that a stack of 8 of her favourite glasses is 42 cm tall and that a stack of 2 glasses is 18 cm tall. What is the largest number of glasses that can be stacked and still fit onto a shelf? / Jarak antara dua rak di dalam almari di dapur Monica ialah 36 cm. Dia tahu bahawa tinggi susunan 8 gelas kegemarannya ialah 42 cm dan tinggi susunan 2 gelas ialah 18 cm. Berapakah bilangan gelas terbanyak yang boleh disusun dan masih muat di atas rak?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q11.png"
+    },
+    {
+      "q": "On a standard dice, the sum of the numbers of dots on opposite faces is always 7. Four standard dice are glued together, as shown. What is the minimum number of dots that could lie on the whole surface? / Pada dadu biasa, jumlah titik pada permukaan yang bertentangan sentiasa 7. Empat dadu dilekatkan bersama seperti yang ditunjukkan. Apakah bilangan minimum titik yang mungkin pada seluruh permukaan?",
+      "options": [
+        "52",
+        "54",
+        "56",
+        "58",
+        "60"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q12.png"
+    },
+    {
+      "q": "Three sisters, whose average age is 10, each have different ages. When they get together in pairs, the average ages of two such pairs are 11 and 12. What is the age of the eldest sister? / Umur purata tiga adik-beradik perempuan ialah 10 tahun, masing-masing mempunyai umur yang berbeza. Apabila mereka berkumpul secara berpasangan, purata umur dua pasangan ialah 11 dan 12. Berapakah umur kakak sulung?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "14",
+        "16"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Tony the Gardener planted tulips and daisies in a square flowerbed with side length 12 m, arranged as shown. What is the total area of the regions in which he planted daisies? / Tony si pekebun menanam bunga tulip dan dahlia di dalam tapak semaian segi empat sama dengan panjang sisi 12 m, disusun seperti yang ditunjukkan. Berapakah jumlah luas kawasan bunga dahlia?",
+      "options": [
+        "48 m²",
+        "46 m²",
+        "44 m²",
+        "40 m²",
+        "36 m²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2022/K22_Q14.png"
+    },
+    {
+      "q": "In my office, there are two clocks. One clock gains one minute every hour and the other loses two minutes every hour. Yesterday I set them both to the correct time but when I looked at them today, I saw that the time shown on one was 11:00 and shown on the other was 12:00. What time was it when I set the two clocks? / Di pejabat saya terdapat dua jam dinding. Satu jam bertambah satu minit setiap jam dan satu lagi kehilangan dua minit setiap jam. Semalam saya menetapkan kedua-duanya pada masa yang betul. Apabila saya melihatnya hari ini, satu jam menunjukkan 11:00 dan satu lagi 12:00. Pada pukul berapakah saya menetapkan kedua-dua jam itu semalam?",
+      "options": [
+        "23:00",
+        "19:40",
+        "15:40",
+        "14:00",
+        "11:20"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Werner wrote several positive numbers smaller than 7 on a piece of paper. Ria then crossed out all Werner's numbers and replaced each of them with their difference from 7. The sum of Werner's numbers was 22. The sum of Ria's numbers is 34. How many numbers did Werner write down? / Werner menulis beberapa nombor positif yang lebih kecil daripada 7 pada sehelai kertas. Ria memotong kesemua nombor itu dan menggantikan setiap satu dengan perbezaannya daripada 7. Jumlah nombor Werner ialah 22. Jumlah nombor Ria ialah 34. Berapakah bilangan nombor yang Werner tulis?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "marks": 1
+    }
+  ]
+}

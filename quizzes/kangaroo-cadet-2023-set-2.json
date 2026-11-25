@@ -1,0 +1,99 @@
+{
+  "id": "kangaroo-cadet-2023-set-2",
+  "title": "Kangaroo Cadet 2023 Set 2",
+  "createdAt": "2026-11-25T14:21:13.810Z",
+  "questions": [
+    {
+      "q": "We assign each letter in the series AGKNORU (in alphabetical order) to a different digit, which is arranged in increasing order. What is the biggest number one can assign to the word KANGOUROU? / Huruf-huruf dalam siri AGKNORU (dalam susunan abjad) digantikan dengan digit-digit yang berbeza, yang tersusun dalam susunan menaik. Apakah nombor terbesar yang boleh menggantikan perkataan KANGOUROU?",
+      "options": [
+        "987654321",
+        "987654354",
+        "436479879",
+        "536479879",
+        "597354354"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Some crows are sitting on a number of poles in the back of the garden, one crow on each pole. For one crow there is unfortunately no pole. Some time later, the same crows are sitting in pairs on the poles. Now there is one pole without a crow. How many poles are there in the back of the garden? / Sebilangan burung gagak sedang duduk di atas beberapa tiang di belakang taman, seekor burung gagak pada setiap tiang. Malangnya tiada tiang untuk seekor burung gagak. Beberapa ketika kemudian burung-burung yang sama duduk berpasangan di atas tiang-tiang tersebut. Sekarang ada satu tiang tanpa burung gagak. Berapakah bilangan tiang yang terdapat di belakang taman itu?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The figure shows five equal semicircles and the lengths of some line segments. What is the radius of each semicircle? / Rajah berikut menunjukkan lima semibulatan yang sama dan panjang beberapa tembereng garis. Berapakah jejari setiap semibulatan itu?",
+      "options": [
+        "12",
+        "16",
+        "18",
+        "22",
+        "36"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q11.png"
+    },
+    {
+      "q": "Tom, John and Lily each shot six arrows at a target. Arrows hitting anywhere within the same ring score the same number of points. Tom scored 46 points and John scored 34 points, as shown. How many points did Lily score? / Tom, John dan Lily masing-masing menembak enam anak panah ke sasaran. Anak panah yang mengenai gelang sasaran yang sama akan mendapat bilangan mata yang sama. Tom mendapat 46 mata dan John mendapat 34 mata, seperti yang ditunjukkan. Berapakah mata yang diperoleh Lily?",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q12.png"
+    },
+    {
+      "q": "Angelo drew two lines meeting at a right angle. What is the smallest number of extra lines he could draw inside his right angle, as shown, so that for any of the values 10°, 20°, 30°, 40°, 50°, 60°, 70° and 80°, a pair of lines can be chosen with the angle between them equal to that value? / Angelo melukis dua garisan yang bertemu pada sudut tegak. Berapakah bilangan terkecil garis tambahan yang boleh dilukisnya di dalam sudut tegak tersebut, seperti yang ditunjukkan, supaya bagi mana-mana nilai 10°, 20°, 30°, 40°, 50°, 60°, 70° dan 80°, sepasang garis boleh dipilih agar sudut di antara pasangan garis tersebut sama dengan nilai tersebut?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q13.png"
+    },
+    {
+      "q": "The sum of 2023 consecutive integers is 2023. What is the sum of digits of the largest of these integers? / Hasil tambah bagi 2023 integer yang berturutan ialah 2023. Apakah hasil tambah digit-digit bagi nombor yang terbesar di kalangan integer-integer tersebut?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which number when squared is increased by 500%? / Nombor apakah yang meningkat sebanyak 500% apabila dikuasaduakan?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "If you choose three numbers from the grid shown so that you have one number from each row and also one number from each column, and then add the three numbers together, what is the largest total that can be obtained? / Jika anda memilih tiga nombor daripada grid yang ditunjukkan dengan syarat anda memilih satu nombor daripada setiap baris dan satu nombor daripada setiap lajur, dan kemudian menambahkan ketiga-tiga nombor tersebut, apakah hasil tambah terbesar yang anda mungkin peroleh?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "21",
+        "24"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q16.png"
+    }
+  ]
+}

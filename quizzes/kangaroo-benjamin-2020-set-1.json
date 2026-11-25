@@ -1,0 +1,101 @@
+{
+  "id": "kangaroo-benjamin-2020-set-1",
+  "title": "Kangaroo Benjamin 2020 Set 1",
+  "createdAt": "2026-11-25T14:23:27.192Z",
+  "questions": [
+    {
+      "q": "Which piece completes the pattern? / Kepingan manakah yang melengkapkan corak berikut?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q01.png"
+    },
+    {
+      "q": "As Amira is walking from Atown to Betown she passes the five signposts shown. Which one of the signposts is incorrect? / Ketika Amira berjalan dari Atown ke Betown, dia melalui lima papan tanda berikut. Papan tanda manakah yang salah?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q02.png"
+    },
+    {
+      "q": "A large square is made up of smaller white and grey squares. What does the large square look like if the colours of the white and grey squares are interchanged? / Suatu segi empat sama besar terdiri daripada segi empat sama kecil berwarna putih dan kelabu. Bagaimanakah rupa segi empat sama besar itu jika warna putih dan kelabu saling bertukar?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q03.png"
+    },
+    {
+      "q": "Mikas wants to bake 24 muffins for his birthday party. To bake six muffins two eggs are needed. Eggs are sold in boxes of six. How many boxes does Mikas need to buy? / Mikas mahu membakar 24 muffin untuk pesta hari jadinya. Dia memerlukan dua biji telur untuk enam muffin. Telur dijual 6 biji dalam satu kotak. Berapakah bilangan kotak yang perlu dibeli oleh Mikas?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Flora reflects the letter F on the two lines shown. What will the reflections look like? / Flora memantulkan huruf F pada dua garisan seperti yang ditunjukkan. Bagaimanakah rupa pantulan tersebut?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q05.png"
+    },
+    {
+      "q": "Kim has several chains of length 5 and of length 7. By joining chains, Kim can create different lengths. Which of these lengths is impossible to make? / Kim mempunyai beberapa rantai dengan panjang 5 dan panjang 7. Dengan menyambungkan rantai, Kim dapat menghasilkan pelbagai panjang. Antara berikut, panjang manakah yang mustahil dihasilkan?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q06.png"
+    },
+    {
+      "q": "Maria has 10 sheets of paper. She cuts some of the sheets into five parts each. After that, Maria has 22 pieces in total. How many sheets did she cut? / Maria mempunyai 10 keping kertas. Dia memotong beberapa keping kertas menjadi lima bahagian setiap satu. Selepas itu, Maria mempunyai 22 keping kertas kesemuanya. Berapakah bilangan kertas yang dipotong?",
+      "options": [
+        "3",
+        "2",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Cindy colours each region of the pattern either red, blue or yellow. She colours regions that touch each other with different colours. She colours the outer region blue. How many regions of the completed pattern are coloured blue? / Cindy mewarnakan setiap kawasan corak dengan warna merah, biru atau kuning. Kawasan yang bersentuhan diwarnakan dengan warna berbeza. Dia mewarnakan kawasan paling luar dengan warna biru. Berapakah bilangan kawasan yang diwarnakan biru?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q08.png"
+    }
+  ]
+}

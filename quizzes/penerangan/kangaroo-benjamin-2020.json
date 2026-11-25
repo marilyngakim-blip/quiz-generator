@@ -1,0 +1,28 @@
+{
+ "penerangan": [
+  "Lengkapkan corak dengan melihat setiap bucu kepingan yang hilang:\nBucu kiri atas: bentuk 'U'. Bucu kiri bawah: titik tajam.\nBucu kanan atas: titik tajam. Bucu kanan bawah: bentuk lengkung.\nKepingan yang sepadan ialah E.",
+  "Jarak ke Atown ditambah jarak ke Betown mesti sama pada setiap papan tanda (jumlah jarak Atown–Betown).\n(A) 2 + 9 = 11, (B) 3 + 8 = 11, (C) 5 + 6 = 11, (D) 8 + 3 = 11, (E) 9 + 4 = 13.\nPapan E salah.",
+  "Lukis grid yang sama dan isi setiap petak dengan warna bertentangan (putih → kelabu, kelabu → putih).\nGrid yang sepadan ialah D.",
+  "6 muffin perlu 2 telur, jadi 24 muffin perlu 2 × 4 = 8 telur.\nSatu kotak = 6 telur, jadi 8 telur perlu 2 kotak.",
+  "Pantulkan huruf F pada garis menegak (kiri-kanan terbalik) dan pada garis mendatar (atas-bawah terbalik), menggunakan garisan grid untuk membantu.\nHasil pantulan sepadan dengan pilihan E.",
+  "10 = 5 + 5. 12 = 5 + 7. 14 = 7 + 7. 15 = 5 + 5 + 5.\n13 tidak boleh dibentuk dengan gabungan 5 dan 7.",
+  "Setiap kertas yang dipotong menjadi 5 keping, iaitu bertambah 4 keping.\n22 − 10 = 12 keping tambahan → 12 ÷ 4 = 3 kertas dipotong.",
+  "Warnakan kawasan dari luar ke dalam dengan syarat kawasan bersentuhan berwarna berbeza (seperti rajah dalam skema).\nKawasan biru: kawasan luar dan dua kawasan lain, jumlah 3.",
+  "Jumlah epal = 1 + 4 + 6 + 9 = 20, jadi setiap bakul perlu 5 biji.\nBakul 6 memberi 1, bakul 9 memberi 4: jumlah dialihkan = 1 + 4 = 5 biji.",
+  "Laluan tebal ada 20 segmen. Arnab bergerak 3 segmen setiap kali kucing bergerak 1.\nMereka bertemu apabila jumlah jarak = 20: arnab 15, kucing 5.\nDari P, 15 segmen sepanjang laluan sampai ke titik E.",
+  "Elise keluar pada 20:20. Apabila tergantung terbalik, paparan 02:02 kelihatan seperti 20:20.\nDari 20:20 hingga 02:02 = 3 jam 40 minit (hingga 24:00) + 2 jam 2 minit = 5 jam 42 minit.",
+  "Kiub besar 3 × 3 × 3 = 27 kiub kecil: 10 putih, 9 kelabu cerah, 8 kelabu gelap.\nDalam pilihan B, 9 kiub kelabu cerah boleh diletakkan di sebelah kiri dan 8 kelabu gelap tersembunyi, manakala 10 kiub putih kelihatan. Pilihan lain menunjukkan terlalu banyak kiub satu warna.",
+  "Bandingkan bahagian laluan: lengkung bulatan luar (L), tengah (M), dalam (S), garis menegak (X) dan mendatar (Y).\nLaluan B, C dan E menggunakan jumlah bahagian paling sedikit (10). Daripada ketiga-tiga ini, C menggunakan kurang lengkung bulatan luar (yang paling panjang).\nJadi laluan C paling pendek.",
+  "Selepas x tahun: bapa 36 + x, anak-anak (13 + 6 + 4) + 3x = 23 + 3x.\nSama apabila 36 + x = 23 + 3x → 2x = 13 → x = 6.5.\nUntuk menang (lebih daripada bapa), perlu 7 tahun.",
+  "Cuba pantulkan dan terbalikkan dua dawai itu untuk membentuk setiap pilihan. Pilihan A, B, C dan D boleh dibentuk, tetapi E tidak dapat dibentuk dengan dua dawai yang sama.",
+  "Chloe, Diana dan Fiona masing-masing ada 4 kawan, jadi mereka ialah nombor yang mempunyai 4 garisan: 1, 3 dan 4.\nBeatrice berkawan dengan Chloe dan Diana sahaja → nombor dengan 2 garisan yang bersambung ke dua daripada 1, 3, 4: nombor 5 (bersambung ke 1 dan 4).\nJadi 1 dan 4 ialah Chloe dan Diana, dan Fiona ialah 3.",
+  "Semua bekas sama tinggi dan jumlah cecair sama. Bekas dengan paras cecair paling rendah (III) mesti mempunyai tapak paling luas, dan bekas dengan paras paling tinggi (II) mempunyai tapak paling kecil.\nPilihan A menunjukkan III paling besar dan II paling kecil.",
+  "Lihat objek dari atas: bahagian atas menjadi heksagon kecil di tengah, tapak menjadi heksagon besar di luar, dan setiap batang hitam atau kelabu kekal pada kedudukannya.\nPandangan yang sepadan ialah B.",
+  "Sisi segi empat sama besar = 28 cm.\nSegi empat sama kecil pertama: 28 − 22 = 6 cm. Yang ketiga: 28 − 15 = 13 cm.\nYang kedua: 28 − 6 − 13 = 9 cm.\nGaris bertanda soal = 28 − 9 = 19 cm.",
+  "Langkah 1: terbalikkan 2 hitam dan 1 putih → 3 hitam, 6 putih.\nLangkah 2: terbalikkan 3 hitam → 9 putih.\nJadi 2 langkah sudah cukup (1 langkah tidak mungkin kerana 4 hitam).",
+  "Katakan segi tiga = a, rumah (anak panah) = b, segi empat = c, bulatan = d.\nNeraca 1: a + b = c + 2d. Neraca 2: 3c = d + 2a.\nTambah kedua-duanya: a + b + 3c = c + 2d + d + 2a → 2c + b = 3d + a.\nNeraca ketiga (2 segi empat + rumah) seimbang dengan 3 bulatan + 1 segi tiga = pilihan C.",
+  "Katakan x = perlawanan yang telah dimainkan.\nMenang ½x, kalah ⅓x, seri 2: ½x + ⅓x + 2 = x → ⅙x = 2 → x = 12.\nBaki = 15 − 12 = 3 perlawanan.",
+  "Lipat kertas mengikut arahan dan tulis 1 hingga 9 dari lapisan atas ke bawah. Kemudian buka lipatan dan baca nombor di setiap petak:\n1 6 7 / 2 5 8 / 3 4 9.\nJadi a = 6, b = 4, c = 8.",
+  "Lapisan bawah (3 × 3): 12 titik sentuhan antara bola bersebelahan.\nLapisan tengah (2 × 2): 4 titik sentuhan sesama sendiri, dan 16 titik sentuhan dengan lapisan bawah (setiap bola menyentuh 4 bola di bawah).\nBola atas: 4 titik sentuhan dengan lapisan tengah.\nJumlah = 12 + 4 + 16 + 4 = 36."
+ ]
+}

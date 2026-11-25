@@ -1,0 +1,28 @@
+{
+ "penerangan": [
+  "Terdapat 4 bata berwarna dan 2 bata tidak berwarna. Bentuk yang betul mesti menunjukkan bata yang konsisten dengan 4 bata berwarna dan 2 bata putih. Hanya pilihan D sepadan.",
+  "Labelkan setiap pegangan sebagai tangan kiri (L) atau kanan (R) bagi kedua-dua kanak-kanak.\nSusunan dari kiri: LR – LR – RL – RL – RL – LR – RL.\nHanya 1 tempat kedua-dua kanak-kanak memegang dengan tangan kiri.",
+  "Mula di bintang dan tulis digit mengikut laluan (grid: 1 2 3 / 4 5 6 / 7 8 9):\n(A) 15786, (B) 98542, (C) 26847, (D) 65742, (E) 98651.\nNombor terbesar ialah 98651, iaitu garisan E.",
+  "Kotak 3 hanya ada N, jadi N diambil dari kotak 3.\nKotak 1 (N atau E): mesti E (N sudah diambil). Kotak 5 (U atau E): mesti U.\nKotak 2 memberi K, maka kotak 4 mesti memberi G.",
+  "Kepingan '0' rata di kanan, jadi ia terakhir. Kepingan '1' rata di kiri, jadi ia pertama. Kepingan '+' mempunyai dua sisi yang sama, jadi ia di tengah menyambung dua kepingan '2'.\nPengiraan: 12 + 20 = 32.",
+  "Kira beza nombor pada setiap pusingan pita: setiap baris bertambah lebih kurang 10–11.\nBaris 1: 1–11, baris 2: 22–32, baris 3: 43–53, baris 4: 64–74.\nTanda soal berada di tengah baris 4: (64 + 74) ÷ 2 = 69.",
+  "Pintu G hanya 3 lajur lebar, jadi hanya bentuk B atau D boleh muat. Kedua-duanya perlu bergerak dari kanan ke kiri, kemudian ke atas.\nDi sebelah kiri dan kanan baris ketiga D terdapat halangan, jadi D tidak boleh bergerak. B boleh bergerak satu baris ke kiri dan keluar.\nJawapan: B.",
+  "Nisbah hijau kepada jumlah cat bagi setiap campuran:\n1/4, 2/8, 3/12, 4/16 — semuanya sama dengan ¼.\nJadi kesemuanya sama gelap.",
+  "Buka balik lipatan dalam pelbagai cara. Segi tiga kecil boleh berasal daripada segi empat tepat (P) yang panjangnya dua kali lebarnya, segi empat sama (Q), atau segi tiga besar (R), bergantung pada garis lipatan.\nJadi mana-mana P, Q atau R mungkin.",
+  "Bahagikan segi empat sama kepada grid 8 × 8 = 64 petak kecil.\n⅛ × 64 = 8 petak.\nKawasan berwarna yang meliputi 8 petak ialah pilihan D.",
+  "Cuba potongan yang memberikan nombor dengan digit sedikit:\n5 + 02197 + 2970 = 5172.\n502 + 1972 + 970 = 3444.\n3244 tidak mungkin, jadi jumlah terkecil = 3444.",
+  "Tambahkan tiga lawatan pertama dan tolak lawatan keempat; laluan dalam (Zoo–Taman–Pelabuhan) dibatalkan dan tinggal laluan luar A–B–C–A.\n10 + 12 + 13 − 15 = 20 km.",
+  "Kepingan A, B dan E mempunyai sambungan tengah yang sama, jadi mungkin. C juga mungkin selepas diputar.\nKepingan D tidak dapat menyambungkan laluan, jadi D tidak mungkin.",
+  "Heksagon kiri: 3 + 6 + 1 + 2 + a + b = 30 → a + b = 18.\nHeksagon kanan: 4 + 6 + 9 + 4 + c + d = 30 → c + d = 7.\nHeksagon tengah: a + b + c + d + 1 + ? = 30 → 18 + 7 + 1 + ? = 30 → ? = 4.",
+  "Dua segi empat tepat pertama: 12 + 18 = 30 cm², lebar AB = 6 cm, jadi tinggi = 5 cm.\nLebar pertama = 12 ÷ 5 = 2.4 cm, jadi lebar kedua = 6 − 2.4 = 3.6 cm.\nLebar ketiga = 22 ÷ 5 = 4.4 cm.\nCD = 3.6 + 4.4 = 8 cm.",
+  "Ronja dan Wanja bergilir-gilir, jadi warna token dalam timbunan (dari bawah) mesti berselang-seli secara keseluruhan pada baris pertama dan kedua dari atas.\nSusunan E melanggar syarat ini, jadi E tidak boleh dihasilkan.",
+  "Digit 0–9 tersusun dalam bulatan. Memutar setiap bahagian dengan jumlah dan arah yang sama bermaksud setiap digit berubah dengan jumlah yang sama (selepas 9 kembali ke 0).\nBandingkan setiap pilihan dengan 6348: beza setiap digit mesti sama.\n(A) 8560: +2 setiap digit ✓ (6→8, 3→5, 4→6, 8→0). (B) 3015: +7 ✓. (D) 1893: +5 ✓. (E) 0782: +4 ✓.\n(C) 4906: 6→4 (+8), 3→9 (+6) — tidak sama. Jadi C tidak mungkin.",
+  "Jumlah buah 40, Carl mengambil 20, Luca mengambil 20.\nJika Carl dapat x epal, dia dapat 20 − x pir. Luca dapat 20 − x epal.\nJadi pir Carl (20 − x) sentiasa sama dengan epal Luca (20 − x).",
+  "Bob tidak bersebelahan Ann atau Dan, jadi jiran Bob ialah Carina dan Ed.\nDan bersebelahan Ed. Susunan: Bob, Ed, Dan, Ann, Carina (bulat).\nCarina duduk di antara Ann dan Bob.",
+  "Telur: 25 biji untuk 100 → 6 biji untuk 24 lempeng.\nTepung: 5 kg untuk 100 → 0.4 kg untuk 8 lempeng.\nSusu: 4 L untuk 100 → 0.5 L untuk 12.5 lempeng.\nMentega: 1 kg untuk 100 → 0.2 kg untuk 20 lempeng.\nBahan paling terhad ialah tepung: 8 lempeng.",
+  "Gear terkecil mempunyai 10 gigi; satu pusingan lengkap menggerakkan 10 gigi bagi setiap gear.\nGear atas kiri berputar ikut arah jam 10 gigi, gear atas kanan juga 10 gigi ikut arah jam, gear bawah 10 gigi lawan arah jam.\nKedudukan gigi hitam selepas itu ialah pilihan A.",
+  "Epal + oren = pir + pic. Daripada dua ketaksamaan:\nEpal + pir < oren + pic → pir < oren (kerana epal − pic = pir − oren).\nPir + oren < epal + pic → oren < pic.\nEpal = pir + pic − oren < pic.\nJadi pic paling berat.",
+  "Lukis empat paksi simetri pada grid 6 × 6: satu menegak, satu mendatar dan dua pepenjuru.\nSetiap petak berlorek mesti dipantulkan pada semua paksi. Apabila semua pantulan dua petak yang diberi dan petak yang terhasil dilorek, petak yang perlu ditambah boleh dinomborkan 1 hingga 21 (seperti dalam skema).\nJadi 21 petak perlu ditambah.",
+  "Setiap muka 7 × 7 mempunyai 13 petak pada kedua-dua pepenjuru: 4 petak bucu dan 9 petak dalam.\nKubus bucu: 8 (dikongsi oleh 3 muka). Petak dalam pada setiap muka: 9 × 6 = 54.\nJumlah = 8 + 54 = 62."
+ ]
+}

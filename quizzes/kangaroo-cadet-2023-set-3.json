@@ -1,0 +1,100 @@
+{
+  "id": "kangaroo-cadet-2023-set-3",
+  "title": "Kangaroo Cadet 2023 Set 3",
+  "createdAt": "2026-11-25T14:21:40.762Z",
+  "questions": [
+    {
+      "q": "Tom and Jerry cut two equal rectangles. Tom got two rectangles with a perimeter of 40 cm each, and Jerry got two rectangles with a perimeter of 50 cm each. What is the perimeter of each of the initial rectangles? / Tom dan Jerry memotong dua segi empat tepat yang sama. Tom mendapat dua segi empat tepat dengan perimeter 40 cm setiap satu, dan Jerry mendapat dua segi empat tepat dengan perimeter 50 cm setiap satu. Apakah perimeter bagi setiap segi empat tepat yang asal?",
+      "options": [
+        "40 cm",
+        "50 cm",
+        "60 cm",
+        "80 cm",
+        "90 cm"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "What fraction of the largest square is shaded? / Berapakah pecahan segi empat sama terbesar yang berlorek?",
+      "options": [
+        "¼",
+        "π/12",
+        "(π + 2)/16",
+        "π/4",
+        "⅓"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q18.png"
+    },
+    {
+      "q": "In the figure, the five circles have the same radii and touch as shown. The small square joins the centres of the four outer circles. The ratio of the area of the shaded parts of all five circles to the area of the unshaded parts of all five circles is / Dalam rajah berikut, lima bulatan mempunyai jejari yang sama dan bersentuhan seperti yang ditunjukkan. Segi empat sama kecil tersebut terhasil dengan menyambungkan pusat-pusat bagi empat bulatan di luar. Nisbah luas bahagian berlorek bagi kesemua lima bulatan kepada luas bahagian tidak berlorek bagi kesemua lima bulatan ialah",
+      "options": [
+        "1 : 3",
+        "1 : 4",
+        "2 : 5",
+        "2 : 3",
+        "5 : 4"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q19.png"
+    },
+    {
+      "q": "Three equilateral triangles of the same size are cut from the corners of a big equilateral triangle with sides of 6 cm. The three small triangles together have the same perimeter as the remaining grey hexagon. What is the length of the side of each small triangle? / Tiga segi tiga sama sisi yang sama saiz dipotong daripada bucu suatu segi tiga sama sisi yang lebih besar dengan panjang sisi 6 cm. Tiga segi tiga kecil tersebut mempunyai jumlah perimeter yang sama dengan perimeter heksagon berwarna kelabu. Berapakah panjang sisi bagi setiap segi tiga kecil itu?",
+      "options": [
+        "1 cm",
+        "1.2 cm",
+        "1.25 cm",
+        "1.5 cm",
+        "2 cm"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q20.png"
+    },
+    {
+      "q": "Bart wrote the number 1015 as a sum of numbers using only the digit 7. He used a 7 a total of 10 times, as shown. Now he wants to write the number 2023 as a sum of numbers using only the digit 7, using digit 7 a total of 19 times. How many times will he use the number 77? / Bart menulis nombor 1015 sebagai hasil tambah nombor-nombor yang hanya menggunakan digit 7. Dia menggunakan digit 7 sebanyak 10 kali, seperti yang ditunjukkan. Sekarang dia mahu menulis nombor 2023 sebagai hasil tambah nombor-nombor yang hanya menggunakan digit 7, menggunakan digit 7 sebanyak 19 kali. Berapa kalikah dia akan menggunakan nombor 77?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q21.png"
+    },
+    {
+      "q": "Jake wrote six consecutive numbers onto six white pieces of paper, one number on each piece. He stuck these bits of paper onto the top and bottom of three coins. Then he tossed these three coins three times. On the first toss, he saw the numbers 6, 7 and 8, as shown, and then coloured them red. On the second toss, the sum of the numbers he saw was 23 and on the third toss the sum was 17. What was the sum of the numbers on the remaining three white pieces of paper? / Jake menulis enam nombor yang berturutan pada enam cebisan kertas berwarna putih, iaitu satu nombor pada setiap cebisan. Dia melekatkan cebisan-cebisan kertas ini pada bahagian atas dan bawah bagi tiga keping syiling. Kemudian dia melambungkan ketiga-tiga syiling ini sebanyak tiga kali. Pada lambungan pertama, dia melihat nombor 6, 7 dan 8, seperti tertera, kemudian dia mewarnakan cebisan-cebisan tersebut dengan warna merah. Pada lambungan kedua, jumlah nombor yang dilihatnya ialah 23 dan pada lambungan ketiga, jumlahnya ialah 17. Berapakah jumlah nombor pada baki tiga cebisan kertas yang berwarna putih?",
+      "options": [
+        "18",
+        "19",
+        "23",
+        "24",
+        "30"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2023/K23_Q22.png"
+    },
+    {
+      "q": "A broken calculator does not display the digit 1. For example, if we type in the number 3131, only the number 33 is displayed, with no spaces. Mike typed a 6-digit number into that calculator, but only 2007 appeared on the display. How many numbers are there that Mike could have typed? / Suatu kalkulator yang rosak tidak boleh memaparkan digit 1. Contohnya, jika kita menaip nombor 3131, hanya nombor 33 yang dipaparkan, tanpa ruang di antaranya. Mike menaip suatu nombor 6 digit pada kalkulator itu, tetapi hanya 2007 muncul pada paparannya. Berapakah bilangan nombor yang mungkin ditaip oleh Mike?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A class has at most 50 students. The teacher forms some pairs (one boy and one girl) among the students. It is known that 3/4 of all the boys are paired with 4/5 of all the girls in the class. How many students altogether are forming the pairs? / Satu kelas mempunyai tidak lebih daripada 50 pelajar. Guru kelas tersebut membentuk beberapa pasangan (seorang lelaki dan seorang perempuan) di kalangan pelajar. Diketahui bahawa 3/4 daripada semua pelajar lelaki berpasangan dengan 4/5 daripada semua pelajar perempuan dalam kelas tersebut. Berapakah bilangan pelajar yang membentuk pasangan-pasangan tersebut?",
+      "options": [
+        "20",
+        "24",
+        "30",
+        "32",
+        "46"
+      ],
+      "marks": 1
+    }
+  ]
+}

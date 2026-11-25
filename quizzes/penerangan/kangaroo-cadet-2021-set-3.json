@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Jika semua 20 betul = 140 mata. Cuba kombinasi:\n16 betul (112) + 3 salah (−12) + 1 kosong (0) = 100. ✓\nJadi 1 soalan dibiarkan kosong.",
+  "Sudut 45° bermaksud lipatan membentuk segi empat sama 4 × 4 di sudut.\nKatakan P = x × 4 dan Q = y × 4 dengan x = 2y (kerana P = 2Q).\nPanjang jalur: x + 4 + y = 13 → 2y + 4 + y = 13 → y = 3, x = 6.",
+  "Katakan pecahan asal N/D, penyebut baru xD.\n1.4N ÷ (xD) = 2 × (N/D) → 1.4 = 2x → x = 0.7.\nPenyebut menjadi 70%, jadi berkurang 30%.",
+  "Selesaikan digit dari kanan: E × 3 berakhir dengan 2 → E = 4 (12, bawa 1).\nD × 3 + 1 berakhir dengan 4 → D = 1. C × 3 berakhir dengan 1 → C = 7 (21, bawa 2).\nB × 3 + 2 berakhir dengan 7 → B = 5 (17, bawa 1). A × 3 + 1 berakhir dengan 5 → A = 8.\nNombor: 285714 × 3 = 857142.\nJumlah digit = 2 + 8 + 5 + 7 + 1 + 4 = 27.",
+  "Setiap pentagon dikelilingi oleh 5 heksagon, dan setiap heksagon bersentuhan dengan 3 pentagon.\nBilangan heksagon = 12 × 5 ÷ 3 = 20.",
+  "Setiap kali pepenjuru menembusi satu muka, ia masuk ke kubus baharu. Dari P ke Q ia melepasi 2 muka (dimensi 3), 3 muka (dimensi 4) dan 4 muka (dimensi 5).\nBilangan kubus = 1 + 2 + 3 + 4 = 10.\n(Atau: 3 + 4 + 5 − 2 = 10.)",
+  "Pasangan satria–satria atau pembohong–pembohong: kedua-duanya dipanggil satria. Pasangan satria–pembohong: kedua-duanya dipanggil pembohong.\n20 orang dipanggil pembohong → 10 pasangan bercampur (guna 10 satria dan 10 pembohong).\nBaki satria = 11. Pasangan satria–satria perlu bilangan genap, jadi seorang satria tidak berpasangan dan 10 satria membentuk 5 pasangan.\nBaki pembohong = 2000 − 10 = 1990 → 1990 ÷ 2 = 995 pasangan pembohong.",
+  "Lukis garis dari K ke bucu-bucu segi empat besar. Segi tiga yang mempunyai tapak dua kali ganda dan tinggi sama mempunyai luas dua kali ganda.\nKatakan e, f, g, k ialah luas segi tiga kecil seperti dalam skema.\n18 = 2e + 2k → e + k = 9. 10 = 2f + 2g → f + g = 5.\nJumlah: e + f + g + k = 14. Diberi 8 = e + f.\nLuas berlorek = g + k = 14 − 8 = 6."
+ ]
+}

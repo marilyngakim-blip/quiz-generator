@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Bilangan mancis bagi setiap digit: 1 perlu 2 batang, 7 perlu 3 batang, 8 perlu 7 batang.\nNombor dengan lebih banyak digit lebih besar. 711 menggunakan 3 + 2 + 2 = 7 batang, jadi 711 ialah yang terbesar. (800 memerlukan 19 batang.)",
+  "Pita yang berada di atas diletakkan kemudian.\nP menutup M, N dan Q → P terakhir.\nQ menutup M dan N.\nM menutup N → N pertama.\nSusunan: N, M, Q, P.",
+  "6 tambah 3 dahulu, jadi perlu kurungan: (6 + 3).\nKemudian darab 2: (6 + 3) × 2.\nKemudian tambah 1: (6 + 3) × 2 + 1 = 19.",
+  "Perhatikan tepi mana pada bentangan bertemu apabila dilipat dan arah gambar kanggaru pada setiap muka. Lukis anak panah untuk menunjukkan tepi yang bersambung (ikut arah dalam soalan), kemudian bandingkan dengan setiap pilihan. Hanya kubus B sepadan.",
+  "Lukis pepenjuru BD. Sudut A dan C ialah sudut tegak, jadi segi empat ini terbahagi kepada dua segi tiga bersudut tegak.\nLuas segi tiga ABD = ½ × 11 × 3 = 16.5.\nLuas segi tiga BCD = ½ × 7 × 9 = 31.5.\nJumlah luas = 16.5 + 31.5 = 48.\n(Semak: BD² = 11² + 3² = 130 = 7² + 9².)\n(Nota: jalan kerja dalam skema buku menggunakan formula trapezium dan salah, tetapi hurufnya C betul.)",
+  "Sebelah kiri: nombor ganjil 1 hingga 39 = 20 rumah.\nSebelah kanan: nombor genap 2 hingga 34 = 17 rumah.\nJumlah = 20 + 17 = 37 rumah.",
+  "Ikut cara nombor 4 dipantulkan: cermin menegak menterbalikkan kiri-kanan, kemudian cermin mendatar menterbalikkan atas-bawah. Dua pantulan ini sama dengan memutar 5 sebanyak 180° (terbalik atas-bawah dan kiri-kanan). Itulah pilihan C.",
+  "Perimeter segi empat sama 20 cm → sisi = 5 cm.\nSegi empat tepat pertama: 5 cm × w, perimeter 2(5 + w) = 16 → w = 3 cm.\nSegi empat tepat kedua: 5 cm × (5 − 3) = 5 cm × 2 cm.\nPerimeter = 2(5 + 2) = 14 cm.\n(Nota: jalan kerja dalam skema buku tersilap kira, tetapi hurufnya D betul.)"
+ ]
+}

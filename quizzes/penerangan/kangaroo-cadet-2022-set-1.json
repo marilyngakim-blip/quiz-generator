@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Ikut laluan Meike dan lihat arah dia mengelilingi setiap pelampung.\nPelampung 1: lawan arah jam. Pelampung 2: ikut arah jam. Pelampung 3: ikut arah jam. Pelampung 4: lawan arah jam. Pelampung 5: ikut arah jam.\nJadi pelampung 2, 3 dan 5.",
+  "Untuk nombor terkecil, letak kepingan yang bermula dengan digit paling kecil di hadapan.\nSusunan terkecil: 109 | 31 | 4 | 59 | 8 = 109314598.\nKepingan paling kanan ialah 8.",
+  "Satu pusingan rutin: 3 + 3 + 1 + 1 + 1 = 9 unit. Dalam setiap 9 unit, Kengu mendarat pada baki 0, 3, 6, 7 dan 8 (bila dibahagi 9).\n82 ÷ 9 baki 1, 83 baki 2, 84 baki 3, 85 baki 4, 86 baki 5.\nHanya 84 (baki 3) ialah tempat mendarat.",
+  "Terbalikkan setiap plat (putar 180°). Digit 6 menjadi 9 dan 9 menjadi 6, manakala 0, H dan O kekal sama.\n60 HOH 09 diputar menjadi 60 HOH 09 semula. Plat lain berubah (contohnya 4, 3, N dan B tidak sama apabila diterbalikkan).",
+  "Sisi terpendek bata = 4 cm = tinggi satu lapisan. Ada 6 lapisan: 6 × 4 = 24 cm, jadi sisi kubus 24 cm.\nPada muka hadapan, 2 bata merentasi lebar: 24 ÷ 2 = 12 cm.\nPada muka sisi, 3 bata merentasi: 24 ÷ 3 = 8 cm.\nDimensi bata = 4 × 8 × 12.",
+  "Nomborkan bulatan beluncas 1 hingga 6 (hitam, putih, hitam, putih, hitam, putih). Bulatan bersebelahan mesti kekal bersentuhan apabila bergulung, dan warna mesti berselang-seli sepanjang badan. Hanya susunan A boleh dibentuk dengan menyambung 1 → 2 → 3 → 4 → 5 → 6 secara berturutan.",
+  "Cuba tanda tolak di setiap tempat:\n(A) 6 − 9 + 12 + 15 + 18 + 21 = 63\n(B) 6 + 9 − 12 + 15 + 18 + 21 = 57\n(C) 6 + 9 + 12 − 15 + 18 + 21 = 51\n(D) 6 + 9 + 12 + 15 − 18 + 21 = 45 ✓\n(E) 6 + 9 + 12 + 15 + 18 − 21 = 39\nJadi tanda tolak di antara 15 dan 18.",
+  "Kira bilangan pokok di kedua-dua belah setiap laluan selepas menambah pokok di setiap kawasan.\nJika ditanam di B: laluan (i) 3 dan 3, laluan (ii) 3 dan 3, laluan (iii) 3 dan 3 — semua sama.\nKawasan lain menyebabkan sekurang-kurangnya satu laluan tidak seimbang. Jadi kawasan B."
+ ]
+}

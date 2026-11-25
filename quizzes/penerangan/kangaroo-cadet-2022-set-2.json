@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Nombor antara 100 dan 300 bermula dengan 1 atau 2. Digit 2 genap, jadi digit pertama mesti 1.\nDigit kedua dan ketiga masing-masing ada 5 pilihan ganjil (1, 3, 5, 7, 9).\nBilangan = 1 × 5 × 5 = 25.",
+  "Lihat digit terakhir sahaja.\nNombor kedua berakhir dengan 2, jadi kuasa duanya berakhir dengan 4.\nJumlah berakhir dengan 9, jadi kuasa dua nombor pertama mesti berakhir dengan 5 (5 + 4 = 9).\nHanya nombor yang berakhir dengan 5 mempunyai kuasa dua berakhir dengan 5. Jadi digit terakhir ialah 5.",
+  "Setiap gelas tambahan menambah tinggi yang sama.\n8 gelas − 2 gelas = 6 gelas tambahan = 42 − 18 = 24 cm, jadi setiap gelas tambahan = 4 cm.\nGelas paling bawah = 18 − 4 = 14 cm.\nRuang untuk gelas tambahan = 36 − 14 = 22 cm → 22 ÷ 4 = 5.5, jadi 5 gelas tambahan.\nJumlah = 1 + 5 = 6 gelas.",
+  "Jumlah titik satu dadu = 1 + 2 + 3 + 4 + 5 + 6 = 21.\nDadu di hujung (A dan D) menyembunyikan satu muka: sembunyikan 6 → 21 − 6 = 15 titik kelihatan.\nDadu di tengah (B dan C) menyembunyikan dua muka bertentangan (jumlah 7) → 21 − 7 = 14 titik.\nJumlah minimum = 15 + 15 + 14 + 14 = 58.",
+  "Katakan umur x, y, z. Purata 10 → x + y + z = 30.\nPasangan pertama: x + y = 22. Pasangan kedua: y + z = 24.\nGantikan: (22 − y) + y + (24 − y) = 30 → 46 − y = 30 → y = 16.\nMaka x = 6, z = 8. Kakak sulung berumur 16 tahun.",
+  "Dua garis lurus bersilang di pusat tapak semaian (12 m × 12 m). Bahagikan tapak kepada 4 segi empat sama 6 m × 6 m.\nSetiap kawasan dahlia = 36 − 2 segi tiga (½ × 2 × 6 = 6 setiap satu) = 36 − 12 = 24 m².\nJumlah 2 kawasan dahlia = 2 × 24 = 48 m².",
+  "Satu jam laju 1 minit sejam, satu lagi lambat 2 minit sejam: bezanya bertambah 3 minit setiap jam.\nBeza sekarang 1 jam = 60 minit → 60 ÷ 3 = 20 jam telah berlalu.\nJam laju (12:00) terlebih 1 × 20 = 20 minit → masa sebenar 11:40.\n20 jam sebelum 11:40 ialah 15:40 semalam.",
+  "Setiap nombor Werner dan nombor Ria yang menggantikannya berjumlah 7.\nJadi jumlah semua nombor = 7 × n.\n22 + 34 = 56 = 7n → n = 8 nombor."
+ ]
+}

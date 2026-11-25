@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Buka balik lipatan dalam pelbagai cara. Segi tiga kecil boleh berasal daripada segi empat tepat (P) yang panjangnya dua kali lebarnya, segi empat sama (Q), atau segi tiga besar (R), bergantung pada garis lipatan.\nJadi mana-mana P, Q atau R mungkin.",
+  "Bahagikan segi empat sama kepada grid 8 × 8 = 64 petak kecil.\n⅛ × 64 = 8 petak.\nKawasan berwarna yang meliputi 8 petak ialah pilihan D.",
+  "Cuba potongan yang memberikan nombor dengan digit sedikit:\n5 + 02197 + 2970 = 5172.\n502 + 1972 + 970 = 3444.\n3244 tidak mungkin, jadi jumlah terkecil = 3444.",
+  "Tambahkan tiga lawatan pertama dan tolak lawatan keempat; laluan dalam (Zoo–Taman–Pelabuhan) dibatalkan dan tinggal laluan luar A–B–C–A.\n10 + 12 + 13 − 15 = 20 km.",
+  "Kepingan A, B dan E mempunyai sambungan tengah yang sama, jadi mungkin. C juga mungkin selepas diputar.\nKepingan D tidak dapat menyambungkan laluan, jadi D tidak mungkin.",
+  "Heksagon kiri: 3 + 6 + 1 + 2 + a + b = 30 → a + b = 18.\nHeksagon kanan: 4 + 6 + 9 + 4 + c + d = 30 → c + d = 7.\nHeksagon tengah: a + b + c + d + 1 + ? = 30 → 18 + 7 + 1 + ? = 30 → ? = 4.",
+  "Dua segi empat tepat pertama: 12 + 18 = 30 cm², lebar AB = 6 cm, jadi tinggi = 5 cm.\nLebar pertama = 12 ÷ 5 = 2.4 cm, jadi lebar kedua = 6 − 2.4 = 3.6 cm.\nLebar ketiga = 22 ÷ 5 = 4.4 cm.\nCD = 3.6 + 4.4 = 8 cm.",
+  "Ronja dan Wanja bergilir-gilir, jadi warna token dalam timbunan (dari bawah) mesti berselang-seli secara keseluruhan pada baris pertama dan kedua dari atas.\nSusunan E melanggar syarat ini, jadi E tidak boleh dihasilkan."
+ ]
+}

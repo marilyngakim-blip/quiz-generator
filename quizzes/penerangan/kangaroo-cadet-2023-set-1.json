@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Lihat corak garisan di sekeliling ruang kosong. Bahagian yang hilang mesti menyambung tepat dengan setiap garis melintang dan menegak di tepi ruang itu. Hanya kepingan E yang padan apabila diletakkan dalam ruang kosong.",
+  "Namakan bucu: a (atas), b (kiri), c (bawah), d (kanan).\na + b = 8 → a = 8 − b\na + d = 9 → d = 9 − a = 1 + b\nc + d = 13 → c + 1 + b = 13\nJadi b + c = 12. Nombor bagi tanda soal ialah 12.",
+  "Teruskan anak panah setiap kereta untuk 5 saat lagi (arah dan jarak yang sama). Selepas 10 saat, kereta A dan kereta C tiba di titik yang sama, jadi A dan C berlanggar. Tiada pasangan lain yang bertemu.",
+  "Nombor palindromik 5 digit terkecil = 10001.\nNombor palindromik 6 digit terbesar = 999999.\nBeza = 999999 − 10001 = 989998.",
+  "(A) dan (C) salah kerana sepatutnya ada lebih kurang dua muka di antara kedua-dua lubang.\n(B) salah kerana kedudukan kedua-dua lubang tidak sejajar.\n(E) salah kerana lubang sepatutnya berada di tepi muka.\nJadi jawapannya (D).",
+  "Ikut setiap tali dari satu hujung ke hujung yang lain (boleh warnakan setiap tali dengan warna berbeza). Terdapat 4 utas tali.",
+  "Gerakkan bar menegak di kiri atas ke bawah sebanyak 2 cm. Kemudian gerakkan dua bar mendatar di tengah atas ke kiri sebanyak 1 cm. Bar tambahan kini muat di antara dua bar mendatar itu dan bar menegak di kanan atas. Jadi sekurang-kurangnya 3 bar perlu digerakkan.",
+  "Ada 3 tempat untuk menambah segi empat sama supaya bentuk itu bersimetri:\n1. Di sebelah kiri petak bawah (bentuk T).\n2. Di sebelah kanan petak paling atas (bentuk C).\n3. Di hujung kanan baris bawah (bentuk V, simetri pada garis pepenjuru)."
+ ]
+}

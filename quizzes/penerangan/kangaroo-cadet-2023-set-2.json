@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Untuk nombor terbesar, beri digit terbesar kepada huruf terakhir dalam susunan abjad: U = 9, R = 8, O = 7, N = 6, K = 5, G = 4, A = 3.\nKANGOUROU = 5 3 6 4 7 9 8 7 9 = 536479879.",
+  "Katakan c = bilangan gagak, p = bilangan tiang.\nSatu gagak tiada tiang: c = p + 1.\nBerpasangan dan satu tiang kosong: p = c/2 + 1.\np = (p + 1)/2 + 1 → 2p = p + 3 → p = 3.",
+  "Katakan r = jejari setiap semibulatan.\nPanjang baris atas = 2r + 12 + 2r + 12 + 2r = 6r + 24.\nPanjang baris bawah = 22 + 2r + 16 + 2r + 22 = 60 + 4r.\nKedua-dua panjang sama: 6r + 24 = 60 + 4r → 2r = 36 → r = 18.",
+  "Perhatikan anak panah Tom dan John: bagi setiap gelang, jumlah anak panah mereka berdua ialah 4. Lily ada 2 anak panah dalam setiap gelang, iaitu separuh daripada jumlah Tom dan John.\nMata Lily = ½ × (46 + 34) = 40.",
+  "Bilangan minimum ialah 3 garis, yang membahagikan sudut tegak kepada 10°, 30°, 30° dan 20°.\n10°, 20° dan 30° terus didapati.\n40° = 10° + 30°, 50° = 20° + 30°, 60° = 30° + 30°,\n70° = 10° + 30° + 30°, 80° = 20° + 30° + 30°.",
+  "1 + 2 + … + 2023 terlalu besar, jadi mesti bermula dengan nombor negatif supaya banyak nombor saling membatalkan.\n−1010 + … + 1012: nombor −1010 hingga 1010 menjadi 0, tinggal 1011 + 1012 = 2023 (jumlah 2023 nombor).\nNombor terbesar = 1012, hasil tambah digit = 1 + 0 + 1 + 2 = 4.",
+  "Katakan nombor itu x. Meningkat 500% bermaksud x² = x + 5x = 6x.\nJadi x = 6 (6² = 36 = 6 × 6).",
+  "Setiap pilihan yang sah memberi jumlah yang sama, 15.\nContoh: 7 + 6 + 2 = 15, 8 + 6 + 1 = 15, 9 + 5 + 1 = 15.\nJadi jumlah terbesar ialah 15."
+ ]
+}

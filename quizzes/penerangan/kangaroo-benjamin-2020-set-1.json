@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Lengkapkan corak dengan melihat setiap bucu kepingan yang hilang:\nBucu kiri atas: bentuk 'U'. Bucu kiri bawah: titik tajam.\nBucu kanan atas: titik tajam. Bucu kanan bawah: bentuk lengkung.\nKepingan yang sepadan ialah E.",
+  "Jarak ke Atown ditambah jarak ke Betown mesti sama pada setiap papan tanda (jumlah jarak Atown–Betown).\n(A) 2 + 9 = 11, (B) 3 + 8 = 11, (C) 5 + 6 = 11, (D) 8 + 3 = 11, (E) 9 + 4 = 13.\nPapan E salah.",
+  "Lukis grid yang sama dan isi setiap petak dengan warna bertentangan (putih → kelabu, kelabu → putih).\nGrid yang sepadan ialah D.",
+  "6 muffin perlu 2 telur, jadi 24 muffin perlu 2 × 4 = 8 telur.\nSatu kotak = 6 telur, jadi 8 telur perlu 2 kotak.",
+  "Pantulkan huruf F pada garis menegak (kiri-kanan terbalik) dan pada garis mendatar (atas-bawah terbalik), menggunakan garisan grid untuk membantu.\nHasil pantulan sepadan dengan pilihan E.",
+  "10 = 5 + 5. 12 = 5 + 7. 14 = 7 + 7. 15 = 5 + 5 + 5.\n13 tidak boleh dibentuk dengan gabungan 5 dan 7.",
+  "Setiap kertas yang dipotong menjadi 5 keping, iaitu bertambah 4 keping.\n22 − 10 = 12 keping tambahan → 12 ÷ 4 = 3 kertas dipotong.",
+  "Warnakan kawasan dari luar ke dalam dengan syarat kawasan bersentuhan berwarna berbeza (seperti rajah dalam skema).\nKawasan biru: kawasan luar dan dua kawasan lain, jumlah 3."
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Bas pergi dan balik = 1 jam, jadi bas sehala = 30 minit.\nBas pergi + jalan balik = 3 jam → jalan sehala = 3 − 0.5 = 2.5 jam.\nJalan pergi dan balik = 2.5 + 2.5 = 5 jam.",
+  "Papan tanda pertama: Atown 2 km di belakang, Betown 4 km di hadapan, Cetown 9 km di hadapan.\nPapan tanda kedua: Atown 7 km di belakang, jadi papan kedua 5 km lebih jauh daripada papan pertama.\nBetown hanya 4 km dari papan pertama, jadi papan kedua sudah melepasi Betown sejauh 5 − 4 = 1 km.\n(Semak: Cetown = 9 − 5 = 4 km ✓.) Papan patah menulis 1 km.",
+  "Sasaran Mac: 5 km × 31 hari = 155 km.\nSudah berjalan 95 km pada 1–16 Mac. Baki = 155 − 95 = 60 km.\nHari yang tinggal = 31 − 16 = 15 hari.\nPurata = 60 ÷ 15 = 4 km.",
+  "Labelkan setiap garisan mengikut warna (putih, kelabu, hitam) dalam rajah objek. Lihat dari atas: puncak piramid berada di tengah, dan setiap tepi tapak mengekalkan warnanya. Pandangan yang sepadan (selepas diputar 90°) ialah B.",
+  "Katakan bilangan murid = c.\nBerenang + tenis = ⅗c + ⅗c = 6/5 c, lebih 1/5 c daripada jumlah kelas.\nLebihan ini ialah murid yang buat kedua-duanya: ⅕c = 5 → c = 25.",
+  "Garis menegak: jumlah 3, dibahagi tiga bahagian sama, setiap satu 1.\nGaris mendatar atas = 5. Bawah = 4 + 1 + 1 = 6 (beza 5 dan 4 ialah 1, ditambah lagi 1). Garis tengah = 3 dan 4.\nPerimeter = 5 + 1 + 3 + 1 + 4 + 1 + 6 + 3 = 24.",
+  "Kiub besar 3 × 3 × 3 mempunyai 6 muka, setiap satu 9 kiub kecil.\nSetiap kiub kecil hanya ada 2 muka merah bersebelahan. Susunan terbaik boleh menjadikan 4 muka merah sepenuhnya (bentuk '+'), tetapi tidak 5 atau 6 kerana kiub bucu memerlukan 3 muka merah.\nJawapan: 4.",
+  "Segi empat sama berlorek garis-garis: AB = 5 cm adalah sisinya, luas = 25 cm².\nBahagian kelabu terdiri daripada 4 segi tiga bersudut tegak 3-4-5 (kerana sisi segi empat besar 7 = 3 + 4).\nLuas 4 segi tiga = 4 × ½ × 3 × 4 = 24 cm².\nSegi empat sama putih = 25 − 24 = 1 cm²."
+ ]
+}

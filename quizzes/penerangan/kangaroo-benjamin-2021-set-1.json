@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Terdapat 4 bata berwarna dan 2 bata tidak berwarna. Bentuk yang betul mesti menunjukkan bata yang konsisten dengan 4 bata berwarna dan 2 bata putih. Hanya pilihan D sepadan.",
+  "Labelkan setiap pegangan sebagai tangan kiri (L) atau kanan (R) bagi kedua-dua kanak-kanak.\nSusunan dari kiri: LR – LR – RL – RL – RL – LR – RL.\nHanya 1 tempat kedua-dua kanak-kanak memegang dengan tangan kiri.",
+  "Mula di bintang dan tulis digit mengikut laluan (grid: 1 2 3 / 4 5 6 / 7 8 9):\n(A) 15786, (B) 98542, (C) 26847, (D) 65742, (E) 98651.\nNombor terbesar ialah 98651, iaitu garisan E.",
+  "Kotak 3 hanya ada N, jadi N diambil dari kotak 3.\nKotak 1 (N atau E): mesti E (N sudah diambil). Kotak 5 (U atau E): mesti U.\nKotak 2 memberi K, maka kotak 4 mesti memberi G.",
+  "Kepingan '0' rata di kanan, jadi ia terakhir. Kepingan '1' rata di kiri, jadi ia pertama. Kepingan '+' mempunyai dua sisi yang sama, jadi ia di tengah menyambung dua kepingan '2'.\nPengiraan: 12 + 20 = 32.",
+  "Kira beza nombor pada setiap pusingan pita: setiap baris bertambah lebih kurang 10–11.\nBaris 1: 1–11, baris 2: 22–32, baris 3: 43–53, baris 4: 64–74.\nTanda soal berada di tengah baris 4: (64 + 74) ÷ 2 = 69.",
+  "Pintu G hanya 3 lajur lebar, jadi hanya bentuk B atau D boleh muat. Kedua-duanya perlu bergerak dari kanan ke kiri, kemudian ke atas.\nDi sebelah kiri dan kanan baris ketiga D terdapat halangan, jadi D tidak boleh bergerak. B boleh bergerak satu baris ke kiri dan keluar.\nJawapan: B.",
+  "Nisbah hijau kepada jumlah cat bagi setiap campuran:\n1/4, 2/8, 3/12, 4/16 — semuanya sama dengan ¼.\nJadi kesemuanya sama gelap."
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Digit 0–9 tersusun dalam bulatan. Memutar setiap bahagian dengan jumlah dan arah yang sama bermaksud setiap digit berubah dengan jumlah yang sama (selepas 9 kembali ke 0).\nBandingkan setiap pilihan dengan 6348: beza setiap digit mesti sama.\n(A) 8560: +2 setiap digit ✓ (6→8, 3→5, 4→6, 8→0). (B) 3015: +7 ✓. (D) 1893: +5 ✓. (E) 0782: +4 ✓.\n(C) 4906: 6→4 (+8), 3→9 (+6) — tidak sama. Jadi C tidak mungkin.",
+  "Jumlah buah 40, Carl mengambil 20, Luca mengambil 20.\nJika Carl dapat x epal, dia dapat 20 − x pir. Luca dapat 20 − x epal.\nJadi pir Carl (20 − x) sentiasa sama dengan epal Luca (20 − x).",
+  "Bob tidak bersebelahan Ann atau Dan, jadi jiran Bob ialah Carina dan Ed.\nDan bersebelahan Ed. Susunan: Bob, Ed, Dan, Ann, Carina (bulat).\nCarina duduk di antara Ann dan Bob.",
+  "Telur: 25 biji untuk 100 → 6 biji untuk 24 lempeng.\nTepung: 5 kg untuk 100 → 0.4 kg untuk 8 lempeng.\nSusu: 4 L untuk 100 → 0.5 L untuk 12.5 lempeng.\nMentega: 1 kg untuk 100 → 0.2 kg untuk 20 lempeng.\nBahan paling terhad ialah tepung: 8 lempeng.",
+  "Gear terkecil mempunyai 10 gigi; satu pusingan lengkap menggerakkan 10 gigi bagi setiap gear.\nGear atas kiri berputar ikut arah jam 10 gigi, gear atas kanan juga 10 gigi ikut arah jam, gear bawah 10 gigi lawan arah jam.\nKedudukan gigi hitam selepas itu ialah pilihan A.",
+  "Epal + oren = pir + pic. Daripada dua ketaksamaan:\nEpal + pir < oren + pic → pir < oren (kerana epal − pic = pir − oren).\nPir + oren < epal + pic → oren < pic.\nEpal = pir + pic − oren < pic.\nJadi pic paling berat.",
+  "Lukis empat paksi simetri pada grid 6 × 6: satu menegak, satu mendatar dan dua pepenjuru.\nSetiap petak berlorek mesti dipantulkan pada semua paksi. Apabila semua pantulan dua petak yang diberi dan petak yang terhasil dilorek, petak yang perlu ditambah boleh dinomborkan 1 hingga 21 (seperti dalam skema).\nJadi 21 petak perlu ditambah.",
+  "Setiap muka 7 × 7 mempunyai 13 petak pada kedua-dua pepenjuru: 4 petak bucu dan 9 petak dalam.\nKubus bucu: 8 (dikongsi oleh 3 muka). Petak dalam pada setiap muka: 9 × 6 = 54.\nJumlah = 8 + 54 = 62."
+ ]
+}

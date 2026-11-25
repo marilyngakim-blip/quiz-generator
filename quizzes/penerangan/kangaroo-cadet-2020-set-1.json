@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Nombor perdana hanya boleh dibahagi dengan 1 dan dirinya sendiri.\n2 ialah perdana. 20, 202 dan 2020 genap dan lebih besar daripada 2, jadi boleh dibahagi dengan 2 — bukan perdana.\nJadi hanya 1 nombor perdana.",
+  "Sudut pedalaman poligon sekata = (n − 2) × 180° ÷ n. Lebih banyak sisi, lebih besar sudutnya.\nHeksagon (A): (6 − 2) × 180° ÷ 6 = 120°, iaitu yang terbesar (pentagon 108°, segi empat sama 90°, segi tiga 60°).",
+  "Miguel dalam 4 hari: 6 × 4 = 24 soalan.\nLázaro: 24 ÷ 4 = 6 hari.",
+  "Kira setiap pecahan:\n(A) 13/3 ≈ 4.33  (B) 8/8 = 1  (C) 8/8 = 1  (D) 11/5 = 2.2  (E) 3/13 ≈ 0.23\nJadi (A) paling besar.",
+  "Setiap pasukan bermain 3 perlawanan. Jumlah mata yang mungkin:\nM-M-M = 9, M-M-S = 7, M-M-K = 6, M-S-S = 5, M-S-K = 4, M-K-K = 3, S-S-S = 3, S-S-K = 2, S-K-K = 1, K-K-K = 0.\n(M = menang, S = seri, K = kalah)\n8 mata tidak mungkin dicapai.",
+  "Bahagikan segi empat sama besar kepada 4 bahagian, kemudian setiap bahagian kepada 4 petak kecil: 16 petak kecil.\nBahagian berlorek = 4 (petak bawah kanan) + 2 (segi tiga atas kanan) + 2 (dua petak kecil atas kiri) = 8.\nPecahan = 8/16 = ½.",
+  "Heksagon terkecil yang boleh mengandungi bentuk bintang ini memerlukan 54 segi tiga.\nSegi tiga yang perlu ditambah = 54 − 36 = 18.\n(Skema: 36 ÷ 2 = 18.)",
+  "Untuk hasil negatif terkecil, gunakan satu nombor negatif dengan nilai terbesar dan dua nombor positif terbesar.\n(−5) × 4 × 6 = −120.\n(Tiga nombor negatif memberi (−5) × (−3) × (−1) = −15 sahaja.)"
+ ]
+}

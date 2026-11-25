@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Untuk nombor terkecil, letak kepingan bermula dengan digit terkecil dahulu: 113, kemudian 4.\nBagi 51 dan 5: 515 < 551, jadi 51 dahulu, kemudian 5. Seterusnya 67, 69 dan akhir sekali 9.\nNombor = 113 4 51 5 67 69 9 = 113451567699.\n3 digit terakhir = 699.",
+  "Roda Ferris ada 12 pod, jadi setiap pod berjarak 1/12 pusingan.\nPod putih paling hampir ialah satu pod dari atas, jadi roda perlu berpusing 1/12 pusingan.",
+  "Gajah tidak boleh memotong satu sama lain, jadi dalam setiap lorong susunan mereka mesti sama seperti susunan asal.\nDalam C, dua gajah terakhir di lorong kanan ialah gajah besar diikuti gajah kecil, tetapi susunan asal tidak membenarkannya. Jadi C tidak mungkin.",
+  "Kira bilangan anak panah setiap arah:\n3 ke bawah (× 4), 2 ke kanan (× 2), 3 ke atas (÷ 4), 3 ke kiri (÷ 2).\n12 × 4 × 4 × 4 = 768. 768 × 2 × 2 = 3072. 3072 ÷ 4 ÷ 4 ÷ 4 = 48. 48 ÷ 2 ÷ 2 ÷ 2 = 6.",
+  "Hampir semua kiub mempunyai tepat 4 muka dicat, kecuali kiub di hujung setiap angka \"2\", yang mempunyai 5 muka dicat (2 kiub hujung bagi setiap \"2\", 3 angka 2 = 6 kiub).\nKiub dengan 4 muka dicat = 66 − 6 = 60.",
+  "Isi padu air = 4 × 2 × 0.25 = 2 m³ (air mengisi ¼ tinggi tangki 1 m).\nTapak baharu = 1 × 2 = 2 m². Kedalaman = 2 ÷ 2 = 1 m.\n(Atau: ¼ daripada tinggi baharu 4 m = 1 m.)",
+  "Lukis pantulan reka bentuk dari kedua-dua bahagian ke atas bahagian yang akan kelihatan selepas dilipat (setiap lipatan membalikkan reka bentuk seperti cermin).\nApabila kedua-dua pantulan dilukis pada bahagian yang sama, hasilnya ialah pilihan A.",
+  "Sisi segi empat sama = 10 cm, dibahagi 4 × 4 petak, setiap petak 2.5 cm.\nBahagikan rajah berlorek kepada 4 bahagian sama; setiap bahagian boleh disusun semula menjadi satu petak kecil 2.5 × 2.5 = 6.25 cm².\nLuas = 4 × 6.25 = 25 cm²."
+ ]
+}

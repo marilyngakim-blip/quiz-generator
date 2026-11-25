@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Katakan segi empat tepat asal berukuran a × b.\nTom memotong kepada (a/2) × b: perimeter = a + 2b = 40.\nJerry memotong kepada a × (b/2): perimeter = 2a + b = 50.\nTambah: 3a + 3b = 90 → a + b = 30.\nPerimeter asal = 2(a + b) = 60 cm.\n(Nota: huruf dalam skema buku tertulis B, tetapi jalan kerja skema sendiri memberi 60 cm, iaitu C.)",
+  "Lukis garisan untuk membahagikan rajah, kemudian alihkan setiap kepingan berlorek ke satu sisi segi empat sama besar. Selepas dialihkan, kawasan berlorek memenuhi tepat ¼ daripada segi empat sama terbesar.",
+  "Bahagikan setiap bulatan kepada 4 suku: 5 bulatan = 20 bahagian.\nBerlorek: 4 suku (bahagian bulatan luar di dalam segi empat) + 4 suku bulatan tengah = 8 bahagian.\nTidak berlorek: 20 − 8 = 12 bahagian.\nNisbah = 8 : 12 = 2 : 3.",
+  "Katakan sisi segi tiga kecil = x cm.\nPerimeter tiga segi tiga kecil = 3 × 3x = 9x.\nHeksagon ada 3 sisi x dan 3 sisi (6 − 2x): perimeter = 3x + 3(6 − 2x).\n9x = 3x + 18 − 6x → 12x = 18 → x = 1.5 cm.",
+  "Digit unit 2023 ialah 3, jadi lajur unit perlu sembilan digit 7 (7 × 9 = 63). Bawa 6 ke lajur puluh.\nLajur puluh: 6 + 7 × 8 = 62 (perlu lapan 7). Bawa 6 ke lajur ratus.\nLajur ratus: 6 + 7 × 2 = 20 (perlu dua 7).\nJadi 2 nombor 777, 8 − 2 = 6 nombor 77, dan 9 − 8 = 1 nombor 7.\nSemak: 2 × 777 + 6 × 77 + 7 = 2023, dengan 6 + 12 + 1 = 19 digit 7.",
+  "Enam nombor berturutan yang mengandungi 6, 7 dan 8 hanya boleh 3–8, 4–9, 5–10 atau 6–11.\nJumlah 23 tidak mungkin dengan 3–8 (jumlah tertinggi kurang daripada 23).\nJumlah 17 tidak mungkin dengan 5–10 atau 6–11 (jumlah terendah lebih daripada 17).\nJadi nombornya 4–9, dan kertas putih ialah 4, 5 dan 9: 4 + 5 + 9 = 18.",
+  "Dua digit '1' hilang daripada nombor 6 digit itu.\nJika kedua-duanya bersebelahan ('11'), ia boleh berada di 5 ruang: 112007, 211007, 201107, 200117, 200711.\nJika berasingan, terdapat 10 kedudukan lagi: 121007, 120107, 120017, 120071, 210107, 210017, 210071, 201017, 201071, 200171.\nJumlah = 5 + 10 = 15 nombor.",
+  "Katakan b = bilangan lelaki, g = bilangan perempuan. Setiap pasangan ada seorang lelaki dan seorang perempuan, jadi (3/4)b = (4/5)g → 15b = 16g.\nSatu-satunya penyelesaian dengan b + g ≤ 50 ialah b = 16, g = 15 (jumlah 31).\nPelajar berpasangan = (3/4)(16) + (4/5)(15) = 12 + 12 = 24."
+ ]
+}

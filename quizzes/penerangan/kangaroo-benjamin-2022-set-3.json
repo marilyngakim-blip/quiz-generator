@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Tahun dengan tiga digit sama sebelum 2022: 2000 (tiga 0) dan sebelum itu 1999 (tiga 9).\nJika 2022 kali ketiga, Eva mesti hidup pada 1999. Paling muda: lahir 1999.\nUmur = 2022 − 1999 = 23 tahun.",
+  "Cari kedudukan nombor 2 dalam baris pertama. Lajur kedua dan ketiga sudah ada 2, jadi 2 mesti di lajur pertama atau keempat.\nLajur pertama tidak boleh kerana set bulatan yang disambung dengan garis sudah mempunyai 2.\nJadi 2 berada di lajur keempat, iaitu bulatan bertanda soal.",
+  "Anjing 1, 3 dan 4 berjumlah 60 − 28 = 32 kg.\nAnjing terberat mesti lebih daripada 28 kg, dan anjing ketiga serta keempat sekurang-kurangnya 2 + 1 = 3 kg.\nJadi anjing terberat = 29 kg, baki 3 kg = 2 + 1.\nAnjing ketiga terberat = 2 kg.",
+  "Nombor tengah dikira tiga kali. Jumlah 3 + 4 + … + 9 = 42.\n3S = 42 + 2c (c = nombor tengah). Untuk S terbesar, c = 9: 3S = 60, S = 20.\nContoh: 9 + 8 + 3, 9 + 7 + 4, 9 + 6 + 5, semuanya 20.",
+  "8 gelas − 2 gelas = 6 gelas tambahan = 42 − 18 = 24 cm, jadi setiap gelas tambahan = 4 cm.\n6 gelas = 8 gelas − 2 gelas tambahan = 42 − 4 − 4 = 34 cm.",
+  "Orang bertopi bercakap benar, jadi sekurang-kurangnya seorang jirannya tidak bertopi. Orang tidak bertopi boleh berbohong, jadi kedua-dua jirannya boleh bertopi.\nSusunan terbaik: bertopi, bertopi, tanpa topi, berulang.\n30 orang = 10 kumpulan bertiga, 2 bertopi setiap kumpulan: 2 × 10 = 20.",
+  "Petunjuk 4: 7, 3 dan 8 salah. Digit mungkin: 0, 1, 2, 4, 6.\nJika 6 betul di tempat pertama (petunjuk 1), petunjuk 2 bercanggah. Jadi 6 salah, dan 2 betul di tempat ketiga.\nPetunjuk 3: 2 dan 0 betul tetapi salah tempat → 0 di tempat pertama.\nPetunjuk 2: satu daripada 6, 1, 4 betul di tempat salah → 4 di tempat kedua.\nKod = 0 4 2.",
+  "Nombor tengah dikongsi oleh keempat-empat segi tiga, jadi ia mesti faktor 105, 84, 210 dan 168: hanya 7.\n105 = 7 × 3 × 5, 84 = 7 × 3 × 4, 210 = 7 × 5 × 6, 168 = 7 × 4 × 6.\nJadi atas 3, kiri 5, kanan 4, bawah 6.\nSegi tiga berwarna = 7 + 4 + 6 = 17."
+ ]
+}

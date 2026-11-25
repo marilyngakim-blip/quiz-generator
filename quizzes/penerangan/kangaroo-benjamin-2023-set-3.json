@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Warnakan segi empat kiri atas dengan merah (3 pilihan warna untuk kedudukan ini).\nSegi empat kedua ada 2 pilihan.\nSelepas itu, warna yang lain ditentukan: kiri bawah mesti warna ketiga, kanan bawah mesti merah, kanan atas sama dengan kanan bawah.\nJumlah = 3 × 2 = 6 cara.",
+  "Segi empat sama: 6 bersisi 1 + 1 bersisi 2 = 7.\nSegi tiga: 4 bersisi 1 + 3 bersisi 2 + 2 bersisi 3 + 1 bersisi 4 = 10.\nBeza = 10 − 7 = 3.",
+  "Sisi segi empat sama = 4 cm, perimeter = 4 × 4 = 16 cm.\nPerimeter segi tiga juga 16 cm. Sisi pendeknya (4 cm, dikongsi dengan segi empat sama) → dua sisi panjang = 16 − 4 = 12 cm.\nPerimeter seluruh rajah = 3 sisi segi empat sama + 2 sisi panjang segi tiga = 4 + 4 + 4 + 12 = 24 cm.",
+  "Nombor merah: 1, 4, 7, … = 3n − 2. Nombor biru: 2, 5, 8, … = 3m − 1.\nJumlah = 3n − 2 + 3m − 1 = 3(n + m − 1), sentiasa gandaan 3.\nGandaan 3 berwarna hijau, jadi jumlahnya hijau sahaja.",
+  "Kira secara songsang dari 2009 di F bagi setiap laluan.\nLaluan atas (×7, ×7, ×6, −49): 294x − 49 = 2009 → x = 7.\nLaluan tengah (×7, ×6, ×7, −49): 294x − 49 = 2009 → x = 7.\nLaluan bawah (×7, −49, ×6, ×7): 42(7x − 49) = 2009 → bukan integer.\nJadi ada dua laluan, kedua-duanya bermula dengan nombor 7.",
+  "Pasangan muka bertentangan: 1–6, 2–5, 3–4. Muka yang bersentuhan mesti berjumlah 5 (1+4 atau 2+3).\nSatu-satunya susunan yang mungkin: dadu pertama bawah 5, atas 2; dadu kedua bawah 3, atas 4; dadu ketiga bawah 1, atas 6.\nJadi muka X mempunyai 6 titik.",
+  "Ann: gandaan 3 dua digit terbesar dan terkecil: 99 + 12 = 111.\nBob: bukan gandaan 3 dua digit terbesar dan terkecil: 98 + 10 = 108.\nBeza = 111 − 108 = 3.",
+  "Jarak antara tiang ialah 24 m, 30 m dan 66 m. FSTB (faktor sepunya terbesar) bagi 24, 30 dan 66 ialah 6.\nBahagian sama panjang 6 m: 120 ÷ 6 = 20 bahagian, perlu 20 + 1 = 21 tiang.\nSudah ada 4 tiang: 21 − 4 = 17 tiang perlu ditambah."
+ ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "kangaroo-benjamin-2020-set-2",
+  "title": "Kangaroo Benjamin 2020 Set 2",
+  "createdAt": "2026-11-25T14:23:53.382Z",
+  "questions": [
+    {
+      "q": "Four baskets contain 1, 4, 6 and 9 apples. How many apples should be moved between the baskets to have the same number of apples in each basket? / Empat bakul masing-masing berisi 1, 4, 6 dan 9 biji epal. Berapakah bilangan epal yang perlu dialihkan antara bakul-bakul supaya setiap bakul mempunyai bilangan epal yang sama?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A rabbit and a cat walk in the park along the path marked by the thick black line. The rabbit starts from P at the same time as the cat starts from Q. The rabbit walks three times as fast as the cat. At which point do they meet? / Seekor arnab dan seekor kucing berjalan di taman sepanjang laluan bergaris hitam tebal. Arnab bermula dari P pada masa yang sama dengan kucing bermula dari Q. Arnab berjalan tiga kali lebih laju daripada kucing. Di titik manakah mereka bertemu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q10.png"
+    },
+    {
+      "q": "When Elise the Bat leaves her cave, a digital clock shows 20:20. When she returns and is hanging upside down, she sees 20:20 on the clock again. How long has she been away from her cave? / Apabila Elise si kelawar meninggalkan gua, jam digital menunjukkan 20:20. Apabila dia kembali dan tergantung secara terbalik, dia melihat 20:20 pada jam itu sekali lagi. Berapa lamakah dia telah keluar dari gua?",
+      "options": [
+        "3 h 28 min / 3 jam 28 minit",
+        "3 h 40 min / 3 jam 40 minit",
+        "3 h 42 min / 3 jam 42 minit",
+        "4 h 18 min / 4 jam 18 minit",
+        "5 h 42 min / 5 jam 42 minit"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Mary has exactly 10 white cubes, 9 light grey cubes and 8 dark grey cubes, all of the same size. She glues all these cubes together to build a big cube. Which one is the cube she builds? / Mary mempunyai 10 kiub putih, 9 kiub kelabu cerah dan 8 kiub kelabu gelap, semuanya sama saiz. Dia melekatkan semua kiub ini untuk membina satu kiub besar. Yang manakah kiub yang dibinanya?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q12.png"
+    },
+    {
+      "q": "The diagrams show five paths from X to Y marked with a thick line. Which path is the shortest? / Rajah menunjukkan lima laluan dari X ke Y yang ditandakan dengan garisan tebal. Laluan manakah yang paling pendek?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q13.png"
+    },
+    {
+      "q": "A father kangaroo lives with his three children. They make all decisions by voting, and each member of the family gets as many votes as its age. The father is aged 36 and the children are 13, 6 and 4 years old, so the father always wins. How many years will it take for the children to win all votes, if they all agree? / Bapa kanggaru tinggal bersama tiga anaknya. Mereka membuat semua keputusan dengan mengundi, dan setiap ahli mendapat undi sebanyak umurnya. Bapa berumur 36 tahun dan anak-anaknya berumur 13, 6 dan 4 tahun, maka bapa sentiasa menang. Berapa tahunkah lagi anak-anak akan menang semua undian jika mereka bersetuju?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "13",
+        "14"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Giorgio has two equal pieces of wire. Which of the following shapes cannot be obtained by putting together these two pieces? / Giorgio mempunyai dua dawai yang sama bentuk. Antara berikut, bentuk manakah yang tidak boleh dihasilkan dengan mencantumkan kedua-dua dawai itu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q15.png"
+    },
+    {
+      "q": "The diagram shows the friendships of six girls: Ann, Beatrice, Chloe, Diana, Elisabeth and Fiona. Each number represents one girl and each line joining two numbers represents a friendship. Chloe, Diana and Fiona each have four friends. Beatrice is friends with only Chloe and Diana. Which number represents Fiona? / Rajah menunjukkan hubungan kawan antara enam pelajar perempuan: Ann, Beatrice, Chloe, Diana, Elisabeth dan Fiona. Setiap nombor mewakili seorang pelajar dan setiap garisan menunjukkan dua orang berkawan. Chloe, Diana dan Fiona masing-masing mempunyai empat kawan. Beatrice hanya berkawan dengan Chloe dan Diana. Nombor manakah yang mewakili Fiona?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2020/B20_Q16.png"
+    }
+  ]
+}

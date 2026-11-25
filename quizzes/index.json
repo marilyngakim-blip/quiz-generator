@@ -628,5 +628,11 @@
     "title": "Kangaroo Cadet 2021 Set 3",
     "questionCount": 8,
     "createdAt": "2026-11-25T14:19:04.206Z"
+  },
+  {
+    "id": "kangaroo-cadet-2022-set-1",
+    "title": "Kangaroo Cadet 2022 Set 1",
+    "questionCount": 8,
+    "createdAt": "2026-11-25T14:19:30.240Z"
   }
 ]

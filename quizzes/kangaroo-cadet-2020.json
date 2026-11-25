@@ -1,0 +1,282 @@
+{
+  "id": "kangaroo-cadet-2020",
+  "title": "Kangaroo Cadet 2020",
+  "createdAt": "2026-11-25T03:30:25.848Z",
+  "questions": [
+    {
+      "q": "How many of the four numbers 2, 20, 202, 2020 are prime? / Berapakah bilangan nombor perdana antara empat nombor berikut: 2, 20, 202, 2020?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which marked angle is the largest in these regular polygons? / Sudut bertanda manakah yang paling besar dalam poligon sekata di bawah?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q02.png"
+    },
+    {
+      "q": "Miguel solves six math problems every day and Lázaro solves four math problems every day. How many days does it take for Lázaro to solve the same number of problems that Miguel solves in four days? / Miguel menyelesaikan enam masalah matematik setiap hari dan Lázaro menyelesaikan empat masalah matematik setiap hari. Berapakah bilangan hari yang diperlukan oleh Lázaro untuk menyelesaikan bilangan masalah yang sama dengan Miguel dalam empat hari?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of these fractions has the largest value? / Antara berikut, pecahan yang manakah mempunyai nilai terbesar?",
+      "options": [
+        "(8 + 5)/3",
+        "8/(3 + 5)",
+        "(3 + 5)/8",
+        "(8 + 3)/5",
+        "3/(8 + 5)"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are 4 teams in a soccer tournament. Each team plays every other team exactly once. In each match, the winner scores 3 points and the loser scores 0 points. In the case of a draw, both teams score 1 point. After all matches have been played, which of the following total number of points is impossible for a team to achieve? / Terdapat 4 pasukan dalam suatu kejohanan bola sepak. Setiap pasukan bertemu setiap pasukan lain sekali sahaja. Pemenang mendapat 3 mata dan yang kalah 0 mata. Jika seri, kedua-dua pasukan mendapat 1 mata. Selepas semua perlawanan, jumlah mata manakah yang mustahil dicapai oleh mana-mana pasukan?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A large square is divided into smaller squares. What fraction of the large square is shaded? / Suatu segi empat sama besar dibahagikan kepada beberapa segi empat sama yang lebih kecil. Apakah pecahan segi empat sama besar yang berlorek?",
+      "options": [
+        "⅘",
+        "⅜",
+        "4/9",
+        "⅓",
+        "½"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q06.png"
+    },
+    {
+      "q": "The diagram shows a shape made up of 36 identical triangles. What is the least number of such triangles that could be added to turn the shape into a hexagon? / Rajah menunjukkan bentuk yang terdiri daripada 36 segi tiga yang kongruen. Apakah bilangan segi tiga paling sedikit yang perlu ditambah untuk mengubah bentuk itu menjadi heksagon?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18",
+        "24"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q07.png"
+    },
+    {
+      "q": "Kanga wants to multiply three different numbers from the following list: −5, −3, −1, 2, 4, and 6. What is the smallest result she could obtain? / Kanga ingin mendarabkan tiga nombor berbeza daripada senarai berikut: −5, −3, −1, 2, 4 dan 6. Apakah hasil darab terkecil yang mungkin diperoleh?",
+      "options": [
+        "−200",
+        "−120",
+        "−90",
+        "−48",
+        "−15"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "If John goes to school by bus and walks back, he takes 3 hours. If he goes by bus both ways, he takes 1 hour. How many hours does it take to walk both ways? / Jika John pergi ke sekolah dengan bas dan pulang dengan berjalan kaki, dia mengambil masa 3 jam. Jika dia pergi dan pulang dengan bas, dia mengambil masa 1 jam. Berapa jamkah yang diperlukan untuk berjalan kaki pergi dan pulang?",
+      "options": [
+        "3.5",
+        "4",
+        "4.5",
+        "5",
+        "5.5"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The shortest path from Atown to Cetown passes through Betown. The two signposts shown appear along this path. What distance was written on the broken sign? / Jalan terpendek dari Atown ke Cetown melalui Betown. Kedua-dua papan tanda yang ditunjukkan terdapat di sepanjang laluan ini. Apakah jarak yang tertulis pada papan tanda yang patah?",
+      "options": [
+        "1 km",
+        "3 km",
+        "4 km",
+        "5 km",
+        "9 km"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q10.png"
+    },
+    {
+      "q": "Anna wants to walk 5 km on average each day in March. At bedtime on 16th March, she realised that she had walked 95 km so far. What distance does she need to walk on average for the remaining days of the month to achieve her target? / Anna mahu berjalan kaki dengan jarak purata 5 km setiap hari pada bulan Mac. Semasa waktu tidur pada 16 Mac, dia mendapati dia telah berjalan sejauh 95 km. Berapakah jarak purata yang perlu dilaluinya bagi hari-hari yang selebihnya untuk mencapai sasarannya?",
+      "options": [
+        "5.4 km",
+        "5 km",
+        "4 km",
+        "3.6 km",
+        "3.1 km"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Which of the following shows the view of the object from above? / Antara berikut, yang manakah menunjukkan pandangan objek tersebut dari atas?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q12.png"
+    },
+    {
+      "q": "Every pupil in a class either swims or plays tennis or both. Three fifths of the class swim and three fifths play tennis. Five pupils both swim and play tennis. How many pupils are in the class? / Setiap murid dalam satu kelas sama ada berenang atau bermain tenis atau kedua-duanya. Tiga perlima kelas berenang dan tiga perlima bermain tenis. Lima orang murid berenang dan bermain tenis. Berapakah bilangan murid dalam kelas itu?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Sacha's garden has the following shape. What is the perimeter of Sacha's garden? / Taman Sacha mempunyai bentuk seperti dalam rajah. Apakah perimeter taman Sacha?",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q14.png"
+    },
+    {
+      "q": "Andrew buys 27 identical small cubes, each with two adjacent faces painted red. He uses all of these cubes to build a large cube. What is the largest number of completely red faces of the large cube that he can make? / Andrew membeli 27 kiub kecil yang sama saiz, setiap satu dengan dua permukaan bersebelahan dicat merah. Dia menggunakan semua kiub untuk membina satu kiub besar. Apakah bilangan paling banyak permukaan kiub besar yang berwarna merah sepenuhnya?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "There are three squares in the figure. The area of the largest square is 49 cm², and the length of AB is 5 cm. What is the area of the smallest (white) square? / Terdapat tiga segi empat sama dalam rajah. Luas segi empat sama terbesar ialah 49 cm², dan panjang AB ialah 5 cm. Apakah luas segi empat sama yang paling kecil (berwarna putih)?",
+      "options": [
+        "1 cm²",
+        "4 cm²",
+        "9 cm²",
+        "16 cm²",
+        "25 cm²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q16.png"
+    },
+    {
+      "q": "Werner's salary is 20% of his employer's salary. By what percentage should Werner's salary be increased to equal his employer's salary? / Gaji Werner ialah 20% daripada gaji majikannya. Berapakah peratus peningkatan gaji yang perlu diberikan kepada Werner untuk menyamai gaji majikannya?",
+      "options": [
+        "80%",
+        "120%",
+        "180%",
+        "400%",
+        "520%"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Irene made a \"city\" with identical wooden cubes. The left diagram shows the view from above the \"city\" and the right diagram shows the view from one of the sides. However, it is not known from which side the side view was taken. What is the largest number of cubes that Irene could have used? / Irene membina sebuah \"bandar\" menggunakan kiub kayu yang sama saiz. Rajah kiri menunjukkan pandangan dari atas dan rajah kanan menunjukkan pandangan dari salah satu sisi, tetapi tidak diketahui dari sisi mana. Berapakah bilangan kiub paling banyak yang mungkin digunakan oleh Irene?",
+      "options": [
+        "25",
+        "24",
+        "23",
+        "22",
+        "21"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q18.png"
+    },
+    {
+      "q": "Aisha has a strip of paper with the numbers 1, 2, 3, 4 and 5 written in five cells, as shown. She folds the strip several times so that the cells overlap, forming 5 layers. Which of the following configurations (from top layer to bottom layer) is not possible to obtain? / Aisha mempunyai jalur kertas dengan nombor 1, 2, 3, 4 dan 5 pada lima petak seperti yang ditunjukkan. Dia melipat jalur itu beberapa kali sehingga petak-petak bertindih membentuk 5 lapisan. Antara susunan berikut (dari lapisan atas ke bawah), yang manakah mustahil diperoleh?",
+      "options": [
+        "3, 5, 4, 2, 1",
+        "3, 4, 5, 1, 2",
+        "3, 2, 1, 4, 5",
+        "3, 1, 2, 4, 5",
+        "3, 4, 2, 1, 5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q19.png"
+    },
+    {
+      "q": "Zaida took a square piece of paper and folded two of its sides to the diagonal to obtain a quadrilateral, as shown. What is the largest angle of the quadrilateral? / Zaida mengambil sekeping kertas segi empat sama dan melipat dua sisinya ke pepenjuru untuk membentuk suatu sisi empat, seperti yang ditunjukkan. Apakah sudut terbesar sisi empat tersebut?",
+      "options": [
+        "112.5°",
+        "120°",
+        "125°",
+        "135°",
+        "150°"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q20.png"
+    },
+    {
+      "q": "How many four-digit numbers A are there such that half of A is divisible by 2, a third of A is divisible by 3, and a fifth of A is divisible by 5? / Berapakah bilangan nombor empat digit A supaya separuh daripada A boleh dibahagi dengan 2, satu pertiga daripada A boleh dibahagi dengan 3, dan satu perlima daripada A boleh dibahagi dengan 5?",
+      "options": [
+        "1",
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "In the final round of a music competition, each of the three members of the jury gives the five competitors 0, 1, 2, 3 or 4 points. No two competitors get the same mark from any individual judge. Adam knows all the sums of the marks and a few single marks, as shown. How many points did Adam get from judge III? / Dalam pusingan akhir suatu pertandingan muzik, setiap tiga ahli juri memberi markah 0, 1, 2, 3 atau 4 kepada lima peserta. Tiada dua peserta mendapat markah yang sama daripada juri yang sama. Adam mengetahui jumlah markah semua peserta dan beberapa markah, seperti dalam jadual. Berapakah markah yang Adam dapat daripada juri III?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2020/K20_Q22.png"
+    },
+    {
+      "q": "Sophia has 52 identical isosceles right-angled triangles. She wants to make a square using some of them. How many different sized squares can she make? / Sophia mempunyai 52 segi tiga sama kaki bersudut tegak yang kongruen. Dia mahu membuat segi empat sama menggunakan sebahagian daripadanya. Berapakah bilangan segi empat sama yang berbeza saiz yang boleh dibuatnya?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Anne, Boris and Carl ran a race. They started at the same time, and their speeds were constant. When Anne finished, Boris had 15 m left to run and Carl had 35 m left to run. When Boris finished, Carl had 22 m left to run. What is the race distance? / Anne, Boris dan Carl berlari dalam satu perlumbaan. Mereka bermula serentak dan kelajuan mereka tetap. Apabila Anne tamat, Boris mempunyai baki 15 m dan Carl baki 35 m. Apabila Boris tamat, Carl mempunyai baki 22 m. Apakah jarak perlumbaan?",
+      "options": [
+        "135 m",
+        "140 m",
+        "150 m",
+        "165 m",
+        "175 m"
+      ],
+      "marks": 1
+    }
+  ]
+}

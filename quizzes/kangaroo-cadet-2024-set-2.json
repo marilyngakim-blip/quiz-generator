@@ -1,0 +1,101 @@
+{
+  "id": "kangaroo-cadet-2024-set-2",
+  "title": "Kangaroo Cadet 2024 Set 2",
+  "createdAt": "2026-11-25T14:22:32.890Z",
+  "questions": [
+    {
+      "q": "Four different positive integers are placed on a 2 × 2 grid and covered up. The products of the integers in each row and each column are shown in the diagram. What is the sum of the four integers? / Empat integer positif berbeza diletakkan pada grid 2 × 2 dan ditutup. Hasil darab integer pada setiap baris dan lajur ditunjukkan dalam rajah. Apakah hasil tambah keempat-empat integer tersebut?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q09.png"
+    },
+    {
+      "q": "The length of four supermarket trolleys fitted together is 108 cm. The length of ten trolleys fitted together is 168 cm. What is the length of a single trolley? / Panjang empat troli pasar raya yang tersusun rapi ialah 108 cm. Panjang sepuluh troli yang tersusun rapi ialah 168 cm. Berapakah panjang satu troli?",
+      "options": [
+        "60 cm",
+        "68 cm",
+        "78 cm",
+        "88 cm",
+        "90 cm"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q10.png"
+    },
+    {
+      "q": "Carina cut a cake into ten equal pieces. She ate one piece and then arranged the remaining pieces evenly, as shown. What is the size of the angle between two neighbouring pieces? / Carina memotong sebiji kek kepada sepuluh bahagian yang sama besar. Dia memakan satu bahagian dan menyusun bahagian yang tinggal secara sekata, seperti yang ditunjukkan. Apakah ukuran sudut di antara dua bahagian yang bersebelahan?",
+      "options": [
+        "5°",
+        "4°",
+        "3°",
+        "2°",
+        "1°"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q11.png"
+    },
+    {
+      "q": "Werner can make a 4 × 4 square, where the sum of the numbers in each row and each column is the same, using the three pieces shown and one other piece. Which piece is needed to complete his square? / Werner boleh membentuk segi empat sama 4 × 4 dengan hasil tambah nombor pada setiap baris dan lajur adalah sama, menggunakan tiga kepingan yang ditunjukkan dan satu lagi kepingan. Kepingan manakah yang diperlukan?",
+      "options": [
+        "[1|1|3]",
+        "[2|1|0]",
+        "[1|2|1]",
+        "[2|2|2]",
+        "[2|2|3]"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q12.png"
+    },
+    {
+      "q": "A square has side-length 10 m. It is divided into parts by three line segments, as shown. The areas of the two shaded triangles are A and B. What is the value of A − B? / Suatu segi empat sama mempunyai panjang sisi 10 m. Ia dibahagikan oleh tiga tembereng garis, seperti yang ditunjukkan. Luas kedua-dua segi tiga berlorek ialah A dan B. Apakah nilai A − B?",
+      "options": [
+        "0 m²",
+        "1 m²",
+        "2 m²",
+        "5 m²",
+        "10 m²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q13.png"
+    },
+    {
+      "q": "Paula the penguin goes fishing every day and always brings back twelve fish for her two chicks. Each day, she gives seven fish to the first chick she meets and five fish to the other chick. In the last few days, one chick has eaten 44 fish. How many fish has the other chick eaten? / Paula si penguin menangkap ikan setiap hari dan sentiasa membawa pulang dua belas ekor ikan untuk dua anaknya. Setiap hari, dia memberikan tujuh ekor ikan kepada anak yang pertama ditemuinya dan lima ekor kepada anak yang lagi satu. Dalam beberapa hari yang lalu, seekor anak penguin telah memakan 44 ekor ikan. Berapakah bilangan ikan yang dimakan oleh anak penguin yang lagi satu?",
+      "options": [
+        "34",
+        "40",
+        "46",
+        "52",
+        "58"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Johan made the structure on the right by taking a single cube and sticking another cube to each of its faces. He wants to extend it in the same way, so that each face of this structure has a cube stuck to it. How many extra cubes will he need? / Johan membentuk struktur di sebelah kanan dengan mengambil satu kubus dan melekatkan satu kubus lain pada setiap mukanya. Dia ingin melanjutkannya dengan cara yang sama, iaitu setiap muka struktur itu mempunyai satu kubus yang dilekatkan. Berapakah bilangan kubus tambahan yang diperlukan?",
+      "options": [
+        "18",
+        "16",
+        "14",
+        "12",
+        "10"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2024/K24_Q15.png"
+    },
+    {
+      "q": "A kangaroo jumps up a mountain and then jumps back down along the same route. Each downhill jump covers three times the distance of each uphill jump. Going uphill, it covers 1 metre per jump. In total, the kangaroo makes 2024 jumps. What is the total distance, in metres, that the kangaroo jumps? / Seekor kanggaru melompat naik sebuah gunung dan kemudian melompat turun mengikut laluan yang sama. Setiap lompatan menurun adalah tiga kali ganda jarak lompatan menaik. Setiap lompatan menaik ialah 1 meter. Kanggaru itu membuat sejumlah 2024 lompatan. Berapakah jumlah jarak lompatan, dalam meter?",
+      "options": [
+        "506",
+        "1012",
+        "2024",
+        "3036",
+        "4048"
+      ],
+      "marks": 1
+    }
+  ]
+}

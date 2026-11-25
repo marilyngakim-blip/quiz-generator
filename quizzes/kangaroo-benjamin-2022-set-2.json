@@ -1,0 +1,103 @@
+{
+  "id": "kangaroo-benjamin-2022-set-2",
+  "title": "Kangaroo Benjamin 2022 Set 2",
+  "createdAt": "2026-11-25T14:26:29.163Z",
+  "questions": [
+    {
+      "q": "Bodil rearranges the 7 pieces shown (4, 69, 113, 9, 51, 5, 67) to get the smallest possible 12-digit number. What are the last 3 digits of this number? / Bodil menyusun semula 7 kepingan yang ditunjukkan (4, 69, 113, 9, 51, 5, 67) untuk mendapatkan nombor 12 digit terkecil. Apakah 3 digit terakhir nombor ini?",
+      "options": [
+        "699",
+        "113",
+        "551",
+        "967",
+        "459"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q09.png"
+    },
+    {
+      "q": "Which of the following fractions of a whole turn should the Ferris wheel turn to bring a white pod to the top? / Antara berikut, pecahan pusingan lengkap yang manakah perlu roda Ferris pusing untuk membawa sebuah pod putih ke atas?",
+      "options": [
+        "½",
+        "⅓",
+        "⅙",
+        "1/12",
+        "⅚"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q10.png"
+    },
+    {
+      "q": "Five big elephants and four small ones are walking along a path, as shown. When they reach the junction, each elephant turns either to the left or to the right. Which of the following cannot be the situation after they all pass the junction? / Lima gajah besar dan empat gajah kecil berjalan di sepanjang laluan seperti dalam rajah. Apabila sampai di persimpangan, setiap gajah berpusing sama ada ke kiri atau ke kanan. Antara berikut, yang manakah tidak mungkin menjadi situasi selepas kesemuanya melepasi simpang itu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q11.png"
+    },
+    {
+      "q": "Clara starts with 12 and follows the arrows using the rule shown in the picture on the left. What number will she finish with? / Clara bermula dengan 12 dan mengikut anak panah dengan mematuhi peraturan dalam gambar di sebelah kiri. Apakah nombor yang dia dapat setelah selesai?",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "24",
+        "48"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q12.png"
+    },
+    {
+      "q": "Masoud and his friends built the number 2022 with 66 cubes, as shown. They painted the whole surface of the structure yellow. How many of the cubes have exactly 4 faces painted? / Masoud dan rakan-rakannya membina nombor 2022 dengan 66 kiub seperti dalam gambar. Mereka mengecat seluruh permukaan struktur dengan cat kuning. Berapakah bilangan kiub yang mempunyai tepat 4 permukaan yang dicat?",
+      "options": [
+        "16",
+        "30",
+        "46",
+        "54",
+        "60"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q13.png"
+    },
+    {
+      "q": "A rectangular-based water tank has dimensions 1 m × 2 m × 4 m. It contains water to a depth of 25 cm, as shown in the left picture. The tank is turned so that a 1 m × 2 m face becomes the base, as shown in the right picture. What is the depth of the water now? / Sebuah tangki air segi empat tepat berdimensi 1 m × 2 m × 4 m. Ia mengandungi air sedalam 25 cm seperti gambar kiri. Tangki dipusingkan supaya permukaan 1 m × 2 m menjadi tapak seperti gambar kanan. Berapakah kedalaman air sekarang?",
+      "options": [
+        "25 cm",
+        "50 cm",
+        "75 cm",
+        "1 m",
+        "1.25 m"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q14.png"
+    },
+    {
+      "q": "The picture shows a piece of transparent paper with a design drawn on it. The paper is then folded twice, as shown. What would be seen on the folded paper? / Gambar menunjukkan sekeping kertas lutsinar dengan reka bentuk yang dilukis padanya. Kemudian kertas itu dilipat dua kali seperti dalam rajah. Apakah yang akan dilihat pada kertas lutsinar yang telah dilipat?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q15.png"
+    },
+    {
+      "q": "If the area of the square is 100 cm², what is the area of the shaded figure? / Luas segi empat sama ialah 100 cm². Berapakah luas rajah yang berlorek?",
+      "options": [
+        "20 cm²",
+        "25 cm²",
+        "30 cm²",
+        "35 cm²",
+        "40 cm²"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-benjamin-2022/B22_Q16.png"
+    }
+  ]
+}

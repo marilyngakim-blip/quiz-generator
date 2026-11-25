@@ -1,0 +1,101 @@
+{
+  "id": "kangaroo-cadet-2021-set-1",
+  "title": "Kangaroo Cadet 2021 Set 1",
+  "createdAt": "2026-11-25T14:18:04.806Z",
+  "questions": [
+    {
+      "q": "Which of the following symbols for signs of the Zodiac has an axis of symmetry? (A) Sagittarius (B) Scorpio (C) Leo (D) Cancer (E) Capricorn / Antara simbol Zodiak berikut, yang manakah mempunyai paksi simetri?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q01.png"
+    },
+    {
+      "q": "The figure shows three concentric circles with four lines passing through their common centre. What percentage of the figure is shaded? / Rajah menunjukkan tiga bulatan sepusat dengan empat garisan yang melalui pusat sepunya kesemua bulatan. Apakah peratus rajah yang berlorek?",
+      "options": [
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q02.png"
+    },
+    {
+      "q": "What is the value of (20 × 21) ÷ (2 + 0 + 2 + 1)? / Berapakah nilai (20 × 21) ÷ (2 + 0 + 2 + 1)?",
+      "options": [
+        "42",
+        "64",
+        "80",
+        "84",
+        "105"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "How many four-digit numbers have the property that their digits, from left to right, are consecutive and in ascending order? / Berapakah bilangan nombor empat digit yang digitnya berturutan dan menaik dari kiri ke kanan?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "When the five pieces shown are fitted together correctly, the result is a rectangle with a calculation written on it. What is the answer to this calculation? / Jika lima kepingan yang ditunjukkan dicantum dengan betul, hasilnya ialah satu segi empat tepat dengan satu pengiraan tertulis di atasnya. Apakah hasil pengiraan ini?",
+      "options": [
+        "−100",
+        "−8",
+        "−1",
+        "199",
+        "208"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q05.png"
+    },
+    {
+      "q": "Each of the five vases shown has the same height and each has a volume of 1 litre. Half a litre of water is poured into each vase. In which vase would the level of the water be the highest? / Setiap daripada lima pasu yang ditunjukkan sama tinggi dan mempunyai isi padu 1 liter. Setengah liter air dituang ke dalam setiap pasu. Pasu manakah yang mempunyai paras air tertinggi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q06.png"
+    },
+    {
+      "q": "A student correctly added the two two-digit numbers on the left of the board (AB + CD) and got the answer 137. What answer will he get if he adds the two four-digit numbers on the right of the board (ADCB + CBAD)? / Seorang murid menambah dua nombor dua digit di sebelah kiri papan (AB + CD) dengan betul dan mendapat jawapan 137. Apakah jawapan yang akan diperolehnya jika dia menambah dua nombor empat digit di sebelah kanan papan (ADCB + CBAD)?",
+      "options": [
+        "13737",
+        "13837",
+        "14747",
+        "23737",
+        "137137"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q07.png"
+    },
+    {
+      "q": "A 3 × 3 × 3 cube is made from white, grey and black 1 × 1 × 1 cubes, as shown in the first diagram. The other two diagrams show the white part and the black part of the cube. Which of the following diagrams shows the grey part? / Sebuah kubus 3 × 3 × 3 dihasilkan daripada kubus 1 × 1 × 1 berwarna putih, kelabu dan hitam seperti dalam rajah pertama. Dua rajah lain menunjukkan bahagian putih dan bahagian hitam kubus itu. Rajah manakah yang menunjukkan bahagian berwarna kelabu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-cadet-2021/K21_Q08.png"
+    }
+  ]
+}

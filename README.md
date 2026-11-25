@@ -188,3 +188,9 @@ Di tab **Markah**, lajur *Kelas* kini mengandungi tahap kuiz.
 ## TaipSoalan
 
 Folder [`taipsoalan/`](taipsoalan/) mengandungi sistem Python untuk menaip semula kertas soalan Matematik SPM Kertas 2 kepada fail Word yang bersih. Lihat [`taipsoalan/README.md`](taipsoalan/README.md).
+
+## Kemas kini laman (cache)
+
+`index.html` dan `quiz.html` memuatkan fail CSS/JS dengan nombor versi (`?v=20261125`). Selepas mengubah
+fail dalam `assets/`, `site.js` atau `config.js`, tukar nombor itu (contoh tarikh hari ini) supaya telefon
+mengambil fail baharu dan bukan salinan lama.

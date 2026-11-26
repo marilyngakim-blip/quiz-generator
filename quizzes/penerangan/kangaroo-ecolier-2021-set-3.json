@@ -6,5 +6,13 @@
   "Mula dengan pasangan jumlah 3: hanya 1 + 2. Daripada jumlah 7 dan 15 di sekelilingnya, susun nombor tanpa ulangan.\nSusunan: 9, 6, 1, 2, 7, 8, 3, 5, 4.\nSemak: 9 + 6 = 15, 6 + 1 = 7, 1 + 2 = 3, 2 + 7 = 9, 7 + 8 = 15, 8 + 3 = 11, 3 + 5 = 8, 5 + 4 = 9.\nPetak berlorek ialah 7.",
   "Cari semua cara untuk mendapat 30:\n14 + 13 + 3 = 30 dan 3 + 9 + 18 = 30.\nNombor yang ada dalam kedua-dua cara ialah 3, jadi Mia pasti meletupkan belon 3.",
   "Bilangan biskut mesti gandaan 2, 3 dan 4 (iaitu gandaan 12) dan kurang daripada 50: 12, 24, 36 atau 48.\nMemerlukan 6 lagi untuk dibahagi 7 bermaksud baki apabila dibahagi 7 ialah 1:\n12 ÷ 7 baki 5, 24 ÷ 7 baki 3, 36 ÷ 7 baki 1 ✓, 48 ÷ 7 baki 6.\nJadi ada 36 biskut."
+ ],
+ "jawapan": [
+  "D",
+  "B",
+  "E",
+  "D",
+  "A",
+  "D"
  ]
 }

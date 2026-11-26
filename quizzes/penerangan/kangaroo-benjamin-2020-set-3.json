@@ -8,5 +8,15 @@
   "Katakan x = perlawanan yang telah dimainkan.\nMenang ½x, kalah ⅓x, seri 2: ½x + ⅓x + 2 = x → ⅙x = 2 → x = 12.\nBaki = 15 − 12 = 3 perlawanan.",
   "Lipat kertas mengikut arahan dan tulis 1 hingga 9 dari lapisan atas ke bawah. Kemudian buka lipatan dan baca nombor di setiap petak:\n1 6 7 / 2 5 8 / 3 4 9.\nJadi a = 6, b = 4, c = 8.",
   "Lapisan bawah (3 × 3): 12 titik sentuhan antara bola bersebelahan.\nLapisan tengah (2 × 2): 4 titik sentuhan sesama sendiri, dan 16 titik sentuhan dengan lapisan bawah (setiap bola menyentuh 4 bola di bawah).\nBola atas: 4 titik sentuhan dengan lapisan tengah.\nJumlah = 12 + 4 + 16 + 4 = 36."
+ ],
+ "jawapan": [
+  "A",
+  "B",
+  "E",
+  "B",
+  "C",
+  "B",
+  "A",
+  "E"
  ]
 }

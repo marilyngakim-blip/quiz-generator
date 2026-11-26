@@ -8,5 +8,15 @@
   "Sebelah kiri: nombor ganjil 1 hingga 39 = 20 rumah.\nSebelah kanan: nombor genap 2 hingga 34 = 17 rumah.\nJumlah = 20 + 17 = 37 rumah.",
   "Ikut cara nombor 4 dipantulkan: cermin menegak menterbalikkan kiri-kanan, kemudian cermin mendatar menterbalikkan atas-bawah. Dua pantulan ini sama dengan memutar 5 sebanyak 180° (terbalik atas-bawah dan kiri-kanan). Itulah pilihan C.",
   "Perimeter segi empat sama 20 cm → sisi = 5 cm.\nSegi empat tepat pertama: 5 cm × w, perimeter 2(5 + w) = 16 → w = 3 cm.\nSegi empat tepat kedua: 5 cm × (5 − 3) = 5 cm × 2 cm.\nPerimeter = 2(5 + 2) = 14 cm.\n(Nota: jalan kerja dalam skema buku tersilap kira, tetapi hurufnya D betul.)"
+ ],
+ "jawapan": [
+  "D",
+  "D",
+  "D",
+  "B",
+  "C",
+  "C",
+  "C",
+  "D"
  ]
 }

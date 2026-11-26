@@ -7,5 +7,14 @@
   "Pagar 10 meter mempunyai dua garis mendatar: 10 × 2 = 20 batang.\nGaris menegak: 11 kedudukan (0 hingga 10 meter), setiap kedudukan 2 batang: 2 × 11 = 22 batang.\nJumlah = 20 + 22 = 42 batang.",
   "Kanggaru: 7, 14, 21, 28, …, 70, 77 (gandaan 7).\nArnab: 100, 97, 94, 91, …, 76, 73, 70 (tolak 3 setiap kali).\nSelepas 10 langkah, kanggaru di 70 dan arnab juga di 100 − 30 = 70. Mereka bertemu di anak tangga ke-70.",
   "Katakan nombor rahsia x. Nombor asal ialah 24 + x, 13 + x dan 7 + x.\n(24 + x) + (13 + x) + (7 + x) = 50 → 44 + 3x = 50 → x = 2.\nNombor asal: 26, 15, 9. Antara pilihan, 9 ialah salah satunya."
+ ],
+ "jawapan": [
+  "C",
+  "C",
+  "C",
+  "D",
+  "E",
+  "D",
+  "A"
  ]
 }

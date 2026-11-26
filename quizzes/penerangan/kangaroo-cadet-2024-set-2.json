@@ -8,5 +8,15 @@
   "Setiap hari seekor anak mendapat 7 atau 5 ikan; jumlah sehari = 12.\nKatakan n hari, dan anak itu mendapat 7 ikan pada a hari: 7a + 5(n − a) = 44 → 5n + 2a = 44.\nPenyelesaian yang sah: n = 8, a = 2.\nJumlah ikan = 12 × 8 = 96. Anak yang satu lagi = 96 − 44 = 52.",
   "Struktur awal ada 1 kiub tengah dan 6 kiub di setiap muka (7 kiub).\nKiub baharu boleh diletakkan di 6 tempat di hujung setiap lengan, dan di 12 tempat di antara dua lengan yang bersebelahan (setiap tempat ini menyentuh dua lengan sekali gus).\nJumlah = 6 + 12 = 18 kiub.",
   "Katakan jarak naik = d meter. Naik: 1 m setiap lompatan → d lompatan. Turun: 3 m setiap lompatan → d/3 lompatan.\nd + d/3 = 2024 → 4d/3 = 2024 → d = 1518.\nJumlah jarak = naik + turun = 2 × 1518 = 3036 m."
+ ],
+ "jawapan": [
+  "C",
+  "C",
+  "B",
+  "A",
+  "A",
+  "D",
+  "A",
+  "D"
  ]
 }

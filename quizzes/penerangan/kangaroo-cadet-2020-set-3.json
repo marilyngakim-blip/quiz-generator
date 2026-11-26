@@ -8,5 +8,15 @@
   "Setiap juri memberi 0, 1, 2, 3, 4 kepada lima peserta (setiap markah sekali).\nIsi jadual supaya setiap baris menggunakan 0–4 sekali dan jumlah setiap peserta betul:\nJuri I: 2, 0, 1, 3, 4. Juri II: 4, 2, 0, 1, 3. Juri III: 1, 3, 2, 0, 4.\nAdam = 2 + 4 + 1 = 7 ✓. Adam mendapat 1 mata daripada juri III.",
   "Segi empat sama boleh dibina daripada 2k² segi tiga (petak k × k, setiap petak 2 segi tiga) atau 4m² segi tiga (petak senget).\nSaiz yang mungkin (≤ 52 segi tiga): 2, 8, 18, 32, 50 dan 4, 16, 36.\nJumlah = 8 saiz berbeza.",
   "Katakan jarak = x. Nisbah laju sama dengan nisbah jarak dalam masa yang sama.\nBoris : Carl = (x − 15) : (x − 35) = x : (x − 22).\n(x − 15)(x − 22) = x(x − 35)\nx² − 37x + 330 = x² − 35x → 2x = 330 → x = 165 m."
+ ],
+ "jawapan": [
+  "D",
+  "B",
+  "E",
+  "A",
+  "D",
+  "B",
+  "C",
+  "D"
  ]
 }

@@ -8,5 +8,15 @@
   "Alihkan bahagian berlorek di dalam bulatan ke bahagian yang tidak berlorek di luar bulatan (bucu-bucu segi empat).\nSelepas dialihkan, tepat separuh segi empat sama berlorek.\nLuas = 10 × 10 ÷ 2 = 50 cm².",
   "Kenderaan 1 bergerak ke hadapan 1 unit, kenderaan 2 ke hadapan 1 unit, kenderaan 3 ke hadapan 2 unit, dan kenderaan 4 ke hadapan 2 unit. Sekarang laluan kereta hitam ke pintu keluar kosong.\nBilangan minimum = 4 kenderaan.",
   "Setiap kali satu bahagian dipatahkan, 1 bahagian menjadi 3, iaitu bertambah 2.\nBermula dengan 1: 1, 3, 5, 7, 9, … — sentiasa nombor ganjil.\n20 ialah nombor genap, jadi tidak mungkin."
+ ],
+ "jawapan": [
+  "E",
+  "E",
+  "B",
+  "D",
+  "B",
+  "C",
+  "C",
+  "C"
  ]
 }

@@ -8,5 +8,15 @@
   "Heksagon kiri: 3 + 6 + 1 + 2 + a + b = 30 → a + b = 18.\nHeksagon kanan: 4 + 6 + 9 + 4 + c + d = 30 → c + d = 7.\nHeksagon tengah: a + b + c + d + 1 + ? = 30 → 18 + 7 + 1 + ? = 30 → ? = 4.",
   "Dua segi empat tepat pertama: 12 + 18 = 30 cm², lebar AB = 6 cm, jadi tinggi = 5 cm.\nLebar pertama = 12 ÷ 5 = 2.4 cm, jadi lebar kedua = 6 − 2.4 = 3.6 cm.\nLebar ketiga = 22 ÷ 5 = 4.4 cm.\nCD = 3.6 + 4.4 = 8 cm.",
   "Ronja dan Wanja bergilir-gilir, jadi warna token dalam timbunan (dari bawah) mesti berselang-seli secara keseluruhan pada baris pertama dan kedua dari atas.\nSusunan E melanggar syarat ini, jadi E tidak boleh dihasilkan."
+ ],
+ "jawapan": [
+  "E",
+  "D",
+  "B",
+  "B",
+  "D",
+  "B",
+  "C",
+  "E"
  ]
 }

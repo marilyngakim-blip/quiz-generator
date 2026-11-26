@@ -7,5 +7,14 @@
   "Bandingkan setiap digit, petak demi petak:\n9 → 8: tukar 1 petak.\n3 → 0: tukar 3 petak.\n0 → 6: tukar 2 petak.\nJumlah = 1 + 3 + 2 = 6 petak.",
   "Letakkan dua kepingan yang diberi dalam segi empat sama asal. Ruang yang tinggal mempunyai bentuk yang sama dengan kepingan B, jadi kepingan ketiga ialah B.",
   "Ivo bermula dengan 10 anak panah tetapi membaling 20, jadi dia mendapat 10 anak panah tambahan. Setiap balingan tepat ke tengah memberi 2 anak panah tambahan.\n10 ÷ 2 = 5 kali."
+ ],
+ "jawapan": [
+  "D",
+  "C",
+  "C",
+  "B",
+  "B",
+  "B",
+  "D"
  ]
 }

@@ -7,5 +7,14 @@
   "Kira mata setiap sasaran (tiga tembakan):\n(A) 10 + 8 + 7 = 25, (B) 7 + 7 + 10 = 24, (C) 8 + 8 + 8 = 24, (D) 7 + 7 + 8 = 22, (E) 8 + 9 + 9 = 26.\nRicky mendapat mata terbanyak, iaitu sasaran E.",
   "Perak + emas = 20, dan emas = perak + 6.\nPerak + perak + 6 = 20 → 2 perak = 14 → perak = 7.\nEmas = 7 + 6 = 13.",
   "Kira julat nombor setiap pusingan dari bawah:\nBaris 1 di hadapan: 1–11. Baris 2 di hadapan: 22–32. Baris 3 di hadapan: 43–53.\nTanda tanya berada di tengah baris ketiga: (43 + 53) ÷ 2 = 48."
+ ],
+ "jawapan": [
+  "C",
+  "C",
+  "B",
+  "B",
+  "E",
+  "D",
+  "C"
  ]
 }

@@ -6,5 +6,13 @@
   "Senaraikan semua cara mewarnakan kepala, ekor dan sayap dengan tiga warna berbeza:\nKepala merah: ekor biru sayap hijau, ekor hijau sayap biru. Kepala biru: 2 cara. Kepala hijau: 2 cara.\nJumlah = 6 cara. Satu sudah diwarnakan, jadi baki = 6 − 1 = 5.",
   "Cuba gabungan pasukan 5 dan 6 ahli:\n3 pasukan × 6 = 18, 5 pasukan × 5 = 25, jumlah 18 + 25 = 43 ✓.\nBilangan pasukan = 3 + 5 = 8.",
   "Untuk hasil terbesar, KAN dan GA mesti besar, ROO mesti kecil.\nROO paling kecil: R = 1, O = 2 → 122.\nCuba K = 9: 9AN − 122 + GA. Pilih A = 8, N = 6, G = 7: 986 − 122 + 78 = 942.\nCubaan lain (contohnya 896 − 122 + 79 = 853, 976 − 122 + 87 = 941) lebih kecil. Hasil terbesar = 942."
+ ],
+ "jawapan": [
+  "D",
+  "B",
+  "D",
+  "D",
+  "D",
+  "D"
  ]
 }

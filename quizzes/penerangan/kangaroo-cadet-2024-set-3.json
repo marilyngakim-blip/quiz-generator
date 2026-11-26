@@ -8,5 +8,15 @@
   "Garis dari bucu kiri bawah ke bucu kanan atas ialah pepenjuru petak (45°). Garis dari bucu kiri bawah ke bucu kiri atas naik 3 petak bagi setiap 1 petak ke kanan; katakan sudutnya dengan garis mendatar ialah θ.\nα = θ − 45°. Separuh β = 90° − θ (β dibahagi dua oleh garis menegak, dan kedua-dua garis di β mempunyai kecuraman yang sama).\nα + ½β = 45°. Dengan simetri, γ = α, jadi α + β + γ = 2 × 45° = 90°.",
   "Jika seorang pirate bercakap benar, tiga yang lain mesti salah dalam SEMUA jawapan mereka. Gunakan jumlah 30 untuk mencari nombor yang hilang:\nTom benar → (10, 9, 11): tetapi Pit juga tulis emas 10 → bercanggah.\nPit benar → (10, 10, 10): tetapi Jim tulis perak 10 → bercanggah.\nJim benar → (9, 10, 11): tetapi Tom tulis gangsa 11 → bercanggah.\nAl benar → (7, 11, 12): Tom, Pit dan Jim semuanya salah ✓.\nJadi Al bercakap benar.",
   "Katakan laju Bob v dan laju Alex 3v. Mereka bertemu kali pertama selepas 15 minit, jadi jarak AB = (3v + v) × 15 = 60v.\nAlex sampai di B pada minit 60v ÷ 3v = 20, lalu berpatah balik ke A dengan laju 3v. Bob masih bergerak ke A.\nSelepas t minit: jarak Bob dari B = vt; jarak Alex dari B = 3v(t − 20).\nvt = 3v(t − 20) → t = 30 minit."
+ ],
+ "jawapan": [
+  "B",
+  "C",
+  "D",
+  "E",
+  "D",
+  "D",
+  "B",
+  "C"
  ]
 }

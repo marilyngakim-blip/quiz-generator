@@ -8,5 +8,15 @@
   "Epal + oren = pir + pic. Daripada dua ketaksamaan:\nEpal + pir < oren + pic → pir < oren (kerana epal − pic = pir − oren).\nPir + oren < epal + pic → oren < pic.\nEpal = pir + pic − oren < pic.\nJadi pic paling berat.",
   "Lukis empat paksi simetri pada grid 6 × 6: satu menegak, satu mendatar dan dua pepenjuru.\nSetiap petak berlorek mesti dipantulkan pada semua paksi. Apabila semua pantulan dua petak yang diberi dan petak yang terhasil dilorek, petak yang perlu ditambah boleh dinomborkan 1 hingga 21 (seperti dalam skema).\nJadi 21 petak perlu ditambah.",
   "Setiap muka 7 × 7 mempunyai 13 petak pada kedua-dua pepenjuru: 4 petak bucu dan 9 petak dalam.\nKubus bucu: 8 (dikongsi oleh 3 muka). Petak dalam pada setiap muka: 9 × 6 = 54.\nJumlah = 8 + 54 = 62."
+ ],
+ "jawapan": [
+  "C",
+  "D",
+  "A",
+  "B",
+  "A",
+  "C",
+  "E",
+  "B"
  ]
 }

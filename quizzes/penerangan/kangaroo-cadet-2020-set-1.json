@@ -8,5 +8,15 @@
   "Bahagikan segi empat sama besar kepada 4 bahagian, kemudian setiap bahagian kepada 4 petak kecil: 16 petak kecil.\nBahagian berlorek = 4 (petak bawah kanan) + 2 (segi tiga atas kanan) + 2 (dua petak kecil atas kiri) = 8.\nPecahan = 8/16 = ½.",
   "Heksagon terkecil yang boleh mengandungi bentuk bintang ini memerlukan 54 segi tiga.\nSegi tiga yang perlu ditambah = 54 − 36 = 18.\n(Skema: 36 ÷ 2 = 18.)",
   "Untuk hasil negatif terkecil, gunakan satu nombor negatif dengan nilai terbesar dan dua nombor positif terbesar.\n(−5) × 4 × 6 = −120.\n(Tiga nombor negatif memberi (−5) × (−3) × (−1) = −15 sahaja.)"
+ ],
+ "jawapan": [
+  "B",
+  "A",
+  "C",
+  "A",
+  "E",
+  "E",
+  "D",
+  "B"
  ]
 }

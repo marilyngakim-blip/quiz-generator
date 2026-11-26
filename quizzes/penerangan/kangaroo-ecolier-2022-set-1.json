@@ -7,5 +7,14 @@
   "Setiap kitaran: satu lompatan besar (2 unit) dan dua lompatan kecil (1 unit setiap satu) = 3 lompatan untuk 4 unit.\nDari 0 ke 16 = 16 unit = 4 kitaran.\nBilangan lompatan = 4 × 3 = 12.",
   "Semak setiap kepingan sama ada nombornya sama dengan nombor bersebelahan dalam susun suai:\n(A) 1, 2 dan 3 akan bersebelahan dengan nombor yang sama. (B) 2 bersebelahan dengan 2. (C) 4 dan 3 bersebelahan dengan nombor yang sama. (E) 3 bersebelahan dengan 3.\nHanya kepingan D tiada nombor yang sama bersebelahan.",
   "Sebelah kiri bermula dengan 2022, sebelah kanan 2020 (kurang 2). Jadi kotak kanan mesti 2 lebih besar daripada kotak kiri.\nSemak: (A) 2022 + 3 = 2025 dan 2020 + 5 = 2025 ✓.\nPilihan lain tidak sama, contohnya (C) 2025 dan 2024."
+ ],
+ "jawapan": [
+  "A",
+  "B",
+  "C",
+  "C",
+  "E",
+  "D",
+  "A"
  ]
 }

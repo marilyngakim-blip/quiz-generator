@@ -64,6 +64,7 @@
           markChosen(card, label);
           updateProgress();
           saveDraft();
+          revealNow(i);
         });
         card.append(label);
       });
@@ -96,6 +97,40 @@
     form.prepend(el('div', { class: 'quiz-top' }, barLabel, el('div', { class: 'progress' }, bar), saveLabel), listBtn, grid);
     form.append(msg, el('div', { class: 'q-nav' }, prevBtn, nextBtn, btn));
     app.append(form);
+
+    /* ---------- Penerangan segera selepas setiap soalan ----------
+       Jika quizzes/penerangan/<id>.json ada "jawapan", murid nampak betul/salah dan
+       penerangan sebaik sahaja memilih jawapan. Soalan itu dikunci selepas dijawab. */
+    let instant = null;
+    function revealNow(i) {
+      if (!instant) return;
+      const card = document.getElementById('q' + (i + 1));
+      const c = form.querySelector('input[name="q' + i + '"]:checked');
+      if (!card || !c || card.dataset.revealed) return;
+      card.dataset.revealed = '1';
+      const ans = instant.jawapan[i];
+      const ok = c.value === ans;
+      form.querySelectorAll('input[name="q' + i + '"]').forEach(r => { r.disabled = true; });
+      card.querySelectorAll('.opt').forEach((o, j) => {
+        if (LETTERS[j] === ans) o.classList.add('correct');
+        else if (LETTERS[j] === c.value) o.classList.add('wrong');
+      });
+      card.querySelector('.q-no').after(el('span', { class: 'badge instant ' + (ok ? 'ok' : 'bad'), text: ok ? '✓ Betul' : '✗ Salah' }));
+      const box = el('div', { class: 'explain instant' });
+      if (!ok) box.append(el('p', { class: 'muted', text: 'Jawapan betul: ' + ans }));
+      const t = instant.penerangan[i];
+      if (t) box.append(el('strong', { text: '💡 Penerangan' }), el('p', { text: t }));
+      card.append(box);
+    }
+    fetch('quizzes/penerangan/' + quiz.id + '.json', { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : null))
+      .then(d => {
+        if (!d || !Array.isArray(d.jawapan) || d.jawapan.length !== quiz.questions.length) return;
+        instant = { jawapan: d.jawapan, penerangan: Array.isArray(d.penerangan) ? d.penerangan : [] };
+        document.getElementById('subtitle').textContent = quiz.questions.length + ' soalan · penerangan ditunjuk selepas setiap soalan';
+        quiz.questions.forEach((_, i) => revealNow(i));
+      })
+      .catch(() => {});
 
     function showQ(i) {
       cur = Math.max(0, Math.min(N - 1, i));
@@ -172,11 +207,15 @@
     function applyAnswers(answers) {
       quiz.questions.forEach((_, i) => {
         const card = document.getElementById('q' + (i + 1));
-        card.querySelectorAll('.opt').forEach(o => o.classList.remove('chosen'));
+        card.querySelectorAll('.opt').forEach(o => o.classList.remove('chosen', 'correct', 'wrong'));
+        card.querySelectorAll('.instant').forEach(x => x.remove());
+        delete card.dataset.revealed;
         form.querySelectorAll('input[name="q' + i + '"]').forEach(r => {
+          r.disabled = false;
           r.checked = r.value === answers[i];
           if (r.checked) markChosen(card, r.parentElement);
         });
+        revealNow(i);
       });
       updateProgress();
     }
@@ -425,6 +464,7 @@
   }
 
   function showResult(quiz, form, result, nama) {
+    form.querySelectorAll('.instant').forEach(x => x.remove());
     nama.disabled = true;
     form.querySelectorAll('input').forEach(i => { i.disabled = true; });
     // Semakan: paparkan semua soalan sekali gus (betul/salah).

@@ -8,5 +8,15 @@
   "1 + 2 + … + 2023 terlalu besar, jadi mesti bermula dengan nombor negatif supaya banyak nombor saling membatalkan.\n−1010 + … + 1012: nombor −1010 hingga 1010 menjadi 0, tinggal 1011 + 1012 = 2023 (jumlah 2023 nombor).\nNombor terbesar = 1012, hasil tambah digit = 1 + 0 + 1 + 2 = 4.",
   "Katakan nombor itu x. Meningkat 500% bermaksud x² = x + 5x = 6x.\nJadi x = 6 (6² = 36 = 6 × 6).",
   "Setiap pilihan yang sah memberi jumlah yang sama, 15.\nContoh: 7 + 6 + 2 = 15, 8 + 6 + 1 = 15, 9 + 5 + 1 = 15.\nJadi jumlah terbesar ialah 15."
+ ],
+ "jawapan": [
+  "D",
+  "B",
+  "C",
+  "D",
+  "B",
+  "A",
+  "B",
+  "B"
  ]
 }

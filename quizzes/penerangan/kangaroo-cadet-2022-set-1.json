@@ -8,5 +8,15 @@
   "Nomborkan bulatan beluncas 1 hingga 6 (hitam, putih, hitam, putih, hitam, putih). Bulatan bersebelahan mesti kekal bersentuhan apabila bergulung, dan warna mesti berselang-seli sepanjang badan. Hanya susunan A boleh dibentuk dengan menyambung 1 → 2 → 3 → 4 → 5 → 6 secara berturutan.",
   "Cuba tanda tolak di setiap tempat:\n(A) 6 − 9 + 12 + 15 + 18 + 21 = 63\n(B) 6 + 9 − 12 + 15 + 18 + 21 = 57\n(C) 6 + 9 + 12 − 15 + 18 + 21 = 51\n(D) 6 + 9 + 12 + 15 − 18 + 21 = 45 ✓\n(E) 6 + 9 + 12 + 15 + 18 − 21 = 39\nJadi tanda tolak di antara 15 dan 18.",
   "Kira bilangan pokok di kedua-dua belah setiap laluan selepas menambah pokok di setiap kawasan.\nJika ditanam di B: laluan (i) 3 dan 3, laluan (ii) 3 dan 3, laluan (iii) 3 dan 3 — semua sama.\nKawasan lain menyebabkan sekurang-kurangnya satu laluan tidak seimbang. Jadi kawasan B."
+ ],
+ "jawapan": [
+  "E",
+  "B",
+  "C",
+  "B",
+  "C",
+  "A",
+  "D",
+  "B"
  ]
 }

@@ -8,5 +8,15 @@
   "Pasangan muka bertentangan: 1–6, 2–5, 3–4. Muka yang bersentuhan mesti berjumlah 5 (1+4 atau 2+3).\nSatu-satunya susunan yang mungkin: dadu pertama bawah 5, atas 2; dadu kedua bawah 3, atas 4; dadu ketiga bawah 1, atas 6.\nJadi muka X mempunyai 6 titik.",
   "Ann: gandaan 3 dua digit terbesar dan terkecil: 99 + 12 = 111.\nBob: bukan gandaan 3 dua digit terbesar dan terkecil: 98 + 10 = 108.\nBeza = 111 − 108 = 3.",
   "Jarak antara tiang ialah 24 m, 30 m dan 66 m. FSTB (faktor sepunya terbesar) bagi 24, 30 dan 66 ialah 6.\nBahagian sama panjang 6 m: 120 ÷ 6 = 20 bahagian, perlu 20 + 1 = 21 tiang.\nSudah ada 4 tiang: 21 − 4 = 17 tiang perlu ditambah."
+ ],
+ "jawapan": [
+  "D",
+  "C",
+  "B",
+  "C",
+  "B",
+  "E",
+  "B",
+  "C"
  ]
 }

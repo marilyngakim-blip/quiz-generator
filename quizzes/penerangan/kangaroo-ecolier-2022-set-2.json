@@ -7,5 +7,14 @@
   "Jumlah setiap baris dan lajur sepatutnya 15:\nBaris: 9 + 1 + 5 = 15, 3 + 7 + 6 = 16, 4 + 7 + 4 = 15.\nLajur: 9 + 3 + 4 = 16, 1 + 7 + 7 = 15, 5 + 6 + 4 = 15.\nBaris kedua dan lajur pertama sama-sama berlebihan 1, dan kedua-duanya mengandungi 3. Jadi 3 perlu ditukar kepada 2.",
   "Setiap sisi mempunyai bilangan titik yang sama, dalam dua baris.\nBaris pertama (luar): 5 titik di setiap sisi, jadi jumlahnya 20 bagi 4 sisi.\nBaris kedua (dalam): 4 titik di setiap sisi, jadi jumlahnya 12.\nJumlah semua titik = 20 + 12 = 32.",
   "Gunakan konsep pantulan (seperti cermin) untuk membuka lipatan satu demi satu.\nLipatan pertama ialah garis mendatar di antara baris 3 dan baris 4. Lipatan kedua ialah garis menegak di tengah kertas.\nLubang pada kertas terlipat terletak di lajur kedua dan di baris yang bersebelahan dengan garis lipatan pertama.\nApabila lipatan menegak dibuka, lubang muncul di lajur 2 dan lajur 5. Apabila lipatan mendatar dibuka, lubang muncul di baris 3 dan baris 4.\nNombor yang ditebuk: baris 3 → 14 dan 17; baris 4 → 20 dan 23."
+ ],
+ "jawapan": [
+  "C",
+  "B",
+  "C",
+  "A",
+  "B",
+  "E",
+  "B"
  ]
 }

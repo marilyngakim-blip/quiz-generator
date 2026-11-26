@@ -8,5 +8,15 @@
   "Kira beza nombor pada setiap pusingan pita: setiap baris bertambah lebih kurang 10–11.\nBaris 1: 1–11, baris 2: 22–32, baris 3: 43–53, baris 4: 64–74.\nTanda soal berada di tengah baris 4: (64 + 74) ÷ 2 = 69.",
   "Pintu G hanya 3 lajur lebar, jadi hanya bentuk B atau D boleh muat. Kedua-duanya perlu bergerak dari kanan ke kiri, kemudian ke atas.\nDi sebelah kiri dan kanan baris ketiga D terdapat halangan, jadi D tidak boleh bergerak. B boleh bergerak satu baris ke kiri dan keluar.\nJawapan: B.",
   "Nisbah hijau kepada jumlah cat bagi setiap campuran:\n1/4, 2/8, 3/12, 4/16 — semuanya sama dengan ¼.\nJadi kesemuanya sama gelap."
+ ],
+ "jawapan": [
+  "D",
+  "A",
+  "E",
+  "D",
+  "B",
+  "C",
+  "B",
+  "E"
  ]
 }

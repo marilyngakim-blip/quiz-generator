@@ -8,5 +8,15 @@
   "Katakan muka bata ialah X, Y dan Z (luas), luas permukaan bata S = 2(X + Y + Z).\nApabila dua bata dicantum pada satu muka, luas bentuk = 2S − 2(muka itu).\nTambah ketiga-tiga: 72 + 96 + 102 = 6S − 2(X + Y + Z) = 6S − S = 5S.\n270 = 5S → S = 54.",
   "Uji setiap hari:\nKhamis: semalam Rabu. Kuda belang (jujur hari Khamis) kata Rabu hari bohongnya — benar ✓. Harimau (bohong hari Khamis) kata Rabu hari bohongnya — palsu, jadi dia memang berbohong ✓.\nHari-hari lain menyebabkan sekurang-kurangnya satu kenyataan tidak konsisten. Jadi hari ini Khamis.",
   "Katakan ∠BAC = x.\nAD = DB → ∠ABD = x, maka ∠BDC = 2x (sudut luar).\nCE = CD → ∠CED = ∠CDE = 2x.\nBE = EC → ∠EBC = ∠ECB, dan ∠CED = 2∠EBC → ∠EBC = x.\nJadi ∠ABC = x + x = 2x, dan ∠ACB = 2x (AB = AC).\nx + 2x + 2x = 180° → x = 36°."
+ ],
+ "jawapan": [
+  "D",
+  "B",
+  "B",
+  "B",
+  "C",
+  "D",
+  "A",
+  "E"
  ]
 }

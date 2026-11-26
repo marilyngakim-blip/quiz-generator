@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Katakan lebar lajur kiri p, kanan q; tinggi baris atas r, bawah s.\nPerimeter: ? = 2(p + r), 16 = 2(q + r), 18 = 2(p + s), 24 = 2(q + s).\nPerhatikan ? + 24 = 2(p + q + r + s) = 16 + 18.\n? = 34 − 24 = 10.",
+  "Andaikan 100 g cendawan segar: 80 g air, 20 g bahan kering.\nSelepas dikeringkan, bahan kering 20 g = 80% daripada jisim baharu → jisim baharu = 20 ÷ 0.8 = 25 g.\nPenurunan = 100 − 25 = 75 g = 75%.",
+  "Setiap heksagon dikelilingi oleh 6 segi tiga, dan setiap segi tiga bersentuhan dengan 3 heksagon.\nBilangan segi tiga = 3000 × 6 ÷ 3 = 6000.",
+  "Pasangan Clara (hasil darab 18): 2 & 9 atau 3 & 6.\nCuba Clara 3 & 6. Deindra (satu nombor dua kali yang lain): 1 & 2 atau 4 & 8.\nBart (beza 5): pilihan yang tinggal ialah 2 & 7 (1 & 6, 3 & 8 dan 4 & 9 bercanggah).\nMaka Aleksa (jumlah 6) = 1 & 5, dan Deindra = 4 & 8.\nKad digunakan: 1, 2, 3, 4, 5, 6, 7, 8. Kad yang tinggal = 9.",
+  "Bola bergerak 6 tempat setiap kali. Selepas k balingan, bola berada di tempat 6k (mod 50).\nOleh sebab FSTB(6, 50) = 2, bola hanya sampai ke tempat bernombor genap (atau ganjil) sahaja: 50 ÷ 2 = 25 tempat.\nFreda menangkap 100 kali, jadi semua 25 tempat itu telah dilalui. Murid yang tidak pernah menangkap = 50 − 25 = 25.",
+  "Garis dari bucu kiri bawah ke bucu kanan atas ialah pepenjuru petak (45°). Garis dari bucu kiri bawah ke bucu kiri atas naik 3 petak bagi setiap 1 petak ke kanan; katakan sudutnya dengan garis mendatar ialah θ.\nα = θ − 45°. Separuh β = 90° − θ (β dibahagi dua oleh garis menegak, dan kedua-dua garis di β mempunyai kecuraman yang sama).\nα + ½β = 45°. Dengan simetri, γ = α, jadi α + β + γ = 2 × 45° = 90°.",
+  "Jika seorang pirate bercakap benar, tiga yang lain mesti salah dalam SEMUA jawapan mereka. Gunakan jumlah 30 untuk mencari nombor yang hilang:\nTom benar → (10, 9, 11): tetapi Pit juga tulis emas 10 → bercanggah.\nPit benar → (10, 10, 10): tetapi Jim tulis perak 10 → bercanggah.\nJim benar → (9, 10, 11): tetapi Tom tulis gangsa 11 → bercanggah.\nAl benar → (7, 11, 12): Tom, Pit dan Jim semuanya salah ✓.\nJadi Al bercakap benar.",
+  "Katakan laju Bob v dan laju Alex 3v. Mereka bertemu kali pertama selepas 15 minit, jadi jarak AB = (3v + v) × 15 = 60v.\nAlex sampai di B pada minit 60v ÷ 3v = 20, lalu berpatah balik ke A dengan laju 3v. Bob masih bergerak ke A.\nSelepas t minit: jarak Bob dari B = vt; jarak Alex dari B = 3v(t − 20).\nvt = 3v(t − 20) → t = 30 minit."
+ ]
+}

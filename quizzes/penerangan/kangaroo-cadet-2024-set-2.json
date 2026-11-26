@@ -1,0 +1,12 @@
+{
+ "penerangan": [
+  "Katakan nombor dalam grid: a b (baris atas), c d (baris bawah).\nab = 6, cd = 8, ac = 4, bd = 12.\nCuba a = 1: b = 6, c = 4, d = 2. Semak: cd = 8 ✓, bd = 12 ✓, semua berbeza ✓.\nJumlah = 1 + 6 + 4 + 2 = 13.",
+  "Setiap troli tambahan menambah panjang yang sama.\n10 troli − 4 troli = 6 troli tambahan = 168 − 108 = 60 cm, jadi setiap troli tambahan = 10 cm.\nSatu troli = 108 − 3 × 10 = 78 cm.",
+  "Setiap potongan = 360° ÷ 10 = 36°. Selepas satu dimakan, 9 potongan = 324°.\nRuang kosong = 360° − 324° = 36°, dibahagi sama rata kepada 9 ruang di antara 9 potongan.\nSudut setiap ruang = 36° ÷ 9 = 4°.",
+  "Jumlah nombor dalam tiga kepingan = (2 + 2 + 1 + 2) + (2 + 1 + 3 + 1 + 1) + (2 + 3 + 1 + 2) = 7 + 8 + 8 = 23.\nJumlah semua 16 petak = 4 × (jumlah satu baris), jadi mesti gandaan 4.\nKepingan yang hilang mesti menjadikan jumlah gandaan 4: 23 + 5 = 28 ✓ (A: 1 + 1 + 3 = 5). Pilihan lain memberi 26, 27, 29 atau 30.",
+  "Lihat segi tiga besar dengan tapak sisi bawah (10 m) dan bucu di sisi atas segi empat sama. Kedua-duanya mempunyai tapak dan tinggi yang sama, jadi luasnya sama (½ × 10 × 10 = 50 m²).\nSegi tiga pertama = A + bahagian bawah tengah. Segi tiga kedua = B + bahagian bawah tengah yang sama.\nJadi A = B, maka A − B = 0 m².",
+  "Setiap hari seekor anak mendapat 7 atau 5 ikan; jumlah sehari = 12.\nKatakan n hari, dan anak itu mendapat 7 ikan pada a hari: 7a + 5(n − a) = 44 → 5n + 2a = 44.\nPenyelesaian yang sah: n = 8, a = 2.\nJumlah ikan = 12 × 8 = 96. Anak yang satu lagi = 96 − 44 = 52.",
+  "Struktur awal ada 1 kiub tengah dan 6 kiub di setiap muka (7 kiub).\nKiub baharu boleh diletakkan di 6 tempat di hujung setiap lengan, dan di 12 tempat di antara dua lengan yang bersebelahan (setiap tempat ini menyentuh dua lengan sekali gus).\nJumlah = 6 + 12 = 18 kiub.",
+  "Katakan jarak naik = d meter. Naik: 1 m setiap lompatan → d lompatan. Turun: 3 m setiap lompatan → d/3 lompatan.\nd + d/3 = 2024 → 4d/3 = 2024 → d = 1518.\nJumlah jarak = naik + turun = 2 × 1518 = 3036 m."
+ ]
+}

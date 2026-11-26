@@ -1,0 +1,91 @@
+{
+  "id": "kangaroo-ecolier-2022-set-2",
+  "title": "Kangaroo Ecolier 2022 Set 2",
+  "createdAt": "2026-11-26T15:13:54.936Z",
+  "questions": [
+    {
+      "q": "John builds the tower shown. What will he see if he looks at his tower from above? / John membina menara seperti berikut. Apa yang dia akan lihat dari pandangan atas bagi menara tersebut?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q08.png"
+    },
+    {
+      "q": "Five cars numbered 1, 2, 3, 4 and 5 are moving in the same direction. First, the last car (5) overtakes the two cars ahead of it. Next, the second last car overtakes the two cars ahead of it. Finally, the middle car overtakes the two cars ahead of it. In what order are the cars now? / Lima buah kereta bernombor 1, 2, 3, 4 dan 5 sedang bergerak dalam arah yang sama. Pertama, kereta terakhir (5) memotong dua kereta di hadapannya. Seterusnya, kereta kedua terakhir memotong dua kereta di hadapannya. Akhirnya, kereta yang berada di tengah memotong dua kereta di hadapannya. Apakah susunan kereta-kereta tersebut sekarang?",
+      "options": [
+        "1, 2, 3, 5, 4",
+        "2, 1, 3, 5, 4",
+        "2, 1, 5, 3, 4",
+        "3, 1, 4, 2, 5",
+        "4, 1, 2, 5, 3"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q09.png"
+    },
+    {
+      "q": "The ages of a family of kangaroos are 2, 4, 5, 6, 8 and 10 years. The sum of the ages of four of them is 22 years. What are the ages of the other two kangaroos? / Umur kanggaru sekeluarga ialah 2, 4, 5, 6, 8 dan 10 tahun. Jumlah umur empat daripada mereka ialah 22 tahun. Berapakah umur dua kanggaru yang lain?",
+      "options": [
+        "2 & 8",
+        "4 & 5",
+        "5 & 8",
+        "6 & 8",
+        "6 & 10"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q10.png"
+    },
+    {
+      "q": "During my holiday, I sent the five postcards shown to my friends. There are no ducks on Mike's card. Cara's card has the sun on it. There are exactly two living creatures on Paula's card. Lexi's card has a dog on it. There are kangaroos on Heather's card. Which card did Mike get? / Semasa percutian, saya menghantar lima poskad seperti dalam gambar kepada rakan-rakan saya. Tiada gambar itik pada kad Mike. Kad Cara mempunyai gambar matahari. Terdapat dua makhluk hidup pada kad Paula. Kad Lexi mempunyai gambar anjing. Terdapat gambar kanggaru pada kad Heather. Kad manakah yang Mike dapat?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q11.png"
+    },
+    {
+      "q": "Mosif wanted the sum of the three numbers in each row and in each column of the grid to be the same. He made one mistake. Which number must he correct? / Mosif ingin jumlah bagi tiga nombor dalam setiap baris dan lajur grid adalah sama. Dia membuat satu kesilapan. Nombor yang manakah perlu dia betulkan?",
+      "options": [
+        "1",
+        "3",
+        "One of the 4s / Salah satu daripada 4",
+        "5",
+        "One of the 7s / Salah satu daripada 7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q12.png"
+    },
+    {
+      "q": "Aladdin has a square carpet. There are the same number of dots, arranged in two lines, along each side of his carpet. Unfortunately, the carpet has folded. How many dots are there on Aladdin's carpet? / Aladdin mempunyai karpet segi empat sama. Terdapat bilangan titik yang sama, disusun dalam dua baris, di sepanjang setiap sisi karpet. Malangnya, karpet itu telah berlipat. Berapakah bilangan titik pada karpet Aladdin?",
+      "options": [
+        "48",
+        "44",
+        "40",
+        "36",
+        "32"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q13.png"
+    },
+    {
+      "q": "Joanna folds the number square twice as shown. Then she punches a hole through the black spot shown by the arrow. Which numbers does she also punch through? / Joanna melipat nombor segi empat sama sebanyak dua kali seperti yang berikut. Kemudian dia menebuk lubang pada titik hitam yang ditunjukkan oleh anak panah itu. Nombor manakah yang ditebuk?",
+      "options": [
+        "8, 11, 26, 29",
+        "14, 17, 20, 23",
+        "15, 16, 21, 22",
+        "14, 16, 21, 23",
+        "15, 17, 20, 22"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q14.png"
+    }
+  ]
+}

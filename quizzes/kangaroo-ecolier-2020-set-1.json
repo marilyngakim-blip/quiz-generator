@@ -1,0 +1,91 @@
+{
+  "id": "kangaroo-ecolier-2020-set-1",
+  "title": "Kangaroo Ecolier 2020 Set 1",
+  "createdAt": "2026-11-26T15:19:36.238Z",
+  "questions": [
+    {
+      "q": "A mushroom grows every day. Mary takes a picture of the mushroom each day from Monday to Friday. Which of these pictures was taken on Tuesday? / Suatu cendawan membesar setiap hari. Mary mengambil gambar cendawan itu pada setiap hari dari Isnin hingga Jumaat. Antara berikut, gambar yang manakah diambil pada hari Selasa?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q01.png"
+    },
+    {
+      "q": "Which piece completes the pattern? / Kepingan manakah yang melengkapkan corak berikut?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q02.png"
+    },
+    {
+      "q": "Tysger shades all the squares in the grid where the result is 20. Which pattern does he get? / Tysger melorek semua petak pada grid berikut yang mempunyai hasil kiraan 20. Corak manakah yang diperolehinya?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q03.png"
+    },
+    {
+      "q": "Which of the following figures has the largest shaded area? / Rajah manakah yang mempunyai kawasan berlorek paling besar?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q04.png"
+    },
+    {
+      "q": "Which one of the figures below can you make with these pieces? / Antara bentuk di bawah, yang manakah dapat dihasilkan dengan kepingan-kepingan berikut?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q05.png"
+    },
+    {
+      "q": "Elli draws this square with chalk on the pavement. She starts from number 1. Each time she jumps, she always jumps to a number that is 3 more than the number she is standing on. What is the largest number Elli can jump onto? / Elli melukis segi empat berikut di atas kaki lima dengan kapur. Dia bermula dari nombor 1. Setiap kali dia melompat, dia akan menuju ke petak bernombor lebih 3 daripada nombor petaknya sekarang. Apakah nombor paling besar yang Elli boleh melompat ke arahnya?",
+      "options": [
+        "11",
+        "14",
+        "18",
+        "19",
+        "24"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q06.png"
+    },
+    {
+      "q": "Jorge glues these 6 stickers to the faces of a cube. The pictures show the cube in two positions. Which sticker is on the opposite face to the duck? / Jorge melekatkan 6 pelekat ini pada permukaan suatu kiub. Gambar menunjukkan kiub tersebut daripada dua pandangan. Pelekat manakah yang bertentangan dengan pelekat itik?",
+      "options": [
+        "Elephant / Gajah",
+        "Mouse / Tikus",
+        "Ladybird / Kumbang kura-kura",
+        "Cat / Kucing",
+        "Fly / Lalat"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q07.png"
+    }
+  ]
+}

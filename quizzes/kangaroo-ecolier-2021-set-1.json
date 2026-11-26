@@ -1,0 +1,90 @@
+{
+  "id": "kangaroo-ecolier-2021-set-1",
+  "title": "Kangaroo Ecolier 2021 Set 1",
+  "createdAt": "2026-11-26T15:18:17.907Z",
+  "questions": [
+    {
+      "q": "Erik has 4 bricks. Which of the cubes shown below can he make with his 4 bricks? / Erik ada 4 batu-bata. Antara kubus berikut, yang manakah boleh dibuat menggunakan batu-bata itu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q01.png"
+    },
+    {
+      "q": "How many fish will have their heads pointing towards the ring when we straighten the rope? / Jika tali berikut diluruskan, berapakah ikan yang kepalanya akan menghadap cincin?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q02.png"
+    },
+    {
+      "q": "When you put the 4 puzzle pieces together correctly, they form a rectangle with a calculation on it. What is the result of this calculation? / Jika 4 kepingan susun suai berikut dicantum dengan betul, segi empat tepat akan terbentuk dengan satu pengiraan tertulis padanya. Apakah hasil pengiraan itu?",
+      "options": [
+        "6",
+        "15",
+        "18",
+        "24",
+        "33"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q03.png"
+    },
+    {
+      "q": "Alaya draws a picture of the sun. Which of the following answers is part of her picture? / Alaya melukis gambar matahari. Antara berikut, yang manakah ialah sebahagian gambar itu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q04.png"
+    },
+    {
+      "q": "Five boys competed in a shooting challenge. Ricky scored the most points. Which target was Ricky's? / Lima budak lelaki menyertai pertandingan menembak. Ricky mengumpul mata terbanyak. Yang manakah merupakan sasaran Ricky?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q05.png"
+    },
+    {
+      "q": "Denise fired a silver and a gold rocket at the same time. The rockets exploded into 20 stars in total. The gold rocket exploded into 6 more stars than the silver one. How many stars did the gold rocket explode into? / Denise melancarkan satu roket berwarna perak dan satu roket berwarna emas secara serentak. Roket-roket itu meletup kepada sejumlah 20 bintang. Roket emas meletup menjadi 6 bintang lebih daripada roket perak. Roket emas meletup kepada berapa bintang?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "13",
+        "15"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A measuring tape is wrapped around a cylinder. Which number should be at the place shown by the question mark? / Segulung pita pengukur dibalut pada suatu silinder. Apakah nombor yang sepatutnya berada pada tanda tanya?",
+      "options": [
+        "33",
+        "42",
+        "48",
+        "53",
+        "69"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q07.png"
+    }
+  ]
+}

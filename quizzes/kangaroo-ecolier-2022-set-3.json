@@ -1,0 +1,77 @@
+{
+  "id": "kangaroo-ecolier-2022-set-3",
+  "title": "Kangaroo Ecolier 2022 Set 3",
+  "createdAt": "2026-11-26T15:14:20.508Z",
+  "questions": [
+    {
+      "q": "The pupils in a class sit in rows. There are the same number of pupils in each row. There are 2 rows of pupils in front of Robert and 1 row of pupils behind him. In his row, there are 3 pupils on his left and 5 pupils on his right. How many pupils are there in this class? / Di dalam kelas, murid-murid duduk dalam barisan. Bilangan murid dalam setiap barisan adalah sama. Terdapat 2 barisan murid di hadapan Robert dan 1 barisan di belakangnya. Dalam barisannya, terdapat 3 orang murid di sebelah kirinya dan 5 orang murid di sebelah kanannya. Berapakah bilangan murid dalam kelas ini?",
+      "options": [
+        "10",
+        "17",
+        "18",
+        "27",
+        "36"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "The cube in the picture is built from the three kinds of wooden blocks shown. How many white wooden blocks are used? / Kubus dalam gambar di sebelah kanan dibina daripada tiga jenis bongkah kayu seperti yang ditunjukkan. Berapakah bilangan bongkah kayu putih yang digunakan?",
+      "options": [
+        "8",
+        "11",
+        "13",
+        "16",
+        "19"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q16.png"
+    },
+    {
+      "q": "Wanda chose a few of the following shapes and said, \"Amongst the shapes I have chosen, there are 2 coloured ones, 2 large ones and 2 round ones\". What is the smallest number of shapes that Wanda could have chosen? / Wanda memilih beberapa bentuk berikut dan berkata, \"Antara bentuk yang saya pilih, terdapat 2 bentuk yang berwarna, 2 bentuk yang besar dan 2 berbentuk bulat.\" Apakah bilangan terkecil bentuk yang dipilih oleh Wanda?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q17.png"
+    },
+    {
+      "q": "A pyramid is built from cubes with a side length of 10 cm. An ant climbed up and over the pyramid from the ground on one side to the ground on the opposite side, passing over the top cube along a straight path (see the view from above). What is the length of the path walked by the ant across the pyramid? / Sebuah piramid dibina daripada kubus dengan panjang sisi 10 cm. Seekor semut memanjat dari tanah di satu sisi, melintasi kubus paling atas dalam laluan lurus, dan turun ke tanah di sisi bertentangan (lihat pandangan atas). Berapakah panjang laluan yang dilalui oleh semut melintasi piramid tersebut?",
+      "options": [
+        "30 cm",
+        "60 cm",
+        "70 cm",
+        "80 cm",
+        "90 cm"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q18.png"
+    },
+    {
+      "q": "Ahmad and Zhaleh start moving from point A with the same speed, in the directions shown. Ahmad walks around the square-shaped garden and Zhaleh walks around the rectangular-shaped one. They meet again at A. What is the smallest number of laps around the square-shaped garden that Ahmad could do to meet Zhaleh there? / Ahmad dan Zhaleh mula bergerak dari titik A dengan kelajuan yang sama, mengikut arah yang ditunjukkan. Ahmad berjalan mengelilingi taman segi empat sama dan Zhaleh berjalan mengelilingi taman segi empat tepat. Mereka bertemu semula di titik A. Berapakah bilangan pusingan terkecil mengelilingi taman segi empat sama yang dilakukan oleh Ahmad untuk bertemu Zhaleh di sana?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2022/E22_Q19.png"
+    },
+    {
+      "q": "Five children ate some plums. Lauren ate two plums more than Sophie. Betty ate three plums fewer than Lauren. Claire ate one plum more than Betty and three plums fewer than Alice. Which two girls ate the same number of plums? / Lima kanak-kanak telah makan beberapa biji buah plum. Lauren makan dua biji lebih banyak daripada Sophie. Betty makan kurang tiga biji daripada Lauren. Claire makan sebiji lebih banyak daripada Betty dan kurang tiga biji daripada Alice. Dua kanak-kanak manakah yang makan bilangan buah plum yang sama?",
+      "options": [
+        "Claire and Lauren / Claire dan Lauren",
+        "Claire and Sophie / Claire dan Sophie",
+        "Lauren and Alice / Lauren dan Alice",
+        "Sophie and Alice / Sophie dan Alice",
+        "Alice and Betty / Alice dan Betty"
+      ],
+      "marks": 1
+    }
+  ]
+}

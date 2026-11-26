@@ -1,0 +1,89 @@
+{
+  "id": "kangaroo-ecolier-2021-set-2",
+  "title": "Kangaroo Ecolier 2021 Set 2",
+  "createdAt": "2026-11-26T15:18:43.936Z",
+  "questions": [
+    {
+      "q": "Rosana has some balls of 3 different colours. Balls of the same colour have the same weight. What is the weight of each white ball? / Rosana ada beberapa bola dalam 3 warna berlainan. Bola yang berwarna sama mempunyai berat yang sama. Apakah berat setiap bola berwarna putih?",
+      "options": [
+        "3 kg",
+        "4 kg",
+        "5 kg",
+        "6 kg",
+        "7 kg"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q08.png"
+    },
+    {
+      "q": "Nisa has 3 different types of cards in a game: apple, cherry and grapes. She chooses 2 cards from the set and swaps their places. She wants to arrange the cards so that all the cards with the same fruit are next to each other. For which set is this NOT possible? / Nisa ada 3 jenis kad yang berlainan dalam satu permainan: epal, ceri dan anggur. Dia memilih 2 kad daripada set itu dan menukarkan tempat kad-kad itu. Dia mahu menyusun kad-kad itu supaya kesemua kad dengan buah yang sama adalah bersebelahan. Untuk set manakah ini TIDAK mungkin?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q09.png"
+    },
+    {
+      "q": "Sofie wants to pick 5 different shapes from the boxes. She can only pick 1 shape from each box. Which shape must she pick from box 4? / Sofie mahu memilih 5 bentuk berlainan daripada kotak-kotak berikut. Dia hanya boleh memilih 1 bentuk daripada setiap kotak. Bentuk manakah yang harus dia pilih daripada kotak ke-4?",
+      "options": [
+        "Star / Bintang",
+        "Circle / Bulatan",
+        "Pentagon",
+        "Triangle / Segi tiga",
+        "Diamond / Berlian"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q10.png"
+    },
+    {
+      "q": "18 cubes are coloured white or grey or black and are arranged as shown in the picture. The pictures below show the white and the black parts. Which of the following is the grey part? / 18 kubus berwarna putih atau kelabu atau hitam disusun seperti dalam gambar. Gambar di bawah menunjukkan bahagian berwarna putih dan hitam. Antara berikut, yang manakah bahagian berwarna kelabu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q11.png"
+    },
+    {
+      "q": "The 5 balls shown begin to move simultaneously in the directions indicated by their arrows. When two balls going in opposite directions collide, the bigger ball swallows the smaller one and increases its value by the value of the smaller ball. The bigger ball continues to move in its original direction, as shown in the example. What is the final result of the collisions of the 5 balls shown? / 5 bola berikut mula bergerak serentak ke arah yang ditunjukkan oleh anak panah. Apabila dua bola yang bergerak bertentangan bertembung, bola yang lebih besar akan menelan bola yang lebih kecil dan nilainya meningkat sebanyak nilai bola yang lebih kecil. Bola besar meneruskan perjalanan mengikut arah asal seperti contoh. Apakah hasil akhir pertembungan 5 bola itu?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q12.png"
+    },
+    {
+      "q": "In an ice cream shop there is some money in a drawer. After selling 6 ice creams, there are 70 euros in the drawer. After selling a total of 16 ice creams, there are 120 euros in the drawer. How many euros were there in the drawer at the start? / Di sebuah kedai aiskrim ada sejumlah wang dalam satu laci. Selepas menjual 6 aiskrim, ada 70 euro dalam laci. Selepas menjual sejumlah 16 aiskrim, ada 120 euro dalam laci. Berapa jumlah euro yang ada dalam laci pada mulanya?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "A koala ate some leaves from 3 branches. Each branch had 20 leaves. The koala ate a few leaves from the first branch and then ate as many leaves from the second branch as were left on the first branch. Then it ate 2 leaves from the third branch. How many leaves in total were left on the 3 branches? / Seekor koala makan beberapa daun pada 3 batang dahan. Setiap dahan ada 20 daun. Koala itu makan beberapa daun pada dahan pertama dan kemudian makan daun pada dahan kedua sebanyak daun yang ditinggalkan pada dahan pertama. Kemudian koala itu makan 2 daun daripada dahan ketiga. Berapakah jumlah daun yang tinggal pada ketiga-tiga dahan itu?",
+      "options": [
+        "20",
+        "22",
+        "28",
+        "32",
+        "38"
+      ],
+      "marks": 1
+    }
+  ]
+}

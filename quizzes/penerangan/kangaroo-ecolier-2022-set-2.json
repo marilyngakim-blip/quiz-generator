@@ -1,0 +1,11 @@
+{
+ "penerangan": [
+  "Dari atas, John nampak tiga segi empat sama: yang paling kecil ialah blok paling atas, diikuti blok bersaiz sederhana dan blok tapak yang paling besar.\nBlok sederhana yang lebih rendah tersembunyi di bawah blok di atasnya.\nPandangan yang sepadan ialah C.",
+  "Mula: 1, 2, 3, 4, 5 (kereta 1 paling hadapan).\nKereta 5 memotong 3 dan 4: 1, 2, 5, 3, 4.\nKereta kedua terakhir (3) memotong 2 dan 5: 1, 3, 2, 5, 4.\nKereta di tengah (2) memotong 1 dan 3: 2, 1, 3, 5, 4.",
+  "Jumlah semua umur = 2 + 4 + 5 + 6 + 8 + 10 = 35.\nEmpat kanggaru berjumlah 22, jadi dua yang lain = 35 − 22 = 13.\nPasangan yang berjumlah 13: 5 dan 8. (Semak: 2 + 4 + 6 + 10 = 22 ✓.)",
+  "Cara mendapat kad D (matahari). Paula mendapat kad C (dua makhluk: kumbang dan lalat). Lexi mendapat kad E (anjing). Heather mendapat kad B (kanggaru).\nKad yang tinggal ialah A, dan ia tiada itik. Jadi Mike mendapat kad A.",
+  "Jumlah setiap baris dan lajur sepatutnya 15:\nBaris: 9 + 1 + 5 = 15, 3 + 7 + 6 = 16, 4 + 7 + 4 = 15.\nLajur: 9 + 3 + 4 = 16, 1 + 7 + 7 = 15, 5 + 6 + 4 = 15.\nBaris kedua dan lajur pertama sama-sama berlebihan 1, dan kedua-duanya mengandungi 3. Jadi 3 perlu ditukar kepada 2.",
+  "Setiap sisi mempunyai bilangan titik yang sama, dalam dua baris.\nBaris pertama (luar): 5 titik di setiap sisi, jadi jumlahnya 20 bagi 4 sisi.\nBaris kedua (dalam): 4 titik di setiap sisi, jadi jumlahnya 12.\nJumlah semua titik = 20 + 12 = 32.",
+  "Gunakan konsep pantulan (seperti cermin) untuk membuka lipatan satu demi satu.\nLipatan pertama ialah garis mendatar di antara baris 3 dan baris 4. Lipatan kedua ialah garis menegak di tengah kertas.\nLubang pada kertas terlipat terletak di lajur kedua dan di baris yang bersebelahan dengan garis lipatan pertama.\nApabila lipatan menegak dibuka, lubang muncul di lajur 2 dan lajur 5. Apabila lipatan mendatar dibuka, lubang muncul di baris 3 dan baris 4.\nNombor yang ditebuk: baris 3 → 14 dan 17; baris 4 → 20 dan 23."
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "penerangan": [
+  "Cuba setiap set arah. Setiap anak panah bermaksud bergerak satu petak.\nLebah bermula di petak kiri atas dan bunga di petak kanan bawah (grid 4 × 4), jadi lebah perlu 3 langkah ke kanan dan 3 langkah ke bawah.\nHanya set A (→ ↓ → ↓ ↓ →) mempunyai 3 anak panah → dan 3 anak panah ↓, jadi ia membawa lebah tepat ke bunga.",
+  "Arah pantulan laser ditentukan oleh kedudukan cermin (\\ atau /), seperti dalam gambar kiri.\nIkut laluan laser dari kiri: ia memantul ke bawah, kemudian ke kanan, ke atas, dan seterusnya setiap kali bertemu cermin.\nLaser akhirnya keluar di huruf B.",
+  "Kira syiling dalam setiap baris dan lajur:\nSyiling C berada dalam baris bawah dan lajur kiri yang masing-masing mempunyai 3 syiling.\nJika C dialihkan ke sel kosong di sebelah syiling B, setiap baris dan lajur akan mempunyai tepat 2 syiling.\nJadi syiling C perlu dialihkan.",
+  "Kotak TRAIN berada di bawah kotak 'stuffed animals' dan 'bedding'. Untuk membukanya, Bill mesti mengalihkan:\n1. music sheets, 2. books (atas stuffed animals), 3. board games, 4. stuffed animals, 5. bedding.\nJumlah = 5 kotak.",
+  "Setiap kitaran: satu lompatan besar (2 unit) dan dua lompatan kecil (1 unit setiap satu) = 3 lompatan untuk 4 unit.\nDari 0 ke 16 = 16 unit = 4 kitaran.\nBilangan lompatan = 4 × 3 = 12.",
+  "Semak setiap kepingan sama ada nombornya sama dengan nombor bersebelahan dalam susun suai:\n(A) 1, 2 dan 3 akan bersebelahan dengan nombor yang sama. (B) 2 bersebelahan dengan 2. (C) 4 dan 3 bersebelahan dengan nombor yang sama. (E) 3 bersebelahan dengan 3.\nHanya kepingan D tiada nombor yang sama bersebelahan.",
+  "Sebelah kiri bermula dengan 2022, sebelah kanan 2020 (kurang 2). Jadi kotak kanan mesti 2 lebih besar daripada kotak kiri.\nSemak: (A) 2022 + 3 = 2025 dan 2020 + 5 = 2025 ✓.\nPilihan lain tidak sama, contohnya (C) 2025 dan 2024."
+ ]
+}

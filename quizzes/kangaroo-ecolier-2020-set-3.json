@@ -1,0 +1,77 @@
+{
+  "id": "kangaroo-ecolier-2020-set-3",
+  "title": "Kangaroo Ecolier 2020 Set 3",
+  "createdAt": "2026-11-26T15:20:31.916Z",
+  "questions": [
+    {
+      "q": "Amelie wants to build the figure using 10 of the given shapes. When two shapes share a side, the corresponding numbers match. Four shapes have already been placed. Which number goes in the triangle marked with X? / Amelie mahu membina rajah menggunakan 10 salinan bentuk yang diberikan. Apabila dua bentuk berkongsi sisi, nombor yang sama akan diletakkan bersebelahan. Empat bentuk telah diletakkan. Nombor apakah yang akan terletak pada segi tiga bertanda X?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q15.png"
+    },
+    {
+      "q": "A standard dice has the sum of dots on opposite faces equal to 7. The dice is put on the first square as shown and then rolls towards the right. When the dice gets to the last square, what is the total number of dots on the three faces marked with the question marks? / Sebuah dadu mempunyai hasil tambah titik pada permukaan yang bertentangan sama dengan 7. Dadu diletakkan di atas petak pertama seperti yang ditunjukkan dan kemudian digolekkan ke kanan. Apabila dadu itu berada di petak terakhir, apakah jumlah titik pada ketiga-tiga permukaan yang bertanda soal?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "11",
+        "12"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q16.png"
+    },
+    {
+      "q": "A teacher writes the numbers from 1 to 8 on a board. The teacher then covers the numbers with triangles, squares and a circle. If you add the four numbers covered by the triangles, the sum is 10. If you add the three numbers covered by the squares, the sum is 20. Which number is covered by the circle? / Seorang guru menulis nombor 1 hingga 8 pada papan tulis. Kemudian guru itu menutup nombor tersebut dengan beberapa segi tiga, beberapa segi empat dan satu bulatan. Jika empat nombor yang ditutup oleh segi tiga ditambah, hasilnya ialah 10. Jika tiga nombor yang ditutup oleh segi empat ditambah, hasilnya ialah 20. Nombor apakah yang ditutup oleh bulatan?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q17.png"
+    },
+    {
+      "q": "Jane has some photocopies of this picture of a parrot. She wants to colour the head, tail and wings of each parrot, using red, blue or green, so that all three colours are used on each picture. She colours one parrot's head red, its wings green and its tail blue. How many more parrots can she colour so that all the parrots are coloured differently? / Jane mempunyai beberapa salinan gambar burung kakak tua ini. Dia ingin mewarnakan kepala, ekor dan sayap setiap burung dengan warna merah, biru atau hijau, supaya ketiga-tiga warna digunakan pada setiap gambar. Dia mewarnakan satu burung dengan kepala merah, sayap hijau dan ekor biru. Berapakah baki bilangan gambar yang boleh diwarnakan, supaya semua gambar diwarnakan dengan cara yang berbeza?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "9"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q18.png"
+    },
+    {
+      "q": "Several teams came to the summer Kangaroo camp. Each team has 5 or 6 members. There are 43 people in total. How many teams are at this camp? / Beberapa pasukan telah menghadiri kem musim panas Kangaroo. Setiap pasukan mempunyai 5 atau 6 ahli. Jumlah keseluruhannya ialah 43 orang. Berapakah bilangan pasukan yang menghadiri kem ini?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "marks": 1
+    },
+    {
+      "q": "Ann replaces letters in the calculation KAN − ROO + GA with numbers from 1 to 9 and then calculates the result. The same letters are replaced by the same numbers. Different letters are replaced by different numbers. What is the largest possible result she could get? / Ann menggantikan huruf dalam pengiraan KAN − ROO + GA dengan nombor dari 1 hingga 9 dan kemudian mengira hasilnya. Huruf yang sama digantikan dengan nombor yang sama. Huruf yang berbeza digantikan dengan nombor yang berbeza. Apakah hasil terbesar yang dia boleh dapatkan?",
+      "options": [
+        "925",
+        "933",
+        "939",
+        "942",
+        "948"
+      ],
+      "marks": 1
+    }
+  ]
+}

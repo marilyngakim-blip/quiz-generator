@@ -1,0 +1,90 @@
+{
+  "id": "kangaroo-ecolier-2020-set-2",
+  "title": "Kangaroo Ecolier 2020 Set 2",
+  "createdAt": "2026-11-26T15:20:04.649Z",
+  "questions": [
+    {
+      "q": "Casper has the following 7 shaded pieces. He uses some of these pieces to fully cover the white grid without overlap. He uses as many different pieces as possible. How many pieces does Casper use? / Casper mempunyai 7 kepingan berlorek seperti berikut. Dia menggunakan beberapa kepingan untuk menutup grid putih sepenuhnya tanpa bertindih. Dia menggunakan sebanyak mungkin kepingan yang berbeza. Berapakah bilangan kepingan yang digunakan oleh Casper?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q08.png"
+    },
+    {
+      "q": "Cindy colours each region on the pattern either red, blue or yellow. The regions that touch each other have different colours. The outer region of the pattern is coloured red. How many regions are coloured red? / Cindy mewarnakan setiap kawasan pada corak berikut dengan warna merah, biru atau kuning. Kawasan yang bersentuhan diwarnakan dengan warna berbeza. Kawasan paling luar diwarnakan merah. Berapakah bilangan kawasan yang berwarna merah?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q09.png"
+    },
+    {
+      "q": "Loes looks at the pyramid from above. What does Loes see? / Loes melihat piramid ini dari atas. Apakah yang Loes lihat?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q10.png"
+    },
+    {
+      "q": "Dennis ties a horse 1 meter from a corner of a 7 meter by 5 meter house, using a rope with length 11 meter. Dennis places 5 piles of dry grasses as shown. How many of the piles could the horse reach? / Dennis mengikat seekor kuda 1 meter dari penjuru sebuah rumah berukuran 7 meter × 5 meter, menggunakan tali sepanjang 11 meter. Dennis meletakkan 5 timbunan rumput kering seperti dalam rajah. Berapakah timbunan yang dapat dicapai oleh kuda tersebut?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q11.png"
+    },
+    {
+      "q": "Lonneke builds a fence using poles with length 1 meter. The picture shows a fence with length 4 meter. How many poles does Lonneke need to build a fence with length 10 meter? / Lonneke membina suatu pagar menggunakan batang yang panjangnya 1 meter. Gambar menunjukkan pagar yang panjangnya 4 meter. Berapakah bilangan batang yang Lonneke perlukan untuk membina pagar yang panjangnya 10 meter?",
+      "options": [
+        "22",
+        "30",
+        "33",
+        "40",
+        "42"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q12.png"
+    },
+    {
+      "q": "Every time the kangaroo goes up 7 steps, the rabbit goes down 3 steps. On which step do they meet? / Setiap kali si kanggaru naik 7 anak tangga, si arnab turun 3 anak tangga. Di anak tangga manakah mereka akan bertemu?",
+      "options": [
+        "53",
+        "60",
+        "63",
+        "70",
+        "73"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2020/E20_Q13.png"
+    },
+    {
+      "q": "The sum of three numbers is 50. Karin subtracts a secret number from each of these three numbers. She gets 24, 13 and 7 as the results. Which one of the following is one of the original three numbers? / Hasil tambah tiga nombor ialah 50. Karin menolak satu nombor rahsia daripada setiap tiga nombor ini. Dia mendapat 24, 13 dan 7 sebagai hasilnya. Antara berikut, yang manakah merupakan salah satu daripada tiga nombor asal?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "17",
+        "23"
+      ],
+      "marks": 1
+    }
+  ]
+}

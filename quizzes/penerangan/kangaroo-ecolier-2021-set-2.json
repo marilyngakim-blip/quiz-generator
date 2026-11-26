@@ -1,0 +1,11 @@
+{
+ "penerangan": [
+  "Katakan a = bola kelabu, b = bola hitam, c = bola putih.\nNeraca 1: a + b = 6. Neraca 3: a + a + b = 10 → a + 6 = 10 → a = 4.\nNeraca 2: c + c + a = 14 → 2c + 4 = 14 → c = 5 kg.",
+  "Cuba tukar dua kad bagi setiap set.\nSet A: epal, ceri, anggur, epal, anggur. Dengan satu pertukaran, kita tidak dapat mengumpulkan semua epal bersama dan semua anggur bersama.\nSet lain boleh disusun dengan satu pertukaran, jadi jawapannya A.",
+  "Kotak 3 hanya ada bulatan, jadi bulatan diambil dari kotak 3.\nKotak 1 (bintang, bulatan) mesti memberi bintang. Kotak 5 (pentagon, bintang) mesti memberi pentagon.\nKotak 2 memberi segi tiga, jadi kotak 4 mesti memberi berlian.",
+  "Daripada gambar, baris pertama lajur pertama dan ketiga berwarna hitam, manakala baris kedua lajur kedua dan ketiga berwarna putih.\nKeluarkan bahagian putih dan hitam daripada 18 kubus. Bahagian yang tinggal (kelabu) sepadan dengan pilihan E.",
+  "9 bertembung dengan 3: 9 + 3 = 12 (bergerak ke kanan).\n12 bertembung dengan 7: 12 + 7 = 19 (ke kanan).\n19 bertembung dengan 20: 20 lebih besar, 20 + 19 = 39 (ke kiri).\n39 bertembung dengan 10: 39 + 10 = 49 (ke kiri).\nHasil akhir: bola 49 bergerak ke kiri, iaitu C.",
+  "Dari 6 aiskrim ke 16 aiskrim: 10 aiskrim lagi dijual, wang bertambah 120 − 70 = 50 euro.\n1 aiskrim = 50 ÷ 10 = 5 euro.\n6 aiskrim = 30 euro, jadi wang pada mulanya = 70 − 30 = 40 euro.",
+  "Katakan x = daun yang tinggal pada dahan pertama.\nDahan pertama tinggal x. Dahan kedua: koala makan x, jadi tinggal 20 − x.\nDahan ketiga tinggal 20 − 2 = 18.\nJumlah = x + (20 − x) + 18 = 38."
+ ]
+}

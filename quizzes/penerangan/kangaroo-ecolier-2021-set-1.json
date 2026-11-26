@@ -1,0 +1,11 @@
+{
+ "penerangan": [
+  "Erik ada 3 bata berwarna dan 1 bata putih. Setiap pilihan kubus menunjukkan 2 bata berwarna dan 2 bata putih, kecuali pilihan C.\nHanya kubus C sepadan dengan 3 bata berwarna dan 1 bata putih.",
+  "Ikut tali dari cincin hingga ke hujungnya. Ikan yang kepalanya menghala ke cincin ialah ikan yang menghadap ke belakang sepanjang tali.\nKira setiap ikan mengikut arah tali: hanya 6 ekor ikan yang kepalanya menghala ke cincin.",
+  "Kepingan '2' rata di sebelah kanan, jadi ia kepingan terakhir. Kepingan '1' rata di sebelah kiri, jadi ia kepingan pertama.\nKepingan '3' dan '+' dimasukkan di antara mereka mengikut bentuk lekuk: 1 | 3 | + | 2.\nPengiraan: 13 + 2 = 15.",
+  "Bandingkan setiap pilihan dengan sinar matahari: perhatikan corak sinar hitam dan putih serta saiznya.\nHanya pilihan B sepadan dengan satu bahagian gambar matahari (seperti yang dibulatkan dalam skema).",
+  "Kira mata setiap sasaran (tiga tembakan):\n(A) 10 + 8 + 7 = 25, (B) 7 + 7 + 10 = 24, (C) 8 + 8 + 8 = 24, (D) 7 + 7 + 8 = 22, (E) 8 + 9 + 9 = 26.\nRicky mendapat mata terbanyak, iaitu sasaran E.",
+  "Perak + emas = 20, dan emas = perak + 6.\nPerak + perak + 6 = 20 → 2 perak = 14 → perak = 7.\nEmas = 7 + 6 = 13.",
+  "Kira julat nombor setiap pusingan dari bawah:\nBaris 1 di hadapan: 1–11. Baris 2 di hadapan: 22–32. Baris 3 di hadapan: 43–53.\nTanda tanya berada di tengah baris ketiga: (43 + 53) ÷ 2 = 48."
+ ]
+}

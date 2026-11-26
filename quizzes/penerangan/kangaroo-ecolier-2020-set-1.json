@@ -1,0 +1,11 @@
+{
+ "penerangan": [
+  "Cendawan membesar setiap hari, jadi susun gambar dari yang paling rendah hingga paling tinggi: B, E, C, A, D.\nIsnin = B, Selasa = E, Rabu = C, Khamis = A, Jumaat = D.\nGambar hari Selasa ialah E.",
+  "Tentukan bentuk di setiap sudut kepingan yang hilang berdasarkan corak di sekelilingnya:\nSudut kiri atas: bentuk 'U'. Sudut kiri bawah: titik tajam. Sudut kanan atas: titik tajam. Sudut kanan bawah: bentuk lengkung.\nKepingan yang sepadan ialah E.",
+  "Kira setiap petak: 16 + 4 = 20, 19 + 1 = 20, 28 − 8 = 20, 2 × 10 = 20, 16 − 4 = 12, 7 × 3 = 21.\nPetak bernilai 20: seluruh baris atas dan petak kiri baris bawah.\nCorak yang sepadan ialah A.",
+  "Kira kawasan berlorek: satu petak penuh = 1, satu petak separuh berlorek (segi tiga) = 0.5.\n(A) 12 + 2 × 0.5 = 13. (B) 12 + 0.5 = 12.5. (C) 11 + 3 × 0.5 = 12.5. (D) 12 + 0.5 = 12.5. (E) 9 + 7 × 0.5 = 12.5.\nKawasan berlorek terbesar ialah A.",
+  "Kepingan yang diberi: satu segi empat tepat, dua bulatan dan tiga segi tiga yang berlainan saiz.\n(A) dan (D) ada dua segi tiga yang serupa. (B) ada segi empat sama. (C) hanya ada dua segi tiga.\nHanya E menggunakan tepat kepingan yang diberi.",
+  "Bermula dari 1 dan sentiasa tambah 3: 1, 4, 7, 10, 13, 16, 19, 22, …\nNombor dalam petak yang ada dalam urutan ini: 1, 4, 7, 10, 13, 16, 19. (22 tiada dalam petak.)\nNombor terbesar = 19.",
+  "Labelkan kiub dan gunakan dua pandangan: tikus, kumbang kura-kura dan itik bersebelahan dalam pandangan pertama; gajah, itik dan kucing bersebelahan dalam pandangan kedua.\nMaka itik bersebelahan dengan tikus, kumbang, gajah dan kucing.\nSatu-satunya pelekat yang tidak bersebelahan dengan itik ialah lalat, jadi lalat bertentangan dengan itik."
+ ]
+}

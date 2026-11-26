@@ -1,0 +1,10 @@
+{
+ "penerangan": [
+  "Tangga 32 dan tangga 48 bermula dari tanah. Tangga 36 dan tangga terpendek bermula di atas bahagian bangunan yang lebih rendah.\nDaripada gambar, ketinggian bahagian bawah itu = 48 − 32 = 16.\nTangga terpendek berakhir pada aras 36, jadi panjangnya = 36 − 16 = 20.",
+  "Setiap langkah mengambil cawan paling kiri, menterbalikkannya dan meletakkannya di kanan.\nSelepas langkah ke-3, semua cawan menghadap ke bawah. Selepas langkah ke-6, semua menghadap ke atas. Selepas langkah ke-9, semua menghadap ke bawah.\nPada langkah ke-10, hanya cawan terakhir (di kanan) menghadap ke atas. Jadi jawapannya B.",
+  "Cuba terbalikkan setiap kad dan bandingkan jumlah baris atas dan bawah:\n(A) atas 28, bawah 38. (B) atas 32, bawah 34. (C) atas 34, bawah 32. (D) atas 35, bawah 31. (E) atas 33, bawah 33.\nHanya pilihan E (kad F) memberi jumlah yang sama.",
+  "Mula dengan pasangan jumlah 3: hanya 1 + 2. Daripada jumlah 7 dan 15 di sekelilingnya, susun nombor tanpa ulangan.\nSusunan: 9, 6, 1, 2, 7, 8, 3, 5, 4.\nSemak: 9 + 6 = 15, 6 + 1 = 7, 1 + 2 = 3, 2 + 7 = 9, 7 + 8 = 15, 8 + 3 = 11, 3 + 5 = 8, 5 + 4 = 9.\nPetak berlorek ialah 7.",
+  "Cari semua cara untuk mendapat 30:\n14 + 13 + 3 = 30 dan 3 + 9 + 18 = 30.\nNombor yang ada dalam kedua-dua cara ialah 3, jadi Mia pasti meletupkan belon 3.",
+  "Bilangan biskut mesti gandaan 2, 3 dan 4 (iaitu gandaan 12) dan kurang daripada 50: 12, 24, 36 atau 48.\nMemerlukan 6 lagi untuk dibahagi 7 bermaksud baki apabila dibahagi 7 ialah 1:\n12 ÷ 7 baki 5, 24 ÷ 7 baki 3, 36 ÷ 7 baki 1 ✓, 48 ÷ 7 baki 6.\nJadi ada 36 biskut."
+ ]
+}

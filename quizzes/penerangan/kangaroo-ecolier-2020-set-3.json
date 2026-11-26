@@ -1,0 +1,10 @@
+{
+ "penerangan": [
+  "Setiap bentuk pentagon terdiri daripada 5 segi tiga dengan nombor 1 hingga 5. Nombor pada sisi yang dikongsi mesti sepadan.\nLengkapkan rajah satu bentuk demi satu dari bentuk yang sudah diletakkan, mengikut susunan nombor (seperti dalam skema).\nSegi tiga X mendapat nombor 4.",
+  "Golekkan dadu ke kanan petak demi petak dan ikut kedudukan setiap muka (muka bertentangan berjumlah 7).\nApabila sampai di petak terakhir, muka 3 berada di bawah. Tiga muka bertanda soal ialah 1, 4 dan 2.\nJumlah = 1 + 4 + 2 = 7.",
+  "Jumlah 1 hingga 8 = 36. Segi tiga (4 nombor) = 10, segi empat (3 nombor) = 20.\nBulatan = 36 − 10 − 20 = 6.\n(Contoh: segi empat 7 + 8 + 5 = 20, segi tiga 1 + 2 + 3 + 4 = 10.)",
+  "Senaraikan semua cara mewarnakan kepala, ekor dan sayap dengan tiga warna berbeza:\nKepala merah: ekor biru sayap hijau, ekor hijau sayap biru. Kepala biru: 2 cara. Kepala hijau: 2 cara.\nJumlah = 6 cara. Satu sudah diwarnakan, jadi baki = 6 − 1 = 5.",
+  "Cuba gabungan pasukan 5 dan 6 ahli:\n3 pasukan × 6 = 18, 5 pasukan × 5 = 25, jumlah 18 + 25 = 43 ✓.\nBilangan pasukan = 3 + 5 = 8.",
+  "Untuk hasil terbesar, KAN dan GA mesti besar, ROO mesti kecil.\nROO paling kecil: R = 1, O = 2 → 122.\nCuba K = 9: 9AN − 122 + GA. Pilih A = 8, N = 6, G = 7: 986 − 122 + 78 = 942.\nCubaan lain (contohnya 896 − 122 + 79 = 853, 976 − 122 + 87 = 941) lebih kecil. Hasil terbesar = 942."
+ ]
+}

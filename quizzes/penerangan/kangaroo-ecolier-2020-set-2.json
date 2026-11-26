@@ -1,0 +1,11 @@
+{
+ "penerangan": [
+  "Grid putih mempunyai 17 petak. Untuk menggunakan sebanyak mungkin kepingan, pilih kepingan yang paling pendek dahulu.\nKepingan pertama, kedua, ketiga dan keempat (yang paling pendek) tidak cukup, jadi satu kepingan panjang (kepingan ketujuh) digunakan untuk mengisi baki petak.\nLima kepingan ini menutup tepat 17 petak tanpa bertindih. Enam kepingan berbeza akan melebihi 17 petak.\nJadi Casper menggunakan 5 kepingan.",
+  "Kawasan luar merah. Kawasan yang bersentuhan mesti berwarna berbeza, jadi warna berselang-seli ke arah dalam mengikut pasangan biru–merah, biru–kuning, merah–kuning.\nTermasuk kawasan luar, terdapat 3 kawasan berwarna merah.",
+  "Dari atas, puncak piramid (A) kelihatan di tengah-tengah tapak, dan setiap tepi dari puncak ke bucu tapak menjadi pepenjuru segi empat sama.\nKekalkan jenis garisan setiap tepi (hitam tebal, berganda atau kelabu). Pandangan yang sepadan ialah C.",
+  "Setiap ruang dalam rajah ialah 1 meter. Tali 11 meter, diikat 1 meter dari penjuru rumah.\nKuda boleh bergerak mengelilingi penjuru rumah selagi panjang tali mencukupi. Mengira dari kanan, kuda dapat mencapai sehingga timbunan rumput yang keempat.\nJawapan: 4 timbunan.",
+  "Pagar 10 meter mempunyai dua garis mendatar: 10 × 2 = 20 batang.\nGaris menegak: 11 kedudukan (0 hingga 10 meter), setiap kedudukan 2 batang: 2 × 11 = 22 batang.\nJumlah = 20 + 22 = 42 batang.",
+  "Kanggaru: 7, 14, 21, 28, …, 70, 77 (gandaan 7).\nArnab: 100, 97, 94, 91, …, 76, 73, 70 (tolak 3 setiap kali).\nSelepas 10 langkah, kanggaru di 70 dan arnab juga di 100 − 30 = 70. Mereka bertemu di anak tangga ke-70.",
+  "Katakan nombor rahsia x. Nombor asal ialah 24 + x, 13 + x dan 7 + x.\n(24 + x) + (13 + x) + (7 + x) = 50 → 44 + 3x = 50 → x = 2.\nNombor asal: 26, 15, 9. Antara pilihan, 9 ialah salah satunya."
+ ]
+}

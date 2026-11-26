@@ -1,0 +1,78 @@
+{
+  "id": "kangaroo-ecolier-2021-set-3",
+  "title": "Kangaroo Ecolier 2021 Set 3",
+  "createdAt": "2026-11-26T15:19:11.072Z",
+  "questions": [
+    {
+      "q": "On a tall building there are 4 fire escape ladders, as shown. The heights of 3 ladders are at their tops. What is the height of the shortest ladder? / Terdapat 4 tangga kebakaran pada sebuah bangunan seperti berikut. Ketinggian 3 tangga itu tertulis di atasnya. Apakah ketinggian tangga yang paling rendah?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "20",
+        "22"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q15.png"
+    },
+    {
+      "q": "Nora plays with 3 cups on the kitchen table. She takes the left-hand cup, flips it over, and puts it to the right of the other cups. The picture shows the first move. What do the cups look like after 10 moves? / Nora bermain dengan 3 cawan di atas meja. Dia mengambil cawan kiri, menterbalikkannya, dan meletakkannya di kanan cawan-cawan yang lain. Gambar menunjukkan langkah pertama. Apakah rupa cawan-cawan tersebut selepas 10 langkah?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q16.png"
+    },
+    {
+      "q": "7 cards are arranged as shown. Each card has 2 numbers on with one of them written upside down. The teacher wants the sum of the numbers in the top row to be the same as the sum of the numbers in the bottom row. She can do this by turning one of the cards upside down. Which card must she turn? / 7 kad disusun seperti berikut. Setiap kad ada 2 nombor dan salah satu nombor ditulis terbalik. Guru mahu jumlah nombor di baris atas sama dengan jumlah nombor di baris bawah. Dia boleh melakukannya dengan menterbalikkan salah satu kad. Kad manakah yang perlu diterbalikkan?",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q17.png"
+    },
+    {
+      "q": "The numbers 1 to 9 are placed in the squares shown with a number in each square. The sums of all pairs of neighbouring numbers are shown. Which number is placed in the shaded square? / Nombor 1 hingga 9 diletakkan dalam segi empat sama berikut dengan satu nombor dalam setiap segi empat sama. Hasil tambah semua pasangan nombor yang bersebelahan adalah seperti berikut. Nombor manakah yang diletakkan dalam segi empat sama berlorek?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q18.png"
+    },
+    {
+      "q": "Mia throws darts at balloons worth 3, 9, 13, 14 and 18 points. She scores 30 points in total. Which balloon does Mia definitely hit? / Mia membaling anak panah kepada belon bernilai 3, 9, 13, 14 dan 18 mata. Dia mengumpul sebanyak 30 mata. Belon manakah yang mesti diletupkan oleh Mia?",
+      "options": [
+        "3",
+        "9",
+        "13",
+        "14",
+        "18"
+      ],
+      "marks": 1,
+      "image": "img/kangaroo-ecolier-2021/E21_Q19.png"
+    },
+    {
+      "q": "A box has fewer than 50 cookies in. The cookies can be divided evenly between 2, 3, or 4 children. However, they cannot be divided evenly between 7 children because 6 more cookies would be needed. How many cookies are there in the box? / Sebuah kotak ada kurang daripada 50 biskut. Biskut-biskut itu boleh dibahagikan sama rata kepada 2, 3 atau 4 kanak-kanak. Walau bagaimanapun, biskut itu tidak boleh dibahagikan sama rata kepada 7 kanak-kanak kerana 6 lagi biskut diperlukan. Berapa banyak biskut di dalam kotak?",
+      "options": [
+        "12",
+        "24",
+        "30",
+        "36",
+        "48"
+      ],
+      "marks": 1
+    }
+  ]
+}
